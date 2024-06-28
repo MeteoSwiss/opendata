@@ -9,24 +9,25 @@ In order to also provide access to the data via APIs in future, the necessary de
 
 ### Understanding MeteoSwiss' Open Data
 The data of each Open Data product has documentation on what it represents, its models, abstractions and terminology. <!-- These can be found under Data in the left menu. --> For reference, here are the direct links:
-- [Data from Ground-based Stations](..)
-  - [Automatic Weather Stations](https://github.com/MeteoSwiss/ogd-smn/tree/main?tab=readme-ov-file#readme)
-  - [Automatic Precipitation Stations](..)
-  - ..
-- [Atmospheric Data ](..)
-  - [](..)
-- [Data from Observations](..)
-  - [](..)
-- [Climate Data](..)
-  - [](..)
-- [Radar Data](..)
-  - [](..)
-- [Forecast Data](..)
-  - [](..)
+
+[Data from Ground-based Stations](..)
+- [Automatic Weather Stations](https://github.com/MeteoSwiss/ogd-smn/tree/main?tab=readme-ov-file#readme)
+- [Automatic Precipitation Stations](..)
+- ..
+[Atmospheric Data ](..)
+- [](..)
+[Data from Observations](..)
+- [](..)
+[Climate Data](..)
+- [](..)
+[Radar Data](..)
+- [](..)
+[Forecast Data](..)
+- [](..)
 
 ### Getting Started with Download
-
-<!-- As stated above, you will need your API key in order to download the data as one or more files. --> See [Download](..) for more information. 
+<!-- As stated above, you will need your API key in order to download the data as one or more files. --> 
+See [Download](..) for more information. 
  
 ### Staying up to Date
 Our *Download* API will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](..) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, please check [Release Notes](..) where they announce released changes that might affect your integration.
