@@ -3,17 +3,52 @@
 ## Getting Started
 
 ### Introduction
-MeteoSwiss provides its various datasets <!-- to be consumed in two ways: either through an API or --> by downloading the data as one or more files. <!-- It is fully up to you which you prefer to use.
+MeteoSwiss provides its various datasets to be consumed by downloading the data as one or more files. 
 
-Regardless of which way you wish to consume DMI's data, you have to:
+In order to also provide access to the data via APIs in future, the necessary design and implementation work is currently underway.
 
-    Create an account
-    Subscribe to the API of the dataset you wish to consume, and acquire your API key for access to the data
+### Understanding MeteoSwiss' Open Data
+The data of each Open Data product has documentation on what it represents, its models, abstractions and terminology. <!-- These can be found under Data in the left menu. --> For reference, here are the direct links:
+- [Automatic weather stations – Measurement values](..)
+- [Automatic precipitation stations – Measurement values](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
+- [](..)
 
-A guide explaining how to do the steps above can be found on the Authentication page. Once this has been done, you have free access to the dataset of which you subscribed and acquired your API key. There are no limits on how many applications and subscriptions you can have. -->
+### Getting Started with Download
+
+<!-- As stated above, you will need your API key in order to download the data as one or more files. --> See [Download](..) for more information. 
+ 
+### Staying up to Date
+Our *Download* API will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](..) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, please check [Release Notes](..) where they announce released changes that might affect your integration.
+
+For operational status, see [API Status & Contact](..).
 
 
-
+---
 ---
 
 
