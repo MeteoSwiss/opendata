@@ -3,7 +3,7 @@
 ## Getting Started
 
 ### Introduction
-MeteoSwiss provides its various datasets <!--- to be consumed in two ways: either through an API or ---> by downloading the data as one or more files. <!--- It is fully up to you which you prefer to use.
+MeteoSwiss provides its various datasets <!-- to be consumed in two ways: either through an API or --> by downloading the data as one or more files. <!-- It is fully up to you which you prefer to use.
 
 Regardless of which way you wish to consume DMI's data, you have to:
 
