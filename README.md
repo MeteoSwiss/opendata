@@ -9,7 +9,7 @@ In order to also provide access to the data via APIs in future, the necessary de
 
 ### Understanding MeteoSwiss' Open Data
 The data of each Open Data product has documentation on what it represents, its models, abstractions and terminology. <!-- These can be found under Data in the left menu. --> For reference, here are the direct links:
-- [Automatic weather stations – Measurement values]([..](https://github.com/MeteoSwiss/ogd-smn/tree/main?tab=readme-ov-file#readme))
+- [Automatic weather stations – Measurement values](https://github.com/MeteoSwiss/ogd-smn/tree/main?tab=readme-ov-file#readme)
 - [Automatic precipitation stations – Measurement values](..)
 - [](..)
 - [](..)
