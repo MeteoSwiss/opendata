@@ -1,4 +1,20 @@
-# ogd
+# MeteoSwiss - Open Data
+
+## Getting Started
+
+### Introduction
+MeteoSwiss provides its various datasets <!--- to be consumed in two ways: either through an API or ---> by downloading the data as one or more files. <!--- It is fully up to you which you prefer to use.
+
+Regardless of which way you wish to consume DMI's data, you have to:
+
+    Create an account
+    Subscribe to the API of the dataset you wish to consume, and acquire your API key for access to the data
+
+A guide explaining how to do the steps above can be found on the Authentication page. Once this has been done, you have free access to the dataset of which you subscribed and acquired your API key. There are no limits on how many applications and subscriptions you can have. -->
+
+
+
+---
 
 
 ### 2.2. General information on the data
