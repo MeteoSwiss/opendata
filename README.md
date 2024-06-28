@@ -14,14 +14,19 @@ The data of each Open Data product has documentation on what it represents, its 
 - [Automatic Weather Stations](https://github.com/MeteoSwiss/ogd-smn/tree/main?tab=readme-ov-file#readme)
 - [Automatic Precipitation Stations](..)
 - ..
+
 [Atmospheric Data ](..)
 - [](..)
+
 [Data from Observations](..)
 - [](..)
+
 [Climate Data](..)
 - [](..)
+
 [Radar Data](..)
 - [](..)
+
 [Forecast Data](..)
 - [](..)
 
