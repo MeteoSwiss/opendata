@@ -1,13 +1,11 @@
 # MeteoSwiss - Open Data
 
-## Getting Started
-
-### Introduction
+## Introduction
 MeteoSwiss provides its various datasets to be consumed by downloading the data as one or more files. 
 
 In order to also provide access to the data via APIs in future, the necessary design and implementation work is currently underway.
 
-### Getting Started with Download
+## Getting Started with Download
 <!-- As stated above, you will need your API key in order to download the data as one or more files. --> 
 *See [Download](..) for more information.*
 
