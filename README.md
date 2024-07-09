@@ -30,9 +30,9 @@ For reference, here are the direct links:
 - [](..)
 
 **Forecast Data**
-- [Short-term forecast data – Grid data](https://github.com/MeteoSwiss/ogd-nowcasting/tree/main?tab=readme-ov-file#readme)
-- ICON-CH1 & -CH2 forecast data – Grid data
-- [Local forecast data – Grid data](https://github.com/MeteoSwiss/ogd-local-forecasting/tree/main?tab=readme-ov-file#readme)
+- [Short-term forecast data](https://github.com/MeteoSwiss/ogd-nowcasting/tree/main?tab=readme-ov-file#readme)
+- ICON-CH1 & -CH2 forecast data
+- [Local forecast data](https://github.com/MeteoSwiss/ogd-local-forecasting/tree/main?tab=readme-ov-file#readme)
 
 ### Getting Started with Download
 <!-- As stated above, you will need your API key in order to download the data as one or more files. --> 
