@@ -12,36 +12,35 @@ The data of each Open Data product has documentation on what it represents, its 
 
 <!-- For reference, here are the direct links: --> 
 
-*Ground-based Stations*
+#### Ground-based Stations
 - [Automatic weather stations](https://github.com/MeteoSwiss/ogd-smn/tree/main?tab=readme-ov-file#readme)
 - [Automatic precipitation stations](..)
-- ..
-
-*Atmosphere*
 - [](..)
 
-*Observations*
+#### Atmosphere
 - [](..)
 
-*Climate*
-*Analysed time series*
--
--
+#### Observations
+- [](..)
+
+#### Climate
+- [](..)
+- [](..)
 - [Climate normals](https://github.com/MeteoSwiss/ogd-climate-normals/tree/main?tab=readme-ov-file#readme)
-*Spatial representations*
+<br>
 - [Ground-based spatial climate data](https://github.com/MeteoSwiss/ogd-surface-derived-grid/tree/main?tab=readme-ov-file#readme)
 - [Satellite-based spatial climate data](https://github.com/MeteoSwiss/ogd-satellite-derived-grid/tree/main?tab=readme-ov-file#readme)
 - [Radar-based spatial climate data](https://github.com/MeteoSwiss/ogd-radar-derived-grid/tree/main?tab=readme-ov-file#readme)
 - [Climate normals (Grid)](https://github.com/MeteoSwiss/ogd-climate-normals-grid/tree/main?tab=readme-ov-file#readme) *OR:* Spatial climate normals ?
-
+<br>
 - [Climate scenarios](https://github.com/MeteoSwiss/ogd-climate-scenarios/tree/main?tab=readme-ov-file#readme)
 
-*Radar*
+#### Radar
 - [Basic radar data](https://github.com/MeteoSwiss/ogd-basic-radar/tree/main?tab=readme-ov-file#readme)
 - [Extended radar data](https://github.com/MeteoSwiss/ogd-advanced-radar/tree/main?tab=readme-ov-file#readme)
 - [Combined precipitation calculations](https://github.com/MeteoSwiss/ogd-combiprecip/tree/main?tab=readme-ov-file#readme)
 
-*Forecasts*
+#### Forecasts
 - [Short-term forecast data](https://github.com/MeteoSwiss/ogd-nowcasting/tree/main?tab=readme-ov-file#readme)
 - ICON-CH1 & -CH2 forecast data
 - [Local forecast data](https://github.com/MeteoSwiss/ogd-local-forecasting/tree/main?tab=readme-ov-file#readme)
