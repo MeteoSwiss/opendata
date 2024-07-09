@@ -1,6 +1,5 @@
 # MeteoSwiss - Open Data
 
-## Introduction
 MeteoSwiss provides its various datasets to be consumed by downloading the data as one or more files. 
 
 In order to also provide access to the data via APIs in future, the necessary design and implementation work is currently underway.
