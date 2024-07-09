@@ -39,7 +39,7 @@ The data of each Open Data product has documentation on what it represents, its 
 <!-- As stated above, you will need your API key in order to download the data as one or more files. --> 
 *See [Download](..) for more information.*
 
-*See [General information](..) on data granularity, structure, and update cycle as well as on time stamps and intervals as well as on column separators, decimal dividers and missing values.
+*See [General information](..) on data granularity, structure, and update cycle as well as on time stamps and intervals as well as on column separators, decimal dividers and missing values.*
  
 ### Staying up to Date
 Our *Download* API will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](..) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, please check [Release Notes](..) where they announce released changes that might affect your integration.
