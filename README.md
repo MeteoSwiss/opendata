@@ -60,5 +60,3 @@ The data of each Open Data product has documentation on what it represents, its 
 Our *Download* API will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](..) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, please check [Release Notes](..) where they announce released changes that might affect your integration.
 
 For operational status, see [API Status & Contact](..).
-
----
