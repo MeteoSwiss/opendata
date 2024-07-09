@@ -12,24 +12,24 @@ The data of each Open Data product has documentation on what it represents, its 
 
 For reference, here are the direct links:
 
-[Data from Ground-based Stations](..)
+**Data from Ground-based Stations**
 - [Automatic Weather Stations](https://github.com/MeteoSwiss/ogd-smn/tree/main?tab=readme-ov-file#readme)
 - [Automatic Precipitation Stations](..)
 - ..
 
-[Atmospheric Data ](..)
+**Atmospheric Data**
 - [](..)
 
-[Data from Observations](..)
+**Data from Observations**
 - [](..)
 
-[Climate Data](..)
+**Climate Data**
 - [](..)
 
-[Radar Data](..)
+**Radar Data**
 - [](..)
 
-[Forecast Data](..)
+**Forecast Data**
 - [](..)
 
 ### Getting Started with Download
