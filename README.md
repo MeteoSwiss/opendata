@@ -24,10 +24,10 @@ The data of each Open Data product has documentation on what it represents, its 
 - [](..)
 
 #### Climate
-##### a. Analysed time series
-- [Climate stations (homogeneous measured values)](..)
+##### a. Homogenous data series
+- [Climate stations](..)
 - [](..)
-- [Climate normals](https://github.com/MeteoSwiss/ogd-climate-normals/tree/main?tab=readme-ov-file#readme)
+- [Climate normals](https://github.com/MeteoSwiss/ogd-climate-normals/tree/main?tab=readme-ov-file#readme) *UNTER 'Homogenous data series' ?*
 ##### b. Spatial representations
 - [Ground-based spatial climate data](https://github.com/MeteoSwiss/ogd-surface-derived-grid/tree/main?tab=readme-ov-file#readme)
 - [Satellite-based spatial climate data](https://github.com/MeteoSwiss/ogd-satellite-derived-grid/tree/main?tab=readme-ov-file#readme)
