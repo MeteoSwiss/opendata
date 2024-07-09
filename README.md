@@ -12,25 +12,25 @@ The data of each Open Data product has documentation on what it represents, its 
 
 <!-- For reference, here are the direct links: --> 
 
-**Ground-based Stations**
+*Ground-based Stations*
 - [Automatic Weather Stations](https://github.com/MeteoSwiss/ogd-smn/tree/main?tab=readme-ov-file#readme)
 - [Automatic Precipitation Stations](..)
 - ..
 
-**Atmosphere**
+*Atmosphere*
 - [](..)
 
-**Observations**
+*Observations*
 - [](..)
 
-**Climate**
+*Climate*
 - [](..)
 
-**Radar**
+*Radar*
 - [Extended radar data](https://github.com/MeteoSwiss/ogd-advanced-radar/tree/main?tab=readme-ov-file#readme)
 - [Combined precipitation calculations](https://github.com/MeteoSwiss/ogd-combiprecip/tree/main?tab=readme-ov-file#readme)
 
-**Forecasts**
+*Forecasts*
 - [Short-term forecast data](https://github.com/MeteoSwiss/ogd-nowcasting/tree/main?tab=readme-ov-file#readme)
 - ICON-CH1 & -CH2 forecast data
 - [Local forecast data](https://github.com/MeteoSwiss/ogd-local-forecasting/tree/main?tab=readme-ov-file#readme)
