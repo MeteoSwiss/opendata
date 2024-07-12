@@ -9,7 +9,7 @@
 
 Welcome to MeteoSwiss' Open Data documentation.
 
-MeteoSwiss provides its various datasets to be consumed by downloading the data as one or more files. 
+MeteoSwiss provides its various datasets to be consumed by [downloading the data as one or more files](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#getting-started-with-dopwnload). 
 
 In order to also provide access to the data via APIs in future, the necessary preparatory work is underway. As soon as an introduction date for this second type of access can be estimated, it will be communicated here.
 
@@ -17,11 +17,13 @@ In order to also provide access to the data via APIs in future, the necessary pr
 | (add icon) <br> <br> [Ground-based Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#ground-based-measurements) | (add icon) <br> <br> [Atmosphere Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#atmosphere-measurements) | (add icon) <br> <br> [Observations Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#observations-data) | (add icon) <br> <br> [Climate Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#climate-data) | (add icon) <br> <br> [Radar Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#radar-data) | (add icon) <br> <br> [Forecast Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#forecast-data) |
 |-----|-----|-----|-----|-----|-----|
 
-## Terms of Use
+## General Information
+
+### Terms of Use
 [Here](...) you'll find information about data license and conditions for usage.
 <!-- cf. https://opendatadocs.dmi.govcloud.dk/Terms_of_Use -->
 
-## FAQ
+### FAQ
 [Here](...) you'll find answers to the most frequently asked questions. We continuously update these based on questions received.
 <!-- cf. https://opendatadocs.dmi.govcloud.dk/FAQ) -->
 
@@ -30,11 +32,14 @@ In order to also provide access to the data via APIs in future, the necessary pr
 *See [Download](..) for more information.*
 
 *See [General information](..) on data granularity, structure, and update cycle as well as on time stamps and intervals as well as on column separators, decimal dividers and missing values.*
- 
+
 ### Staying up to Date
 Our *Download* API will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](..) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, please check [Release Notes](..) where they announce released changes that might affect your integration.
 
 For operational status, see [API Status & Contact](..).
+
+
+ 
 
 ## Understanding MeteoSwiss' Open Data
 The data of each Open Data product has documentation on what it represents, its models, abstractions and terminology. <!-- These can be found under Data in the left menu. --> 
