@@ -1,4 +1,4 @@
-*Status:* approved for use / [change log](https://github.com/MeteoSwiss/opendata/commits/main) <br>
+*Status:* draft in preparation / [change log](https://github.com/MeteoSwiss/opendata/commits/main) <br>
 *Maintainer:* Federal Office of Meteorology and Climatology MeteoSwiss, [opendata@meteoswiss.ch](mailto:opendata@meteoswiss.ch)
 
 <!-- [![GitHub commit](https://img.shields.io/github/last-commit/MeteoSwiss/opendata)](https://github.com/MeteoSwiss/opendata/commits/master) -->
