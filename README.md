@@ -9,7 +9,7 @@
 
 Welcome to MeteoSwiss' Open Data documentation.
 
-MeteoSwiss provides its various datasets to be consumed by [downloading the data as one or more files](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#getting-started-with-download). 
+MeteoSwiss provides its various datasets to be consumed by [downloading the data as files](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#getting-started-with-download). 
 
 In order to also provide access to the data via APIs in future, the necessary preparatory work is underway. As soon as an introduction date for this second type of access can be estimated, it will be communicated here.
 
