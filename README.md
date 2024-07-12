@@ -13,11 +13,11 @@ MeteoSwiss provides its various datasets to be consumed by [downloading the data
 
 In order to also provide access to the data via APIs in future, the necessary preparatory work is underway. As soon as an introduction date for this second type of access can be estimated, it will be communicated here.
 
-## Available Data
+## 1. Available Data
 | [Ground-based Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#ground-based-measurements) | [Atmosphere Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#atmosphere-measurements) | [Observations Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#observations-data) | [Climate Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#climate-data) | [Radar Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#radar-data) | [Forecast Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#forecast-data) |
 |-----|-----|-----|-----|-----|-----|
 
-## General Information
+## 2. General Information
 
 ### Terms of Use
 [Here](...) you'll find information about data license and conditions for usage.
@@ -38,7 +38,7 @@ Our *Download* API will not be subject to big breaking changes, because it adher
 
 For operational status, see [API Status & Contact](..).
 
-## Understanding MeteoSwiss' Open Data
+## 3. Understanding MeteoSwiss' Open Data
 The data of each Open Data product has documentation on what it represents, its models, abstractions and terminology. <!-- These can be found under Data in the left menu. --> 
 
 <!-- For reference, here are the direct links: --> 
