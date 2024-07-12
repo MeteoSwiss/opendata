@@ -14,7 +14,7 @@ MeteoSwiss provides its various datasets to be consumed by [downloading the data
 In order to also provide access to the data via APIs in future, the necessary preparatory work is underway. As soon as an introduction date for this second type of access can be estimated, it will be communicated here.
 
 ## Available Data
-| [Ground-based Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#ground-based-measurements) | [Atmosphere Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#atmosphere-measurements) | [Observations Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#observations-data) | [Climate Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#climate-data) | [Radar Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#radar-data) | [Forecast Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#forecast-data) |
+| A <br> >br> [Ground-based Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#a-ground-based-measurements) | [Atmosphere Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#atmosphere-measurements) | [Observations Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#observations-data) | [Climate Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#climate-data) | [Radar Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#radar-data) | [Forecast Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#forecast-data) |
 |-----|-----|-----|-----|-----|-----|
 
 ## General Information
@@ -43,7 +43,7 @@ The data of each Open Data product has documentation on what it represents, its 
 
 <!-- For reference, here are the direct links: --> 
 
-### Ground-based Measurements
+### A. Ground-based Measurements
 - [Automatic weather stations](https://github.com/MeteoSwiss/ogd-smn/tree/main?tab=readme-ov-file#readme)
 - [Automatic precipitation stations](https://github.com/MeteoSwiss/ogd-smn-precip/tree/main?tab=readme-ov-file#readme)
 - [Automatic boundary layer stations](https://github.com/MeteoSwiss/ogd-smn-tower/tree/main?tab=readme-ov-file#readme)
