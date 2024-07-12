@@ -34,7 +34,7 @@ Our *Download* API will not be subject to big breaking changes, because it adher
 
 For operational status, see [API Status & Contact](..).
 
-## Understanding MeteoSwiss' Open Data
+## Understanding MeteoSwiss' Open Data products
 The data of each Open Data product has documentation on what it represents, its models, abstractions and terminology. <!-- These can be found under Data in the left menu. --> 
 
 <!-- For reference, here are the direct links: --> 
