@@ -20,14 +20,16 @@ In order to also provide access to the data via APIs in future, the necessary pr
 
 ### Terms of Use
 [Here](...) you'll find information about data license and conditions for usage.
+
 <!-- cf. https://opendatadocs.dmi.govcloud.dk/Terms_of_Use -->
 
 ### FAQ
 [Here](https://github.com/MeteoSwiss/opendata-faq/tree/main?tab=readme-ov-file) you'll find answers to the most frequently asked questions. We continuously update these based on questions received.
 
 ### Getting Started with Download
-<!-- As stated above, you will need your API key in order to download the data as one or more files. --> 
-[Here](https://github.com/MeteoSwiss/opendata-download/tree/main?tab=readme-ov-file) you'll find general information about data granularities, structures, update cycles, time stamps and intervals as well as on column separators, decimal dividers and missing values.
+[Here](https://github.com/MeteoSwiss/opendata-download/tree/main?tab=readme-ov-file) you'll find information about data granularity, structure and update cycle, time stamps and time intervals as well as on column separators, decimal dividers and missing values.
+
+<!-- cf. https://opendatadocs.dmi.govcloud.dk/en/Download --> 
 
 ### Staying up to Date
 Our *Download* API will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](..) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, please check [Release Notes](..) where they announce released changes that might affect your integration.
