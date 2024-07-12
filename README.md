@@ -24,7 +24,7 @@ In order to also provide access to the data via APIs in future, the necessary pr
 <!-- cf. https://opendatadocs.dmi.govcloud.dk/Terms_of_Use -->
 
 ### FAQ
-[Here](...) you'll find answers to the most frequently asked questions. We continuously update these based on questions received.
+[Here](https://github.com/MeteoSwiss/opendata-faq/tree/main?tab=readme-ov-file) you'll find answers to the most frequently asked questions. We continuously update these based on questions received.
 <!-- cf. https://opendatadocs.dmi.govcloud.dk/FAQ) -->
 
 ### Getting Started with Download
