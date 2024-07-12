@@ -14,7 +14,7 @@ MeteoSwiss provides its various datasets to be consumed by [downloading the data
 In order to also provide access to the data via APIs in future, the necessary preparatory work is underway. As soon as an introduction date for this second type of access can be estimated, it will be communicated here.
 
 ## Available Data
-| A <br> >br> [Ground-based Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#a-ground-based-measurements) | [Atmosphere Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#atmosphere-measurements) | [Observations Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#observations-data) | [Climate Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#climate-data) | [Radar Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#radar-data) | [Forecast Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#forecast-data) |
+| A <br> <br> [Ground-based Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#a-ground-based-measurements) | B <br> <br> [Atmosphere Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#atmosphere-measurements) | C <br> <br> [Observations Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#observations-data) | D <br> <br> [Climate Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#climate-data) | E <br> <br> [Radar Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#radar-data) | F <br> <br> [Forecast Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#forecast-data) |
 |-----|-----|-----|-----|-----|-----|
 
 ## General Information
@@ -51,14 +51,14 @@ The data of each Open Data product has documentation on what it represents, its 
 - [Totaliser precipitation stations](https://github.com/MeteoSwiss/ogd-tot/tree/main?tab=readme-ov-file#readme)
 - [Pollen stations](https://github.com/MeteoSwiss/ogd-pollen/tree/main?tab=readme-ov-file#readme)
 
-### Atmosphere Measurements
+### B. Atmosphere Measurements
 - [Radiosoundings](https://github.com/MeteoSwiss/ogd-radiosounding/tree/main?tab=readme-ov-file#readme)
 
-### Observations Data
+### C. Observations Data
 - [Meteorological visual observations](https://github.com/MeteoSwiss/ogd-obs/tree/main?tab=readme-ov-file#readme)
 - [Phenological observations](https://github.com/MeteoSwiss/ogd-phenology/tree/main?tab=readme-ov-file#readme)
 
-### Climate Data
+### D. Climate Data
 #### Homogenous Data Series
 - [Climate stations](https://github.com/MeteoSwiss/ogd-nbcn/tree/main?tab=readme-ov-file#readme)
 - [Climate precipitation stations](https://github.com/MeteoSwiss/ogd-nbcn-precip/tree/main?tab=readme-ov-file#readme)
@@ -71,12 +71,12 @@ The data of each Open Data product has documentation on what it represents, its 
 - [Spatial climate normals](https://github.com/MeteoSwiss/ogd-climate-normals-grid/tree/main?tab=readme-ov-file#readme)
 - [Climate scenarios](https://github.com/MeteoSwiss/ogd-climate-scenarios/tree/main?tab=readme-ov-file#readme)
 
-### Radar Data
+### E. Radar Data
 - [Basic radar data](https://github.com/MeteoSwiss/ogd-basic-radar/tree/main?tab=readme-ov-file#readme)
 - [Extended radar data](https://github.com/MeteoSwiss/ogd-advanced-radar/tree/main?tab=readme-ov-file#readme)
 - [Combined precipitation calculations](https://github.com/MeteoSwiss/ogd-combiprecip/tree/main?tab=readme-ov-file#readme)
 
-### Forecast Data
+### F. Forecast Data
 - [Short-term forecast data](https://github.com/MeteoSwiss/ogd-nowcasting/tree/main?tab=readme-ov-file#readme)
 - ICON-CH1 & -CH2 forecast data
 - [Local forecast data](https://github.com/MeteoSwiss/ogd-local-forecasting/tree/main?tab=readme-ov-file#readme)
