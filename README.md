@@ -6,7 +6,6 @@
 <!-- [Auf Deutschj](#meteoschweiz-open-data) | [En français](#meteosuisse-open-data) | [In italiano](#meteosvizzera-open-data) -->
 
 # MeteoSwiss - Open Data
-
 Welcome to MeteoSwiss' Open Data documentation.
 
 MeteoSwiss provides its various datasets to be consumed by [downloading the data as files](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#getting-started-with-download). 
@@ -25,13 +24,10 @@ In order to also provide access to the data via APIs in future, the necessary pr
 
 ### FAQ
 [Here](https://github.com/MeteoSwiss/opendata-faq/tree/main?tab=readme-ov-file) you'll find answers to the most frequently asked questions. We continuously update these based on questions received.
-<!-- cf. https://opendatadocs.dmi.govcloud.dk/FAQ) -->
 
 ### Getting Started with Download
 <!-- As stated above, you will need your API key in order to download the data as one or more files. --> 
-*See [Download](..) for more information.*
-
-*See [General information](..) on data granularity, structure, and update cycle as well as on time stamps and intervals as well as on column separators, decimal dividers and missing values.*
+[Here](https://github.com/MeteoSwiss/opendata-download/tree/main?tab=readme-ov-file) you'll find general information about data granularities, structures, update cycles, time stamps and intervals as well as on column separators, decimal dividers and missing values.
 
 ### Staying up to Date
 Our *Download* API will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](..) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, please check [Release Notes](..) where they announce released changes that might affect your integration.
@@ -42,7 +38,6 @@ For operational status, see [API Status & Contact](..).
 The data of each Open Data product has documentation on what it represents, its models, abstractions and terminology. <!-- These can be found under Data in the left menu. --> 
 
 <!-- For reference, here are the direct links: --> 
-
 ### A. Ground-based Measurements
 - [Automatic weather stations](https://github.com/MeteoSwiss/ogd-smn/tree/main?tab=readme-ov-file#readme)
 - [Automatic precipitation stations](https://github.com/MeteoSwiss/ogd-smn-precip/tree/main?tab=readme-ov-file#readme)
