@@ -27,7 +27,7 @@ In order to also provide access to the data via APIs in future, the necessary pr
 [Here](...) you'll find answers to the most frequently asked questions. We continuously update these based on questions received.
 <!-- cf. https://opendatadocs.dmi.govcloud.dk/FAQ) -->
 
-## Getting Started with Download
+### Getting Started with Download
 <!-- As stated above, you will need your API key in order to download the data as one or more files. --> 
 *See [Download](..) for more information.*
 
@@ -37,9 +37,6 @@ In order to also provide access to the data via APIs in future, the necessary pr
 Our *Download* API will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](..) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, please check [Release Notes](..) where they announce released changes that might affect your integration.
 
 For operational status, see [API Status & Contact](..).
-
-
- 
 
 ## Understanding MeteoSwiss' Open Data
 The data of each Open Data product has documentation on what it represents, its models, abstractions and terminology. <!-- These can be found under Data in the left menu. --> 
