@@ -10,7 +10,7 @@ Welcome to MeteoSwiss' Open Data documentation.
 
 MeteoSwiss provides its various Open Data products to be consumed by [downloading the data as files](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#getting-started-with-download). 
 
-| A <br> [Ground-based Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#a-ground-based-measurements) | B <br> [Atmosphere Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#atmosphere-measurements) | C <br> [Observations Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#observations-data) | D <br> [Climate Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#climate-data) | E <br> [Radar Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#radar-data) | F <br> [Forecast Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#forecast-data) |
+| A <br> [Ground-based Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#a-ground-based-measurements) | B <br> [Atmosphere Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#b-atmosphere-measurements) | C <br> [Observations Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#c-observations-data) | D <br> [Climate Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#d-climate-data) | E <br> [Radar Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#e-radar-data) | F <br> [Forecast Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#f-forecast-data) |
 |-----|-----|-----|-----|-----|-----|
 
 > [!NOTE]
