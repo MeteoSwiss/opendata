@@ -24,7 +24,9 @@ MeteoSwiss provides its various Open Data products to be consumed by [downloadin
 <!-- cf. https://opendatadocs.dmi.govcloud.dk/Terms_of_Use -->
 
 ### FAQ
-[Here](https://github.com/MeteoSwiss/opendata-faq/tree/main?tab=readme-ov-file) you'll find answers to the most frequently asked questions. We continuously update these based on questions received.
+[Here](https://github.com/MeteoSwiss/opendata-faq/tree/main?tab=readme-ov-file) you'll find answers to the most frequently asked questions. 
+
+We continuously update these based on questions received.
 
 ### Getting Started with Download
 [Here](https://github.com/MeteoSwiss/opendata-download/tree/main?tab=readme-ov-file) you'll find information about data granularity, structure and update cycle, time stamps and time intervals as well as on column separators, decimal dividers and missing values.
