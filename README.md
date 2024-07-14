@@ -63,13 +63,13 @@ For reference, here are the direct links:
 1. [Climate stations]()
 2. [Climate precipitation stations]()
 #### Spatial Representations
-1. [Ground-based spatial climate data]()
-2. [Satellite-based spatial climate data]()
-3. [Radar-based spatial climate data]()
+3. [Ground-based spatial climate data]()
+4. [Satellite-based spatial climate data]()
+5. [Radar-based spatial climate data]()
 #### Normals & Scenarios
-1. [Climate normals]()
-2. [Spatial climate normals]()
-3. [Climate scenarios]()
+6. [Climate normals]()
+7. [Spatial climate normals]()
+8. [Climate scenarios]()
 
 ### E. Radar Data
 1. [Basic radar data]()
