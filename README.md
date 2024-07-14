@@ -14,7 +14,7 @@ MeteoSwiss provides its various Open Data products to be consumed by [downloadin
 |-----|-----|-----|-----|-----|-----|
 
 > [!NOTE]
-> In order to also provide access to the data via APIs in future, the necessary preparatory work is underway. As soon as an introduction date for this second type of access can be estimated, it will be communicated here.
+> In order to also provide **access to the data via APIs in future**, the necessary preparatory work is underway. As soon as an introduction date for this second type of access can be estimated, it will be communicated here.
 
 ## General information
 
