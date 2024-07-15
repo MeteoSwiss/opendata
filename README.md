@@ -72,9 +72,9 @@ For reference, here are the direct links:
 8. [Climate scenarios](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#8-climate-scenarios)
 
 ### E. Radar Data
-1. [Basic radar data]()
-2. [Extended radar data]()
-3. [Combined precipitation calculations]()
+1. [Basic radar data](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#1-basic-radar-data)
+2. [Extended radar data](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#2-extended-radar-data)
+3. [Combined precipitation calculations](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#3-combined-precipitation-calculations)
 
 ### F. Forecast Data
 1. [Short-term forecast data]()
