@@ -77,6 +77,6 @@ For reference, here are the direct links:
 3. [Combined precipitation calculations](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#3-combined-precipitation-calculations)
 
 ### F. Forecast Data
-1. [Short-term forecast data]()
-2. Forecast data
-3. [Local forecast data]()
+1. [Short-term forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#1-short-term-forecast-data)
+2. [Forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-forecast-data)
+3. [Local forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#3-local-forecast-data)
