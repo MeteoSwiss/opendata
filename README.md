@@ -19,7 +19,7 @@ For now MeteoSwiss provides its Open Data to be consumed by **[downloading the d
 ## General information
 
 ### Terms of Use
-[Here](...) you'll find information about data license and conditions for usage.
+[Here](https://github.com/MeteoSwiss/opendata-terms-of-use/blob/main/README.md) you'll find information about data license and conditions for usage.
 
 <!-- cf. https://opendatadocs.dmi.govcloud.dk/Terms_of_Use -->
 
