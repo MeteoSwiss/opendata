@@ -34,6 +34,8 @@ We continuously update these based on questions received.
 <!-- cf. https://opendatadocs.dmi.govcloud.dk/en/Download --> 
 
 ### Staying up to Date
+// Newsletter anteasern
+
 Our *Download* API will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](..) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, please check [Release Notes](..) where they announce released changes that might affect your integration.
 
 For operational status, see [API Status & Contact](..).
