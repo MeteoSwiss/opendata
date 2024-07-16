@@ -10,7 +10,7 @@ Welcome to MeteoSwiss' Open Data documentation.
 
 For now MeteoSwiss provides its Open Data to be consumed by **[downloading the data as files](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#getting-started-with-download)**. 
 
-| A <br> [Ground-based Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#a-ground-based-measurements) | B <br> [Atmosphere Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#b-atmosphere-measurements) | C <br> [Observations Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#c-observations-data) | D <br> [Climate Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#d-climate-data) | E <br> [Radar Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#e-radar-data) | F <br> [Forecast Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#f-forecast-data) |
+| A <br> [Ground-based Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#a-ground-based-measurements) | B <br> [Atmosphere Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#b-atmosphere-measurements) | C <br> [Climate Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#c-climate-data) | D <br> [Radar Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#d-radar-data) | E <br> [Forecast Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#e-forecast-data) |
 |-----|-----|-----|-----|-----|-----|
 
 > [!NOTE]
@@ -50,15 +50,13 @@ For reference, here are the direct links:
 4. [Manual precipitation stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#4-manual-precipitation-stations)
 5. [Totaliser precipitation stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#5-totaliser-precipitation-stations)
 6. [Pollen stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#6-pollen-stations)
+7. [Meteorological visual observations](https://github.com/MeteoSwiss/opendata-observations-data/blob/main/README.md#1-meteorological-visual-observations)
+8. [Phenological observations](https://github.com/MeteoSwiss/opendata-observations-data/blob/main/README.md#2-phenological-observations)
 
 ### B. Atmosphere Measurements
 1. [Radiosoundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radiosoundings)
 
-### C. Observations Data
-1. [Meteorological visual observations](https://github.com/MeteoSwiss/opendata-observations-data/blob/main/README.md#1-meteorological-visual-observations)
-2. [Phenological observations](https://github.com/MeteoSwiss/opendata-observations-data/blob/main/README.md#2-phenological-observations)
-
-### D. Climate Data
+### C. Climate Data
 #### Homogenous Data Series
 1. [Climate stations](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#1-climate-stations)
 2. [Climate precipitation stations](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#2-climate-precipitation-stations)
@@ -71,12 +69,12 @@ For reference, here are the direct links:
 7. [Spatial climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#7-spatial-climate-normals)
 8. [Climate scenarios](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#8-climate-scenarios)
 
-### E. Radar Data
+### D. Radar Data
 1. [Basic radar data](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#1-basic-radar-data)
 2. [Extended radar data](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#2-extended-radar-data)
 3. [Combined precipitation calculations](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#3-combined-precipitation-calculations)
 
-### F. Forecast Data
+### E. Forecast Data
 1. [Short-term forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#1-short-term-forecast-data)
 2. [Forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-forecast-data)
 3. [Local forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#3-local-forecast-data)
