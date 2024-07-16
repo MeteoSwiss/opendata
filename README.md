@@ -57,14 +57,13 @@ For reference, here are the direct links:
 1. [Radiosoundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radiosoundings)
 
 ### C. Climate Data
-#### Homogenous Data Series
+Climate Data consists of homogenous data series (1, 2), spatial climate data (3-5), climate normals (6, 7) and scenarios (8):
+
 1. [Climate stations](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#1-climate-stations)
 2. [Climate precipitation stations](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#2-climate-precipitation-stations)
-#### Spatial Representations
 3. [Ground-based spatial climate data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#3-ground-based-spatial-climate-data)
 4. [Satellite-based spatial climate data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#4-satellite-based-spatial-climate-data)
 5. [Radar-based spatial climate data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#5-radar-based-spatial-climate-data)
-#### Normals & Scenarios
 6. [Climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#6-climate-normals)
 7. [Spatial climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#7-spatial-climate-normals)
 8. [Climate scenarios](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#8-climate-scenarios)
