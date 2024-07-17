@@ -41,8 +41,7 @@ Our *Download* API will not be subject to big breaking changes, because it adher
 In the event of malfunctions at land-based stations, 
 - check for according messages of [interruptions in data availability](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html).
 
-> [!NOTE]
-> We keep interested parties and users up to date on our plans and changes: Register here for our [Open Data mailing list](...).
+We keep interested parties and users **up to date on our plans and changes**: Register here for our [Open Data mailing list](...).
 
 ## Understanding MeteoSwiss' Open Data products
 The data of each Open Data product has documentation on what it represents, its models, abstractions and terminology. <!-- These can be found under Data in the left menu. --> 
