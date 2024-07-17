@@ -34,13 +34,13 @@ We continuously update these based on questions received.
 <!-- cf. https://opendatadocs.dmi.govcloud.dk/en/Download --> 
 
 ### Staying up to Date
-// Newsletter anteasern
+We keep interested parties and users up to date on changes via our mailing list. Register [here](...).
 
-Our *Download* API will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](..) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, please check [Release Notes](..) where they announce released changes that might affect your integration.
+Our *Download* API will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](..) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, 
+- please check [Release Notes](..) where swisstopo announces released changes that might affect your integration.
+- For operational status, see [Download API Status & Contact](..).
 
-For operational status, see [API Status & Contact](..).
-
-// https://www.meteoschweiz.admin.ch/service-und-publikationen/applikationen/datanverfuegbarkeit.html
+In the event of disruptions at land-based stations that lead to interruptions in data availability, check according messages [here](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html).
 
 ## Understanding MeteoSwiss' Open Data products
 The data of each Open Data product has documentation on what it represents, its models, abstractions and terminology. <!-- These can be found under Data in the left menu. --> 
