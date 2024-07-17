@@ -42,7 +42,7 @@ Our *Download* API will not be subject to big breaking changes, because it adher
 - For operational status, see [Download API Status & Contact](..).
 
 In the event of malfunctions at land-based stations, 
-- check for interruptions in data availability [here](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html).
+- check for according messages of [interruptions in data availability](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html).
 
 ## Understanding MeteoSwiss' Open Data products
 The data of each Open Data product has documentation on what it represents, its models, abstractions and terminology. <!-- These can be found under Data in the left menu. --> 
