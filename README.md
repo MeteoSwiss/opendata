@@ -60,7 +60,7 @@ For reference, here are the direct links:
 8. [Phenological observations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#8-phenological-observations)
 
 ### B. Atmosphere Measurements
-1. [Radiosoundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radiosoundings)
+1. [Radiosoundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radiosoundings) :yellow_circle:
 
 ### C. Climate Data
 <!-- Climate Data consists of homogenous time series data (1, 2), spatial climate data (3-5), climate normals (6, 7) and scenarios (8): -->
