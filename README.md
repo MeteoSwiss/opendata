@@ -62,12 +62,11 @@ For reference, here are the direct links:
 ### B. Atmosphere Measurements
 1. [Radiosoundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radiosoundings)
 
-The following measurements are planned to be made available after go-live:
+The following measurements are planned to be made available for after the start of MeteoSwiss' Open Data provision:
+
 - Raman-LIDAR for Meteorological Observation (RALMO)
 - LIDAR Ceilometer CHM15K
-- Ozone measurements
-   - Ground-based: Dobson, Brewer
-   - Atmosphere: O3 radio soundings, SOMORA
+- Ozone measurements: a. Ground-based (Dobson, Brewer), b. Atmosphere (O3 radio soundings, SOMORA)
 - Swiss Alpine Climate Radiation Monitoring (SACRaM)
 
 ### C. Climate Data
