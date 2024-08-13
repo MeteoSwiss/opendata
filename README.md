@@ -12,7 +12,7 @@ Welcome to MeteoSwiss' Open Data documentation.
 
 From 1 April, MeteoSwiss will make its data freely available to the public as Open Government Data (OGD).
 
-The data can be **downloaded as pre-processed files](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#getting-started-with-download)**. In a later stage, customised queries via API will also be possible.
+The data can be **[downloaded as pre-processed files](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#getting-started-with-download)**. In a later stage, customised queries via API will also be possible.
 
 | A <br> [Ground-based Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#a-ground-based-measurements) | B <br> [Atmosphere Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#b-atmosphere-measurements) | C <br> [Climate Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#c-climate-data) | D <br> [Radar Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#d-radar-data) | E <br> [Forecast Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#e-forecast-data) |
 |-----|-----|-----|-----|-----|
