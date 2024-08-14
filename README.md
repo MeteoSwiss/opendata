@@ -38,9 +38,9 @@ We continuously update these based on questions received. -->
 <!-- cf. https://opendatadocs.dmi.govcloud.dk/en/Download --> 
 
 ### Staying up to Date
-Our Download API will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](https://www.swisstopo.admin.ch/en) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. <!--  If you suspect your integration has broken due to changed behavior, 
+Our Download API will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](https://www.swisstopo.admin.ch/en) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, 
 - please check [Release Notes](..) (upcoming) where swisstopo announces released changes that might affect your integration.
-- For operational status, see [Download API Status & Contact](..). --> 
+- For operational status, see [Download API Status & Contact](..) (upcoming). 
 
 In the event of malfunctions at land-based stations, 
 - check for according messages of [interruptions in data availability](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html).
