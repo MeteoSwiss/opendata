@@ -22,15 +22,15 @@ The data can be **[downloaded as pre-processed files](https://github.com/MeteoSw
 
 ## General information
 
-### Terms of Use
-[Here](https://github.com/MeteoSwiss/opendata-terms-of-use/blob/main/README.md) you'll find information about data license and conditions for usage.
+<!-- ### Terms of Use
+[Here](https://github.com/MeteoSwiss/opendata-terms-of-use/blob/main/README.md) you'll find information about data license and conditions for usage. -->
 
 <!-- cf. https://opendatadocs.dmi.govcloud.dk/Terms_of_Use -->
 
-### FAQ
+<!-- ### FAQ
 [Here](https://github.com/MeteoSwiss/opendata-faq/blob/main/README.md) you'll find answers to the most frequently asked questions. 
 
-We continuously update these based on questions received.
+We continuously update these based on questions received. -->
 
 ### Getting Started with Download
 [Here](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md) you'll find information about data granularity, structure and update cycle, time stamps and time intervals as well as on column separators, decimal dividers and missing values.
@@ -38,15 +38,15 @@ We continuously update these based on questions received.
 <!-- cf. https://opendatadocs.dmi.govcloud.dk/en/Download --> 
 
 ### Staying up to Date
-Our *Download* API will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](..) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, 
+Our Download API will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](https://www.swisstopo.admin.ch/en) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. <!--  If you suspect your integration has broken due to changed behavior, 
 - please check [Release Notes](..) where swisstopo announces released changes that might affect your integration.
-- For operational status, see [Download API Status & Contact](..).
+- For operational status, see [Download API Status & Contact](..). --> 
 
 In the event of malfunctions at land-based stations, 
 - check for according messages of [interruptions in data availability](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html).
 
-We keep interested parties and users up to date on our plans and changes:
-- Register here for [our mailing list](...).
+<!-- We keep interested parties and users up to date on our plans and changes:
+- Register here for [our mailing list](...). --> 
 
 ## Understanding MeteoSwiss' Open Data products
 The data of each Open Data product has documentation on what it represents, its models, abstractions and terminology. <!-- These can be found under Data in the left menu. --> 
