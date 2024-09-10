@@ -92,5 +92,5 @@ The following measurements are planned to be made available for after the start 
 
 ### E. Forecast Data
 1. [Short-term forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#1-short-term-forecast-data)
-2. [Numerical weather forecasting model](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-forecast-data)
+2. [Numerical weather forecasting model](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-numerical-weather-forecasting-model)
 3. [Local forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#3-local-forecast-data)
