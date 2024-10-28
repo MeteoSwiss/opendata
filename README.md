@@ -10,7 +10,7 @@ Welcome to MeteoSwiss' Open Data documentation.
 
 <!-- For now MeteoSwiss provides its Open Data to be consumed by **[downloading the data as files](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#getting-started-with-download)**. -->
 
-From 1 April 2025, MeteoSwiss will make its data freely available to the public as Open Government Data (OGD).
+From April 2025, MeteoSwiss will make its data freely available to the public as Open Government Data (OGD).
 
 The data can be **[downloaded as pre-processed files](https://github.com/MeteoSwiss/opendata/blob/main/README.md#getting-started-with-download)**. In a later stage, customised queries via API will also be possible.
 
