@@ -67,7 +67,7 @@ The data of each Open Data product has documentation (click on link) on what it 
 ### Atmosphere Measurements
 | # | Open Data product | generated | integrated | accessible |
 |:-----:|:-----|:-----:|:-----:|:-----:|
-| B1 | [Radiosoundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | :red_circle: | :red_circle: | :red_circle: |
+| B1 | [Radio soundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | :red_circle: | :red_circle: | :red_circle: |
 | B2 | Raman-LIDAR for Meteorological Observation (RALMO) */ not yet realised* | :white_circle: | :white_circle: | :white_circle: |
 
 The following measurements are planned to be made available for after the start of MeteoSwiss' Open Data provision:
