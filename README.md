@@ -14,7 +14,7 @@ From April 2025, MeteoSwiss will make its data freely available to the public as
 
 The data can be **[downloaded as pre-processed files](https://github.com/MeteoSwiss/opendata/blob/main/README.md#getting-started-with-download)**. In a later stage, customised queries via API will also be possible.
 
-| A <br> [Ground-based Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#a-ground-based-measurements) | B <br> [Atmosphere Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#b-atmosphere-measurements) | C <br> [Climate Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#c-climate-data) | D <br> [Radar Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#d-radar-data) | E <br> [Forecast Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#e-forecast-data) |
+| A <br> [Ground-based Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#ground-based-measurements) | B <br> [Atmosphere Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#atmosphere-measurements) | C <br> [Climate Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#climate-data) | D <br> [Radar Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#radar-data) | E <br> [Forecast Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#forecast-data) |
 |-----|-----|-----|-----|-----|
 
 > [!NOTE]
@@ -51,7 +51,7 @@ In the event of malfunctions at land-based stations,
 ## Understanding MeteoSwiss' Open Data products
 The data of each Open Data product has documentation (click on link) on what it represents, its models, abstractions and terminology.
 
-### A. Ground-based Measurements
+### Ground-based Measurements
 | # | Open Data product | generated | integrated | accessible |
 |:-----|:-----|:-----:|:-----:|:-----:|
 | A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#1-automatic-weather-stations-measured-values) | :green_circle: | :yellow_circle: | :yellow_circle: |
