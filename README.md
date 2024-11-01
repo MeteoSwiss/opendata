@@ -72,10 +72,11 @@ The data of each Open Data product has documentation (click on link) on what it 
 | B5 | Ozone measurements – Profiles (O3 radio soundings, SOMORA) */ not yet realised* | :white_circle: | :white_circle: | :white_circle: |
 | B6 | wiss Alpine Climate Radiation Monitoring (SACRaM) */ not yet realised* | :white_circle: | :white_circle: | :white_circle: |
 
-### C. Climate Data
-<!-- Climate Data consists of homogenous time series data (1, 2), spatial climate data (3-5), climate normals (6, 7) and scenarios (8): -->
+### Climate Data
+| # | Open Data product | generated | integrated | accessible |
+|:-----:|:-----|:-----:|:-----:|:-----:|
+| C1 | [Climate stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#1-climate-stations-homogeneous-measurements) | :red_circle: | :red_circle: | :red_circle: |
 
-1. [Climate stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#1-climate-stations)
 2. [Climate precipitation stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#2-climate-precipitation-stations)
 3. [Ground-based spatial climate data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#3-ground-based-spatial-climate-data)
 4. [Satellite-based spatial climate data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#4-satellite-based-spatial-climate-data)
