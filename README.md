@@ -63,7 +63,7 @@ The data of each Open Data product has documentation (click on link) on what it 
 | A7 | [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#2-automatic-precipitation-stations) | :red_circle: | :red_circle: | :red_circle: |
 | A8 | [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#2-automatic-precipitation-stations) | :red_circle: | :red_circle: | :red_circle: |
 | A9 | [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#2-automatic-precipitation-stations) | :red_circle: | :red_circle: | :red_circle: |
-
+| A10 | [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#2-automatic-precipitation-stations) | :red_circle: | :red_circle: | :red_circle: |
 
 
 
