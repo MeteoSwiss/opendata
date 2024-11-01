@@ -54,7 +54,7 @@ The data of each Open Data product has documentation (click on link) on what it 
 ### Ground-based Measurements
 | # | Open Data product | generated | integrated | accessible |
 |:-----:|:-----|:-----:|:-----:|:-----:|
-| A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#1-automatic-weather-stations-measured-values) | 💚 | :yellow_circle: | :yellow_circle: |
+| A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#1-automatic-weather-stations-measured-values) | :green_circle: | :yellow_circle: | :yellow_circle: |
 | A2 | [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#2-automatic-precipitation-stations-measured-values) | :red_circle: | :red_circle: | :red_circle: |
 | A3 | [Automatic tower stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#3-automatic-tower-stations-measured-values) | :red_circle: | :red_circle: | :red_circle: |
 | A4 | Automatic soil stations – Measured values */ not yet realised* | :white_circle: | :white_circle: | :white_circle: |
@@ -69,12 +69,10 @@ The data of each Open Data product has documentation (click on link) on what it 
 |:-----:|:-----|:-----:|:-----:|:-----:|
 | B1 | [Radio soundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | :red_circle: | :red_circle: | :red_circle: |
 | B2 | Raman-LIDAR for Meteorological Observation (RALMO) */ not yet realised* | :white_circle: | :white_circle: | :white_circle: |
-
-The following measurements are planned to be made available for after the start of MeteoSwiss' Open Data provision:
- 
-- LIDAR Ceilometer CHM15K
-- Ozone measurements: a. Total column (Dobson, Brewer), b. Profiles (O3 radio soundings, SOMORA)
-- Swiss Alpine Climate Radiation Monitoring (SACRaM)
+| B3 | LIDAR Ceilometer CHM15K */ not yet realised* | :white_circle: | :white_circle: | :white_circle: |
+| B4 | Ozone measurements – Total column (Dobson, Brewer) */ not yet realised* | :white_circle: | :white_circle: | :white_circle: |
+| B5 | Ozone measurements – Profiles (O3 radio soundings, SOMORA) */ not yet realised* | :white_circle: | :white_circle: | :white_circle: |
+| B6 | wiss Alpine Climate Radiation Monitoring (SACRaM) */ not yet realised* | :white_circle: | :white_circle: | :white_circle: |
 
 ### C. Climate Data
 <!-- Climate Data consists of homogenous time series data (1, 2), spatial climate data (3-5), climate normals (6, 7) and scenarios (8): -->
