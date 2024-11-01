@@ -57,7 +57,7 @@ The data of each Open Data product has documentation (click on link) on what it 
 | A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#1-automatic-weather-stations-measured-values) | :green_circle: | :yellow_circle: | :yellow_circle: |
 | A2 | [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#2-automatic-precipitation-stations-measured-values) | :red_circle: | :red_circle: | :red_circle: |
 | A3 | [Automatic tower stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#3-automatic-tower-stations-measured-values) | :red_circle: | :red_circle: | :red_circle: |
-| A4 | Automatic soil stations – Measured values *(not yet realised)* | :red_circle: | :red_circle: | :red_circle: |
+| A4 | Automatic soil stations – Measured values *(not yet realised)* | :white_circle: | :red_circle: | :red_circle: |
 | A5 | [Manual precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#5-manual-precipitation-stations-measured-values) | :red_circle: | :red_circle: | :red_circle: |
 | A6 | [Totaliser precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#6-totaliser-precipitation-stations-measured-values) | :red_circle: | :red_circle: | :red_circle: |
 | A7 | [Pollen stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#7-pollen-stations-measured-values) | :red_circle: | :red_circle: | :red_circle: |
