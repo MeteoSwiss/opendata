@@ -53,7 +53,7 @@ The data of each Open Data product has documentation (click on link) on what it 
 
 ### Ground-based Measurements
 | # | Open Data product | generated | integrated | accessible |
-|-----:|:-----|:-----:|:-----:|:-----:|
+|:-----:|:-----|:-----:|:-----:|:-----:|
 | A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#1-automatic-weather-stations-measured-values) | :green_circle: | :yellow_circle: | :yellow_circle: |
 | A2 | [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#2-automatic-precipitation-stations-measured-values) | :red_circle: | :red_circle: | :red_circle: |
 | A3 | [Automatic tower stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#3-automatic-tower-stations-measured-values) | :red_circle: | :red_circle: | :red_circle: |
