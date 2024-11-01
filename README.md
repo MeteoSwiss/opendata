@@ -22,10 +22,8 @@ The data can be **[downloaded as pre-processed files](https://github.com/MeteoSw
 
 ## General information
 
-<!-- ### Terms of Use
-[Here](https://github.com/MeteoSwiss/opendata-terms-of-use/blob/main/README.md) you'll find information about data license and conditions for usage. -->
-
-<!-- cf. https://opendatadocs.dmi.govcloud.dk/Terms_of_Use -->
+### Terms of Use
+[Here](https://github.com/MeteoSwiss/opendata-terms-of-use/blob/main/README.md) you'll find information about data license and conditions for usage. 
 
 <!-- ### FAQ
 [Here](https://github.com/MeteoSwiss/opendata-faq/blob/main/README.md) you'll find answers to the most frequently asked questions. 
