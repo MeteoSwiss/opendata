@@ -54,6 +54,7 @@ The data of each Open Data product has documentation on what it represents, its 
 For reference, here are the direct links:
 
 ### A. Ground-based Measurements
+||-----|-----|-----|-----||
 | 1 <br> [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#1-automatic-weather-stations) | Data generated | Data integrated | Data accessible |
 | 2 <br> [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#2-automatic-precipitation-stations) | Data generated | Data integrated | Data accessible |
 |-----|-----|-----|-----|
