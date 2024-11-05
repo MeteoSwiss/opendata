@@ -45,7 +45,7 @@ In the event of malfunctions at land-based stations,
 #### Operational Status & Contact 
 | System | Contact Point | Status |
 |:-----|:-----|:-----:|
-| Open Data generation & integration | MeteoSwiss' [Open Data Support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) | [see below per Open Data product](https://github.com/MeteoSwiss/opendata/blob/main/README.md#understanding-meteoswiss--open-data)
+| Open Data generation & integration | MeteoSwiss' [Open Data Support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) | [see below per Open Data product](https://github.com/MeteoSwiss/opendata/blob/main/README.md#understanding-meteoswiss-open-data)
 | Open Data download service | swisstopo's [geo.admin.ch Operations](https://www.geo.admin.ch/en/impressum-responsibilities-and-contacts) | :green_circle: UP |
 | ... | CSCS' [... Operations](...) | :white_circle: |
 | Geodata metadata catalog | swisstopo's [geocat.ch ](https://info.geocat.ch/en/contact) | :yellow_circle: PoC |
