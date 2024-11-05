@@ -45,8 +45,7 @@ In the event of malfunctions at land-based stations,
 **Operational Status & Contact** 
 |    |    | Status | Contact, Organisation |
 |:-----:|:-----|:-----|:-----|
-| 1 | [Open Data](https://www.meteoswiss.admin.ch/services-and-publications/service/open-government-data.html) preparation & integration | - | [Open Data Support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html), Federal Office of Meteorology and
-Climatology MeteoSwiss |
+| 1 | [Open Data](https://www.meteoswiss.admin.ch/services-and-publications/service/open-government-data.html) preparation & integration | [see below per Open Data product](https://github.com/MeteoSwiss/opendata/blob/main/README.md#understanding-meteoswiss--open-data-products) | [Open Data Support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html), Federal Office of Meteorology and Climatology MeteoSwiss |
 | 2 | [geo.admin.ch](https://www.geo.admin.ch/en/rest-interface-stac-api) download service | :green_circle: UP | [Operation geo.admin.ch](https://www.geo.admin.ch/en/impressum-responsibilities-and-contacts), Federal Office of Topography swisstopo |
 | 3 | [geocat.ch](https://www.geocat.ch/datahub/search?publisher=Federal%20Office%20of%20Meteorology%20and%20Climatology%20MeteoSwiss) metadata catalog | :green_circle: UP | [geocat.ch](https://info.geocat.ch/en/contact), Federal Office of Topography swisstopo |
 | 4 | [opendata.swiss](https://opendata.swiss/en/organization/bundesamt-fur-meteorologie-und-klimatologie-meteoschweiz) metadata catalog | :red_circle: DOWN | [OGD Office](https://opendata.swiss/en/contact), Federal Statistical Office FSO |
