@@ -70,7 +70,7 @@ The documentation of each **Open Data product** listed below explains what the d
 | B3 | LIDAR Ceilometer CHM15K */ not yet realised* | :white_circle: | :white_circle: | :white_circle: |
 | B4 | Ozone measurements – Total column (Dobson, Brewer) */ not yet realised* | :white_circle: | :white_circle: | :white_circle: |
 | B5 | Ozone measurements – Profiles (O3 radio soundings, SOMORA) */ not yet realised* | :white_circle: | :white_circle: | :white_circle: |
-| B6 | wiss Alpine Climate Radiation Monitoring (SACRaM) */ not yet realised* | :white_circle: | :white_circle: | :white_circle: |
+| B6 | Swiss Alpine Climate Radiation Monitoring (SACRaM) */ not yet realised* | :white_circle: | :white_circle: | :white_circle: |
 
 ### C - Climate Data
 |    |    | generated | integrated | accessible |
