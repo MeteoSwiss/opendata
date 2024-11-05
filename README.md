@@ -68,7 +68,7 @@ The *Open Data products in italics* are not yet realised.
 | A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#1-automatic-weather-stations-measured-values) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :green_circle: YES | :yellow_circle: INTRPT |
 | A2 | [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#2-automatic-precipitation-stations-measured-values) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :white_circle: | :white_circle: |
 | A3 | [Automatic tower stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#3-automatic-tower-stations-measured-values) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :white_circle: | :white_circle: |
-| A4 | *Automatic soil stations – Measured values* | :white_circle: not yet realised | :white_circle: not yet realised | :white_circle: not yet realised |
+| A4 | *Automatic soil stations – Measured values* | not yet realised | not yet realised | not yet realised |
 | A5 | [Manual precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#5-manual-precipitation-stations-measured-values) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :white_circle: | :white_circle: |
 | A6 | [Totaliser precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#6-totaliser-precipitation-stations-measured-values) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :white_circle: | :white_circle: |
 | A7 | [Pollen stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#7-pollen-stations-measured-values) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :white_circle: | :white_circle: |
@@ -76,14 +76,14 @@ The *Open Data products in italics* are not yet realised.
 | A9 | [Phenological observations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#9-phenological-observations) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :white_circle: | :white_circle: |
 
 ### B - Atmosphere Measurements
-|    |    | latest data generated | latest data integrated | data accessible |
+|    |    | data availability | latest open data generated | latest open data integrated |
 |:-----:|:-----|:-----:|:-----:|:-----:|
-| B1 | [Radio soundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | :white_circle: | :white_circle: | :white_circle: |
-| B2 | *Raman-LIDAR for Meteorological Observation (RALMO)* | :white_circle: not yet realised |  :white_circle: not yet realised |  :white_circle: not yet realised |
-| B3 | *LIDAR Ceilometer CHM15K* | :white_circle: not yet realised |  :white_circle: not yet realised |  :white_circle: not yet realised |
-| B4 | *Ozone measurements – Total column (Dobson, Brewer)* | :white_circle: not yet realised |  :white_circle: not yet realised |  :white_circle: not yet realised |
-| B5 | *Ozone measurements – Profiles (O3 radio soundings, SOMORA)* | :white_circle: not yet realised |  :white_circle: not yet realised |  :white_circle: not yet realised |
-| B6 | *Swiss Alpine Climate Radiation Monitoring (SACRaM)* | :white_circle: not yet realised |  :white_circle: not yet realised |  :white_circle: not yet realised |
+| B1 | [Radio soundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
+| B2 | *Raman-LIDAR for Meteorological Observation (RALMO)* | not yet realised | not yet realised | not yet realised |
+| B3 | *LIDAR Ceilometer CHM15K* | not yet realised | not yet realised | not yet realised |
+| B4 | *Ozone measurements – Total column (Dobson, Brewer)* | not yet realised | not yet realised | not yet realised |
+| B5 | *Ozone measurements – Profiles (O3 radio soundings, SOMORA)* | not yet realised | not yet realised | not yet realised |
+| B6 | *Swiss Alpine Climate Radiation Monitoring (SACRaM)* | not yet realised | not yet realised | not yet realised |
 
 ### C - Climate Data
 |    |    | latest data generated | latest data integrated | data accessible |
