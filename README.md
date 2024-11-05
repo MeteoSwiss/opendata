@@ -65,7 +65,7 @@ The *Open Data products in italics* are not yet realised.
 | A9 | [Phenological observations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#9-phenological-observations) | :white_circle: | :white_circle: | :white_circle: |
 
 ### B - Atmosphere Measurements
-|    |    | generated | integrated | accessible |
+|    |    | latest data generated | latest data integrated | data accessible |
 |:-----:|:-----|:-----:|:-----:|:-----:|
 | B1 | [Radio soundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | :white_circle: | :white_circle: | :white_circle: |
 | B2 | *Raman-LIDAR for Meteorological Observation (RALMO)* | :white_circle: | :white_circle: | :white_circle: |
@@ -75,7 +75,7 @@ The *Open Data products in italics* are not yet realised.
 | B6 | *Swiss Alpine Climate Radiation Monitoring (SACRaM)* | :white_circle: | :white_circle: | :white_circle: |
 
 ### C - Climate Data
-|    |    | generated | integrated | accessible |
+|    |    | latest data generated | latest data integrated | data accessible |
 |:-----:|:-----|:-----:|:-----:|:-----:|
 | C1 | [Climate stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#1-climate-stations-homogeneous-measurements) | :white_circle: | :white_circle: | :white_circle: |
 | C2 | [Climate precipitation stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#2-climate-precipitation-stations-homogeneous-measurements) | :white_circle: | :white_circle: | :white_circle: |
@@ -87,7 +87,7 @@ The *Open Data products in italics* are not yet realised.
 | C8 | [Climate scenarios](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#8-climate-scenarios) | :white_circle: | :white_circle: | :white_circle: |
 
 ### D - Radar Data
-|    |    | generated | integrated | accessible |
+|    |    | latest data generated | latest data integrated | data accessible |
 |:-----:|:-----|:-----:|:-----:|:-----:|
 | D1 | [Basic radar data](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#1-basic-radar-data) | :white_circle: | :white_circle: | :white_circle: |
 | D2 | [Extended radar data](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#2-extended-radar-data) | :white_circle: | :white_circle: | :white_circle: |
