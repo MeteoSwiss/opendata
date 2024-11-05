@@ -63,54 +63,54 @@ The documentations of the Open Data products linked below explain what the data 
 The *Open Data products in italics* are not yet realised.
 
 ### A - Ground-based Measurements
-|    |    | data availability | latest open data generated | latest open data integrated |
-|:-----:|:-----|:-----:|:-----:|:-----:|
-| A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a1---automatic-weather-stations---measured-values) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :green_circle: YES | :yellow_circle: INTRPT |
-| A2 | [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a2---automatic-precipitation-stations---measured-values) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :white_circle: | :white_circle: |
-| A3 | [Automatic tower stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/tree/main?tab=readme-ov-file#a3---automatic-tower-stations---measured-values) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :white_circle: | :white_circle: |
-| A4 | *[Automatic soil stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a4---automatic-soil-stations---measured-values)* | *not yet realised* | *not yet realised* | *not yet realised* |
-| A5 | [Manual precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a5---manual-precipitation-stations---measured-values) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :white_circle: | :white_circle: |
-| A6 | [Totaliser precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a6---totaliser-precipitation-stations---measured-values) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :white_circle: | :white_circle: |
-| A7 | [Pollen stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a7---pollen-stations---measured-values) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :white_circle: | :white_circle: |
-| A8 | [Meteorological visual observations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a8---meteorological-visual-observations) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :white_circle: | :white_circle: |
-| A9 | [Phenological observations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a9---phenological-observations) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :white_circle: | :white_circle: |
+|    |    | latest open data generated | latest open data integrated |
+|:-----:|:-----|:-----:|:-----:|
+| A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a1---automatic-weather-stations---measured-values) | :green_circle: YES | :yellow_circle: PENDING |
+| A2 | [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a2---automatic-precipitation-stations---measured-values) | :white_circle: | :white_circle: |
+| A3 | [Automatic tower stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/tree/main?tab=readme-ov-file#a3---automatic-tower-stations---measured-values) | :white_circle: | :white_circle: |
+| A4 | *[Automatic soil stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a4---automatic-soil-stations---measured-values)* | *not yet realised* | *not yet realised* |
+| A5 | [Manual precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a5---manual-precipitation-stations---measured-values) | :white_circle: | :white_circle: |
+| A6 | [Totaliser precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a6---totaliser-precipitation-stations---measured-values) | :white_circle: | :white_circle: |
+| A7 | [Pollen stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a7---pollen-stations---measured-values) | :white_circle: | :white_circle: |
+| A8 | [Meteorological visual observations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a8---meteorological-visual-observations) | :white_circle: | :white_circle: |
+| A9 | [Phenological observations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a9---phenological-observations) | :white_circle: | :white_circle: |
 
 ### B - Atmosphere Measurements
-|    |    | data availability | latest open data generated | latest open data integrated |
-|:-----:|:-----|:-----:|:-----:|:-----:|
-| B1 | [Radio soundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
-| B2 | *Raman-LIDAR for Meteorological Observation (RALMO)* | *not yet realised* | *not yet realised* | *not yet realised* |
-| B3 | *LIDAR Ceilometer CHM15K* | *not yet realised* | *not yet realised* | *not yet realised* |
-| B4 | *Ozone measurements – Total column (Dobson, Brewer)* | *not yet realised* | *not yet realised* | *not yet realised* |
-| B5 | *Ozone measurements – Profiles (O3 radio soundings, SOMORA)* | *not yet realised* | *not yet realised* | *not yet realised* |
-| B6 | *Swiss Alpine Climate Radiation Monitoring (SACRaM)* | *not yet realised* | *not yet realised* | *not yet realised* |
+|    |    | latest open data generated | latest open data integrated |
+|:-----:|:-----|:-----:|:-----:|
+| B1 | [Radio soundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | :green_circle: YES | :green_circle: YES |
+| B2 | *Raman-LIDAR for Meteorological Observation (RALMO)* | *not yet realised* | *not yet realised* |
+| B3 | *LIDAR Ceilometer CHM15K* | *not yet realised* | *not yet realised* |
+| B4 | *Ozone measurements – Total column (Dobson, Brewer)* | *not yet realised* | *not yet realised* |
+| B5 | *Ozone measurements – Profiles (O3 radio soundings, SOMORA)* | *not yet realised* | *not yet realised* |
+| B6 | *Swiss Alpine Climate Radiation Monitoring (SACRaM)* | *not yet realised* | *not yet realised* |
 
 ### C - Climate Data
-|    |    | data availability | latest open data generated | latest open data integrated |
-|:-----:|:-----|:-----:|:-----:|:-----:|
-| C1 | [Climate stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#1-climate-stations-homogeneous-measurements) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
-| C2 | [Climate precipitation stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#2-climate-precipitation-stations-homogeneous-measurements) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
-| C3 | [Ground-based spatial climate data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#3-ground-based-spatial-climate-data) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
-| C4 | [Satellite-based spatial climate data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#4-satellite-based-spatial-climate-data) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
-| C5 | [Radar-based spatial climate data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#5-radar-based-spatial-climate-data) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
-| C6 | [Climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#6-climate-normals) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
-| C7 | [Spatial climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#7-spatial-climate-normals) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
-| C8 | [Climate scenarios](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#8-climate-scenarios) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
+|    |    | latest open data generated | latest open data integrated |
+|:-----:|:-----|:-----:|:-----:|
+| C1 | [Climate stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#1-climate-stations-homogeneous-measurements) | :white_circle: | :white_circle: |
+| C2 | [Climate precipitation stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#2-climate-precipitation-stations-homogeneous-measurements) | :white_circle: | :white_circle: |
+| C3 | [Ground-based spatial climate data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#3-ground-based-spatial-climate-data) | :green_circle: YES | :yellow_circle: PENDING |
+| C4 | [Satellite-based spatial climate data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#4-satellite-based-spatial-climate-data) | :green_circle: YES | :yellow_circle: PENDING |
+| C5 | [Radar-based spatial climate data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#5-radar-based-spatial-climate-data) | :white_circle: | :white_circle: |
+| C6 | [Climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#6-climate-normals) | :white_circle: | :white_circle: |
+| C7 | [Spatial climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#7-spatial-climate-normals) | :white_circle: | :white_circle: |
+| C8 | [Climate scenarios](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#8-climate-scenarios) | :white_circle: | :white_circle: |
 
 ### D - Radar Data
-|    |    | data availability | latest open data generated | latest open data integrated |
-|:-----:|:-----|:-----:|:-----:|:-----:|
-| D1 | [Basic radar data](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#1-basic-radar-data) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
-| D2 | [Extended radar data](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#2-extended-radar-data) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
-| D3 | [Combined precipitation calculations](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#3-combined-precipitation-calculations) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
-| D4 | *3D radar data* | *not yet realised* | *not yet realised* | *not yet realised* |
+|    |    | latest open data generated | latest open data integrated |
+|:-----:|:-----|:-----:|:-----:|
+| D1 | [Basic radar data](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#1-basic-radar-data) | :white_circle: | :white_circle: |
+| D2 | [Extended radar data](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#2-extended-radar-data) | :white_circle: | :white_circle: |
+| D3 | [Combined precipitation calculations](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#3-combined-precipitation-calculations) | :white_circle: | :white_circle: |
+| D4 | *3D radar data* | *not yet realised* | *not yet realised* |
 
 ### E - Forecast Data
-|    |    | data availability | latest open data generated | latest open data integrated |
+|    |    | latest open data generated | latest open data integrated |
 |:-----:|:-----|:-----:|:-----:|:-----:|
-| E1 | [Short-term forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#1-short-term-forecast-data) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
-| E2 | [Numerical weather forecasting model CH1](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-numerical-weather-forecasting-model) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
-| E3 | [Numerical weather forecasting model CH2](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-numerical-weather-forecasting-model) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
-| E4 | [Local forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#3-local-forecast-data) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
+| E1 | [Short-term forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#1-short-term-forecast-data) | :white_circle: | :white_circle: |
+| E2 | [Numerical weather forecasting model CH1](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-numerical-weather-forecasting-model) | :white_circle: | :white_circle: |
+| E3 | [Numerical weather forecasting model CH2](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-numerical-weather-forecasting-model) | :white_circle: | :white_circle: |
+| E4 | [Local forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#3-local-forecast-data) | :white_circle: | :white_circle: |
 
 <br>
