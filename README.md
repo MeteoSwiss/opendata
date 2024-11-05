@@ -39,7 +39,7 @@ We continuously update these based on questions received. -->
 Our Download API will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](https://www.swisstopo.admin.ch/en) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, 
 - please check [Release Notes](..) (upcoming) where swisstopo announces released changes that might affect your integration.
 
-| [data download service](https://www.geo.admin.ch/en/rest-schnittstelle-stac-api) accessible | [metadata catalog](https://www.geocat.ch/datahub/search?publisher=Federal%20Office%20of%20Meteorology%20and%20Climatology%20MeteoSwiss) accessible |
+| [open data download service](https://www.geo.admin.ch/en/rest-schnittstelle-stac-api) accessible | [metadata catalog](https://www.geocat.ch/datahub/search?publisher=Federal%20Office%20of%20Meteorology%20and%20Climatology%20MeteoSwiss) accessible |
 |:-----:|:-----:|
 | :green_circle: Y | :green_circle: Y |
 
@@ -57,17 +57,17 @@ The documentations of the Open Data products linked below explain what the data 
 The *Open Data products in italics* are not yet realised.
 
 ### A - Ground-based Measurements
-|    |    | latest data generated | latest data integrated | [data download](https://www.geo.admin.ch/en/rest-schnittstelle-stac-api) accessible | [metadata catalog](https://www.geocat.ch/datahub/search?publisher=Federal%20Office%20of%20Meteorology%20and%20Climatology%20MeteoSwiss) accessible |
-|:-----:|:-----|:-----:|:-----:|:-----:|:-----:|
-| A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#1-automatic-weather-stations-measured-values) | :green_circle: Y | :yellow_circle: INTRPT | :green_circle: Y | :green_circle: Y |
-| A2 | [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#2-automatic-precipitation-stations-measured-values) | :white_circle: | :white_circle: | :white_circle: | :white_circle: |
-| A3 | [Automatic tower stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#3-automatic-tower-stations-measured-values) | :white_circle: | :white_circle: | :white_circle: | :white_circle: |
-| A4 | *Automatic soil stations – Measured values* | :white_circle: | :white_circle: | :white_circle: | :white_circle: |
-| A5 | [Manual precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#5-manual-precipitation-stations-measured-values) | :white_circle: | :white_circle: | :white_circle: | :white_circle: |
-| A6 | [Totaliser precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#6-totaliser-precipitation-stations-measured-values) | :white_circle: | :white_circle: | :white_circle: | :white_circle: |
-| A7 | [Pollen stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#7-pollen-stations-measured-values) | :white_circle: | :white_circle: | :white_circle: | :white_circle: |
-| A8 | [Meteorological visual observations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#8-meteorological-visual-observations) | :white_circle: | :white_circle: | :white_circle: | :white_circle: |
-| A9 | [Phenological observations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#9-phenological-observations) | :white_circle: | :white_circle: | :white_circle: | :white_circle: |
+|    |    | data availability | latest open data generated | latest open data integrated |
+|:-----:|:-----|:-----:|:-----:|:-----:|
+| A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#1-automatic-weather-stations-measured-values) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :green_circle: Y | :yellow_circle: INTRPT |
+| A2 | [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#2-automatic-precipitation-stations-measured-values) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :white_circle: | :white_circle: |
+| A3 | [Automatic tower stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#3-automatic-tower-stations-measured-values) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :white_circle: | :white_circle: |
+| A4 | *Automatic soil stations – Measured values* | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :white_circle: | :white_circle: |
+| A5 | [Manual precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#5-manual-precipitation-stations-measured-values) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :white_circle: | :white_circle: |
+| A6 | [Totaliser precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#6-totaliser-precipitation-stations-measured-values) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :white_circle: | :white_circle: |
+| A7 | [Pollen stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#7-pollen-stations-measured-values) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :white_circle: | :white_circle: |
+| A8 | [Meteorological visual observations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#8-meteorological-visual-observations) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :white_circle: | :white_circle: |
+| A9 | [Phenological observations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#9-phenological-observations) | :yellow_circle: [INTRPT](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | :white_circle: | :white_circle: |
 
 ### B - Atmosphere Measurements
 |    |    | latest data generated | latest data integrated | data accessible |
