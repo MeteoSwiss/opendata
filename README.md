@@ -57,7 +57,7 @@ In the event of malfunctions at land-based stations,
 <!-- We keep interested parties and users up to date on our plans and changes:
 - Register here for [our mailing list](...). --> 
 
-## Understanding MeteoSwiss' Open Data products
+## Understanding MeteoSwiss' Open Data
 The documentations of the Open Data products linked below explain what the data represents, its models, abstractions and terminology.
 
 The *Open Data products in italics* are not yet realised.
