@@ -47,7 +47,9 @@ In the event of malfunctions at land-based stations,
 - Register here for [our mailing list](...). --> 
 
 ## Understanding MeteoSwiss' Open Data products
-The documentation of each **Open Data product** listed below explains what the data represents, its models, abstractions and terminology.
+The documentation of the **Open Data products** listed below explains what the data represents, its models, abstractions and terminology.
+
+Products *in italics* are not yet realised.
 
 ### A - Ground-based Measurements
 |    |    | generated | integrated | accessible |
@@ -55,7 +57,7 @@ The documentation of each **Open Data product** listed below explains what the d
 | A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#1-automatic-weather-stations-measured-values) | :green_circle: | :yellow_circle: | :yellow_circle: |
 | A2 | [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#2-automatic-precipitation-stations-measured-values) | :red_circle: | :red_circle: | :red_circle: |
 | A3 | [Automatic tower stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#3-automatic-tower-stations-measured-values) | :red_circle: | :red_circle: | :red_circle: |
-| A4 | Automatic soil stations – Measured values */ not yet realised* | :white_circle: | :white_circle: | :white_circle: |
+| A4 | *Automatic soil stations – Measured values* | :white_circle: | :white_circle: | :white_circle: |
 | A5 | [Manual precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#5-manual-precipitation-stations-measured-values) | :red_circle: | :red_circle: | :red_circle: |
 | A6 | [Totaliser precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#6-totaliser-precipitation-stations-measured-values) | :red_circle: | :red_circle: | :red_circle: |
 | A7 | [Pollen stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#7-pollen-stations-measured-values) | :red_circle: | :red_circle: | :red_circle: |
@@ -66,11 +68,11 @@ The documentation of each **Open Data product** listed below explains what the d
 |    |    | generated | integrated | accessible |
 |:-----:|:-----|:-----:|:-----:|:-----:|
 | B1 | [Radio soundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | :red_circle: | :red_circle: | :red_circle: |
-| B2 | Raman-LIDAR for Meteorological Observation (RALMO) */ not yet realised* | :white_circle: | :white_circle: | :white_circle: |
-| B3 | LIDAR Ceilometer CHM15K */ not yet realised* | :white_circle: | :white_circle: | :white_circle: |
-| B4 | Ozone measurements – Total column (Dobson, Brewer) */ not yet realised* | :white_circle: | :white_circle: | :white_circle: |
-| B5 | Ozone measurements – Profiles (O3 radio soundings, SOMORA) */ not yet realised* | :white_circle: | :white_circle: | :white_circle: |
-| B6 | Swiss Alpine Climate Radiation Monitoring (SACRaM) */ not yet realised* | :white_circle: | :white_circle: | :white_circle: |
+| B2 | *Raman-LIDAR for Meteorological Observation (RALMO)* | :white_circle: | :white_circle: | :white_circle: |
+| B3 | *LIDAR Ceilometer CHM15K* | :white_circle: | :white_circle: | :white_circle: |
+| B4 | *Ozone measurements – Total column (Dobson, Brewer)* | :white_circle: | :white_circle: | :white_circle: |
+| B5 | *Ozone measurements – Profiles (O3 radio soundings, SOMORA)* | :white_circle: | :white_circle: | :white_circle: |
+| B6 | *Swiss Alpine Climate Radiation Monitoring (SACRaM)* | :white_circle: | :white_circle: | :white_circle: |
 
 ### C - Climate Data
 |    |    | generated | integrated | accessible |
