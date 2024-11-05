@@ -65,7 +65,7 @@ The *Open Data products in italics* are not yet realised.
 ### A - Ground-based Measurements
 |    |    | latest open data generated | latest open data integrated |
 |:-----:|:-----|:-----:|:-----:|
-| A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a1---automatic-weather-stations---measured-values) | :green_circle: YES | :yellow_circle: PENDING |
+| A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a1---automatic-weather-stations---measured-values) | :yellow_circle: PoC | :yellow_circle: PoC |
 | A2 | [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a2---automatic-precipitation-stations---measured-values) | :white_circle: | :white_circle: |
 | A3 | [Automatic tower stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/tree/main?tab=readme-ov-file#a3---automatic-tower-stations---measured-values) | :white_circle: | :white_circle: |
 | A4 | *[Automatic soil stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a4---automatic-soil-stations---measured-values)* | *not yet realised* | *not yet realised* |
@@ -78,7 +78,7 @@ The *Open Data products in italics* are not yet realised.
 ### B - Atmosphere Measurements
 |    |    | latest open data generated | latest open data integrated |
 |:-----:|:-----|:-----:|:-----:|
-| B1 | [Radio soundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | :green_circle: YES | :green_circle: YES |
+| B1 | [Radio soundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | :white_circle: | :white_circle: |
 | B2 | *Raman-LIDAR for Meteorological Observation (RALMO)* | *not yet realised* | *not yet realised* |
 | B3 | *LIDAR Ceilometer CHM15K* | *not yet realised* | *not yet realised* |
 | B4 | *Ozone measurements – Total column (Dobson, Brewer)* | *not yet realised* | *not yet realised* |
@@ -90,8 +90,8 @@ The *Open Data products in italics* are not yet realised.
 |:-----:|:-----|:-----:|:-----:|
 | C1 | [Climate stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#1-climate-stations-homogeneous-measurements) | :white_circle: | :white_circle: |
 | C2 | [Climate precipitation stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#2-climate-precipitation-stations-homogeneous-measurements) | :white_circle: | :white_circle: |
-| C3 | [Ground-based spatial climate data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#3-ground-based-spatial-climate-data) | :green_circle: YES | :yellow_circle: PENDING |
-| C4 | [Satellite-based spatial climate data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#4-satellite-based-spatial-climate-data) | :green_circle: YES | :yellow_circle: PENDING |
+| C3 | [Ground-based spatial climate data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#3-ground-based-spatial-climate-data) | :yellow_circle: PoC | :yellow_circle: PoC |
+| C4 | [Satellite-based spatial climate data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#4-satellite-based-spatial-climate-data) | :yellow_circle: PoC | :yellow_circle: PoC |
 | C5 | [Radar-based spatial climate data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#5-radar-based-spatial-climate-data) | :white_circle: | :white_circle: |
 | C6 | [Climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#6-climate-normals) | :white_circle: | :white_circle: |
 | C7 | [Spatial climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#7-spatial-climate-normals) | :white_circle: | :white_circle: |
