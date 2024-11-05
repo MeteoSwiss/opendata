@@ -48,12 +48,13 @@ In the event of malfunctions at land-based stations,
 
 ## Understanding MeteoSwiss' Open Data products
 The documentations of the Open Data products linked below explain what the data represents, its models, abstractions and terminology.
+
 The *Open Data products in italics* are not yet realised.
 
 ### A - Ground-based Measurements
 |    |    | generated | integrated | accessible |
 |:-----:|:-----|:-----:|:-----:|:-----:|
-| A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#1-automatic-weather-stations-measured-values) | :green_circle: | :yellow_circle: | :yellow_circle: |
+| A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#1-automatic-weather-stations-measured-values) | up-to-date | interrupted | yes |
 | A2 | [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#2-automatic-precipitation-stations-measured-values) | :red_circle: | :red_circle: | :red_circle: |
 | A3 | [Automatic tower stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#3-automatic-tower-stations-measured-values) | :red_circle: | :red_circle: | :red_circle: |
 | A4 | *Automatic soil stations – Measured values* | :white_circle: | :white_circle: | :white_circle: |
