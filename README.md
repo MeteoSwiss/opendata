@@ -43,8 +43,8 @@ In the event of malfunctions at land-based stations,
 - check for according messages of [interruptions in data availability](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html).
 
 **Operational Status & Contact** 
-| # | Step / System | Status | Contact |
-|:-----:|:-----|:-----:|:-----|
+| # | Steps / Systems | Status | Contact & Resposibility |
+|:-----:|:-----|:-----|:-----|
 | 1 | Data collection, generation & integration | [see below per Open Data product](https://github.com/MeteoSwiss/opendata/blob/main/README.md#understanding-meteoswiss-open-data-products) | [Open Data Support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) <br> Federal Office of Meteorology and Climatology MeteoSwiss |
 | 2 | Data download service | :green_circle: UP | [geo.admin.ch](https://www.geo.admin.ch/en/impressum-responsibilities-and-contacts) <br> Federal Office of Topography swisstopo |
 | 3 | Geo metadata catalog | :green_circle: UP | [geocat.ch](https://info.geocat.ch/en/contact) <br> Federal Office of Topography swisstopo |
