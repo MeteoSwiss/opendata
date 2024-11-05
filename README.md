@@ -79,11 +79,11 @@ The *Open Data products in italics* are not yet realised.
 |    |    | latest data generated | latest data integrated | data accessible |
 |:-----:|:-----|:-----:|:-----:|:-----:|
 | B1 | [Radio soundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | :white_circle: | :white_circle: | :white_circle: |
-| B2 | *Raman-LIDAR for Meteorological Observation (RALMO)* | :white_circle: | :white_circle: | :white_circle: |
-| B3 | *LIDAR Ceilometer CHM15K* | :white_circle: | :white_circle: | :white_circle: |
-| B4 | *Ozone measurements – Total column (Dobson, Brewer)* | :white_circle: | :white_circle: | :white_circle: |
-| B5 | *Ozone measurements – Profiles (O3 radio soundings, SOMORA)* | :white_circle: | :white_circle: | :white_circle: |
-| B6 | *Swiss Alpine Climate Radiation Monitoring (SACRaM)* | :white_circle: | :white_circle: | :white_circle: |
+| B2 | *Raman-LIDAR for Meteorological Observation (RALMO)* | :white_circle: not yet realised |  :white_circle: not yet realised |  :white_circle: not yet realised |
+| B3 | *LIDAR Ceilometer CHM15K* | :white_circle: not yet realised |  :white_circle: not yet realised |  :white_circle: not yet realised |
+| B4 | *Ozone measurements – Total column (Dobson, Brewer)* | :white_circle: not yet realised |  :white_circle: not yet realised |  :white_circle: not yet realised |
+| B5 | *Ozone measurements – Profiles (O3 radio soundings, SOMORA)* | :white_circle: not yet realised |  :white_circle: not yet realised |  :white_circle: not yet realised |
+| B6 | *Swiss Alpine Climate Radiation Monitoring (SACRaM)* | :white_circle: not yet realised |  :white_circle: not yet realised |  :white_circle: not yet realised |
 
 ### C - Climate Data
 |    |    | latest data generated | latest data integrated | data accessible |
