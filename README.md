@@ -40,7 +40,7 @@ geo.admin.ch's download service will not be subject to big breaking changes, bec
 - please check [Release Notes](..) (upcoming) where swisstopo announces released changes that might affect your integration.
 
 **Operational Status & Contact** 
-|    |    | Status | Contact |
+|    |    | Status | Contact, Organisation |
 |:-----:|:-----|:-----|:-----|
 | 1 | [geo.admin.ch](https://www.geo.admin.ch/en/rest-interface-stac-api) download service | :green_circle: UP | [Operation geo.admin.ch](https://www.geo.admin.ch/en/impressum-responsibilities-and-contacts), Federal Office of Topography swisstopo |
 | 2 | [geocat.ch](https://www.geocat.ch/datahub/search?publisher=Federal%20Office%20of%20Meteorology%20and%20Climatology%20MeteoSwiss) metadata catalog | :green_circle: UP | [geocat.ch](https://info.geocat.ch/en/contact), Federal Office of Topography swisstopo |
