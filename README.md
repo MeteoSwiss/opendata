@@ -50,7 +50,7 @@ In the event of malfunctions at land-based stations,
 The documentation of each **Open Data product** listed below explains what the data represents, its models, abstractions and terminology.
 
 ### A - Ground-based Measurements
-|    | Open Data product | generated | integrated | accessible |
+|    |    | generated | integrated | accessible |
 |:-----:|:-----|:-----:|:-----:|:-----:|
 | A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#1-automatic-weather-stations-measured-values) | :green_circle: | :yellow_circle: | :yellow_circle: |
 | A2 | [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#2-automatic-precipitation-stations-measured-values) | :red_circle: | :red_circle: | :red_circle: |
@@ -63,7 +63,7 @@ The documentation of each **Open Data product** listed below explains what the d
 | A9 | [Phenological observations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#9-phenological-observations) | :red_circle: | :red_circle: | :red_circle: |
 
 ### B - Atmosphere Measurements
-|    | Open Data product | generated | integrated | accessible |
+|    |    | generated | integrated | accessible |
 |:-----:|:-----|:-----:|:-----:|:-----:|
 | B1 | [Radio soundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | :red_circle: | :red_circle: | :red_circle: |
 | B2 | Raman-LIDAR for Meteorological Observation (RALMO) */ not yet realised* | :white_circle: | :white_circle: | :white_circle: |
@@ -73,7 +73,7 @@ The documentation of each **Open Data product** listed below explains what the d
 | B6 | wiss Alpine Climate Radiation Monitoring (SACRaM) */ not yet realised* | :white_circle: | :white_circle: | :white_circle: |
 
 ### C - Climate Data
-|    | Open Data product | generated | integrated | accessible |
+|    |    | generated | integrated | accessible |
 |:-----:|:-----|:-----:|:-----:|:-----:|
 | C1 | [Climate stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#1-climate-stations-homogeneous-measurements) | :red_circle: | :red_circle: | :red_circle: |
 | C2 | [Climate precipitation stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#2-climate-precipitation-stations-homogeneous-measurements) | :red_circle: | :red_circle: | :red_circle: |
@@ -85,7 +85,7 @@ The documentation of each **Open Data product** listed below explains what the d
 | C8 | [Climate scenarios](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#8-climate-scenarios) | :red_circle: | :red_circle: | :red_circle: |
 
 ### D - Radar Data
-|    | Open Data product | generated | integrated | accessible |
+|    |    | generated | integrated | accessible |
 |:-----:|:-----|:-----:|:-----:|:-----:|
 | D1 | [Basic radar data](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#1-basic-radar-data) | :red_circle: | :red_circle: | :red_circle: |
 | D2 | [Extended radar data](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#2-extended-radar-data) | :red_circle: | :red_circle: | :red_circle: |
