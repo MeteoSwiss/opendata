@@ -39,7 +39,7 @@ We continuously update these based on questions received. -->
 Our Download API will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](https://www.swisstopo.admin.ch/en) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, 
 - please check [Release Notes](..) (upcoming) where swisstopo announces released changes that might affect your integration.
 
-| [data download](https://www.geo.admin.ch/en/rest-schnittstelle-stac-api) accessible | [metadata catalog](https://www.geocat.ch/datahub/search?publisher=Federal%20Office%20of%20Meteorology%20and%20Climatology%20MeteoSwiss) accessible |
+| [data download service](https://www.geo.admin.ch/en/rest-schnittstelle-stac-api) accessible | [metadata catalog](https://www.geocat.ch/datahub/search?publisher=Federal%20Office%20of%20Meteorology%20and%20Climatology%20MeteoSwiss) accessible |
 |:-----:|:-----:|
 | :green_circle: Y | :green_circle: Y |
 
