@@ -52,7 +52,7 @@ The documentations of the Open Data products linked below explain what the data 
 The *Open Data products in italics* are not yet realised.
 
 ### A - Ground-based Measurements
-|    |    | latest data generated | latest data integrated | [data](https://www.geo.admin.ch/de/rest-schnittstelle-stac-api) accessible |
+|    |    | latest data generated | latest data integrated | [data download](https://www.geo.admin.ch/en/rest-schnittstelle-stac-api) accessible |
 |:-----:|:-----|:-----:|:-----:|:-----:|
 | A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#1-automatic-weather-stations-measured-values) | :green_circle: Y | :yellow_circle: INTRPT | :green_circle: Y |
 | A2 | [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#2-automatic-precipitation-stations-measured-values) | :white_circle: | :white_circle: | :white_circle: |
