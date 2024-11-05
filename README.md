@@ -39,6 +39,9 @@ We continuously update these based on questions received. -->
 geo.admin.ch's download service will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](https://www.swisstopo.admin.ch/en) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, 
 - please check [Release Notes](..) (upcoming) where swisstopo announces released changes that might affect your integration.
 
+In the event of malfunctions at land-based stations, 
+- check for according messages of [interruptions in data availability](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html).
+
 **Operational Status & Contact** 
 |    |    | Status | Contact, Organisation |
 |:-----:|:-----|:-----|:-----|
@@ -47,9 +50,6 @@ geo.admin.ch's download service will not be subject to big breaking changes, bec
 | 3 | [opendata.swiss](https://opendata.swiss/en/organization/bundesamt-fur-meteorologie-und-klimatologie-meteoschweiz) metadata catalog | :red_circle: DOWN | [OGD Office](https://opendata.swiss/en/contact), Federal Statistical Office FSO |
 
 <!-- For operational status, see [Download API Status & Contact](https://github.com/MeteoSwiss/opendata-status/blob/main/README.md) (upcoming). --> 
-
-In the event of malfunctions at land-based stations, 
-- check for according messages of [interruptions in data availability](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html).
 
 <!-- We keep interested parties and users up to date on our plans and changes:
 - Register here for [our mailing list](...). --> 
