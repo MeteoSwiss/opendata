@@ -14,7 +14,7 @@ From April 2025, MeteoSwiss will make its data freely available to the public as
 
 The data can be **[downloaded as pre-processed files](https://github.com/MeteoSwiss/opendata/blob/main/README.md#getting-started-with-download)**. In a later stage, customised queries via API will also be possible.
 
-| A <br> [Ground-based Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#a--ground-based-measurements) | B <br> [Atmosphere Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#b--atmosphere-measurements) | C <br> [Climate Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#c--climate-data) | D <br> [Radar Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#d--radar-data) | E <br> [Forecast Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#e--forecast-data) |
+| A <br> [Ground-based Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#a---ground-based-measurements) | B <br> [Atmosphere Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#b---atmosphere-measurements) | C <br> [Climate Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#c---climate-data) | D <br> [Radar Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#d---radar-data) | E <br> [Forecast Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#e---forecast-data) |
 |-----|-----|-----|-----|-----|
 
 > [!NOTE]
@@ -46,8 +46,8 @@ In the event of malfunctions at land-based stations,
 <!-- We keep interested parties and users up to date on our plans and changes:
 - Register here for [our mailing list](...). --> 
 
-## Understanding MeteoSwiss' Open Data
-The documentation of each Open Data product listed below explains what the data represents, its models, abstractions and terminology.
+## Understanding MeteoSwiss' Open Data products
+The documentation of each **Open Data product** listed below explains what the data represents, its models, abstractions and terminology.
 
 ### A - Ground-based Measurements
 |    | Open Data product | generated | integrated | accessible |
@@ -87,9 +87,9 @@ The documentation of each Open Data product listed below explains what the data 
 ### D - Radar Data
 |    | Open Data product | generated | integrated | accessible |
 |:-----:|:-----|:-----:|:-----:|:-----:|
-1. [Basic radar data](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#1-basic-radar-data)
-2. [Extended radar data](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#2-extended-radar-data)
-3. [Combined precipitation calculations](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#3-combined-precipitation-calculations)
+| D1 | [Basic radar data](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#1-basic-radar-data) | :red_circle: | :red_circle: | :red_circle: |
+| D2 | [Extended radar data](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#2-extended-radar-data) | :red_circle: | :red_circle: | :red_circle: |
+| D3 | [Combined precipitation calculations](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#3-combined-precipitation-calculations) | :red_circle: | :red_circle: | :red_circle: |
 
 ### E - Forecast Data
 1. [Short-term forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#1-short-term-forecast-data)
