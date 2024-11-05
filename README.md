@@ -43,12 +43,13 @@ In the event of malfunctions at land-based stations,
 - check for according messages of [interruptions in data availability](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html).
 
 #### Operational Status & Contact 
-| # | Steps / Systems | Status | Contact & Resposibility |
-|:-----:|:-----|:-----|:-----|
-| 1 | Data collection, generation & integration | [see below per Open Data product](https://github.com/MeteoSwiss/opendata/blob/main/README.md#understanding-meteoswiss-open-data-products) | [Open Data Support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) <br> Federal Office of Meteorology and Climatology MeteoSwiss |
-| 2 | Data download service | :green_circle: UP | [geo.admin.ch](https://www.geo.admin.ch/en/impressum-responsibilities-and-contacts) <br> Federal Office of Topography swisstopo |
-| 3 | Geo metadata catalog | :green_circle: UP | [geocat.ch](https://info.geocat.ch/en/contact) <br> Federal Office of Topography swisstopo |
-| 4 | Open Government Data metadata catalog | :yellow_circle: DOWN | [OGD Office](https://opendata.swiss/en/contact) <br> Federal Statistical Office FSO |
+| Steps / Systems | Contact Point | Status |
+|:-----|:-----|:-----|
+| Open Data generation & integration | MeteoSwiss' [Open Data Support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) | [see below per Open Data product](https://github.com/MeteoSwiss/opendata/blob/main/README.md#understanding-meteoswiss--open-data)
+| Open Data download service | swisstopo's [geo.admin.ch Operations](https://www.geo.admin.ch/en/impressum-responsibilities-and-contacts) | :green_circle: UP |
+| ... | CSCS' [... Operations](...) | :white_circle: UP |
+| Geodata metadata catalog | swisstopo's [geocat.ch ](https://info.geocat.ch/en/contact) | :yellow_circle: PoC |
+| opendata.swiss metadata catalog | FSO's [OGD Office](https://opendata.swiss/en/contact) | :white_circle: |
 
 <br>
 
@@ -63,7 +64,7 @@ The documentations of the Open Data products linked below explain what the data 
 The *Open Data products in italics* are not yet realised.
 
 ### A - Ground-based Measurements
-|    |    | latest open data generated | latest open data integrated |
+|    |    | latest Open Data generated | latest Open Data integrated |
 |:-----:|:-----|:-----:|:-----:|
 | A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a1---automatic-weather-stations---measured-values) | :yellow_circle: PoC | :yellow_circle: PoC |
 | A2 | [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a2---automatic-precipitation-stations---measured-values) | :white_circle: | :white_circle: |
@@ -76,7 +77,7 @@ The *Open Data products in italics* are not yet realised.
 | A9 | [Phenological observations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a9---phenological-observations) | :white_circle: | :white_circle: |
 
 ### B - Atmosphere Measurements
-|    |    | latest open data generated | latest open data integrated |
+|    |    | latest Open Data generated | latest Open Data integrated |
 |:-----:|:-----|:-----:|:-----:|
 | B1 | [Radio soundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | :white_circle: | :white_circle: |
 | B2 | *Raman-LIDAR for Meteorological Observation (RALMO)* | *not yet realised* | *not yet realised* |
@@ -86,7 +87,7 @@ The *Open Data products in italics* are not yet realised.
 | B6 | *Swiss Alpine Climate Radiation Monitoring (SACRaM)* | *not yet realised* | *not yet realised* |
 
 ### C - Climate Data
-|    |    | latest open data generated | latest open data integrated |
+|    |    | latest Open Data generated | latest Open Data integrated |
 |:-----:|:-----|:-----:|:-----:|
 | C1 | [Climate stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#1-climate-stations-homogeneous-measurements) | :white_circle: | :white_circle: |
 | C2 | [Climate precipitation stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#2-climate-precipitation-stations-homogeneous-measurements) | :white_circle: | :white_circle: |
@@ -98,7 +99,7 @@ The *Open Data products in italics* are not yet realised.
 | C8 | [Climate scenarios](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#8-climate-scenarios) | :white_circle: | :white_circle: |
 
 ### D - Radar Data
-|    |    | latest open data generated | latest open data integrated |
+|    |    | latest Open Data generated | latest Open Data integrated |
 |:-----:|:-----|:-----:|:-----:|
 | D1 | [Basic radar data](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#1-basic-radar-data) | :white_circle: | :white_circle: |
 | D2 | [Extended radar data](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#2-extended-radar-data) | :white_circle: | :white_circle: |
@@ -106,7 +107,7 @@ The *Open Data products in italics* are not yet realised.
 | D4 | *3D radar data* | *not yet realised* | *not yet realised* |
 
 ### E - Forecast Data
-|    |    | latest open data generated | latest open data integrated |
+|    |    | latest Open Data generated | latest Open Data integrated |
 |:-----:|:-----|:-----:|:-----:|
 | E1 | [Short-term forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#1-short-term-forecast-data) | :white_circle: | :white_circle: |
 | E2 | [Numerical weather forecasting model CH1](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-numerical-weather-forecasting-model) | :white_circle: | :white_circle: |
