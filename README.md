@@ -103,11 +103,14 @@ The *Open Data products in italics* are not yet realised.
 | D1 | [Basic radar data](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#1-basic-radar-data) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
 | D2 | [Extended radar data](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#2-extended-radar-data) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
 | D3 | [Combined precipitation calculations](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#3-combined-precipitation-calculations) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
+| D4 | *3D radar data* | *not yet realised* | *not yet realised* | *not yet realised* |
 
 ### E - Forecast Data
 |    |    | data availability | latest open data generated | latest open data integrated |
 |:-----:|:-----|:-----:|:-----:|:-----:|
+| E1 | [Short-term forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#1-short-term-forecast-data) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
+| E2 | [Numerical weather forecasting model CH1](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-numerical-weather-forecasting-model) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
+| E3 | [Numerical weather forecasting model CH2](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-numerical-weather-forecasting-model) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
+| E4 | [Local forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#3-local-forecast-data) | :green_circle: YES | :green_circle: YES | :green_circle: YES |
 
-1. [Short-term forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#1-short-term-forecast-data)
-2. [Numerical weather forecasting model](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-numerical-weather-forecasting-model)
-3. [Local forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#3-local-forecast-data)
+<br>
