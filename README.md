@@ -41,10 +41,10 @@ geo.admin.ch's download service will not be subject to big breaking changes, bec
 
 **Operational Status & Contact** 
 |    |    | Status | Contact |
-|:-----:|:-----|:-----:|:-----:|
-| 1 | [geo.admin.ch download service](https://www.geo.admin.ch/en/rest-interface-stac-api) | :green_circle: UP | [Operation geo.admin.ch, Federal Office of Topography swisstopo](https://www.geo.admin.ch/en/impressum-responsibilities-and-contacts) |
-| 2 | [geocat.ch metadata catalog](https://www.geocat.ch/datahub/search?publisher=Federal%20Office%20of%20Meteorology%20and%20Climatology%20MeteoSwiss) | :green_circle: UP | [geocat.ch, Federal Office of Topography swisstopo](https://info.geocat.ch/en/contact) |
-| 3 | [opendata.swiss metadata catalog](https://opendata.swiss/en/organization/bundesamt-fur-meteorologie-und-klimatologie-meteoschweiz) | :red_circle: DOWN | [OGD Office, Federal Statistical Office](https://opendata.swiss/en/contact) |
+|:-----:|:-----|:-----|:-----|
+| 1 | [geo.admin.ch](https://www.geo.admin.ch/en/rest-interface-stac-api) download service | :green_circle: UP | [Operation geo.admin.ch](https://www.geo.admin.ch/en/impressum-responsibilities-and-contacts), Federal Office of Topography swisstopo |
+| 2 | [geocat.ch](https://www.geocat.ch/datahub/search?publisher=Federal%20Office%20of%20Meteorology%20and%20Climatology%20MeteoSwiss) metadata catalog | :green_circle: UP | [geocat.ch](https://info.geocat.ch/en/contact), Federal Office of Topography swisstopo |
+| 3 | [opendata.swiss](https://opendata.swiss/en/organization/bundesamt-fur-meteorologie-und-klimatologie-meteoschweiz) metadata catalog | :red_circle: DOWN | [OGD Office](https://opendata.swiss/en/contact), Federal Statistical Office FSO |
 
 <!-- For operational status, see [Download API Status & Contact](https://github.com/MeteoSwiss/opendata-status/blob/main/README.md) (upcoming). --> 
 
