@@ -107,7 +107,7 @@ The *Open Data products in italics* are not yet realised.
 
 ### E - Forecast Data
 |    |    | latest open data generated | latest open data integrated |
-|:-----:|:-----|:-----:|:-----:|:-----:|
+|:-----:|:-----|:-----:|:-----:|
 | E1 | [Short-term forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#1-short-term-forecast-data) | :white_circle: | :white_circle: |
 | E2 | [Numerical weather forecasting model CH1](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-numerical-weather-forecasting-model) | :white_circle: | :white_circle: |
 | E3 | [Numerical weather forecasting model CH2](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-numerical-weather-forecasting-model) | :white_circle: | :white_circle: |
