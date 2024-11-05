@@ -50,6 +50,8 @@ In the event of malfunctions at land-based stations,
 | 3 | [geocat.ch](https://www.geocat.ch/datahub/search?publisher=Federal%20Office%20of%20Meteorology%20and%20Climatology%20MeteoSwiss) metadata catalog | :green_circle: UP | [geocat.ch](https://info.geocat.ch/en/contact) <br> Federal Office of Topography swisstopo |
 | 4 | [opendata.swiss](https://opendata.swiss/en/organization/bundesamt-fur-meteorologie-und-klimatologie-meteoschweiz) metadata catalog | :red_circle: DOWN | [OGD Office](https://opendata.swiss/en/contact) <br> Federal Statistical Office FSO |
 
+<br>
+
 <!-- For operational status, see [Download API Status & Contact](https://github.com/MeteoSwiss/opendata-status/blob/main/README.md) (upcoming). --> 
 
 <!-- We keep interested parties and users up to date on our plans and changes:
