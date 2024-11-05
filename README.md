@@ -47,10 +47,10 @@ In the event of malfunctions at land-based stations,
 - Register here for [our mailing list](...). --> 
 
 ## Understanding MeteoSwiss' Open Data products
-The documentation of the **Open Data products** listed below explains what the data represents, its models, abstractions and terminology.
+The documentation of the Open Data products linked below explains what the data represents, its models, abstractions and terminology.
 
 > [!NOTE]
-> Products ***in italics*** are not yet realised.
+> *Open Data products in italics* are not yet realised.
 
 ### A - Ground-based Measurements
 |    |    | generated | integrated | accessible |
