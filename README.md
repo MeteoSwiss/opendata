@@ -23,12 +23,12 @@ The data can be **[downloaded as pre-processed files](https://github.com/MeteoSw
 ## General information
 
 ### Terms of Use
-[Here](https://github.com/MeteoSwiss/opendata-terms-of-use/blob/main/README.md) you'll find information about data license and conditions for usage.
+[Here](https://github.com/MeteoSwiss/opendata-terms-of-use/blob/main/README.md) *[upcoming]* you'll find information about data license and conditions for usage.
 
-<!-- ### FAQ
-[Here](https://github.com/MeteoSwiss/opendata-faq/blob/main/README.md) you'll find answers to the most frequently asked questions. 
+# Frequently asked Questions
+[Here](https://github.com/MeteoSwiss/opendata-faq/blob/main/README.md) *[upcoming]* you'll find answers to the most frequently asked questions. 
 
-We continuously update these based on questions received. -->
+We continuously update these based on questions received.
 
 ### Getting Started with Download
 [Here](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md) you'll find information about data granularity, structure and update cycle, time stamps and time intervals as well as on column separators, decimal dividers and missing values.
