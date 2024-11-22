@@ -101,8 +101,8 @@ The *Open Data products in italics* are not yet realised.
 ### D - Radar Data
 |    |    | latest Open Data generated | latest Open Data integrated |
 |:-----:|:-----|:-----:|:-----:|
-| D1 | [Basic radar data](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#1-basic-radar-data) | :white_circle: | :white_circle: |
-| D2 | [Extended radar data](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#2-extended-radar-data) | :white_circle: | :white_circle: |
+| D1 | [..](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#1-basic-radar-data) | :white_circle: | :white_circle: |
+| D2 | [..](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#2-extended-radar-data) | :white_circle: | :white_circle: |
 | D3 | [Combined precipitation products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#3-combined-precipitation-products) | :white_circle: | :white_circle: |
 | D4 | *3D radar data* | *not yet realised* | *not yet realised* |
 
