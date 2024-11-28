@@ -101,11 +101,11 @@ The *Open Data products in italics* are not yet realised.
 ### D - Radar Data
 |    |    | latest Open Data generated | latest Open Data integrated |
 |:-----:|:-----|:-----:|:-----:|
-| D1 | [Precipitation Products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | :white_circle: | :white_circle: |
-| D2 | [Reflectivity-based Products - ... ?](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | :white_circle: | :white_circle: |
-| D3 | [Hail Products - Probability of Hail, Maximum Expected Severe Hail Size](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | :white_circle: | :white_circle: |
-| D4 | *[Convection Products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data)* | *not yet realised* | *not yet realised* |
-| D5 | *[Polar 3D Products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data)* | *not yet realised* | *not yet realised* |
+| D1 | [Precipitation Radar Products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | :white_circle: | :white_circle: |
+| D2 | [Reflectivity-based Radar Products - ... ?](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | :white_circle: | :white_circle: |
+| D3 | [Hail Radar Products - Probability of Hail, Maximum Expected Severe Hail Size](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | :white_circle: | :white_circle: |
+| D4 | *[Convection Radar Products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data)* | *not yet realised* | *not yet realised* |
+| D5 | *[Polar 3D Radar Products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data)* | *not yet realised* | *not yet realised* |
 
 ### E - Forecast Data
 |    |    | latest Open Data generated | latest Open Data integrated |
