@@ -66,34 +66,34 @@ The *Open Data products in italics* are not yet realised.
 ### A - Ground-based Measurements
 |    |    | latest Open Data generated | latest Open Data integrated |
 |:-----:|:-----|:-----:|:-----:|
-| A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a1---automatic-weather-stations---measured-values) | :yellow_circle: PoC | available as BETA in Q1-2025 |
-| A2 | [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a2---automatic-precipitation-stations---measured-values) | :white_circle: | available as BETA in Q1-2025 |
-| A3 | [Automatic tower stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/tree/main?tab=readme-ov-file#a3---automatic-tower-stations---measured-values) | :white_circle: | available as BETA in Q1-2025 |
+| A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a1---automatic-weather-stations---measured-values) | :green_circle: | available as BETA in Q1-2025 |
+| A2 | [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a2---automatic-precipitation-stations---measured-values) | :green_circle: | available as BETA in Q1-2025 |
+| A3 | [Automatic tower stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/tree/main?tab=readme-ov-file#a3---automatic-tower-stations---measured-values) | :green_circle: | available as BETA in Q1-2025 |
 | A4 | *[Automatic soil stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a4---automatic-soil-stations---measured-values)* | *not yet realised* |  |
-| A5 | [Manual precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a5---manual-precipitation-stations---measured-values) | :white_circle: | available as BETA in Q1-2025 |
-| A6 | [Totaliser precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a6---totaliser-precipitation-stations---measured-values) | :white_circle: | available as BETA in Q1-2025 |
-| A7 | [Pollen stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a7---pollen-stations---measured-values) | :white_circle: | available as BETA in Q1-2025 |
-| A8 | [Meteorological visual observations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a8---meteorological-visual-observations) | :white_circle: | available as BETA in Q1-2025 |
-| A9 | [Phenological observations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a9---phenological-observations) | :white_circle: | available as BETA in Q1-2025 |
+| A5 | [Manual precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a5---manual-precipitation-stations---measured-values) | :green_circle: | available as BETA in Q1-2025 |
+| A6 | [Totaliser precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a6---totaliser-precipitation-stations---measured-values) | :green_circle: | available as BETA in Q1-2025 |
+| A7 | [Pollen stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a7---pollen-stations---measured-values) | :green_circle: | available as BETA in Q1-2025 |
+| A8 | [Meteorological visual observations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a8---meteorological-visual-observations) | :green_circle: | available as BETA in Q1-2025 |
+| A9 | [Phenological observations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a9---phenological-observations) | :green_circle: | available as BETA in Q1-2025 |
 
 ### B - Atmosphere Measurements
 |    |    | latest Open Data generated | latest Open Data integrated |
 |:-----:|:-----|:-----:|:-----:|
 | B1 | [Radio soundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | :white_circle: | :white_circle: |
-| B2 | *Raman-LIDAR for Meteorological Observation (RALMO)* | *not yet realised* | *not yet realised* |
-| B3 | *LIDAR Ceilometer CHM15K* | *not yet realised* | *not yet realised* |
-| B4 | *Ozone measurements – Total column (Dobson, Brewer)* | *not yet realised* | *not yet realised* |
-| B5 | *Ozone measurements – Profiles (O3 radio soundings, SOMORA)* | *not yet realised* | *not yet realised* |
-| B6 | *Swiss Alpine Climate Radiation Monitoring (SACRaM)* | *not yet realised* | *not yet realised* |
+| B2 | *Raman-LIDAR for Meteorological Observation (RALMO)* | *not yet realised* |  |
+| B3 | *LIDAR Ceilometer CHM15K* | *not yet realised* |  |
+| B4 | *Ozone measurements – Total column (Dobson, Brewer)* | *not yet realised* |  |
+| B5 | *Ozone measurements – Profiles (O3 radio soundings, SOMORA)* | *not yet realised* |  |
+| B6 | *Swiss Alpine Climate Radiation Monitoring (SACRaM)* | *not yet realised* |  |
 
 ### C - Climate Data
 |    |    | latest Open Data generated | latest Open Data integrated |
 |:-----:|:-----|:-----:|:-----:|
-| C1 | [Climate stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#1-climate-stations-homogeneous-measurements) | :white_circle: | available as BETA in Q1-2025 |
-| C2 | [Climate precipitation stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#2-climate-precipitation-stations-homogeneous-measurements) | :white_circle: | available as BETA in Q1-2025 |
+| C1 | [Climate stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#1-climate-stations-homogeneous-measurements) | :green_circle: | available as BETA in Q1-2025 |
+| C2 | [Climate precipitation stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#2-climate-precipitation-stations-homogeneous-measurements) | :green_circle: | available as BETA in Q1-2025 |
 | C3 | [*Ground-based* spatial climate data - Precipitation, Temperature, Relative Sunshine Duration](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#c3---ground-based-spatial-climate-data) | :yellow_circle: PoC | :yellow_circle: PoC |
 | C4 | [*Satellite-based* spatial climate data - Global, Diffuse & Direct Radiation, Cloud Fractional Cover](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#c4---satellite-based-spatial-climate-data) | :yellow_circle: PoC | :yellow_circle: PoC |
-| C5 | [*Radar-based* spatial climate data - Maximum Hailstone Size, Number of Hail Days](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#c5---radar-based-spatial-climate-data) | *will be made available in May 2025* | *will be available in May 2025* |
+| C5 | [*Radar-based* spatial climate data - Maximum Hailstone Size, Number of Hail Days](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#c5---radar-based-spatial-climate-data) | :white_circle: | *will be available in May 2025* |
 | C6 | [Climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#6-climate-normals) | :white_circle: | :white_circle: |
 | C7 | [Spatial climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#7-spatial-climate-normals) | :white_circle: | :white_circle: |
 | C8 | [Climate scenarios](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#8-climate-scenarios) | :white_circle: | :white_circle: |
