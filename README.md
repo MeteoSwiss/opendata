@@ -25,7 +25,7 @@ The data can be **[downloaded as pre-processed files](https://github.com/MeteoSw
 ### Terms of Use
 [Here](https://github.com/MeteoSwiss/opendata-terms-of-use/blob/main/README.md) *[upcoming]* you'll find information about data license and conditions for usage.
 
-# Frequently asked Questions
+### Frequently asked Questions
 [Here](https://github.com/MeteoSwiss/opendata-faq/blob/main/README.md) *[upcoming]* you'll find answers to the most frequently asked questions. 
 
 We continuously update these based on questions received.
