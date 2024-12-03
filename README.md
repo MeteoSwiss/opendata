@@ -66,7 +66,7 @@ The *Open Data products in italics* are not yet realised.
 ### A - Ground-based Measurements
 |    |    | latest Open Data generated | latest Open Data integrated |
 |:-----:|:-----|:-----:|:-----:|
-| A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a1---automatic-weather-stations---measured-values) | :green_circle: | available as BETA in Q1-2025 |
+| A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a1---automatic-weather-stations---measured-values) | :green_circle: | :yellow_circle: [POC](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn/items/hai?.language=en) <br> available as BETA in Q1-2025 |
 | A2 | [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a2---automatic-precipitation-stations---measured-values) | :green_circle: | available as BETA in Q1-2025 |
 | A3 | [Automatic tower stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/tree/main?tab=readme-ov-file#a3---automatic-tower-stations---measured-values) | :green_circle: | available as BETA in Q1-2025 |
 | A4 | *[Automatic soil stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a4---automatic-soil-stations---measured-values)* | *not yet realised* |  |
