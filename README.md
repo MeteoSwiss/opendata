@@ -72,7 +72,7 @@ The documentations of the Open Data products linked below explain what the data 
 | A1 | [Automatic weather stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a1---automatic-weather-stations---measured-values) | :yellow_circle: | :yellow_circle: [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn) [`hai`](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn/items/hai?.language=en) <!-- available as BETA in Q1-2025 --> |
 | A2 | [Automatic precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a2---automatic-precipitation-stations---measured-values) | :yellow_circle: | :yellow_circle: [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn-precip) <!-- available as BETA in Q1-2025 --> |
 | A3 | [Automatic tower stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/tree/main?tab=readme-ov-file#a3---automatic-tower-stations---measured-values) | :yellow_circle: | :yellow_circle: [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn-tower) <!-- available as BETA in Q1-2025 --> |
-| A4 | [Automatic soil stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a4---automatic-soil-stations---measured-values) <br> - *Collection of this data is not yet implemented.* |  |  |
+| A4 | [Automatic soil stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a4---automatic-soil-stations---measured-values) <br> *Collection of this data type is not yet realised.* | :white_circle: | :white_circle: |
 | A5 | [Manual precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a5---manual-precipitation-stations---measured-values) | :yellow_circle: | :yellow_circle: [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nime) <!-- available as BETA in Q1-2025 --> |
 | A6 | [Totaliser precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a6---totaliser-precipitation-stations---measured-values) | :yellow_circle: | :yellow_circle: [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-tot) <!-- available as BETA in Q1-2025 --> |
 | A7 | [Pollen stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a7---pollen-stations---measured-values) | :yellow_circle: | :yellow_circle: [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-pollen) <!-- available as BETA in Q1-2025 --> |
@@ -83,11 +83,11 @@ The documentations of the Open Data products linked below explain what the data 
 |    |    | latest Open Data generated | latest Open Data integrated |
 |:-----:|:-----|:-----:|:-----:|
 | B1 | [Radio soundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | :white_circle: | :white_circle: |
-| B2 | *Raman-LIDAR for Meteorological Observation (RALMO)* | *not yet realised* |  |
-| B3 | *LIDAR Ceilometer CHM15K* | *not yet realised* |  |
-| B4 | *Ozone measurements – Total column (Dobson, Brewer)* | *not yet realised* |  |
-| B5 | *Ozone measurements – Profiles (O3 radio soundings, SOMORA)* | *not yet realised* |  |
-| B6 | *Swiss Alpine Climate Radiation Monitoring (SACRaM)* | *not yet realised* |  |
+| B2 | Raman-LIDAR for Meteorological Observation (RALMO) | *not yet realised* |  |
+| B3 | LIDAR Ceilometer CHM15K | *not yet realised* |  |
+| B4 | Ozone measurements – Total column (Dobson, Brewer) | *not yet realised* |  |
+| B5 | Ozone measurements – Profiles (O3 radio soundings, SOMORA) | *not yet realised* |  |
+| B6 | Swiss Alpine Climate Radiation Monitoring (SACRaM) | *not yet realised* |  |
 
 ### C - Climate Data
 |    |    | latest Open Data generated | latest Open Data integrated |
