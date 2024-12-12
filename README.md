@@ -1,4 +1,4 @@
-![mch logo](/docs/assets/img/mch_logo.png)
+![MeteoSwiss Logo](/docs/assets/img/mch_logo_en.png)
 
 *Status:* public, in preparation / [change log](https://github.com/MeteoSwiss/opendata/commits/main) <br>
 *Maintainer:* Federal Office of Meteorology and Climatology MeteoSwiss, [opendata.en@meteoswiss.ch](mailto:opendata.en@meteoswiss.ch)
