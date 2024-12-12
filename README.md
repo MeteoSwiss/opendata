@@ -7,7 +7,7 @@
 
 <!-- [Auf Deutschj](#meteoschweiz-open-data) | [En français](#meteosuisse-open-data) | [In italiano](#meteosvizzera-open-data) -->
 
-# Open Data Documentation
+# Open Data - Documentation
 Welcome to MeteoSwiss' Open Data documentation.
 
 <!-- For now MeteoSwiss provides its Open Data to be consumed by **[downloading the data as files](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#getting-started-with-download)**. -->
