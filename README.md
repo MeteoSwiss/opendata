@@ -1,5 +1,7 @@
 ![MeteoSwiss Logo](/docs/assets/img/mch_logo_en.png)
 
+<img width=”250" src=”https://github.com/MeteoSwiss/opendata/blob/main/docs/assets/img/mch_logo_en.png" alt="MeteoSwiss Logo"/>
+
 <img src="https://github.com/MeteoSwiss/opendata/blob/main/docs/assets/img/mch_logo_en.png" alt="MeteoSwiss Logo" width="250"/>
 
 *Status:* public, in preparation / [change log](https://github.com/MeteoSwiss/opendata/commits/main) <br>
