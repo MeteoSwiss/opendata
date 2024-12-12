@@ -1,6 +1,6 @@
 ![MeteoSwiss Logo](/docs/assets/img/mch_logo_en.png)
 
-![MeteoSwiss Logo](/docs/assets/img/mch_logo_en.png | width=250)
+![MeteoSwiss Logo](https://github.com/MeteoSwiss/opendata/blob/main/docs/assets/img/mch_logo_en.png | width=250)
 
 <img src="https://github.com/MeteoSwiss/opendata/blob/main/docs/assets/img/mch_logo_en.png" alt="MeteoSwiss Logo" width="250" height="50"/>
 
