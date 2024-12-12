@@ -1,8 +1,6 @@
 ![MeteoSwiss Logo](/docs/assets/img/mch_logo_en.png)
 
-<img width=”250" height="50" src=”https://rawgithubusercontent.com/MeteoSwiss/opendata/blob/main/docs/assets/img/mch_logo_en.png" alt="MeteoSwiss Logo" />
-
-<img src="https://github.com/MeteoSwiss/opendata/blob/main/docs/assets/img/mch_logo_en.png" alt="MeteoSwiss Logo" width="250"/>
+<img src="https://github.com/MeteoSwiss/opendata/blob/main/docs/assets/img/mch_logo_en.png" alt="MeteoSwiss Logo" style="width:50%; height:auto;"/>
 
 *Status:* public, in preparation / [change log](https://github.com/MeteoSwiss/opendata/commits/main) <br>
 *Maintainer:* Federal Office of Meteorology and Climatology MeteoSwiss, [opendata.en@meteoswiss.ch](mailto:opendata.en@meteoswiss.ch)
