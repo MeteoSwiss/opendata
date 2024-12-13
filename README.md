@@ -10,7 +10,7 @@ Welcome to MeteoSwiss' Open Data documentation.
 
 <!-- For now MeteoSwiss provides its Open Data to be consumed by **[downloading the data as files](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#getting-started-with-download)**. -->
 
-From April 2025, MeteoSwiss will make its data freely available to the public as Open Government Data (OGD). The data can be [downloaded as pre-processed files](https://github.com/MeteoSwiss/opendata/blob/main/README.md#getting-started-with-download). In a later stage, customised queries via API will also be possible.
+From April 2025, MeteoSwiss will make its data freely available to the public as Open Government Data (OGD). The data can be [downloaded as pre-processed files](#getting-started-with-download). In a later stage, customised queries via API will also be possible.
 
 In order to also provide [access to the data via APIs](https://github.com/MeteoSwiss/opendata-api/blob/main/README.md) in future, the necessary preparatory work is underway. As soon as an introduction date for this second type of access can be estimated, it will be communicated here.
 
@@ -18,10 +18,10 @@ In order to also provide [access to the data via APIs](https://github.com/MeteoS
 |   | Category |
 |:-:|:---------|
 | A | [Ground-based Measurements](#a---ground-based-measurements) |
-| B | [Atmosphere Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#b---atmosphere-measurements) |
-| C | [Climate Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#c---climate-data) |
-| D | [Radar Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#d---radar-data) |
-| E | [Forecast Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#e---forecast-data) |
+| B | [Atmosphere Measurements](#b---atmosphere-measurements) |
+| C | [Climate Data](#c---climate-data) |
+| D | [Radar Data](#d---radar-data) |
+| E | [Forecast Data](#e---forecast-data) |
 
 ## General information
 
@@ -31,14 +31,10 @@ In order to also provide [access to the data via APIs](https://github.com/MeteoS
 ### Frequently asked Questions
 [Here](https://github.com/MeteoSwiss/opendata-faq/blob/main/README.md) *[upcoming]* you'll find answers to the most frequently asked questions. 
 
-We continuously update these based on questions received.
-
-If you cannot find an answer to your question, please contact: [opendata.en@meteoswiss.ch](mailto:opendata.en@meteoswiss.ch)
+We continuously update these based on questions received. If you cannot find an answer to your question, please contact: [opendata.en@meteoswiss.ch](mailto:opendata.en@meteoswiss.ch)
 
 ### Getting Started with Download
 [Here](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md) you'll find information about data granularity, structure and update cycle, time stamps and time intervals as well as on column separators, decimal dividers and missing values.
-
-<!-- cf. https://opendatadocs.dmi.govcloud.dk/en/Download --> 
 
 ### Staying up to Date
 geo.admin.ch's download service will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](https://www.swisstopo.admin.ch/en) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, 
@@ -48,20 +44,14 @@ In the event of malfunctions at land-based stations,
 - check for according messages of [interruptions in data availability](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html).
 
 #### Operational Status & Contact 
-| System | Contact Point | Status |
-|:-----|:-----|:-----:|
-| Open Data generation & integration | MeteoSwiss' [Open Data Support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) | [see below per Open Data product](https://github.com/MeteoSwiss/opendata/blob/main/README.md#understanding-meteoswiss-open-data)
-| Open Data download service | MeteoSwiss' [Open Data Support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) | ⚪ |
-| ... | CSCS' [... Operations](...) | ⚪ |
-| Geodata metadata catalog | swisstopo's [geocat.ch ](https://info.geocat.ch/en/contact) | ⚪ |
-| opendata.swiss metadata catalog | FSO's [OGD Office](https://opendata.swiss/en/contact) | ⚪ |
+For operational status, see [Download API Status & Contact](https://github.com/MeteoSwiss/opendata-status/blob/main/README.md) *[upcoming]*
+
+We keep interested parties and users up to date on our plans and changes:
+- **Register here for [our OGD Newsletter](...)** *[upcoming]*
+
+If you cannot find an answer to your question here in our documentation or in our [FAQ](...) *[upcoming]*, contact: [opendata.en@meteoswiss.ch](mailto:opendata.en@meteoswiss.ch).
 
 <br>
-
-<!-- For operational status, see [Download API Status & Contact](https://github.com/MeteoSwiss/opendata-status/blob/main/README.md) (upcoming). --> 
-
-<!-- We keep interested parties and users up to date on our plans and changes:
-- Register here for [our mailing list](...). --> 
 
 ## Understanding MeteoSwiss' Open Data
 The documentations of the Open Data products linked below explain what the data represents, its models, abstractions and terminology.
