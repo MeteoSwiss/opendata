@@ -17,7 +17,7 @@ From April 2025, MeteoSwiss will make its data freely available to the public as
 The data can be **[downloaded as pre-processed files](https://github.com/MeteoSwiss/opendata/blob/main/README.md#getting-started-with-download)**. In a later stage, customised queries via API will also be possible.
 
 ## Available Open Data
-| Category |  |
+|   | Category |
 |:-:|:---------|
 | A | [Ground-based Measurements](#a---ground-based-measurements) |
 | B | [Atmosphere Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#b---atmosphere-measurements) |
