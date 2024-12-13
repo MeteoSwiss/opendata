@@ -16,6 +16,9 @@ From April 2025, MeteoSwiss will make its data freely available to the public as
 
 The data can be **[downloaded as pre-processed files](https://github.com/MeteoSwiss/opendata/blob/main/README.md#getting-started-with-download)**. In a later stage, customised queries via API will also be possible.
 
+> ℹ️ **Note** <br>
+> In order to also provide **[access to the data via APIs](https://github.com/MeteoSwiss/opendata-api/blob/main/README.md) in future**, the necessary preparatory work is underway. As soon as an introduction date for this second type of access can be estimated, it will be communicated here.
+
 ## Available Open Data
 |   | Category |
 |:-:|:---------|
@@ -24,9 +27,6 @@ The data can be **[downloaded as pre-processed files](https://github.com/MeteoSw
 | C | [Climate Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#c---climate-data) |
 | D | [Radar Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#d---radar-data) |
 | E | [Forecast Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#e---forecast-data) |
-
-> ℹ️ **Note** <br>
-> In order to also provide **[access to the data via APIs](https://github.com/MeteoSwiss/opendata-api/blob/main/README.md) in future**, the necessary preparatory work is underway. As soon as an introduction date for this second type of access can be estimated, it will be communicated here.
 
 ## General information
 
