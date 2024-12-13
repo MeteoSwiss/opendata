@@ -23,6 +23,8 @@ In order to also provide [access to the data via APIs](https://github.com/MeteoS
 | D | [Radar Data](#d---radar-data) |
 | E | [Forecast Data](#e---forecast-data) |
 
+<br>
+
 ## General information
 
 ### Terms of Use
