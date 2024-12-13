@@ -79,12 +79,12 @@ The documentations of the Open Data products linked below explain what the data 
 ### B - Atmosphere Measurements
 |    | Dataset/Collection | latest Open Data processed | latest Open Data available |
 |:-----:|:-----|:-----:|:-----:|
-| B1 | [Radio soundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | :white_circle: | :white_circle: |
-| B2 | Raman-LIDAR for Meteorological Observation (RALMO) | *not yet realised* |  |
-| B3 | LIDAR Ceilometer CHM15K | *not yet realised* |  |
-| B4 | Ozone measurements – Total column (Dobson, Brewer) | *not yet realised* |  |
-| B5 | Ozone measurements – Profiles (O3 radio soundings, SOMORA) | *not yet realised* |  |
-| B6 | Swiss Alpine Climate Radiation Monitoring (SACRaM) | *not yet realised* |  |
+| B1 | [Radio soundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | ⚪ | ⚪ |
+| B2 | Raman-LIDAR for Meteorological Observation (RALMO) *- not yet realised* |  |  |
+| B3 | LIDAR Ceilometer CHM15K *- not yet realised* |  |  |
+| B4 | Ozone measurements – Total column (Dobson, Brewer) *- not yet realised* |  |  |
+| B5 | Ozone measurements – Profiles (O3 radio soundings, SOMORA) *- not yet realised* |  |  |
+| B6 | Swiss Alpine Climate Radiation Monitoring (SACRaM) *- not yet realised* |  |  |
 
 ### C - Climate Data
 |    | Dataset/Collection | latest Open Data processed | latest Open Data available |
