@@ -47,9 +47,10 @@ In the event of malfunctions at land-based stations,
 For operational status, see [Download API Status & Contact](https://github.com/MeteoSwiss/opendata-status/blob/main/README.md) *[upcoming]*
 
 We keep interested parties and users up to date on our plans and changes:
-- **Register here for [our OGD Newsletter](...)** *[upcoming]*
+- **[Register for our newsletter](...)** *[upcoming]*
 
-If you cannot find an answer to your question here in our documentation or in our [FAQ](...) *[upcoming]*, contact: [opendata.en@meteoswiss.ch](mailto:opendata.en@meteoswiss.ch).
+If you cannot find an answer to your question here in our documentation or in our [FAQ](...) *[upcoming]*:
+- Contact: [opendata.en@meteoswiss.ch](mailto:opendata.en@meteoswiss.ch).
 
 <br>
 
