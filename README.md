@@ -35,7 +35,8 @@ In order to also provide [access to the data via APIs](https://github.com/MeteoS
 ### Frequently asked Questions
 [Here](https://github.com/MeteoSwiss/opendata-faq/blob/main/README.md) *[upcoming]* you'll find answers to the most frequently asked questions. 
 
-We continuously update these based on questions received. If you cannot find an answer to your question, please contact: [opendata.en@meteoswiss.ch](mailto:opendata.en@meteoswiss.ch)
+We continuously update these based on questions received. If you cannot find an answer to your question, 
+- **contact** [opendata.en@meteoswiss.ch](mailto:opendata.en@meteoswiss.ch)
 
 ### Getting Started with Download
 [Here](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md) you'll find information about data granularity, structure and update cycle, time stamps and time intervals as well as on column separators, decimal dividers and missing values.
