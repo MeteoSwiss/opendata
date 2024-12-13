@@ -71,7 +71,7 @@ The documentations of the Open Data products linked below explain what the data 
 | A1 | [Automatic weather stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a1---automatic-weather-stations---measured-values) | 🟢 | 🟡 [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn) <!-- available as BETA in Q1-2025 --> |
 | A2 | [Automatic precipitation stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a2---automatic-precipitation-stations---measured-values) | 🟢 | 🟡 [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn-precip) <!-- available as BETA in Q1-2025 --> |
 | A3 | [Automatic tower stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/tree/main?tab=readme-ov-file#a3---automatic-tower-stations---measured-values) | 🟡 | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn-tower) <!-- available as BETA in Q1-2025 --> |
-| A4 | [Automatic soil stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a4---automatic-soil-stations---measured-values) *- Data not yet available* |   |   |
+| A4 | [Automatic soil stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a4---automatic-soil-stations---measured-values) *- Data not yet available* | - | - |
 | A5 | [Manual precipitation stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a5---manual-precipitation-stations---measured-values) | 🟡 | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nime) <!-- available as BETA in Q1-2025 --> |
 | A6 | [Totaliser precipitation stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a6---totaliser-precipitation-stations---measured-values) | 🟡 | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-tot) <!-- available as BETA in Q1-2025 --> |
 | A7 | [Pollen stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a7---pollen-stations---measured-values) | 🟡 | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-pollen) <!-- available as BETA in Q1-2025 --> |
@@ -84,11 +84,11 @@ The documentations of the Open Data products linked below explain what the data 
 |    | Dataset/Collection | latest Open Data processed | latest Open Data available |
 |:-----:|:-----|:-----:|:-----:|
 | B1 | [Radio soundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | ⚪ | ⚪ |
-| B2 | Raman-LIDAR for Meteorological Observation (RALMO) *- not yet realised* |  |  |
-| B3 | LIDAR Ceilometer CHM15K *- not yet realised* |  |  |
-| B4 | Ozone measurements – Total column (Dobson, Brewer) *- not yet realised* |  |  |
-| B5 | Ozone measurements – Profiles (O3 radio soundings, SOMORA) *- not yet realised* |  |  |
-| B6 | Swiss Alpine Climate Radiation Monitoring (SACRaM) *- not yet realised* |  |  |
+| B2 | Raman-LIDAR for Meteorological Observation (RALMO) *- not yet realised* | - | - |
+| B3 | LIDAR Ceilometer CHM15K *- not yet realised* | - | - |
+| B4 | Ozone measurements – Total column (Dobson, Brewer) *- not yet realised* | - | - |
+| B5 | Ozone measurements – Profiles (O3 radio soundings, SOMORA) *- not yet realised* | - | - |
+| B6 | Swiss Alpine Climate Radiation Monitoring (SACRaM) *- not yet realised* | - | - |
 
 <br>
 
@@ -99,7 +99,7 @@ The documentations of the Open Data products linked below explain what the data 
 | C2 | [Climate precipitation stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#2-climate-precipitation-stations-homogeneous-measurements) | 🟡 | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nbcn-precip) <!-- available as BETA in Q1-2025 --> |
 | C3 | [*Ground-based* spatial climate data - Precipitation, Temperature, Relative Sunshine Duration](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#c3---ground-based-spatial-climate-data) | 🟡 | ⚪ [PoC]() |
 | C4 | [*Satellite-based* spatial climate data - Global, Diffuse & Direct Radiation, Cloud Fractional Cover](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#c4---satellite-based-spatial-climate-data) | 🟡 | ⚪ [PoC]() |
-| C5 | [*Radar-based* spatial climate data - Maximum Hailstone Size, Number of Hail Days](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#c5---radar-based-spatial-climate-data) *- expected to be available in May 2025* |  |  |
+| C5 | [*Radar-based* spatial climate data - Maximum Hailstone Size, Number of Hail Days](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#c5---radar-based-spatial-climate-data) *- expected to be available in May 2025* | - | - |
 | C6 | [Climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#6-climate-normals) | 🟡 | ⚪ |
 | C7 | [Spatial climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#7-spatial-climate-normals) | 🟡 | ⚪ |
 | C8 | [Climate scenarios](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#8-climate-scenarios) | 🟢 CH2018 | ⚪ |
@@ -112,8 +112,8 @@ The documentations of the Open Data products linked below explain what the data 
 | D1 | [Precipitation radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | ⚪ | ⚪ |
 | D2 | [Reflectivity-based radar products - ... ?](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | ⚪ | ⚪ |
 | D3 | [Hail radar products - Probability of Hail, Maximum Expected Severe Hail Size](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | ⚪ | ⚪ |
-| D4 | [Convection radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) *- not yet realised* |  |  |
-| D5 | [Polar 3D radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) *- not yet realised* |  |  |
+| D4 | [Convection radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) *- not yet realised* | - | - |
+| D5 | [Polar 3D radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) *- not yet realised* | - | - |
 
 <br>
 
