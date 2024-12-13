@@ -73,20 +73,20 @@ The documentations of the Open Data products linked below explain what the data 
 <br>
 
 ### A - Ground-based Measurements
-|    | Dataset/Collection | latest Open Data generated | latest Open Data available |
+|    | Dataset/Collection | latest Open Data processed | latest Open Data available |
 |:-----:|:-----|:-----:|:-----:|
-| A1 | [Automatic weather stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a1---automatic-weather-stations---measured-values) | 🟡 | 🟡 [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn) <!-- available as BETA in Q1-2025 --> |
-| A2 | [Automatic precipitation stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a2---automatic-precipitation-stations---measured-values) | :yellow_circle: | :yellow_circle: [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn-precip) <!-- available as BETA in Q1-2025 --> |
-| A3 | [Automatic tower stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/tree/main?tab=readme-ov-file#a3---automatic-tower-stations---measured-values) | :yellow_circle: | :yellow_circle: [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn-tower) <!-- available as BETA in Q1-2025 --> |
-| A4 | [Automatic soil stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a4---automatic-soil-stations---measured-values) *- Collection of this data type is not yet realised.* | :white_circle: | :white_circle: |
-| A5 | [Manual precipitation stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a5---manual-precipitation-stations---measured-values) | :yellow_circle: | :yellow_circle: [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nime) <!-- available as BETA in Q1-2025 --> |
-| A6 | [Totaliser precipitation stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a6---totaliser-precipitation-stations---measured-values) | :yellow_circle: | :yellow_circle: [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-tot) <!-- available as BETA in Q1-2025 --> |
-| A7 | [Pollen stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a7---pollen-stations---measured-values) | :yellow_circle: | :yellow_circle: [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-pollen) <!-- available as BETA in Q1-2025 --> |
-| A8 | [Meteorological visual observations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a8---meteorological-visual-observations) | :yellow_circle: | :yellow_circle: [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-obs) <!-- available as BETA in Q1-2025 --> |
-| A9 | [Phenological observations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a9---phenological-observations) | :yellow_circle: | :yellow_circle: [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-phenology) <!-- available as BETA in Q1-2025 --> |
+| A1 | [Automatic weather stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a1---automatic-weather-stations---measured-values) | 🟢 | 🟡 [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn) <!-- available as BETA in Q1-2025 --> |
+| A2 | [Automatic precipitation stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a2---automatic-precipitation-stations---measured-values) | 🟢 | 🟡 [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn-precip) <!-- available as BETA in Q1-2025 --> |
+| A3 | [Automatic tower stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/tree/main?tab=readme-ov-file#a3---automatic-tower-stations---measured-values) | ⚪ | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn-tower) <!-- available as BETA in Q1-2025 --> |
+| A4 | [Automatic soil stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a4---automatic-soil-stations---measured-values) *- Collection of this data type is not yet realised.* | ⚪ | ⚪ |
+| A5 | [Manual precipitation stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a5---manual-precipitation-stations---measured-values) | ⚪ | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nime) <!-- available as BETA in Q1-2025 --> |
+| A6 | [Totaliser precipitation stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a6---totaliser-precipitation-stations---measured-values) | ⚪ | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-tot) <!-- available as BETA in Q1-2025 --> |
+| A7 | [Pollen stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a7---pollen-stations---measured-values) | ⚪ | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-pollen) <!-- available as BETA in Q1-2025 --> |
+| A8 | [Meteorological visual observations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a8---meteorological-visual-observations) | ⚪ | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-obs) <!-- available as BETA in Q1-2025 --> |
+| A9 | [Phenological observations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a9---phenological-observations) | ⚪ | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-phenology) <!-- available as BETA in Q1-2025 --> |
 
 ### B - Atmosphere Measurements
-|    | Dataset/Collection | latest Open Data generated | latest Open Data integrated |
+|    | Dataset/Collection | latest Open Data processed | latest Open Data available |
 |:-----:|:-----|:-----:|:-----:|
 | B1 | [Radio soundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | :white_circle: | :white_circle: |
 | B2 | Raman-LIDAR for Meteorological Observation (RALMO) | *not yet realised* |  |
@@ -96,8 +96,8 @@ The documentations of the Open Data products linked below explain what the data 
 | B6 | Swiss Alpine Climate Radiation Monitoring (SACRaM) | *not yet realised* |  |
 
 ### C - Climate Data
-|    |    | latest Open Data generated | latest Open Data integrated | File metadata up to date | 
-|:-----:|:-----|:-----:|:-----:|:-----:|
+|    | Dataset/Collection | latest Open Data processed | latest Open Data available |
+|:-----:|:-----|:-----:|:-----:|
 | C1 | [Climate stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#1-climate-stations-homogeneous-measurements) | :yellow_circle: | :yellow_circle: [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nbcn) <!-- available as BETA in Q1-2025 --> | :white_circle: Stations / Parameters / Data Inventory |
 | C2 | [Climate precipitation stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#2-climate-precipitation-stations-homogeneous-measurements) | :yellow_circle: | :yellow_circle: [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nbcn-precip) <!-- available as BETA in Q1-2025 --> | :white_circle: Stations / Parameters / Data Inventory |
 | C3 | [*Ground-based* spatial climate data - Precipitation, Temperature, Relative Sunshine Duration](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#c3---ground-based-spatial-climate-data) | :yellow_circle: PoC | :yellow_circle: PoC |  |
@@ -108,7 +108,7 @@ The documentations of the Open Data products linked below explain what the data 
 | C8 | [Climate scenarios](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#8-climate-scenarios) | :white_circle: | :white_circle: |  |
 
 ### D - Radar Data
-|    |    | latest Open Data generated | latest Open Data integrated |
+|    | Dataset/Collection | latest Open Data processed | latest Open Data available |
 |:-----:|:-----|:-----:|:-----:|
 | D1 | [Precipitation radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | :white_circle: | :white_circle: |
 | D2 | [Reflectivity-based radar products - ... ?](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | :white_circle: | :white_circle: |
@@ -117,7 +117,7 @@ The documentations of the Open Data products linked below explain what the data 
 | D5 | *[Polar 3D radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data)* | *not yet realised* | *not yet realised* |
 
 ### E - Forecast Data
-|    |    | latest Open Data generated | latest Open Data integrated |
+|    | Dataset/Collection | latest Open Data processed | latest Open Data available |
 |:-----:|:-----|:-----:|:-----:|
 | E1 | [Short-term forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#1-short-term-forecast-data) | :white_circle: | :white_circle: |
 | E2 | [Numerical weather forecasting model CH1](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-numerical-weather-forecasting-model) | :white_circle: | :white_circle: [ALPHA](https://sys-data.int.bgdi.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch1) |
