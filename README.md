@@ -14,7 +14,7 @@ From April 2025, MeteoSwiss will make its data freely available to the public as
 
 In order to also provide [access to the data via APIs](https://github.com/MeteoSwiss/opendata-api/blob/main/README.md) in future, the necessary preparatory work is underway. As soon as an introduction date for this second type of access can be estimated, it will be communicated here.
 
-## Available Open Data
+## Available Data
 |   | Category |
 |:-:|:---------|
 | A | [Ground-based Measurements](#a---ground-based-measurements) |
@@ -68,8 +68,7 @@ The documentations of the Open Data products linked below explain what the data 
 
 <!-- The *Open Data products in italics* are not yet realised. -->
 
-> [!NOTE]
-> We are currently **setting up our service as ALPHA**: Everything is subject to change without prior notice.
+> ℹ️ **Note:** We are currently **setting up our service as ALPHA**. Everything is subject to change without prior notice.
 
 ### A - Ground-based Measurements
 |    | Dataset/Collection | latest Open Data generated | latest Open Data integrated | File metadata up to date | 
