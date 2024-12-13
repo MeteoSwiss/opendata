@@ -6,8 +6,7 @@
 
 # MeteoSwiss - Open Data
 Welcome to MeteoSwiss' Open Data documentation.
-> ⚠️ **Status** <br>
-> In preparation / [change log](https://github.com/MeteoSwiss/opendata/commits/main).
+> ⚠️ **Status:** in preparation / [change log](https://github.com/MeteoSwiss/opendata/commits/main).
 
 <!-- For now MeteoSwiss provides its Open Data to be consumed by **[downloading the data as files](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#getting-started-with-download)**. -->
 
