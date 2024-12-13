@@ -39,13 +39,13 @@ We continuously update these based on questions received. If you cannot find an 
 [Here](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md) you'll find information about data granularity, structure and update cycle, time stamps and time intervals as well as on column separators, decimal dividers and missing values.
 
 ### Staying up to Date
-For **operational status**,
+For operational status,
 - **see** [Download API Status & Contact](https://github.com/MeteoSwiss/opendata-status/blob/main/README.md) *[upcoming]*
 
 geo.admin.ch's download service will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](https://www.swisstopo.admin.ch/en) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, 
 - **check** [release notes](..) *[upcoming]* where swisstopo announces released changes that might affect your integration.
 
-In the event of malfunctions at land-based stations, 
+In the event of malfunctions at ground-based stations, 
 - **check** for [interruptions in data availability](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html).
 
 We keep interested parties and users up to date on our plans and changes:
