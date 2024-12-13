@@ -14,6 +14,8 @@ From April 2025, MeteoSwiss will make its data freely available to the public as
 
 In order to also provide [access to the data via APIs](https://github.com/MeteoSwiss/opendata-api/blob/main/README.md) in future, the necessary preparatory work is underway. As soon as an introduction date for this second type of access can be estimated, it will be communicated here.
 
+<br>
+
 ## Available Data
 |   | Category |
 |:-:|:---------|
