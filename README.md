@@ -110,7 +110,7 @@ The documentations of the Open Data products linked below explain what the data 
 |    | Dataset/Collection | latest Open Data processed | latest Open Data available |
 |:-----:|:-----|:-----:|:-----:|
 | D1 | [Precipitation radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | ⚪ | ⚪ |
-| D2 | [Reflectivity-based radar products - ... ?](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) || ⚪ | ⚪ |
+| D2 | [Reflectivity-based radar products - ... ?](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | ⚪ | ⚪ |
 | D3 | [Hail radar products - Probability of Hail, Maximum Expected Severe Hail Size](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | ⚪ | ⚪ |
 | D4 | [Convection radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) *- not yet realised* |  |  |
 | D5 | [Polar 3D radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) *- not yet realised* |  |  |
