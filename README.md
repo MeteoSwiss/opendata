@@ -4,7 +4,7 @@
 
 <!-- [Auf Deutschj](#meteoschweiz-open-data) | [En français](#meteosuisse-open-data) | [In italiano](#meteosvizzera-open-data) -->
 
-# Open Data
+# MeteoSwiss - Open Data
 Welcome to MeteoSwiss' Open Data documentation.
 
 *Status:* in preparation / [change log](https://github.com/MeteoSwiss/opendata/commits/main) <br>
