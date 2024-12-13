@@ -98,7 +98,7 @@ The documentations of the Open Data products linked below explain what the data 
 | C2 | [Climate precipitation stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#2-climate-precipitation-stations-homogeneous-measurements) | ⚪ | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nbcn-precip) <!-- available as BETA in Q1-2025 --> |
 | C3 | [*Ground-based* spatial climate data - Precipitation, Temperature, Relative Sunshine Duration](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#c3---ground-based-spatial-climate-data) | 🟡 | ⚪ [PoC]() |
 | C4 | [*Satellite-based* spatial climate data - Global, Diffuse & Direct Radiation, Cloud Fractional Cover](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#c4---satellite-based-spatial-climate-data) | 🟡 | ⚪ [PoC]() |
-| C5 | [*Radar-based* spatial climate data - Maximum Hailstone Size, Number of Hail Days](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#c5---radar-based-spatial-climate-data) *- expected to be available in May 2025* | ⚪ | ⚪ |
+| C5 | [*Radar-based* spatial climate data - Maximum Hailstone Size, Number of Hail Days](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#c5---radar-based-spatial-climate-data) *- expected to be available in May 2025* |  |  |
 | C6 | [Climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#6-climate-normals) | 🟡 | ⚪ |
 | C7 | [Spatial climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#7-spatial-climate-normals) | 🟡 | ⚪ |
 | C8 | [Climate scenarios](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#8-climate-scenarios) | 🟢 CH2018 | ⚪ |
@@ -108,20 +108,20 @@ The documentations of the Open Data products linked below explain what the data 
 ### D - Radar Data
 |    | Dataset/Collection | latest Open Data processed | latest Open Data available |
 |:-----:|:-----|:-----:|:-----:|
-| D1 | [Precipitation radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | :white_circle: | :white_circle: |
-| D2 | [Reflectivity-based radar products - ... ?](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | :white_circle: | :white_circle: |
-| D3 | [Hail radar products - Probability of Hail, Maximum Expected Severe Hail Size](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | :white_circle: | :white_circle: |
-| D4 | *[Convection radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data)* | *not yet realised* | *not yet realised* |
-| D5 | *[Polar 3D radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data)* | *not yet realised* | *not yet realised* |
+| D1 | [Precipitation radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | ⚪ | ⚪ |
+| D2 | [Reflectivity-based radar products - ... ?](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) || ⚪ | ⚪ |
+| D3 | [Hail radar products - Probability of Hail, Maximum Expected Severe Hail Size](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | ⚪ | ⚪ |
+| D4 | [Convection radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) *- not yet realised* |  |  |
+| D5 | [Polar 3D radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) *- not yet realised* |  |  |
 
 <br>
 
 ### E - Forecast Data
 |    | Dataset/Collection | latest Open Data processed | latest Open Data available |
 |:-----:|:-----|:-----:|:-----:|
-| E1 | [Short-term forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#1-short-term-forecast-data) | :white_circle: | :white_circle: |
-| E2 | [Numerical weather forecasting model CH1](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-numerical-weather-forecasting-model) | :white_circle: | :white_circle: [ALPHA](https://sys-data.int.bgdi.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch1) |
-| E3 | [Numerical weather forecasting model CH2](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-numerical-weather-forecasting-model) | :white_circle: | :white_circle: [ALPHA](https://sys-data.int.bgdi.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch2) |
-| E4 | [Local forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#3-local-forecast-data) | :white_circle: | :white_circle: |
+| E1 | [Short-term forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#1-short-term-forecast-data) | ⚪ | ⚪ |
+| E2 | [Numerical weather forecasting model CH1](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-numerical-weather-forecasting-model) | 🟡 | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch1) |
+| E3 | [Numerical weather forecasting model CH2](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-numerical-weather-forecasting-model) | 🟡 | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch2) |
+| E4 | [Local forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#3-local-forecast-data) | 🟡 | ⚪ |
 
 <br>
