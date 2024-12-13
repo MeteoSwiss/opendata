@@ -68,7 +68,7 @@ The documentations of the Open Data products linked below explain what the data 
 
 <!-- The *Open Data products in italics* are not yet realised. -->
 
-> ℹ️ **Note:** We are currently **setting up our service as ALPHA**. Everything is subject to change without prior notice.
+> ⚠️ **Status:** We are currently **setting up our service as ALPHA**. Everything is subject to change without prior notice.
 
 ### A - Ground-based Measurements
 |    | Dataset/Collection | latest Open Data generated | latest Open Data integrated | File metadata up to date | 
