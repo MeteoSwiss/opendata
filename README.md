@@ -51,7 +51,7 @@ We continuously update these based on questions received. If you cannot find an 
 ### Contact
 If you have [questions about the data](#a---ground-based-measurements), or [how to use the download service](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md), please read the [Frequently Asked Questions](...) *[upcoming]*. 
 
-If you are unable to find the answer you are looking for **contact us:** [opendata.en@meteoswiss.ch](mailto:opendata.en@meteoswiss.ch)
+If you are unable to find the answer you are looking for, **contact us:** [opendata.en@meteoswiss.ch](mailto:opendata.en@meteoswiss.ch)
 
 <br>
 
