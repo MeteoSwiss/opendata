@@ -51,15 +51,14 @@ In the event of malfunctions at ground-based stations,
 We keep interested parties and users up to date on our plans and changes:
 - **register** for [our newsletter](...) *[upcoming]*
 
-If you cannot find an answer to your question here in our documentation or in our [FAQ](...) *[upcoming]*:
-- **contact** [opendata.en@meteoswiss.ch](mailto:opendata.en@meteoswiss.ch)
+### Contact
+If you have [questions about the data](#understanding-meteoswiss--open-data), or [how to use the download service](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md), please read the [Frequently Asked Questions](...) *[upcoming]*. If you are unable to find the answer you are looking for
+- **contact us** [opendata.en@meteoswiss.ch](mailto:opendata.en@meteoswiss.ch)
 
 <br>
 
 ## Understanding MeteoSwiss' Open Data
 The documentations of the Open Data products linked below explain what the data represents, its models, abstractions and terminology.
-
-<!-- The *Open Data products in italics* are not yet realised. -->
 
 > ⚠️ **Status:** We are currently **setting up our service as ALPHA**. Everything is subject to change without prior notice.
 
