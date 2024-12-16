@@ -32,7 +32,7 @@ In order to also offer the option of accessing the data at a later stage using [
 [Here](https://meteoswiss.github.io/opendata-terms-of-use/) you'll find information about data license and conditions for usage.
 
 ### Getting Started with Download
-[Here](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md) you'll find information about data granularity, structure and update cycle, time stamps and time intervals as well as on column separators, decimal dividers and missing values.
+[Here](https://meteoswiss.github.io/opendata-download/) you'll find information about how to download files either manually or programmatically, and learn about how data files are structured (data granularities and update cycles) and date/time, time intervals and missing values are represented.
 
 ### Staying up to Date
 For operational status, **see** [Download API Status & Contact](https://github.com/MeteoSwiss/opendata-status/blob/main/README.md) *[upcoming]*
