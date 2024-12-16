@@ -52,7 +52,7 @@ We keep interested parties and users up to date on our plans and changes:
 - **register** for [our newsletter](...) *[upcoming]*
 
 ### Contact
-If you have [questions about the data](#understanding-meteoswiss--open-data), or [how to use the download service](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md), please read the [Frequently Asked Questions](...) *[upcoming]*. If you are unable to find the answer you are looking for
+If you have [questions about the data](#a---ground-based-measurements), or [how to use the download service](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md), please read the [Frequently Asked Questions](...) *[upcoming]*. If you are unable to find the answer you are looking for
 - **contact us** [opendata.en@meteoswiss.ch](mailto:opendata.en@meteoswiss.ch)
 
 <br>
