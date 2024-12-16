@@ -31,11 +31,6 @@ In order to also offer the possibility to access the data [by customised queries
 ### Terms of Use
 [Here](https://meteoswiss.github.io/opendata-terms-of-use/) you'll find information about data license and conditions for usage.
 
-### Frequently asked Questions
-[Here](https://github.com/MeteoSwiss/opendata-faq/blob/main/README.md) *[upcoming]* you'll **find answers** to the most frequently asked questions. 
-
-We continuously update these based on questions received. If you cannot find an answer to your question, **contact** [opendata.en@meteoswiss.ch](mailto:opendata.en@meteoswiss.ch)
-
 ### Getting Started with Download
 [Here](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md) you'll find information about data granularity, structure and update cycle, time stamps and time intervals as well as on column separators, decimal dividers and missing values.
 
@@ -52,9 +47,14 @@ In the event of malfunctions at ground-based stations,
 We keep interested parties and users up to date on our plans and changes:
 - **register** for [our newsletter](...) *[upcoming]*
 
+### Frequently asked Questions
+[Here](https://github.com/MeteoSwiss/opendata-faq/blob/main/README.md) *[upcoming]* you'll **find answers** to the most frequently asked questions. 
+
+We continuously update these based on questions received. If you cannot find an answer to your question, **contact us**.
+
 ### Contact
 If you have [questions about the data](#a---ground-based-measurements), or [how to use the download service](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md), please read the [Frequently Asked Questions](...) *[upcoming]*. If you are unable to find the answer you are looking for
-- **contact us** [opendata.en@meteoswiss.ch](mailto:opendata.en@meteoswiss.ch)
+- **contact us:** [opendata.en@meteoswiss.ch](mailto:opendata.en@meteoswiss.ch)
 
 <br>
 
