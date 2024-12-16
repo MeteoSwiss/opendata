@@ -30,7 +30,7 @@ In order to also offer the possibility to access the data [by customised queries
 ## General information
 
 ### Terms of Use
-[Here](https://github.com/MeteoSwiss/opendata-terms-of-use/blob/main/README.md) *[upcoming]* you'll find information about data license and conditions for usage.
+[Here](https://meteoswiss.github.io/opendata-terms-of-use/) you'll find information about data license and conditions for usage.
 
 ### Frequently asked Questions
 [Here](https://github.com/MeteoSwiss/opendata-faq/blob/main/README.md) *[upcoming]* you'll **find answers** to the most frequently asked questions. 
