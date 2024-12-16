@@ -2,8 +2,6 @@
 
 <!-- [![GitHub commit](https://img.shields.io/github/last-commit/MeteoSwiss/opendata)](https://github.com/MeteoSwiss/opendata/commits/master) -->
 
-<!-- [Auf Deutschj](#meteoschweiz-open-data) | [En français](#meteosuisse-open-data) | [In italiano](#meteosvizzera-open-data) -->
-
 # MeteoSwiss - Open Data
 Welcome to MeteoSwiss' Open Data documentation.
 > ⚠️ **Status:** in preparation / [change log](https://github.com/MeteoSwiss/opendata/commits/main).
