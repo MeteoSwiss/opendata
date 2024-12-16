@@ -37,7 +37,7 @@ In order to also offer the option of accessing the data at a later stage using [
 ### Staying up to Date
 For operational status, **see** [Download API Status & Contact](https://github.com/MeteoSwiss/opendata-status/blob/main/README.md) *[upcoming]*
 
-geo.admin.ch's download service will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](https://www.swisstopo.admin.ch/en) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, **check** [release notes](..) *[upcoming]* where swisstopo announces released changes that might affect your integration.
+geo.admin.ch's download service will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](https://www.swisstopo.admin.ch/en) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, **check** [Release Notes](https://api3.geo.admin.ch/releasenotes/index.html) where swisstopo announces released changes that might affect your integration.
 
 In the event of malfunctions at ground-based stations, **check** for [interruptions in data availability](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html).
 
