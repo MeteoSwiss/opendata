@@ -17,14 +17,14 @@ geo.admin.ch's download service will not be subject to big breaking changes, bec
 
 In the event of malfunctions at ground-based stations, **check** for [interruptions in data availability](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html).
 
-We keep interested parties and users up to date on our plans and changes: **register** for [our newsletter](https://www.meteoschweiz.admin.ch/ueber-uns/kontakt.html) *[upcoming]*
+We keep interested parties and users up to date on our plans and changes: **register** for [our newsletter](#upcoming) *[upcoming]*
 
 ## Frequently Asked Questions
-[Here](https://github.com/MeteoSwiss/opendata-faq/blob/main/README.md) *[upcoming]* you'll **find answers** to the most frequently asked questions. 
+[Here](#upcoming) *[upcoming]* you'll **find answers** to the most frequently asked questions. 
 
 We continuously update these based on questions received. If you cannot find an answer to your question, **contact us**.
 
 ## Contact
-If you have [questions about the data](#a---ground-based-measurements), or [how to use the download service](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md), please read the [Frequently Asked Questions](https://www.meteoschweiz.admin.ch/ueber-uns/kontakt.html) *[upcoming]*. 
+If you have [questions about the data](#a---ground-based-measurements), or [how to use the download service](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md), please read the [Frequently Asked Questions](#upcoming) *[upcoming]*. 
 
 If you are unable to find the answer you are looking for, **contact us:** [opendata.en@meteoswiss.ch](mailto:opendata.en@meteoswiss.ch)
