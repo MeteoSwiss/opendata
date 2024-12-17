@@ -3,7 +3,7 @@ Docusaurus Installation
 
 
 1. Setup Codespace
-1. Install docusaurus scaffold
+1. Install website scaffold
 
 ```
 npx create-docusaurus@latest docusaurus classic
