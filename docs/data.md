@@ -17,7 +17,7 @@ geo.admin.ch's download service will not be subject to big breaking changes, bec
 
 In the event of malfunctions at ground-based stations, **check** for [interruptions in data availability](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html).
 
-We keep interested parties and users up to date on our plans and changes: **register** for [our newsletter](...) *[upcoming]*
+We keep interested parties and users up to date on our plans and changes: **register** for [our newsletter](https://www.meteoschweiz.admin.ch/ueber-uns/kontakt.html) *[upcoming]*
 
 ## Frequently Asked Questions
 [Here](https://github.com/MeteoSwiss/opendata-faq/blob/main/README.md) *[upcoming]* you'll **find answers** to the most frequently asked questions. 
