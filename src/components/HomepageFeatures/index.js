@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/construction-site.svg').default,
     description: (
       <>
-        The documentations of the Open Data products linked below explain what the data represents, its models, abstractions and terminology.
+        The documentations of the Open Data products linked below explain what the data represents, its models, abstractions and terminology. <br/><br/>
 
         ⚠️ <strong>Status:</strong> We are currently <em>setting up our service as ALPHA</em>. Everything is subject to change without prior notice.
       </>
