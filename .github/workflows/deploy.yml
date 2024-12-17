@@ -20,6 +20,7 @@ jobs:
           cache: yarn
 
       - name: Install dependencies
+        working-directory: ./docusaurus
         run: yarn install --frozen-lockfile
       - name: Build website
         run: yarn build
@@ -27,7 +28,7 @@ jobs:
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: build
+          path: ./docusaurus/build
 
   deploy:
     name: Deploy to GitHub Pages
