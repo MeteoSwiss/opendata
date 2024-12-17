@@ -40,5 +40,3 @@ The productive version will provide a station metadata file with the file name: 
 
 ### 1.4. Data visualisation
 See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en).
-
-<br>
