@@ -32,7 +32,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`Open Data Documentation`}
       description="MeteoSwiss - Open Data Documentation">
       <HomepageHeader />
       <main>
