@@ -2,46 +2,29 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# General Information
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Terms of Use
+[Here](https://meteoswiss.github.io/opendata-terms-of-use/) you'll find information about data license and conditions for usage.
 
-## Getting Started
+## Getting Started with Download
+[Here](https://meteoswiss.github.io/opendata-download/) you'll find information about how to download files either manually or programmatically, and learn about how data files are structured (data granularities and update cycles) and date/time, time intervals and missing values are represented.
 
-Get started by **creating a new site**.
+## Staying up to Date
+For operational status, **see** [Download API Status & Contact](https://github.com/MeteoSwiss/opendata-status/blob/main/README.md) *[upcoming]*
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+geo.admin.ch's download service will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](https://www.swisstopo.admin.ch/en) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, **check** [Release Notes](https://api3.geo.admin.ch/releasenotes/index.html) where swisstopo announces released changes that might affect your integration.
 
-### What you'll need
+In the event of malfunctions at ground-based stations, **check** for [interruptions in data availability](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html).
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+We keep interested parties and users up to date on our plans and changes: **register** for [our newsletter](...) *[upcoming]*
 
-## Generate a new site
+## Frequently Asked Questions
+[Here](https://github.com/MeteoSwiss/opendata-faq/blob/main/README.md) *[upcoming]* you'll **find answers** to the most frequently asked questions. 
 
-Generate a new Docusaurus site using the **classic template**.
+We continuously update these based on questions received. If you cannot find an answer to your question, **contact us**.
 
-The classic template will automatically be added to your project after you run the command:
+## Contact
+If you have [questions about the data](#a---ground-based-measurements), or [how to use the download service](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md), please read the [Frequently Asked Questions](...) *[upcoming]*. 
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+If you are unable to find the answer you are looking for, **contact us:** [opendata.en@meteoswiss.ch](mailto:opendata.en@meteoswiss.ch)

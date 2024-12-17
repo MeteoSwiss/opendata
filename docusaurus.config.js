@@ -47,10 +47,10 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
+        /* blog: {
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -64,7 +64,7 @@ const config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
-        },
+        }, */
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -76,23 +76,23 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/mch_logo_en.png',
       navbar: {
-        title: 'My Site',
+        title: 'MeteoSwiss - Open Data',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'MeteoSwiss - Logo',
+          src: 'img/avatar.png',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'dataSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Data Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          //{to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/MeteoSwiss/opendata',
             label: 'GitHub',
             position: 'right',
           },
@@ -105,25 +105,17 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Data',
+                to: '/docs/data',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Contact',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'MeteoSwiss',
+                href: 'https://www.meteoschweiz.admin.ch/ueber-uns/kontakt.html',
               },
             ],
           },
@@ -136,12 +128,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/MeteoSwiss/opendata',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Federal Office of Meteorology and Climatology MeteoSwiss. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
