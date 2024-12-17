@@ -1,0 +1,8 @@
+{
+  "label": "A - Ground-based Measurements",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Ground-based measurements of parameters like temperature, precipitation, wind etc."
+  }
+}
