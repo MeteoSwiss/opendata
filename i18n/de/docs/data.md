@@ -3,9 +3,9 @@
 sidebar_position: 1
 ---
 
-# Allgemeine Imfirmationen
+# Allgemeine Informationen
 
-## N tzungsbedingungen
+## Nutzungsbedingungen
 [Here](https://meteoswiss.github.io/opendata-terms-of-use/) you'll find information about data license and conditions for usage.
 
 ## Downloads finden
