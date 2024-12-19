@@ -52,6 +52,7 @@ const config = {
         },
         blog: {
           routeBasePath: '/',
+          blogTitle: 'Open Data Documentation',
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],

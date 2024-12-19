@@ -1,11 +1,11 @@
 ---
-slug: first-blog-post
-title: First Blog Post
+slug: new-home-documentation
+title: New Home for Documentation
 authors: [stefanoderbolz]
 tags: [hola, docusaurus]
 ---
 
-This page is the new home of the Open Data documentation of MeteoSwiss.
+This page is the new home of the [Open Data documentation](/docs/data) of MeteoSwiss.
 
 <!-- truncate -->
 

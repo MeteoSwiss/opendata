@@ -5,7 +5,7 @@ authors: [stefanoderbolz]
 tags: [hola, docusaurus]
 ---
 
-Diese Seite ist das neue Zuhause der Open Data Dokumentation von MeteoSchweiz.
+Diese Seite ist das neue Zuhause der [Open Data Dokumentation](/docs/data) von MeteoSchweiz.
 
 <!-- truncate -->
 
