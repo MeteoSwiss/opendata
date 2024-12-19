@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import Translate from '@docusaurus/Translate';
 
 const FeatureList = [
   {
@@ -8,9 +9,9 @@ const FeatureList = [
     Svg: require('@site/static/img/construction-site.svg').default,
     description: (
       <>
-        The documentations of the Open Data products linked below explain what the data represents, its models, abstractions and terminology. <br/><br/>
+        <Translate id="homepage.main_text" description="The main explanation text on the homepage">The documentations of the Open Data products linked below explain what the data represents, its models, abstractions and terminology.</Translate><br/><br/>
 
-        ⚠️ <strong>Status:</strong> We are currently <em>setting up our service as ALPHA</em>. Everything is subject to change without prior notice.
+        ⚠️ <strong><Translate>Status</Translate>:</strong> <Translate id="homepage.status_text" description="The status text on the homepage">We are currently setting up our service as ALPHA. Everything is subject to change without prior notice.</Translate>
       </>
     ),
   },

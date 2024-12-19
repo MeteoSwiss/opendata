@@ -320,5 +320,16 @@
   },
   "Data Documentation": {
     "message": "Data Documentation"
+  },
+  "homepage.main_text": {
+    "message": "Les documentations des produits Open Data liées ci-dessous expliquent ce que les données représentent, leurs modèles, leurs abstractions et leur terminologie.",
+    "description": "The main explanation text on the homepage"
+  },
+  "Status": {
+    "message": "Status"
+  },
+  "homepage.status_text": {
+    "message": "Nous configurons actuellement notre service en tant qu'ALPHA. Tout peut être modifié sans préavis.",
+    "description": "The status text on the homepage"
   }
 }

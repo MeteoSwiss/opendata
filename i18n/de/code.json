@@ -320,5 +320,16 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "homepage.main_text": {
+    "message": "Die unten verlinkten Dokumentationen der Open-Data-Produkte erklären, was die Daten darstellen, ihre Modelle, Abstraktionen und Terminologie.",
+    "description": "The main explanation text on the homepage"
+  },
+  "Status": {
+    "message": "Status"
+  },
+  "homepage.status_text": {
+    "message": "Wir richten unseren Dienst derzeit als ALPHA ein. Alles kann sich ohne vorherige Ankündigung ändern.",
+    "description": "The status text on the homepage"
   }
 }
