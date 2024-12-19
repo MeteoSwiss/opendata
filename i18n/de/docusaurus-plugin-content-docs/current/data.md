@@ -5,26 +5,26 @@ sidebar_position: 1
 # Allgemeine Informationen
 
 ## Nutzungsbedingungen
-[Here](https://meteoswiss.github.io/opendata-terms-of-use/) you'll find information about data license and conditions for usage.
+[Hier](https://meteoswiss.github.io/opendata-terms-of-use/) finden Sie Informationen zur Datenlizenz und den Nutzungsbedingungen.
 
-## Downloads finden
-[Here](https://meteoswiss.github.io/opendata-download/) you'll find information about how to download files either manually or programmatically, and learn about how data files are structured (data granularities and update cycles) and date/time, time intervals and missing values are represented.
+## Einstieg in den Download
+[Hier](https://meteoswiss.github.io/opendata-download/) finden Sie Informationen darüber, wie Dateien manuell oder programmatisch heruntergeladen werden können. Außerdem erfahren Sie, wie die Daten strukturiert sind (Granularität und Aktualisierungszyklen) und wie Datum/Zeit, Zeitintervalle und fehlende Werte dargestellt werden.
 
-## Weitere Informationen
-For operational status, **see** [Download API Status & Contact](https://github.com/MeteoSwiss/opendata-status/blob/main/README.md) *[upcoming]*
+## Auf dem Laufenden bleiben
+Für den Betriebsstatus **sehen Sie** [Download-API-Status & Kontakt](https://github.com/MeteoSwiss/opendata-status/blob/main/README.md) *[demnächst verfügbar]*.
 
-geo.admin.ch's download service will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](https://www.swisstopo.admin.ch/en) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, **check** [Release Notes](https://api3.geo.admin.ch/releasenotes/index.html) where swisstopo announces released changes that might affect your integration.
+Der Download-Service von geo.admin.ch wird keine größeren Änderungen erfahren, da er dem OGC STAC API-Standard entspricht. Unser Partner [swisstopo](https://www.swisstopo.admin.ch/de) entwickelt und verbessert diesen kontinuierlich, sodass kleinere Änderungen und Fehlerbehebungen das Verhalten der API beeinflussen könnten. Wenn Sie vermuten, dass Ihre Integration aufgrund geänderter Verhaltensweisen nicht mehr funktioniert, **sehen Sie nach** in den [Release Notes](https://api3.geo.admin.ch/releasenotes/index.html), wo swisstopo veröffentlichte Änderungen ankündigt, die Ihre Integration betreffen könnten.
 
-In the event of malfunctions at ground-based stations, **check** for [interruptions in data availability](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html).
+Im Falle von Störungen bei bodengestützten Stationen **prüfen Sie** die [Unterbrechungen in der Datenverfügbarkeit](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html).
 
-We keep interested parties and users up to date on our plans and changes: **register** for [our newsletter](#upcoming) *[upcoming]*
+Wir halten Interessierte und Nutzer über unsere Pläne und Änderungen auf dem Laufenden: **registrieren Sie sich** für [unseren Newsletter](#upcoming) *[demnächst verfügbar]*.
 
-## Häufig gestellte Fragen (FAQ)
-[Here](#upcoming) *[upcoming]* you'll **find answers** to the most frequently asked questions. 
+## Häufig gestellte Fragen
+[Hier](#upcoming) *[demnächst verfügbar]* finden Sie **Antworten** auf die häufigsten Fragen.
 
-We continuously update these based on questions received. If you cannot find an answer to your question, **contact us**.
+Wir aktualisieren diese Liste kontinuierlich auf Basis eingehender Fragen. Sollten Sie keine Antwort auf Ihre Frage finden, **kontaktieren Sie uns**.
 
 ## Kontakt
-If you have [questions about the data](#a---ground-based-measurements), or [how to use the download service](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md), please read the [Frequently Asked Questions](#upcoming) *[upcoming]*. 
+Falls Sie [Fragen zu den Daten](#a---ground-based-measurements) oder [zur Nutzung des Download-Services](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md) haben, lesen Sie bitte die [Häufig gestellten Fragen](#upcoming) *[demnächst verfügbar]*.
 
-If you are unable to find the answer you are looking for, **contact us:** [opendata.en@meteoswiss.ch](mailto:opendata.en@meteoswiss.ch)
+Falls Sie dort keine passende Antwort finden, **kontaktieren Sie uns:** [opendata.en@meteoswiss.ch](mailto:opendata.en@meteoswiss.ch)

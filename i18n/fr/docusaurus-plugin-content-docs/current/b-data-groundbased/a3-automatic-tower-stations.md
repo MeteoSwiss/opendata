@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# A3 - Automatic tower stations - Measured values
+# A3 - Stations de pylône automatiques - Valeurs mesurées
 For boundary layer measurements MeteoSwiss operates 3 automatic tower stations at 150m to 230m above ground. They deliver temperature, humidity, wind, radiation, pressure and sunshine duration every ten minutes.
 
 ### 3.1. Data granularity, update frequency, format and volume
