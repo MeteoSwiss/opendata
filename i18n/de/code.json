@@ -333,7 +333,7 @@
     "description": "The status text on the homepage"
   },
   "homepage.main_title": {
-    "message": "Documentation under construction",
+    "message": "Dokumentation im Aufbau",
     "description": "Title on the main page"
   }
 }
