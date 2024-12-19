@@ -1,13 +1,13 @@
 {
   "Data Documentation": {
-    "message": "Data Documentation"
+    "message": "📖 Daten Dokumentation anschauen"
   },
   "Open Data Documentation": {
-    "message": "Open Data Documentation",
+    "message": "Open Data Dokumentation",
     "description": "Homepage title"
   },
   "MeteoSwiss - Open Data Documentation": {
-    "message": "MeteoSwiss - Open Data Documentation",
+    "message": "MeteoSwiss - Open Data Dokumentation",
     "description": "Homepage description"
   },
   "theme.ErrorPageContent.title": {
