@@ -4,6 +4,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
+import Translate, {translate} from '@docusaurus/Translate';
+
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
@@ -20,7 +22,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/data">
-            Data Documentation
+           <Translate>Data Documentation</Translate>
           </Link>
         </div>
       </div>
@@ -32,8 +34,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Open Data Documentation`}
-      description="MeteoSwiss - Open Data Documentation">
+      title={translate({message: 'Open Data Documentation', description: 'Homepage title'})}
+      description={translate({message: 'MeteoSwiss - Open Data Documentation', description: 'Homepage description'})}>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
