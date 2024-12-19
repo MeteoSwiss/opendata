@@ -331,5 +331,9 @@
   "homepage.status_text": {
     "message": "Wir richten unseren Dienst derzeit als ALPHA ein. Alles kann sich ohne vorherige Ankündigung ändern.",
     "description": "The status text on the homepage"
+  },
+  "homepage.main_title": {
+    "message": "Documentation under construction",
+    "description": "Title on the main page"
   }
 }

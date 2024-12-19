@@ -1,11 +1,11 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
-import Translate from '@docusaurus/Translate';
+import Translate, {translate} from '@docusaurus/Translate';
 
 const FeatureList = [
   {
-    title: 'Documentation under construction',
+    title: translate({id: 'homepage.main_title', message: 'Documentation under construction', description: 'Title on the main page'}),
     Svg: require('@site/static/img/construction-site.svg').default,
     description: (
       <>

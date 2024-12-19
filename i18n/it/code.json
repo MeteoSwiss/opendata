@@ -322,14 +322,18 @@
     "description": "The title of the tag list page"
   },
   "homepage.main_text": {
-    "message": "The documentations of the Open Data products linked below explain what the data represents, its models, abstractions and terminology.",
+    "message": "Le documentazioni dei prodotti Open Data linkate di seguito spiegano cosa rappresentano i dati, i loro modelli, le astrazioni e la terminologia.",
     "description": "The main explanation text on the homepage"
   },
   "Status": {
     "message": "Status"
   },
   "homepage.status_text": {
-    "message": ". Everything is subject to change without prior notice.",
+    "message": "Attualmente stiamo configurando il nostro servizio come ALPHA. Tutto è soggetto a modifiche senza preavviso.",
     "description": "The status text on the homepage"
+  },
+  "homepage.main_title": {
+    "message": "Documentazione in costruzione",
+    "description": "Title on the main page"
   }
 }
