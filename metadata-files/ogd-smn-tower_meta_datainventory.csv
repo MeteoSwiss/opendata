@@ -1,0 +1,282 @@
+STATION_NAT_ABBR_TX;PARAM_SHORT_NAME_TX;MEAS_CAT_NR;SINCE_DT;TILL_DT;OWNER_ORG_NAME_TX
+STC;uretows0;1;01.01.2022 00:00;;MeteoSchweiz
+STC;ta1towmn;1;01.01.2022 00:00;01.01.2023 00:00;MeteoSchweiz
+STC;dv1towz0;1;01.01.2022 00:00;;MeteoSchweiz
+STC;fk1towd0;1;01.01.2022 00:00;18.12.2024 00:00;MeteoSchweiz
+STC;fu3towz1;1;01.01.2022 00:00;;MeteoSchweiz
+STC;fu3towd0;1;01.01.2022 00:00;18.12.2024 00:00;MeteoSchweiz
+BAN;fk1towh1;1;01.01.2022 00:00;;MeteoSchweiz
+BAN;fk1towd0;1;01.01.2022 00:00;18.12.2024 00:00;MeteoSchweiz
+BAN;fu3towz1;1;01.01.2022 00:00;;MeteoSchweiz
+BAN;fu3towd1;1;01.01.2022 00:00;03.12.2024 00:00;MeteoSchweiz
+BAN;uretowh0;1;01.01.2022 00:00;;MeteoSchweiz
+UEB;fu3towh0;1;01.01.2022 00:00;;MeteoSchweiz
+UEB;ta1towh0;1;01.01.2022 00:00;;MeteoSchweiz
+UEB;ta1towdx;1;06.06.2011 00:00;30.04.2012 00:00;MeteoSchweiz
+UEB;ta1towdx;1;01.01.2022 00:00;03.12.2024 00:00;MeteoSchweiz
+UEB;ta1towyn;1;01.01.2022 00:00;01.01.2022 00:00;MeteoSchweiz
+UEB;ta1towhx;1;01.01.2022 00:00;;MeteoSchweiz
+PSI;fk1towm0;1;01.10.2008 00:00;01.05.2009 00:00;Paul Scherrer Institut
+PSI;fk1towm0;1;01.08.2009 00:00;01.08.2009 00:00;Paul Scherrer Institut
+PSI;fk1towm1;1;01.04.2011 00:00;01.05.2011 00:00;Paul Scherrer Institut
+PSI;ta1towh0;1;01.01.2022 00:00;;MeteoSchweiz
+PSI;ta1towdx;1;01.01.2022 00:00;24.11.2023 00:00;MeteoSchweiz
+PSI;ta1towmx;1;01.03.2024 00:00;01.08.2024 00:00;MeteoSchweiz
+PSI;ta1towyx;1;01.01.2022 00:00;01.01.2022 00:00;MeteoSchweiz
+PSI;ta1towyn;1;01.01.2012 00:00;01.01.2012 00:00;MeteoSchweiz
+STC;gre000d0;1;01.06.2011 00:00;30.04.2012 00:00;MeteoSchweiz
+STC;gre000m0;1;01.06.2011 00:00;01.04.2012 00:00;MeteoSchweiz
+UEB;sre000m0;1;01.10.2022 00:00;01.09.2024 00:00;MeteoSchweiz
+UEB;gre000m0;1;01.01.2022 00:00;01.10.2024 00:00;MeteoSchweiz
+STC;ta1towhn;1;01.01.2022 00:00;;MeteoSchweiz
+STC;uretowh0;1;01.01.2022 00:00;;MeteoSchweiz
+STC;fk1towd1;1;01.01.2022 00:00;03.12.2024 00:00;MeteoSchweiz
+BAN;fk1towd0;1;01.01.2006 00:00;03.11.2010 00:00;MeteoSchweiz
+BAN;fk1towd1;1;01.01.2022 00:00;03.12.2024 00:00;MeteoSchweiz
+BAN;uretows0;1;01.01.2022 00:00;;MeteoSchweiz
+BAN;ta1towdn;1;01.06.2011 00:00;30.04.2012 00:00;MeteoSchweiz
+BAN;ta1towm0;1;01.09.2024 00:00;01.09.2024 00:00;MeteoSchweiz
+BAN;ta1towhx;1;01.01.2022 00:00;;MeteoSchweiz
+BAN;tdetowh0;1;01.01.2022 00:00;;MeteoSchweiz
+UEB;uretows0;1;01.01.2022 00:00;;MeteoSchweiz
+UEB;ta1towh0;1;14.11.1991 21:00;30.04.2012 23:00;MeteoSchweiz
+UEB;ta1towmn;1;01.07.2011 00:00;01.04.2012 00:00;MeteoSchweiz
+UEB;ta1towyx;1;01.01.2022 00:00;01.01.2022 00:00;MeteoSchweiz
+PSI;dv1towz0;1;01.01.2022 00:00;;MeteoSchweiz
+PSI;fk1towd0;1;01.07.2005 00:00;11.10.2005 00:00;Paul Scherrer Institut
+PSI;fk1towm0;1;01.11.2007 00:00;01.12.2007 00:00;Paul Scherrer Institut
+PSI;fk1towm0;1;01.06.2010 00:00;01.07.2010 00:00;Paul Scherrer Institut
+PSI;fk1towm0;1;01.04.2011 00:00;01.04.2011 00:00;Paul Scherrer Institut
+PSI;fk1towm1;1;01.12.2008 00:00;01.05.2009 00:00;Paul Scherrer Institut
+PSI;ta1towmx;1;01.08.2011 00:00;01.04.2012 00:00;MeteoSchweiz
+PSI;ta1towmx;1;01.08.2023 00:00;01.10.2023 00:00;MeteoSchweiz
+PSI;ta1towmn;1;01.06.2023 00:00;01.06.2023 00:00;MeteoSchweiz
+PSI;ta1towmn;1;01.03.2024 00:00;01.08.2024 00:00;MeteoSchweiz
+BAN;sre000z0;1;01.01.2022 00:00;;MeteoSchweiz
+BAN;gre000z0;1;01.01.2022 00:00;;MeteoSchweiz
+BAN;gre000d0;1;07.01.2012 00:00;30.04.2012 00:00;MeteoSchweiz
+STC;gre000z0;1;01.01.2022 00:00;;MeteoSchweiz
+STC;gre000h0;1;01.01.2022 00:00;;MeteoSchweiz
+STC;gre000y0;1;01.01.2012 00:00;01.01.2012 00:00;MeteoSchweiz
+UEB;sre000m0;1;01.02.2012 00:00;01.04.2012 00:00;MeteoSchweiz
+UEB;sre000m0;1;01.01.2022 00:00;01.08.2022 00:00;MeteoSchweiz
+PSI;sre000d0;1;01.01.2022 00:00;18.12.2024 00:00;MeteoSchweiz
+PSI;sre000m0;1;01.07.2011 00:00;01.04.2012 00:00;MeteoSchweiz
+PSI;sre000m0;1;01.01.2022 00:00;01.08.2022 00:00;MeteoSchweiz
+PSI;gre000m0;1;01.07.2011 00:00;01.04.2012 00:00;MeteoSchweiz
+PSI;gre000y0;1;01.01.2022 00:00;01.01.2023 00:00;MeteoSchweiz
+STC;ta1towdx;1;01.01.2022 00:00;03.12.2024 00:00;MeteoSchweiz
+STC;ta1towmn;1;01.08.2023 00:00;01.08.2024 00:00;MeteoSchweiz
+STC;fk1towh1;1;01.01.2022 00:00;;MeteoSchweiz
+STC;fk1towd1;1;01.01.2006 00:00;05.12.2010 00:00;MeteoSchweiz
+STC;fu3towz0;1;01.01.2022 00:00;;MeteoSchweiz
+STC;fu3towh1;1;01.01.2022 00:00;;MeteoSchweiz
+STC;fu3towd1;1;01.01.2022 00:00;03.12.2024 00:00;MeteoSchweiz
+BAN;ta1towh0;1;01.01.2022 00:00;;MeteoSchweiz
+BAN;ta1towm0;1;01.02.2024 00:00;01.07.2024 00:00;MeteoSchweiz
+BAN;ta1towmx;1;01.01.2022 00:00;01.08.2022 00:00;MeteoSchweiz
+BAN;ta1towmx;1;01.02.2024 00:00;01.07.2024 00:00;MeteoSchweiz
+BAN;ta1towmn;1;01.02.2024 00:00;01.07.2024 00:00;MeteoSchweiz
+BAN;ta1towy0;1;01.01.2012 00:00;01.01.2012 00:00;MeteoSchweiz
+BAN;ta1towyx;1;01.01.2012 00:00;01.01.2012 00:00;MeteoSchweiz
+BAN;ta1towhn;1;01.01.2022 00:00;;MeteoSchweiz
+UEB;fk1towh0;1;01.01.2022 00:00;;MeteoSchweiz
+UEB;dk1towh0;1;01.01.2022 00:00;;MeteoSchweiz
+UEB;fk1towd0;1;01.01.2006 00:00;30.04.2012 00:00;MeteoSchweiz
+UEB;ta1towmn;1;01.08.2023 00:00;01.09.2023 00:00;MeteoSchweiz
+UEB;ta1towmn;1;01.11.2023 00:00;01.08.2024 00:00;MeteoSchweiz
+UEB;ta1towyx;1;01.01.2012 00:00;01.01.2012 00:00;MeteoSchweiz
+UEB;uretowh0;1;01.01.2022 00:00;;MeteoSchweiz
+UEB;tdetowh0;1;01.01.2022 00:00;;MeteoSchweiz
+PSI;fk1towd0;1;01.01.2006 00:00;27.07.2011 14:19;Paul Scherrer Institut
+PSI;fu3towz0;1;01.01.2022 00:00;;MeteoSchweiz
+PSI;fk1towm1;1;01.11.2007 00:00;01.12.2007 00:00;Paul Scherrer Institut
+PSI;fk1towm1;1;01.08.2009 00:00;01.08.2009 00:00;Paul Scherrer Institut
+PSI;uretows0;1;01.01.2022 00:00;;MeteoSchweiz
+PSI;ta1towd0;1;28.02.2024 00:00;18.12.2024 00:00;MeteoSchweiz
+PSI;ta1towdn;1;28.07.2011 00:00;30.04.2012 00:00;MeteoSchweiz
+PSI;ta1towm0;1;01.01.2022 00:00;01.10.2023 00:00;MeteoSchweiz
+PSI;ta1towm0;1;01.03.2024 00:00;01.09.2024 00:00;MeteoSchweiz
+PSI;ta1towmn;1;01.08.2023 00:00;01.10.2023 00:00;MeteoSchweiz
+PSI;ta1towy0;1;01.01.2022 00:00;01.01.2022 00:00;MeteoSchweiz
+PSI;ta1towyn;1;01.01.2022 00:00;01.01.2022 00:00;MeteoSchweiz
+BAN;sre000d0;1;07.01.2012 00:00;30.04.2012 00:00;MeteoSchweiz
+UEB;sre000d0;1;01.01.2022 00:00;18.12.2024 00:00;MeteoSchweiz
+UEB;gre000d0;1;01.01.2022 00:00;18.12.2024 00:00;MeteoSchweiz
+UEB;gre000y0;1;01.01.2022 00:00;01.01.2023 00:00;MeteoSchweiz
+PSI;gre000z0;1;01.01.2022 00:00;;MeteoSchweiz
+PSI;gre000d0;1;23.06.2011 00:00;30.04.2012 00:00;MeteoSchweiz
+STC;ta1towmx;1;01.06.2023 00:00;01.06.2023 00:00;MeteoSchweiz
+STC;ta1towy0;1;01.01.2022 00:00;01.01.2023 00:00;MeteoSchweiz
+STC;ta1towyx;1;01.01.2022 00:00;01.01.2022 00:00;MeteoSchweiz
+STC;tdetowh0;1;01.01.2022 00:00;;MeteoSchweiz
+STC;fk1towz0;1;01.01.2022 00:00;;MeteoSchweiz
+STC;fk1towd0;1;01.06.2011 00:00;30.04.2012 00:00;MeteoSchweiz
+STC;fu3towh0;1;01.01.2022 00:00;;MeteoSchweiz
+BAN;dv1towz0;1;01.01.2022 00:00;;MeteoSchweiz
+BAN;ta1towd0;1;01.06.2011 00:00;30.04.2012 00:00;MeteoSchweiz
+BAN;ta1towmx;1;01.11.2022 00:00;01.01.2023 00:00;MeteoSchweiz
+UEB;fk1towd1;1;01.01.2006 00:00;30.04.2012 00:00;MeteoSchweiz
+UEB;ta1tows0;1;01.01.2022 00:00;;MeteoSchweiz
+UEB;ta1towdn;1;06.06.2011 00:00;30.04.2012 00:00;MeteoSchweiz
+UEB;ta1towmx;1;01.08.2023 00:00;01.09.2023 00:00;MeteoSchweiz
+UEB;ta1towmn;1;01.06.2023 00:00;01.06.2023 00:00;MeteoSchweiz
+UEB;ta1towhn;1;01.01.2022 00:00;;MeteoSchweiz
+PSI;dk1towh0;1;01.01.2022 00:00;;MeteoSchweiz
+PSI;fk1towd0;1;27.07.2011 14:20;30.04.2012 00:00;MeteoSchweiz
+PSI;fk1towd1;1;01.01.2006 00:00;27.07.2011 14:19;Paul Scherrer Institut
+PSI;fu3towz1;1;01.01.2022 00:00;;MeteoSchweiz
+PSI;fk1towm0;1;01.09.2010 00:00;01.11.2010 00:00;Paul Scherrer Institut
+PSI;fk1towm1;1;01.11.2009 00:00;01.04.2010 00:00;Paul Scherrer Institut
+PSI;fk1towm1;1;01.09.2010 00:00;01.11.2010 00:00;Paul Scherrer Institut
+PSI;fk1towm1;1;01.08.2011 00:00;01.08.2011 00:00;MeteoSchweiz
+PSI;fu3towh1;1;01.01.2022 00:00;;MeteoSchweiz
+PSI;ta1towm0;1;01.08.2011 00:00;01.04.2012 00:00;MeteoSchweiz
+PSI;ta1towmx;1;01.06.2023 00:00;01.06.2023 00:00;MeteoSchweiz
+PSI;ta1towy0;1;01.01.2012 00:00;01.01.2012 00:00;MeteoSchweiz
+BAN;sre000m0;1;01.01.2022 00:00;01.08.2022 00:00;MeteoSchweiz
+BAN;gre000m0;1;01.11.2022 00:00;01.10.2024 00:00;MeteoSchweiz
+STC;gre000d0;1;01.01.2022 00:00;18.12.2024 00:00;MeteoSchweiz
+STC;sre000y0;1;01.01.2022 00:00;01.01.2022 00:00;MeteoSchweiz
+UEB;sre000z0;1;01.01.2022 00:00;;MeteoSchweiz
+PSI;sre000d0;1;23.06.2011 00:00;30.04.2012 00:00;MeteoSchweiz
+STC;ta1towh0;1;01.01.2022 00:00;;MeteoSchweiz
+STC;ta1towd0;1;01.06.2011 00:00;30.04.2012 00:00;MeteoSchweiz
+STC;ta1towm0;1;01.01.2022 00:00;01.09.2024 00:00;MeteoSchweiz
+STC;ta1towmx;1;01.01.2022 00:00;01.01.2023 00:00;MeteoSchweiz
+STC;uretowd0;1;01.01.2022 00:00;18.12.2024 00:00;MeteoSchweiz
+STC;fkltowz1;1;01.01.2022 00:00;;MeteoSchweiz
+BAN;dk1towh0;1;01.01.2022 00:00;;MeteoSchweiz
+BAN;fk1towd1;1;01.06.2011 00:00;30.04.2012 00:00;MeteoSchweiz
+BAN;ta1towm0;1;01.11.2022 00:00;01.12.2023 00:00;MeteoSchweiz
+BAN;ta1towyn;1;01.01.2012 00:00;01.01.2012 00:00;MeteoSchweiz
+UEB;fu3towh1;1;01.01.2022 00:00;;MeteoSchweiz
+UEB;fu3towd0;1;01.01.2022 00:00;18.12.2024 00:00;MeteoSchweiz
+UEB;ta1towd0;1;27.04.2005 00:00;30.04.2012 00:00;MeteoSchweiz
+UEB;ta1towd0;1;01.01.2022 00:00;18.12.2024 00:00;MeteoSchweiz
+UEB;ta1towmx;1;01.06.2023 00:00;01.06.2023 00:00;MeteoSchweiz
+UEB;ta1towmx;1;01.11.2023 00:00;01.08.2024 00:00;MeteoSchweiz
+UEB;ta1towmn;1;01.01.2022 00:00;01.01.2023 00:00;MeteoSchweiz
+PSI;fk1towh1;1;01.01.2022 00:00;;MeteoSchweiz
+PSI;fk1towm1;1;01.02.2008 00:00;01.02.2008 00:00;Paul Scherrer Institut
+PSI;fk1towm1;1;01.10.2011 00:00;01.10.2011 00:00;MeteoSchweiz
+PSI;ta1towdn;1;28.02.2024 00:00;03.12.2024 00:00;MeteoSchweiz
+PSI;ta1towyx;1;01.01.2012 00:00;01.01.2012 00:00;MeteoSchweiz
+BAN;sre000h0;1;01.01.2022 00:00;;MeteoSchweiz
+BAN;sre000m0;1;01.11.2022 00:00;01.09.2024 00:00;MeteoSchweiz
+STC;sre000z0;1;01.01.2022 00:00;;MeteoSchweiz
+STC;sre000m0;1;01.01.2022 00:00;01.09.2024 00:00;MeteoSchweiz
+PSI;gre000d0;1;01.01.2022 00:00;18.12.2024 00:00;MeteoSchweiz
+PSI;gre000h0;1;01.01.2022 00:00;;MeteoSchweiz
+PSI;gre000y0;1;01.01.2012 00:00;01.01.2012 00:00;MeteoSchweiz
+STC;ta1tows0;1;01.01.2022 00:00;;MeteoSchweiz
+STC;tdetows0;1;01.01.2022 00:00;;MeteoSchweiz
+STC;ta1towdn;1;01.01.2022 00:00;03.12.2024 00:00;MeteoSchweiz
+STC;ta1towmn;1;01.06.2023 00:00;01.06.2023 00:00;MeteoSchweiz
+STC;fk1towh0;1;01.01.2022 00:00;;MeteoSchweiz
+BAN;fkltowz1;1;01.01.2022 00:00;;MeteoSchweiz
+BAN;fk1towh0;1;01.01.2022 00:00;;MeteoSchweiz
+BAN;fu3towz0;1;01.01.2022 00:00;;MeteoSchweiz
+BAN;tdetows0;1;01.01.2022 00:00;;MeteoSchweiz
+BAN;ta1towd0;1;01.01.2006 00:00;03.11.2010 00:00;MeteoSchweiz
+BAN;ta1towd0;1;01.01.2022 00:00;18.12.2024 00:00;MeteoSchweiz
+BAN;ta1towdx;1;01.06.2011 00:00;30.04.2012 00:00;MeteoSchweiz
+BAN;ta1towm0;1;01.06.2011 00:00;01.04.2012 00:00;MeteoSchweiz
+BAN;ta1towmx;1;01.01.2012 00:00;01.04.2012 00:00;MeteoSchweiz
+BAN;ta1towmn;1;01.06.2011 00:00;01.11.2011 00:00;MeteoSchweiz
+BAN;ta1towmn;1;01.01.2012 00:00;01.04.2012 00:00;MeteoSchweiz
+BAN;ta1towmn;1;01.11.2022 00:00;01.01.2023 00:00;MeteoSchweiz
+BAN;ta1towy0;1;01.01.2023 00:00;01.01.2023 00:00;MeteoSchweiz
+UEB;dk1towh0;1;01.01.1998 00:00;30.04.2012 23:00;MeteoSchweiz
+UEB;fu3towz0;1;01.01.2022 00:00;;MeteoSchweiz
+UEB;fu3towz1;1;01.01.2022 00:00;;MeteoSchweiz
+UEB;ta1towdn;1;01.01.2022 00:00;03.12.2024 00:00;MeteoSchweiz
+UEB;ta1towm0;1;01.01.2022 00:00;01.09.2024 00:00;MeteoSchweiz
+UEB;ta1towyn;1;01.01.2012 00:00;01.01.2012 00:00;MeteoSchweiz
+UEB;uretowd0;1;01.01.2022 00:00;18.12.2024 00:00;MeteoSchweiz
+PSI;fkltowz1;1;01.01.2022 00:00;;MeteoSchweiz
+PSI;fk1towd1;1;30.09.2004 00:00;31.12.2004 00:00;Paul Scherrer Institut
+PSI;fk1towd1;1;27.07.2011 14:20;30.04.2012 00:00;MeteoSchweiz
+PSI;fk1towd1;1;01.01.2022 00:00;03.12.2024 00:00;MeteoSchweiz
+PSI;fk1towm1;1;01.10.2008 00:00;01.10.2008 00:00;Paul Scherrer Institut
+PSI;fu3towh0;1;01.01.2022 00:00;;MeteoSchweiz
+PSI;ta1tows0;1;01.01.2022 00:00;;MeteoSchweiz
+PSI;ta1towd0;1;01.01.2022 00:00;24.11.2023 00:00;MeteoSchweiz
+PSI;ta1towdn;1;01.01.2022 00:00;24.11.2023 00:00;MeteoSchweiz
+BAN;gre000m0;1;01.02.2012 00:00;01.04.2012 00:00;MeteoSchweiz
+STC;sre000m0;1;01.06.2011 00:00;01.04.2012 00:00;MeteoSchweiz
+UEB;gre000h0;1;06.01.2012 09:00;30.04.2012 23:00;MeteoSchweiz
+UEB;gre000h0;1;01.01.2022 00:00;;MeteoSchweiz
+UEB;sre000h0;1;06.01.2012 09:00;30.04.2012 23:00;MeteoSchweiz
+UEB;sre000h0;1;01.01.2022 00:00;;MeteoSchweiz
+PSI;sre000m0;1;01.10.2022 00:00;01.09.2024 00:00;MeteoSchweiz
+STC;ta1towd0;1;01.01.2006 00:00;05.12.2010 00:00;MeteoSchweiz
+STC;ta1towd0;1;01.01.2022 00:00;18.12.2024 00:00;MeteoSchweiz
+STC;ta1towyn;1;01.01.2022 00:00;01.01.2022 00:00;MeteoSchweiz
+STC;fk1towd1;1;01.06.2011 00:00;30.04.2012 00:00;MeteoSchweiz
+BAN;fk1towd1;1;01.01.2006 00:00;03.11.2010 00:00;MeteoSchweiz
+BAN;fu3towh0;1;01.01.2022 00:00;;MeteoSchweiz
+BAN;fu3towd0;1;01.01.2022 00:00;18.12.2024 00:00;MeteoSchweiz
+BAN;ta1tows0;1;01.01.2022 00:00;;MeteoSchweiz
+BAN;ta1towdx;1;01.01.2022 00:00;03.12.2024 00:00;MeteoSchweiz
+BAN;ta1towm0;1;01.01.2022 00:00;01.08.2022 00:00;MeteoSchweiz
+BAN;ta1towmx;1;01.06.2011 00:00;01.11.2011 00:00;MeteoSchweiz
+BAN;ta1towmx;1;01.06.2023 00:00;01.06.2023 00:00;MeteoSchweiz
+BAN;ta1towmx;1;01.08.2023 00:00;01.12.2023 00:00;MeteoSchweiz
+BAN;ta1towmn;1;01.08.2023 00:00;01.12.2023 00:00;MeteoSchweiz
+UEB;fk1towz0;1;01.01.2022 00:00;;MeteoSchweiz
+UEB;fk1towd0;1;01.01.2022 00:00;18.12.2024 00:00;MeteoSchweiz
+UEB;fk1towd1;1;01.01.2022 00:00;03.12.2024 00:00;MeteoSchweiz
+UEB;ta1towd0;1;13.11.1996 00:00;13.11.1996 00:00;MeteoSchweiz
+UEB;ta1towy0;1;01.01.2022 00:00;01.01.2023 00:00;MeteoSchweiz
+PSI;fk1towh0;1;01.01.2022 00:00;;MeteoSchweiz
+PSI;fk1towd1;1;01.07.2005 00:00;11.10.2005 00:00;Paul Scherrer Institut
+PSI;fk1towm0;1;01.08.2011 00:00;01.10.2011 00:00;MeteoSchweiz
+PSI;fk1towm1;1;01.06.2010 00:00;01.07.2010 00:00;Paul Scherrer Institut
+PSI;ta1towd0;1;28.07.2011 00:00;30.04.2012 00:00;MeteoSchweiz
+PSI;ta1towdx;1;28.02.2024 00:00;03.12.2024 00:00;MeteoSchweiz
+PSI;ta1towmx;1;01.01.2022 00:00;01.01.2023 00:00;MeteoSchweiz
+PSI;ta1towmn;1;01.01.2022 00:00;01.01.2023 00:00;MeteoSchweiz
+BAN;gre000d0;1;01.01.2022 00:00;18.12.2024 00:00;MeteoSchweiz
+BAN;gre000h0;1;01.01.2022 00:00;;MeteoSchweiz
+BAN;gre000m0;1;01.01.2022 00:00;01.08.2022 00:00;MeteoSchweiz
+STC;sre000d0;1;01.06.2011 00:00;30.04.2012 00:00;MeteoSchweiz
+STC;gre000m0;1;01.01.2022 00:00;01.10.2024 00:00;MeteoSchweiz
+PSI;gre000m0;1;01.01.2022 00:00;01.10.2024 00:00;MeteoSchweiz
+PSI;sre000y0;1;01.01.2012 00:00;01.01.2012 00:00;MeteoSchweiz
+STC;ta1towmx;1;01.08.2023 00:00;01.08.2024 00:00;MeteoSchweiz
+STC;ta1towhx;1;01.01.2022 00:00;;MeteoSchweiz
+STC;dk1towh0;1;01.01.2022 00:00;;MeteoSchweiz
+STC;fk1towd0;1;01.01.2006 00:00;05.12.2010 00:00;MeteoSchweiz
+BAN;fk1towz0;1;01.01.2022 00:00;;MeteoSchweiz
+BAN;fk1towd0;1;01.06.2011 00:00;30.04.2012 00:00;MeteoSchweiz
+BAN;fu3towh1;1;01.01.2022 00:00;;MeteoSchweiz
+BAN;ta1towdn;1;01.01.2022 00:00;03.12.2024 00:00;MeteoSchweiz
+BAN;ta1towmn;1;01.01.2022 00:00;01.08.2022 00:00;MeteoSchweiz
+BAN;ta1towmn;1;01.06.2023 00:00;01.06.2023 00:00;MeteoSchweiz
+BAN;uretowd0;1;01.01.2022 00:00;18.12.2024 00:00;MeteoSchweiz
+UEB;fkltowz1;1;01.01.2022 00:00;;MeteoSchweiz
+UEB;dv1towz0;1;01.01.2022 00:00;;MeteoSchweiz
+UEB;fk1towh1;1;01.01.2022 00:00;;MeteoSchweiz
+UEB;fu3towd1;1;01.01.2022 00:00;03.12.2024 00:00;MeteoSchweiz
+UEB;tdetows0;1;01.01.2022 00:00;;MeteoSchweiz
+UEB;ta1towmx;1;01.07.2011 00:00;01.04.2012 00:00;MeteoSchweiz
+UEB;ta1towmx;1;01.01.2022 00:00;01.01.2023 00:00;MeteoSchweiz
+PSI;fk1towz0;1;01.01.2022 00:00;;MeteoSchweiz
+PSI;fk1towd0;1;30.09.2004 00:00;31.12.2004 00:00;Paul Scherrer Institut
+PSI;fk1towd0;1;01.01.2022 00:00;18.12.2024 00:00;MeteoSchweiz
+PSI;fk1towm0;1;01.11.2009 00:00;01.04.2010 00:00;Paul Scherrer Institut
+PSI;ta1towdx;1;28.07.2011 00:00;30.04.2012 00:00;MeteoSchweiz
+PSI;ta1towmn;1;01.08.2011 00:00;01.04.2012 00:00;MeteoSchweiz
+BAN;sre000d0;1;01.01.2022 00:00;18.12.2024 00:00;MeteoSchweiz
+BAN;sre000m0;1;01.02.2012 00:00;01.04.2012 00:00;MeteoSchweiz
+BAN;gre000y0;1;01.01.2023 00:00;01.01.2023 00:00;MeteoSchweiz
+STC;sre000d0;1;01.01.2022 00:00;18.12.2024 00:00;MeteoSchweiz
+STC;sre000h0;1;01.01.2022 00:00;;MeteoSchweiz
+STC;gre000y0;1;01.01.2022 00:00;01.01.2023 00:00;MeteoSchweiz
+UEB;gre000z0;1;01.01.2022 00:00;;MeteoSchweiz
+UEB;sre000d0;1;07.01.2012 00:00;30.04.2012 00:00;MeteoSchweiz
+UEB;gre000d0;1;07.01.2012 00:00;30.04.2012 00:00;MeteoSchweiz
+UEB;gre000m0;1;01.02.2012 00:00;01.04.2012 00:00;MeteoSchweiz
+PSI;sre000z0;1;01.01.2022 00:00;;MeteoSchweiz
+PSI;sre000h0;1;01.01.2022 00:00;;MeteoSchweiz
