@@ -58,9 +58,8 @@ If you are unable to find the answer you are looking for, **contact us:** [opend
 ## Understanding MeteoSwiss' Open Data
 The documentations of the Open Data products linked below explain what the data represents, its models, abstractions and terminology.
 
-⚠️ **Status:** We are currently **setting up our service as ALPHA**. Everything is subject to change without prior notice.
-
-The **‘Priority’** column below indicates the order in which the datasets/collections are made available.
+⚠️ **Status:** We are currently **setting up our service as ALPHA**. Everything is subject to change without prior notice. <br>
+The **Priority** column below indicates the order in which the datasets/collections are made available.
 
 <br>
 
