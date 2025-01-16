@@ -64,7 +64,7 @@ The documentations of the Open Data products linked below explain what the data 
 
 ⚠️ **Status:** We are currently **setting up our service as ALPHA**. Everything is subject to change without prior notice.
 
-ℹ️ The ‘**Priority**’ column below shows the planned order in which the datasets/collections become available. **Planning** can be adjusted on an ongoing basis.
+ℹ️ **Priority** columns below show the planned order in which the datasets/collections become available. **Planning** can be adjusted on an ongoing basis.
 
 <br>
 
