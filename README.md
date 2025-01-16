@@ -60,10 +60,12 @@ The documentations of the Open Data products linked below explain what the data 
 
 ⚠️ **Status:** We are currently **setting up our service as ALPHA**. Everything is subject to change without prior notice.
 
+The **‘Priority’** column below indicates the order in which the datasets/collections are made available.
+
 <br>
 
 ### A - Ground-based Measurements
-| #  | Dataset/Collection name | Technical name | Prio | latest Open Data processed | latest Open Data available |
+| #  | Dataset/Collection name | Technical name | Priority | latest Open Data processed | latest Open Data available |
 |:-----:|:-----|:-----|:-----:|:-----:|:-----:|
 | A1 | [Automatic weather stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a1---automatic-weather-stations---measured-values) | `ogd-smn` | 1 | 🟢 | 🟡 [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn) <!-- available as BETA in Q1-2025 --> |
 | A2 | [Automatic precipitation stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a2---automatic-precipitation-stations---measured-values) | `ogd-smn-precip` | 1 | 🟢 | 🟡 [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn-precip) <!-- available as BETA in Q1-2025 --> |
@@ -78,7 +80,7 @@ The documentations of the Open Data products linked below explain what the data 
 <br>
 
 ### B - Atmosphere Measurements
-| #  | Dataset/Collection name | Technical name | Prio | latest Open Data processed | latest Open Data available |
+| #  | Dataset/Collection name | Technical name | Priority | latest Open Data processed | latest Open Data available |
 |:-----:|:-----|:-----|:-----:|:-----:|:-----:|
 | B1 | [Radio soundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | `ogd-radiosounding` | 2 | ⚪ | ⚪ |
 | B2 | Raman-LIDAR for Meteorological Observation (RALMO) *- not yet realised* |   | 3 | - | - |
