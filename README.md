@@ -126,7 +126,7 @@ They are provided as ‘Assets’ to the corresponding dataset/‘Collection‘ 
 ### E - Forecast Data
 | #  | Dataset/Collection name | Technical name | Priority | latest Open Data processed | latest Open Data & 'File metadata' available |
 |:-----:|:-----|:-----|:-----:|:-----:|:-----:|
-| E1 | [Short-term forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#1-short-term-forecast-data) | `ogd-nowcasting` | 3️⃣ | ⚪ | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/#/collections/ch.meteoschweiz.ogd-nowcasting) |
+| E1 | [Short-term forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#1-short-term-forecast-data) | `ogd-nowcasting` | 3️⃣ | ⚪ | ⚪ <!-- [ALPHA](https://sys-data.int.bgdi.ch/browser/#/collections/ch.meteoschweiz.ogd-nowcasting) --> |
 | E2 | [Numerical weather forecasting model CH1](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-numerical-weather-forecasting-model) | `ogd-forecasting-icon-ch1` | 2️⃣ | 🟡 | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch1) |
 | E3 | [Numerical weather forecasting model CH2](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-numerical-weather-forecasting-model) | `ogd-forecasting-icon-ch2` | 2️⃣ | 🟡 | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch2) |
 | E4 | [Local forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#3-local-forecast-data) | `ogd-local-forecasting` | 2️⃣ | 🟡 | ⚪ [ALPHA (File metadata)](https://sys-data.int.bgdi.ch/browser/#/collections/ch.meteoschweiz.ogd-local-forecasting) |
