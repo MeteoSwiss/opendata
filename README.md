@@ -76,7 +76,7 @@ They are provided as ‘Assets’ to the corresponding dataset/‘Collection‘ 
 | A1 | [Automatic weather stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a1---automatic-weather-stations---measured-values) | `ogd-smn` | 1 | 🟢 | 🟡 [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn) <!-- available as BETA in Q1-2025 --> |
 | A2 | [Automatic precipitation stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a2---automatic-precipitation-stations---measured-values) | `ogd-smn-precip` | 1 | 🟢 | 🟡 [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn-precip) <!-- available as BETA in Q1-2025 --> |
 | A3 | [Automatic tower stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/tree/main?tab=readme-ov-file#a3---automatic-tower-stations---measured-values) | `ogd-smn-tower` | 1 | 🟡 | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn-tower) <!-- available as BETA in Q1-2025 --> |
-| A4 | [Automatic soil stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a4---automatic-soil-stations---measured-values) *- Data not yet available* | `ogd-smn-soil` | 4 | - | - |
+| A4 | [Automatic soil stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a4---automatic-soil-stations---measured-values) *- Data not yet available* | `ogd-smn-soil` | 4 |   |   |
 | A5 | [Manual precipitation stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a5---manual-precipitation-stations---measured-values) | `ogd-nime` | 1 | 🟡 | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nime) <!-- available as BETA in Q1-2025 --> |
 | A6 | [Totaliser precipitation stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a6---totaliser-precipitation-stations---measured-values) | `ogd-tot` | 1 | 🟡 | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-tot) <!-- available as BETA in Q1-2025 --> |
 | A7 | [Pollen stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a7---pollen-stations---measured-values) | `ogd-pollen` | 1 | 🟡 | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-pollen) <!-- available as BETA in Q1-2025 --> |
@@ -89,11 +89,11 @@ They are provided as ‘Assets’ to the corresponding dataset/‘Collection‘ 
 | #  | Dataset/Collection name | Technical name | Priority | latest Open Data processed | latest Open Data & File-Metadata available |
 |:-----:|:-----|:-----|:-----:|:-----:|:-----:|
 | B1 | [Radio soundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | `ogd-radiosounding` | 2 | ⚪ | ⚪ |
-| B2 | Raman-LIDAR for Meteorological Observation (RALMO) *- not yet realised* |   | 4 | - | - |
-| B3 | LIDAR Ceilometer CHM15K *- not yet realised* |   | 4 | - | - |
-| B4 | Ozone measurements – Total column (Dobson, Brewer) *- not yet realised* |   | 4 | - | - |
-| B5 | Ozone measurements – Profiles (O3 radio soundings, SOMORA) *- not yet realised* |   | 4 | - | - |
-| B6 | Swiss Alpine Climate Radiation Monitoring (SACRaM) *- not yet realised* |   | 4 | - | - |
+| B2 | Raman-LIDAR for Meteorological Observation (RALMO) *- not yet realised* |   | 4 |   |   |
+| B3 | LIDAR Ceilometer CHM15K *- not yet realised* |   | 4 |   |   |
+| B4 | Ozone measurements – Total column (Dobson, Brewer) *- not yet realised* |   | 4 |   |   |
+| B5 | Ozone measurements – Profiles (O3 radio soundings, SOMORA) *- not yet realised* |   | 4 |   |   |
+| B6 | Swiss Alpine Climate Radiation Monitoring (SACRaM) *- not yet realised* |   | 4 |   |   |
 
 <br>
 
@@ -102,13 +102,13 @@ They are provided as ‘Assets’ to the corresponding dataset/‘Collection‘ 
 |:-----:|:-----|:-----|:-----:|:-----:|:-----:|
 | C1 | [Climate stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#1-climate-stations-homogeneous-measurements) | `ogd-nbcn` | 1 | 🟡 | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nbcn) <!-- available as BETA in Q1-2025 --> |
 | C2 | [Climate precipitation stations – Homogeneous measurements](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#2-climate-precipitation-stations-homogeneous-measurements) | `ogd-nbcn-precip` | 1 | 🟡 | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nbcn-precip) <!-- available as BETA in Q1-2025 --> |
-| C3 | [*Ground-based* spatial climate data - Precipitation, Temperature, Relative Sunshine Duration](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#c3---ground-based-spatial-climate-data) | `ogd-surface-derived-grid` | 2 | 🟡 | ⚪ [PoC]() |
-| C4 | [*Satellite-based* spatial climate data - Global, Diffuse & Direct Radiation, Cloud Fractional Cover](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#c4---satellite-based-spatial-climate-data) | `ogd-satellite-derived-grid` | 2 | 🟡 | ⚪ [PoC]() |
-| C5 | [*Radar-based* spatial climate data - Maximum Hailstone Size, Number of Hail Days](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#c5---radar-based-spatial-climate-data) *- expected to be available in May 2025* | `ogd-radar-derived-grid` | 3 | - | - |
-| C6 | [Climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#6-climate-normals) | `ogd-climate-normals` |   | 🟡 | ⚪ |
-| C7 | [Spatial climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#7-spatial-climate-normals) | `ogd-climate-normals-grid` |   | 🟡 | ⚪ |
-| C8 | [Climate scenarios](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#8-climate-scenarios) | `ogd-climate-scenarios` |   | 🟢 CH2018 | ⚪ |
-| C9 | [Spatial climate scenarios](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#8-climate-scenarios) | `ogd-climate-scenarios-grid` |   | 🟢 CH2018 | ⚪ |
+| C3 | [*Ground-based* spatial climate data - Precipitation, Temperature, Relative Sunshine Duration](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#c3---ground-based-spatial-climate-data) | `ogd-surface-derived-grid` | 2 | 🟡 | ⚪ [PoC](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-surface-derived-grid) |
+| C4 | [*Satellite-based* spatial climate data - Global, Diffuse & Direct Radiation, Cloud Fractional Cover](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#c4---satellite-based-spatial-climate-data) | `ogd-satellite-derived-grid` | 2 | 🟡 | ⚪ [PoC](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-satellite-derived-grid) |
+| C5 | [*Radar-based* spatial climate data - Maximum Hailstone Size, Number of Hail Days](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#c5---radar-based-spatial-climate-data) *- expected to be available in May 2025* | `ogd-radar-derived-grid` | 3 |   |   |
+| C6 | [Climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#6-climate-normals) | `ogd-climate-normals` | 2 | 🟡 | ⚪ |
+| C7 | [Spatial climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#7-spatial-climate-normals) | `ogd-climate-normals-grid` | 2 | 🟡 | ⚪ |
+| C8 | [Climate scenarios](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#8-climate-scenarios) | `ogd-climate-scenarios` | 1 | 🟢 CH2018 | ⚪ |
+| C9 | [Spatial climate scenarios](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#8-climate-scenarios) | `ogd-climate-scenarios-grid` | 1 | 🟢 CH2018 | ⚪ |
 
 <br>
 
