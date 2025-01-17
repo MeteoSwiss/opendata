@@ -66,7 +66,8 @@ The documentations of the Open Data products linked below explain what the data 
 
 ℹ️ **Priority** columns below show the planned order in which the datasets/collections become available. **Planning** can be adjusted on an ongoing basis.
 
-ℹ️ **File metadata:** All point measurement datasets/collections have three ‘file metadata’ files: `meta_stations.csv`, `meta_parameters.csv` and `datainventory.csv`. They are provided as ‘assets’ to the corresponding dataset/collection (not at the level of each individual ‘item‘/station.
+ℹ️ **File metadata:** All point measurement datasets/collections have three ‘file metadata’ files: `meta_stations.csv`, `meta_parameters.csv` and `datainventory.csv`. <br>
+They are provided as ‘assets’ to the corresponding dataset/collection (not at the level of each individual ‘item‘/station.
 
 <br>
 
