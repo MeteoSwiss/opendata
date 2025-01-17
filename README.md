@@ -89,11 +89,11 @@ They are provided as ‘Assets’ to the corresponding dataset/‘Collection‘ 
 | #  | Dataset/Collection name | Technical name | Priority | latest Open Data processed | latest Open Data & File-Metadata available |
 |:-----:|:-----|:-----|:-----:|:-----:|:-----:|
 | B1 | [Radio soundings](https://github.com/MeteoSwiss/opendata-atmosphere-measurements/blob/main/README.md#1-radio-soundings) | `ogd-radiosounding` | 2 | ⚪ | ⚪ |
-| B2 | Raman-LIDAR for Meteorological Observation (RALMO) *- not yet realised* |   | 4 |   |   |
-| B3 | LIDAR Ceilometer CHM15K *- not yet realised* |   | 4 |   |   |
-| B4 | Ozone measurements – Total column (Dobson, Brewer) *- not yet realised* |   | 4 |   |   |
-| B5 | Ozone measurements – Profiles (O3 radio soundings, SOMORA) *- not yet realised* |   | 4 |   |   |
-| B6 | Swiss Alpine Climate Radiation Monitoring (SACRaM) *- not yet realised* |   | 4 |   |   |
+| B2 | Raman-LIDAR for Meteorological Observation (RALMO) *- not yet realised* | `ogd-lidar-raman` | 4 |   |   |
+| B3 | LIDAR Ceilometer CHM15K *- not yet realised* | `ogd-lidar-ceilo` | 4 |   |   |
+| B4 | Ozone measurements – Total column (Dobson, Brewer) *- not yet realised* | `ogd-ozone-dobsonbrewer` | 4 |   |   |
+| B5 | Ozone measurements – Profiles (O3 radio soundings, SOMORA) *- not yet realised* | `ogd-ozone-somora` | 4 |   |   |
+| B6 | Swiss Alpine Climate Radiation Monitoring (SACRaM) *- not yet realised* | `ogd-radiation-sacram` | 4 |   |   |
 
 <br>
 
@@ -113,13 +113,13 @@ They are provided as ‘Assets’ to the corresponding dataset/‘Collection‘ 
 <br>
 
 ### D - Radar Data
-| #  | Dataset/Collection | latest Open Data processed | latest Open Data & File-Metadata available |
-|:-----:|:-----|:-----:|:-----:|
-| D1 | [Precipitation radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | ⚪ | ⚪ |
-| D2 | [Reflectivity-based radar products - ... ?](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | ⚪ | ⚪ |
-| D3 | [Hail radar products - Probability of Hail, Maximum Expected Severe Hail Size](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | ⚪ | ⚪ |
-| D4 | [Convection radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) *- not yet realised* | - | - |
-| D5 | [Polar 3D radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) *- not yet realised* | - | - |
+| #  | Dataset/Collection name | Technical name | Priority | latest Open Data processed | latest Open Data & 'File metadata' available |
+|:-----:|:-----|:-----|:-----:|:-----:|:-----:|
+| D1 | [Precipitation radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | `ogd-radar-precip` |   | ⚪ | ⚪ |
+| D2 | [Reflectivity-based radar products - ... ?](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | `ogd-radar-reflectivity` |   |  ⚪ | ⚪ |
+| D3 | [Hail radar products - Probability of Hail, Maximum Expected Severe Hail Size](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | `ogd-radar-hail` |   | ⚪ | ⚪ |
+| D4 | [Convection radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) *- not yet realised* | `ogd-radar-convection` |   |   |   |
+| D5 | [Polar 3D radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) *- not yet realised* | `ogd-radar-polar3d` |   |   |   |
 
 <br>
 
