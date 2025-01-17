@@ -105,10 +105,10 @@ They are provided as ‘Assets’ to the corresponding dataset/‘Collection‘ 
 | C3 | [*Ground-based* spatial climate data - Precipitation, Temperature, Relative Sunshine Duration](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#c3---ground-based-spatial-climate-data) | `ogd-surface-derived-grid` | 2 | 🟡 | ⚪ [PoC]() |
 | C4 | [*Satellite-based* spatial climate data - Global, Diffuse & Direct Radiation, Cloud Fractional Cover](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#c4---satellite-based-spatial-climate-data) | `ogd-satellite-derived-grid` | 2 | 🟡 | ⚪ [PoC]() |
 | C5 | [*Radar-based* spatial climate data - Maximum Hailstone Size, Number of Hail Days](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#c5---radar-based-spatial-climate-data) *- expected to be available in May 2025* | `ogd-radar-derived-grid` | 3 | - | - |
-| C6 | [Climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#6-climate-normals) | `climate-normals` |   | 🟡 | ⚪ |
-| C7 | [Spatial climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#7-spatial-climate-normals) | `climate-normals-grid` |   | 🟡 | ⚪ |
-| C8 | [Climate scenarios](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#8-climate-scenarios) | `climate-scenarios` |   | 🟢 CH2018 | ⚪ |
-| C9 | [Spatial climate scenarios](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#8-climate-scenarios) | `climate-scenarios-grid` |   | 🟢 CH2018 | ⚪ |
+| C6 | [Climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#6-climate-normals) | `ogd-climate-normals` |   | 🟡 | ⚪ |
+| C7 | [Spatial climate normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#7-spatial-climate-normals) | `ogd-climate-normals-grid` |   | 🟡 | ⚪ |
+| C8 | [Climate scenarios](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#8-climate-scenarios) | `ogd-climate-scenarios` |   | 🟢 CH2018 | ⚪ |
+| C9 | [Spatial climate scenarios](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#8-climate-scenarios) | `ogd-climate-scenarios-grid` |   | 🟢 CH2018 | ⚪ |
 
 <br>
 
