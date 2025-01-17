@@ -63,7 +63,7 @@ If you are unable to find the answer you are looking for, **contact us:** [opend
 ## Understanding MeteoSwiss' Open Data
 The documentations of the Open Data products linked below explain what the data represents, its models, abstractions and terminology.
 
-ℹ️ **Priority** columns below show the planned order in which the datasets/‘Collections‘ become available. **Planning** can be adjusted on an ongoing basis.
+ℹ️ **Priority** columns below show the planned order (from 1️⃣ to 4️⃣) in which the datasets/‘Collections‘ become available. **Planning** can be adjusted on an ongoing basis.
 
 ℹ️ **File metadata:** All point measurement datasets/‘Collections‘ have three ‘file metadata’ files: `meta_stations.csv`, `meta_parameters.csv` and `datainventory.csv`. <br>
 They are provided as ‘Assets’ to the corresponding dataset/‘Collection‘ (not at the level of each individual ‘Item‘/station.
