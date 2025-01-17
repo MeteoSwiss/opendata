@@ -115,20 +115,20 @@ They are provided as ‘Assets’ to the corresponding dataset/‘Collection‘ 
 ### D - Radar Data
 | #  | Dataset/Collection name | Technical name | Priority | latest Open Data processed | latest Open Data & 'File metadata' available |
 |:-----:|:-----|:-----|:-----:|:-----:|:-----:|
-| D1 | [Precipitation radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | `ogd-radar-precip` |   | ⚪ | ⚪ |
-| D2 | [Reflectivity-based radar products - ... ?](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | `ogd-radar-reflectivity` |   |  ⚪ | ⚪ |
-| D3 | [Hail radar products - Probability of Hail, Maximum Expected Severe Hail Size](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | `ogd-radar-hail` |   | ⚪ | ⚪ |
-| D4 | [Convection radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) *- not yet realised* | `ogd-radar-convection` |   |   |   |
-| D5 | [Polar 3D radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) *- not yet realised* | `ogd-radar-polar3d` |   |   |   |
+| D1 | [Precipitation radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | `ogd-radar-precip` | 3 | ⚪ | ⚪ |
+| D2 | [Reflectivity-based radar products - ... ?](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | `ogd-radar-reflectivity` | 3 |  ⚪ | ⚪ |
+| D3 | [Hail radar products - Probability of Hail, Maximum Expected Severe Hail Size](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) | `ogd-radar-hail` | 3 | ⚪ | ⚪ |
+| D4 | [Convection radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) *- not yet realised* | `ogd-radar-convection` | 4 |   |   |
+| D5 | [Polar 3D radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) *- not yet realised* | `ogd-radar-polar3d` | 4 |   |   |
 
 <br>
 
 ### E - Forecast Data
-| #  | Dataset/Collection | latest Open Data processed | latest Open Data & File-Metadata available |
-|:-----:|:-----|:-----:|:-----:|
-| E1 | [Short-term forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#1-short-term-forecast-data) | ⚪ | ⚪ |
-| E2 | [Numerical weather forecasting model CH1](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-numerical-weather-forecasting-model) | 🟡 | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch1) |
-| E3 | [Numerical weather forecasting model CH2](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-numerical-weather-forecasting-model) | 🟡 | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch2) |
-| E4 | [Local forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#3-local-forecast-data) | 🟡 | ⚪ |
+| #  | Dataset/Collection name | Technical name | Priority | latest Open Data processed | latest Open Data & 'File metadata' available |
+|:-----:|:-----|:-----|:-----:|:-----:|:-----:|
+| E1 | [Short-term forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#1-short-term-forecast-data) | `ogd-nowcasting` | 3 | ⚪ | ⚪ |
+| E2 | [Numerical weather forecasting model CH1](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-numerical-weather-forecasting-model) | `ogd-forecasting-icon-ch1` | 2 | 🟡 | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch1) |
+| E3 | [Numerical weather forecasting model CH2](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#2-numerical-weather-forecasting-model) | `ogd-forecasting-icon-ch2` | 2 | 🟡 | ⚪ [ALPHA](https://sys-data.int.bgdi.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch2) |
+| E4 | [Local forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#3-local-forecast-data) | `ogd-local-forecasting` | 2 | 🟡 | ⚪ |
 
 <br>
