@@ -7,7 +7,7 @@
 # MeteoSwiss - Open Data
 Welcome to MeteoSwiss' Open Data documentation.
 
-⚠️ We are currently **setting up our service as ALPHA**. Everything is subject to change without prior notice.
+⚠️ We are currently **setting up our service as BETA**. Everything is subject to change without prior notice.
 
 <!-- For now MeteoSwiss provides its Open Data to be consumed by **[downloading the data as files](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#getting-started-with-download)**. -->
 
