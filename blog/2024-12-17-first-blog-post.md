@@ -5,7 +5,7 @@ authors: [stefanoderbolz]
 tags: [hola, docusaurus]
 ---
 
-This page is the new home of the [Open Data documentation](/docs/data) of MeteoSwiss.
+This page is the new home of the [Open Data documentation](/) of MeteoSwiss.
 
 <!-- truncate -->
 
