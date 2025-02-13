@@ -45,11 +45,13 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
           //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
+        /*
         blog: {
           routeBasePath: '/',
           blogTitle: 'Open Data Documentation',
@@ -67,6 +69,7 @@ const config = {
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
+        */
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -86,12 +89,14 @@ const config = {
           src: 'img/avatar.png',
         },
         items: [
+          /*
           {
             type: 'docSidebar',
             sidebarId: 'dataSidebar',
             position: 'left',
             label: 'Data Documentation',
           },
+          */
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/MeteoSwiss/opendata',
