@@ -30,7 +30,7 @@ Each type of data is in its own collection - calling the `/collections` endpoint
 **Description:** Will return all available collections in the API. 
 
 ??? - A list for **all MeteoSwiss' Open Data collections** available can be seen here: <br/>
-**Example:** [`https://data.geo.admin.ch/ch.meteoschweiz.ogd...`](https://data.geo.admin.ch/ch.meteoschweiz.ogd...) <br/>
+**Example:** [`https://data.geo.admin.ch/ch.meteoschweiz.ogd...`](https://data.geo.admin.ch/ch.meteoschweiz.ogd)... <br/>
 **Description:** Will return all available MeteoSwiss' Open Data collections in the API.
 
 ??? - A list for Ground-based Measurements' can be seen [here](https://meteoswiss.github.io/opendata/#a---ground-based-measurements), for Atmosphere Measurements [here](https://meteoswiss.github.io/opendata/#b---atmosphere-measurements), for Climate Data [here](https://meteoswiss.github.io/opendata/#c---climate-data), for Radar Data [here](https://meteoswiss.github.io/opendata/#d---radar-data) and for Forecast Data [here](https://meteoswiss.github.io/opendata/#e---forecast-data).
