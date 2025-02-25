@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'MeteoSwiss - Open Data',
+  title: 'Open Data Documentation',
   tagline: 'Open Data Documentation',
   favicon: 'img/favicon.ico',
 
@@ -83,16 +83,25 @@ const config = {
       // Replace with your project's social card
       image: 'img/mch_logo_en.png',
       navbar: {
-        title: 'MeteoSwiss - Open Data',
+        title: 'Open Data Documentation',
         logo: {
           alt: 'MeteoSwiss - Logo',
-          src: 'img/avatar.png',
+          src: 'img/mch_logo_$locale$.png',
+          //svg: ['img/logo.svg', 'img/admin_text.svg'],
         },
         items: [
           /*
           {
             type: 'docSidebar',
             sidebarId: 'dataSidebar',
+            position: 'left',
+            label: 'Data Documentation',
+          },
+          */
+         /*
+          {
+            type: 'custom-myAwesomeNavbarItem',
+            sidebarId: 'mchLogo',
             position: 'left',
             label: 'Data Documentation',
           },

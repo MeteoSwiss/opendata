@@ -1,37 +1,32 @@
+import React from 'react';
 import clsx from 'clsx';
-import Heading from '@theme/Heading';
 import styles from './styles.module.css';
-import Translate, {translate} from '@docusaurus/Translate';
+import NavbarNavLink from '@theme/NavbarItem/NavbarNavLink';
+
 
 const FeatureList = [
   {
-    title: translate({id: 'homepage.main_title', message: 'Documentation under construction', description: 'Title on the main page'}),
-    Svg: require('@site/static/img/construction-site.svg').default,
-    description: (
-      <>
-        <Translate id="homepage.main_text" description="The main explanation text on the homepage">The documentations of the Open Data products linked below explain what the data represents, its models, abstractions and terminology.</Translate><br/><br/>
-
-        ⚠️ <strong><Translate>Status</Translate>:</strong> <Translate id="homepage.status_text" description="The status text on the homepage">We are currently setting up our service as ALPHA. Everything is subject to change without prior notice.</Translate>
-      </>
-    ),
+    Flag: require('@site/static/img/logo.svg').default,
+    AdminText: require('@site/static/img/admin_text.svg').default,
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Flag, AdminText}) {
   return (
     <div className={clsx('col col--12')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+        <Flag className={styles.featureSvg} role="img" />
+        <AdminText className={styles.featureSvg} role="img" />
       </div>
     </div>
   );
 }
 
-export default function HomepageFeatures() {
+function MeteoSwissLogoNavbarItemDesktop({
+  className,
+  isDropdownItem = false,
+  ...props
+}) {
   return (
     <section className={styles.features}>
       <div className="container">
@@ -42,5 +37,35 @@ export default function HomepageFeatures() {
         </div>
       </div>
     </section>
+  );
+}
+
+
+function MeteoSwissLogoNavbarItemMobile({
+  className,
+  isDropdownItem,
+  ...props
+}) {
+  return (
+    <li className="menu__list-item">
+      <NavbarNavLink className={clsx('menu__link', className)} {...props} />
+    </li>
+  );
+}
+
+export default function MeteoSwissLogoNavbarItem({
+  mobile = false,
+  position, // Need to destructure position from props so that it doesn't get passed on.
+  ...props
+}) {
+  const Comp = mobile ? MeteoSwissLogoNavbarItemMobile : MeteoSwissLogoNavbarItemDesktop;
+  return (
+    <Comp
+      {...props}
+      activeClassName={
+        props.activeClassName ??
+        (mobile ? 'menu__link--active' : 'navbar__link--active')
+      }
+    />
   );
 }

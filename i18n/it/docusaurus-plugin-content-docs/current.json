@@ -10,5 +10,9 @@
   "sidebar.dataSidebar.category.B - Atmosphere Measurements": {
     "message": "B - Atmosphere Measurements",
     "description": "The label for category B - Atmosphere Measurements in sidebar dataSidebar"
+  },
+  "sidebar.dataSidebar.category.Open Data Documentation": {
+    "message": "Open Data Documentation",
+    "description": "The label for category Open Data Documentation in sidebar dataSidebar"
   }
 }
