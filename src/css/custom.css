@@ -40,3 +40,7 @@
 .navbar__logo {
   height: 4rem;
 }
+
+.navbar__title {
+  font-size: 2rem;
+}
