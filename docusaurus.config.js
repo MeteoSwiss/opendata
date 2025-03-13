@@ -38,12 +38,6 @@ const config = {
     locales: ['en', 'de', 'fr', 'it'],
   },
 
-  colorMode: {
-      defaultMode: 'light',
-      disableSwitch: true,
-      respectPrefersColorScheme: false,
-  },
-
   presets: [
     [
       'classic',
@@ -78,6 +72,11 @@ const config = {
         */
         theme: {
           customCss: './src/css/custom.css',
+          colorMode: {
+              defaultMode: 'light',
+              disableSwitch: true,
+              respectPrefersColorScheme: false,
+          },
         },
       }),
     ],
