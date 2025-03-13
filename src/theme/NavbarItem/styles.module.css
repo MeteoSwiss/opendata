@@ -1,0 +1,19 @@
+@media (min-width: 768px) {
+    .mch-logo {
+        align-items: flex-start;
+    }
+}
+
+.mch-logo {
+    position: relative;
+    outline: none;
+    color: var(--wb-ds-color-text);
+    text-decoration: none;
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 700ms;
+    display: flex
+;
+    flex-wrap: nowrap;
+    align-items: center;
+}

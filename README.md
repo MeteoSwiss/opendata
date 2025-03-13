@@ -1,4 +1,4 @@
-![MeteoSwiss Logo](/docs/assets/img/mch_logo_en.png)
+![MeteoSwiss Logo](/static/img/mch_logo_en.png)
 
 <!-- [![GitHub commit](https://img.shields.io/github/last-commit/MeteoSwiss/opendata)](https://github.com/MeteoSwiss/opendata/commits/master) -->
 

@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Open Data Dokumentation",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "Blog",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "Letzte Einträge",
+    "description": "The label for the left sidebar"
+  }
+}
