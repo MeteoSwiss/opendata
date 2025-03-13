@@ -15,15 +15,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://metaodi.ch',
+  url: 'https://meteoswiss.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/meteoswiss-opendata-documentation/',
+  baseUrl: '/opendata/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'metaodi', // Usually your GitHub org/user name.
-  projectName: 'meteoswiss-opendata-documentation', // Usually your repo name.
+  organizationName: 'MeteoSwiss', // Usually your GitHub org/user name.
+  projectName: 'opendata', // Usually your repo name.
 
   trailingSlash: false,
 
