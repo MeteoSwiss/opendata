@@ -38,6 +38,12 @@ const config = {
     locales: ['en', 'de', 'fr', 'it'],
   },
 
+  colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+  },
+
   presets: [
     [
       'classic',
