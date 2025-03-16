@@ -2,6 +2,6 @@
 sidebar_position: 2
 ---
 
-# Terms of use
+# Nutzungsbedingungen
 
-TODO: copy content of https://meteoswiss.github.io/opendata-terms-of-use/ to this page.
+TODO: Inhalt von https://meteoswiss.github.io/opendata-terms-of-use/ hierher kopieren.
