@@ -4,15 +4,31 @@
     "description": "The label for version current"
   },
   "sidebar.dataSidebar.category.A - Ground-based Measurements": {
-    "message": "A - Ground-based Measurements",
+    "message": "A - Données de mesure du sol",
     "description": "The label for category A - Ground-based Measurements in sidebar dataSidebar"
   },
   "sidebar.dataSidebar.category.B - Atmosphere Measurements": {
-    "message": "B - Atmosphere Measurements",
+    "message": "B - Données de mesure de l'atmosphère",
     "description": "The label for category B - Atmosphere Measurements in sidebar dataSidebar"
   },
   "sidebar.dataSidebar.category.Open Data Documentation": {
     "message": "Open Data Documentation",
     "description": "The label for category Open Data Documentation in sidebar dataSidebar"
+  },
+  "sidebar.dataSidebar.category.General Information": {
+    "message": "General Information",
+    "description": "The label for category General Information in sidebar dataSidebar"
+  },
+  "sidebar.dataSidebar.category.C - Climate Data": {
+    "message": "C - Données sur le climat",
+    "description": "The label for category C - Climate Data in sidebar dataSidebar"
+  },
+  "sidebar.dataSidebar.category.D - Radar Data": {
+    "message": "D - Données radar",
+    "description": "The label for category D - Radar Data in sidebar dataSidebar"
+  },
+  "sidebar.dataSidebar.category.E - Forecast Data": {
+    "message": "E - Données prévisionnelles",
+    "description": "The label for category E - Forecast Data in sidebar dataSidebar"
   }
 }

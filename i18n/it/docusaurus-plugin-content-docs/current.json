@@ -14,5 +14,21 @@
   "sidebar.dataSidebar.category.Open Data Documentation": {
     "message": "Open Data Documentation",
     "description": "The label for category Open Data Documentation in sidebar dataSidebar"
+  },
+  "sidebar.dataSidebar.category.General Information": {
+    "message": "General Information",
+    "description": "The label for category General Information in sidebar dataSidebar"
+  },
+  "sidebar.dataSidebar.category.C - Climate Data": {
+    "message": "C - Climate Data",
+    "description": "The label for category C - Climate Data in sidebar dataSidebar"
+  },
+  "sidebar.dataSidebar.category.D - Radar Data": {
+    "message": "D - Radar Data",
+    "description": "The label for category D - Radar Data in sidebar dataSidebar"
+  },
+  "sidebar.dataSidebar.category.E - Forecast Data": {
+    "message": "E - Forecast Data",
+    "description": "The label for category E - Forecast Data in sidebar dataSidebar"
   }
 }
