@@ -49,3 +49,10 @@
   font-size: 2rem;
   padding-left: 1.5rem;
 }
+
+/** In mobile view, reduce the padding */
+@media screen and (max-width: 996px) {
+  .navbar__title {
+    display: none;
+  }
+}
