@@ -46,10 +46,9 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: '/',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/MeteoSwiss/opendata/edit/main/docs/',
-          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editLocalizedFiles: true,
+          disableVersioning: true,
         },
         /*
         blog: {
