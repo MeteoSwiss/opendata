@@ -41,6 +41,10 @@
   height: 4rem;
 }
 
+.iconLanguage_nlXk {
+  display: none
+}
+
 .navbar__title {
   font-size: 2rem;
 }
