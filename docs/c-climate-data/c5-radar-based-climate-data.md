@@ -8,12 +8,12 @@ The following *grid data products* are derived from *radar data*, which were [fu
 The following data are planned to be made available in May 2025:
 
 **Maximum Hailstone Size**
-- Monthly and Yearly radar-based Maximum Hailstone Size <<< 🟡 *ProdDoc (PDF) URL ?*
+- Monthly and Yearly radar-based Maximum Hailstone Size « 🟡 *ProdDoc (PDF) URL ?*
 
 **Number of Hail Days**
-- Monthly and Yearly radar-based Number of Hail Days <<< 🟡 *ProdDoc (PDF) URL ?*
-- Monthly and Yearly radar-based Number of Hail Days with Hail >2cm <<< 🟡 *ProdDoc (PDF) URL ?*
-- Monthly and Yearly radar-based Number of Hail Days with Hail >4cm <<< 🟡 *ProdDoc (PDF) URL ?*
+- Monthly and Yearly radar-based Number of Hail Days « 🟡 *ProdDoc (PDF) URL ?*
+- Monthly and Yearly radar-based Number of Hail Days with Hail >2cm « 🟡 *ProdDoc (PDF) URL ?*
+- Monthly and Yearly radar-based Number of Hail Days with Hail >4cm « 🟡 *ProdDoc (PDF) URL ?*
 
 <br />
 
