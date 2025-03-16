@@ -48,7 +48,7 @@ const config = {
           routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: https://github.com/MeteoSwiss/opendata/edit/main/docs/
+          editUrl: 'https://github.com/MeteoSwiss/opendata/edit/main/docs/',
           //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         /*
