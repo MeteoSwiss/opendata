@@ -48,7 +48,6 @@ const config = {
           routeBasePath: '/',
           editUrl: 'https://github.com/MeteoSwiss/opendata/edit/main/',
           editLocalizedFiles: true,
-          disableVersioning: true,
         },
         /*
         blog: {
