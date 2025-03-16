@@ -72,11 +72,6 @@ const config = {
         */
         theme: {
           customCss: './src/css/custom.css',
-          colorMode: {
-              defaultMode: 'light',
-              disableSwitch: true,
-              respectPrefersColorScheme: false,
-          },
         },
       }),
     ],
@@ -87,6 +82,11 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/mch_logo_en.png',
+      colorMode: {
+          defaultMode: 'light',
+          disableSwitch: true,
+          respectPrefersColorScheme: false,
+      },
       navbar: {
         title: 'Open Data Documentation',
         logo: {
