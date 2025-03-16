@@ -46,7 +46,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: '/',
-          editUrl: 'https://github.com/MeteoSwiss/opendata/edit/main/docs/',
+          editUrl: 'https://github.com/MeteoSwiss/opendata/edit/main/',
           editLocalizedFiles: true,
           disableVersioning: true,
         },
