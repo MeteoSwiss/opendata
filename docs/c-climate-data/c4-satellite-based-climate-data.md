@@ -9,10 +9,10 @@ The following *grid data products* are derived from [MeteoSat satellite data](..
 - *Hourly*, [Daily, Monthly and Yearly *satellite-based* Global Radiation](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf)
 
 **Diffuse Radiation**
-- *Hourly*, Daily, Monthly and Yearly *satellite-based* Diffuse Radiation <<< 🟡 *ProdDoc (PDF) URL ?*
+- *Hourly*, Daily, Monthly and Yearly *satellite-based* Diffuse Radiation « 🟡 *ProdDoc (PDF) URL ?*
 
 **Direct Radiation**
-- *Hourly*, Daily, Monthly and Yearly *satellite-based* Direct Radiation <<< 🟡 *ProdDoc (PDF) URL ?*
+- *Hourly*, Daily, Monthly and Yearly *satellite-based* Direct Radiation « 🟡 *ProdDoc (PDF) URL ?*
 
 **Cloud Fractional Cover**
 - *Hourly*, [Daily, Monthly and Yearly satellite-based Cloud Fractional Cover](https://www.meteoswiss.admin.ch/dam/jcr:af0c491c-4bfc-4efd-bcee-5d019004afd1/ProdDoc_CFC.pdf)
