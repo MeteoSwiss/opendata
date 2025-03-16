@@ -13,7 +13,7 @@ For the Open Data download, MeteoSwiss uses the [Federal Spatial Data Infrastruc
 
 **You want to learn**
 - [3 - how data files are structured](#3---how-data-files-are-structured)
-- [4 - how date/time, time intervals and missing values are represented](#4---how-date-time--time-intervals-and-missing-values-are-represented)
+- [4 - how date/time, time intervals and missing values are represented](#4---how-datetime-time-intervals-and-missing-values-are-represented)
 
 <br/>
 
@@ -39,7 +39,7 @@ To download a file call the `/collections/<collectionname>/items?` endpoint for 
 
 ...
 
-See [Import Data into QGIS](...) *[upcoming]* to see how a downloaded *radar* file can be imported into QGIS.
+See [Import Data into QGIS](#not-available) *[upcoming]* to see how a downloaded *radar* file can be imported into QGIS.
 
 <br/>
 

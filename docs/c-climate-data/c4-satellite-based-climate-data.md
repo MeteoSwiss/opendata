@@ -3,7 +3,7 @@ sidebar_position: 4
 ---
 
 # C4 - Satellite-based spatial climate data
-The following *grid data products* are derived from [MeteoSat satellite data](...) together with *surface data* (see links for detailed product documentations):
+The following *grid data products* are derived from [MeteoSat satellite data](#not-available) together with *surface data* (see links for detailed product documentations):
 
 **Global Radiation**
 - *Hourly*, [Daily, Monthly and Yearly *satellite-based* Global Radiation](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf)

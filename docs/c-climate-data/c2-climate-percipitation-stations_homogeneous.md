@@ -13,16 +13,16 @@ There are files of [data granularity](https://github.com/MeteoSwiss/opendata-dow
 
 Data format is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#column-separators-decimal-dividers-and-missing-values) with an estimated volume of ... MB per file.
 
-See example data files: [`...`](...).
+See example data files: [`...`](#not-available).
 
 ## 2.2. Parameter metadata
-See example parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`...`](...) and [`...`](...).
+See example parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`...`](#not-available) and [`...`](#not-available).
 
 <!-- ### Codes -->
 <!-- ... -->
 
 ## 2.3. Station metadata
-See example [station metadata file](...).
+See example [station metadata file](#not-available).
 
 ## 2.4. Data visualisation
-See e.g. MeteoSwiss' [...](...).
+See e.g. MeteoSwiss' [...](#not-available).
