@@ -8,7 +8,7 @@ sidebar_position: 1
 
 cf. [https://github.com/MeteoSwiss/publication-opendata?tab=readme-ov-file#2621-basic-radar-data](https://github.com/MeteoSwiss/publication-opendata?tab=readme-ov-file#2621-basic-radar-data)
 
-<br>
+<br/>
 
 The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056). 
 
