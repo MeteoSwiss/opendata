@@ -6,7 +6,7 @@ sidebar_position: 3
 
 Below you'll find answers to the most frequently asked questions. We continuously update these based on questions received.
 
-<!-- ## Questions about the data -->
+<!-- Questions about the data -->
 1. [What type of data can I get?](#what-type-of-data-can-i-get)
 2. [How may I use data?](#how-may-i-use-data)
 3. [Is there any limitation to the use of data?](#is-there-any-limitation-to-the-use-of-data)
