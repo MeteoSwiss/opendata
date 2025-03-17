@@ -6,7 +6,7 @@ sidebar_position: 4
 
 <!-- cf. https://opendatadocs.dmi.govcloud.dk/en/API_Status_and_Contact -->
 
-**Service Availability Checks** <br>
+**Service Availability Checks**
 | [Operational status](...) | ... |
 |-----|-----|
 <!-- cf. [https://status.opentransportdata.swiss](https://status.opentransportdata.swiss/) -->
@@ -18,7 +18,7 @@ If you have questions about the Download API, how to use the service, or the doc
 
 If you are unable to find the answer you are looking for, please contact us.
 
-Call MeteoSwiss Support: +41 58 460 99 99 <br>
+Call MeteoSwiss Support: +41 58 460 99 99
 Opening hours: Monday to Friday *9:00-12:00am* and *1:30-4:30pm*
 
 Or use our [contact form](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html).
