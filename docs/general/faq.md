@@ -33,9 +33,10 @@ Below you'll find answers to the most frequently asked questions. We continuousl
 The following data is available: ...
 - [Ground-based Measurements](/a-data-groundbased)
 - [Atmosphere Measurements](/b-data-atmosphere)
-- [Climate Data](/c-data-climate)
-- [Radar Data](/d-data-radar)
-- [Forecast Data](e/-data-forecast)
+- ...
+<!--  - [Climate Data](/c-data-climate)  -->
+<!--  - [Radar Data](/d-data-radar)  -->
+<!--  - [Forecast Data](/e-data-forecast)  -->
 
 
 
