@@ -7,8 +7,11 @@ Around 160 stations of the [automatic measurement network](https://www.meteoswis
 
 The network is supplemented by around 100 [automatic precipitation stations](/a-data-groundbased/a2-automatic-precipitation-stations). Together, these stations form the basis for the creation of reliable local weather forecasts as well as severe weather and flood warnings. Additionally MeteoSwiss operates 3 [automatic tower stations](/a-data-groundbased/a3-automatic-tower-stations) at 150m to 230m above ground for boundary layer measurements.
 
-> [!NOTE]
-> For **climate analyses**, use the corresponding [homogeneous time series data](/c-climate-data) instead.
+:::note
+
+For **climate analyses**, use the corresponding [homogeneous time series data](/c-climate-data) instead.
+
+:::
 
 ## 1.1. Data granularity, update frequency, format and volume
 If you require hourly, daily, monthly or annual values, we strongly recommend that you download the corresponding aggregated [data granularity](/general/download#32---data-granularity) `t`, `h`, `d`, `m`, `y` and [update frequency](/general/download#33---update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.
@@ -19,8 +22,11 @@ Data format of all files is [`CSV`](/general/download#31---column-separators-and
 
 See example data files for station `Salen-Reutenen (HAI)` (abbreviation set in lower case) for all granularities and update frequencies mentioned: [`ogd-smn_hai_(data granularity)_(update frequency).csv`](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn/items/hai?.language=en).
 
-> [!NOTE]
-> In addition we offer the [current measured values of the main parameters of all stations](#not-available) *(URL to follow)* in a single data file, i.e. [data granularity](/general/download#32---data-granularity) `t`. *The main parameters included are: ...*
+:::note
+
+In addition we offer the [current measured values of the main parameters of all stations](#not-available) *(URL to follow)* in a single data file, i.e. [data granularity](/general/download#32---data-granularity) `t`. *The main parameters included are: ...*
+
+:::
 
 ## 1.2. Parameter metadata
 See example parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`t`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-smn-T.csv), [`h`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-smn-H.csv), [`d`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-smn-D.csv), [`m`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-smn-M.csv) and [`y`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-smn-Y.csv).
