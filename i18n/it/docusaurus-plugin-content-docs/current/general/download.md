@@ -13,7 +13,7 @@ For the Open Data download, MeteoSwiss uses the [Federal Spatial Data Infrastruc
 
 **You want to learn**
 - [3 - how data files are structured](#3---how-data-files-are-structured)
-- [4 - how date/time, time intervals and missing values are represented](#4---how-date-time--time-intervals-and-missing-values-are-represented)
+- [4 - how date/time, time intervals and missing values are represented](#4---how-datetime-time-intervals-and-missing-values-are-represented)
 
 <br/>
 
