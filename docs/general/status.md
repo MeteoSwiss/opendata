@@ -14,7 +14,7 @@ sidebar_position: 4
 There are currently no planned service windows that will affect the operational status of the Download API. 
 
 # Contact
-If you have questions about the Download API, how to use the service, or the documentation, please read the [Frequently Asked Questions (FAQ)](/faq).
+If you have questions about the Download API, how to use the service, or the documentation, please read the [Frequently Asked Questions (FAQ)](/general/faq).
 
 If you are unable to find the answer you are looking for, please contact us.
 
