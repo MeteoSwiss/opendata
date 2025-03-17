@@ -20,7 +20,7 @@ Below you'll find answers to the most frequently asked questions. We continuousl
 
 
 <!--  TODO: Mögliche weitere Fragen:  -->
-<!--  - FAQs geo.admin.ch --> referenzieren (aamsler)  -->
+<!--  - FAQs geo.admin.ch referenzieren (aamsler)  -->
 <!--  - Was ist ein Totalisator? (lim)  -->
 <!--  - Welche Daten werden automatisch, welche manuell erhoben? (lim)  -->
 <!--  - Warum werden Niederschlagsstationen anders gehandhabt als andere Stationen? (lim)  -->
