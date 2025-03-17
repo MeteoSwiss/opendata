@@ -24,7 +24,7 @@ Data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf).
 | Dataset | Update frequency | Example data file | Productive version file name | Estimated volume per file (MB) |
 |:----- | ----- |:----- |:----- | ----- |
 | **Precipitation (10min values): quantitative chain (based on CombiPrecip, RR)** | every 10min | [RR_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/RR_INCA_202106280700.nc) | `ogd-nowcasting_RR-INCA_(date and time code).nc` | 1.7 |
-| **Wind, wind gust and wind direction (10min values)** | every 10min | [...](#not-available) | `ogd-nowcasting_(product name)_(date and time code).nc` | ... |
+| **Wind, wind gust and wind direction (10min values)** | every 10min | [...](#) | `ogd-nowcasting_(product name)_(date and time code).nc` | ... |
 | *Relative sunshine duration* (10min values) | 10min | [SU_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/SU_INCA_202106280700.nc) | `ogd-nowcasting_SU-INCA_(date and time code).nc` | 6.4 |
 | *Total cloudiness* (10min values) | 10min | [SU_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/SU_INCA_202106280700.nc) | `ogd-nowcasting_SU-INCA_(date and time code).nc` | 6.4 |
 |       |       |       |       |       |
@@ -40,4 +40,4 @@ Parameter metadata is part of each NetCDF-File. See example data files in the ta
 The coordinate system is Swiss LV95 EPSG:2056.
 
 ## 1.4. Data visualisation
-See e.g. MeteoSwiss' [...](#not-available).
+See e.g. MeteoSwiss' [...](#).

@@ -15,13 +15,13 @@ Data format of all files is [`CSV`](https://github.com/MeteoSwiss/opendata-downl
 See example data files for station `BAS` for all granularities and update frequencies mentioned: [`ogd-nbcn_BAS_(data granularity)_(update frequency)`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/climate-stations-swiss-nbcn-climate).
 
 ## 1.2. Parameter metadata
-See example parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`...`](#not-available) and [`...`](#not-available).
+See example parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`...`](#) and [`...`](#).
 
 <!-- ### Codes -->
 <!-- ... -->
 
 ## 1.3. Station metadata
-See example [station metadata file](#not-available).
+See example [station metadata file](#).
 
 ## 1.4. Data visualisation
-See e.g. MeteoSwiss' [...](#not-available).
+See e.g. MeteoSwiss' [...](#).

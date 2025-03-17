@@ -24,7 +24,7 @@ See example data files for station `Salen-Reutenen (HAI)` (abbreviation set in l
 
 :::note
 
-In addition we offer the [current measured values of the main parameters of all stations](#not-available) *(URL to follow)* in a single data file, i.e. [data granularity](/general/download#32---data-granularity) `t`. *The main parameters included are: ...*
+In addition we offer the [current measured values of the main parameters of all stations](#) *(URL to follow)* in a single data file, i.e. [data granularity](/general/download#32---data-granularity) `t`. *The main parameters included are: ...*
 
 :::
 
