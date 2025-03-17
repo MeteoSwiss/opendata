@@ -7,7 +7,7 @@ sidebar_position: 4
 <!-- cf. https://opendatadocs.dmi.govcloud.dk/en/API_Status_and_Contact -->
 
 **Service Availability Checks**
-| [Operational status]() | ... |
+| Operational status | ... |
 |-----|-----|
 <!-- cf. [https://status.opentransportdata.swiss](https://status.opentransportdata.swiss/) -->
 
