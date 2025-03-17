@@ -19,23 +19,23 @@ Below you'll find answers to the most frequently asked questions. We continuousl
 10. [What if I have questions about the data?](#what-if-i-have-questions-about-the-data)
 
 
-<!-- TODO: Mögliche weitere Fragen:
-- FAQs geo.admin.ch --> referenzieren (aamsler)
-- Was ist ein Totalisator? (lim)
-- Welche Daten werden automatisch, welche manuell erhoben? (lim)
-- Warum werden Niederschlagsstationen anders gehandhabt als andere Stationen? (lim)
-- Warum ist eine Niederschlagssstation keine Atmosphärenmessung? (lim)
-- Warum sind Radardaten nicht auch Atmosphärenmessungen? (lim)  -->
+<!--  TODO: Mögliche weitere Fragen:  -->
+<!--  - FAQs geo.admin.ch --> referenzieren (aamsler)  -->
+<!--  - Was ist ein Totalisator? (lim)  -->
+<!--  - Welche Daten werden automatisch, welche manuell erhoben? (lim)  -->
+<!--  - Warum werden Niederschlagsstationen anders gehandhabt als andere Stationen? (lim)  -->
+<!--  - Warum ist eine Niederschlagssstation keine Atmosphärenmessung? (lim)  -->
+<!--  - Warum sind Radardaten nicht auch Atmosphärenmessungen? (lim)  -->
 
 ---
 
 ### What type of data can I get?
 The following data is available: ...
-<!--  - [Ground-based Measurements](...)
-- [Atmosphere Measurements](...)
-- [Climate Data](...)
-- [Radar Data](...)
-- [Forecast Data](...)  -->
+- [Ground-based Measurements](./a---ground-based-measurements)
+- [Atmosphere Measurements](./b---atmosphere-measurements)
+- [Climate Data](./c---climate-data)
+- [Radar Data](./d---radar-data)
+- [Forecast Data](.e/---forecast-data)
 
 
 
