@@ -12,12 +12,12 @@ You want to learn how [data files are structured](#3-how-data-files-are-structur
 
 
 
-## 1. Manually download Files
+## 1. Manually download files
 *[MeteoSwiss' Data Explorer upcoming]*
 
 
 
-## 2. Automatically download Files
+## 2. Automatically download files
 The [FSDI provides a REST API](https://www.geo.admin.ch/en/rest-interface-stac-api) which adheres to the OGC STAC API standard.
 
 Each type of data is in its own collection - calling the `/collections` endpoint will show all collections available: <br/>
@@ -38,16 +38,16 @@ See [Import Data into QGIS](#) *[upcoming]* to see how a downloaded *radar* file
 
 
 
-## 3. How Data Files are structured
+## 3. How data files are structured
 
-### 3.1 Column Separators and Decimal Dividers
+### 3.1 Column separators and decimal dividers
 Generally, columns are separated with a semicolon (`;`).
 
 The decimal divider is a full stop (`.`).
 
 
 
-### 3.2 Data Granularity
+### 3.2 Data granularity
 For all types of data MeteoSwiss uses standard granularities. Depending on the application not all granularites are available. 
 
 For [*Ground-based* Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#a-ground-based-measurements) the lowest granulartiy is usually called 'original data' (Originalwert). Higher granularities are called 'aggregations' or 'aggregated values'. The World Meteorological Organization (WMO) does issue guidelines on how national weather services have to aggregate values and MeteoSwiss does follow these guidelines.
@@ -66,7 +66,7 @@ This is the overview of the granularities for [Ground-based](https://github.com/
 
 
 
-### 3.3 Update Frequency
+### 3.3 Update frequency
 For [Ground-based](https://github.com/MeteoSwiss/opendata/blob/main/README.md#a-ground-based-measurements) and [Atmosphere Measurements](https://github.com/MeteoSwiss/opendata/blob/main/README.md#b-atmosphere-measurements) as well as for [Homogenous Climate Data Series](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#1-climate-stations) and [Climate Normals](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#6-climate-normals) MeteoSwiss provides an optimized directory structure separating older historical data, which is not updated regularly, and more recent data, which is updated more often. For realtime data we provide a third "now" directory with a high update frequency.
 
 This is the overview:
@@ -80,9 +80,9 @@ This is the overview:
 
 
 
-## 4. How Date/Time, Time Intervals and Missing Values are represented
+## 4. How date/time, time intervals and missing values are represented
 
-### 4.1 Time Stamps and Time Intervals
+### 4.1 Time stamps and time intervals
 Date/Time is expressed as `dd.mm.yyyy HH:MM`.
 
 All reference time stamps at MeteoSwiss are in [UTC](https://www.utctime.net)! Depending on the granularity the time stamp does define different intervals:
@@ -98,7 +98,7 @@ All reference time stamps at MeteoSwiss are in [UTC](https://www.utctime.net)! D
 
 
 
-### 4.2 Missing Values
+### 4.2 Missing values
 Missing values (e.g. due to instrument failure) are empty fields. Empty columns are used when a parameter is not measured at all at a certain station.
 
 
