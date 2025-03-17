@@ -20,7 +20,7 @@ Die 'Open Data' von MeteoSchweiz dürfen uneingeschränkt weiterverwendet werden
 
 Die 'Open Data' von MeteoSchweiz werden entsprechend unter der [Creative Commons License CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.de) veröffentlicht.
 
-![CC-BY Logo](/docs/assets/img/ccby.png)
+<!-- TODO: einfügen  ![CC-BY Logo](/docs/assets/img/ccby.png)  -->
 
 Kurz zusammengefasst, dürfen Nutzerinnen und Nutzer:
 1. **Teilen** — die Daten in jedwedem Format oder Medium vervielfältigen und weiterverbreiten und zwar für beliebige Zwecke, sogar kommerziell.
