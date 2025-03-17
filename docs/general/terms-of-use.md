@@ -6,7 +6,7 @@ sidebar_position: 1
 
 <!-- TODO: translate to English. -->
 
-## 1. Veröffentlichung von meteorologischen und klimatologischen Daten
+## Veröffentlichung von meteorologischen und klimatologischen Daten
 Das Bundesamt für Meteorologie und Klimatologie MeteoSchweiz veröffentlicht seine Daten, die es zur Erfüllung seiner gesetzlichen Aufgaben beschafft oder generiert ([Art. 10 Abs. 1 EMBAG](https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_10)).
 
 Die Daten werden unentgeltlich, zeitnah, in maschinenlesbarer Form und in einem offenen Format im Internet als 'Open Data' veröffentlicht ([Art. 10 Abs. 4 EMBAG](https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_10)).
@@ -15,7 +15,7 @@ MeteoSchweiz nutzt zur Veröffentlichung die [Bundes Geodaten-Infrastruktur BGDI
 
 
 
-## 2. Nutzungsrechte hinsichtlich der Daten
+## Nutzungsrechte hinsichtlich der Daten
 Die 'Open Data' von MeteoSchweiz dürfen uneingeschränkt weiterverwendet werden ([Art. 10 Abs. 4 EMBAG](https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_10)); bei der Wiedergabe oder Weiterverbreitung der Daten ist die Quelle anzugeben (Quelle: MeteoSchweiz; Source: MétéoSuisse; Fonte: MeteoSvizzera; Source: MeteoSwiss) (vgl. [Art. 5 Abs. 1 lit. a MetV](https://www.fedlex.admin.ch/eli/cc/2024/452/de#art_5)). 
 
 Die 'Open Data' von MeteoSchweiz werden entsprechend unter der [Creative Commons License CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.de) veröffentlicht.
@@ -30,14 +30,14 @@ Bei der Angabe der Quelle ist zu beachten, dass nicht der Eindruck entsteht, Met
 
 
 
-## 3. Gewährleistungs- und Haftungsausschluss
+## Gewährleistungs- und Haftungsausschluss
 Obwohl MeteoSchweiz die Beschaffung und Generierung von Daten mit aller Sorgfalt vornimmt, kann hinsichtlich der Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit und Vollständigkeit der veröffentlichten 'Open Data' keine Gewährleistung übernommen werden (vgl. [Art. 10 Abs. 6 EMBAG](https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_10)). Haftungsansprüche werden im Rahmen des gesetzlich Zulässigen ausgeschlossen. 
 
 MeteoSchweiz erbringt im Rahmen seiner gesetzlichen Aufgaben (insbesondere im Bereich Bevölkerungs- und Notfallschutz) unerlässliche Leistungen, sei es zugunsten der Bevölkerung (Warnungen) als auch zu Handen anderer Behörden. Wir weisen darauf hin, dass in besonderen und ausserordentlichen Lagen zur Sicherstellung dieser Leistungen die Aktualisierung von 'Open Data' vorübergehend eingeschränkt sein kann. 
 
 
 
-## 4. Nutzung der Infrastruktur
+## Nutzung der Infrastruktur
 Wir machen Sie darauf aufmerksam, dass die von MeteoSchweiz für 'Open Data' eingesetzte Infrastruktur nur in dem Umfang genutzt werden darf, der für den Bezug der Daten notwendig ist. Eine missbräuchliche Nutzung (insbesondere die Nutzung mit dem Ziel, die Infrastruktur zu schädigen oder deren Verfügbarkeit zu blockieren) sowie eine betreffend Zugriffsfrequenz oder Datenvolumen übermässige Nutzung (insbesondere das hochfrequente Herunterladen desselben Inhalts) ist untersagt und kann dazu führen, dass Ihr Zugang eingeschränkt oder gesperrt wird (vgl. [Art. 5 Abs. 1 lit. d MetV](https://www.fedlex.admin.ch/eli/cc/2024/452/de#art_5)).
 
 Es gelten die [Allgemeine Nutzungsbedingungen und Betriebsbestimmungen der Bundes Geodaten-Infrastruktur BGDI](https://www.geo.admin.ch/de/allgemeine-nutzungsbedingungen-bgdi). Insbesondere zu beachten sind ebd. Kapitel [2. Datennutzung](https://www.geo.admin.ch/de/allgemeine-nutzungsbedingungen-bgdi#2.-Datennutzung) sowie Kapitel [5. Betriebsbestimmungen](https://www.geo.admin.ch/de/allgemeine-nutzungsbedingungen-bgdi#5-Betriebsbestimmungen).
