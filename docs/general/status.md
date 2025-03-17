@@ -2,11 +2,11 @@
 sidebar_position: 4
 ---
 
-# Download API Status
+# Download API status
 
 <!-- cf. https://opendatadocs.dmi.govcloud.dk/en/API_Status_and_Contact -->
 
-**Service Availability Checks**
+**Service availability checks**
 | Operational status | ... |
 |-----|-----|
 <!-- cf. [https://status.opentransportdata.swiss](https://status.opentransportdata.swiss/) -->
@@ -25,7 +25,7 @@ Or use our [contact form](https://www.meteoswiss.admin.ch/about-us/contact/conta
 
 
 
-| System | Contact Point | Status |
+| System | Contact point | Status |
 |:-----|:-----|:-----:|
 | Open Data generation & integration | MeteoSwiss' [Open Data Support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) | [see below per Open Data product](https://github.com/MeteoSwiss/opendata/blob/main/README.md#understanding-meteoswiss-open-data)
 | Open Data download service | MeteoSwiss' [Open Data Support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) | ⚪ |
