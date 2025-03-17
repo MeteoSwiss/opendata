@@ -16,7 +16,7 @@ MeteoSchweiz nutzt zur Veröffentlichung die [Bundes Geodaten-Infrastruktur BGDI
 ## 2. Nutzungsrechte hinsichtlich der Daten
 Die 'Open Data' von MeteoSchweiz dürfen uneingeschränkt weiterverwendet werden ([Art. 10 Abs. 4 EMBAG](https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_10)); bei der Wiedergabe oder Weiterverbreitung der Daten ist die Quelle anzugeben (Quelle: MeteoSchweiz; Source: MétéoSuisse; Fonte: MeteoSvizzera; Source: MeteoSwiss) (vgl. [Art. 5 Abs. 1 lit. a MetV](https://www.fedlex.admin.ch/eli/cc/2024/452/de#art_5)). 
 
-Die 'Open Data' von MeteoSchweiz werden entsprechend unter der [Creative Commons License CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.de) veröffentlicht.
+Die 'Open Data' von MeteoSchweiz werden entsprechend unter der [Creative Commons License CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de) veröffentlicht.
 
 <!-- TODO: einfügen  ![CC-BY Logo](/docs/assets/img/ccby.png)  -->
 
