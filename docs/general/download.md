@@ -6,9 +6,9 @@ sidebar_position: 2
 
 For the Open Data download, MeteoSwiss uses the [Federal Spatial Data Infrastructure FSDI](https://www.geo.admin.ch/en/federal-spatial-data-infrastructure-fsdi), which is operated by the Federal Office of Topography swisstopo. See [Terms of Use, chapter 4. Use of the Infrastructure](https://meteoswiss.github.io/opendata-terms-of-use/#4-nutzung-der-infrastruktur).
 
-You want to download files [manually](#1--manually-download-files) *[upcoming]* or [automatically](#2--automatically-download-files).
+You want to download files [manually](#1-manually-download-files) *[upcoming]* or [automatically](#2-automatically-download-files).
 
-You want to learn how [data files are structured](#3--how-data-files-are-structured) or [date/time, time intervals and missing values are represented](#4--how-datetime-time-intervals-and-missing-values-are-represented).
+You want to learn how [data files are structured](#3-how-data-files-are-structured) or how [date/time, time intervals and missing values are represented](#4-how-datetime-time-intervals-and-missing-values-are-represented).
 
 
 
