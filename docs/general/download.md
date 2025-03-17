@@ -46,9 +46,9 @@ See [Import Data into QGIS](#) *[upcoming]* to see how a downloaded *radar* file
 ## 3 - How Data Files are structured
 Below you'll find information about:
 
-- [3.1 - Column Separators and Decimal Dividers](#)
-- [3.2 - Data Granularity](#)
-- [3.3 - Update Frequency](#)
+- [3.1 - Column Separators and Decimal Dividers](#31---column-separators-and-decimal-dividers)
+- [3.2 - Data Granularity](#32---data-granularity)
+- [3.3 - Update Frequency](#33---update-frequency)
 
 ### 3.1 - Column Separators and Decimal Dividers
 Generally, columns are separated with a semicolon (`;`).
@@ -89,8 +89,8 @@ This is the overview:
 ## 4 - How Date/Time, Time Intervals and Missing Values are represented
 Below you'll find information about:
 
-- [4.1 - Time Stamps and Time Intervals](#)
-- [4.2 - Missing Values](#)
+- [4.1 - Time Stamps and Time Intervals](#41---time-stamps-and-time-intervals)
+- [4.2 - Missing Values](#42---missing-values)
 
 ### 4.1 - Time Stamps and Time Intervals
 Date/Time is expressed as `dd.mm.yyyy HH:MM`.
