@@ -19,7 +19,7 @@ Below you'll find answers to the most frequently asked questions. We continuousl
 10. [What if I have questions about the data?](#what-if-i-have-questions-about-the-data)
 
 
-<--! TODO: Mögliche weitere Fragen:
+<!-- TODO: Mögliche weitere Fragen:
 - FAQs geo.admin.ch --> referenzieren (aamsler)
 - Was ist ein Totalisator? (lim)
 - Welche Daten werden automatisch, welche manuell erhoben? (lim)
