@@ -2,6 +2,9 @@
 sidebar_position: 3
 ---
 
-# Frequently asked questions (FAQ)
+# Häufig gestellte Fragen (FAQ)
 
 TODO: add FAQ to this page.
+
+## Was ist im Zusammenhang mit der Qualitätskontrolle der Daten zu beachten?
+...
