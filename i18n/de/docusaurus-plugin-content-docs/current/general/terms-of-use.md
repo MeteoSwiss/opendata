@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Nutzungsbedingungen der Open Data
+# Open Data Nutzungsbedingungen
 
 ## 1. Veröffentlichung von meteorologischen und klimatologischen Daten
 Das Bundesamt für Meteorologie und Klimatologie MeteoSchweiz veröffentlicht seine Daten, die es zur Erfüllung seiner gesetzlichen Aufgaben beschafft oder generiert ([Art. 10 Abs. 1 EMBAG](https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_10)).
