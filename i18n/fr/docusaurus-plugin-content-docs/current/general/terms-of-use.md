@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Conditions d’utilisation
+# Conditions d’utilisation de l’Open Data
 
 ## 1. Publication de données météorologiques et climatologiques
 L'Office fédéral de météorologie et de climatologie MétéoSuisse publie les données qu'il collecte ou produit dans l’exécution de leurs tâches légales ([art. 10, al. 1, LMETA](https://www.fedlex.admin.ch/eli/cc/2023/682/fr#art_10)).
