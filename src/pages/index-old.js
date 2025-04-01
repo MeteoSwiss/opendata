@@ -34,8 +34,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={translate({message: 'Open Data Documentation', description: 'Homepage title'})}
-      description={translate({message: 'MeteoSwiss - Open Data Documentation', description: 'Homepage description'})}>
+      title={translate({message: 'Open Data documentation', description: 'Homepage title'})}
+      description={translate({message: 'MeteoSwiss - Open Data documentation', description: 'Homepage description'})}>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
