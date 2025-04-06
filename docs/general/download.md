@@ -14,8 +14,9 @@ You want to learn about
 - [how data files are structured](#how-data-files-are-structured) and
 - [how date/time, time intervals and missing values are represented](#how-date-time--time-intervals-and-missing-values-are-represented).
 
+</br>
 
-## Automatically download files
+## How to download files automatically
 
 The [FSDI provides a REST API](https://www.geo.admin.ch/en/rest-interface-stac-api) which adheres to the OGC STAC API standard.
 
