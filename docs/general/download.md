@@ -4,38 +4,17 @@ sidebar_position: 2
 
 # Download data
 
-For the Open Data download, MeteoSwiss uses the [Federal Spatial Data Infrastructure FSDI](https://www.geo.admin.ch/en/federal-spatial-data-infrastructure-fsdi), which is operated by [swisstopo](https://www.swisstopo.admin.ch/en/coordination-geo-information-and-services-cogis). See [Terms of Use, chapter 4. Use of the Infrastructure](https://meteoswiss.github.io/opendata-terms-of-use/#4-nutzung-der-infrastruktur).
+For the Open Data download, MeteoSwiss uses the [Federal Spatial Data Infrastructure FSDI](https://www.geo.admin.ch/en/federal-spatial-data-infrastructure-fsdi), which is operated by [swisstopo](https://www.swisstopo.admin.ch/en/coordination-geo-information-and-services-cogis).
 
-You want to download files [manually](#1-manually-download-files) *[upcoming]* or [automatically](#2-automatically-download-files).
+Read the terms and conditions for [using the infrastructure](https://opendatadocs.meteoswiss.ch/general/terms-of-use#4-use-of-the-infrastructure).
 
-You want to learn how [data files are structured](#3-how-data-files-are-structured) or how [date/time, time intervals and missing values are represented](#4-how-datetime-time-intervals-and-missing-values-are-represented).
+1. You want to learn about how data files are structured:
+- 'data granularities' respectively 'time resolutions',
+- 'update cycles' respectively 'time periods'.
 
+2. You want to learn about how to download files automatically.
 
-
-## 1. Manually download files
-*[MeteoSwiss' Data Explorer upcoming]*
-
-
-
-## 2. Automatically download files
-The [FSDI provides a REST API](https://www.geo.admin.ch/en/rest-interface-stac-api) which adheres to the OGC STAC API standard.
-
-Each type of data is in its own collection - calling the `/collections` endpoint will show all collections available: <br/>
-**Example:** [`https://data.geo.admin.ch/collections`](https://data.geo.admin.ch/api/stac/v0.9/collections) <br/>
-**Description:** Will return all available collections in the API. 
-
-??? - A list for **all MeteoSwiss' Open Data collections** available can be seen here: <br/>
-**Example:** [`https://data.geo.admin.ch/ch.meteoschweiz.ogd...`](https://data.geo.admin.ch/ch.meteoschweiz.ogd)... <br/>
-**Description:** Will return all available MeteoSwiss' Open Data collections in the API.
-
-??? - A list for Ground-based Measurements' can be seen [here](https://meteoswiss.github.io/opendata/#a---ground-based-measurements), for Atmosphere Measurements [here](https://meteoswiss.github.io/opendata/#b---atmosphere-measurements), for Climate Data [here](https://meteoswiss.github.io/opendata/#c---climate-data), for Radar Data [here](https://meteoswiss.github.io/opendata/#d---radar-data) and for Forecast Data [here](https://meteoswiss.github.io/opendata/#e---forecast-data).
-
-To download a file call the `/collections/<collectionname>/items?` endpoint for a list of items and a link to the files is in the asset property in each feature returned. <!-- The picture below illustrates this. -->
-
-...
-
-See [Import Data into QGIS](#) *[upcoming]* to see how a downloaded *radar* file can be imported into QGIS.
-
+3. You want to learn about how date/time, time intervals and missing values are represented.
 
 
 ## 3. How data files are structured
@@ -77,6 +56,29 @@ This is the overview:
 | `recent` | From January 1st of this year until yesterday | Daily at 12UTC | [Granularity](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#data-granularity) `m`, `d`, `h`, `t` |
 | `now` | The most recent realtime data from yesterday 12UTC to now | Every 10min | Only [Granularity](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#data-granularity) `h`, `t` |
 | `no type` | For certain data types this concept does not apply | varies | varies (e.g. [Granularity](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#data-granularity) `y`) |
+
+## Automatically download files
+The [FSDI provides a REST API](https://www.geo.admin.ch/en/rest-interface-stac-api) which adheres to the OGC STAC API standard.
+
+Each type of data is in its own collection - calling the `/collections` endpoint will show all collections available: <br/>
+**Example:** [`https://data.geo.admin.ch/collections`](https://data.geo.admin.ch/api/stac/v0.9/collections) <br/>
+**Description:** Will return all available collections in the API. 
+
+??? - A list for **all MeteoSwiss' Open Data collections** available can be seen here: <br/>
+**Example:** [`https://data.geo.admin.ch/ch.meteoschweiz.ogd...`](https://data.geo.admin.ch/ch.meteoschweiz.ogd)... <br/>
+**Description:** Will return all available MeteoSwiss' Open Data collections in the API.
+
+??? - A list for Ground-based Measurements' can be seen [here](https://meteoswiss.github.io/opendata/#a---ground-based-measurements), for Atmosphere Measurements [here](https://meteoswiss.github.io/opendata/#b---atmosphere-measurements), for Climate Data [here](https://meteoswiss.github.io/opendata/#c---climate-data), for Radar Data [here](https://meteoswiss.github.io/opendata/#d---radar-data) and for Forecast Data [here](https://meteoswiss.github.io/opendata/#e---forecast-data).
+
+To download a file call the `/collections/<collectionname>/items?` endpoint for a list of items and a link to the files is in the asset property in each feature returned. <!-- The picture below illustrates this. -->
+
+...
+
+See [Import Data into QGIS](#) *[upcoming]* to see how a downloaded *radar* file can be imported into QGIS.
+
+
+
+
 
 
 
