@@ -19,9 +19,9 @@ MeteoSwiss is also working to enable access to certain data through individual A
 
 We are currently setting up our service as Beta.
 
-⚠️ During this phase everything is subject to change without prior notice.
+:warning: During this phase everything is subject to change without prior notice.
 
-Everyone can access the available Open Data already via [FSDI's STAC API](/general/download). The access URLs are provided in the documentation for the corresponding data:
+Everyone can access the available Open Data already via [geo.admin.ch's STAC API](/general/download). The access URLs are provided in the documentation for the corresponding datasets/collections:
 - [Ground-based measurements](/a-data-groundbased)
 - [Homogeneous measurements](/c-climate-data/c1-climate-stations_homogeneous)
 - [Numerical weather forecasting model](/e-forecast-data/e2-e3-numerical-weather-forecasting-model)
@@ -32,23 +32,31 @@ Everyone can access the available Open Data already via [FSDI's STAC API](/gener
 [Here](/general/terms-of-use) you'll find information about data license and conditions for usage.
 
 ## Getting Started with Download
-[Here](/general/download) you'll find information about how to download files either manually or programmatically, and learn about how data files are structured (data granularities and update cycles) and date/time, time intervals and missing values are represented.
+[Here](/general/download) you'll find information about how to download files <!-- either manually or --> programmatically.
+
+You'll learn about how data files are structured:
+- 'data granularities' respectively 'time resolutions',
+- 'update cycles' respectively 'time periods'.
+
+You'll learn about how 'date/time', 'time intervals' and 'missing values' are represented.
 
 ## Staying up to Date
-For operational status, **see** [Download API Status & Contact](/general/status) *[upcoming]*
+<!-- For operational status, **see** [Download API Status & Contact](/general/status) *[upcoming]* -->
 
 geo.admin.ch's download service will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner [swisstopo](https://www.swisstopo.admin.ch/en) continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, **check** [Release Notes](https://api3.geo.admin.ch/releasenotes/index.html) where swisstopo announces released changes that might affect your integration.
 
 In the event of malfunctions at ground-based stations, **check** for [interruptions in data availability](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html).
 
-We keep interested parties and users up to date on our plans and changes: **register** for [our newsletter](#) *[upcoming]*
+:warning: During our Public Beta phase we keep all users up-to-date about what's going on and what's not working via our [Open Data repository (GitHub)](https://github.com/MeteoSwiss/opendata/discussions/categories/public-beta-april-2025). 
 
-## Frequently Asked Questions
-[Here](/general/faq) *[upcoming]* you'll **find answers** to the most frequently asked questions. 
+<!-- We keep interested parties and users up to date on our plans and changes: **register** for [our newsletter](#) *[upcoming]* -->
+
+## Frequently Asked Questions (FAQ)
+[Here](/general/faq) you'll **find answers** to the most frequently asked questions. 
 
 We continuously update these based on questions received. If you cannot find an answer to your question, **contact us**.
 
 ## Contact
-If you have [questions about the data](/a-data-groundbased), or [how to use the download service](/general/download), please read the [Frequently Asked Questions](general/faq) *[upcoming]*. 
+If you have [questions about the data](/a-data-groundbased), or [how to use the download service](/general/download), please check the [Frequently Asked Questions](general/faq) first. 
 
 If you are unable to find the answer you are looking for, **contact us:** [opendata.en@meteoswiss.ch](mailto:opendata.en@meteoswiss.ch)
