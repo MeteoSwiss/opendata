@@ -20,16 +20,15 @@ import TabItem from '@theme/TabItem';
   <TabItem value="data-structure" label="Data structure">
     ...
   </TabItem>
-  <TabItem value="file-format-and-volume" label="File format and volume">
+  <TabItem value="file-format-and-volume" label="File format">
     [`CSV`](https://opendatadocs.meteoswiss.ch/general/download#column-separators-and-decimal-dividers) with an estimated volume of ≤5.3 MB per file.
   </TabItem>
-  <TabItem value="parameters" label="Parameters">
+  <TabItem value="file-metadata" label="File metadata">
+    ## Parameters
     ...
-  </TabItem>
-  <TabItem value="stations" label="Stations">
+    ## Stations
     ...
-  </TabItem>
-  <TabItem value="data-inventory" label="Data inventory">
+    ## Data inventory
     ...
   </TabItem>
 </Tabs>
