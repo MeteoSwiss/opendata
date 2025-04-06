@@ -23,7 +23,7 @@ The [FSDI provides a REST API](https://www.geo.admin.ch/en/rest-interface-stac-a
 
 Each dataset is in its own collection - calling the `/collections` endpoint will **show all collections available**: [`https://data.geo.admin.ch/collections`](https://data.geo.admin.ch/api/stac/v1/collections)
 
-Each collection has a description - calling the [`/getCollections`](https://data.geo.admin.ch/api/stac/static/spec/v1/api.html#operation/getCollections) endpoint, will **show all collection metadata of a particular collection**. Example: Get the details of the collection "Automatic weather stations – Measured values": [`https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn`](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn)
+Each collection has a description - calling the [`/getCollections`](https://data.geo.admin.ch/api/stac/static/spec/v1/api.html#operation/getCollections) endpoint, will **show all collection metadata of a particular collection**: e.g. get the details of the collection "Automatic weather stations – Measured values": [`https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn`](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn)
 
 <!--
 
