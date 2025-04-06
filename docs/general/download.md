@@ -105,6 +105,10 @@ This is the overview:
 | `now` | The most recent realtime data from yesterday 12UTC to now | Every 10min | Only [Granularity](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#data-granularity) `h`, `t` |
 | `no type` | For certain data types this concept does not apply | varies | varies (e.g. [Granularity](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#data-granularity) `y`) |
 
+### Column separators and decimal dividers
+Generally, columns are separated with a semicolon (`;`).
+
+The decimal divider is a full stop (`.`).
 
 ## How date/time, time intervals and missing values are represented
 
