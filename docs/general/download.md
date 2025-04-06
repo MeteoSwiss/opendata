@@ -21,12 +21,11 @@ You want to learn about how date/time, time intervals and missing values are rep
 
 The [FSDI provides a REST API](https://www.geo.admin.ch/en/rest-interface-stac-api) which adheres to the OGC STAC API standard.
 
-Each dataset is in its own collection - calling the `/collections` endpoint will show **all collections available**: <br>
-**Example:** [`https://data.geo.admin.ch/collections`](https://data.geo.admin.ch/api/stac/v1/collections) <br>
-**Description:** Will return all available collections in the API.
+Each dataset is in its own collection - calling the `/collections` endpoint will show **all collections available**:
+- **Example:** [`https://data.geo.admin.ch/collections`](https://data.geo.admin.ch/api/stac/v1/collections)
 
-Each collection has a description - calling the [GET collections](https://data.geo.admin.ch/api/stac/static/spec/v1/api.html#operation/getCollections) endpoint, will show **all collection metadata of a particular collection**: <br>
-**Example:** Get the details of the collection "Automatic weather stations – Measured values": [`https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn`](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn)
+Each collection has a description - calling the [GET collections](https://data.geo.admin.ch/api/stac/static/spec/v1/api.html#operation/getCollections) endpoint, will show **all collection metadata of a particular collection**:
+- **Example:** Get the details of the collection "Automatic weather stations – Measured values": [`https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn`](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn)
 
 <!--
 
