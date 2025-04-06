@@ -26,7 +26,7 @@ Each dataset is in its own collection - calling the `/collections` endpoint will
 **Description:** Will return all available collections in the API.
 
 Each collection has a description - calling the [GET collections](https://data.geo.admin.ch/api/stac/static/spec/v1/api.html#operation/getCollections) endpoint, will show **all collection metadata of a particular collection**: <br>
-**Example:** Get the details of the collection "Automatic weather stations – Measured values": [`https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoswiss.ogd.smn`](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoswiss.ogd.smn)
+**Example:** Get the details of the collection "Automatic weather stations – Measured values": [`https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn`](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn)
 
 <!--
 
