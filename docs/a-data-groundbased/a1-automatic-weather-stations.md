@@ -7,11 +7,23 @@ Around 160 stations of the [automatic measurement network](https://www.meteoswis
 
 The network is supplemented by around 100 [automatic precipitation stations](/a-data-groundbased/a2-automatic-precipitation-stations). Together, these stations form the basis for the creation of reliable local weather forecasts as well as severe weather and flood warnings. Additionally MeteoSwiss operates 3 [automatic tower stations](/a-data-groundbased/a3-automatic-tower-stations) at 150m to 230m above ground for boundary layer measurements.
 
-:::note
+:::warning
 
 For **climate analyses**, use the corresponding [homogeneous time series data](/c-climate-data) instead.
 
 :::
+
+<Tabs queryString="file-metadata">
+  <TabItem value="data-structure" label="Data structure">
+    ...
+  </TabItem>
+  <TabItem value="file-format-and-volume" label="File format and volume">
+    [`CSV`](https://opendatadocs.meteoswiss.ch/general/download#column-separators-and-decimal-dividers) with an estimated volume of ≤5.3 MB per file.
+  </TabItem>
+</Tabs>
+
+
+
 
 ## 1.1. Data granularity, update frequency, format and volume
 If you require hourly, daily, monthly or annual values, we strongly recommend that you download the corresponding aggregated [data granularity](/general/download#32---data-granularity) `t`, `h`, `d`, `m`, `y` and [update frequency](/general/download#33---update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.
