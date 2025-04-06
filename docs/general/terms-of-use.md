@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Open Data terms of use
+# Terms of use
 
 <!-- TODO: review English translation! -->
 
