@@ -70,9 +70,9 @@ For more information check [swisstopo's STAC API documentation](https://data.geo
 
 #### Ground-based measurements - Point data
 
-This [Jupyter notebook](./docs/assets/notebooks/MonthlyMeanGlobalRadiation_HAI.ipynb) shows a simplified workflow for downloading and processing ground-based measurements of station `Salen-Reutenen (HAI)` from the STAC API.
+This [Jupyter notebook](/notebooks/MonthlyMeanGlobalRadiation_HAI.ipynb) shows a simplified workflow for downloading and processing ground-based measurements of station `Salen-Reutenen (HAI)` from the STAC API.
 - The code used in the notebook is for demo purposes only. Code quality is not on production-grade level.
-- The packages that are required in order to run the Jupyter notebook are specified in the [Pipfile](./Pipfile). A simple `pipenv install` will install the dependencies in a virtual environment on your machine.
+- The packages that are required in order to run the Jupyter notebook are specified in the [Pipfile](/Pipfile). A simple `pipenv install` will install the dependencies in a virtual environment on your machine.
 
 <!-- #### Radar data - Grid data
 
