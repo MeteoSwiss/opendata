@@ -13,16 +13,26 @@ For **climate analyses**, use the corresponding [homogeneous time series data](/
 
 :::
 
-<Tabs queryString="file-metadata">
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs queryString="metadata">
   <TabItem value="data-structure" label="Data structure">
     ...
   </TabItem>
   <TabItem value="file-format-and-volume" label="File format and volume">
     [`CSV`](https://opendatadocs.meteoswiss.ch/general/download#column-separators-and-decimal-dividers) with an estimated volume of ≤5.3 MB per file.
   </TabItem>
+  <TabItem value="parameters" label="Parameters">
+    ...
+  </TabItem>
+  <TabItem value="stations" label="Stations">
+    ...
+  </TabItem>
+  <TabItem value="data-inventory" label="Data inventory">
+    ...
+  </TabItem>
 </Tabs>
-
-
 
 
 ## 1.1. Data granularity, update frequency, format and volume
