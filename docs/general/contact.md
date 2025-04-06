@@ -1,4 +1,6 @@
-..
+---
+sidebar_position: 5
+---
 
 # Contact
 If you have [questions about the data](/a-data-groundbased), or [how to use the download service](/general/download), please check the [Frequently Asked Questions](general/faq) first. 
