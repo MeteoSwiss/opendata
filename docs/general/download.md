@@ -8,13 +8,81 @@ For the Open Data download, MeteoSwiss uses the [Federal Spatial Data Infrastruc
 
 Read the terms and conditions for [using the infrastructure](https://opendatadocs.meteoswiss.ch/general/terms-of-use#4-use-of-the-infrastructure).
 
-1. You want to learn about how data files are structured:
+You want to learn about how to [download files automatically](#automatically-download-files).
+
+You want to learn about how data files are structured:
 - 'data granularities' respectively 'time resolutions',
 - 'update cycles' respectively 'time periods'.
 
-2. You want to learn about how to download files automatically.
+You want to learn about how date/time, time intervals and missing values are represented.
 
-3. You want to learn about how date/time, time intervals and missing values are represented.
+
+## Automatically download files
+
+The [FSDI provides a REST API](https://www.geo.admin.ch/en/rest-interface-stac-api) which adheres to the OGC STAC API standard.
+
+Each dataset is in its own collection - calling the `/collections` endpoint will show **all collections available**: <br>
+**Example:** [`https://data.geo.admin.ch/collections`](https://data.geo.admin.ch/api/stac/v1/collections) <br>
+**Description:** Will return all available collections in the API.
+
+Each collection has a description - calling the [GET collections](https://data.geo.admin.ch/api/stac/static/spec/v1/api.html#operation/getCollections) endpoint, will show **all collection metadata of a particular collection**: <br>
+**Example:** Get the details of the collection "Automatic weather stations – Measured values": [`https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoswiss.ogd.smn`](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoswiss.ogd.smn)
+
+<!--
+
+### Get the available download possibilities of a dataset
+Use the [GET features](https://data.geo.admin.ch/api/stac/static/spec/v0.9/api.html#operation/getFeatures) endpoint.
+
+E.G [Get the all downloads of the dataset "Wind Energy Plants](https://data.geo.admin.ch/api/stac/v0.9/collections/ch.bfe.windenergieanlagen/items):
+```
+https://data.geo.admin.ch/api/stac/v0.9/collections/ch.bfe.windenergieanlagen/items
+```
+
+### Get all datasets published within a time period
+Use the [GET search](https://data.geo.admin.ch/api/stac/static/spec/v0.9/api.html#operation/getSearchSTAC) endpoint.
+
+E.G [Get the all dataset acquired after 2022-02-01](https://data.geo.admin.ch/api/stac/v0.9/search?datetime=2022-02-01/..):
+```
+https://data.geo.admin.ch/api/stac/v0.9/search?datetime=2022-02-01/..
+```
+Time intervalls can be expressed as followed:
+* A date-time: "2018-02-12T23:20:50Z"
+* A closed interval: "2018-02-12T00:00:00Z/2018-03-18T12:31:12Z"
+* Open intervals: "2018-02-12T00:00:00Z/.." or "../2018-03-18T12:31:12Z"
+
+-->
+
+<!-- To download a file call the `/collections/<collectionname>/items?` endpoint for a list of items and a link to the files is in the asset property in each feature returned. The picture below illustrates this. -->
+
+### How to check for new data
+
+When downloading data from the STAC API, you might want to make sure to always retrieve the most current data.
+
+By default, asset objects are cached for 2 hours (Exception: Collections with 10 minute values are cached for 10 seconds). <!-- But there might be objects, that are updated more frequently. -->
+
+We highly recommend to use preconditioning via the `If-Match` or `If-None-Match` headers (mostly the latter one) when making calls to the STAC API. This reduces unnecessary traffic.
+- When the client sends an `If-None-Match` header containing the `ETag` of the current (local) version of the requested object, the server compares it to the currently available resource's `ETag` on the server.
+- Only in case the two values don't match, the requested object is sent.
+- Otherwise the server responds with a `304 Not Modified` without a body, which tells the user (i.e. the client) that his version of the asset is still good to use.
+
+For more information check [swisstopo's STAC API documentation](https://data.geo.admin.ch/api/stac/static/spec/v1/apitransactional.html#tag/Data/operation/getAssetObject).
+
+### Examples
+
+#### Ground-based measurements - Point data
+
+This [Jupyter notebook](./docs/assets/notebooks/MonthlyMeanGlobalRadiation_HAI.ipynb) shows a simplified workflow for downloading and processing ground-based measurements of station `Salen-Reutenen (HAI)` from the STAC API.
+- The code used in the notebook is for demo purposes only. Code quality is not on production-grade level.
+- The packages that are required in order to run the Jupyter notebook are specified in the [Pipfile](./Pipfile). A simple `pipenv install` will install the dependencies in a virtual environment on your machine.
+
+<!-- #### Radar data - Grid data
+
+See [Import Data into QGIS](...) to see how a downloaded *radar* file can be imported into QGIS. -->
+
+
+
+
+
 
 
 ## 3. How data files are structured
