@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
-# Download API status
+# Staying up to Date
 
 <!-- cf. https://opendatadocs.dmi.govcloud.dk/en/API_Status_and_Contact -->
 
