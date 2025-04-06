@@ -10,9 +10,9 @@ Read the
 - [terms and conditions for using the infrastructure](https://opendatadocs.meteoswiss.ch/general/terms-of-use#4-use-of-the-infrastructure).
 
 You want to learn about
-- [how to download files automatically](#automatically-download-files),
+- [how to download files automatically](#how-to-download-files-automatically),
 - [how data files are structured](#how-data-files-are-structured) and
-- [how date/time, time intervals and missing values are represented](#how-date-time--time-intervals-and-missing-values-are-represented).
+- [how date/time, time intervals and missing values are represented](#how-datetime-time-intervals-and-missing-values-are-represented).
 
 ---
 
