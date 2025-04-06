@@ -4,12 +4,6 @@ sidebar_position: 1
 
 # Automatic weather stations - Measured values
 
-:::warning
-
-For **climate analyses**, use the corresponding [homogeneous measurements](/c-climate-data) instead.
-
-:::
-
 Around 160 stations of the [automatic measurement network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html) SwissMetNet comprise a complete measurement programme. They deliver temperature, humidity, precipitation, wind, radiation, pressure and sunshine duration every ten minutes.
 
 The network is supplemented by around 100 [automatic precipitation stations](/a-data-groundbased/a2-automatic-precipitation-stations). Together, these stations form the basis for the creation of reliable local weather forecasts as well as severe weather and flood warnings. Additionally MeteoSwiss operates 3 [automatic tower stations](/a-data-groundbased/a3-automatic-tower-stations) at 150m to 230m above ground for boundary layer measurements.
@@ -37,6 +31,13 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 
 ## Usage
+
+:::warning
+
+For **climate analyses**, use the corresponding [homogeneous measurements](/c-climate-data) instead.
+
+:::
+
 See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en).
 
 
