@@ -15,9 +15,8 @@ import TabItem from '@theme/TabItem';
 
 <Tabs queryString="data">
   <TabItem value="data-structure" label="Data structure">
-    The data is split by measuring station.
-    
-    Per station there are files with 10-minute `t`, hourly `h`, daily `d`, monthly `m` and yearly `y` values.
+    ### Files per station
+    The data is split by measuring station. Per station there are files with 10-minute `t`, hourly `h`, daily `d`, monthly `m` and yearly `y` values.
 
     :::tip
     
@@ -25,20 +24,14 @@ import TabItem from '@theme/TabItem';
 
     :::
    
-    Depending on their granularity there are files with [update frequency](https://opendatadocs.meteoswiss.ch/general/download#update-frequency) `now`, `recent` and `historical`.
-    
-    :::info
+    Depending on the granularity there are files with [update frequency](https://opendatadocs.meteoswiss.ch/general/download#update-frequency) `now`, `recent` and `historical`. See e.g. files for station `Salen-Reutenen (HAI)` (abbreviation set in lower case) for all granularities and update frequencies mentioned: [`ogd-smn_hai_(data granularity)_(update frequency).csv`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn/items/hai?.language=en).
     
     Time series can begin before the introduction of automatic measurements in the year 1981. Before 1981 at least three values per day were manually measured. They are stored as individual 10-minute values ([synoptic observations](https://community.wmo.int/en/observation-components-global-observing-system)).
 
-    :::
-
-    See e.g. files for station `Salen-Reutenen (HAI)` (abbreviation set in lower case) for all granularities and update frequencies mentioned: [`ogd-smn_hai_(data granularity)_(update frequency).csv`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn/items/hai?.language=en).
-
-    In addition we offer the [main parameters of all stations (in one file) – every 10 minutes, most recent values](https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA80.csv).
+    ### Most recent 10 minute values of all stations
+    In addition there are the [main parameters of all stations (in one file) – every 10 minutes, most recent values](https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA80.csv).
     - Time in UTC: 00:40 UTC = 02:40 local (CH) summer time, 01:40 winter time.
     - Main parameters: tre200s0; rre150z0; sre000z0; gre000z0; ure200s0; tde200s0; dkl010z0; fu3010z0; fu3010z1; prestas0; pp0qffs0; pp0qnhs0; ppz850s0; ppz700s0; dv1towz0; fu3towz0; u3towz1; ta1tows0; uretows0; tdetows0
-
   </TabItem>
   <TabItem value="data-format" label="Format">
     [`CSV`](https://opendatadocs.meteoswiss.ch/general/download#column-separators-and-decimal-dividers) with an estimated volume of ≤5.3 MB per file.
