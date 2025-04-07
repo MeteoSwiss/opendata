@@ -2,7 +2,7 @@
 sidebar_position: 9
 ---
 
-# A9 - Phenological observations
+# Phenological observations
 The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-phenology-network.html) consists of around 160 stations. Some 26 different plant species are observed in order to describe the vegetation development. On the basis of this information, it is possible to investigate the impact of climate change on the vegetation. The observations also serve to generate forecasting models for the start of flowering.
 
 ## 9.1. Data granularity, update frequency, format, volume and structure
