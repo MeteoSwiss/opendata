@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# A8 - Meteorological visual observations
+# Meteorological visual observations
 MeteoSwiss' data on current weather events is supplemented by [visual human observations](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-observation-network.html), which describe the atmospheric conditions around the observation sites in detail.
 
 Meteorological observers make visual observations and take readings from measurement instruments between two and eight times per day every day of the year at around 20 locations in Switzerland. The following aspects are observed:
