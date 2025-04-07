@@ -36,7 +36,7 @@ import TabItem from '@theme/TabItem';
 
 [`CSV`](https://opendatadocs.meteoswiss.ch/general/download#column-separators-and-decimal-dividers) with an estimated volume of ≤5.3 MB per file.
 
-## Metadata
+## File metadata
 
 <Tabs queryString="metadata">
   <TabItem value="parameters" label="Parameter">
@@ -59,7 +59,7 @@ sremaxdv	1 	%	222 	Sonnenscheindauer; relativ zur absolut möglichen Tagessumme 
   </TabItem>
 </Tabs>
 
-## Usage
+## Data usage
 
 See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en).
 
