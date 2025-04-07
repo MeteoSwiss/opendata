@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# A7 - Pollen stations - Measured values
+# Pollen stations - Measured values
 MeteoSwiss operates the [national pollen monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/pollen-monitoring-network-manual-method.html). It consists of around 15 monitoring stations which cover Switzerland's most important climatic and vegetation regions. The measurements obtained provide invaluable information for those who suffer from allergies.  <!-- Daily average values are updated once a week and obtained from manual reference counts. -->
 
 Additionally since 2023 the new [automatic pollen network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-pollen-monitoring-network-swisspollen.html) is operational: for the first time in the world, instead of daily averages being available after a week, airborne pollen concentrations (No/m³, number of grains per cubic metre of air) of Birch, Beech, Oak, Alder, Ash, Grasses and Hazel are available in real time at an hourly resolution.
