@@ -30,6 +30,7 @@ import TabItem from '@theme/TabItem';
     - Time in UTC: 00:40 UTC = 02:40 local (CH) summer time, 01:40 winter time.
     - Main parameters: tre200s0; rre150z0; sre000z0; gre000z0; ure200s0; tde200s0; dkl010z0; fu3010z0; fu3010z1; prestas0; pp0qffs0; pp0qnhs0; ppz850s0; ppz700s0; dv1towz0; fu3towz0; u3towz1; ta1tows0; uretows0; tdetows0
   </TabItem>
+</Tabs>
 
 ## Data format
 
