@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# A4 - Automatic soil stations - Measured values
+# Automatic soil stations - Measured values
 
 :::warning 
 
