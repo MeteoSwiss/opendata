@@ -15,12 +15,18 @@ import TabItem from '@theme/TabItem';
 
 <Tabs queryString="specification">
   <TabItem value="data-structure" label="Data structure">
-    ...
+    The data is split by measuring station.
+    ## Data granularities / Time resolutions
+    Per station there are files with 10-minute `t`, hourly `h`, daily `d`, monthly `m` and yearly `y` values.   
+    We strongly recommend that you download the corresponding aggregated [data granularity](https://opendatadocs.meteoswiss.ch/general/download#data-granularity).
+    ## Update frequencies / Time periods
+    Depending on their granularity there are files with [update frequency](https://opendatadocs.meteoswiss.ch/general/download#update-frequency) `now`, `recent` and `historical`.
+    Time series can begin before the introduction of automatic measurements in the year 1981. Before 1981 at least three values per day were manually measured. They are stored as individual 10-minute values ([synoptic observations](https://community.wmo.int/en/observation-components-global-observing-system)).
   </TabItem>
-  <TabItem value="file-format" label="File format">
+  <TabItem value="format" label="Format">
     [`CSV`](https://opendatadocs.meteoswiss.ch/general/download#column-separators-and-decimal-dividers) with an estimated volume of ≤5.3 MB per file.
   </TabItem>
-  <TabItem value="file-metadata" label="File metadata">
+  <TabItem value="metadata" label="Metadata">
     ## Parameters
     ...
     ## Stations
