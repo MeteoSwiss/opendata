@@ -18,13 +18,11 @@ import TabItem from '@theme/TabItem';
     ### Files per station
     The data is split by measuring station. Per station there are files with 10-minute `t`, hourly `h`, daily `d`, monthly `m` and yearly `y` values.
 
-    :::tip
-    
     We strongly recommend that you download the corresponding aggregated [data granularity](https://opendatadocs.meteoswiss.ch/general/download#data-granularity).
-
-    :::
    
-    Depending on the granularity there are files with [update frequency](https://opendatadocs.meteoswiss.ch/general/download#update-frequency) `now`, `recent` and `historical`. See e.g. files for station `Salen-Reutenen (HAI)` (abbreviation set in lower case) for all granularities and update frequencies mentioned: [`ogd-smn_hai_(data granularity)_(update frequency).csv`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn/items/hai?.language=en).
+    Depending on the granularity there are files with [update frequency](https://opendatadocs.meteoswiss.ch/general/download#update-frequency) `now`, `recent` and `historical`.
+    
+    See e.g. files for station `Salen-Reutenen (HAI)` with all granularities and update frequencies mentioned: [`ogd-smn_hai_(data granularity)_(update frequency).csv`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn/items/hai?.language=en).
     
     Time series can begin before the introduction of automatic measurements in the year 1981. Before 1981 at least three values per day were manually measured. They are stored as individual 10-minute values ([synoptic observations](https://community.wmo.int/en/observation-components-global-observing-system)).
 
@@ -40,13 +38,14 @@ import TabItem from '@theme/TabItem';
 
 ## Metadata
 
-<Tabs queryString="data">
-  <TabItem value="metadata" label="Metadata">
-    ## Parameters
+<Tabs queryString="metadata">
+  <TabItem value="parameters" label="Parameter">
+    All parameters have a unique identifier that depends on the time resolution (e.g. ´dkl010z0´ for "wind direction; ten-minute average"). [´ogd-smn_meta_parameters.csv´](https://data.geo.admin.ch/ch.meteoschweiz.ogd-smn/ogd-smn_meta_parameters.csv) provides a list of all parameter identifiers with explanation, time interval, decimal places, data type and unit of measurement.
+  </TabItem>
+  <TabItem value="stations" label="Stations">
     ...
-    ## Stations
-    ...
-    ## Data inventory
+  </TabItem>
+  <TabItem value="data-inventory" label="Data inventory">
     ...
   </TabItem>
 </Tabs>
