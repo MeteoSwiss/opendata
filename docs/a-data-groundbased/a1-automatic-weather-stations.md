@@ -38,9 +38,9 @@ import TabItem from '@theme/TabItem';
 
 ## Usage
 
-:::warning
+:::info
 
-For **climate analyses**, use the corresponding [homogeneous measurements](/c-climate-data) instead.
+For **climate analyses**, use the corresponding [Climate stations - Homogeneous measurements](https://opendatadocs.meteoswiss.ch/climate-data) instead.
 
 :::
 
