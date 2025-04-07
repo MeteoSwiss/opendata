@@ -40,13 +40,22 @@ import TabItem from '@theme/TabItem';
 
 <Tabs queryString="metadata">
   <TabItem value="parameters" label="Parameter">
-    All parameters have a unique identifier that depends on the time resolution (e.g. ´dkl010z0´ for "wind direction; ten-minute average"). [´ogd-smn_meta_parameters.csv´](https://data.geo.admin.ch/ch.meteoschweiz.ogd-smn/ogd-smn_meta_parameters.csv) provides a list of all parameter identifiers with explanation, time interval, decimal places, data type and unit of measurement.
+    All parameters have a unique identifier that depends on the time resolution (e.g. `dkl010z0` for "wind direction; ten-minute average").
+    
+    [`ogd-smn_meta_parameters.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-smn/ogd-smn_meta_parameters.csv) provides a list of all parameter identifiers with explanation, time interval, decimal places, data type and unit of measurement.
+
+    <!-- **Codes**
+sremaxyv	1 	%	471 	Sonnenscheindauer; Verhältnis der Jahressumme zur maximal Möglichen
+sremaxmv	1 	%	349 	Sonnenscheindauer; Verhältnis der Monatssumme zur maximal Möglichen
+sremaxdv	1 	%	222 	Sonnenscheindauer; relativ zur absolut möglichen Tagessumme -->
   </TabItem>
   <TabItem value="stations" label="Stations">
-    ...
+    All stations have a three-letter identifier (e.g. `BER` for "Bern/Zollikofen" or `LUG` for "Lugano").
+    
+    [`ogd-smn_meta_stations.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-smn/ogd-smn_meta_stations.csv) provides a list of all station identifiers with name, Canton, Wigos ID, station type, altitude, coordinates, orientation and URL of the station details pages.
   </TabItem>
   <TabItem value="data-inventory" label="Data inventory">
-    ...
+    [`ogd-smn_meta_datainventory.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-smn/ogd-smn_meta_datainventory.csv) provides a list of all stations and parameters with start and end date of the measurements.
   </TabItem>
 </Tabs>
 
@@ -59,31 +68,3 @@ See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/s
 For **climate analyses**, use the corresponding [Climate stations - Homogeneous measurements](https://opendatadocs.meteoswiss.ch/climate-data) instead.
 
 :::
-
-
-
-
-
-
-
-
-
-
-## 1.2. Parameter metadata
-See example parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`t`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-smn-T.csv), [`h`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-smn-H.csv), [`d`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-smn-D.csv), [`m`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-smn-M.csv) and [`y`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-smn-Y.csv).
-
-The productive version will provide a single parameter metadata file for all granularities; file name: `ogd-smn_meta_parameters.csv`.
-
-<!-- **Codes** -->
-sremaxyv	1 	%	471 	Sonnenscheindauer; Verhältnis der Jahressumme zur maximal Möglichen
-sremaxmv	1 	%	349 	Sonnenscheindauer; Verhältnis der Monatssumme zur maximal Möglichen
-sremaxdv	1 	%	222 	Sonnenscheindauer; relativ zur absolut möglichen Tagessumme
-<!-- ... -->
-
-## 1.3. Station metadata
-See example [station metadata file](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-automatisch/ch.meteoschweiz.messnetz-automatisch_en.csv).
-
-The productive version will provide a station metadata file with the file name: `ogd-smn_meta_stations.csv`.
-
-## 1.4. Data visualisation
-See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en).
