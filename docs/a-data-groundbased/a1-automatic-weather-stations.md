@@ -48,13 +48,13 @@ import TabItem from '@theme/TabItem';
 
 ## Usage
 
+See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en).
+
 :::info
 
 For **climate analyses**, use the corresponding [Climate stations - Homogeneous measurements](https://opendatadocs.meteoswiss.ch/climate-data) instead.
 
 :::
-
-See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en).
 
 
 
