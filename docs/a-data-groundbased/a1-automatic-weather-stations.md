@@ -8,12 +8,12 @@ Around 160 stations of the [automatic measurement network](https://www.meteoswis
 
 The network is supplemented by around 100 [automatic precipitation stations](/a-data-groundbased/a2-automatic-precipitation-stations). Together, these stations form the basis for the creation of reliable local weather forecasts as well as severe weather and flood warnings. Additionally MeteoSwiss operates 3 [automatic tower stations](/a-data-groundbased/a3-automatic-tower-stations) at 150m to 230m above ground for boundary layer measurements.
 
-## Specification
+## Data
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<Tabs queryString="specification">
+<Tabs queryString="data">
   <TabItem value="data-structure" label="Data structure">
     The data is split by measuring station.
     
@@ -32,10 +32,22 @@ import TabItem from '@theme/TabItem';
     Time series can begin before the introduction of automatic measurements in the year 1981. Before 1981 at least three values per day were manually measured. They are stored as individual 10-minute values ([synoptic observations](https://community.wmo.int/en/observation-components-global-observing-system)).
 
     :::
+
+    See e.g. files for station `Salen-Reutenen (HAI)` (abbreviation set in lower case) for all granularities and update frequencies mentioned: [`ogd-smn_hai_(data granularity)_(update frequency).csv`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn/items/hai?.language=en).
+
+    In addition we offer the [main parameters of all stations (in one file) – every 10 minutes, most recent values](https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA80.csv).
+    - Time in UTC: 00:40 UTC = 02:40 local (CH) summer time, 01:40 winter time.
+    - Main parameters: tre200s0; rre150z0; sre000z0; gre000z0; ure200s0; tde200s0; dkl010z0; fu3010z0; fu3010z1; prestas0; pp0qffs0; pp0qnhs0; ppz850s0; ppz700s0; dv1towz0; fu3towz0; u3towz1; ta1tows0; uretows0; tdetows0
+
   </TabItem>
-  <TabItem value="format" label="Format">
+  <TabItem value="data-format" label="Format">
     [`CSV`](https://opendatadocs.meteoswiss.ch/general/download#column-separators-and-decimal-dividers) with an estimated volume of ≤5.3 MB per file.
   </TabItem>
+</Tabs>
+
+## Metadata
+
+<Tabs queryString="data">
   <TabItem value="metadata" label="Metadata">
     ## Parameters
     ...
@@ -60,20 +72,10 @@ For **climate analyses**, use the corresponding [Climate stations - Homogeneous 
 
 
 
-## 1.1. Data granularity, update frequency, format and volume
-If you require hourly, daily, monthly or annual values, we strongly recommend that you download the corresponding aggregated [data granularity](/general/download#32---data-granularity) `t`, `h`, `d`, `m`, `y` and [update frequency](/general/download#33---update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.
 
-Time series can begin before the introduction of automatic measurements in the year 1981. Before 1981 at least three values per day were manually measured. They are stored as individual 10-minute values ([synoptic observations](https://community.wmo.int/en/observation-components-global-observing-system)).
 
-Data format of all files is [`CSV`](/general/download#31---column-separators-and-decimal-dividers) with an estimated volume of ≤5.3 MB per file.
 
-See example data files for station `Salen-Reutenen (HAI)` (abbreviation set in lower case) for all granularities and update frequencies mentioned: [`ogd-smn_hai_(data granularity)_(update frequency).csv`](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn/items/hai?.language=en).
 
-:::note
-
-In addition we offer the [current measured values of the main parameters of all stations](#) *(URL to follow)* in a single data file, i.e. [data granularity](/general/download#32---data-granularity) `t`. *The main parameters included are: ...*
-
-:::
 
 ## 1.2. Parameter metadata
 See example parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`t`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-smn-T.csv), [`h`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-smn-H.csv), [`d`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-smn-D.csv), [`m`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-smn-M.csv) and [`y`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-smn-Y.csv).
