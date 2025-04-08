@@ -10,6 +10,18 @@ They deliver temperature, precipitation, wind, sunshine, humidity, radiation and
 
 The network is supplemented by around 100 [automatic precipitation stations](/a-data-groundbased/a2-automatic-precipitation-stations). Together, these stations form the basis for the creation of reliable local weather forecasts as well as severe weather and flood warnings. Additionally MeteoSwiss operates 3 [automatic tower stations](/a-data-groundbased/a3-automatic-tower-stations) at 150m to 230m above ground for boundary layer measurements.
 
+## Data download
+
+:::warning
+
+We are currently setting up our service as Beta. During this phase everything is subject to change without prior notice.
+- Not all stations are available with data yet. 
+- The update interval for the 10-minute values is currently set to 30 minutes.
+
+:::
+
+You can access the available Open Data via [https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn).
+
 ## Data structure
 
 import Tabs from '@theme/Tabs';
