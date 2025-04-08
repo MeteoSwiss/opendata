@@ -6,6 +6,6 @@ sidebar_position: 4
 
 :::warning 
 
-*(not yet realised)*
+Data is not yet available.
 
 :::
