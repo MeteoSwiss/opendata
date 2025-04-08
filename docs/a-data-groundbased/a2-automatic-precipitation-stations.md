@@ -47,7 +47,7 @@ import TabItem from '@theme/TabItem';
 
 <Tabs queryString="metadata">
   <TabItem value="parameters" label="Parameter">
-    All parameters have a unique identifier that depends on the time resolution <!-- (e.g. `dkl010z0` for "wind direction; ten-minute average") --> .
+    All parameters have a unique identifier that depends on the time resolution <!-- (e.g. `dkl010z0` for "wind direction; ten-minute average") -->.
     
     [`ogd-smn-precip_meta_parameters.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-smn-precip/ogd-smn-precip_meta_parameters.csv) provides a list of all parameter identifiers with explanation, time interval, decimal places, data type and unit of measurement.
   </TabItem>
