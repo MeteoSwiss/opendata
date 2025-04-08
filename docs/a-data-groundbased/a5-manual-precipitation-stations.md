@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Manual precipitation stations - Measured values
 
-In addition to its automatic precipitation measurements (see [Automatic weather stations](https://opendatadocs.meteoswiss.ch/a-data-groundbased/a1-automatic-weather-stations), [Automatic precipitation stations](https://opendatadocs.meteoswiss.ch/a-data-groundbased/a2-automatic-precipitation-stations) and [Automatic tower stations](https://opendatadocs.meteoswiss.ch/a-data-groundbased/a3-automatic-tower-stations)), MeteoSwiss operates a [manual precipitation monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-precipitation-monitoring-network.html).
+In addition to its automatic precipitation measurements (see [automatic weather stations](https://opendatadocs.meteoswiss.ch/a-data-groundbased/a1-automatic-weather-stations), [automatic precipitation stations](https://opendatadocs.meteoswiss.ch/a-data-groundbased/a2-automatic-precipitation-stations) and [automatic tower stations](https://opendatadocs.meteoswiss.ch/a-data-groundbased/a3-automatic-tower-stations)), MeteoSwiss operates a [manual precipitation monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-precipitation-monitoring-network.html).
 
 Measurements are taken once a day and transmitted to MeteoSwiss via SMS. The network comprises around 240 locations, about 190 stations measure rainfall and snow, and about 50 stations measure snow only.
 
