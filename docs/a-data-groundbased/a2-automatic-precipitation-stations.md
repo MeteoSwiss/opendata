@@ -8,6 +8,18 @@ As a meteorological parameter, precipitation exhibits a very high spatial variab
 
 They deliver precipitation – every 10 minutes.
 
+## Data download
+
+:::warning
+
+We are currently setting up our service as Beta. During this phase everything is subject to change without prior notice.
+- Not all stations are available with data yet. 
+- The update interval for the 10-minute values is currently set to 30 minutes.
+
+:::
+
+You can access the available Open Data via [https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn-precip](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn-precip)
+
 ## Data structure
 
 import Tabs from '@theme/Tabs';
