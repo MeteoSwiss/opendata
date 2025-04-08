@@ -3,31 +3,69 @@ sidebar_position: 7
 ---
 
 # Pollen stations - Measured values
-MeteoSwiss operates the [national pollen monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/pollen-monitoring-network-manual-method.html). It consists of around 15 monitoring stations which cover Switzerland's most important climatic and vegetation regions. The measurements obtained provide invaluable information for those who suffer from allergies.  <!-- Daily average values are updated once a week and obtained from manual reference counts. -->
+
+MeteoSwiss operates the [national pollen monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/pollen-monitoring-network-manual-method.html). It consists of around 15 monitoring stations which cover Switzerland's most important climatic and vegetation regions. The measurements obtained provide invaluable information for those who suffer from allergies.
+
+<!-- Daily average values are updated once a week and obtained from manual reference counts. -->
 
 Additionally since 2023 the new [automatic pollen network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-pollen-monitoring-network-swisspollen.html) is operational: for the first time in the world, instead of daily averages being available after a week, airborne pollen concentrations (No/m³, number of grains per cubic metre of air) of Birch, Beech, Oak, Alder, Ash, Grasses and Hazel are available in real time at an hourly resolution.
 
-## 7.1. Data granularity, update frequency, format and volume
-There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `h`, `d`, `m`, `y` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.
+## Data download
 
-:::note 
+:::warning
 
-The granularities `h` and `d` contain average pollen concentrations, while the granularities `m` and `y` contain pollen integrals.
+We are currently setting up our service as Beta. During this phase everything is subject to change without prior notice.
+- Not all stations are available with data yet.
 
 :::
 
-Data format is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#column-separators-decimal-dividers-and-missing-values) with an estimated volume of 0.6 MB per file.
+You can access the available Open Data via [https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-pollen](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-pollen)
 
-See example data files for station `PBS` (set in lower case) for granularities `h` and `d` and update frequencies `recent` and `historical`: [`ogd-pollen_pbs_(data granularity)_(update frequency).csv`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/swiss-pollen-monitoring-stations-pollen).
+## Data structure
 
-## 7.2. Parameter metadata
-See example parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`h`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-pollen-H.csv) and [`d`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-pollen-D.csv).
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-<!-- ### Codes -->
-<!-- ... -->
+<Tabs queryString="data-structure">
+  <TabItem value="files-per-station" label="Files per station">
+    The data is split by measuring station. Per station there are files with hourly `h`, daily `d`, monthly `m` and yearly `y` values.
 
-## 7.3. Station metadata
-See example [station metadata file](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-pollen/ch.meteoschweiz.messnetz-pollen_en.csv).
+    We strongly recommend that you download the corresponding aggregated [data granularity](https://opendatadocs.meteoswiss.ch/general/download#data-granularity).
 
-## 7.4. Data visualisation
+    :::note 
+
+    Granularities `h` and `d` contain average pollen concentrations, while the granularities `m` and `y` contain pollen integrals.
+
+    :::
+   
+    Depending on the granularity there are files with [update frequency](https://opendatadocs.meteoswiss.ch/general/download#update-frequency) `now`,`recent` and `historical`.
+    
+    See e.g. files for station `Lausanne (PLS)` with all granularities and update frequencies mentioned: [`ogd-pollen_pls_(data granularity)_(update frequency).csv`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-pollen/items/pls).
+  </TabItem>
+</Tabs>
+
+## Data format
+
+[`CSV`](https://opendatadocs.meteoswiss.ch/general/download#column-separators-and-decimal-dividers) with an estimated volume of ≤0.6 MB per file.
+
+## Metadata
+
+<Tabs queryString="metadata">
+  <TabItem value="parameters" label="Parameter">
+    All parameters have a unique identifier that depends on the time resolution <!-- (e.g. `dkl010z0` for "wind direction; ten-minute average") -->.
+    
+    [`ogd-pollen_meta_parameters.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-pollen/ogd-pollen_meta_parameters.csv) provides a list of all parameter identifiers with explanation, time interval, decimal places, data type and unit of measurement.
+  </TabItem>
+  <TabItem value="stations" label="Stations">
+    All stations have a three-letter identifier (e.g. `BER` for "Bern/Zollikofen" or `LUG` for "Lugano").
+    
+    [`ogd-pollen_meta_stations.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-pollen/ogd-pollen_meta_stations.csv) provides a list of all station identifiers with name, Canton, Wigos ID, station type, altitude, coordinates, orientation and URL of the station details pages.
+  </TabItem>
+  <TabItem value="data-inventory" label="Data inventory">
+    [`ogd-pollen_meta_datainventory.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-pollen/ogd-smn-precip_meta_datainventory.csv) provides a list of all stations and parameters with start and end date of the measurements.
+  </TabItem>
+</Tabs>
+
+## Data usage
+
 See e.g. MeteoSwiss' [POLLEN network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-pollen&lang=en&table=false&station=PLZ&chart=day).
