@@ -3,30 +3,63 @@ sidebar_position: 6
 ---
 
 # Totaliser precipitation stations - Measured values
-In supplement to [5. Manual precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#5-manual-precipitation-stations-measured-values) in mountainous areas that are difficult to access, MeteoSwiss operates around 60 totalisers which record the volume of precipitation for an entire year (see section "Totaliser monitoring network – annual readings" [here](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-precipitation-monitoring-network.html).
 
-> [!NOTE]
-> For **climate analyses**, use the corresponding [homogeneous time series data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#d-climate-data) instead.
+In supplement to [manual precipitation stations](/a-data-groundbased/a5-manual-precipitation-stations) in mountainous areas that are difficult to access, MeteoSwiss operates around 60 totalisers which record the volume of precipitation for an entire year (see section "Totaliser monitoring network – annual readings" [here](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-precipitation-monitoring-network.html).
 
-## 6.1. Data granularity, update frequency, format and volume
-There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `y` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) yearly (`historical`) for each station.
+## Data download
 
-Data format of all files is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#column-separators-decimal-dividers-and-missing-values) with an estimated volume of ≤0.6 MB per file.
+:::warning
 
-See example data file for station `MGR` (set in lower case): [`ogd-tot_mgr_y_historical`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/manual-precipitation-stations-tot/tot_Y_MGR.csv).
+We are currently setting up our service as Beta. During this phase everything is subject to change without prior notice.
+- Not all stations are available with data yet. 
 
-## 6.2. Parameter metadata
-See example parameter metadata file of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`y`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-tot-Y.csv).
+:::
 
-The productive version will provide a parameter metadata file with the name: `ogd-tot_meta_parameters.csv`.
+You can access the available Open Data via [https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-tot](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-tot)
 
-<!-- **Codes** -->
-<!-- ... -->
+## Data structure
 
-## 6.3. Station metadata
-See example [station metadata file](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-manuell/ch.meteoschweiz.messnetz-manuell_en.csv).
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-The productive version will provide a station metadata file with the file name: `ogd-tot_meta_stations.csv`.
+<Tabs queryString="data-structure">
+  <TabItem value="files-per-station" label="Files per station">
+    The data is split by measuring station. Per station there are files with yearly `y` values.
+    
+    See e.g. files for station `Mönchsgrat (MGR)`: [`ogd-tot_mgr_(data granularity)_(update frequency).csv`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-tot/items/mgr).    
+  </TabItem>
+</Tabs>
 
-## 6.4. Data visualisation
+## Data format
+
+[`CSV`](https://opendatadocs.meteoswiss.ch/general/download#column-separators-and-decimal-dividers) with an estimated volume of ≤0.6 MB per file.
+
+## Metadata
+
+<Tabs queryString="metadata">
+  <TabItem value="parameters" label="Parameter">
+    All parameters have a unique identifier that depends on the time resolution <!-- (e.g. `dkl010z0` for "wind direction; ten-minute average") -->.
+    
+    [`ogd-tot_meta_parameters.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-tot/ogd-tot_meta_parameters.csv) provides a list of all parameter identifiers with explanation, time interval, decimal places, data type and unit of measurement.
+  </TabItem>
+  <TabItem value="stations" label="Stations">
+    All stations have a three-letter identifier (e.g. `BER` for "Bern/Zollikofen" or `LUG` for "Lugano").
+    
+    [`ogd-tot_meta_stations.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-tot/ogd-tot_meta_stations.csv) provides a list of all station identifiers with name, Canton, Wigos ID, station type, altitude, coordinates, orientation and URL of the station details pages.
+  </TabItem>
+  <TabItem value="data-inventory" label="Data inventory">
+    [`ogd-tot_meta_datainventory.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-tot/ogd-tot_meta_datainventory.csv) provides a list of all stations and parameters with start and end date of the measurements.
+  </TabItem>
+</Tabs>
+
+## Data usage
+
 See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-manuell&lang=en&table=false). 
+
+<!--
+:::info 
+
+For **climate analyses**, use the corresponding [homogeneous time series data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#d-climate-data) instead.
+
+:::
+-->
