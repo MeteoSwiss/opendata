@@ -59,3 +59,27 @@ The available parameters are listed in the example [station metadata file](https
 
 ## 9.4. Data visualisation
 See e.g. MeteoSwiss' [PHENOLOGY network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-phaenologie&lang=en&table=false).
+
+
+Phenological observations
+*************************
+https://data.geo.admin.ch/ch.meteoschweiz.klima/phaenologie/phaeno_previous.csv                             Data from previous years (verified data) 
+https://data.geo.admin.ch/ch.meteoschweiz.klima/phaenologie/phaeno_current.csv                              Data from current year
+https://data.geo.admin.ch/ch.meteoschweiz.klima/phaenologie/Legende_Parameter.csv                           Parameter list
+https://data.geo.admin.ch/ch.meteoschweiz.messnetz-phaenologie/ch.meteoschweiz.messnetz-phaenologie_en.csv  Station list
+
+Data file structure
+param_id;nat_abbr;reference_year;value;doy
+
+param_id           Parameter identification: see parameter list  
+nat_abbr           Station abbreviation: see station list 
+reference_year     Reference year
+value              Date of observation, format yyyymmdd 
+doy                Day of year
+                   Negative values: observation in the year preceding the reference year 
+                   Values greater than 365: observation in the year following the reference year	
+
+Delivery times
+phaeno_previous.csv Delivery once a year after checking the data (beginning of February)
+phaeno_current.csv  Delivery daily at 3:15 UTC
+
