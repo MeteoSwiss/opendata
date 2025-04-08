@@ -34,7 +34,7 @@ import TabItem from '@theme/TabItem';
 
     We strongly recommend that you download the corresponding aggregated [data granularity](https://opendatadocs.meteoswiss.ch/general/download#data-granularity).
    
-    Depending on the granularity there are files with [update frequency](https://opendatadocs.meteoswiss.ch/general/download#update-frequency) `now`, `recent` and `historical`.
+    Depending on the granularity there are files with [update frequency](https://opendatadocs.meteoswiss.ch/general/download#update-frequency) `recent` and `historical`.
     
     See e.g. files for station `Aigle (AIG)` with all granularities and update frequencies mentioned: [`ogd-nime-aig_(data granularity)_(update frequency).csv`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nime/items/aig).    
   </TabItem>
