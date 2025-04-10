@@ -1,6 +1,6 @@
-*                           @mchaamsler @MeteoSwiss/data-stewards
-**/a-data-groundbased       @MeteoSwiss/groundbased-team
+*                           @MeteoSwiss/opendata-steward-role
+**/a-data-groundbased       @MeteoSwiss/opendata-groundbased-team
 **/b-data-atmosphere        @MeteoSwiss/opendata-atmosphere-team
-**/c-climate-data           @MeteoSwiss/climate-team
-**/d-radar-data             @MeteoSwiss/radar-team
-**/e-forecast-data          @MeteoSwiss/forecast-team
+**/c-climate-data           @MeteoSwiss/opendata-climate-team
+**/d-radar-data             @MeteoSwiss/opendata-radar-team
+**/e-forecast-data          @MeteoSwiss/opendata-forecast-team
