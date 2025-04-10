@@ -1,4 +1,5 @@
 *                           @MeteoSwiss/opendata-steward-role
+**/general                  @MeteoSwiss/opendata-operations-team
 **/a-data-groundbased       @MeteoSwiss/opendata-groundbased-team
 **/b-data-atmosphere        @MeteoSwiss/opendata-atmosphere-team
 **/c-climate-data           @MeteoSwiss/opendata-climate-team
