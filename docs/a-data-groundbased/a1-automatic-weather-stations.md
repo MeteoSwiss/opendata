@@ -16,8 +16,8 @@ The network is supplemented by around 100 [automatic precipitation stations](/a-
 
 We are currently setting up our service as Beta. During this phase everything is subject to change without prior notice.
 - Not all stations are available with data yet. 
-- The update interval for the [files per station](/a1-automatic-weather-stations?data-structure=files-per-station) 10-minute values is currently set to 30 minutes.
-- The update interval for the [one files with all stations](/a1-automatic-weather-stations?data-structure=one-file-with-all-stations) most recent 10-minutes values is around 10 minutes.
+- The update interval for the [files per station](/a-data-groundbased/a1-automatic-weather-stations?data-structure=files-per-station) 10-minute values is currently set to 30 minutes.
+- The update interval for the [one files with all stations](/a-data-groundbased/a1-automatic-weather-stations?data-structure=one-file-with-all-stations) most recent 10-minutes values is around 10 minutes.
 
 :::
 
@@ -32,9 +32,9 @@ import TabItem from '@theme/TabItem';
   <TabItem value="files-per-station" label="Files per station">
     The data is split by measuring station. Per station there are files with 10-minute `t`, hourly `h`, daily `d`, monthly `m` and yearly `y` values.
 
-    We strongly recommend that you download the corresponding aggregated [data granularity](https://opendatadocs.meteoswiss.ch/general/download#data-granularity).
+    We strongly recommend that you download the corresponding aggregated [data granularity](/general/download#data-granularity).
    
-    Depending on the granularity there are files with [update frequency](https://opendatadocs.meteoswiss.ch/general/download#update-frequency) `now`, `recent` and `historical`.
+    Depending on the granularity there are files with [update frequency](/general/download#update-frequency) `now`, `recent` and `historical`.
     
     See e.g. files for station `Salen-Reutenen (HAI)` with all granularities and update frequencies mentioned: [`ogd-smn_hai_(data granularity)_(update frequency).csv`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn/items/hai?.language=en)
     
