@@ -43,8 +43,12 @@ import TabItem from '@theme/TabItem';
   <TabItem value="one-file-with-all-stations" label="One file with all stations">
     In addition we offer the [main parameters of all stations (in one file) – every 10 minutes, most recent values](https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA80.csv).
     - Time in UTC: 00:40 UTC = 02:40 local (CH) summer time, 01:40 winter time
-    - Main parameters included are: 
-      - `tre200s0` = Air temperature 2 m above ground; current value
+    - Main parameters included are:
+      | Identifier | Description |
+      |:-----:|:-----|
+      | `tre200s0` | Air temperature 2 m above ground; current value |
+    
+      
       - `rre150z0` = Precipitation; ten minutes total
       - `sre000z0` = Sunshine duration; ten minutes total
       - `gre000z0` = Global radiation; ten minutes mean
