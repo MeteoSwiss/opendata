@@ -43,7 +43,7 @@ import TabItem from '@theme/TabItem';
   <TabItem value="one-file-with-all-stations" label="One file with all stations">
     In addition we offer the [main parameters of all stations (in one file) – every 10 minutes, most recent values](https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA80.csv).
     - Time in UTC: 00:40 UTC = 02:40 local (CH) summer time, 01:40 winter time
-    - Main parameters included are:
+    - Main parameters are:
       | Identifier | Description |
       |:----------:|:------------|
       | `tre200s0` | Air temperature 2 m above ground; current value | 
@@ -66,9 +66,13 @@ import TabItem from '@theme/TabItem';
       | `ta1tows0` | Air temperature tower<sup>4</sup>; current value |
       | `uretows0` | Relative air humidity tower<sup>4</sup>; current value |
       | `tdetows0` | Dew point tower<sup>4</sup>; current value |
+
     <sup>1</sup>QFE = the isobaric surface pressure at the reference point
+
     <sup>2</sup>QFF = the air pressure at the measuring site, reduced to the sea level. It is used in the field of meteorology in order to ­compare the air pressures of different places at different heights.
+
     <sup>3</sup>QNH = the air pressure at the measuring station, reduced to sea level acc. to "standard atmosphere".
+
     <sup>4</sup>Information about the [automatic tower stations](/a-data-groundbased/a3-automatic-tower-stations) dataset/collection.
   </TabItem>
 </Tabs>
