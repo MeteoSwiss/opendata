@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# E2/E3 - Numerical Weather Forecasting Model Data
+# Numerical weather forecasting model ICON-CH1/2-EPS – Grid data
 
 MeteoSwiss uses two models, **ICON-CH1-EPS** and **ICON-CH2-EPS**, to forecast atmospheric changes in Switzerland and its surroundings over a longer period than nowcasting, providing predictions for up to five days. Both models include [ensemble data assimilation](https://www.meteoswiss.admin.ch/weather/warning-and-forecasting-systems/icon-forecasting-systems/ensemble-data-assimilation.html).
 
