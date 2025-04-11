@@ -2,10 +2,12 @@
 sidebar_position: 4
 ---
 
-# A4 - Automatic soil stations - Measured values
+# Automatische Bodenstationen – Messwerte
 
-:::warning
+:::warning 
 
-*(not yet realised)*
+Die Daten sind noch nicht verfügbar.
 
 :::
+
+Die Dokumentation folgt.
