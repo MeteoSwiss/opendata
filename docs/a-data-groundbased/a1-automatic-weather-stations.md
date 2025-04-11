@@ -17,7 +17,7 @@ The network is supplemented by around 100 [automatic precipitation stations](/a-
 We are currently setting up our service as Beta. During this phase everything is subject to change without prior notice.
 - Not all monthly `m` and yearly `y` values (data granularities) are available for all stations yet.
 - Not all `historical` files (update frequency) are available for all stations yet. 
-- The update interval for the [files per station](/a-data-groundbased/a1-automatic-weather-stations?data-structure=files-per-station) 10-minute values is currently set to 30 minutes.
+- The update interval for the [files per station](/a-data-groundbased/a1-automatic-weather-stations?data-structure=files-per-station) 10-minute values is set to 20 minutes.
 - The update interval for the [one files with all stations](/a-data-groundbased/a1-automatic-weather-stations?data-structure=one-file-with-all-stations) most recent 10-minutes values is around 10 minutes.
 
 :::
