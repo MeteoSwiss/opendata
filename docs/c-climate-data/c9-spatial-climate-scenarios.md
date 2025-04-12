@@ -5,6 +5,8 @@ sidebar_position: 9
 # C9 - Spatial climate scenarios
 ... 
 
+[CH2018 (referenced)](https://www.nccs.admin.ch/nccs/en/home/climate-change-and-impacts/swiss-climate-change-scenarios/ch2018-web-atlas.html)
+
 ...
 
 ## Data granularity, update frequency, format and volume
