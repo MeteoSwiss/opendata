@@ -5,6 +5,8 @@ sidebar_position: 1
 # Climate stations - Homogeneous measurements
 The [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-national-basic-climatological-network.html) connects the major ground-based stations within the MeteoSwiss monitoring network. It consists of around 30 climate monitoring stations.
 
+The network is supplemented by around 45 [climate precipitation stations](/c-climate-data/c2-climate-percipitation-stations_homogeneous). 
+
 The [homogenous time series data](https://www.meteoswiss.admin.ch/climate/climate-change/changes-in-temperature-precipitation-and-sunshine/homogeneous-data-series-since-1864.html) for temperature, precipitation, wind, sunshine, humidity, radiation and pressure date back, in some cases, to the mid-nineteenth century.
 
 ## Data download
