@@ -3,25 +3,61 @@ sidebar_position: 1
 ---
 
 # C1 - Climate stations - Homogeneous measurements
-The [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-national-basic-climatological-network.html) connects the major ground-based stations within the MeteoSwiss monitoring network. It consists of around 30 climate monitoring stations. 
+The [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-national-basic-climatological-network.html) connects the major ground-based stations within the MeteoSwiss monitoring network. It consists of around 30 climate monitoring stations.
 
-The [homogenous time series data](https://www.meteoswiss.admin.ch/climate/climate-change/changes-in-temperature-precipitation-and-sunshine/homogeneous-data-series-since-1864.html) for temperature, precipitation and hours of sunshine date back, in some cases, to the mid-nineteenth century.
+The [homogenous time series data](https://www.meteoswiss.admin.ch/climate/climate-change/changes-in-temperature-precipitation-and-sunshine/homogeneous-data-series-since-1864.html) for temperature, precipitation, wind, sunshine, humidity, radiation and pressure date back, in some cases, to the mid-nineteenth century.
 
-## 1.1. Data granularity, update frequency, format and volume
-If you require daily, monthly or annual values, we strongly recommend that you download the corresponding aggregated [data granularity](/general/download#32---data-granularity) `D`, `M`, `Y` and [update frequency](/general/download#33---update-frequency) daily (`recent`) or yearly (`historical`) for each station.
+## Data download
 
-Data format of all files is [`CSV`](/general/download#31---column-separators-and-decimal-dividers) with an estimated volume of ≤0.9 MB per file.
+:::warning
 
-See example data files for station `BAS` for all granularities and update frequencies mentioned: [`ogd-nbcn_BAS_(data granularity)_(update frequency)`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/climate-stations-swiss-nbcn-climate).
+We are currently setting up our service as Beta. During this phase everything is subject to change without prior notice.
+- Not all data granularities are available for all stations yet.
+- Not all `historical` files (update frequency) are available for all stations yet.
 
-## 1.2. Parameter metadata
-See example parameter metadata files of [data granularity](/general/download#32---data-granularity): [`...`](#) and [`...`](#).
+:::
 
-<!-- ### Codes -->
-<!-- ... -->
+You can access the available Open Data via [https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nbcn](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nbcn-precip)
 
-## 1.3. Station metadata
-See example [station metadata file](#).
+## Data structure
 
-## 1.4. Data visualisation
-See e.g. MeteoSwiss' [...](#).
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs queryString="data-structure">
+  <TabItem value="files-per-station" label="Files per station">
+    The data is split by measuring station. Per station there are files with daily `d`, monthly `m` and yearly `y` values.
+
+    We strongly recommend that you download the corresponding aggregated [data granularity](/general/download#data-granularity).
+   
+    Depending on the granularity there are files with [update frequency](/general/download#update-frequency) `recent` and `historical`.
+    
+    See e.g. files for station `Segl-Maria (SIA)` with all granularities and update frequencies mentioned: [`ogd-nbcn_sia_(data granularity)_(update frequency).csv`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nbcn/items/sia)
+  </TabItem>
+</Tabs>
+
+## Data format
+
+[`CSV`](https://opendatadocs.meteoswiss.ch/general/download#column-separators-and-decimal-dividers) with an estimated volume of ≤0.9 MB per file.
+
+## Metadata
+
+<Tabs queryString="metadata">
+  <TabItem value="parameters" label="Parameter">
+    All parameters have a unique identifier that depends on the time resolution (e.g. `th9120mv` for "Air temperature 2 m above ground; deviation of the homogeneous monthly mean to the norm 9120").
+    
+    [`ogd-nbcn_meta_parameters.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-nbcn/ogd-nbcn_meta_parameters.csv) provides a list of all parameter identifiers with explanation, time interval, decimal places, data type and unit of measurement.
+  </TabItem>
+  <TabItem value="stations" label="Stations">
+    All stations have a three-letter identifier (e.g. `BER` for "Bern/Zollikofen" or `LUG` for "Lugano").
+    
+    [`ogd-nbcn_meta_stations.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-nbcn/ogd-nbcn_meta_stations.csv) provides a list of all station identifiers with name, Canton, Wigos ID, station type, altitude, coordinates, orientation and URL of the station details pages.
+  </TabItem>
+  <TabItem value="data-inventory" label="Data inventory">
+    [`ogd-nbcn_meta_datainventory.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-nbcn/ogd-nbcn_meta_datainventory.csv) provides a list of all stations and parameters with start and end date of the measurements.
+  </TabItem>
+</Tabs>
+
+## Data usage
+
+See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-klima&lang=en&table=false&compare=y).
