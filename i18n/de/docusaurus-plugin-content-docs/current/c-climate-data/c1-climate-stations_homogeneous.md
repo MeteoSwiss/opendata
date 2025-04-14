@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# C1 - Klimastationen – Homogene Messdaten
+# Klimastationen – Homogene Messdaten
 
 Zur [Dokumentation auf Englisch](https://opendatadocs.meteoswiss.ch/c-climate-data/c1-climate-stations_homogeneous).
 
