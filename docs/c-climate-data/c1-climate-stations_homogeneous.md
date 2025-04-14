@@ -5,9 +5,7 @@ sidebar_position: 1
 # Climate stations - Homogeneous measurements
 The [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-national-basic-climatological-network.html) connects the major ground-based stations within the MeteoSwiss monitoring network. It consists of around 30 climate monitoring stations.
 
-They are able to provide the five parameters of temperature (average, minimum and maximum), precipitation and sunshine hours.
-- Long data series for all five parameters are available predominantly from stations at an altitude of under 1,000 metres above sea level.
-- In most cases, higher-altitude stations are only able to provide long data series for average temperature and precipitation.
+They are able to provide the five parameters of temperature (average, minimum and maximum), precipitation and sunshine hours. Long data series for all five parameters are available predominantly from stations at an altitude of under 1,000 metres above sea level. In most cases, higher-altitude stations are only able to provide long data series for average temperature and precipitation.
 
 The network is supplemented by around 45 [climate precipitation stations](/c-climate-data/c2-climate-percipitation-stations_homogeneous). 
 
