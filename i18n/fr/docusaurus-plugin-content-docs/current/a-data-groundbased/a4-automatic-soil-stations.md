@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Stations de sol automatiques – Valeurs mesurées
+# Stations d'humidité du sol automatiques – Valeurs mesurées
 
 :::warning
 
