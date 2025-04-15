@@ -4,18 +4,18 @@ sidebar_position: 4
 
 # Satellite-based spatial climate data – Radiation, cloud cover
 
-These grid data products are derived from [MeteoSat satellite data](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/satellite-observations.html) together with ground-based measurements.
+These grid data products are derived from [MeteoSat satellite data](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/satellite-observations.html) together with ground-based measurements (for more see the linked  detailed product documentations).
 
-**Global Radiation** (see the linked detailed product documentation)
+**Global Radiation**
 - *Hourly [to be verified]*, [Daily, Monthly and Yearly satellite-based Global Radiation](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf)
 
-**Diffuse Radiation** (see the linked detailed product documentation)
+**Diffuse Radiation**
 - *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Diffuse Radiation *[Link to a detailed product documentation]*
 
-**Direct Radiation** (see the linked detailed product documentation)
+**Direct Radiation**
 - *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Direct Radiation *[Link to a detailed product documentation]*
 
-**Cloud Cover** (see the linked detailed product documentation)
+**Cloud Cover**
 - *Hourly [to be verified]*, [Daily, Monthly and Yearly satellite-based Cloud Fractional Cover](https://www.meteoswiss.admin.ch/dam/jcr:af0c491c-4bfc-4efd-bcee-5d019004afd1/ProdDoc_CFC.pdf)
 
 ## Data download
