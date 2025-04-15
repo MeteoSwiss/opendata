@@ -1,11 +1,13 @@
 ---
-sidebar_position: 3
+sidebar_position: 6
 ---
 
-# B6 - Swiss Alpine Climate Radiation Monitoring (SACRaM)
+# Swiss Alpine Climate Radiation Monitoring (SACRaM)
 
-:::warning
+:::warning 
 
-*(not yet realised)*
+Data is not yet available.
 
 :::
+
+Documentation follows.
