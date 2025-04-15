@@ -12,7 +12,7 @@ MeteoSwiss provides monthly and annual [climate normals](https://www.meteoswiss.
 
 ## Data download
 
-You can download the available Open Data via [opendata.swiss](https://opendata.swiss/dataset/klimanormwerte), as ZIP (in TXT format).
+You can download the available Open Data via [opendata.swiss](https://opendata.swiss/de/dataset/klimanormwerte/resource/e80497da-0ffb-4437-87bb-3d72e3296349), as ZIP (in TXT format).
 
 ## Data structure
 
