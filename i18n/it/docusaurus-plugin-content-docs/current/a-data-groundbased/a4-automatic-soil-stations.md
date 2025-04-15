@@ -2,10 +2,12 @@
 sidebar_position: 4
 ---
 
-# A4 - Automatic soil stations - Measured values
+# Stazioni d'umidità del suolo automatiche - Valori misurati
 
 :::warning
 
-*(not yet realised)*
+I dati non sono ancora disponibili.
 
 :::
+
+La documentazione seguirà.
