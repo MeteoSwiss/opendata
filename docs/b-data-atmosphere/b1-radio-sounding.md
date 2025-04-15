@@ -31,7 +31,7 @@ The following **example data file** is available for download: [`ogd-radiosoundi
     The productive version will provide a parameter metadata file with the file name: `ogd-radiosounding_meta_parameters.csv`
   </TabItem>
   <TabItem value="stations" label="Stations">
-    >!-- All stations have a three-letter identifier (e.g. `BER` for "Bern/Zollikofen" or `LUG` for "Lugano"). -->
+    <!-- All stations have a three-letter identifier (e.g. `BER` for "Bern/Zollikofen" or `LUG` for "Lugano"). -->
     
     See **example** [station metadata file](https://data.geo.admin.ch/ch.meteoschweiz.ogd-radiosounding/ogd-radiosounding_meta_stations.csv).
 
