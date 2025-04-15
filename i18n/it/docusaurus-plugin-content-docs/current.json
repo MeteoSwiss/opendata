@@ -16,7 +16,7 @@
     "description": "The label for category Open Data Documentation in sidebar dataSidebar"
   },
   "sidebar.dataSidebar.category.General information": {
-    "message": "informazioni generali",
+    "message": "Informazioni generali",
     "description": "The label for category General Information in sidebar dataSidebar"
   },
   "sidebar.dataSidebar.category.C - Climate data": {
