@@ -22,6 +22,9 @@ The following **example data file** is available for download: [`ogd-radiosoundi
 
 ## Metadata
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 <Tabs queryString="metadata">
   <TabItem value="parameters" label="Parameter">
     See **example** [parameter metadata file](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-atmosphere/radiosounding-PAY-metadata) incl. codes for 'Profile Type', 'Level Type' and 'Solar Radiation Correction'.
