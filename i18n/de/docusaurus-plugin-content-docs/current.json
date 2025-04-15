@@ -3,9 +3,9 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.dataSidebar.category.A - Ground-based Measurements": {
+  "sidebar.dataSidebar.category.A - Ground-based measurements": {
     "message": "A - Bodenmessdaten",
-    "description": "The label for category A - Ground-based Measurements in sidebar dataSidebar"
+    "description": "The label for category A - Ground-based measurements in sidebar dataSidebar"
   },
   "sidebar.dataSidebar.category.B - Atmosphere Measurements": {
     "message": "B - Atmosphären-Messdaten",
