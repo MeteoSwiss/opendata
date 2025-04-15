@@ -2,10 +2,12 @@
 sidebar_position: 3
 ---
 
-# B5 - Ozone measurements – Profiles (O3 radio soundings, SOMORA)
+# Ozone measurements – Profiles (O3 radio soundings, SOMORA)
 
-:::warning
+:::warning 
 
-*(not yet realised)*
+Data is not yet available.
 
 :::
+
+Documentation follows.
