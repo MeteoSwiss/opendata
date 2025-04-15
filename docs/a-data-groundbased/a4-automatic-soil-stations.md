@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Automatic soil stations - Measured values
+# Automatic soil moisture stations - Measured values
 
 :::warning 
 
