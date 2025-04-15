@@ -10,9 +10,15 @@ The 30-year average and 30-year averaging period are used as standard for climat
 
 MeteoSwiss provides monthly and annual [climate normals](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/climate-normals.html) for the norm periods 1961-1990, 1981-2010 and 1991-2020 for all measuring stations with long-time series of [homogeneous measurements](/c-climate-data/c1-climate-stations_homogeneous).
 
+:::info
+
+For **grid data**, go to [Spatial climate normals](/c-climate-data/c7-spatial-climate-normals).
+
+:::
+
 ## Data download
 
-You can download the available Open Data via [opendata.swiss](https://opendata.swiss/de/dataset/klimanormwerte/resource/e80497da-0ffb-4437-87bb-3d72e3296349), as ZIP (in TXT format).
+You can download the available Open Data via [opendata.swiss](https://opendata.swiss/en/dataset/klimanormwerte/resource/e80497da-0ffb-4437-87bb-3d72e3296349), as ZIP (in TXT format).
 
 ## Data structure
 
