@@ -2,32 +2,29 @@
 sidebar_position: 5
 ---
 
-# C5 - Radar-based spatial climate data
-The following *grid data products* are derived from *radar data*, which were [further processed for statistical statements with the use of the HailStoRe resampling approach](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology/data-and-methods.html), among other things (*see links for detailed product documentation*s). The [hail climatology](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html) was developed in a user-oriented manner in a public-private partnership and represents a nationally uniform basis for the risk assessment of hail events.
+# Radar-based spatial climate data – Hail
 
-The following data are planned to be made available in May 2025:
+These grid data products are derived from radar data, which were [further processed for statistical statements with the use of the HailStoRe resampling approach](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology/data-and-methods.html), among other things (for more see the linked detailed product documentations). 
+
+The [hail climatology](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html) was developed in a user-oriented manner in a public-private partnership and represents a nationally uniform basis for the risk assessment of hail events.
+
+The following data are planned to be made available in 2025:
 
 **Maximum Hailstone Size**
-- Monthly and Yearly radar-based Maximum Hailstone Size « 🟡 *ProdDoc (PDF) URL ?*
+- Monthly and Yearly radar-based Maximum Hailstone Size *[Link to a detailed product documentation]*
 
 **Number of Hail Days**
-- Monthly and Yearly radar-based Number of Hail Days « 🟡 *ProdDoc (PDF) URL ?*
-- Monthly and Yearly radar-based Number of Hail Days with Hail >2cm « 🟡 *ProdDoc (PDF) URL ?*
-- Monthly and Yearly radar-based Number of Hail Days with Hail >4cm « 🟡 *ProdDoc (PDF) URL ?*
+- Monthly and Yearly radar-based Number of Hail Days *[Link to a detailed product documentation]*
+- Monthly and Yearly radar-based Number of Hail Days with Hail >2cm *[Link to a detailed product documentation]*
+- Monthly and Yearly radar-based Number of Hail Days with Hail >4cm *[Link to a detailed product documentation]*
 
-<br />
+## Data download
 
-The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056). 
-
-The data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of ... MB per file.
-
-<br />
-
-The following data files are available for download:
+The following data files are **in discussion to be processed**:
 
 <!-- Bezeichnungen gemäss https://meteoswiss.atlassian.net/wiki/spaces/AK/pages/492699723/TABELLEN+3+und+4+Neue+KLIMAHAGELDATEN+-+Betrieb -->
 
-| *Parameter*                            | *Product*                          | Time interval | Update cycle   | Data files (see STAC Assets)                                       |
+| *Parameter*                            | *Product*                          | Time interval | Update cycle   | *Data files (in discussion to be processed)*                                       |
 |:---------------------------------------|:-----------------------------------|:------------- |:---------------|:-------------------------------------------------------------------|
 | **Maximum Hailstone Size**             | Absolute *values*                  | Monthly       | previous_month | hailsizeM_ch01r.swiss.lv95        |
 |                                        | Absolute *values*                  | Yearly        | previous_year  | hailsizeY_ch01r.swiss.lv95        |
@@ -59,3 +56,15 @@ The following data files are available for download:
 |                                        | *Standard deviation of Climatology* | Yearly        | previous_year  | *haildays4cmclimstdY_ch01r.swiss.lv95* |
 
 <!-- alle stdM, /Y weglassen -->
+
+## Data format
+
+The data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <!-- with an estimated volume of ... MB per file --> .
+
+## Coordinate system
+
+The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056). 
+
+## Data usage
+
+Follows.
