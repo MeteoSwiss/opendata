@@ -2,10 +2,12 @@
 sidebar_position: 2
 ---
 
-# B2 - Raman-LIDAR for Meteorological Observation (RALMO)
+# Raman-LIDAR for Meteorological Observation (RALMO)
 
-:::warning
+:::warning 
 
-*(not yet realised)*
+Data is not yet available.
 
 :::
+
+Documentation follows.
