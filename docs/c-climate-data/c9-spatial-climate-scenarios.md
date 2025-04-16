@@ -4,7 +4,7 @@ sidebar_position: 9
 
 # Spatial climate scenarios
 
-## Download data
+## Data download
 
 You can access the `CH2018` data via the [NCCS webpage](https://www.nccs.admin.ch/nccs/en/home/climate-change-and-impacts/swiss-climate-change-scenarios.html).
 
