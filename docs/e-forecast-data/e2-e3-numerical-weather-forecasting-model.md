@@ -83,6 +83,8 @@ There are 81 discrete half levels and 80 full levels in our data.
 ![VerticalLayers](./static/docs_img/VerticalLayers.png)
 Illustration of ICON's vertical levels, Working with the ICON Model 2024, Figure 3.2
 
+<br></br>
+
 Most parameters are stored on full vertical levels, while some — such as the vertical velocity `W` — are stored on half (staggered) levels.
 
 To determine the vertical positioning of a parameter, inspect the GRIB2 key `typeOfLevel`:
@@ -103,6 +105,8 @@ The horizontal grid of ICON-CH1-EPS and ICON-CH2-EPS model is based on a native 
 
 ![VerticalLayers](./static/docs_img/IcosahedralGrid.png)
 Illustration of the grid construction, Working with the ICON Model, Figure 2.1
+
+<br></br>
 
 Since the provided data is given in the native grid, note that the grid points correspond to the **center of the circumcircle of each triangle** and **not** to the vertices. Therefore, the longitude and latitude are based in the middle of each triangle on the grid mentioned before. For more detailed information on
 the horizontal grid, read section 2.1 in [Working with the ICON Model](https://www.dwd.de/DE/leistungen/nwv_icon_tutorial/pdf_einzelbaende/icon_tutorial2024.pdf?__blob=publicationFile&v=3).
@@ -174,9 +178,7 @@ curl -s -i "<pre-signed URL>" | awk -F': ' '/x-amz-meta-sha256/ {print $0}'
 
 3. Compare the two hash values. If they match, your forecast data file is safe to use.
 
-</details>
-
-<br />
+<br></br>
 
 Once the file is verified, you can proceed with decoding the GRIB file using the instructions in [8.2 Decoding GRIB Files with ecCodes](#282-decoding-grib-files-with-eccodes).
 
