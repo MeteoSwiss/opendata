@@ -17,6 +17,8 @@ The documentation covers the following topics:
 - [7. Accessing Static Grid Information: Height, Longitude, and Latitude](#7-accessing-static-grid-information-height-longitude-and-latitude)
 - [8. Reading Forecast Files Using ecCodes](#8-reading-forecast-files-using-eccodes)
 
+<br></br>
+
 ## 1. Model Specifications
 
 | **Attributes**| **ICON-CH1-EPS** | **ICON-CH2-EPS**|
@@ -80,7 +82,7 @@ The so-called half levels align with vertical grid points, while the full levels
 
 There are 81 discrete half levels and 80 full levels in our data.
 
-![VerticalLayers](https://github.com/MeteoSwiss/opendata/blob/main/static/docs_img/VerticalLayers.png)
+![VerticalLayers](./static/docs_img/VerticalLayers.png)
 Illustration of ICON's vertical levels, Working with the ICON Model 2024, Figure 3.2
 
 <br></br>
@@ -103,7 +105,7 @@ In addition to the vertical grid above the surface, there is also a grid below t
 
 The horizontal grid of ICON-CH1-EPS and ICON-CH2-EPS model is based on a native icosahedral grid inherited by the original ICON model grid (illustrated below).
 
-![IcosahedralGrid](https://github.com/MeteoSwiss/opendata/blob/main/static/docs_img/IcosahedralGrid.png)
+![IcosahedralGrid](./static/docs_img/IcosahedralGrid.png)
 Illustration of the grid construction, Working with the ICON Model, Figure 2.1
 
 <br></br>
