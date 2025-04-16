@@ -109,6 +109,7 @@ the horizontal grid, read section 2.1 in [Working with the ICON Model](https://w
 
 ## 5. Example Notebooks: From Retrieval to Visualization
 
+<!--
 <p>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" style="height: 52px; vertical-align: middle; padding-right: 20px;">
@@ -117,6 +118,7 @@ the horizontal grid, read section 2.1 in [Working with the ICON Model](https://w
     <img src="https://img.shields.io/badge/GitHub-Repository-blue?logo=github" style="height: 22px; vertical-align: middle;">
   </a>
 </p>
+-->
 
 ## 6. Retrieving Forecasts via REST API
 
