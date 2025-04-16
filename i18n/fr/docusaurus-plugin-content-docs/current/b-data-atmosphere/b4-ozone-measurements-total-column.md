@@ -2,10 +2,12 @@
 sidebar_position: 3
 ---
 
-# B4 - Ozone measurements – Total column (Dobson, Brewer)
+# Ozone measurements – Total column (Dobson, Brewer)
 
-:::warning
+:::warning 
 
-*(not yet realised)*
+Data is not yet available.
 
 :::
+
+Documentation follows.
