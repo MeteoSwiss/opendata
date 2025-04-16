@@ -2,10 +2,12 @@
 sidebar_position: 3
 ---
 
-# B3 - LIDAR Ceilometer CHM15K
+# LIDAR Ceilometer CHM15K
 
-:::warning
+:::warning 
 
-*(not yet realised)*
+Data is not yet available.
 
 :::
+
+Documentation follows.
