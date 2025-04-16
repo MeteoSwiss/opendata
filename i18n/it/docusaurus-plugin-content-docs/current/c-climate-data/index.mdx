@@ -2,16 +2,16 @@
 sidebar_position: 4
 ---
 
-# C - Dati sul clima
+# C - Dati climatici
 
-| #  | Dataset/Collection name | Technical name | Priority | latest Open Data processed | latest Open Data & File-Metadata available |
-|:-----:|:-----|:-----|:-----:|:-----:|:-----:|
-| C1 | [Climate stations – Homogeneous measurements](/c-climate-data/c1-climate-stations_homogeneous) | `ogd-nbcn` | 1️⃣ | 🟡 | ⚪ [ALPHA (File metadata)](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nbcn) <!-- available as BETA in Q1-2025 --> |
-| C2 | [Climate precipitation stations – Homogeneous measurements](/c-climate-data/c2-climate-percipitation-stations_homogeneous) | `ogd-nbcn-precip` | 1️⃣ | 🟡 | ⚪ [ALPHA (File metadata)](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nbcn-precip) <!-- available as BETA in Q1-2025 --> |
-| C3 | [*Ground-based* spatial climate data - Precipitation, Temperature, Relative Sunshine Duration](/c-climate-data/c3-ground-based-climate-data) | `ogd-surface-derived-grid` | 2️⃣ | 🟡 | ⚪ [PoC](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-surface-derived-grid) |
-| C4 | [*Satellite-based* spatial climate data - Global, Diffuse & Direct Radiation, Cloud Fractional Cover](/c-climate-data/c4-satellite-based-climate-data) | `ogd-satellite-derived-grid` | 2️⃣ | 🟡 | ⚪ [PoC](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-satellite-derived-grid) |
-| C5 | [*Radar-based* spatial climate data - Maximum Hailstone Size, Number of Hail Days](/c-climate-data/c5-radar-based-climate-data) <br/> *- Data expected to be available in May 2025* | `ogd-radar-derived-grid` | 3️⃣ |   |   |
-| C6 | [Climate normals](/c-climate-data/c6-climate-normals) | `ogd-climate-normals` | 2️⃣ | 🟡 | ⚪ |
-| C7 | [Spatial climate normals](c-climate-data/c7-spatial-climate-normals) | `ogd-climate-normals-grid` | 2️⃣ | 🟡 | ⚪ |
-| C8 | [Climate scenarios](/c-climate-data/c8-climate-scenarios) <br/> *- CH2025 data expected to be available in November 2025* | `ogd-climate-scenarios-ch2025` | 3️⃣ | ⚪ [CH2018 (referenced)](https://www.nccs.admin.ch/nccs/en/home/climate-change-and-impacts/swiss-climate-change-scenarios/ch2018-web-atlas.html) | ⚪ |
-| C9 | [Spatial climate scenarios](/c-climate-data/c9-spatial-climate-scenarios.md) <br/> *- CH2025 data expected to be available in November 2025* | `ogd-climate-scenarios-ch2025-grid` | 3️⃣ | ⚪ [CH2018 (referenced)](https://www.nccs.admin.ch/nccs/en/home/climate-change-and-impacts/swiss-climate-change-scenarios/ch2018-web-atlas.html) | ⚪ |
+| N.     | Set di dati/'Collection' | Disponibilità dei dati |
+|:------:|:---------|:---------|
+| **C1** | [**Stazioni climatologiche – Dati di misurazione omogenei**](/c-climate-data/c1-climate-stations_homogeneous) <br></br> Temperatura, precipitazioni, vento, soleggiamento, umidità, radiazione e pressione <br></br> Giornaliero, mensile e annuale | [**Download** (Beta)](https://opendatadocs.meteoswiss.ch/c-climate-data/c1-climate-stations_homogeneous#data-download) |
+| **C2** | [**Stazioni climatologiche pluviometriche – Dati di misurazione omogenei**](https://opendatadocs.meteoswiss.ch/c-climate-data/c2-climate-percipitation-stations_homogeneous) <br></br> Precipitazioni <br></br> Mensile e annuale | [**Download** (Beta)](/c-climate-data/c2-climate-percipitation-stations_homogeneous#data-download) |
+| C3 | [Dati climatici spaziali basati a terra](/c-climate-data/c3-ground-based-climate-data) <br></br> Precipitazioni, temperatura e soleggiamento <br></br> Giornaliero, mensile e annuale | previsto disponibile nel 2025 |
+| C4 | [Dati climatici spaziali basati su satellite](/c-climate-data/c4-satellite-based-climate-data) <br></br> Radiazione e copertura nuvolosa <br></br> *Orario [da verificare]*, giornaliero, mensile e annuale | previsto disponibile nel 2025 |
+| C5 | [Dati climatici spaziali basati su radar](/c-climate-data/c5-radar-based-climate-data) <br></br> Grandine <br></br> Mensile e annuale | previsto disponibile nel 2025 |
+| **C6** | [**Norme climatiche**](/c-climate-data/c6-climate-normals) <br></br> Temperatura, precipitazioni e soleggiamento per i periodi standard 1961-1990, 1981-2010 e 1991-2020 <br></br> Mensile e annuale | **Download** via [opendata.swiss](https://opendata.swiss/it/dataset/klimanormwerte), come formato ZIP (in formato TXT) |
+| **C7** | [**Norme climatiche spaziali**](c-climate-data/c7-spatial-climate-normals) <br></br> Temperatura, precipitazioni e soleggiamento su una griglia con maglia di 2 km per i periodi standard 1961-1990 e 1991-2020 <br></br> Mensile e annuale | **Servizio o download** tramite [opendata.swiss](https://opendata.swiss/it/dataset?q=Klimanormwerte&sort=score%20desc%2C%20metadata_modified%20desc&res_format=SERVICE), come WMS e WMTS o nei formati NetCDF e GeoTIFF |
+| **C8** | [**Scenari climatici**](/c-climate-data/c8-climate-scenarios) | **Download** `CH2018` tramite [sito web NCCS](https://www.nccs.admin.ch/nccs/it/home/cambiamenti-climatici-e-impatti/scenari-climatici-per-la-svizzera.html) <br></br> [`CH2025`](https://www.meteosvizzera.admin.ch/chi-siamo/ricerca-e-collaborazioni/progetti/2023/clima-ch2025.html) previsto per novembre 2025 |
+| **C9** | [**Scenari climatici spaziali**](/c-climate-data/c9-spatial-climate-scenarios) | **Download** `CH2018` tramite [sito web NCCS](https://www.nccs.admin.ch/nccs/it/home/cambiamenti-climatici-e-impatti/scenari-climatici-per-la-svizzera.html) <br></br> [`CH2025`](https://www.meteosvizzera.admin.ch/chi-siamo/ricerca-e-collaborazioni/progetti/2023/clima-ch2025.html) previsto per novembre 2025 |
