@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# E4 - Local forecast data
+# Local forecast data
 ...
 
 ...
