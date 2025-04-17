@@ -82,7 +82,7 @@ The so-called half levels align with vertical grid points, while the full levels
 
 There are 81 discrete half levels and 80 full levels in our data.
 
-![VerticalLayers](./../../static/docs_img/VerticalLayers.png) <br> </br>
+![VerticalLayers](./../../static/docs_img/VerticalLayers.png) <br></br>
 *Illustration of ICON's vertical levels, Working with the ICON Model 2024, Figure 3.2*
 
 <br></br>
@@ -105,7 +105,7 @@ In addition to the vertical grid above the surface, there is also a grid below t
 
 The horizontal grid of ICON-CH1-EPS and ICON-CH2-EPS model is based on a native icosahedral grid inherited by the original ICON model grid (illustrated below).
 
-![IcosahedralGrid](./static/docs_img/IcosahedralGrid.png) <br> </br>
+![IcosahedralGrid](./static/docs_img/IcosahedralGrid.png) <br></br>
 *Illustration of the grid construction, Working with the ICON Model, Figure 2.1*
 
 <br></br>
