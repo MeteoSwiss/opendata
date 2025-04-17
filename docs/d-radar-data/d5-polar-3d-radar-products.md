@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# D5 - Polar 3D radar products
+# Polar 3D radar products
 
 :::warning
 
