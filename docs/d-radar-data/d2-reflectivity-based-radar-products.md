@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# D2 - Reflectivity-based radar products
+# Reflectivity-based radar products
 
 :::warning
 
