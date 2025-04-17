@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Numerical weather forecasting model ICON-CH1/2-EPS – Grid data
+# Numerical weather forecasting model ICON-CH1/2-EPS
 
 MeteoSwiss uses two models, **ICON-CH1-EPS** and **ICON-CH2-EPS**, to forecast atmospheric changes in Switzerland and its surroundings over a longer period than [nowcasting](/e-forecast-data/e1-short-term-forecast-data), providing predictions for up to five days. Both models include
 [ensemble data assimilation](https://www.meteoswiss.admin.ch/weather/warning-and-forecasting-systems/icon-forecasting-systems/ensemble-data-assimilation.html).
@@ -82,8 +82,8 @@ The so-called half levels align with vertical grid points, while the full levels
 
 There are 81 discrete half levels and 80 full levels in our data.
 
-![VerticalLayers](./../../static/docs_img/VerticalLayers.png)
-Illustration of ICON's vertical levels, Working with the ICON Model 2024, Figure 3.2
+![VerticalLayers](./../../static/docs_img/VerticalLayers.png) <br> </br>
+*Illustration of ICON's vertical levels, Working with the ICON Model 2024, Figure 3.2*
 
 <br></br>
 
@@ -105,8 +105,8 @@ In addition to the vertical grid above the surface, there is also a grid below t
 
 The horizontal grid of ICON-CH1-EPS and ICON-CH2-EPS model is based on a native icosahedral grid inherited by the original ICON model grid (illustrated below).
 
-![IcosahedralGrid](./static/docs_img/IcosahedralGrid.png)
-Illustration of the grid construction, Working with the ICON Model, Figure 2.1
+![IcosahedralGrid](./static/docs_img/IcosahedralGrid.png) <br> </br>
+*Illustration of the grid construction, Working with the ICON Model, Figure 2.1*
 
 <br></br>
 
