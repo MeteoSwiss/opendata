@@ -82,8 +82,6 @@ The so-called half levels align with vertical grid points, while the full levels
 
 There are 81 discrete half levels and 80 full levels in our data.
 
-
-
 ![VerticalLayers](./../../static/docs_img/VerticalLayers.png)
 Illustration of ICON's vertical levels, Working with the ICON Model 2024, Figure 3.2
 
