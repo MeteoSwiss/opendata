@@ -2,10 +2,8 @@
 sidebar_position: 3
 ---
 
-# D3 - Hail radar products - Probability of Hail, Maximum Expected Severe Hail Size
+# Produits radar de grêle
 
-:::warning
+Vers [la documentation en anglais](https://opendatadocs.meteoswiss.ch/d-radar-data/d-radar-data/d3-hail-radar-products).
 
-*(not yet realised)*
-
-:::
+La traduction suivra.
