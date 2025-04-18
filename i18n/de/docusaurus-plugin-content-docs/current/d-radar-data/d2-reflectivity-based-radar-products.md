@@ -2,10 +2,8 @@
 sidebar_position: 2
 ---
 
-# D2 - Reflectivity-based radar products
+# Reflektivitätsbasierte Radarprodukte
 
-:::warning
+Zur [Dokumentation auf Englisch](https://opendatadocs.meteoswiss.ch/d-radar-data/d2-reflectivity-based-radar-products).
 
-*(not yet realised)*
-
-:::
+Die Übersetzung folgt.
