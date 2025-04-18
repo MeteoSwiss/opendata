@@ -79,11 +79,11 @@ See [Import Data into QGIS](...) to see how a downloaded *radar* file can be imp
 ### Data granularity
 For all types of data MeteoSwiss uses standard granularities. Depending on the application not all granularites are available. 
 
-For [Ground-based measurements](./a-data-groundbased) the lowest granulartiy is usually called 'original data' (Originalwert). Higher granularities are called 'aggregations' or 'aggregated values'. The World Meteorological Organization (WMO) does issue guidelines on how national weather services have to aggregate values and MeteoSwiss does follow these guidelines.
+For [Ground-based measurements](https://opendatadocs.meteoswiss.ch/a-data-groundbased) the lowest granulartiy is usually called 'original data' (Originalwert). Higher granularities are called 'aggregations' or 'aggregated values'. The World Meteorological Organization (WMO) does issue guidelines on how national weather services have to aggregate values and MeteoSwiss does follow these guidelines.
 
 If you need hourly, daily, monthly or yearly values, we strongly recommend that you download the according granularity. Downloading the raw data (10min) and calculating sums or means yourself, will not always lead to the same results! Furthermore for historic data it is possible that manual data corrections have only been applied on higher granularities (like hourly or daily data), which means that historic raw data can still contain errors.
 
-This is the overview of the granularities for [Ground-based](./a-data-groundbased) and [Atmosphere measurements](./b-data-atmosphere) as well as for [Climate stations – Homogeneous measurements](./c-climate-data/c1-climate-stations_homogeneous) and [Climate precipitation stations - Homogeneous measurements](./c-climate-data/c2-climate-percipitation-stations_homogeneous) used by MeteoSwiss:
+This is the overview of the granularities for [Ground-based](https://opendatadocs.meteoswiss.ch/a-data-groundbased) and [Atmosphere measurements](https://opendatadocs.meteoswiss.ch/b-data-atmosphere) as well as for [Climate stations – Homogeneous measurements](https://opendatadocs.meteoswiss.ch/c-climate-data/c1-climate-stations_homogeneous) and [Climate precipitation stations - Homogeneous measurements](https://opendatadocs.meteoswiss.ch/c-climate-data/c2-climate-percipitation-stations_homogeneous) used by MeteoSwiss:
 
 | Granularity | Name | Description | Used for |
 | ----------- | ---- | ----------- | -------- |
@@ -94,16 +94,16 @@ This is the overview of the granularities for [Ground-based](./a-data-groundbase
 | `y` | Yearly value | Usually aggregated from daily values and mostly used in climatology or climate change screnarios. | [Climate change scenarios](https://www.meteoswiss.admin.ch/climate/climate-change/swiss-climate-change-scenarios.html)|
 
 ### Update frequency
-For [Ground-based](./a-data-groundbased) and [Atmosphere measurements](./b-data-atmosphere) as well as for [Climate stations – Homogeneous measurements](./c-climate-data/c1-climate-stations_homogeneous) and [Climate precipitation stations - Homogeneous measurements](./c-climate-data/c2-climate-percipitation-stations_homogeneous) MeteoSwiss provides an optimized directory structure separating older historical data, which is not updated regularly, and more recent data, which is updated more often. For realtime data we provide a third "now" directory with a high update frequency.
+For [Ground-based](https://opendatadocs.meteoswiss.ch/a-data-groundbased) and [Atmosphere measurements](https://opendatadocs.meteoswiss.ch/b-data-atmosphere) as well as for [Climate stations – Homogeneous measurements](https://opendatadocs.meteoswiss.ch/c-climate-data/c1-climate-stations_homogeneous) and [Climate precipitation stations - Homogeneous measurements](https://opendatadocs.meteoswiss.ch/c-climate-data/c2-climate-percipitation-stations_homogeneous) MeteoSwiss provides an optimized directory structure separating older historical data, which is not updated regularly, and more recent data, which is updated more often. For realtime data we provide a third "now" directory with a high update frequency.
 
 This is the overview:
 
 | Type | Description | Update frequency | Used for |
 | ---- | ----------- | ------------ | -------- |
-| `historical` | From the start of the measurement until December 31st of last year | Once a year | [Granularity](./general/download#data-granularity) `m`, `d`, `h`, `t` |
-| `recent` | From January 1st of this year until yesterday | Daily at 12UTC | [Granularity](./general/download#data-granularity) `m`, `d`, `h`, `t` |
-| `now` | The most recent realtime data from yesterday 12UTC to now | Every 10min | Only [Granularity](./general/download#data-granularity) `h`, `t` |
-| `no type` | For certain data types this concept does not apply | varies | varies (e.g. [Granularity](./general/download#data-granularity) `y`) |
+| `historical` | From the start of the measurement until December 31st of last year | Once a year | [Granularity](./download#data-granularity) `m`, `d`, `h`, `t` |
+| `recent` | From January 1st of this year until yesterday | Daily at 12UTC | [Granularity](./download#data-granularity) `m`, `d`, `h`, `t` |
+| `now` | The most recent realtime data from yesterday 12UTC to now | Every 10min | Only [Granularity](./download#data-granularity) `h`, `t` |
+| `no type` | For certain data types this concept does not apply | varies | varies (e.g. [Granularity](./download#data-granularity) `y`) |
 
 ### Column separators and decimal dividers
 Generally, columns are separated with a semicolon (`;`).
