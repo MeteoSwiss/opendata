@@ -110,6 +110,12 @@ Generally, columns are separated with a semicolon (`;`).
 
 The decimal divider is a full stop (`.`).
 
+### Encoding
+
+CSV files are encoded in [`Windows-1252`](https://en.wikipedia.org/wiki/Windows-1252) to ensure that they are decoded correctly in Excel.
+
+`UTF-8 BOM` would actually be a more versatile and widely used encoding that would ensure the same thing. For technical reasons, however, we still use `Windows-1252`.
+
 ## How date/time, time intervals and missing values are represented
 
 ### Time stamps and time intervals
