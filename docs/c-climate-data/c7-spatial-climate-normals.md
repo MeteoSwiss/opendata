@@ -42,8 +42,8 @@ You can access the available Open Data via [opendata.swiss](https://opendata.swi
 ## Data format
 
 The data formats are 
-- [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of 1.1 MB for *individual files [to be verified]*, and 13 MB for monthly files with daily data.
-- `GeoTIFF`
+- [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of 1.1 MB for *individual files [to be verified]*, and 13 MB for monthly files with daily data;
+- [`GeoTIFF`](https://trac.osgeo.org/geotiff).
 
 ## Coordinate system
 
