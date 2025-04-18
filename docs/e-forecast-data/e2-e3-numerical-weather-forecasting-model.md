@@ -23,7 +23,7 @@ The documentation covers the following topics:
 
 ### Example notebooks: From retrieval to Visualization
 
-These [Jupyter notebook examples](https://github.com/MeteoSwiss/opendata-nwp-demos) provide access to and processing of numerical weather prediction (NWP) model data from MeteoSwiss.
+These [Jupyter notebooks](https://github.com/MeteoSwiss/opendata-nwp-demos) provide examples of how to access and process numerical weather prediction (NWP) model data from MeteoSwiss.
 
 ## Model specifications
 
