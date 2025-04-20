@@ -70,7 +70,9 @@ The documentations of the Open Data products linked below explain what the data 
 They are provided as ‘Assets’ to the corresponding dataset/‘Collection‘ (not at the level of each individual ‘Item‘/station.
 
 <br>
+-->
 
+<!--
 ### A - Ground-based Measurements
 | #  | Dataset/Collection name | Technical name | Priority | latest Open Data processed | latest Open Data & 'File metadata' available |
 |:-----:|:-----|:-----|:-----:|:-----:|:-----:|
@@ -85,7 +87,8 @@ They are provided as ‘Assets’ to the corresponding dataset/‘Collection‘ 
 | A9 | [Phenological observations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#a9---phenological-observations) | `ogd-phenology` | 1️⃣ | 🟡 | ⚪ [ALPHA (File metadata)](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-phenology) <!-- available as BETA in Q1-2025 --> |
 
 <br>
-
+-->
+<!--
 ### B - Atmosphere Measurements
 | #  | Dataset/Collection name | Technical name | Priority | latest Open Data processed | latest Open Data & File-Metadata available |
 |:-----:|:-----|:-----|:-----:|:-----:|:-----:|
@@ -97,7 +100,8 @@ They are provided as ‘Assets’ to the corresponding dataset/‘Collection‘ 
 | B6 | Swiss Alpine Climate Radiation Monitoring (SACRaM) | `ogd-radiation-sacram` | 4️⃣ |   |   |
 
 <br>
-
+-->
+<!--
 ### C - Climate Data
 | #  | Dataset/Collection name | Technical name | Priority | latest Open Data processed | latest Open Data & File-Metadata available |
 |:-----:|:-----|:-----|:-----:|:-----:|:-----:|
@@ -112,7 +116,8 @@ They are provided as ‘Assets’ to the corresponding dataset/‘Collection‘ 
 | C9 | [Spatial climate scenarios](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#8-climate-scenarios) <br> *- CH2025 data expected to be available in November 2025* | `ogd-climate-scenarios-ch2025-grid` | 3️⃣ | ⚪ [CH2018 (referenced)](https://www.nccs.admin.ch/nccs/en/home/climate-change-and-impacts/swiss-climate-change-scenarios/ch2018-web-atlas.html) | ⚪ |
 
 <br>
-
+-->
+<!--
 ### D - Radar Data
 | #  | Dataset/Collection name | Technical name | Priority | latest Open Data processed | latest Open Data & 'File metadata' available |
 |:-----:|:-----|:-----|:-----:|:-----:|:-----:|
@@ -123,7 +128,8 @@ They are provided as ‘Assets’ to the corresponding dataset/‘Collection‘ 
 | D5 | [Polar 3D radar products](https://github.com/MeteoSwiss/opendata-radar-data/blob/main/README.md#d-radar-data) *- not yet realised* | `ogd-radar-polar3d` | 4️⃣ |   |   |
 
 <br>
-
+-->
+<!--
 ### E - Forecast Data
 | #  | Dataset/Collection name | Technical name | Priority | latest Open Data processed | latest Open Data & 'File metadata' available |
 |:-----:|:-----|:-----|:-----:|:-----:|:-----:|
