@@ -5,12 +5,13 @@
 ⚠️ **Status:** in preparation / [change log](https://github.com/MeteoSwiss/opendata/commits/main).
 
 # MeteoSwiss - Open Data
-Welcome to MeteoSwiss' Open Data documentation.
+MeteoSwiss' continuously updated Open Data documentation is published at [opendatadocs.meteoswiss.ch](https://opendatadocs.meteoswiss.ch). 
 
-⚠️ We are currently **setting up our service as BETA**. Everything is subject to change without prior notice.
+⚠️ We are currently [**setting up our service as BETA**](https://opendatadocs.meteoswiss.ch/#public-beta---april-2025). Everything is subject to change without prior notice.
 
 <!-- For now MeteoSwiss provides its Open Data to be consumed by **[downloading the data as files](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#getting-started-with-download)**. -->
 
+<!--
 Starting in May 2025, MeteoSwiss is gradually making its data freely accessible to the public as Open Government Data (OGD). The availablee data can either be [downloaded manually or obtained programmatically as files](#getting-started-with-download).
 
 - **Priority** columns in the tables below show the planned order in which the datasets/collections become available.
@@ -132,3 +133,4 @@ They are provided as ‘Assets’ to the corresponding dataset/‘Collection‘ 
 | E4 | [Local forecast data](https://github.com/MeteoSwiss/opendata-forecast-data/blob/main/README.md#3-local-forecast-data) | `ogd-local-forecasting` | 2️⃣ | 🟡 | ⚪ [ALPHA (File metadata)](https://sys-data.int.bgdi.ch/browser/#/collections/ch.meteoschweiz.ogd-local-forecasting) |
 
 <br>
+-->
