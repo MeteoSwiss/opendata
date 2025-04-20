@@ -1,5 +1,3 @@
-![MeteoSwiss Logo](/static/img/mch_logo_en.png)
-
 <!-- [![GitHub commit](https://img.shields.io/github/last-commit/MeteoSwiss/opendata)](https://github.com/MeteoSwiss/opendata/commits/master) -->
 
 ⚠️ **Status:** in preparation / [change log](https://github.com/MeteoSwiss/opendata/commits/main).
