@@ -65,4 +65,4 @@ The coordinate system is [`Swiss LV03`](https://www.swisstopo.admin.ch/en/nation
 
 ## Data usage
 
-Examples of INCA data reading and visualisation can be found here: [INCA-examples](https://inca-examples.readthedocs.io/en/latest/) and [jupyter notebooks](https://github.com/MeteoSwiss/inca-examples).
+Examples of INCA data reading and visualisation can be found here: [jupyter notebooks](https://github.com/MeteoSwiss/inca-examples).
