@@ -105,10 +105,9 @@ Please also note that [missing values](/general/download#missing-values) - regar
 <!--
 ## What coordinate system is used for the location of the stations?
 *The coordinate system used for the location of the stations is WGS84.*
- 
+-->
 <!-- ### Why is MeteoSwiss' 1x1km grid data not available as open data? -->
 <!-- *The 1x1 km grid is used as an intermediate basis to construct the spatial resolutions 10x10 km, 20x20 km, municipality data and country data. Under certain weather conditions the 1x1 km grid data can be quite imprecise, but by aggregating it to larger areas the uncertainty is reduced. Furthermore, 3rd party data, which MeteoSwiss doesn’t have permission to redistribute, can be deducted directly from the 1x1 km grid data.* -->
--->
 
 <!--
 ## What if I have questions about the data?
