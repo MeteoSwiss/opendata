@@ -24,7 +24,7 @@ import TabItem from '@theme/TabItem';
 
 <Tabs queryString="data-structure">
   <TabItem value="files-per-station" label="Files per station">
-    The data is split by measuring station. Per station there are files with yearly `y` values.
+    The data is split by measuring station. A file for a station contains **all available parameters in one file**. There are files with yearly `y` values.
     
     See e.g. files for station `Mönchsgrat (MGR)`: [`ogd-tot_mgr_(data granularity)_(update frequency).csv`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-tot/items/mgr).    
   </TabItem>
