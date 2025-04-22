@@ -28,7 +28,7 @@ import TabItem from '@theme/TabItem';
 
 <Tabs queryString="data-structure">
   <TabItem value="files-per-station" label="Files per station">
-    The data is split by measuring station. Per station there are files with hourly `h` and daily `d` values.
+    The data is split by measuring station. A file for a station contains **all available parameters in one file**. There are files with hourly `h` and daily `d` values.
 
     We strongly recommend that you download the corresponding aggregated [data granularity](https://opendatadocs.meteoswiss.ch/general/download#data-granularity).
 
