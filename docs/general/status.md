@@ -2,39 +2,19 @@
 sidebar_position: 4
 ---
 
-# Staying up to Date
+# Staying up to date
 
-<!-- cf. https://opendatadocs.dmi.govcloud.dk/en/API_Status_and_Contact -->
+## Service availability
 
-**Service availability checks**
-| Operational status | ... |
-|-----|-----|
-<!-- cf. [https://status.opentransportdata.swiss](https://status.opentransportdata.swiss/) -->
+| System | operated by | Operational status | Contact point |
+|:-------|:------------|:------------------:|:--------------|
+| Open Data download service | swisstopo | [GeoAdmin API Uptime Status](https://api3.geo.admin.ch/api/status.html) | MeteoSwiss' [Open Data Support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) |
+| Open Data generation & integration | MeteoSwiss | [*upcoming*] | MeteoSwiss' [Open Data support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) |
+| Numerical weather forecasting model ICON-CH1/2-EPS processing | CSCS |  [*upcoming*] | MeteoSwiss' [Open Data support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) |
+| geocat.ch - Geodata metadata catalog | swisstopo | [*upcoming*] | swisstopo's [geocat.ch support](https://info.geocat.ch/en/contact) |
+| opendata.swiss - Open Data metadata catalog | FSO | Planned maintenance windows that affect the operating status would be announced on [opendata.swiss](https://opendata.swiss). | FSO's [OGD Office](https://opendata.swiss/en/contact) | 
 
-There are currently no planned service windows that will affect the operational status of the Download API. 
+## Questions about the service
+If you have questions about the Download API, how to use the service, or the documentation, please read the sections [download data](/general/download) and [frequently asked questions (FAQ)](/general/faq).
 
-# Contact
-If you have questions about the Download API, how to use the service, or the documentation, please read the [Frequently Asked Questions (FAQ)](/general/faq).
-
-If you are unable to find the answer you are looking for, please contact us.
-
-Call MeteoSwiss Support: +41 58 460 99 99
-Opening hours: Monday to Friday *9:00-12:00am* and *1:30-4:30pm*
-
-Or use our [contact form](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html).
-
-
-
-| System | Contact point | Status |
-|:-----|:-----|:-----:|
-| Open Data generation & integration | MeteoSwiss' [Open Data Support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) | [see below per Open Data product](https://github.com/MeteoSwiss/opendata/blob/main/README.md#understanding-meteoswiss-open-data)
-| Open Data download service | MeteoSwiss' [Open Data Support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) | ⚪ |
-| ... | CSCS' Operations | ⚪ |
-| Geodata metadata catalog | swisstopo's [geocat.ch](https://info.geocat.ch/en/contact) | ⚪ |
-| opendata.swiss metadata catalog | FSO's [OGD Office](https://opendata.swiss/en/contact) | ⚪ |
-
-
-
-<!-- ![MeteoSwiss Logo](/docs/assets/img/OGD_Organisation_täglicher_operationeller_Betrieb.png) -->
-
-
+If you are unable to find the answer you are looking for, **contact us** via the [contact form](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html).
