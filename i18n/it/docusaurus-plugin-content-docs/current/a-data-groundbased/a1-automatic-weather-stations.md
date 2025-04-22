@@ -7,3 +7,5 @@ sidebar_position: 1
 Alla [documentazione in inglese](https://opendatadocs.meteoswiss.ch/a-data-groundbased/a1-automatic-weather-stations).
 
 La traduzione seguirà.
+
+Il sole e bello.
