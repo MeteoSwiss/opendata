@@ -3,11 +3,11 @@ sidebar_position: 2
 ---
 
 # Climate precipitation stations - Homogeneous measurements
-The [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-national-basic-climatological-network.html) connects the major ground-based stations within the MeteoSwiss monitoring network. In supplement to around 30 [climate monitoring stations](https://opendatadocs.meteoswiss.ch/c-climate-data/c1-climate-stations_homogeneous) it consists of around 45 climate precipitation stations.
+Precipitation is an important meteorological parameter with high spatial variability. For this reason, a denser measurement network is operated in comparison with other variables. The first precipitation stations started operating in Switzerland in the second half of the 19th century. Today, 46 stations belong to the [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-national-basic-climatological-network.html) and supplement its [climate stations](https://opendatadocs.meteoswiss.ch/c-climate-data/c1-climate-stations_homogeneous).
 
-They measure precipitation only, and are a useful addition to the climate monitoring stations owing to the fact that this parameter has a high level of local variability.
+The measuring conditions under which meteorological data are collected may change over time. Statements about the past, long-time climatic development can only be made if the influence of such changes is removed. This is achieved by [homogenisation](https://www.meteoswiss.admin.ch/climate/climate-change/changes-in-temperature-precipitation-and-sunshine/homogeneous-data-series-since-1864/homogenisation-of-series-of-climatic-measurements.html) of the data.
 
-The [homogenous time series data](https://www.meteoswiss.admin.ch/climate/climate-change/changes-in-temperature-precipitation-and-sunshine/homogeneous-data-series-since-1864.html) date back, in some cases, to the mid-nineteenth century.
+The data series of the Swiss NBCN precipitation stations were homogenized and date back, in some cases, to the mid-nineteenth century.
 
 ## Data download
 
