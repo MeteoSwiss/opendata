@@ -3,13 +3,11 @@ sidebar_position: 1
 ---
 
 # Climate stations - Homogeneous measurements
-The [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-national-basic-climatological-network.html) connects the major ground-based stations within the MeteoSwiss monitoring network. It consists of around 30 climate monitoring stations.
+Climate stations measure various meteorological parameters. In Switzerland the first nationwide network of climate stations was put into operation in 1864. The stations that are most important for research into climate change are combined in the [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-national-basic-climatological-network.html). The Swiss NBCN consists of 29 climate monitoring stations and is supplemented by 46 [precipitation stations](/c-climate-data/c2-climate-percipitation-stations_homogeneous).
 
-They are able to provide the five parameters of temperature (average, minimum and maximum), precipitation and sunshine hours. Long data series for all five parameters are available predominantly from stations at an altitude of under 1,000 metres above sea level. In most cases, higher-altitude stations are only able to provide long data series for average temperature and precipitation.
+The measuring conditions under which meteorological data are collected may change over time. Statements about the past, long-time climatic development can only be made if the influence of such changes is removed. This is achieved by [homogenisation](https://www.meteoswiss.admin.ch/climate/climate-change/changes-in-temperature-precipitation-and-sunshine/homogeneous-data-series-since-1864/homogenisation-of-series-of-climatic-measurements.html) of the data.
 
-The network is supplemented by around 45 [climate precipitation stations](/c-climate-data/c2-climate-percipitation-stations_homogeneous). 
-
-The [homogenous time series data](https://www.meteoswiss.admin.ch/climate/climate-change/changes-in-temperature-precipitation-and-sunshine/homogeneous-data-series-since-1864.html) for temperature, precipitation, wind, sunshine, humidity, radiation and pressure date back, in some cases, to the mid-nineteenth century.
+Homogeneous measurement series are available from the Swiss NBCN climate stations for the parameters temperature (average, minimum, maximum), precipitation, sunshine duration, vapor pressure, air pressure, global radiation, and wind speed. Data series for temperature, precipitation, and sunshine duration date back, in some cases, to the mid-nineteenth century.
 
 ## Data download
 
