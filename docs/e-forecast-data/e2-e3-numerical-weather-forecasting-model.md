@@ -184,10 +184,27 @@ curl -s -i "<pre-signed URL>" | awk -F': ' '/x-amz-meta-sha256/ {print $0}'
 Once the file is verified, you can proceed with reading the GRIB file, using e.g. the instructions in [Decoding GRIB files with ecCodes](#decoding-grib-files-with-eccodes).
 
 ## Accessing static grid information: Height, longitude and latitude
+> ❗ **NOTE**: Forecast GRIB files do not contain information about height, longitude and latitude. To geolocate or interpret vertical levels, you must use the static vertical and horizontal grid parameter files provided in each collection.  
+> 💡 **Tip for new users**: We recommend inexperienced GRIB file users to take a look at the provided [Jupyter Notebooks](https://github.com/MeteoSwiss/opendata-nwp-demos). The data retrieval with the Python API includes fetching longitude and latitude.
+
 
 Besides the current forecast files, each collection contains two static files. They store constant information about the height of the half levels (HHL) in the vertical grid and the center point coordinates of each triangle on the horizontal grid.
 
-> ❗ **NOTE**: The forecast GRIB files contain no information on height, longitude and latitude. They have to be determined via the static vertical and horizontal grid parameter files.
+
+### Accessing horizontal grid parameters
+
+The static horizontal file stores the longitude and latitude of the center points of each triangle in the horizontal grid. To retrieve this information, follow the steps below:
+
+1. Submit a GET request specifying the collection you want to download the static horizontal files from (eg. `ch.meteoschweiz.ogd-forecasting-icon-ch1` for ICON-CH1-EPS).
+```
+curl -X GET https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-forecasting-icon-ch1/assets
+```
+2. Locate the `href` field under `assets` in `id: horizontal_constants_icon-ch1-eps.grib2` and copy the pre-signed URL.
+3. Download the file with:
+```
+wget -O <desired_filename> “<pre-signed URL>”
+```
+4. Once the static GRIB file is downloaded, ensure that the `uuidOfHGrid` (Universally Unique Identifier for the horizontal grid) key in the data file matches the one in the static horizontal file.
 
 ### Accessing vertical grid parameters
 
@@ -207,23 +224,6 @@ wget -O <desired_filename> “<pre-signed URL>”
     - **generalVertical**: The value of `level` corresponds to a half level in the HHL file. For each level (i.e., each GRIB message), the variable `h` provides the height in meters above sea level for every grid point.
     - **generalVerticalLayer**: The `level` value corresponds to a full level. To obtain the height in meters above sea level, average the heights of the two surrounding half levels (above and below).
     - **Other types of level**: These are usually specified directly in meters and are self-explanatory.
-
-### Accessing horizontal grid parameters
-
-> ❗ **NOTE**: We recommend inexperienced GRIB file users to take a look at the provided [Jupyter Notebooks](https://github.com/MeteoSwiss/opendata-nwp-demos). The data retrieval with the Python API includes fetching longitude and latitude.
-
-The static horizontal file stores the longitude and latitude of the center points of each triangle in the horizontal grid. To retrieve this information, follow the steps below:
-
-1. Submit a GET request specifying the collection you want to download the static horizontal files from (eg. `ch.meteoschweiz.ogd-forecasting-icon-ch1` for ICON-CH1-EPS).
-```
-curl -X GET https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-forecasting-icon-ch1/assets
-```
-2. Locate the `href` field under `assets` in `id: horizontal_constants_icon-ch1-eps.grib2` and copy the pre-signed URL.
-3. Download the file with:
-```
-wget -O <desired_filename> “<pre-signed URL>”
-```
-4. Once the static GRIB file is downloaded, ensure that the `uuidOfHGrid` (Universally Unique Identifier for the horizontal grid) key in the data file matches the one in the static horizontal file.
 
 ## Reading forecast files using ecCodes
 
