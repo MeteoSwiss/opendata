@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Numerical weather forecasting model ICON-CH1/2-EPS
 
-MeteoSwiss uses two models, [**ICON-CH1-EPS** and **ICON-CH2-EPS**](https://www.meteoswiss.admin.ch/weather/warning-and-forecasting-systems/icon-forecasting-systems.html), to forecast the atmospheric state in Switzerland and its surroundings over a longer period than [nowcasting](/e-forecast-data/e1-short-term-forecast-data), providing predictions for up to five days. Both models include [ensemble data assimilation](https://www.meteoswiss.admin.ch/weather/warning-and-forecasting-systems/icon-forecasting-systems/ensemble-data-assimilation.html).
+MeteoSwiss uses two models, [**ICON-CH1-EPS** and **ICON-CH2-EPS**](https://www.meteoswiss.admin.ch/weather/warning-and-forecasting-systems/icon-forecasting-systems.html), to forecast the atmospheric state in Switzerland and its surroundings over a longer period than [nowcasting](/e-forecast-data/e1-short-term-forecast-data), providing predictions for up to five days. Both models include [ensemble data assimilation](https://www.meteoswiss.admin.ch/weather/warning-and-forecasting-systems/icon-forecasting-systems/ensemble-data-assimilation.html), where multiple simulations with slightly perturbed initial conditions help account for forecast uncertainty. Forecasts can include the full ensemble or just the unperturbed control run.
 
 The documentation covers the following topics:
 - [Getting started quickly](#getting-started-quickly)
@@ -20,7 +20,7 @@ The documentation covers the following topics:
 
 ## Getting started quickly
 
-### Example notebooks: From retrieval to Visualization
+### Example notebooks: From retrieval to visualization
 
 These [Jupyter notebooks](https://github.com/MeteoSwiss/opendata-nwp-demos) provide examples of how to access and process numerical weather prediction (NWP) model data from MeteoSwiss.
 
