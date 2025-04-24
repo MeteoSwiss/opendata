@@ -2,15 +2,9 @@
 sidebar_position: 2
 ---
 
-import ForecastDomainMap from './interactive-map/ForecastDomainMap';
-
 # Numerical weather forecasting model ICON-CH1/2-EPS
 
 MeteoSwiss uses two models, [**ICON-CH1-EPS** and **ICON-CH2-EPS**](https://www.meteoswiss.admin.ch/weather/warning-and-forecasting-systems/icon-forecasting-systems.html), to forecast the atmospheric state in Switzerland and its surroundings over a longer period than [nowcasting](/e-forecast-data/e1-short-term-forecast-data), providing predictions for up to five days. Both models include [ensemble data assimilation](https://www.meteoswiss.admin.ch/weather/warning-and-forecasting-systems/icon-forecasting-systems/ensemble-data-assimilation.html), where multiple simulations with slightly perturbed initial conditions help account for forecast uncertainty. Forecasts can include the full ensemble or just the unperturbed control run.
-
-<ForecastDomainMap />
-
-<br></br>
 
 The documentation covers the following topics:
 - [Getting started quickly](#getting-started-quickly)
