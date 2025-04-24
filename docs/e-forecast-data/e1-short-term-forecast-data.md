@@ -57,6 +57,9 @@ The coordinate system is [`Swiss LV03`](https://www.swisstopo.admin.ch/en/nation
 
 ## Metadata
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 <Tabs queryString="metadata">
   <TabItem value="parameters" label="Parameter">
     Parameter metadata is part of each NetCDF-File. See **example data files** in the [table above](./e-forecast-data/e1-short-term-forecast-data#data-download).
