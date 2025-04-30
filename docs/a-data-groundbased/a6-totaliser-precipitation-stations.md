@@ -8,7 +8,7 @@ In supplement to [manual precipitation stations](/a-data-groundbased/a5-manual-p
 
 :::info
 
-Totaliser precipitation data cover a so-called 'hydrological year', i.e. from 1 November to 31 October of the following year. They are therefore not comparable one-to-one with the annual totals of other precipitation datasets/collections.
+Totaliser precipitation data cover a so-called 'hydrological year', i.e. from 1 October to 30 September of the following year. They are therefore not comparable one-to-one with the annual totals of other precipitation datasets/collections.
 
 :::
 
