@@ -259,7 +259,7 @@ import TabItem from '@theme/TabItem';
     </TabItem>
     <TabItem value="manual-download-via-stac-browser" label="Manual download via STAC Browser">
     If users prefer to use a web interface to donwload available forecast GRIB files one by one or want to browse them,
-    they can use the STAC Browser of the model [ICON-CH1-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch1?.language=en) or [ICON-CH2-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch2?.language=en).
+    they can use the STAC Browser of the model [ICON-CH1-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch1?.language=en) or     [ICON-CH2-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch2?.language=en).
 
     The Screenshot below shows the download button of the STAC catalog of the model ICON-CH1-EPS.
 
@@ -353,15 +353,27 @@ grib_dump -w key1=value1,key2=value2 filename.grib
 
 <details>
 <summary> <b> "Why can't I find latitude or longitude?" </b> </summary>
-🚧 TODO: Text
+Raw forecast GRIB files loaded via the REST API do not contain information about height, longitude and latitude. To geolocate or interpret vertical levels, you must use the static vertical and horizontal grid parameter files provided in each collection. 
 </details>
 
 <details>
 <summary> <b> "Why does my download expire?" </b> </summary>
-🚧 TODO: Text
+The data provided in the two collections described in the [Model specifications table](#model-specifications) is accessible for only **24 hours**. After 24 hour they expire.
 </details>
 
 <details>
 <summary> <b> "How to interpret different types of levels?" </b> </summary>
-🚧 TODO: Text
+To determine the type of level (vertical position) of a parameter, inspect the GRIB2 key `typeOfLevel`. We distinguish between the following levels:
+
+* `generalVertical`: half levels (-)
+
+* `generalVerticalLayer`: full levels (-)
+
+* `depthBelowLandLayer`: depth below surface (m)
+
+* `surface`: ground or water surface (-)
+
+* `heightAboveGround`: specific height above ground (m)
+
+For more details, refer to section [Vertical grid](#vertical-grid).
 </details>
