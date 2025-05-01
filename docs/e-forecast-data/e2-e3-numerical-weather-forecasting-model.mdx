@@ -353,16 +353,19 @@ grib_dump -w key1=value1,key2=value2 filename.grib
 
 <details>
 <summary> <b> "Why can't I find latitude or longitude?" </b> </summary>
+
 Raw forecast GRIB files loaded via the REST API do not contain information about height, longitude and latitude. To geolocate or interpret vertical levels, you must use the static vertical and horizontal grid parameter files provided in each collection. 
 </details>
 
 <details>
 <summary> <b> "Why does my download expire?" </b> </summary>
+
 The data provided in the two collections described in the [Model specifications table](#model-specifications) is accessible for only **24 hours**. After 24 hour they expire.
 </details>
 
 <details>
 <summary> <b> "How to interpret different types of levels?" </b> </summary>
+
 To determine the type of level (vertical position) of a parameter, inspect the GRIB2 key `typeOfLevel`. We distinguish between the following levels:
 
 * `generalVertical`: half levels (-)
