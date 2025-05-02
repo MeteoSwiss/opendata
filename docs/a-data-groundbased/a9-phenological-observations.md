@@ -9,10 +9,10 @@ On the basis of this information, it is possible to investigate the impact of cl
 
 ## Data download
 
-:::warning
+:::info
 
 We are currently setting up our service as Beta. During this phase everything is subject to change without prior notice.
-- Not all yearly `y` values (data granularity) are available for all stations yet.
+- All files are available for all stations.
 
 :::
 
