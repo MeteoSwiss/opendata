@@ -109,7 +109,7 @@ the horizontal grid, read section 2.1 in [Working with the ICON Model](https://w
 
 The provided GRIB files consistently follow the same structure. Each GRIB file contains data for a single model collection, one reference time, one forecast lead time, and one variable — either as the deterministic control run or the full ensemble. The following diagram shows a general overview.
 
-- 🚧 TODO: Add diagram
+![StructureDiagram](./static/docs_img/ogd_data_structure.drawio.png) <br></br>
 
 
 ## Accessing forecast data
@@ -355,7 +355,7 @@ grib_dump -w key1=value1,key2=value2 filename.grib
 <details>
 <summary> <b> "Why can't I find latitude or longitude?" </b> </summary>
 
-Raw forecast GRIB files loaded via the REST API do not contain information about height, longitude and latitude. To geolocate or interpret vertical levels, you must use the static vertical and horizontal grid parameter files provided in each collection. 
+Raw forecast GRIB files loaded via the REST API do not contain information about height, longitude and latitude. To geolocate or interpret vertical levels, you must use the static vertical and horizontal grid parameter files provided in each collection.
 </details>
 
 <details>
