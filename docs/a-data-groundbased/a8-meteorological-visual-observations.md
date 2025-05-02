@@ -18,7 +18,7 @@ Meteorological observers make visual observations and take readings from measure
 :::warning
 
 We are currently setting up our service as Beta. During this phase everything is subject to change without prior notice.
-- Not all stations are available with data yet.
+- All files are available for all stations.
 
 :::
 
