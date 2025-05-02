@@ -12,11 +12,11 @@ They deliver temperature, wind, sunshine, humidity and radiation <!-- and pressu
 
 ## Data download
 
-:::warning
+:::info
 
 We are currently setting up our service as Beta. During this phase everything is subject to change without prior notice.
-- Not all stations are available with data yet. 
-- The update interval for the 10-minute values is currently set to 30 minutes.
+- All files are available for all stations. 
+- The update interval for the 10-minute values is set to 20 minutes.
 
 :::
 
