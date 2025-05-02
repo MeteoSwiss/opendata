@@ -292,7 +292,7 @@ To explore them, click on the following GitHub Repository button.
 
 ### Reading GRIB files using ecCodes
 
-Once you have the desired GRIB files, you need a tool to decode the GRIB records. Each GRIB record holds the data for one parameter
+Working with the raw GRIB files, you need a tool to decode the GRIB records. Each GRIB record holds the data for one parameter
 at one time and at one level. More information about the data format can be found in the [Manual on Codes](https://library.wmo.int/records/item/35769-manual-on-codes-volume-i-3-international-codes) published by WMO.
 We recommend installing ecCodes from ECMWF to read the data. Follow the installation guide provided by ECMWF [here](https://confluence.ecmwf.int/display/ECC/ecCodes+installation).
 
@@ -356,13 +356,15 @@ grib_dump -w key1=value1,key2=value2 filename.grib
 <details>
 <summary> <b> "Why can't I find latitude or longitude?" </b> </summary>
 
-Raw forecast GRIB files loaded via the REST API do not contain information about height, longitude and latitude. To geolocate or interpret vertical levels, you must use the static vertical and horizontal grid parameter files provided in each collection.
+Raw forecast GRIB files loaded via the REST API do not contain information about height, longitude and latitude.
+To geolocate or interpret vertical levels, you must use the static vertical and horizontal grid parameter files provided in each collection.
+For more information read section [Accessing static grid information: Height, longitude and latitude](#accessing-static-grid-information-Height-longitude-and-latitude).
 </details>
 
 <details>
 <summary> <b> "Why does my download expire?" </b> </summary>
 
-The data provided in the two collections described in the [Model specifications table](#model-specifications) is accessible for only **24 hours**. After 24 hour the data expire.
+The data provided in the two collections described in the [Model specifications table](#model-specifications) is accessible for only **24 hours**. After 24 hour the data expires.
 </details>
 
 <details>
