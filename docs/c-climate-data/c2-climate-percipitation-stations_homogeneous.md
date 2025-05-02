@@ -11,11 +11,10 @@ The data series of the Swiss NBCN precipitation stations were homogenized and da
 
 ## Data download
 
-:::warning
+:::info
 
 We are currently setting up our service as Beta. During this phase everything is subject to change without prior notice.
-- Not all data granularities are available for all stations yet.
-- Not all `historical` files (update frequency) are available for all stations yet.
+- All files are available for all stations.
 
 :::
 
