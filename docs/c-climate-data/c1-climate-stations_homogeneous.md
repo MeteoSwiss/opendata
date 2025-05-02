@@ -11,11 +11,10 @@ Homogeneous measurement series are available from the Swiss NBCN climate station
 
 ## Data download
 
-:::warning
+:::info
 
 We are currently setting up our service as Beta. During this phase everything is subject to change without prior notice.
-- Not all data granularities are available for all stations yet.
-- Not all `historical` files (update frequency) are available for all stations yet.
+- All files are available for all stations.
 
 :::
 
