@@ -14,10 +14,10 @@ Totaliser precipitation data cover a so-called 'hydrological year', i.e. from 1 
 
 ## Data download
 
-:::warning
+:::info
 
 We are currently setting up our service as Beta. During this phase everything is subject to change without prior notice.
-- Not all stations are available with data yet. 
+- All files are available for all stations.
 
 :::
 
