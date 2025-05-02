@@ -12,10 +12,10 @@ Additionally since 2023 the new [automatic pollen network](https://www.meteoswis
 
 ## Data download
 
-:::warning
+:::info
 
 We are currently setting up our service as Beta. During this phase everything is subject to change without prior notice.
-- Not all stations are available with data yet.
+- All files are available for all stations.
 
 :::
 
