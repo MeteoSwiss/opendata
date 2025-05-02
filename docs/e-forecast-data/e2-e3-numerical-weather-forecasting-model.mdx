@@ -150,7 +150,7 @@ import TabItem from '@theme/TabItem';
 
 <Tabs queryString="download-options">
     <TabItem value="manual-download-via-stac-browser" label="Manual download via STAC Browser">
-    
+
     One of the easiest ways to access the ICON model data is to use MeteoSwiss's [meteodata-lab](https://meteoswiss.github.io/meteodata-lab/) library - a convenient tool to simplify accessing and working with numerical weather model data.
     The library includes downloading and optionally loading ICON-CH1/CH2-EPS data into formats like [xarray.DataArray](https://docs.xarray.dev/en/stable/generated/xarray.DataArray.html).
     Ideal for users who want a clean and easy way to integrate forecast data into Python workflows.
@@ -292,7 +292,7 @@ To explore them, click on the following GitHub Repository button.
 ### Reading GRIB files using ecCodes
 
 Once you have the desired GRIB files, you need a tool to decode the GRIB records. Each GRIB record holds the data for one parameter
-at one time and at one level. More information about the data format can be found in the Manual on Codes published by WMO.
+at one time and at one level. More information about the data format can be found in the [Manual on Codes](https://library.wmo.int/records/item/35769-manual-on-codes-volume-i-3-international-codes) published by WMO.
 We recommend installing ecCodes from ECMWF to read the data. Follow the installation guide provided by ECMWF [here](https://confluence.ecmwf.int/display/ECC/ecCodes+installation).
 
 #### Setting the local definitions of the COSMO consortium
