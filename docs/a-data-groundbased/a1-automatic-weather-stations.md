@@ -21,7 +21,7 @@ We are currently setting up our service as Beta. During this phase everything is
 
 :::
 
-You can access the available Open Data via [https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn)
+You can access the available Open Data via [https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn)
 
 ## Data structure
 
