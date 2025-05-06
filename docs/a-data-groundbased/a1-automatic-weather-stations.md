@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Automatic weather stations - Measured values
+# Automatic weather stations
 
 Around 160 stations of the [automatic measurement network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html) SwissMetNet comprise a complete measurement programme.
 
@@ -21,12 +21,19 @@ We are currently setting up our service as Beta. During this phase everything is
 
 :::
 
-You can get **all available parameters, data granularities and update frequencies (in files per station)** 
-- [automatically via FSDI's STAC API](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn) or
-- manually via our Open Data Explorer [*Link to the application follows*].
+## Download data automatically
 
-In addition we offer **the most recent 10 minutes values of the main parameters (in one file with all stations)**
-- [https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA80.csv](https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA80.csv)
+Download **files per station** automatically via FSDI's REST API: [https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn]
+- Read our [information on how you can obtain data automatically](/general/download#how-to-download-files-automatically)
+- The Open Data from MeteoSwiss may be used without restriction; the source must be cited when reproducing or redistributing (Source: MeteoSwiss). Read our [Open Data terms of use](/general/terms-of-use)
+
+## Download data manually
+
+Download **files per station** manually via FSDI's STAC Browser: [https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn)
+
+<!-- Download **files per station** manually via our Open Data Explorer: [...](...) --> 
+
+*[Link to MeteoSwiss' Open Data Explorer follows]*
 
 ## Data structure
 
