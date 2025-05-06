@@ -35,7 +35,7 @@ Read our [information on how you can obtain data automatically](/general/downloa
 
 ### Download data manually
 
-Download **files per station** manually via FSDI's STAC Browser<sup>1</sup>: [`https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn`) 
+Download **files per station** manually via FSDI's STAC Browser<sup>1</sup>: [`https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn) 
 
 <sup>1</sup> After the switch from the Beta to the Live phase, a link to MeteoSwiss' Open Data Explorer will follow here.
 
