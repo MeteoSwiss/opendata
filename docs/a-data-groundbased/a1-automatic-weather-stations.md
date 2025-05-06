@@ -19,9 +19,7 @@ We are currently setting up our service as Beta. During this phase everything is
 
 ## Data download
 
-**Terms of use:** The Open Data from MeteoSwiss may be used without restriction; the source must be cited when reproducing or redistributing ("Source: MeteoSwiss").
-
-Read our [Open Data terms of use](/general/terms-of-use).
+**Terms of use:** <br></br> The Open Data from MeteoSwiss may be used without restriction; the source must be cited when reproducing or redistributing ("Source: MeteoSwiss"). <br></br> Read our [Open Data terms of use](/general/terms-of-use).
 
 ### Download data automatically
 
