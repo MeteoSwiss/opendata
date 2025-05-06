@@ -21,7 +21,12 @@ We are currently setting up our service as Beta. During this phase everything is
 
 :::
 
-You can access the available Open Data via [https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn)
+You can get **all available parameters, data granularities and update frequencies (in files per station)** 
+- [automatically via FSDI's STAC API](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn) or
+- [manually via our Open Data Explorer](...) *Link to the application follows*
+
+In addition we offer **the most recent 10 minutes values of the main parameters (in one file with all stations)**
+- [https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA80.csv](https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA80.csv).
 
 ## Data structure
 
