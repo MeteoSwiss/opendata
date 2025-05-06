@@ -19,7 +19,9 @@ We are currently setting up our service as Beta. During this phase everything is
 
 ## Data download
 
-**Terms of use:** <br></br> The Open Data from MeteoSwiss may be used without restriction; the source must be cited when reproducing or redistributing ("Source: MeteoSwiss"). <br></br> Read our [Open Data terms of use](/general/terms-of-use).
+**Terms of use:** The Open Data from MeteoSwiss may be used without restriction; the source must be cited when reproducing or redistributing ("Source: MeteoSwiss").
+
+Read our [Open Data terms of use](/general/terms-of-use).
 
 ### Download data automatically
 
@@ -40,7 +42,7 @@ import TabItem from '@theme/TabItem';
 
 <Tabs queryString="data-structure">
   <TabItem value="files-per-station" label="Files per station">
-    The data is split by measuring station. A file for a station contains **all available parameters in one file**. There are files with 10-minute `t`, hourly `h`, daily `d`, monthly `m` and yearly `y` values.
+    The data is split by measuring station. A file for a station contains all available parameters in one file. There are files with 10-minute `t`, hourly `h`, daily `d`, monthly `m` and yearly `y` values.
 
     We strongly recommend that you download the corresponding aggregated [data granularity](/general/download#data-granularity).
    
