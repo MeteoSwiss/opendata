@@ -150,14 +150,14 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs queryString="download-options">
-    <TabItem value="manual-download-via-stac-browser" label="Manual download via STAC Browser">
+    <TabItem value="python-api-access" label="Python API Access">
 
     One of the easiest ways to access the ICON model data is to use MeteoSwiss's [meteodata-lab](https://meteoswiss.github.io/meteodata-lab/) library - a convenient tool to simplify accessing and working with numerical weather model data.
     The library includes downloading and optionally loading ICON-CH1/CH2-EPS data into formats like [xarray.DataArray](https://docs.xarray.dev/en/stable/generated/xarray.DataArray.html).
     Ideal for users who want a clean and easy way to integrate forecast data into Python workflows.
 
     </TabItem>
-    <TabItem value="retrieving-forecasts-via-rest-api" label="Retrieving forecasts via REST API">
+    <TabItem value="rest-api-access-http-post" label="Rest API Access (HTTP POST)">
 
     Users who prefer direct API access using tools like curl or custom code in any language, they can retrieve datasets directly via the [REST API](https://data.geo.admin.ch/api/stac/static/spec/v1/apitransactional.html#tag/Data/operation/getAsset).
     Following the step-by-step instructions in this section users can obtain forecast data for specific models, parameters, and other customizable variables.
