@@ -19,13 +19,9 @@ We are currently setting up our service as Beta. During this phase everything is
 
 ## Data download
 
-:::info
-
-The Open Data from MeteoSwiss may be used without restriction; the source must be cited when reproducing or redistributing ("Source: MeteoSwiss").
+**Terms of use:** The Open Data from MeteoSwiss may be used without restriction; the source must be cited when reproducing or redistributing ("Source: MeteoSwiss").
 
 Read our [Open Data terms of use](/general/terms-of-use).
-
-:::
 
 ### Download data automatically
 
@@ -48,11 +44,11 @@ import TabItem from '@theme/TabItem';
   <TabItem value="files-per-station" label="Files per station">
     The data is split by measuring station. A file for a station contains **all available parameters in one file**. There are files with 10-minute `t`, hourly `h`, daily `d`, monthly `m` and yearly `y` values.
 
-    The update interval for files with 10-minute values is set to 20 minutes. If you require a higher update frequency, use the [file with all stations](/a-data-groundbased/a1-automatic-weather-stations?data-structure=one-file-with-all-stations) instead.
-
     We strongly recommend that you download the corresponding aggregated [data granularity](/general/download#data-granularity).
    
     Depending on the granularity there are files with [update frequency](/general/download#update-frequency) `now`, `recent` and `historical`.
+
+    The update interval for files with 10-minute values is set to 20 minutes. If you require a higher update frequency, use the **One file with all stations** instead.
     
     <!-- See e.g. files for station `Salen-Reutenen (HAI)` with all granularities and update frequencies mentioned: [`ogd-smn_hai_(data granularity)_(update frequency).csv`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn/items/hai?.language=en) -->
     
