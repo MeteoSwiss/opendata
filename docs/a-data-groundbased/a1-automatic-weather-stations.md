@@ -10,12 +10,6 @@ They deliver temperature, precipitation, wind, sunshine, humidity, radiation and
 
 The network is supplemented by around 100 [automatic precipitation stations](/a-data-groundbased/a2-automatic-precipitation-stations). Together, these stations form the basis for the creation of reliable local weather forecasts as well as severe weather and flood warnings. Additionally MeteoSwiss operates 3 [automatic tower stations](/a-data-groundbased/a3-automatic-tower-stations) at 150m to 230m above ground for boundary layer measurements.
 
-:::info
-
-We are currently setting up our service as Beta. During this phase everything is subject to change without prior notice.
-- All files are available for all stations.
-
-:::
 
 ## Data download
 
@@ -27,11 +21,14 @@ Download **files per station** automatically via FSDI's REST API: [`https://data
 
 Read our [information on how you can obtain data automatically](/general/download#how-to-download-files-automatically).
 
+The STAC Browser can be a useful tool to facilitate the use of the API: [`https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn)
+
 ### Download data manually
 
-Download **files per station** manually via FSDI's STAC Browser<sup>1</sup>: [`https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn) 
+Download **files per station** manually via the STAC Browser<sup>1</sup>: [`https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn) 
 
 <sup>1</sup> After the switch from the Beta to the Live phase, a link to MeteoSwiss' Open Data Explorer will follow here.
+
 
 ## Data structure
 
@@ -93,9 +90,11 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 </Tabs>
 
+
 ## Data format
 
 [`CSV`](https://opendatadocs.meteoswiss.ch/general/download#column-separators-and-decimal-dividers) with an estimated volume of ≤5.3 MB per file.
+
 
 ## Metadata
 
@@ -104,11 +103,6 @@ import TabItem from '@theme/TabItem';
     All parameters have a unique identifier that depends on the time resolution (e.g. `dkl010z0` for "wind direction; ten-minute average").
     
     [`ogd-smn_meta_parameters.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-smn/ogd-smn_meta_parameters.csv) provides a list of all parameter identifiers with explanation, time interval, decimal places, data type and unit of measurement.
-
-    <!-- **Codes**
-sremaxyv	1 	%	471 	Sonnenscheindauer; Verhältnis der Jahressumme zur maximal Möglichen
-sremaxmv	1 	%	349 	Sonnenscheindauer; Verhältnis der Monatssumme zur maximal Möglichen
-sremaxdv	1 	%	222 	Sonnenscheindauer; relativ zur absolut möglichen Tagessumme -->
   </TabItem>
   <TabItem value="stations" label="Stations">
     All stations have a three-letter identifier (e.g. `BER` for "Bern/Zollikofen" or `LUG` for "Lugano").
@@ -119,6 +113,7 @@ sremaxdv	1 	%	222 	Sonnenscheindauer; relativ zur absolut möglichen Tagessumme 
     [`ogd-smn_meta_datainventory.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-smn/ogd-smn_meta_datainventory.csv) provides a list of all stations and parameters with start and end date of the measurements.
   </TabItem>
 </Tabs>
+
 
 ## Data usage
 
