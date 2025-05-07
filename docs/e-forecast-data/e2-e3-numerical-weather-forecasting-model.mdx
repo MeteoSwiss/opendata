@@ -54,6 +54,12 @@ To get started quickly, explore the [Jupyter notebooks](https://github.com/Meteo
 
 Each collection includes a downloadable CSV file with a continuously updated list of available parameters. The file includes metadata such as long name, standard unit, level type (single or multi level), vertical coordinate type, temporal horizon, aggregation type and start time. To access the parameter overview, open the collection page for the desired model - for example, [ICON-CH1-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch1?.language=en) or [ICON-CH2-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch2?.language=en). In the Assets section, download the file labeled Parameter Overview.
 
+#### 24h window
+
+The data provided in the two collections described in the [Models' specifications table](#models-specifications) is accessible for **24 hours**.
+
+Data older than this is no longer available.
+
 ## Data Structure
 
 ### 3D model grid
@@ -107,31 +113,21 @@ Since the provided data is defined on the native grid, the horizontal grid point
 Therefore, the longitude and latitude information corresponds to the middle of each triangle. For more detailed information on
 the horizontal grid, read section 2.1 in [Working with the ICON Model](https://www.dwd.de/DE/leistungen/nwv_icon_tutorial/pdf_einzelbaende/icon_tutorial2024.pdf?__blob=publicationFile&v=3).
 
-### Forecast file structure
+### File structure
 
-The provided GRIB2 files consistently follow the same structure. Each GRIB2 file contains data for a single model collection, one reference time, one forecast lead time, and one variable — either as the deterministic control run or the full ensemble. The following diagram shows a general overview.
+ Each GRIB2 file contains data for a single model collection, one reference time, one forecast lead time, and one variable — either as the deterministic control run or the full ensemble. The following diagram shows a general overview.
 
 ![StructureDiagram](./static/docs_img/ogd_data_structure.drawio.png) <br></br>
 
 
-## Accessing the forecast data
-
-### Data availability
-
-#### 24h window
-
-The data provided in the two collections described in the [Models' specifications table](#models-specifications) is accessible for **24 hours**.
-
-Data older than this is no longer available.
-
-#### GRIB format
+### GRIB format
 
 The data is provided in GRIB2 format, which is a binary format used internationally and defined by WMO.
 More information about the data format can be found in the [Manual on Codes](https://library.wmo.int/records/item/35769-manual-on-codes-volume-i-3-international-codes) published by WMO.
 
 > ⚠️ **WARNING**: Data located at the boundary of the spatial domain may be random.
 
-#### Forecast data volume
+### Forecast data volume
 
 The following tables summarize the expected volume of the different forecast files for **ICON-CH1-EPS** and **ICON-CH2-EPS**.
 
@@ -156,8 +152,8 @@ import TabItem from '@theme/TabItem';
 <Tabs queryString="download-options">
     <TabItem value="python-api-access" label="Python API Access">
 
-    One of the easiest ways to access the ICON model data is to use MeteoSwiss's [meteodata-lab](https://meteoswiss.github.io/meteodata-lab/) library - a convenient tool to simplify accessing and working with numerical weather model data.
-    The library includes downloading and optionally loading ICON-CH1/CH2-EPS data into formats like [xarray.DataArray](https://docs.xarray.dev/en/stable/generated/xarray.DataArray.html).
+    To obtain the ICON model data, we recommend using MeteoSwiss's [meteodata-lab](https://meteoswiss.github.io/meteodata-lab/) library - a convenient tool to simplify accessing and working with numerical weather model data.
+    The library includes downloading ICON-CH1/2-EPS GRIB2 data and loading it into [xarray DataArray](https://docs.xarray.dev/en/stable/generated/xarray.DataArray.html).
     It is particularly ideal for users who want a clean and easy way to integrate forecast data into Python workflows.
 
     </TabItem>
@@ -266,7 +262,7 @@ import TabItem from '@theme/TabItem';
     </TabItem>
     <TabItem value="manual-download-via-stac-browser" label="Manual download via STAC Browser">
     If users prefer to use a web interface to browse and download individual forecast GRIB files,
-    they can use the STAC Browser of the model [ICON-CH1-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch1?.language=en) or     [ICON-CH2-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch2?.language=en).
+    they can use the STAC Browser for [ICON-CH1-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch1?.language=en) and [ICON-CH2-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch2?.language=en).
 
     The screenshot below shows the download option in the STAC Browser for the `ALB_RAD` parameter. Files are downloaded directly through the browser interface and saved to the default download location.
 
@@ -356,9 +352,18 @@ For more information, read section [Accessing static grid information: Height, l
 </details>
 
 <details>
-<summary> <b> "Why does my download expire?" </b> </summary>
+<summary> <b> "Why is my HTTP response empty?" </b> </summary>
 
-The data provided in the two collections described in the [Model specifications table](#model-specifications) is accessible for only **24 hours**. Data older than this is no longer available.
+The data provided in the two collections described in the [Model specifications table](#models-specifications) is accessible for only **24 hours**. Data older than this is no longer available.
+Thus, your HTTP response returns empty.
+
+</details>
+
+<details>
+<summary> <b> "Why do I get HTTPError: 403, when downloading with the Python API?" </b> </summary>
+
+The data provided in the two collections described in the [Model specifications table](#models-specifications) is accessible for only **24 hours**.
+Data older than this is no longer available. Therefore, when attempting to fetch unavailable data, HTTPError 403 occurs.
 
 </details>
 
