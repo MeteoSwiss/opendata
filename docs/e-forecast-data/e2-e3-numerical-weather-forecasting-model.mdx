@@ -22,10 +22,10 @@ The documentation covers the following topics:
     - [Models' specifications](#models-specifications)
     - [Available parameters](#available-parameters)
     - [24h window](#24h-window)
+- [Download options](#download-options)
 - [Data structure](#data-structure)
     - [GRIB format](#grib-format)
     - [GRIB file structure](#grib-file-structure)
-    - [Download options](#download-options)
     - [Forecast data volume](#forecast-data-volume)
     - [3D model grid](#3d-model-grid)
 - [Working with the forecast data](#working-with-the-forecast-data)
@@ -67,22 +67,7 @@ The data provided in the two collections described in the [Models' specification
 
 Data older than this is no longer available.
 
-## Data Structure
-
-### GRIB format
-
-The data is provided in GRIB2 format, which is a binary format used internationally and defined by WMO.
-More information about the data format can be found in the [Manual on Codes](https://library.wmo.int/records/item/35769-manual-on-codes-volume-i-3-international-codes) published by WMO.
-
-> ⚠️ **WARNING**: Data located at the boundary of the spatial domain may be random.
-
-### GRIB file structure
-
- Each GRIB2 file contains data for a single model collection, one reference time, one forecast lead time, and one variable — either as the deterministic control run or the full ensemble. The following diagram shows a general overview.
-
-![StructureDiagram](./static/docs_img/ogd_data_structure.drawio.png) <br></br>
-
-### Download options
+## Download options
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -100,7 +85,7 @@ import TabItem from '@theme/TabItem';
     Users who prefer direct interaction with the REST API by issuing HTTP POST requests can retrieve datasets via the [API endpoint](https://data.geo.admin.ch/api/stac/static/spec/v1/apitransactional.html).
     Following the step-by-step instructions in this section users can obtain forecast data for specific models, parameters, and other customizable variables.
 
-    #### Submitting a POST request
+    ### Submitting a POST request
 
     Filtering and querying forecast data must be done using a `POST` request. To retrieve a forecast, use a tool like `curl` and send the request to the API endpoint:
     ```
@@ -124,7 +109,7 @@ import TabItem from '@theme/TabItem';
     - `forecast:perturbed`: Boolean flag determining if the request is for deterministic (`false`) or ensemble (`true`) data.
     - `forecast:horizon`: Defines the forecast lead time to retrieve in ISO 8601 duration format (`P0DT00H00M00S` for data at +0h lead time, i.e. initialization).
 
-    #### Downloading the forecast data
+    ### Downloading the forecast data
 
     Upon a successful request, the response will contain a dictionary of metadata, including forecast file links under the `assets` key. Locate the `href` field containing the pre-signed URL.
     Download the GRIB file containing the forecast data using the following command:
@@ -134,7 +119,7 @@ import TabItem from '@theme/TabItem';
 
     After downloading your forecast data, it's good practice to verify its integrity before use.
 
-    #### Verifying the data integrity
+    ### Verifying the data integrity
 
     To ensure that the downloaded file is not corrupted, compute its SHA-256 hash and verify it against the checksum provided in the file's header field.
 
@@ -155,7 +140,7 @@ import TabItem from '@theme/TabItem';
 
     Once the file is verified, you can proceed with reading the GRIB file, using e.g. the instructions in [Decoding GRIB files with ecCodes](#decoding-grib-files-with-eccodes).
 
-    #### Accessing static grid information: Height, longitude and latitude
+    ### Accessing static grid information: Height, longitude and latitude
     > ❗ **NOTE**: Forecast GRIB files do not contain information about height, longitude and latitude. To geolocate or interpret vertical levels, you must use the static vertical and horizontal grid parameter files provided in each collection.
     > 💡 **Tip for new users**: We recommend inexperienced GRIB file users to take a look at the provided [Jupyter Notebooks](https://github.com/MeteoSwiss/opendata-nwp-demos). The data retrieval with the Python API includes fetching longitude and latitude.
 
@@ -163,7 +148,7 @@ import TabItem from '@theme/TabItem';
     Besides the current forecast files, each collection contains two static files. They store constant information about the height of the half levels (HHL) in the vertical grid and the center point coordinates of each triangle on the horizontal grid.
 
 
-    ##### Accessing horizontal grid parameters
+    #### Accessing horizontal grid parameters
 
     The static horizontal file stores the longitude and latitude of the center points of each triangle in the horizontal grid. To retrieve this information, follow the steps below:
 
@@ -178,7 +163,7 @@ import TabItem from '@theme/TabItem';
     ```
     4. Once the static GRIB file is downloaded, ensure that the `uuidOfHGrid` (Universally Unique Identifier for the horizontal grid) key in the data file matches the one in the static horizontal file.
 
-    ##### Accessing vertical grid parameters
+    #### Accessing vertical grid parameters
 
     In the static vertical file, the heights of the half levels of the vertical grid are provided in meters above mean sea level. In order to associate a value from a data file (for a given parameter) to a height in meters above sea level, follow the steps below:
 
@@ -208,6 +193,21 @@ import TabItem from '@theme/TabItem';
 
     </TabItem>
 </Tabs>
+
+## Data Structure
+
+### GRIB format
+
+The data is provided in GRIB2 format, which is a binary format used internationally and defined by WMO.
+More information about the data format can be found in the [Manual on Codes](https://library.wmo.int/records/item/35769-manual-on-codes-volume-i-3-international-codes) published by WMO.
+
+> ⚠️ **WARNING**: Data located at the boundary of the spatial domain may be random.
+
+### GRIB file structure
+
+ Each GRIB2 file contains data for a single model collection, one reference time, one forecast lead time, and one variable — either as the deterministic control run or the full ensemble. The following diagram shows a general overview.
+
+![StructureDiagram](./static/docs_img/ogd_data_structure.drawio.png) <br></br>
 
 ### Forecast data volume
 
