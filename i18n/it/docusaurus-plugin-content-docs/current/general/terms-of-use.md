@@ -6,7 +6,7 @@ sidebar_position: 1
 
 :::info
 
-Questo contenuto è attualmente in fase di traduzione. Il [testo originale in tedesco](https://opendatadocs.meteoswiss.ch/de/general/terms-of-use) fa fede.
+Questa traduzione in italiano è attualmente in fase di revisione. Il [testo originale in tedesco](https://opendatadocs.meteoswiss.ch/de/general/terms-of-use) fa fede.
 
 :::
 
@@ -34,10 +34,14 @@ L'indicazione della fonte deve essere tale da suggerire che MeteoSvizzera non so
 
 
 ## 3. Esclusione di garanzia e responsabilità
-...
+Sebbene MeteoSvizzera raccolga e generi i dati con la massima cura, non può garantire l'esattezza, l'accuratezza, l'attualità, l'affidabilità e la completezza dei 'Open Data' pubblicati (cfr. [art. 10 cpv. 6 LMeCA](https://www.fedlex.admin.ch/eli/cc/2023/682/it#art_10)). Sono escluse rivendicazioni di responsabilità nella misura consentita dalla legge. 
 
+MeteoSvizzera fornisce, nell'ambito dei suoi compiti legali (in particolare nel settore della protezione della popolazione e delle emergenze), servizi indispensabili sia a favore della popolazione (allerta) che ad altre autorità. Si precisa che in situazioni particolari ed eccezionali, al fine di garantire tali servizi, l'aggiornamento dei 'Open Data' può essere temporaneamente limitato.
+ 
 
 ## 4. Utilizzo dell'infrastruttura
-...
+Si fa presente che l'infrastruttura utilizzata da MeteoSvizzera per gli 'Open Data' può essere utilizzata solo nella misura necessaria per l'ottenimento dei dati. È vietato qualsiasi uso abusivo (in particolare in particolare allo scopo di danneggiarla o bloccarne la disponibilità dell'infrastruttura) nonché un uso eccessivo sotto il profilo della frequenza di accesso o del volume di dati (in particolare mediante il download ripetuto ad alta frequenza dello stesso contenuto) e può comportare la limitazione o il blocco dell'accesso (cfr. [art. 5 cpv. 1 lett. d MetV](https://www.fedlex.admin.ch/eli/cc/2024/452/it#art_5)).
 
--->
+Si applicano le [Condizioni generali di utilizzo e disposizioni operative dell’infrastruttura federale di dati geografici IFDG](https://www.geo.admin.ch/it/condizioni-generali-di-utilizzo-ifdg). Si prega di prestare particolare attenzione al capitolo [2. Uso dei dati](https://www.geo.admin.ch/it/condizioni-generali-di-utilizzo-ifdg#2.-Uso-dei-dati) e al capitolo [5. Disposizioni operative](https://www.geo.admin.ch/it/condizioni-generali-di-utilizzo-ifdg#5-Disposizioni-operative).
+
+Se avete esigenze particolari in merito alla disponibilità dei dati, vi preghiamo di rivolgervi a: [Vendite e assistenza](https://www.meteosvizzera.admin.ch/chi-siamo/contatto/formulario-di-contatto.html).
