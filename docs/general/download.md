@@ -123,6 +123,17 @@ This is the overview:
 ### Column separators and decimal dividers
 Generally, columns are separated with a semicolon (`;`).
 
+:::note
+
+**If you are using Windows Excel in a language version other than German, change the separator to ‘;’ when opening the file (or use the ‘Text Conversion Wizard’ in the ‘Data’ menu in Excel).**
+
+Why did we choose the semicolon as a separator?
+- Microsoft uses CSV files with a semicolon as separator in the default settings of the German Windows Excel version.
+- We assume that a high proportion of users open our CSV files with this setting.
+- We are monitoring the development of the proportion of users with this setting and reserve the right to reconsider our decision after weighing up the pros and cons.
+
+:::
+
 The decimal divider is a full stop (`.`).
 
 ### Encoding
