@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# Pollen stations - Measured values
+# Pollen stations
 
 MeteoSwiss operates the [national pollen monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/pollen-monitoring-network-manual-method.html). It consists of around 15 monitoring stations which cover Switzerland's most important climatic and vegetation regions. The measurements obtained provide invaluable information for those who suffer from allergies.
 
