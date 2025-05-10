@@ -2,9 +2,13 @@
 sidebar_position: 1
 ---
 
-# Terms of use
+# Open Data terms of use
 
-<!-- TODO: review English translation! -->
+:::info
+
+This English translation is currently being reviewed. The original German text is authoritative.
+
+:::
 
 ## 1. Publication of meteorological and climatological data
 The Federal Office of Meteorology and Climatology MeteoSwiss publishes the data it obtains or generates to fulfil its statutory tasks ([Art. 10 Abs. 1 EMBAG](https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_10)).
