@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Conditions d’utilisation de l’Open Data
+# Conditions d'utilisation
 
 Vers [les conditions d'utilisation en allemand](https://opendatadocs.meteoswiss.ch/de/general/terms-of-use).
 
@@ -12,7 +12,7 @@ La traduction suivra.
 <!--
 
 ## 1. Publication de données météorologiques et climatologiques
-L'Office fédéral de météorologie et de climatologie MétéoSuisse publie les données qu'il collecte ou produit dans l’exécution de leurs tâches légales ([art. 10, al. 1, LMETA](https://www.fedlex.admin.ch/eli/cc/2023/682/fr#art_10)).
+L'Office fédéral de météorologie et de climatologie MétéoSuisse publie les données qu'il collecte ou produit dans l'exécution de leurs tâches légales ([art. 10, al. 1, LMETA](https://www.fedlex.admin.ch/eli/cc/2023/682/fr#art_10)).
 
 Les données sont mises en ligne gratuitement, en temps utile, sous une forme lisible par machine et dans un format ouvert ([art. 10, al. 4, LMETA](https://www.fedlex.admin.ch/eli/cc/2023/682/fr#art_10)).
 
@@ -27,6 +27,10 @@ Les données ouvertes de MétéoSuisse peuvent être réutilisées sans restrict
 
 
 ## 3. Exclusion de garantie et de responsabilité
+...
+
+
+## 4. Utilisation de l'infrastructure
 ...
 
 -->
