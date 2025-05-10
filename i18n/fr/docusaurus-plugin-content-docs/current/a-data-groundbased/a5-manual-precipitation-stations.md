@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Stations pluviométriques manuelles – Valeurs mesurées
+# Stations pluviométriques manuelles
 
 Vers [la documentation en anglais](https://opendatadocs.meteoswiss.ch/a-data-groundbased/a5-manual-precipitation-stations).
 
