@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Radiosondaggi – Valori misurati
+# Radiosondaggi
 
 Alla [documentazione in inglese](https://opendatadocs.meteoswiss.ch/b-data-atmosphere/b1-radio-sounding).
 
