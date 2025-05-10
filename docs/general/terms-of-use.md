@@ -22,9 +22,9 @@ MeteoSwiss uses the [Federal Spatial Data Infrastructure (FSDI)](https://www.geo
 ## 2. Rights of use with regard to the data
 The ‘Open Data’ of MeteoSwiss may be reused without restriction ([Art. 10 Abs. 4 EMBAG](https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_10)); when reproducing or redistributing the data, the source must be indicated (Quelle: MeteoSchweiz; Source: MétéoSuisse; Fonte: MeteoSvizzera; Source: MeteoSwiss) (cf. [Art. 5 Abs. 1 lit. a MetV](https://www.fedlex.admin.ch/eli/cc/2024/452/de#art_5)). 
 
-The ‘Open Data’ of MeteoSwiss is published accordingly under the [Creative Commons Licence CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+The ‘Open Data’ of MeteoSwiss are published accordingly under the [Creative Commons Licence CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-<!-- TODO: insert ![CC-BY Logo](/docs/assets/img/ccby.png) -->
+![CC BY Logo](./static/docs_img/cc-by.png) <br></br>
 
 Briefly summarised, users may:
 1. **Share** - copy and redistribute the data in any medium or format for any purpose, even commercially.
