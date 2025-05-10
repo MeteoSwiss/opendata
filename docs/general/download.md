@@ -4,15 +4,28 @@ sidebar_position: 2
 
 # Download data
 
-For the Open Data download, MeteoSwiss uses the [Federal Spatial Data Infrastructure FSDI](https://www.geo.admin.ch/en/federal-spatial-data-infrastructure-fsdi), which is operated by [swisstopo](https://www.swisstopo.admin.ch/en/coordination-geo-information-and-services-cogis). 
-
+For the Open Data download, MeteoSwiss primarily uses the [Federal Spatial Data Infrastructure FSDI](https://www.geo.admin.ch/en/federal-spatial-data-infrastructure-fsdi), which is operated by [swisstopo](https://www.swisstopo.admin.ch/en/coordination-geo-information-and-services-cogis).
 An exception to this are numerical weather forecasting model data, which are made available for download by the [CSCS](https://www.cscs.ch).
 
-:::info
+The documentation below covers the following topics:
+- [How to download files automatically](/general/download#how-to-download-files-automatically)
+    - [How to check for new data](/general/download#how-to-check-for-new-data)
+    - [Examples](/general/download#examples)
+        - [Ground-based measurements](/general/download#ground-based-measurements)
+- [How CSV files are structured](/general/download#how-csv-files-are-structured)
+    - [Data granularity (respectively 'temporal resolutions')](/general/download#data-granularity)
+    - [Update frequency (respectively 'time periods'](https://opendatadocs.meteoswiss.ch/general/download#update-frequency)
+    - [Column separators and decimal dividers](/general/download#column-separators-and-decimal-dividers)
+    - [Encoding](/general/download#encoding)
+- [How date/time, time intervals and missing values are represented](/general/download#how-datetime-time-intervals-and-missing-values-are-represented)
+    - [Time stamps and time intervals](/general/download#time-stamps-and-time-intervals)
+    - [Missing values](/general/download#missing-values)
 
-Read the [terms and conditions for using the infrastructure](https://opendatadocs.meteoswiss.ch/general/terms-of-use#4-use-of-the-infrastructure).
-
-:::
+Specific information on **how to download Numerical weather forecasting model ICON-CH1/2-EPS data**, can be found in the following sections:
+- [Download options](#download-options)
+    - [Using the Python API](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=pythonapi#download-options)
+    - [Using the REST API (HTTP POST)](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=restapi#download-options)
+    - [Manual download via STAC Browser](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=browser#download-options)
 
 ---
 
@@ -65,7 +78,7 @@ For more information check [swisstopo's STAC API documentation](https://data.geo
 
 ### Examples
 
-#### Ground-based measurements - Point data
+#### Ground-based measurements
 
 This [Jupyter notebook](https://github.com/MeteoSwiss/opendata/blob/main/notebooks/MonthlyMeanGlobalRadiation_HAI.ipynb) shows a simplified workflow for downloading and processing ground-based measurements of station `Salen-Reutenen (HAI)` from the STAC API.
 - The code used in the notebook is for demo purposes only. Code quality is not on production-grade level.
@@ -117,6 +130,7 @@ The decimal divider is a full stop (`.`).
 CSV files are encoded in [`Windows-1252`](https://en.wikipedia.org/wiki/Windows-1252) to ensure that they are decoded correctly in Excel.
 
 `UTF-8 BOM` would actually be a more versatile and widely used encoding that would ensure the same thing. For technical reasons, however, we still use `Windows-1252`.
+
 
 ## How date/time, time intervals and missing values are represented
 
