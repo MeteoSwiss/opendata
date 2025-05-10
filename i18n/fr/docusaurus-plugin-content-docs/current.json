@@ -8,7 +8,7 @@
     "description": "The label for category A - Ground-based Measurements in sidebar dataSidebar"
   },
   "sidebar.dataSidebar.category.B - Atmosphere measurements": {
-    "message": "B - Données de mesure de l'atmosphère",
+    "message": "B - Données de mesures de l'atmosphère",
     "description": "The label for category B - Atmosphere Measurements in sidebar dataSidebar"
   },
   "sidebar.dataSidebar.category.Open Data Documentation": {
