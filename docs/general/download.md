@@ -21,7 +21,7 @@ The documentation below covers the following topics:
     - [Time stamps and time intervals](/general/download#time-stamps-and-time-intervals)
     - [Missing values](/general/download#missing-values)
 
-Specific information on **how to download Numerical weather forecasting model ICON-CH1/2-EPS data**, can be found in the following sections:
+Information on **how to download 'Numerical weather forecasting model ICON-CH1/2-EPS' data** can be found in the following sections:
 - [Download options](#download-options)
     - [Using the Python API](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=pythonapi#download-options)
     - [Using the REST API (HTTP POST)](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=restapi#download-options)
