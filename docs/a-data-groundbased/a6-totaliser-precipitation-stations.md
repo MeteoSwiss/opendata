@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Totaliser precipitation stations - Measured values
+# Totaliser precipitation stations
 
 In supplement to [manual precipitation stations](/a-data-groundbased/a5-manual-precipitation-stations) in mountainous areas that are difficult to access, MeteoSwiss operates around 60 totalisers which record the volume of precipitation for an entire year (see section "Totaliser monitoring network – annual readings" [here](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-precipitation-monitoring-network.html).
 
