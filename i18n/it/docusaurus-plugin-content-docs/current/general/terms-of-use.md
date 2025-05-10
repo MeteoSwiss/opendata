@@ -24,7 +24,7 @@ I dati 'Open Data' di MeteoSvizzera possono essere riutilizzati senza restrizion
 
 I dati aperti di MeteoSvizzera sono pubblicati in conformità con la [licenza Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it).
 
-<!-- TODO: inserire ![Logo CC-BY](/docs/assets/img/ccby.png) -->
+![CC BY Logo](./static/docs_img/cc-by.png) <br></br>
 
 In breve, gli utenti sono liberi di:
 1. **Condividere** — riprodurre e distribuire i dati in qualsiasi formato o mezzo per qualsiasi fine, anche commerciale.
