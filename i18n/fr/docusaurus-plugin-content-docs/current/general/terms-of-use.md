@@ -23,7 +23,7 @@ Les 'Open Data' de MétéoSuisse peuvent être librement réutilisées sans rest
 
 Les 'Open Data' de MétéoSuisse sont publiées sous la [licence Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.fr).
 
-<!-- TODO : insérer ![Logo CC-BY](/docs/assets/img/ccby.png) -->
+![CC BY Logo](./static/docs_img/cc-by.png) <br></br>
 
 En résumé, les utilisateurs sont autorisés à :
 1. **Partager** — copier et distribuer les données par tous moyens et sous tous formats pour toute utilisation, y compris commerciale.
