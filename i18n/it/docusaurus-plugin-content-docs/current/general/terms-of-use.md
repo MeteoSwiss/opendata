@@ -10,8 +10,6 @@ Questo contenuto è attualmente in fase di traduzione. Il [testo originale in te
 
 :::
 
-<!--
-
 ## 1. Pubblicazione di dati meteorologici e climatologici
 
 L'Ufficio federale di meteorologia e climatologia MeteoSvizzera pubblica i dati che raccolgono o generano per l’adempimento dei propri compiti legali ([art. 10 cpv. 1 LMeCA](https://www.fedlex.admin.ch/eli/cc/2023/682/it#art_10)).
@@ -37,6 +35,7 @@ L'indicazione della fonte deve essere tale da suggerire che MeteoSvizzera non so
 
 ## 3. Esclusione di garanzia e responsabilità
 ...
+
 
 ## 4. Utilizzo dell'infrastruttura
 ...
