@@ -2,7 +2,8 @@
 sidebar_position: 5
 ---
 
-# Contact
-If you have [questions about the data](/a-data-groundbased), or [how to use the download service](/general/download), please check the [Frequently Asked Questions](/general/faq) first. 
+# Kontakt
 
-If you are unable to find the answer you are looking for, **contact us** via the [contact form](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html).
+Wenn Sie [Fragen zu den Daten](/a-data-groundbased) oder [zur Nutzung des Download-Dienstes](/general/download) haben, lesen Sie bitte zunächst die [Häufig gestellten Fragen](/general/faq). 
+
+Wenn Sie keine Antwort auf Ihre Frage finden, **kontaktieren Sie uns** über das [Kontaktformular](https://www.meteoschweiz.admin.ch/ueber-uns/kontakt/kontaktformular.html).
