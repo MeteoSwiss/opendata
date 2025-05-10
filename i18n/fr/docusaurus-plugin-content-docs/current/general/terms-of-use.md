@@ -4,10 +4,11 @@ sidebar_position: 1
 
 # Conditions d'utilisation
 
-Vers [les conditions d'utilisation en allemand](https://opendatadocs.meteoswiss.ch/de/general/terms-of-use).
+:::info
 
-La traduction suivra.
+Ce contenu est actuellement en cours de traduction. Le [texte original en allemand](https://opendatadocs.meteoswiss.ch/de/general/terms-of-use) fait foi.
 
+:::
 
 <!--
 
