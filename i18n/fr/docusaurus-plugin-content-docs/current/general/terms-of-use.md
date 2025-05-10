@@ -21,7 +21,7 @@ MétéoSuisse utilise pour la publication l'[Infrastructure fédérale de donné
 
 
 ## 2. Droits d'utilisation des données
-Les 'Open Data' de MétéoSuisse peuvent être librement réutilisées sans restriction ([art. 10, al. 4, LMETA](https://www.fedlex.admin.ch/eli/cc/2023/682/fr#art_10)); la source doit être mentionnée lors de la reproduction ou de la transmission des données (Quelle: MeteoSchweiz; Source: MétéoSuisse; Fonte: MeteoSvizzera; Source: MeteoSwiss)) (cf. [art. 5, al. 1, let. a OMét](https://www.fedlex.admin.ch/eli/cc/2024/452/fr#art_5)). 
+Les 'Open Data' de MétéoSuisse peuvent être librement réutilisées sans restriction ([art. 10, al. 4, LMETA](https://www.fedlex.admin.ch/eli/cc/2023/682/fr#art_10)); la source doit être mentionnée lors de la reproduction ou de la transmission des données (Quelle: MeteoSchweiz; Source: MétéoSuisse; Fonte: MeteoSvizzera; Source: MeteoSwiss)) (cf. [art. 5, al. 1, let. a, OMét](https://www.fedlex.admin.ch/eli/cc/2024/452/fr#art_5)). 
 
 Les 'Open Data' de MétéoSuisse sont publiées sous la [licence Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.fr).
 
