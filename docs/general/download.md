@@ -125,7 +125,7 @@ Generally, columns are separated with a semicolon (`;`).
 
 :::note
 
-**If you are using Windows Excel in a language version other than German, change the separator to ‘;’ when opening the file (or use the ‘Text Conversion Wizard’ in the ‘Data’ menu in Excel).**
+**If you are using Windows Excel in a language version other than German, change the separator to `;` when opening the file (respectively use the ‘Text Conversion Assistant’ in the ‘Data’ menu).**
 
 Why did we choose the semicolon as a separator?
 - Microsoft uses CSV files with a semicolon as separator in the default settings of the German Windows Excel version.
