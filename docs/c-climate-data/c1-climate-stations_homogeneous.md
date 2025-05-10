@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Climate stations - Homogeneous measurements
+# Climate stations - Homogeneous data series
 Climate stations measure various meteorological parameters. In Switzerland the first nationwide network of climate stations was put into operation in 1864. The stations that are most important for research into climate change are combined in the [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-national-basic-climatological-network.html). The Swiss NBCN consists of 29 climate monitoring stations and is supplemented by 46 [precipitation stations](/c-climate-data/c2-climate-percipitation-stations_homogeneous).
 
 The measuring conditions under which meteorological data are collected may change over time. Statements about the past, long-time climatic development can only be made if the influence of such changes is removed. This is achieved by [homogenisation](https://www.meteoswiss.admin.ch/climate/climate-change/changes-in-temperature-precipitation-and-sunshine/homogeneous-data-series-since-1864/homogenisation-of-series-of-climatic-measurements.html) of the data.
