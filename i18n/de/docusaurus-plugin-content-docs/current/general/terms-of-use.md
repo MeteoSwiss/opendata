@@ -9,7 +9,7 @@ Das Bundesamt für Meteorologie und Klimatologie MeteoSchweiz veröffentlicht se
 
 Die Daten werden unentgeltlich, zeitnah, in maschinenlesbarer Form und in einem offenen Format im Internet als 'Open Data' veröffentlicht ([Art. 10 Abs. 4 EMBAG](https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_10)).
 
-MeteoSchweiz nutzt zur Veröffentlichung die [Bundes Geodaten-Infrastruktur BGDI](https://www.geo.admin.ch/de/impressum-verantwortlichkeiten-und-kontakte), die vom Bundesamt für Landestopografie swisstopo betrieben wird. Siehe dazu Kapitel [4. Nutzung der Infrastruktur](#4--nutzung-der-infrastruktur).  
+MeteoSchweiz nutzt zur Veröffentlichung die [Bundes Geodaten-Infrastruktur BGDI](https://www.geo.admin.ch/de/impressum-verantwortlichkeiten-und-kontakte), die vom Bundesamt für Landestopografie swisstopo betrieben wird. Siehe dazu Kapitel [4. Nutzung der Infrastruktur](#4-nutzung-der-infrastruktur).  
 
 
 
