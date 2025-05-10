@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Manual precipitation stations - Measured values
+# Manual precipitation stations
 
 In addition to its automatic precipitation measurements (see [automatic weather stations](https://opendatadocs.meteoswiss.ch/a-data-groundbased/a1-automatic-weather-stations), [automatic precipitation stations](https://opendatadocs.meteoswiss.ch/a-data-groundbased/a2-automatic-precipitation-stations) and [automatic tower stations](https://opendatadocs.meteoswiss.ch/a-data-groundbased/a3-automatic-tower-stations)), MeteoSwiss operates a [manual precipitation monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-precipitation-monitoring-network.html).
 
