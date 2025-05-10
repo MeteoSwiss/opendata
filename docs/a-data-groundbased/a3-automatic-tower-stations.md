@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Automatic tower stations - Measured values
+# Automatic tower stations
 
 For boundary layer measurements MeteoSwiss operates 3 automatic tower stations at 150m to 230m above ground.
 
