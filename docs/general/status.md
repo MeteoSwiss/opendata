@@ -8,7 +8,7 @@ sidebar_position: 3
 
 | System | operated by | Operational status | Contact point |
 |:-------|:------------|:-------------------|:--------------|
-| Download service | [swisstopo](https://www.swisstopo.admin.ch/en) | [GeoAdmin API Uptime Status](https://api3.geo.admin.ch/api/status.html) | MeteoSwiss' [Open Data Support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) |
+| Download service | swisstopo | [GeoAdmin API Uptime Status](https://api3.geo.admin.ch/api/status.html) | MeteoSwiss' [Open Data Support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) |
 | Data generation & integration | MeteoSwiss | [*upcoming*] | MeteoSwiss' [Open Data support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) |
 | Numerical weather forecasting model processing | CSCS | [*upcoming*] | MeteoSwiss' [Open Data support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) |
 | Geodata metadata catalog geocat.ch | swisstopo | [*upcoming*] | swisstopo's [geocat.ch support](https://info.geocat.ch/en/contact) |
