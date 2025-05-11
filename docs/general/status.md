@@ -8,11 +8,11 @@ sidebar_position: 3
 
 | System | operated by | Operational status | Contact point |
 |:-------|:------------|:-------------------|:--------------|
-| Download service | swisstopo | [GeoAdmin API Uptime Status](https://api3.geo.admin.ch/api/status.html) | MeteoSwiss' [Open Data Support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) |
-| Data generation & integration | MeteoSwiss | [*upcoming*] | MeteoSwiss' [Open Data support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) |
-| Numerical weather forecasting model processing | CSCS | [*upcoming*] | MeteoSwiss' [Open Data support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) |
-| Geodata metadata catalog geocat.ch | swisstopo | [*upcoming*] | swisstopo's [geocat.ch support](https://info.geocat.ch/en/contact) |
-| Metadata catalog opendata.swiss | FSO | Planned maintenance windows would be announced with a note on [opendata.swiss](https://opendata.swiss). | FSO's [opendata.swiss support](https://opendata.swiss/en/contact) | 
+| Download service | swisstopo | [GeoAdmin API Uptime Status](https://api3.geo.admin.ch/api/status.html) | MeteoSwiss [Open Data Support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) |
+| Data generation & integration | MeteoSwiss | [*upcoming*] | MeteoSwiss [Open Data support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) |
+| Numerical weather forecasting model processing | CSCS | [*upcoming*] | MeteoSwiss [Open Data support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) |
+| Geodata metadata catalog geocat.ch | swisstopo | [*upcoming*] | swisstopo [geocat.ch support](https://info.geocat.ch/en/contact) |
+| Metadata catalog opendata.swiss | FSO | Planned maintenance windows would be announced with a note on [opendata.swiss](https://opendata.swiss). | FSO [opendata.swiss support](https://opendata.swiss/en/contact) | 
 
 **GeoAdmin's download service** will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner swisstopo continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, check [GeoAdmin API Release Notes](https://api3.geo.admin.ch/releasenotes/index.html) where swisstopo announces released changes that might affect your integration.
 
