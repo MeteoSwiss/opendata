@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Dati climatici spaziali basati a terra – Precipitazioni, temperatura, soleggiamento
+# Dati climatici spaziali basati sulle misure al suolo – Precipitazioni, temperatura, soleggiamento
 
 :::warning 
 
