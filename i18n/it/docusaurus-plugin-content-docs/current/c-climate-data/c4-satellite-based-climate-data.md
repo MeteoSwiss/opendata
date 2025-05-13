@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Dati climatici spaziali basati su satellite – Radiazione, copertura nuvolosa
+# Dati climatici spaziali basati sulle misure satellitari – Radiazione, copertura nuvolosa
 
 :::warning 
 
