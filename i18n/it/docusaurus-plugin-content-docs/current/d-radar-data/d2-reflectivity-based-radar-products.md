@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Prodotti radar basati sulla riflettività
+# Prodotti radar – Riflettività
 
 Alla [documentazione in inglese](https://opendatadocs.meteoswiss.ch/d-radar-data/d2-reflectivity-based-radar-products).
 
