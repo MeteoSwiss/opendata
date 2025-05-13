@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Données climatiques spatiales basées sur le sol –  Précipitations, température, ensoleillement
+# Données climatiques spatiales basées sur les mesures au sol –  Précipitations, température, ensoleillement
 
 :::warning 
 
