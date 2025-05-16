@@ -22,7 +22,7 @@ Kurz zusammengefasst, dürfen Sie:
 
 Die Wiedergabe und Weiterverbreitung von Warnungen ist nur erlaubt, sofern sie zeitnah erfolgen und inhaltlich nicht verändert werden.
 
-Bei der (unveränderten) Wiedergabe oder Weiterverbreitung der Daten ist die Quelle anzugeben (Quelle: MeteoSchweiz; Source: MétéoSuisse; Fonte: MeteoSvizzera; Source: MeteoSwiss) ([Art. 5 Abs. 1 lit. a MetV](https://www.fedlex.admin.ch/eli/cc/2024/452/de#art_5)).
+Bei der (unveränderten) Wiedergabe oder Weiterverbreitung der Daten ist **die Quelle anzugeben** (**Quelle: MeteoSchweiz**; Source: MétéoSuisse; Fonte: MeteoSvizzera; Source: MeteoSwiss) ([Art. 5 Abs. 1 lit. a MetV](https://www.fedlex.admin.ch/eli/cc/2024/452/de#art_5)).
 
 Bei der Angabe der Quelle ist zu beachten, dass nicht der Eindruck entsteht, MeteoSchweiz unterstütze gerade Sie oder Ihre Nutzung besonders.
 
