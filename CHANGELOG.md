@@ -2,7 +2,7 @@
 
 Subscribe through [RSS feeds](...) *[upcoming]* to stay up-to-date with new releases!
 
-<!-- Example Titles are
+Types of changes are
 - :boom: Breaking Change,
 - :rocket: New Feature,
 - :bug: Bug Fix,
@@ -12,11 +12,11 @@ Subscribe through [RSS feeds](...) *[upcoming]* to stay up-to-date with new rele
 - :robot: Dependencies,
 - :wrench: Maintenance,
 - :globe_with_meridians: Translations
--->
+
 
 ## 0.9.0 (2025-05-16)
 
-#### Example Title
+#### Example Type of Change
 
 - `Example topic`
   - [#270](https://github.com/MeteoSwiss/opendata/pull/270/) Example Pull Request
