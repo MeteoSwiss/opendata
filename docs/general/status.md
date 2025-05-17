@@ -12,12 +12,20 @@ sidebar_position: 3
 | [Open Data Explorer](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/download-data-without-coding-skills.html#lang=en&mdt=normal&pgid=&sid=&col=&di=&tr=&hdr=) manual download interface | MeteoSwiss |     | MeteoSwiss [Open Data support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) |
 | [opendata.swiss](https://opendata.swiss/en/organization/bundesamt-fur-meteorologie-und-klimatologie-meteoschweiz?q=&sort=max%28issued%2C+modified%29+desc) Metadata catalog | [Federal Statistical Office (FSO)](https://www.bfs.admin.ch/bfs/en/home.html) | Planned maintenance windows would be announced with a note on [opendata.swiss](https://opendata.swiss). | FSO [opendata.swiss support](https://opendata.swiss/en/contact) | 
 | [geocat.ch](https://www.geocat.ch/datahub/organization/Federal%20Office%20of%20Meteorology%20and%20Climatology%20MeteoSwiss) Geodata metadata catalog | swisstopo |     | swisstopo [geocat.ch support](https://info.geocat.ch/en/contact) |
-| Data collection & integration | MeteoSwiss | [Interruptions in data availability](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | MeteoSwiss [Open Data support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) |
+| Data collection & integration | MeteoSwiss | In the event of malfunctions at ground-based stations, check for [interruptions in data availability](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html) | MeteoSwiss [Open Data support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) |
 | Numerical weather forecasting model processing | [CSCS - Swiss National Supercomputing Centre](https://www.cscs.ch/services/contractual-partners) |    | MeteoSwiss [Open Data support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) |
 
-**data.geo.admin.ch STAC – API download service** will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner swisstopo continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, check [GeoAdmin API Release Notes](https://api3.geo.admin.ch/releasenotes/index.html) where swisstopo announces released changes that might affect your integration.
 
-**MeteoSwiss' data collection:** In the event of malfunctions at ground-based stations, check for [interruptions in data availability](https://www.meteoswiss.admin.ch/services-and-publications/applications/data-availability.html).
+## Release notes (Changelog)
+
+[Here](https://github.com/MeteoSwiss/opendata/blob/main/CHANGELOG.md) we keep you up to date on upcoming and released changes, such as:
+- 🚀 New Feature or Data,
+- 🐛 Bug Fix,
+- 🏃‍♀️ Performance,
+- 📝 Documentation or
+- 🔧 Maintenance.
+
+**data.geo.admin.ch STAC – API download service** will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner swisstopo continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, check [GeoAdmin API Release Notes](https://api3.geo.admin.ch/releasenotes/index.html) where swisstopo announces released changes that might affect your integration.
 
 
 ## Questions about the service
