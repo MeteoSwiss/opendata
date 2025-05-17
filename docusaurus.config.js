@@ -138,6 +138,12 @@ const config = {
             title: 'More',
             items: [
               {
+                label: 'Changelog',
+                href: 'https://github.com/MeteoSwiss/opendata/blob/main/CHANGELOG.md',
+              },
+            ],
+            items: [
+              {
                 label: 'GitHub',
                 href: 'https://github.com/MeteoSwiss/opendata',
               },
