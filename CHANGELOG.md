@@ -4,7 +4,7 @@ Subscribe through [RSS feeds](...) *[upcoming]* to stay up-to-date with new rele
 
 Types of changes are
 - :boom: Breaking Change
-- :rocket: New Feature
+- :rocket: New Feature or Data
 - :bug: Bug Fix
 - :running_woman: Performance
 - :high_brightness: Cleaning
