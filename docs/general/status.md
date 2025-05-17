@@ -18,7 +18,7 @@ sidebar_position: 3
 
 ## Release notes (Changelog)
 
-[Here](https://github.com/MeteoSwiss/opendata/blob/main/CHANGELOG.md) we keep you up to date on upcoming and released changes, such as:
+[Here](https://github.com/MeteoSwiss/opendata/blob/main/CHANGELOG.md) we keep you up to date about upcoming and released changes, such as:
 - 🚀 New Feature or Data,
 - 🐛 Bug Fix,
 - 🏃‍♀️ Performance,
