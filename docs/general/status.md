@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Staying up to date
 
-## Service availability
+## Systems, their availability and support contacts
 
 | System | operated by | Operational status | Contact point |
 |:-------|:------------|:-------------------|:--------------|
@@ -22,6 +22,6 @@ sidebar_position: 3
 
 ## Questions about the service
 
-If you have questions about the Download API, how to use the service, or the documentation, please read the sections [download data](/general/download) and [frequently asked questions (FAQ)](/general/faq).
+If you have questions about the download API, how to use the service, or the documentation, please read the sections [download data](/general/download) and [frequently asked questions (FAQ)](/general/faq).
 
 If you are unable to find the answer you are looking for, **contact us** via the [contact form](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html).
