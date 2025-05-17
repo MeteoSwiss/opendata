@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
-# Frequently asked questions (FAQ)
+# Domande frequenti (FAQ)
 
 TODO: add FAQ to this page.
 
