@@ -2,7 +2,7 @@
 
 Subscribe through [RSS feeds](...) *[upcoming]* to stay up-to-date with new releases!
 
-Types of changes are
+<!-- Types of changes are
 - :boom: Breaking Change
 - :rocket: New Feature or Data
 - :bug: Bug Fix
@@ -12,6 +12,7 @@ Types of changes are
 - :robot: Dependencies
 - :wrench: Maintenance
 - :globe_with_meridians: Translations
+-->
 
 
 ## 0.9.0 (2025-05-16)
