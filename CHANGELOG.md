@@ -3,14 +3,14 @@
 Subscribe through [RSS feeds](...) *[upcoming]* to stay up-to-date with new releases!
 
 Types of changes are
-- :boom: Breaking Change,
-- :rocket: New Feature,
-- :bug: Bug Fix,
-- :running_woman: Performance,
-- :high_brightness: Cleaning,
-- :memo: Documentation,
-- :robot: Dependencies,
-- :wrench: Maintenance,
+- :boom: Breaking Change
+- :rocket: New Feature
+- :bug: Bug Fix
+- :running_woman: Performance
+- :high_brightness: Cleaning
+- :memo: Documentation; follow all commits through [RSS feeds](https://github.com/MeteoSwiss/opendata/commits.atom)
+- :robot: Dependencies
+- :wrench: Maintenance
 - :globe_with_meridians: Translations
 
 
