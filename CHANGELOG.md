@@ -1,5 +1,7 @@
 # MeteoSwiss' Open Data Changelog
 
+Subscribe through [RSS feeds](https://opendatadocs.meteoswiss.ch/changelog/rss.xml or to stay up-to-date with new releases!
+
 ## 0.9.0 (2025-05-16)
 
 #### Example Title
