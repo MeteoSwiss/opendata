@@ -1,4 +1,4 @@
-# MeteoSwiss' Open Data Changelog
+# MeteoSwiss' Open Data Release Notes (Changelog)
 
 Subscribe through [RSS feeds](...) *[upcoming]* to stay up-to-date with new releases!
 
