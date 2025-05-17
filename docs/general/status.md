@@ -8,7 +8,8 @@ sidebar_position: 3
 
 | System | operated by | Operational status | Contact point |
 |:-------|:------------|:-------------------|:--------------|
-| Download service | swisstopo | [GeoAdmin API Uptime Status](https://api3.geo.admin.ch/api/status.html) | MeteoSwiss [Open Data Support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) |
+| [data.geo.admin.ch Spatial Temporal Asset Catalog (STAC) – API](https://www.geo.admin.ch/en/rest-interface-stac-api) download service | swisstopo | [GeoAdmin API Uptime Status](https://api3.geo.admin.ch/api/status.html) | MeteoSwiss [Open Data Support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) |
+| [Open Data Explorer](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/download-data-without-coding-skills.html#lang=en&mdt=normal&pgid=&sid=&col=&di=&tr=&hdr=) manual download interface | MeteoSwiss | [*upcoming*] | MeteoSwiss [Open Data support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) |
 | Data generation & integration | MeteoSwiss | [*upcoming*] | MeteoSwiss [Open Data support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) |
 | Numerical weather forecasting model processing | CSCS | [*upcoming*] | MeteoSwiss [Open Data support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html) |
 | Geodata metadata catalog geocat.ch | swisstopo | [*upcoming*] | swisstopo [geocat.ch support](https://info.geocat.ch/en/contact) |
