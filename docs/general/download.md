@@ -10,11 +10,11 @@ MeteoSwiss primarily uses the [Federal Spatial Data Infrastructure FSDI](https:/
 The documentation below relates to the data provided on the FSDI
 
 ### Numerical weather forecasting model data
-Numerical weather forecasting model data are made available for download by the [CSCS - Swiss National Supercomputing Centre](https://www.cscs.ch/services/contractual-partners).
+'Numerical weather forecasting model ICON-CH1/2-EPS' data are made available for download by the [CSCS - Swiss National Supercomputing Centre](https://www.cscs.ch/services/contractual-partners).
 
 :::info
 
-The different download options for 'Numerical weather forecasting model ICON-CH1/2-EPS' are documented [here](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=pythonapi#download-options).
+The different **download options are documented [here](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=pythonapi#download-options)**.
 
 :::
 
