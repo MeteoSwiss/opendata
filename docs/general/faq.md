@@ -22,7 +22,7 @@ So far, the following data is available
 <!--  - [D - Radar data](/d-data-radar)  -->
 - [E - Forecast data: Numerical weather forecasting model ICON-CH1/2-EPS](/e-forecast-data/e2-e3-numerical-weather-forecasting-model)
 
-Additional types of data will be released in the following months. The expected quarter for each dataset will be announced on our [Open Data landing page](https://www.meteoswiss.admin.ch/services-and-publications/services/open-data.html). -->
+Additional types of data will be released in the following months. The expected quarter for each dataset will be announced on our [Open Data landing page](https://www.meteoswiss.admin.ch/services-and-publications/services/open-data.html).
 
 
 ## How may I use data?
