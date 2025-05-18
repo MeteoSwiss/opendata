@@ -7,7 +7,7 @@ Hier finden Sie Antworten auf die am häufigsten gestellten Fragen. Wir aktualis
 
 
 ## Welche Art von Daten kann ich beziehen?
-Bisher sind folgende Daten verfügbar
+Bisher sind folgende Daten verfügbar:
 - [A – Bodenmessdaten](/a-data-groundbased)
 - [C – Klimadaten: Homogene Messreihen](/c-climate-data)
 - [E – Prognosedaten: Numerisches Wettervorhersagemodell ICON-CH1/2-EPS](/e-forecast-data/e2-e3-numerical-weather-forecasting-model)
