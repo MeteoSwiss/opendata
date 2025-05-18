@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Automatische Bodenfeuchtestationen – Messwerte
+# Automatische Bodenfeuchtestationen
 
 :::warning 
 
