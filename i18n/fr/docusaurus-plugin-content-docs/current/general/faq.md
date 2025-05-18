@@ -7,7 +7,7 @@ Vous trouverez ici les réponses aux questions les plus fréquemment posées. No
 
 
 ## Quel type de données puis-je obtenir ?
-À ce jour, les données suivantes sont disponibles
+À ce jour, les données suivantes sont disponibles :
 - [A – Données de mesures au sol](/a-data-groundbased)
 - [C – Données climatiques : séries de mesures homogènes](/c-climate-data)
 - [E – Données de prévision : Modèle numérique de prévision météorologique ICON-CH1/2-EPS](/e-forecast-data/e2-e3-numerical-weather-forecasting-model)
