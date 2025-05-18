@@ -20,7 +20,7 @@ So far, the following data is available
 - [C - Climate data: Homogeneous data series](/c-climate-data)
 - [E - Forecast data: Numerical weather forecasting model ICON-CH1/2-EPS](/e-forecast-data/e2-e3-numerical-weather-forecasting-model)
 
-Additional types of data will be released in the following months. The expected quarter for each dataset will be announced on our [Open Data landing page](https://www.meteoswiss.admin.ch/services-and-publications/services/open-data.html).
+Additional types of data will be released in the following months. The expected quarter for each dataset will be announced on our [Open Data landing page](https://www.meteoswiss.admin.ch/services-and-publications/service/open-data.html).
 
 <!--  [B - Atmosphere measurements](/b-data-atmosphere)  -->
 <!--  [D - Radar data](/d-data-radar)  -->
