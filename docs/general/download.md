@@ -14,7 +14,7 @@ The documentation below relates to the data provided on the FSDI
 
 :::info
 
-The different **download options are documented [here](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=pythonapi#download-options)**.
+The **different download options** are documented [**here**](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=pythonapi#download-options).
 
 :::
 
