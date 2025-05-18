@@ -8,7 +8,7 @@ sidebar_position: 3
 
 | System | Betreiberin | Betriebsstatus | Kontaktstelle |
 |:-------|:------------|:-------------------|:--------------|
-| [data.geo.admin.ch Spatial Temporal Asset Catalog (STAC) – API](https://www.geo.admin.ch/de/rest-schnittstelle-stac-api) Download-Dienst | swisstopo | [GeoAdmin API Uptime Status](https://api3.geo.admin.ch/api/status.html) | MeteoSchweiz [Open Data Support](https://www.meteoschweiz.admin.ch/ueber-uns/kontakt/kontaktformular.html) |
+| [data.geo.admin.ch Spatial Temporal Asset Catalog (STAC) – API](https://www.geo.admin.ch/de/rest-schnittstelle-stac-api) Download-Service | swisstopo | [GeoAdmin API Uptime Status](https://api3.geo.admin.ch/api/status.html) | MeteoSchweiz [Open Data Support](https://www.meteoschweiz.admin.ch/ueber-uns/kontakt/kontaktformular.html) |
 | [Open Data Explorer](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/download-data-without-coding-skills.html#lang=en&mdt=normal&pgid=&sid=&col=&di=&tr=&hdr=) Benutzeroberfläche für den manuellen Download | MeteoSwiss |     | MeteoSwiss [Open Data support](https://www.meteoschweiz.admin.ch/ueber-uns/kontakt/kontaktformular.html) |
 | [opendata.swiss](https://opendata.swiss/de/organization/bundesamt-fur-meteorologie-und-klimatologie-meteoschweiz?q=&sort=max%28issued%2C+modified%29+desc) Metadata catalog | [Bundesamt für Statistik (BFS)](https://www.bfs.admin.ch/bfs/de/home.html) | Geplante Wartungsfenster werden mit einem Hinweis auf [opendata.swiss](https://opendata.swiss) angekündigt. | BFS  [opendata.swiss Support](https://opendata.swiss/de/contact) | 
 | [geocat.ch](https://www.geocat.ch/datahub/organization/Bundesamt%20f%C3%BCr%20Meteorologie%20und%20Klimatologie%20MeteoSchweiz) Geodaten-Metadatenkatalog | swisstopo |    | swisstopo [geocat.ch Support](https://info.geocat.ch/de/kontakt) |
@@ -25,7 +25,7 @@ sidebar_position: 3
 - 📝 Dokumentation oder
 - 🔧 Wartungsarbeiten.
 
-Der **data.geo.admin.ch STAC – API Download-Dienst** wird keine grösseren Änderungen erfahren, da er dem OGC STAC API-Standard entspricht. Unser Partner swisstopo entwickelt und verbessert ihn laufend, sodass kleinere Änderungen und Fehlerbehebungen das Verhalten der API verändern können. Wenn Sie vermuten, dass Ihre Integration aufgrund von geändertem Verhalten nicht mehr funktioniert, überprüfen Sie die [GeoAdmin API Release Notes](https://api3.geo.admin.ch/releasenotes/index.html), in denen swisstopo veröffentlichte Änderungen ankündigt, die sich auf Ihre Integration auswirken könnten.
+Der **data.geo.admin.ch STAC – API Download-Service** wird keine grösseren Änderungen erfahren, da er dem OGC STAC API-Standard entspricht. Unser Partner swisstopo entwickelt und verbessert ihn laufend, sodass kleinere Änderungen und Fehlerbehebungen das Verhalten der API verändern können. Wenn Sie vermuten, dass Ihre Integration aufgrund von geändertem Verhalten nicht mehr funktioniert, überprüfen Sie die [GeoAdmin API Release Notes](https://api3.geo.admin.ch/releasenotes/index.html), in denen swisstopo veröffentlichte Änderungen ankündigt, die sich auf Ihre Integration auswirken könnten.
 
 
 ## Fragen zum Service
