@@ -68,6 +68,6 @@ Daher werden die Produkte `TabsD`, `TmaxD`, `TminD`, `SrelD` und `RhiresD` gegen
 
 
 ## Was bedeutet es, wenn Daten fehlen?
-The data downloaded from MeteoSwiss corresponds to the data available to MeteoSwiss. Sometimes you may experience that some data entries are missing. The root cause of this is typically a malfunctioning measurement instrument, which MeteoSwiss will repair as soon as possible.
+Die heruntergeladenen 'Open Data' entsprechen den Daten, die MeteoSwiss zur Verfügung stehen. Manchmal kann es vorkommen, dass einige Werte fehlen. Die Ursache hierfür ist in der Regel ein defektes Messgerät, das MeteoSwiss so schnell wie möglich reparieren wird.
 
-Please also note that [missing values](/general/download#missing-values) - regardless of the cause - are always represented as 'empty fields'. This applies to the vast majority of cases in which no measurements are taken at all.
+Bitte beachten Sie auch, dass [fehlende Werte](/general/download#missing-values) – unabhängig von ihrer Ursache – immer als 'leere Felder' dargestellt werden. Dies gilt für die überwiegende Mehrheit der Fälle, in denen überhaupt keine Messungen vorgenommen wurden.
