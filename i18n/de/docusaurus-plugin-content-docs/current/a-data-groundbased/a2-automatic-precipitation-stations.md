@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Automatische Niederschlagsstationen – Messwerte
+# Automatische Niederschlagsstationen
 
 Zur [Dokumentation auf Englisch](https://opendatadocs.meteoswiss.ch/a-data-groundbased/a2-automatic-precipitation-stations).
 
