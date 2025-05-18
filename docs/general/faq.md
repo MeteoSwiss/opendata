@@ -64,8 +64,13 @@ For QGIS there is a plugin called "DMI Open Data", that can be used to easily im
 [Ground-based Measurements](/a-data-groundbased) are initially raw, not quality assured measurements, which may be faulty due to the way they are collected. The use of these data shall be with regard to the fact that the measurements may be faulty. Errors are typically due to malfunction of instruments caused by wear and tear or exposure to weather and on rare occasions from vandalism. <!-- Wear and tear of the instruments are handled proactively by performing service checks at the stations on a regular basis and changing the instruments within the given time frame. -->
 
 In order to minimise the risk of incorrect measurements, MeteoSwiss checks the plausibility of the data during a rolling period of 5 days from the time of measurement using several automatic and manual control methods. The manually checked data, which is the highest quality check available, is normally published 5 days after the measurement.
-- If you need consistent and checked data, then we advise you to download the respective "recent" files e.g. each week in order that you have the manually checked data in your database.
-- The daily and monthly precipitation values, since there are still active manually operated stations, are an exception from this. They are manually checked around the end of the upcoming month only. Therefore, for a consistent dataset of daily or monthly precipitation values, you have to obtain the respective "recent" files each month.
+
+:::tip
+
+- If you need consistent and checked data, then we advise you to download the respective [`recent` files](/general/download#update-frequency) e.g. each week in order that you have the manually checked data in your database.
+- The daily and monthly precipitation values, since there are still active manually operated stations, are an exception from this. They are manually checked around the end of the upcoming month only. Therefore, for a consistent dataset of daily or monthly precipitation values, you have to obtain the respective [`recent` files](/general/download#update-frequency) each month.
+
+:::
 
 [Here](https://www.meteoswiss.admin.ch/weather/measurement-systems/data-management/data-preparation.html) you can find out more about how MeteoSwiss prepares its data. Topics include aggregation and calculation, completeness check, plausibility check, and homogenisation.
 
@@ -74,7 +79,11 @@ In order to minimise the risk of incorrect measurements, MeteoSwiss checks the p
 
 Since some 10min data can be late or missing or there can be any issues with the radar, they are reprocessed automatically 8 days later, including all available and checked 10min automatic measured precipitation values. The published data will be overwritten automatically every 8 days.
 
+:::tip
+
 For the best quality data we therefore recommend to use only the reprocessed data which is more than 8 days old or, if the current data have been used for quick assessment, to dowload the reprocessed data later on.
+
+:::
 
 ### Spatial climate data
 The daily spatial climate data [`RprelimD`, `TabsD`, `TmaxD`, `TminD` and `SrelD`](/c-climate-data/c3-ground-based-climate-data) are calculated daily, based on the available daily data. 
@@ -91,7 +100,7 @@ Therefore the `TabsD`, `TmaxD`, `TminD`, `SrelD` and `RhiresD` products are beei
 
 
 ## What if data is missing?
-The data downloaded from MeteoSwiss corresponds to the data available to MeteoSwiss. Sometimes you may experience that some data entries are missing. The root cause of this is typically a malfunctioning measurement instrument, which MeteoSwiss will repair as soon as possible.
+The 'open data' downloaded from MeteoSwiss corresponds to the data available to MeteoSwiss. Sometimes you may experience that some values are missing. The root cause of this is typically a malfunctioning measurement instrument, which MeteoSwiss will repair as soon as possible.
 
 Please also note that [missing values](/general/download#missing-values) - regardless of the cause - are always represented as 'empty fields'. This applies to the vast majority of cases in which no measurements are taken at all.
 
