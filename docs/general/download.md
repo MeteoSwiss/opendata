@@ -78,7 +78,7 @@ This is the overview of the granularities for [Ground-based](/a-data-groundbased
 
 
 ### Update frequency
-For [Ground-based](https://opendatadocs.meteoswiss.ch/a-data-groundbased) and [Atmosphere measurements](https://opendatadocs.meteoswiss.ch/b-data-atmosphere) as well as for [Climate stations – Homogeneous measurements](https://opendatadocs.meteoswiss.ch/c-climate-data/c1-climate-stations_homogeneous) and [Climate precipitation stations - Homogeneous measurements](https://opendatadocs.meteoswiss.ch/c-climate-data/c2-climate-percipitation-stations_homogeneous) MeteoSwiss provides an optimized directory structure separating older historical data, which is not updated regularly, and more recent data, which is updated more often. For realtime data we provide a third "now" directory with a high update frequency.
+For [Ground-based](/a-data-groundbased) and [Atmosphere measurements](/b-data-atmosphere) as well as for [Climate stations – Homogeneous data series](/c-climate-data/c1-climate-stations_homogeneous) and [Climate precipitation stations - Homogeneous data series](/c-climate-data/c2-climate-percipitation-stations_homogeneous) MeteoSwiss provides an optimized directory structure separating older historical data, which is not updated regularly, and more recent data, which is updated more often. For realtime data we provide a third "now" directory with a high update frequency.
 
 This is the overview:
 
@@ -93,9 +93,9 @@ This is the overview:
 ### Column separators and decimal dividers
 Generally, columns are separated with a semicolon (`;`).
 
-:::note
+If you are using Windows Excel in a language version other than German, change the separator to `;` when opening the file (respectively use the ‘Text Conversion Assistant’ in the ‘Data’ menu).
 
-**If you are using Windows Excel in a language version other than German, change the separator to `;` when opening the file (respectively use the ‘Text Conversion Assistant’ in the ‘Data’ menu).**
+:::note
 
 Why did we choose the semicolon as a separator?
 - Microsoft uses CSV files with a semicolon as separator in the default settings of the German Windows Excel version.
