@@ -62,7 +62,7 @@ Afin d'obtenir des données de la meilleure qualité possible, nous vous recomma
 ### Données climatiques spatiales
 Les données climatiques spatiales quotidiennes [`RprelimD`, `TabsD`, `TmaxD`, `TminD` et `SrelD`](/c-climate-data/c3-ground-based-climate-data) sont calculées quotidiennement sur la base des données journalières disponibles.
 
-Comme mentionné dans la section [Données de mesures au sol](/general/faq#donnees-de-mesures-au-sol) ci-dessus, les données ne sont vérifiées que plus tard, ce qui nécessite un nouveau calcul des produits. Les valeurs quotidiennes des précipitations vérifiées manuellement sont également enregistrées dans `RprelimD` à la fin du mois, ce qui donne le produit `RhiresD`.
+Comme mentionné dans la section [Données de mesures au sol](/general/faq#donn%C3%A9es-de-mesures-au-sol) ci-dessus, les données ne sont vérifiées que plus tard, ce qui nécessite un nouveau calcul des produits. Les valeurs quotidiennes des précipitations vérifiées manuellement sont également enregistrées dans `RprelimD` à la fin du mois, ce qui donne le produit `RhiresD`.
 
 Par conséquent, les produits `TabsD`, `TmaxD`, `TminD`, `SrelD` et `RhiresD` sont recalculés vers la fin de chaque mois suivant (vers le jour 25) pour le mois précédent afin de garantir la meilleure qualité possible des données.
 
