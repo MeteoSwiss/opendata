@@ -99,7 +99,7 @@ This is the overview:
 ### Column separators and decimal dividers
 Generally, columns are separated with a semicolon (`;`).
 
-If you are using Windows Excel in a language version other than German, change the separator to `;` when opening the file (respectively use the ‘Text Conversion Assistant’ in the ‘Data’ menu).
+If you are using Windows Excel in a language version other than German, change the separator to `;` when opening the file (respectively use the 'Text Conversion Assistant' in the 'Data' menu).
 
 :::note
 
