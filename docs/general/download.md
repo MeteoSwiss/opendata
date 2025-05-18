@@ -7,7 +7,7 @@ sidebar_position: 2
 ### Ground-based measurements
 MeteoSwiss primarily uses the [Federal Spatial Data Infrastructure FSDI](https://www.geo.admin.ch/en/federal-spatial-data-infrastructure-fsdi), which is operated by [swisstopo](https://www.swisstopo.admin.ch/en/coordination-geo-information-and-services-cogis).
 
-The documentation below relates to the data provided on the FSDI
+The documentation below relates to the data provided on the FSDI.
 
 ### Numerical weather forecasting model data
 'Numerical weather forecasting model ICON-CH1/2-EPS' data are made available for download by the [CSCS - Swiss National Supercomputing Centre](https://www.cscs.ch/services/contractual-partners).
