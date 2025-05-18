@@ -3,13 +3,6 @@ sidebar_position: 4
 ---
 
 # Frequently Asked Questions (FAQ)
-
-:::warning
-
-The following documentation is currently being prepared and may be subject to change.
-
-:::
-
 Below you'll find answers to the most frequently asked questions. We continuously update these based on questions received.
 
 <!--  TODO: Mögliche weitere Fragen:  -->
@@ -22,29 +15,28 @@ Below you'll find answers to the most frequently asked questions. We continuousl
 
 
 ## What type of data can I get?
-The following data is available:
-- [Ground-based measurements](/a-data-groundbased)
-- [Climate data: Homogeneous measurements](/c-climate-data)
-- [Forecast data: Numerical weather forecasting model](/e-forecast-data)
-<!--  - [Atmosphere measurements](/c-data-climate)  -->
-<!--  - [Climate data](/c-data-climate)  -->
-<!--  - [Radar data](/d-data-radar)  -->
-<!--  - [Forecast data](/e-data-forecast)  -->
+So far, the following data is available
+- [A - Ground-based measurements](/a-data-groundbased)
+<!--  - [B - Atmosphere measurements](/b-data-atmosphere)  -->
+- [C - Climate data: Homogeneous data series](/c-climate-data)
+<!--  - [D - Radar data](/d-data-radar)  -->
+- [E - Forecast data: Numerical weather forecasting model ICON-CH1/2-EPS](/e-forecast-data/e2-e3-numerical-weather-forecasting-model)
 
-<!--
+Additional types of data will be released in the following months. The expected quarter for each dataset will be announced on our [Open Data landing page](https://www.meteoswiss.admin.ch/services-and-publications/services/open-data.html). -->
+
+
 ## How may I use data?
-You can freely use MeteoSwiss' data for any purpose including further processing and distribution. Be aware, that you may not make changes to the actual data retrieved from MeteoSwiss*. Please read the [Terms of Use](/general/terms-of-use) for further information.
--->
+Read the [Rights of use with regard to the data](/general/terms-of-use#2-rights-of-use-with-regard-to-the-data).
 
-<!--
-## Is there any limitation to the use of data?
-*Data retrieved from MeteoSwiss may not be changed*. MeteoSwiss' *Download service partner swisstopo reserves the right to block or adjust the bandwidth for individual users, if these strain geo.admin.ch to a disproportionately wide extent*.
--->
 
-<!--
+## Is there a usage limitation?
+MeteoSwiss' download service partner swisstopo reserves the right to block or adjust the bandwidth for individual users, if these strain geo.admin.ch to a disproportionately wide extent. Read the [General Terms of Use and Operating Conditions of the Federal Spatial Data Infrastructure FSDI, chapter 2. Data use](https://www.geo.admin.ch/en/general-terms-of-use-fsdi#2.-Data-use).
+
+
 ## How often is data updated?
-You can see the *update frequency* by choosing the appropriate Open Data product and then scrolling to *“Data information” > “Parameters”*.
--->
+For 'Ground-based measurements' as well as for 'Climate stations – Homogeneous data series' and 'Climate precipitation stations - Homogeneous data series' the update frequencies specified [here](/general/download#update-frequency) apply.
+
+For other data types, please refer to their corresponding documentation.
 
 <!-- ### How do I retrieve large quantities of data? -->
 <!-- If you want to download large quantities of historical data, we recommend that you use download. --> 
@@ -66,11 +58,7 @@ Data retrieved through the API is only available in JSON format, but DMI's open 
 For QGIS there is a plugin called "DMI Open Data", that can be used to easily import data. Please see our guide. -->
 
 
-## Are data available in CSV/excel?
-All tabular data, which is available in CSV, can be imported into excel.
-
-
-## What about the quality control of data?  <!-- DO NOT CHANGE THIS TITLE ! -->
+## What about the quality control of data?  <!-- Do not change this title! -->
 
 ### Ground-based measurements
 [Ground-based Measurements](/a-data-groundbased) are initially raw, not quality assured measurements, which may be faulty due to the way they are collected. The use of these data shall be with regard to the fact that the measurements may be faulty. Errors are typically due to malfunction of instruments caused by wear and tear or exposure to weather and on rare occasions from vandalism. <!-- Wear and tear of the instruments are handled proactively by performing service checks at the stations on a regular basis and changing the instruments within the given time frame. -->
@@ -138,5 +126,3 @@ We also use a range of other methods (e.g. Lucas-Kanade optical flow) available 
 *A precision of at least five decimals is recommended when using the above equation.*
 
 *Now use the calculated grid distance along with the western reach and the number of grids to calculate the accurate eastern reach by using the following equation: ((..))* -->
-
-
