@@ -6,5 +6,5 @@ sidebar_position: 4
 
 TODO: add FAQ to this page.
 
-## Qu'en est-il du contrôle de la qualité des données ?
+## Qu'en est-il du contrôle de la qualité des données ?  <!-- Ne modifiez pas ce titre ! -->
 ...
