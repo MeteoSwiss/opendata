@@ -6,7 +6,7 @@ sidebar_position: 2
 
 :::info
 
-This part of the documentation is primarily intended for technical users and is available in English.
+**This part of the documentation** is primarily intended for technical users and **is available in English**.
 
 :::
 
