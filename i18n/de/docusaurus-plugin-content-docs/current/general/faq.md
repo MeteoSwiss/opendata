@@ -62,7 +62,7 @@ Um Daten von bester Qualität zu erhalten, empfehlen wir daher, nur die überarb
 ### Räumliche Klimadaten
 Die täglichen räumlichen Klimadaten [`RprelimD`, `TabsD`, `TmaxD`, `TminD` und `SrelD`](/c-climate-data/c3-ground-based-climate-data) werden täglich auf der Grundlage der verfügbaren Tagesdaten berechnet.
 
-Wie im Abschnitt [ground-based measurements](/general/faq#Bodenmessdaten) oben erwähnt, werden die Daten erst später überprüft, sodass eine spätere Neuberechnung der Produkte erforderlich ist. Auch die manuell überprüften täglichen Niederschlagswerte werden nach Ablauf des Monats in `RprelimD` aufgenommen, woraus sich das Produkt `RhiresD` ergibt.
+Wie im Abschnitt [ground-based measurements](/general/faq#bodenmessdaten) oben erwähnt, werden die Daten erst später überprüft, sodass eine spätere Neuberechnung der Produkte erforderlich ist. Auch die manuell überprüften täglichen Niederschlagswerte werden nach Ablauf des Monats in `RprelimD` aufgenommen, woraus sich das Produkt `RhiresD` ergibt.
 
 Daher werden die Produkte `TabsD`, `TmaxD`, `TminD`, `SrelD` und `RhiresD` gegen Ende jedes folgenden Monats (um den 25. Tag herum) für den letzten Monat neu berechnet, um die bestmögliche Datenqualität zu gewährleisten.  
 
