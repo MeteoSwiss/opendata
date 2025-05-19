@@ -62,6 +62,9 @@ const config = {
             type: 'all',
             copyright: `Copyright © ${new Date().getFullYear()} Federal Office of Meteorology and Climatology MeteoSwiss`,
             xslt: true,
+            title: 'Changelog',
+            description: 'MeteoSwiss Open Data Changelog',
+            language: 'en',
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
