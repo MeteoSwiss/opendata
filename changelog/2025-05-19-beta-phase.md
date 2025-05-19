@@ -1,5 +1,5 @@
 ---
-title: 'Beta phase ends'
+title: 'Beta phase completed'
 ---
 
 <!-- Types of changes are
