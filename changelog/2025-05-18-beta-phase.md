@@ -1,6 +1,6 @@
-# MeteoSwiss' Open Data Release Notes (Changelog)
-
-Check the changelog at https://opendatadocs.meteoswiss.ch/changelog or subscribe to the [RSS feed](https://opendatadocs.meteoswiss.ch/changelog/rss.xml) to stay up-to-date with new releases!
+---
+title: 'Beta phase ends'
+---
 
 <!-- Types of changes are
 - :boom: Breaking Change
@@ -13,3 +13,8 @@ Check the changelog at https://opendatadocs.meteoswiss.ch/changelog or subscribe
 - :wrench: Maintenance
 - :globe_with_meridians: Translations
 -->
+
+## :memo: Documentation
+
+- Mark end of beta phase in documentation
+- Prepare for release on 2025-05-22

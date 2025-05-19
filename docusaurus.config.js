@@ -50,25 +50,27 @@ const config = {
           editUrl: 'https://github.com/MeteoSwiss/opendata/edit/main/',
           editLocalizedFiles: true,
         },
-        /*
         blog: {
-          routeBasePath: '/',
-          blogTitle: 'Open Data Documentation',
-          showReadingTime: true,
+          routeBasePath: '/changelog',
+          blogTitle: 'Changelog',
+          blogSidebarTitle: "Changelog",
+          blogSidebarCount: "ALL",
+          path: 'changelog',
+          showReadingTime: false,
           feedOptions: {
-            type: ['rss', 'atom'],
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} Federal Office of Meteorology and Climatology MeteoSwiss`,
             xslt: true,
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
-          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //  'https://github.com/MeteoSwiss/opendata/tree/main/changelog',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
-        */
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -139,10 +141,8 @@ const config = {
             items: [
               {
                 label: 'Changelog',
-                href: 'https://github.com/MeteoSwiss/opendata/blob/main/CHANGELOG.md',
+                href: '/changelog',
               },
-            ],
-            items: [
               {
                 label: 'GitHub',
                 href: 'https://github.com/MeteoSwiss/opendata',
