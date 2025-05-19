@@ -53,6 +53,7 @@ const config = {
         blog: {
           routeBasePath: '/changelog',
           blogTitle: 'Changelog',
+          blogDescription: 'MeteoSwiss Open Data Changelog',
           blogSidebarTitle: "Changelog",
           blogSidebarCount: "ALL",
           path: 'changelog',
