@@ -18,7 +18,7 @@ sidebar_position: 3
 
 ## Release notes (Changelog)
 
-[Here](https://opendatadocs.meteoswiss.ch/changelog) we keep you up to date about upcoming and released changes of our Open Data service, such as:
+[Here](https://opendatadocs.meteoswiss.ch/changelog) we keep you up to date about upcoming and released **changes of our Open Data service**, such as:
 - 🚀 New Feature or Data,
 - 🐛 Bug Fix,
 - 🏃‍♀️ Performance,
