@@ -18,7 +18,7 @@ sidebar_position: 3
 
 ## Release notes (Changelog)
 
-[Qui](https://github.com/MeteoSwiss/opendata/blob/main/CHANGELOG.md) vi terremo aggiornati sulle modifiche imminenti e già apportate, come ad esempio:
+[Qui](https://opendatadocs.meteoswiss.ch/changelog) vi teniamo aggiornati sulle modifiche imminenti e già apportate al nostro servizio Open Data, quali:
 - 🚀 Nuove funzioni o dati,
 - 🐛 Correzione di errori,
 - 🏃‍♀️ Prestazioni,
