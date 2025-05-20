@@ -335,5 +335,13 @@
   "homepage.main_title": {
     "message": "Documentazione in costruzione",
     "description": "Title on the main page"
+  },
+  "Open Data documentation": {
+    "message": "Open Data documentation",
+    "description": "Homepage title"
+  },
+  "MeteoSwiss - Open Data documentation": {
+    "message": "MeteoSwiss - Open Data documentation",
+    "description": "Homepage description"
   }
 }
