@@ -74,6 +74,7 @@ In order to minimise the risk of incorrect measurements, MeteoSwiss checks the p
 
 [Here](https://www.meteoswiss.admin.ch/weather/measurement-systems/data-management/data-preparation.html) you can find out more about how MeteoSwiss prepares its data. Topics include aggregation and calculation, completeness check, plausibility check, and homogenisation.
 
+<!--  
 ### Precipitation radar products 
 [Precipitation radar products](/d-radar-data/d1-precipitation-radar-products) ('CombiPrecip') are based on 10min automatic surface measurements and radar data. 
 
@@ -91,7 +92,7 @@ The daily spatial climate data [`RprelimD`, `TabsD`, `TmaxD`, `TminD` and `SrelD
 As noted in the [ground-based measurements](/general/faq#ground-based-measurements)' section above, the data is beeing checked only later on, therefore a later recalculation of the products is necessary. Also the checked manually measured daily precipitation values are included after the end of the month in `RprelimD`, resulting in the `RhiresD` product.
 
 Therefore the `TabsD`, `TmaxD`, `TminD`, `SrelD` and `RhiresD` products are beeing recalculated around the end of each following month (around the 25th) for the last month, to ensure the best available data quality. 
-
+-->
 
 <!-- ### Can I get data from third parties? -->
 <!-- It is possible to download data from third parties, if an agreement exists between the third party and MeteoSwiss. The owner of the station is marked in the station metadata file of the respective Open Data product.
