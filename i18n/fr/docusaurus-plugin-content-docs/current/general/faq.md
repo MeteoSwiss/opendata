@@ -48,6 +48,7 @@ Afin de minimiser le risque de mesures erronées, MétéoSuisse vérifie la plau
 
 [Ici](https://www.meteosuisse.admin.ch/meteo/systemes-de-mesure/gestion-des-donnees/preparation-des-donnees.html), vous trouverez plus d'informations sur la manière dont MeteoSwiss prépare les données. Les thèmes abordés comprennent l'agrégation et le calcul, le contrôle d'exhaustivité, le contrôle de plausibilité et l'homogénéisation.
 
+<!--  
 ### Produits radar de précipitation
 Les [Produits radar de précipitation](/d-radar-data/d1-precipitation-radar-products) ('CombiPrecip') sont basés sur des données automatiques mesurées au sol toutes les 10 minutes et sur des données radar.
 
@@ -65,7 +66,7 @@ Les données climatiques spatiales quotidiennes [`RprelimD`, `TabsD`, `TmaxD`, `
 Comme mentionné dans la section [Données de mesures au sol](/general/faq#donn%C3%A9es-de-mesures-au-sol) ci-dessus, les données ne sont vérifiées que plus tard, ce qui nécessite un nouveau calcul des produits. Les valeurs quotidiennes des précipitations vérifiées manuellement sont également enregistrées dans `RprelimD` à la fin du mois, ce qui donne le produit `RhiresD`.
 
 Par conséquent, les produits `TabsD`, `TmaxD`, `TminD`, `SrelD` et `RhiresD` sont recalculés vers la fin de chaque mois suivant (vers le jour 25) pour le mois précédent afin de garantir la meilleure qualité possible des données.
-
+-->
 
 ## Que signifie le fait que des données manquent ?
 Les 'Open Data' téléchargées correspondent aux données dont dispose MétéoSuisse. Il peut parfois arriver que certaines valeurs soient manquantes. Cela est généralement dû à un appareil de mesure défectueux, que MétéoSuisse s'efforce de réparer dans les meilleurs délais.
