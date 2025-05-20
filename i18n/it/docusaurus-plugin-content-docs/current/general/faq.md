@@ -48,6 +48,7 @@ Al fine di ridurre al minimo il rischio di misurazioni errate, MeteoSvizzera ver
 
 [Qui](https://www.meteosvizzera.admin.ch/tempo/i-sistemi-di-rilevamento/gestione-dei-dati/elaborazione-dei-dati.html) potete trovare maggiori informazioni su come MeteoSwiss elabora i dati. Gli argomenti trattati includono l'aggregazione e il calcolo, il controllo della completezza, il controllo della plausibilità e l'omogeneizzazione.
 
+<!--  
 ### Prodotti radar - Precipitazioni
 I [Prodotti radar - Precipitazioni](/d-radar-data/d1-precipitation-radar-products) ('CombiPrecip') si basano su dati delle misurazioni al suolo automatici rilevati ogni 10 minuti e dati radar. 
 
@@ -65,7 +66,7 @@ I dati climatici spaziali giornalieri [`RprelimD`, `TabsD`, `TmaxD`, `TminD` e `
 Come indicato nella sezione [misurazioni a terra](/general/faq#dati-delle-misurazioni-al-suolo) sopra, i dati vengono verificati solo in un secondo momento, rendendo necessario un ricalcolo dei prodotti. Anche i valori giornalieri delle precipitazioni verificati manualmente vengono inseriti in `RprelimD` alla fine del mese, da cui si ottiene il prodotto `RhiresD`.
 
 Pertanto, i prodotti `TabsD`, `TmaxD`, `TminD`, `SrelD` e `RhiresD` vengono ricalcolati verso la fine di ogni mese successivo (intorno al giorno 25) per il mese precedente, al fine di garantire la migliore qualità possibile dei dati.
-
+-->
 
 ## Cosa significa quando mancano dei dati?
 I 'Open Data' scaricati corrispondono ai dati a disposizione di MeteoSvizzera. A volte può capitare che alcuni valori siano mancanti. La causa è solitamente un dispositivo di misurazione difettoso, che MeteoSvizzera provvederà a riparare il prima possibile.
