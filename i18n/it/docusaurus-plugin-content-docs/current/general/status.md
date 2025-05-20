@@ -18,7 +18,7 @@ sidebar_position: 3
 
 ## Release notes (Changelog)
 
-[Qui](https://opendatadocs.meteoswiss.ch/changelog) vi teniamo aggiornati sulle modifiche imminenti e già apportate al nostro servizio Open Data, quali:
+Consultate [opendatadocs.meteoswiss.ch/changelog](https://opendatadocs.meteoswiss.ch/changelog) o vi abbonate al [feed RSS](https://opendatadocs.meteoswiss.ch/changelog/rss.xml) per rimanere aggiornati sulle **modifiche al nostro servizio Open Data**, quali:
 - 🚀 Nuove funzioni o dati,
 - 🐛 Correzione di errori,
 - 🏃‍♀️ Prestazioni,
