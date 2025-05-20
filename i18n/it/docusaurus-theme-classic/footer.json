@@ -30,5 +30,9 @@
   "copyright": {
     "message": "Copyright © 2024 Federal Office of Meteorology and Climatology MeteoSwiss. Built with Docusaurus.",
     "description": "The footer copyright"
+  },
+  "link.item.label.Changelog": {
+    "message": "Changelog",
+    "description": "The label of footer link with label=Changelog linking to /changelog"
   }
 }

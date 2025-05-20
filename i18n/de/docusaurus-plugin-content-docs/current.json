@@ -9,7 +9,7 @@
   },
   "sidebar.dataSidebar.category.B - Atmosphere measurements": {
     "message": "B - Atmosphärenmessdaten",
-    "description": "The label for category B - Atmosphere Measurements in sidebar dataSidebar"
+    "description": "The label for category B - Atmosphere measurements in sidebar dataSidebar"
   },
   "sidebar.dataSidebar.category.Open Data Documentation": {
     "message": "Open Data Documentation",
@@ -17,18 +17,18 @@
   },
   "sidebar.dataSidebar.category.General information": {
     "message": "Allgemeine Informationen",
-    "description": "The label for category General Information in sidebar dataSidebar"
+    "description": "The label for category General information in sidebar dataSidebar"
   },
   "sidebar.dataSidebar.category.C - Climate data": {
     "message": "C - Klimadaten",
-    "description": "The label for category C - Climate Data in sidebar dataSidebar"
+    "description": "The label for category C - Climate data in sidebar dataSidebar"
   },
   "sidebar.dataSidebar.category.D - Radar data": {
     "message": "D - Radardaten",
-    "description": "The label for category D - Radar Data in sidebar dataSidebar"
+    "description": "The label for category D - Radar data in sidebar dataSidebar"
   },
   "sidebar.dataSidebar.category.E - Forecast data": {
     "message": "E - Prognosedaten",
-    "description": "The label for category E - Forecast Data in sidebar dataSidebar"
+    "description": "The label for category E - Forecast data in sidebar dataSidebar"
   }
 }
