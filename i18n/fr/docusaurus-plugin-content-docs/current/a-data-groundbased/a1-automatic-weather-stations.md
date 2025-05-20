@@ -27,7 +27,7 @@ import TabItem from '@theme/TabItem';
     
     Time series can begin before the introduction of automatic measurements in the year 1981. Before 1981 at least three values per day were manually measured. They are stored as individual 10-minute values ([synoptic observations](https://community.wmo.int/en/observation-components-global-observing-system)).
   </TabItem>
-  <TabItem value="un-fichier-contenant-toutes-les-stations" label="Un Fichier contenant toutes les stations">
+  <TabItem value="un-fichier-contenant-toutes-les-stations" label="Un fichier contenant toutes les stations">
     In addition we offer the [main parameters of all stations (in one file) – every 10 minutes, most recent values](https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA80.csv).
 
     The update interval for this file is around 10 minutes.
