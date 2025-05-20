@@ -48,6 +48,7 @@ Um das Risiko fehlerhafter Messungen zu minimieren, überprüft MeteoSwiss die P
 
 [Hier](https://www.meteoschweiz.admin.ch/wetter/messsysteme/datenmanagement/datenaufbereitung.html) erfahren Sie mehr darüber, wie MeteoSwiss Daten aufbereitet. Zu den Themen gehören Aggregation und Berechnung, Vollständigkeitsprüfung, Plausibilitätsprüfung und Homogenisierung.
 
+<!--  
 ### Niederschlags-Radarprodukte 
 [Niederschlags-Radarprodukte](/d-radar-data/d1-precipitation-radar-products) ('CombiPrecip') basieren auf automatischen 10-Minuten-Bodenmessdaten und Radardaten. 
 
@@ -65,7 +66,7 @@ Die täglichen räumlichen Klimadaten [`RprelimD`, `TabsD`, `TmaxD`, `TminD` und
 Wie im Abschnitt [ground-based measurements](/general/faq#bodenmessdaten) oben erwähnt, werden die Daten erst später überprüft, sodass eine spätere Neuberechnung der Produkte erforderlich ist. Auch die manuell überprüften täglichen Niederschlagswerte werden nach Ablauf des Monats in `RprelimD` aufgenommen, woraus sich das Produkt `RhiresD` ergibt.
 
 Daher werden die Produkte `TabsD`, `TmaxD`, `TminD`, `SrelD` und `RhiresD` gegen Ende jedes folgenden Monats (um den 25. Tag herum) für den letzten Monat neu berechnet, um die bestmögliche Datenqualität zu gewährleisten.  
-
+-->
 
 ## Was bedeutet es, wenn Daten fehlen?
 Die heruntergeladenen 'Open Data' entsprechen den Daten, die MeteoSwiss zur Verfügung stehen. Manchmal kann es vorkommen, dass einige Werte fehlen. Die Ursache hierfür ist in der Regel ein defektes Messgerät, das MeteoSwiss so schnell wie möglich reparieren wird.
