@@ -32,7 +32,7 @@ Für 'Bodenmessdaten' sowie für 'Klimastationen – Homogene Messreihen' und 'N
 Für andere Datentypen beachten Sie bitte deren entsprechende Dokumentation.
 
 
-## Was ist im Zusammenhang mit der Qualitätskontrolle der Daten zu beachten
+## Was ist im Zusammenhang mit der Qualitätskontrolle der Daten zu beachten?
 <!-- Diesen Titel nicht ändern! -->
 
 ### Bodenmessdaten
