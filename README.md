@@ -1,5 +1,8 @@
 <!-- [![GitHub commit](https://img.shields.io/github/last-commit/MeteoSwiss/opendata)](https://github.com/MeteoSwiss/opendata/commits/master) -->
 
+[![Build documentation](https://github.com/MeteoSwiss/opendata/actions/workflows/build.yml/badge.svg)](https://github.com/MeteoSwiss/opendata/actions/workflows/build.yml)
+[![Deploy to GitHub Pages](https://github.com/MeteoSwiss/opendata/actions/workflows/deploy.yml/badge.svg)](https://github.com/MeteoSwiss/opendata/actions/workflows/deploy.yml)
+
 ⚠️ **Status:** in preparation / [change log](https://github.com/MeteoSwiss/opendata/commits/main).
 
 # MeteoSwiss - Open Data
