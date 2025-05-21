@@ -8,6 +8,8 @@ Zur [Dokumentation auf Englisch](https://opendatadocs.meteoswiss.ch/a-data-groun
 
 Die Übersetzung folgt.
 
+<!-- nospell -->
+
 ## Datenstruktur
 
 import Tabs from '@theme/Tabs';
@@ -67,3 +69,5 @@ import TabItem from '@theme/TabItem';
     <sup>4</sup> Information about the [automatic tower stations](/a-data-groundbased/a3-automatic-tower-stations) dataset/collection.
   </TabItem>
 </Tabs>
+
+<!-- endnospell -->

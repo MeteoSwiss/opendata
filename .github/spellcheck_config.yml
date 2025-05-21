@@ -9,21 +9,24 @@ matrix:
     encoding: utf-8
   pipeline:
   - pyspelling.filters.markdown:
+      markdown_extensions:
+      - markdown.extensions.extra
+      - markdown.extensions.meta
+      - markdown.extensions.tables
+      - markdown.extensions.admonition
   - pyspelling.filters.context:
       context_visible_first: true
-      escapes: \\[\\`~]
+      escapes: '\\[\\`~]'
       delimiters:
-      # Ignore multiline content between fences (fences can have 3 or more back ticks or "---")
-      # ```
-      # content
-      # ```
-      - open: '(?s)^(?P<open> *[`-]{3,})$'
-        close: '^(?P=open)$'
-      # Ignore text between inline back ticks
-      - open: '(?P<open>`+)'
-        close: '(?P=open)'
+        # ignore sections marked with nospell
+        - open: '<!-- nospell -->'
+          close: '<!-- endnospell -->'
+  - pyspelling.filters.url:
   - pyspelling.filters.html:
       comments: false
+      attributes:
+      - 'title'
+      - 'alt'
       ignores:
       - code
       - pre
