@@ -52,3 +52,5 @@ Turmstationen
 Vollständigkeitsprüfung
 Wettervorhersagemodell
 Wolkenbedeckung
+Kurzfristprognosedaten
+Lokalprognosedaten

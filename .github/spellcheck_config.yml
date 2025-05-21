@@ -14,6 +14,7 @@ matrix:
       delimiters:
         # ignore sections marked with nospell
         - open: '<!-- nospell -->'
+          content: '.*'
           close: '<!-- endnospell -->'
         # Ignore multiline content between fences (fences can have 3 or more back ticks)
         # ```
@@ -34,7 +35,7 @@ matrix:
       - markdown.extensions.tables
       - markdown.extensions.admonition
   - pyspelling.filters.html:
-      comments: true
+      comments: false
       attributes:
       - 'title'
       - 'alt'
