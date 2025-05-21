@@ -51,6 +51,20 @@
   padding-left: 1.5rem;
 }
 
+/** Arrow to external links */
+a[target="_blank"]:after {
+    display: inline-block;
+    content: '';
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    background-color: currentColor;
+    -webkit-mask: url(/img/external-link.svg) no-repeat 50% 50%;
+    mask: url(/img/external-link.svg) no-repeat 50% 50%;
+    margin: -0.3em -0.2em -0.25em 0.05em;
+    width: 1.2em;
+    height: 1.2em;
+}
+
 /** In mobile view, reduce the padding */
 @media screen and (max-width: 996px) {
   .navbar__title {

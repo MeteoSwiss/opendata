@@ -31,12 +31,12 @@ import TabItem from '@theme/TabItem';
 
     The files include *[to be verified]*:
 
-    | Variable name      | Description              | Datatype         | Note                                              |
-    | :---               | :---                     | :---             | :---                                              |
-    | *`param_id`*       | Parameter identification | `Number`         | see [Parameter metadata](./#92-parameter-metadata)  |
-    | *`nat_abbr`*       | Station abbreviation     | `Text`           | see [Station metadata](./#93-station-metadata)      |
-    | *`reference_year`* | Reference year           | `YYYY`           |                                                   |
-    | *`value`*          | Date of observation      | `YYYYMMDD`       |                                                   |
+    | Variable name      | Description              | Datatype         | Note                                                                                                     |
+    | :---               | :---                     | :---             | :---                                                                                                     |
+    | *`param_id`*       | Parameter identification | `Number`         | see [Parameter metadata](/a-data-groundbased/a9-phenological-observations?metadata=parameters#metadata)  |
+    | *`nat_abbr`*       | Station abbreviation     | `Text`           | see [Station metadata](/a-data-groundbased/a9-phenological-observations?metadata=stations#metadata)      |
+    | *`reference_year`* | Reference year           | `YYYY`           |                                                                                                          |
+    | *`value`*          | Date of observation      | `YYYYMMDD`       |                                                                                                          |
     | *`doy`*            | Day of year              | `Number`         | `negative values`: Observation in the year preceding the reference year; `values greater than 365`: Observation in the year following the reference year. |
   </TabItem>
 </Tabs>
