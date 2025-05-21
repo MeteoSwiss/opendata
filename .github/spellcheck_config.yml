@@ -1,0 +1,19 @@
+matrix:
+- name: German Markdown Spellcheck
+  aspell:
+    lang: de
+    d: de_CH
+  dictionary:
+    wordlists:
+    - .github/wordlist_de.txt
+    encoding: utf-8
+  pipeline:
+  - pyspelling.filters.markdown:
+  - pyspelling.filters.html:
+      comments: false
+      ignores:
+      - code
+      - pre
+  sources:
+  - 'i18n/de/docusaurus-plugin-content-docs/**/*.md'
+  default_encoding: utf-8
