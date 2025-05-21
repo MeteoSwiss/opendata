@@ -32,7 +32,7 @@ Für 'Bodenmessdaten' sowie für 'Klimastationen – Homogene Messreihen' und 'N
 Für andere Datentypen beachten Sie bitte deren entsprechende Dokumentation.
 
 
-## Was ist im Zusammenhang mit der Qualitätskontrolle der Daten zu beachten  <!-- Diesen Titel nicht ändern! -->
+## Was ist im Zusammenhang mit der Qualitätskontrolle der Daten zu beachten?  <!-- Diesen Titel nicht ändern! -->
 
 ### Bodenmessdaten
 [Bodenmessdaten](/a-data-groundbased) sind zunächst rohe, nicht qualitätsgesicherte Messungen, die aufgrund der Art ihrer Erfassung fehlerhaft sein können. Die Verwendung dieser Daten muss unter Berücksichtigung der Tatsache erfolgen, dass die Messungen fehlerhaft sein können. Fehler sind in der Regel auf Fehlfunktionen der Instrumente zurückzuführen, die durch Verschleiss oder Witterungseinflüsse und in seltenen Fällen durch Vandalismus verursacht werden.
