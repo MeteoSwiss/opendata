@@ -4,12 +4,6 @@ sidebar_position: 1
 
 # Terms of use
 
-:::info
-
-This English translation is currently being reviewed. The original German text is authoritative.
-
-:::
-
 ## 1. Publication of meteorological and climatological data
 The Federal Office of Meteorology and Climatology MeteoSwiss publishes the data it procures or generates to fulfil its legal tasks ([art. 10 para. 1 EMOTA](https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_10)).
 
