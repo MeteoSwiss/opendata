@@ -26,7 +26,7 @@ Additional types of data will be released in the following months. The expected 
 <!--  [D - Radar data](/d-data-radar)  -->
 
 ## How may I use data?
-Read the [Rights of use with regard to the data](/general/terms-of-use#2-rights-of-use-with-regard-to-the-data).
+Read the [Rights of use of the data](/general/terms-of-use#2-rights-of-use-of-the-data).
 
 
 ## Is there a usage limitation?
