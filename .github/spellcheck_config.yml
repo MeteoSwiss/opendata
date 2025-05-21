@@ -24,6 +24,9 @@ matrix:
         # Ignore text between inline back ticks
         - open: '(?P<open>`+)'
           close: '(?P=open)'
+        # Ignore admonitions
+        - open: '::[tip|warning]'
+          close: '\n'
   - pyspelling.filters.markdown:
       markdown_extensions:
       - markdown.extensions.extra
