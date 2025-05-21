@@ -21,7 +21,8 @@ Niederschlagswerte
 Nutzungsbedingungen
 Nutzungsbeschränkung
 Open
-Prognosedaten
-Wettervorhersagemodell
 Plausibilitätsprüfung
+Prognosedaten
+swisstopo
 Vollständigkeitsprüfung
+Wettervorhersagemodell
