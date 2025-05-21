@@ -1,13 +1,13 @@
 ---
 sidebar_position: 2
 ---
+<!-- {{ NOSPELL }} -->
 
 # Daten herunterladen
 
 :::info
 
 **Dieser Teil der Dokumentation** richtet sich primär an technische Nutzende und **liegt in Englisch vor**.
-<!-- nospell -->
 
 :::
 
