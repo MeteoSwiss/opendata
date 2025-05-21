@@ -22,7 +22,7 @@ En résumé, vous êtes autorisé à :
 
 **La source doit être mentionnée** lors de la reproduction ou de la transmission des données (Quelle: MeteoSchweiz; **Source: MétéoSuisse**; Fonte: MeteoSvizzera; Source: MeteoSwiss) ([art. 5, al. 1, let. a, OMét](https://www.fedlex.admin.ch/eli/cc/2024/452/fr#art_5)). 
 
-La reproduction ou la retransmission des alertes sont autorisées uniquement si elles ont lieu en temps utile et sans modification du contenu [art. 5, al. 1, let. b, OMét](https://www.fedlex.admin.ch/eli/cc/2024/452/fr#art_5).
+La reproduction ou la retransmission des alertes sont autorisées uniquement si elles ont lieu en temps utile et sans modification du contenu ([art. 5, al. 1, let. b, OMét](https://www.fedlex.admin.ch/eli/cc/2024/452/fr#art_5)).
 
 Lors de la mention de la source, il convient de veiller à ne pas donner l'impression que MétéoSuisse vous soutient ou soutient particulièrement votre utilisation.
 
