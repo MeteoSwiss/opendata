@@ -7,6 +7,7 @@ sidebar_position: 2
 :::info
 
 **Dieser Teil der Dokumentation** richtet sich primär an technische Nutzende und **liegt in Englisch vor**.
+<!-- nospell -->
 
 :::
 
@@ -146,3 +147,5 @@ All reference time stamps at MeteoSwiss are in [UTC](https://www.utctime.net)! D
 
 ### Missing values
 Missing values (e.g. due to instrument failure) are empty fields. Empty columns are used when a parameter is not measured at all at a certain station.
+
+<!-- endnospell -->
