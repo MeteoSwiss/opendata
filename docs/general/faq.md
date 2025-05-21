@@ -58,7 +58,8 @@ Data retrieved through the API is only available in JSON format, but DMI's open 
 For QGIS there is a plugin called "DMI Open Data", that can be used to easily import data. Please see our guide. -->
 
 
-## What about the quality control of data?  <!-- Do not change this title! -->
+## What about the quality control of data?
+<!-- Do not change this title! -->
 
 ### Ground-based measurements
 [Ground-based Measurements](/a-data-groundbased) are initially raw, not quality assured measurements, which may be faulty due to the way they are collected. The use of these data shall be with regard to the fact that the measurements may be faulty. Errors are typically due to malfunction of instruments caused by wear and tear or exposure to weather and on rare occasions from vandalism. <!-- Wear and tear of the instruments are handled proactively by performing service checks at the stations on a regular basis and changing the instruments within the given time frame. -->
