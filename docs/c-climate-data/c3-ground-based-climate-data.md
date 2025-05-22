@@ -23,6 +23,8 @@ These grid data products are statistically derived from ground-based measurement
 
 The following **example data files** are available for download:
 
+<!-- @NOSPELL@ -->
+
 | *Parameter*                        | *Product*            | Time interval      | Update cycle             | *Example Data files*                   |
 |:-----------------------------------|:---------------------|:-------------------|:-------------------------|:---------------------------------------|
 | **Precipitation**                  | Preliminary analysis | Daily              | previous_day             | RprelimD_ch01h.swiss.lv95              |
@@ -44,6 +46,8 @@ The following **example data files** are available for download:
 |                                    |                      | Monthly            | previous_month           | [SrelM_ch01r.swiss.lv95](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-surface-derived-grid/items/ch?.language=en) |
 |                                    |                      | Yearly             | previous_year            | SrelY_ch01r.swiss.lv95      |
 |                                    | *? [to be verified]* | Monthly            | previous_month           | [SanomM9120_ch01r.swiss.lv95](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-surface-derived-grid/items/ch?.language=en) |
+
+<!-- @ENDNOSPELL@ -->
 
 ## Data format
 

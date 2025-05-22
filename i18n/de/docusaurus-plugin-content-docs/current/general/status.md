@@ -6,6 +6,8 @@ sidebar_position: 3
 
 ## Systeme, ihre Verfügbarkeit und Support-Kontakte
 
+<!-- @NOSPELL@ -->
+
 | System | Betreiberin | Betriebsstatus | Kontaktstelle |
 |:-------|:------------|:-------------------|:--------------|
 | [data.geo.admin.ch Spatial Temporal Asset Catalog (STAC) – API](https://www.geo.admin.ch/de/rest-schnittstelle-stac-api) Download-Service | swisstopo | [GeoAdmin API Uptime Status](https://api3.geo.admin.ch/api/status.html) | MeteoSchweiz [Open Data Support](https://www.meteoschweiz.admin.ch/ueber-uns/kontakt/kontaktformular.html) |
@@ -14,6 +16,8 @@ sidebar_position: 3
 | [geocat.ch](https://www.geocat.ch/datahub/organization/Bundesamt%20f%C3%BCr%20Meteorologie%20und%20Klimatologie%20MeteoSchweiz) Geodaten-Metadatenkatalog | swisstopo |    | swisstopo [geocat.ch Support](https://info.geocat.ch/de/kontakt) |
 | Datenerhebung und -integration | MeteoSchweiz | Bei Störungen an Bodenstationen überprüfen Sie, ob [die Datenverfügbarkeit unterbrochen ist](https://www.meteoschweiz.admin.ch/service-und-publikationen/applikationen/datanverfuegbarkeit.html). | MeteoSchweiz [Open Data Support](https://www.meteoschweiz.admin.ch/ueber-uns/kontakt/kontaktformular.html) |
 | Verarbeitung numerischer Wettervorhersagemodelle | [CSCS - Swiss National Supercomputing Centre](https://www.cscs.ch/services/contractual-partners) |     | MeteoSchweiz [Open Data Support](https://www.meteoschweiz.admin.ch/ueber-uns/kontakt/kontaktformular.html) |
+
+<!-- @ENDNOSPELL@ -->
 
 
 ## Release Notes (Changelog)

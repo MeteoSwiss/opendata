@@ -1,13 +1,24 @@
 name: Spellcheck Text
 on: push
 jobs:
-  build:
-    name: Spellcheck
+  spellcheck_de:
+    name: Spellcheck (DE)
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
 
     - uses: rojopolis/spellcheck-github-actions@7a7743049619ed51f86367653ca42086b0b30525
-      name: Spellcheck
+      name: Run spellcheck
       with:
-        config_path: .github/spellcheck_config.yml
+        config_path: .github/spellcheck_config_de.yml
+
+  spellcheck_en:
+    name: Spellcheck (EN)
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: rojopolis/spellcheck-github-actions@7a7743049619ed51f86367653ca42086b0b30525
+      name: Run spellcheck
+      with:
+        config_path: .github/spellcheck_config_en.yml

@@ -56,9 +56,9 @@ This [Jupyter notebook](https://github.com/MeteoSwiss/opendata/blob/main/noteboo
 ## How CSV files are structured
 
 ### Data granularity
-For all types of data MeteoSwiss uses standard granularities. Depending on the application not all granularites are available. 
+For all types of data MeteoSwiss uses standard granularities. Depending on the application not all granularities are available. 
 
-For [Ground-based measurements](/a-data-groundbased) the lowest granulartiy is usually called 'original data' (Originalwert). Higher granularities are called 'aggregations' or 'aggregated values'. The World Meteorological Organization (WMO) does issue guidelines on how national weather services have to aggregate values and MeteoSwiss does follow these guidelines.
+For [Ground-based measurements](/a-data-groundbased) the lowest granularity is usually called 'original data' (`Originalwert`). Higher granularities are called 'aggregations' or 'aggregated values'. The World Meteorological Organization (WMO) does issue guidelines on how national weather services have to aggregate values and MeteoSwiss does follow these guidelines.
 
 :::tip
 
@@ -70,15 +70,15 @@ This is the overview of the granularities for [Ground-based](/a-data-groundbased
 
 | Granularity | Name | Description | Used for |
 | ----------- | ---- | ----------- | -------- |
-| `t` | 10min value | At MeteoSwiss this is the standard granularity for realtime data of the automatic measurement network SwissMetNet (SMN) or the model output. Meteorological observations do also use this granularity but only offer values at fixed intervals like 6UTC, 12UTC and 18UTC (called "Terminwerte")! | [SMN](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html), [OBS](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-observation-network.html) |
+| `t` | 10min value | At MeteoSwiss this is the standard granularity for realtime data of the automatic measurement network SwissMetNet (SMN) or the model output. Meteorological observations do also use this granularity but only offer values at fixed intervals like 6UTC, 12UTC and 18UTC (called `Terminwerte`)! | [SMN](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html), [OBS](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-observation-network.html) |
 | `h` | Hourly value | Either aggregated from 10min values or provided by the instrument/network | [Pollen](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-pollen-monitoring-network-swisspollen.html) |
-| `d` | Daily value | Used throughout the MeteoSwiss measurement network before automatization in 1981 started. Today still used for manual precipitation and snow measurements. For automatic stations daily values are calculated using 10min values according to WMO guidelines. | [NIME](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-precipitation-monitoring-network.html) |
-| `m` | Monthly value | Usually aggregated from daily values and widely used in climatology for homogenized data and norm values and for seasonal data. For some very old data series (pre 1864) only monthly data exists!| [Homogeneous climate data series](https://www.meteoswiss.admin.ch/climate/climate-change/changes-in-temperature-precipitation-and-sunshine/homogeneous-data-series-since-1864.html), [Climate normals](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/climate-normals.html) |
-| `y` | Yearly value | Usually aggregated from daily values and mostly used in climatology or climate change screnarios. | [Climate change scenarios](https://www.meteoswiss.admin.ch/climate/climate-change/swiss-climate-change-scenarios.html)|
+| `d` | Daily value | Used throughout the MeteoSwiss measurement network before automatisation in 1981 started. Today still used for manual precipitation and snow measurements. For automatic stations daily values are calculated using 10min values according to WMO guidelines. | [NIME](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-precipitation-monitoring-network.html) |
+| `m` | Monthly value | Usually aggregated from daily values and widely used in climatology for homogenised data and norm values and for seasonal data. For some very old data series (before 1864) only monthly data exists!| [Homogeneous climate data series](https://www.meteoswiss.admin.ch/climate/climate-change/changes-in-temperature-precipitation-and-sunshine/homogeneous-data-series-since-1864.html), [Climate normals](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/climate-normals.html) |
+| `y` | Yearly value | Usually aggregated from daily values and mostly used in climatology or climate change scenarios. | [Climate change scenarios](https://www.meteoswiss.admin.ch/climate/climate-change/swiss-climate-change-scenarios.html)|
 
 
 ### Update frequency
-For [Ground-based](/a-data-groundbased) and [Atmosphere measurements](/b-data-atmosphere) as well as for [Climate stations – Homogeneous data series](/c-climate-data/c1-climate-stations_homogeneous) and [Climate precipitation stations - Homogeneous data series](/c-climate-data/c2-climate-percipitation-stations_homogeneous) MeteoSwiss provides an optimized directory structure separating older historical data, which is not updated regularly, and more recent data, which is updated more often. For realtime data we provide a third "now" directory with a high update frequency.
+For [Ground-based](/a-data-groundbased) and [Atmosphere measurements](/b-data-atmosphere) as well as for [Climate stations – Homogeneous data series](/c-climate-data/c1-climate-stations_homogeneous) and [Climate precipitation stations - Homogeneous data series](/c-climate-data/c2-climate-percipitation-stations_homogeneous) MeteoSwiss provides an optimised directory structure separating older historical data, which is not updated regularly, and more recent data, which is updated more often. For realtime data we provide a third "now" directory with a high update frequency.
 
 This is the overview:
 
@@ -125,11 +125,11 @@ CSV files are encoded in [`Windows-1252`](https://en.wikipedia.org/wiki/Windows-
 Date/Time is expressed as `dd.mm.yyyy HH:MM`.
 
 All reference time stamps at MeteoSwiss are in [UTC](https://www.utctime.net)! Depending on the granularity the time stamp does define different intervals:
-- `t`: The sum, mean or max/min of the last 10 minutes (ReferenceTS 16:00 = `15:50:01 to 16:00:00`)
-- `h`: The sum, mean or max/min of the last six 10min-values (ReferenceTS 16:00 = `15:10 to 16:00`). Please note: Hourly values before 2018 were calculated differently based on the SYNOP schedule (ReferenceTS 16:00 = `15:50 to 16:40`)!
-- `d`: For most parameters the sum, mean or max/min from 00:00 to 23:50 of the according date. Exception for precipitation and snow (manual measurement times used for consistency) where the interval is 6:00 UTC until 5:50 UTC tomorrow (ReferenceTS 22.6.2023 = `22.6.2023 6:10 UTC to 23.6.2023 6:00 UTC`)
-- `m`: The sum, mean or max/min of the whole month from 1st to last day of month (ReferenceTS 1.6.2023 = `1.6.2023 00:10 UTC to 30.6.2023 24:00 UTC`)
-- `y`: The sum, mean or max/min of the whole year (ReferenceTS 1.1.2023 = `1.1.2023 00:10 UTC to 31.12.2023 24:00 UTC`)
+- `t`: The sum, mean or max/min of the last 10 minutes (`ReferenceTS` 16:00 = `15:50:01 to 16:00:00`)
+- `h`: The sum, mean or max/min of the last six 10min-values (`ReferenceTS` 16:00 = `15:10 to 16:00`). Please note: Hourly values before 2018 were calculated differently based on the `SYNOP` schedule (`ReferenceTS` 16:00 = `15:50 to 16:40`)!
+- `d`: For most parameters the sum, mean or max/min from 00:00 to 23:50 of the according date. Exception for precipitation and snow (manual measurement times used for consistency) where the interval is 6:00 UTC until 5:50 UTC tomorrow (`ReferenceTS` 22.6.2023 = `22.6.2023 6:10 UTC to 23.6.2023 6:00 UTC`)
+- `m`: The sum, mean or max/min of the whole month from 1st to last day of month (`ReferenceTS` 1.6.2023 = `1.6.2023 00:10 UTC to 30.6.2023 24:00 UTC`)
+- `y`: The sum, mean or max/min of the whole year (`ReferenceTS` 1.1.2023 = `1.1.2023 00:10 UTC to 31.12.2023 24:00 UTC`)
 
 **Accordingly, it follows that:**
 - for granularity `t` and `h` the time stamp defines the end of the measurement interval and
