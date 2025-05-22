@@ -18,7 +18,7 @@ For **grid data**, go to [Spatial climate normals](/c-climate-data/c7-spatial-cl
 
 ## Data download
 
-You can download the available Open Data via [opendata.swiss](https://opendata.swiss/en/dataset/klimanormwerte/resource/e80497da-0ffb-4437-87bb-3d72e3296349), as ZIP (in TXT format).
+You can download the available Open Data via [opendata.swiss](https://opendata.swiss/en/dataset/klimanormwerte/resource/e80497da-0ffb-4437-87bb-3d72e3296349), as ZIP (in `TXT` format).
 
 ## Data structure
 
