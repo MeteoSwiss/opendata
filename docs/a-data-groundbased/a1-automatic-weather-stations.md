@@ -13,7 +13,9 @@ The network is supplemented by around 100 [automatic precipitation stations](/a-
 
 ## Data download
 
-The Open Data from MeteoSwiss may be used without restriction; the **source must be cited** when reproducing or redistributing ("Source: MeteoSwiss"). Read our [Open Data terms of use](/general/terms-of-use).
+The Open Data from MeteoSwiss may be used without restriction; the **source must be cited** when reproducing or redistributing ("**Source: MeteoSwiss**").
+
+:white_check_mark: By using 'Open Data' from MeteoSchweiz, you confirm that you have taken note of the [Terms of use](/general/terms-of-use).
 
 ### Download data automatically
 
@@ -25,9 +27,7 @@ The STAC Browser can be a useful tool to facilitate the use of the API: [`https:
 
 ### Download data manually
 
-Download **files per station** manually via the STAC Browser<sup>1</sup>: [`https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn) 
-
-<sup>1</sup> After the switch from the Beta to the Live phase, a link to MeteoSwiss' Open Data Explorer will follow here.
+Download **files per station** manually via MeteoSwiss' [Open Data Explorer](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/download-data-without-coding-skills.html#lang=en&mdt=normal&pgid=&sid=&col=&di=&tr=&hdr=) 
 
 
 ## Data structure
