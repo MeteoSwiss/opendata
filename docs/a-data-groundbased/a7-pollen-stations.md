@@ -4,11 +4,13 @@ sidebar_position: 7
 
 # Pollen stations
 
-MeteoSwiss operates the [national pollen monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/pollen-monitoring-network-manual-method.html). It consists of around 15 monitoring stations which cover Switzerland's most important climatic and vegetation regions. The measurements obtained provide invaluable information for those who suffer from allergies.
+MeteoSwiss operates the [national pollen monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-pollen-monitoring-network-swisspollen.html). It consists of 15 monitoring stations which cover Switzerland's most important climatic and vegetation regions. The measurements obtained provide invaluable information for those who suffer from allergies.
 
-<!-- Daily average values are updated once a week and obtained from manual reference counts. -->
+Until 2022, daily average pollen concentrations were measured with a [manual method](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/pollen-monitoring-network-manual-method.html). Since 1 January 2023, the measurements have been made with an automatic method rather than a manual one. From this date, airborne pollen concentrations (No/m³, number of grains per cubic metre of air) of Alder, Ash, Birch, Beech, Hasel, Oak, and Grasses are available in real time at an hourly resolution.
 
-Additionally since 2023 the new [automatic pollen network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-pollen-monitoring-network-swisspollen.html) is operational: for the first time in the world, instead of daily averages being available after a week, airborne pollen concentrations (No/m³, number of grains per cubic metre of air) of Birch, Beech, Oak, Alder, Ash, Grasses and Hazel are available in real time at an hourly resolution.
+The manual and the automatic data may differ in terms of the concentration intensity and should therefore be used separately. Homogeneous series will be made available in a future release. The coordinates of the stations are those of the current automatic locations. The coordinates of the historical manual locations will be added in a future release.
+
+The scientific names of the plants are available in the English version of the documents.
 
 ## Data download
 
