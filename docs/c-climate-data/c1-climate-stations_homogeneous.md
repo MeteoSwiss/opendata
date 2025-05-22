@@ -11,14 +11,21 @@ Homogeneous measurement series are available from the Swiss NBCN climate station
 
 ## Data download
 
-:::info
+The Open Data from MeteoSwiss may be used without restriction; the **source must be cited** when reproducing or redistributing ("**Source: MeteoSwiss**").
 
-We are currently setting up our service as Beta. During this phase everything is subject to change without prior notice.
-- All files are available for all stations.
+:white_check_mark: By using 'Open Data' from MeteoSchweiz, you confirm that you have taken note of the [Terms of use](/general/terms-of-use).
 
-:::
+### Download data automatically
 
-You can access the available Open Data via [https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nbcn](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nbcn)
+Download **files per station** automatically via FSDI's REST API: [`https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-nbcn`](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-nbcn)
+
+Read our [information on how you can obtain data automatically](/general/download#how-to-download-files-automatically--).
+
+The STAC Browser can be a useful tool to facilitate the use of the API: [`https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nbcn`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nbcn)
+
+### Download data manually
+
+Select and download **files per station** manually via MeteoSwiss' [Open Data Explorer](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/download-data-without-coding-skills.html#lang=en&mdt=homogenous&pgid=&sid=&col=&di=&tr=&hdr=).
 
 ## Data structure
 
