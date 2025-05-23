@@ -4,9 +4,29 @@ sidebar_position: 1
 
 # Automatische Wetterstationen
 
-Zur [Dokumentation auf Englisch](https://opendatadocs.meteoswiss.ch/a-data-groundbased/a1-automatic-weather-stations).
+Rund 160 Stationen des [automatischen Messnetzes](https://www.meteoschweiz.admin.ch/wetter/messsysteme/bodenstationen/automatisches-messnetz.html) SwissMetNet bilden ein lückenloses Messprogramm.
 
-Die Übersetzung folgt.
+Sie liefern alle 10 Minuten Daten zu Temperatur, Niederschlag, Wind, Sonnenschein, Luftfeuchtigkeit, Strahlung und Luftdruck.
+
+Ergänzt wird das Netz durch rund 100 [automatische Niederschlagsstationen](/a-data-groundbased/a2-automatic-precipitation-stations). Zusammen bilden diese Stationen die Grundlage für die Erstellung zuverlässiger lokaler Wettervorhersagen sowie Unwetter- und Hochwasserwarnungen. Zusätzlich betreibt MeteoSwiss drei [automatische Turmstationen](/a-data-groundbased/a3-automatic-tower-stations) in 150 bis 230 m Höhe für Messungen in der Grenzschicht.
+
+## Daten herunterladen
+
+Die 'Open Data' von MeteoSchweiz dürfen uneingeschränkt weiterverwendet werden; bei der Wiedergabe oder Weiterverbreitung der Daten ist **die Quelle anzugeben** ("**Quelle: MeteoSchweiz**").
+
+:white_check_mark: Mit der Verwendung von 'Open Data' von MeteoSchweiz bestätigen Sie die Kenntnisnahme der [Nutzungsbedingungen](/general/terms-of-use).
+
+### Daten automatisch herunterladen
+
+Laden Sie **Dateien pro Station** automatisch über die REST-API der BGDI herunter: [`https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn`](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn)
+
+Lesen Sie unsere Dokumentation dazu, [wie Sie Dateien automatisch herunterladen](/general/download#how-to-download-files-automatically) können.
+
+Der STAC-Browser kann ein nützliches Hilfsmittel sein, um die Verwendung der API zu erleichtern: [`https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn)
+
+### Daten manuell herunterladen
+
+Wählen Sie **Dateien pro Station** manuell über den [Open Data Explorer](https://www.meteoschweiz.admin.ch/service-und-publikationen/applikationen/ext/daten-ohne-programmierkenntnisse-herunterladen.html#lang=de&mdt=normal&pgid=&sid=&col=&di=&tr=&hdr=) von MeteoSchweiz aus und laden Sie sie herunter.
 
 ## Datenstruktur
 
@@ -15,17 +35,15 @@ import TabItem from '@theme/TabItem';
 
 <Tabs queryString="Datenstruktur">
   <TabItem value="files-per-station" label="Dateien pro Station">
-    The data is split by measuring station. A file for a station contains all available parameters in one file. There are files with 10-minute `t`, hourly `h`, daily `d`, monthly `m` and yearly `y` values.
+    Die Daten sind nach Messstationen gegliedert. Eine Datei einer Station enthält alle verfügbaren Parameter in derselben Datei. Es gibt Dateien mit 10-Minuten-Werten (`t`), Stundenwerten (`h`), Tageswerten (`d`), Monatswerten (`m`) und Jahreswerten (`y`).
 
-    We strongly recommend that you download the corresponding aggregated [data granularity](/general/download#data-granularity).
-   
-    Depending on the granularity there are files with [update frequency](/general/download#update-frequency) `now`, `recent` and `historical`.
+   Wir empfehlen dringend, die entsprechend aggregierte [Datengranularität](/general/download#data-granularity) herunterzuladen, statt sie selbst zu berechnen (siehe dazu auch unsere [Informationen zur Datenqualität](/general/faq#bodenmessdaten)).
 
-    The update interval for files with 10-minute values is set to 20 minutes. If you require a higher update frequency, use the **One file with all stations** instead.
+   Je nach Granularität gibt es Dateien mit der [Aktualisierungsfrequenz](/general/download#update-frequency) `now`, `recent` und `historical`.
+
+    Das Aktualisierungsintervall für Dateien mit 10-Minuten-Werten ist auf 20 Minuten gesetzt. Wenn Sie eine höhere Aktualisierungsfrequenz benötigen, verwenden Sie stattdessen **Eine Datei mit allen Stationen**.
     
-    <!-- See e.g. files for station `Salen-Reutenen (HAI)` with all granularities and update frequencies mentioned: [`ogd-smn_hai_(data granularity)_(update frequency).csv`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn/items/hai?.language=en) -->
-    
-    Time series can begin before the introduction of automatic measurements in the year 1981. Before 1981 at least three values per day were manually measured. They are stored as individual 10-minute values ([synoptic observations](https://community.wmo.int/en/observation-components-global-observing-system)).
+    Zeitreihen können vor der Einführung automatischer Messungen im Jahr 1981 beginnen. Vor 1981 wurden mindestens drei Werte pro Tag manuell gemessen. Sie werden als einzelne 10-Minuten-Werte (['synoptic observations'](https://community.wmo.int/en/observation-components-global-observing-system)) gespeichert.
   </TabItem>
   <TabItem value="eine-datei-mit-allen-stationen" label="Eine Datei mit allen Stationen">
     In addition we offer the [main parameters of all stations (in one file) – every 10 minutes, most recent values](https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA80.csv).
