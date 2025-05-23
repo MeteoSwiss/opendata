@@ -22,6 +22,8 @@ These grid data products are derived from [MeteoSat satellite data](https://www.
 
 The following **example data files** are available for download:
 
+<!-- @NOSPELL@ -->
+
 | *Parameter*                    | *Product*            | Time interval      | Update cycle             | *Example Data files*                   |
 |:-------------------------------|:---------------------|:-------------------|:-------------------------|:---------------------------------------|
 | **Global Radiation**           |                      | Hourly | previous_day             | [msg_sis_h_ch02.lonlat](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-satellite-derived-grid/items/ch?.language=en) |
@@ -40,6 +42,8 @@ The following **example data files** are available for download:
 |                                |                      | Daily              | previous_day             | *[msg.CFC.D_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.D_ch02.lonlat_20201206000000.nc)* |
 |                                |                      | Monthly            | previous_month           | *[msg.CFC.M_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.M_ch02.lonlat_20210401000000.nc)* |
 |                                |                      | Yearly             | previous_year            | *[msg.CFC.Y_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.Y_ch02.lonlat_20210101000000.nc)* |
+
+<!-- @ENDNOSPELL@ -->
 
 <!--
 | ?                              |                      | H                  | previous_day             | msg.ALB.H_ch02.lonlat                 | LL84                   | EPSG:4326          |

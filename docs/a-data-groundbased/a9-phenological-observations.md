@@ -17,7 +17,7 @@ The Open Data from MeteoSwiss may be used without restriction; the **source must
 
 Download **files per station** automatically via FSDI's REST API: [`https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-phenology`](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-phenology)
 
-Read our [information on how you can obtain data automatically](/general/download#how-to-download-files-automatically--).
+Read our [information on how you can obtain data automatically](/general/download#how-to-download-files-automatically).
 
 The STAC Browser can be a useful tool to facilitate the use of the API: [`https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-phenology`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-phenology)
 
@@ -110,6 +110,7 @@ https://data.geo.admin.ch/ch.meteoschweiz.klima/phaenologie/phaeno_current.csv  
 https://data.geo.admin.ch/ch.meteoschweiz.klima/phaenologie/Legende_Parameter.csv                           Parameter list
 https://data.geo.admin.ch/ch.meteoschweiz.messnetz-phaenologie/ch.meteoschweiz.messnetz-phaenologie_en.csv  Station list
 
+<!-- @NOSPELL@ -->
 Data file structure
 param_id;nat_abbr;reference_year;value;doy
 
@@ -121,7 +122,9 @@ doy                Day of year
                    Negative values: observation in the year preceding the reference year 
                    Values greater than 365: observation in the year following the reference year	
 
+
 Delivery times
 phaeno_previous.csv Delivery once a year after checking the data (beginning of February)
 phaeno_current.csv  Delivery daily at 3:15 UTC
 
+<!-- @ENDNOSPELL@ -->
