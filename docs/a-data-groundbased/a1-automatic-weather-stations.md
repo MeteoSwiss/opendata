@@ -21,7 +21,7 @@ The Open Data from MeteoSwiss may be used without restriction; the **source must
 
 Download **files per station** automatically via FSDI's REST API: [`https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn`](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn)
 
-Read our [documentation on how to download files automatically](/general/download#how-to-download-files-automatically).
+Read our documentation on [how to download files automatically](/general/download#how-to-download-files-automatically).
 
 The STAC Browser can be a useful tool to facilitate the use of the API: [`https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn)
 
@@ -39,7 +39,7 @@ import TabItem from '@theme/TabItem';
   <TabItem value="files-per-station" label="Files per station">
     The data is split by measuring station. A file for a station contains all available parameters in one file. There are files with 10-minute `t`, hourly `h`, daily `d`, monthly `m` and yearly `y` values.
 
-    We strongly recommend that you download the corresponding aggregated [data granularity](/general/download#data-granularity).
+    We strongly recommend that you download the corresponding aggregated [data granularity](/general/download#data-granularity) instead of calculating it yourself (see also our [information on data quality](/general/faq#bodenmessdaten)).
    
     Depending on the granularity there are files with [update frequency](/general/download#update-frequency) `now`, `recent` and `historical`.
 
