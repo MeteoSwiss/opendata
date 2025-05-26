@@ -27,7 +27,7 @@ Der Download-Service-Partner von MeteoSchweiz, swisstopo, behält sich das Recht
 
 
 ## Wie oft werden die Daten aktualisiert?
-Für 'Bodenmessdaten' sowie für 'Klimastationen – Homogene Messreihen' und 'Niederschlags-Klimastationen – Homogene Messreihen' gelten die [hier](/general/download#update-frequency) angegebenen Aktualisierungsfrequenzen.
+Für ["Bodenmessdaten"](/a-data-groundbased) sowie für ["Klimastationen – Homogene Messreihen"](/c-climate-data/c1-climate-stations_homogeneous) und ["Niederschlags-Klimastationen – Homogene Messreihen"](/c-climate-data/c2-climate-percipitation-stations_homogeneous) gelten die [hier](/general/download#update-frequency) angegebenen Aktualisierungsfrequenzen.
 
 Für andere Datentypen beachten Sie bitte deren entsprechende Dokumentation.
 

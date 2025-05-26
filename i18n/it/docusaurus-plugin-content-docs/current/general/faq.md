@@ -27,7 +27,7 @@ Il partner di MeteoSvizzera per il servizio di download, swisstopo, si riserva i
 
 
 ## Con quale frequenza vengono aggiornati i dati?
-Per i 'Dati delle misurazioni al suolo', le 'Stazioni climatologiche – Serie omogenee di misurazioni' e le 'Stazioni climatologiche pluviometriche – Serie omogenee di misurazioni' valgono le frequenze di aggiornamento indicate [qui](/general/download#update-frequency).
+Per i ["Dati delle misurazioni al suolo"](/a-data-groundbased), le ["Stazioni climatologiche – Serie omogenee di misurazioni"](/c-climate-data/c1-climate-stations_homogeneous) e le ["Stazioni climatologiche pluviometriche – Serie omogenee di misurazioni"](/c-climate-data/c2-climate-percipitation-stations_homogeneous) valgono le frequenze di aggiornamento indicate [qui](/general/download#update-frequency).
 
 Per altri tipi di dati si prega di consultare la relativa documentazione.
 
@@ -71,4 +71,4 @@ Pertanto, i prodotti `TabsD`, `TmaxD`, `TminD`, `SrelD` e `RhiresD` vengono rica
 ## Cosa significa quando mancano dei dati?
 I 'Open Data' scaricati corrispondono ai dati a disposizione di MeteoSvizzera. A volte può capitare che alcuni valori siano mancanti. La causa è solitamente un dispositivo di misurazione difettoso, che MeteoSvizzera provvederà a riparare il prima possibile.
 
-Si prega di notare che i [valori mancanti](/general/download#missing-values), indipendentemente dalla causa, vengono sempre visualizzati come 'campi vuoti' . Ciò vale per la stragrande maggioranza dei casi in cui non sono state effettuate misurazioni.
+Si prega di notare che i [valori mancanti](/general/download#missing-values), indipendentemente dalla causa, vengono sempre visualizzati come "campi vuoti" . Ciò vale per la stragrande maggioranza dei casi in cui non sono state effettuate misurazioni.
