@@ -1,5 +1,9 @@
 name: Spellcheck Text
-on: push
+
+on:
+  workflow_dispatch:
+  push:
+  
 jobs:
   spellcheck_de:
     name: Spellcheck (DE)
