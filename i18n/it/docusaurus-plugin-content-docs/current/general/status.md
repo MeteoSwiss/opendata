@@ -6,6 +6,8 @@ sidebar_position: 3
 
 ## Sistemi, disponibilità e punti di contatto
 
+<!-- @NOSPELL@ -->
+
 | Sistema | gestito da | Stato operativo | Punto di contatto |
 |:-------|:------------|:-------------------|:--------------|
 | [data.geo.admin.ch Spatial Temporal Asset Catalog (STAC) – API](https://www.geo.admin.ch/it/interfaccia-rest-stac-api) servizio di download | swisstopo | [GeoAdmin API Uptime Status](https://api3.geo.admin.ch/api/status.html) | MeteoSvizzera [Open Data assistenza](https://www.meteosvizzera.admin.ch/chi-siamo/contatto/formulario-di-contatto.html) |
@@ -15,6 +17,8 @@ sidebar_position: 3
 | Raccolta e integrazione dei dati | MeteoSvizzera | In caso di malfunzionamenti delle stazioni di rilevamento, verificare [la disponibilità dei dati](https://www.meteosvizzera.admin.ch/servizi-e-pubblicazioni/applicazioni/disponibilita-dei-dati.html). | MeteoSvizzera [Open Data assistenza](https://www.meteosvizzera.admin.ch/chi-siamo/contatto/formulario-di-contatto.html) |
 | Elaborazione di modelli numerici di previsioni meteorologiche | [CSCS - Swiss National Supercomputing Centre](https://www.cscs.ch/services/contractual-partners) | [CSCS Status Page Central Services](https://status.cscs.ch/) | MeteoSvizzera [Open Data assistenza](https://www.meteosvizzera.admin.ch/chi-siamo/contatto/formulario-di-contatto.html) |
 
+
+<!-- @ENDNOSPELL@ -->
 
 ## Release notes (Changelog)
 

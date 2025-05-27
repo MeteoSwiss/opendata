@@ -28,6 +28,8 @@ Der STAC-Browser kann ein nützliches Hilfsmittel sein, um die Verwendung der AP
 
 Wählen Sie **Dateien pro Station** manuell über den [Open Data Explorer](https://www.meteoschweiz.admin.ch/service-und-publikationen/applikationen/ext/daten-ohne-programmierkenntnisse-herunterladen.html#lang=de&mdt=normal&pgid=&sid=&col=&di=&tr=&hdr=) von MeteoSchweiz aus und laden Sie sie herunter.
 
+<!-- @NOSPELL@ -->
+
 ## Datenstruktur
 
 import Tabs from '@theme/Tabs';

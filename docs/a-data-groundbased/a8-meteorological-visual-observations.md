@@ -23,7 +23,7 @@ The Open Data from MeteoSwiss may be used without restriction; the **source must
 
 Download **files per station** automatically via FSDI's REST API: [`https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-obs`](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-obs)
 
-Read our [information on how you can obtain data automatically](/general/download#how-to-download-files-automatically--).
+Read our [information on how you can obtain data automatically](/general/download#how-to-download-files-automatically).
 
 The STAC Browser can be a useful tool to facilitate the use of the API: [`https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-obs`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-obs)
 
@@ -60,10 +60,12 @@ import TabItem from '@theme/TabItem';
     
     [`ogd-obs_meta_parameters.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-obs/ogd-obs_meta_parameters.csv) provides a list of all parameter identifiers with explanation, *time interval, decimal places, data type and unit of measurement [to be verified]*.
 
-    <!-- **Codes**
+<!--
+**Codes**
 sremaxyv	1 	%	471 	Sonnenscheindauer; Verhältnis der Jahressumme zur maximal Möglichen
 sremaxmv	1 	%	349 	Sonnenscheindauer; Verhältnis der Monatssumme zur maximal Möglichen
-sremaxdv	1 	%	222 	Sonnenscheindauer; relativ zur absolut möglichen Tagessumme -->
+sremaxdv	1 	%	222 	Sonnenscheindauer; relativ zur absolut möglichen Tagessumme
+-->
   </TabItem>
   <TabItem value="stations" label="Stations">
     All stations have a three-letter identifier (e.g. `BER` for "Bern/Zollikofen" or `LUG` for "Lugano").

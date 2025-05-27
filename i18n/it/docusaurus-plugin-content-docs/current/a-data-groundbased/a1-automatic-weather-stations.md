@@ -8,6 +8,8 @@ Alla [documentazione in inglese](https://opendatadocs.meteoswiss.ch/a-data-groun
 
 La traduzione seguirà.
 
+<!-- @NOSPELL@ -->
+
 ## Struttura dei dati
 
 import Tabs from '@theme/Tabs';
@@ -68,3 +70,4 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 </Tabs>
 
+<!-- @ENDNOSPELL@ -->

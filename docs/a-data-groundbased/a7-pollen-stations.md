@@ -6,7 +6,7 @@ sidebar_position: 7
 
 MeteoSwiss operates the [national pollen monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-pollen-monitoring-network-swisspollen.html). It consists of 15 monitoring stations which cover Switzerland's most important climatic and vegetation regions. The measurements obtained provide invaluable information for those who suffer from allergies.
 
-Until 2022, daily average pollen concentrations were measured with a [manual method](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/pollen-monitoring-network-manual-method.html). Since 1 January 2023, the measurements have been made with an automatic method rather than a manual one. From this date, airborne pollen concentrations (No/m³, number of grains per cubic metre of air) of Alder, Ash, Birch, Beech, Hasel, Oak, and Grasses are available in real time at an hourly resolution.
+Until 2022, daily average pollen concentrations were measured with a [manual method](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/pollen-monitoring-network-manual-method.html). Since 1 January 2023, the measurements have been made with an automatic method rather than a manual one. From this date, airborne pollen concentrations (No/m³, number of grains per cubic metre of air) of Alder, Ash, Birch, Beech, Hazel, Oak, and Grasses are available in real time at an hourly resolution.
 
 The manual and the automatic data may differ in terms of the concentration intensity and should therefore be used separately. Homogeneous series will be made available in a future release. The coordinates of the stations are those of the current automatic locations. The coordinates of the historical manual locations will be added in a future release.
 
@@ -22,7 +22,7 @@ The Open Data from MeteoSwiss may be used without restriction; the **source must
 
 Download **files per station** automatically via FSDI's REST API: [`https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-pollen`](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-pollen)
 
-Read our [information on how you can obtain data automatically](/general/download#how-to-download-files-automatically--).
+Read our [information on how you can obtain data automatically](/general/download#how-to-download-files-automatically).
 
 The STAC Browser can be a useful tool to facilitate the use of the API: [`https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-pollen`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-pollen)
 
