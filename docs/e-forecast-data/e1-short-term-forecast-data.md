@@ -11,7 +11,7 @@ The Meteoswiss nowcasting system is calculated every 5-10 minutes and consists o
 
 The current deterministic implementation (INCA-CH) computes just one ensemble member. A new generation of nowcasting systems is in development and will be expected to be available during 2027. For this reason only a subset of the current INCA-CH parameters will become available trough our open data provision and a major migration change (including set of output parameters, parameter names, parameters metadata,...) to the new system has to be planned in 2027-2028. A parallel phase with the old and new system both active will be ensured.
 
-The following parameters are currently under discussion to be made available:
+The following parameters are available:
 
 **Precipitation**
 - Total precipitation (`RP`, 5 min values every 5 min, radar based precipitation product)
