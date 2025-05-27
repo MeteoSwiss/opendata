@@ -53,7 +53,7 @@ This [Jupyter notebook](https://github.com/MeteoSwiss/opendata/blob/main/noteboo
 <!-- See [Import Data into QGIS](...) to see how a downloaded *radar* file can be imported into QGIS. -->
 
 #### Numerical weather forecasting model data
-The MeteoSwiss [opendata-nwp-demos](https://github.com/MeteoSwiss/opendata-nwp-demos) repository contains a collection of Jupyter notebooks that demonstrate how to access, download, and visualize data from numerical weather prediction (NWP) ICON-CH1/2-EPS models.
+The MeteoSwiss [opendata-nwp-demos](https://github.com/MeteoSwiss/opendata-nwp-demos) repository contains a collection of Jupyter notebooks that demonstrate how to access, download, and visualise data from numerical weather prediction (NWP) ICON-CH1/2-EPS models.
 
 
 ## How CSV files are structured
@@ -144,7 +144,7 @@ Missing values (e.g. due to instrument failure) are empty fields. Empty columns 
 
 ## How GRIB2 files are structured
 
-Numerical weather forecasting model data provided by MeteoSwiss are distributed in the [GRIB2 format](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model#grib-format), a binary and highly efficient format standardized by the World Meteorological Organization (WMO) for the storage and exchange of meteorological gridded data.
+Numerical weather forecasting model data provided by MeteoSwiss are distributed in the [GRIB2 format](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model#grib-format), a binary and highly efficient format standardised by the World Meteorological Organization (WMO) for the storage and exchange of meteorological gridded data.
 
 GRIB2 files are designed to store multi-dimensional atmospheric fields, such as temperature, wind, or pressure across various heights, times, and geographical coordinates.
 
@@ -152,7 +152,7 @@ GRIB2 files are designed to store multi-dimensional atmospheric fields, such as 
 
 Each GRIB2 file contains:
 - A header with metadata such as model name, run time, parameter, and spatial resolution.
-- Encoded binary data for a single variable, at a single reference time, for one forecast timestep, model, and simulation type (deterministic or perturbed).
+- Encoded binary data for a single variable, at a single reference time, for one forecast time step, model, and simulation type (deterministic or perturbed).
 
 These files are designed for efficient storage and transfer of high-resolution model output in a compact format.
 
@@ -160,11 +160,11 @@ For a detailed breakdown of what is included in a single GRIB2 file, see the [GR
 
 ### Reading GRIB2 files
 
-Because GRIB2 files are binary and not human-readable, they require specialized tools or libraries for access.
+Because GRIB2 files are binary and not human-readable, they require specialised tools or libraries for access.
 
 #### With Python
 
-GRIB2 files can be read and processed using Python libraries that support GRIB decoding and metadata extraction. These libraries integrate with common scientific Python tools for data analysis and visualization.
+GRIB2 files can be read and processed using Python libraries that support GRIB decoding and metadata extraction. These libraries integrate with common scientific Python tools for data analysis and visualisation.
 
 Example workflows and tools are available in the [Exploring GRIB files in Python](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model#exploring-grib-files-in-python).
 
