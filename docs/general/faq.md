@@ -34,7 +34,8 @@ MeteoSwiss' download service partner swisstopo reserves the right to block or ad
 
 
 ## How often is data updated?
-For 'Ground-based measurements' as well as for 'Climate stations – Homogeneous data series' and 'Climate precipitation stations - Homogeneous data series' the update frequencies specified [here](/general/download#update-frequency) apply.
+For 'Ground-based measurements' as well as for 'Climate stations – Homogeneous data series' and 'Climate precipitation stations - Homogeneous data series' the update frequencies specified [here](/general/download#update-frequency) apply. For numerical weather forecasting model data, update frequencies depend on the model. Details on model run times and data availability can be found in the [Model Specifications section](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model#models-specifications) of the forecast data documentation.
+
 
 For other data types, please refer to their corresponding documentation.
 
