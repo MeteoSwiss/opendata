@@ -24,6 +24,8 @@ The following data files are **in discussion to be processed**:
 
 <!-- Bezeichnungen gemäss https://meteoswiss.atlassian.net/wiki/spaces/AK/pages/492699723/TABELLEN+3+und+4+Neue+KLIMAHAGELDATEN+-+Betrieb -->
 
+<!-- @NOSPELL@ -->
+
 | *Parameter*                            | *Product*                          | Time interval | Update cycle   | *Data files (in discussion to be processed)*                                       |
 |:---------------------------------------|:-----------------------------------|:------------- |:---------------|:-------------------------------------------------------------------|
 | **Maximum Hailstone Size**             | Absolute *values*                  | Monthly       | previous_month | hailsizeM_ch01r.swiss.lv95        |
@@ -54,6 +56,8 @@ The following data files are **in discussion to be processed**:
 |                                        | Climatology (mean 2002-last year)  | Yearly        | previous_year  | haildays4cmclimY_ch01r.swiss.lv95    |
 |                                        | *Standard deviation of Climatology* | Monthly       | previous_month | *haildays4cmclimstdM_ch01r.swiss.lv95* |
 |                                        | *Standard deviation of Climatology* | Yearly        | previous_year  | *haildays4cmclimstdY_ch01r.swiss.lv95* |
+
+<!-- @ENDNOSPELL@ -->
 
 <!-- alle stdM, /Y weglassen -->
 

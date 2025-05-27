@@ -1,0 +1,50 @@
+name: Spellcheck Text
+
+on:
+  workflow_dispatch:
+  push:
+  
+jobs:
+  spellcheck_de:
+    name: Spellcheck (DE)
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: rojopolis/spellcheck-github-actions@584b2ae95998967a53af7fbfb7f5b15352c38748
+      name: Run spellcheck
+      with:
+        config_path: .github/spellcheck_config_de.yml
+
+  spellcheck_en:
+    name: Spellcheck (EN)
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: rojopolis/spellcheck-github-actions@584b2ae95998967a53af7fbfb7f5b15352c38748
+      name: Run spellcheck
+      with:
+        config_path: .github/spellcheck_config_en.yml
+  
+  spellcheck_fr:
+    name: Spellcheck (FR)
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: rojopolis/spellcheck-github-actions@584b2ae95998967a53af7fbfb7f5b15352c38748
+      name: Run spellcheck
+      with:
+        config_path: .github/spellcheck_config_fr.yml
+
+  spellcheck_it:
+    name: Spellcheck (IT)
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: rojopolis/spellcheck-github-actions@584b2ae95998967a53af7fbfb7f5b15352c38748
+      name: Run spellcheck
+      with:
+        config_path: .github/spellcheck_config_it.yml

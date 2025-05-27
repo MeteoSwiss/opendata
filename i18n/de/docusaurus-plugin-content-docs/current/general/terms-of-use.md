@@ -28,8 +28,9 @@ Bei der Angabe der Quelle ist zu beachten, dass nicht der Eindruck entsteht, Met
 
 Die 'Open Data' von MeteoSchweiz werden entsprechend unter der [Creative Commons License CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de) veröffentlicht.
 
+<!-- @NOSPELL@ -->
 ![CC BY Logo](./static/docs_img/cc-by.png) <br></br>
-
+<!-- @ENDNOSPELL@ -->
 
 ## 3. Gewährleistungs- und Haftungsausschluss
 MeteoSchweiz übernimmt keine Gewähr für die inhaltliche Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit und Vollständigkeit der veröffentlichten 'Open Data' (vgl. [Art. 10 Abs. 6 EMBAG](https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_10)). Jegliche Gewährleistung und Haftung von MeteoSchweiz ist ausgeschlossen, soweit gesetzlich zulässig. 
