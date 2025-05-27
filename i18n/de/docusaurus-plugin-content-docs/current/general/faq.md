@@ -23,11 +23,11 @@ Lesen Sie die [Nutzungsrechte hinsichtlich der Daten](/general/terms-of-use#2-nu
 
 
 ## Gibt es eine Nutzungsbeschränkung?
-Der Download-Service-Partner von MeteoSchweiz, swisstopo, behält sich das Recht vor, die Bandbreite für einzelne Nutzer zu sperren oder anzupassen, wenn diese geo.admin.ch unverhältnismässig stark belasten. Lesen Sie die [Allgemeine Nutzungsbedingungen und Betriebsbestimmungen der Bundes Geodaten-Infrastruktur BGDI, Kapitel 2. Datennutzung](https://www.geo.admin.ch/de/allgemeine-nutzungsbedingungen-bgdi#2.-Datennutzung).
+Der Download-Service-Partner von MeteoSchweiz, swisstopo, behält sich das Recht vor, die Bandbreite für einzelne Nutzer zu sperren oder anzupassen, wenn diese `geo.admin.ch` unverhältnismässig stark belasten. Lesen Sie die [Allgemeine Nutzungsbedingungen und Betriebsbestimmungen der Bundes Geodaten-Infrastruktur BGDI, Kapitel 2. Datennutzung](https://www.geo.admin.ch/de/allgemeine-nutzungsbedingungen-bgdi#2.-Datennutzung).
 
 
 ## Wie oft werden die Daten aktualisiert?
-Für 'Bodenmessdaten' sowie für 'Klimastationen – Homogene Messreihen' und 'Niederschlags-Klimastationen – Homogene Messreihen' gelten die [hier](/general/download#update-frequency) angegebenen Aktualisierungsfrequenzen.
+Für ["Bodenmessdaten"](/a-data-groundbased) sowie für ["Klimastationen – Homogene Messreihen"](/c-climate-data/c1-climate-stations_homogeneous) und ["Niederschlags-Klimastationen – Homogene Messreihen"](/c-climate-data/c2-climate-percipitation-stations_homogeneous) gelten die [hier](/general/download#update-frequency) angegebenen Aktualisierungsfrequenzen.
 
 Für andere Datentypen beachten Sie bitte deren entsprechende Dokumentation.
 

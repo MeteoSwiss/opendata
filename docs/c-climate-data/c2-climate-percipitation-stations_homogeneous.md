@@ -7,7 +7,7 @@ Precipitation is an important meteorological parameter with high spatial variabi
 
 The measuring conditions under which meteorological data are collected may change over time. Statements about the past, long-time climatic development can only be made if the influence of such changes is removed. This is achieved by [homogenisation](https://www.meteoswiss.admin.ch/climate/climate-change/changes-in-temperature-precipitation-and-sunshine/homogeneous-data-series-since-1864/homogenisation-of-series-of-climatic-measurements.html) of the data.
 
-The data series of the Swiss NBCN precipitation stations were homogenized and date back, in some cases, to the mid-nineteenth century.
+The data series of the Swiss NBCN precipitation stations were homogenised and date back, in some cases, to the mid-nineteenth century.
 
 ## Data download
 
@@ -19,7 +19,7 @@ The Open Data from MeteoSwiss may be used without restriction; the **source must
 
 Download **files per station** automatically via FSDI's REST API: [`https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-nbcn-precip`](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-nbcn-precip)
 
-Read our [information on how you can obtain data automatically](/general/download#how-to-download-files-automatically--).
+Read our [information on how you can obtain data automatically](/general/download#how-to-download-files-automatically).
 
 The STAC Browser can be a useful tool to facilitate the use of the API: [`https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nbcn-precip`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-nbcn-precip)
 

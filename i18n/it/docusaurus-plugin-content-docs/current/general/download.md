@@ -10,6 +10,8 @@ sidebar_position: 2
 
 :::
 
+<!-- @NOSPELL@ -->
+
 ### Ground-based measurements
 MeteoSwiss primarily uses the [Federal Spatial Data Infrastructure FSDI](https://www.geo.admin.ch/en/federal-spatial-data-infrastructure-fsdi), which is operated by [swisstopo](https://www.swisstopo.admin.ch/en/coordination-geo-information-and-services-cogis).
 
@@ -144,3 +146,5 @@ All reference time stamps at MeteoSwiss are in [UTC](https://www.utctime.net)! D
 
 ### Missing values
 Missing values (e.g. due to instrument failure) are empty fields. Empty columns are used when a parameter is not measured at all at a certain station.
+
+<!-- @ENDNOSPELL@ -->
