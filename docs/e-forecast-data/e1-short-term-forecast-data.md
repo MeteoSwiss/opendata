@@ -46,7 +46,7 @@ The following **example data file**s are available for download:
 | **Dew point temperature 2 m (`TD`)** | 10 min | 60 min | [TD_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TD_INCA_202106280700.nc) | `ogd-nowcasting_TD_(date and time code).nc` | 13 |
 | **Snowfall line (`ZS`)** | 10 min | 60 min | [ZS_INCA_202106280700.nc](https://zenodo.org/records/6470725/files/ZS_INCA_202106280700.nc?download=1) | `ogd-nowcasting_ZS_(date and time code).nc` | 13 |
 | **Zero degree Isotherm (`Z0`)** | 10 min | 60 min | [Z0_INCA_202106280700.nc](https://zenodo.org/records/6470725/files/Z0_INCA_202106280700.nc?download=1) | `ogd-nowcasting_Z0_(date and time code).nc` | 13 |
-| **Soil surface temperature (`TG`)** | 10 min | 60 min | [TG_INCA_202106280700.nc](https://zenodo.org/records/6470725/files/TG_INCA_202106280700.nc?download=1) | `ogd-nowcasting_TG_(date and time code).nc` |
+| **Soil surface temperature (`TG`)** | 10 min | 60 min | [TG_INCA_202106280700.nc](https://zenodo.org/records/6470725/files/TG_INCA_202106280700.nc?download=1) | `ogd-nowcasting_TG_(date and time code).nc` | 13 |
 
 ## Data format
 
