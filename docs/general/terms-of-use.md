@@ -9,7 +9,7 @@ The Federal Office of Meteorology and Climatology MeteoSwiss publishes the data 
 
 The data are published free of charge, in a timely manner, in machine-readable form and in an open format on the Internet as 'Open Data' ([art. 10 para. 4 EMOTA](https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_10)).
 
-MeteoSwiss uses the [Federal Spatial Data Infrastructure (FSDI)](https://www.geo.admin.ch/en/impressum-responsibilities-and-contacts), which is operated by the Federal Office of Topography swisstopo, for publication. See chapter [4 Use of the infrastructure](#4-use-of-the-infrastructure).  
+MeteoSwiss uses the [Federal Spatial Data Infrastructure (FSDI)](https://www.geo.admin.ch/en/impressum-responsibilities-and-contacts), which is operated by the Federal Office of Topography swisstopo, and the [Swiss National Supercomputing Centre (CSCS)](https://www.cscs.ch/information/terms-privacy-policy), operated by ETH Zurich, for publication. See chapter [4 Use of the infrastructure](#4-use-of-the-infrastructure).  
 
 
 
@@ -41,8 +41,8 @@ MeteoSwiss provides essential services within the scope of its legal tasks (in p
 
 
 ## 4. Use of the infrastructure
-Please note that the infrastructure used by MeteoSwiss to provide 'Open Data' may only be used to the extent necessary to access the data. Any misuse (in particular use that is intended to damage the infrastructure or block its availability) or excessive use in terms of access frequency or data volume (in particular the high-frequency downloading of the same content) is prohibited and may result in your access being restricted or blocked ([art. 5 para. 1 let. d and para. 2 MetO](https://www.fedlex.admin.ch/eli/cc/2024/452/de#art_5)).
+Please note that the infrastructures used by MeteoSwiss to provide 'Open Data', including the [Federal Spatial Data Infrastructure (FSDI)](https://www.geo.admin.ch/en/impressum-responsibilities-and-contacts) and the [Swiss National Supercomputing Centre (CSCS)](https://www.cscs.ch/information/terms-privacy-policy), may only be used to the extent necessary to access the data. Any misuse (in particular use that is intended to damage the infrastructure or block its availability) or excessive use in terms of access frequency or data volume (in particular the high-frequency downloading of the same content) is prohibited and may result in your access being restricted or blocked ([art. 5 para. 1 let. d and para. 2 MetO](https://www.fedlex.admin.ch/eli/cc/2024/452/de#art_5)).
 
-In addition, the [General Terms of Use and Operating Conditions of the Federal Spatial Data Infrastructure FSDI](https://www.geo.admin.ch/en/general-terms-of-use-fsdi)  apply. Particular attention should be paid to chapter [2 Data use](https://www.geo.admin.ch/en/general-terms-of-use-fsdi#2.-Data-use) and chapter [5 General operating conditions](https://www.geo.admin.ch/en/general-terms-of-use-fsdi#5-General-operating-conditions).
+In addition, the [General Terms of Use and Operating Conditions of the Federal Spatial Data Infrastructure FSDI](https://www.geo.admin.ch/en/general-terms-of-use-fsdi) apply. Particular attention should be paid to chapter [2 Data use](https://www.geo.admin.ch/en/general-terms-of-use-fsdi#2.-Data-use) and chapter [5 General operating conditions](https://www.geo.admin.ch/en/general-terms-of-use-fsdi#5-General-operating-conditions). For data services and infrastructure provided via CSCS, the applicable usage policies and service conditions of CSCS apply. For further information, consult the [CSCS terms of use](https://www.cscs.ch/information/terms-privacy-policy).
 
 If you need a higher service level for the availability of data, please contact: [Sales & Support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html).
