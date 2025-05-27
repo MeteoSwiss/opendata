@@ -8,6 +8,7 @@ commons
 contactez-nous
 creative
 eps
+eth
 faq
 geo.admin.ch
 geoadmin
