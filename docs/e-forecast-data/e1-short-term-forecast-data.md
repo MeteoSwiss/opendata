@@ -9,7 +9,7 @@ sidebar_position: 1
 
 The Meteoswiss nowcasting system is calculated every 5-10 minutes and consists of a continuous nowcasting integrating different information sources, covering Switzerland and the neighbouring regions. The horizontal resolution is 1km. The 6-hour interval includes the seamless combination of observed, extrapolated and predicted data from the deterministic run of the ICON-CH1-EPS numerical weather pediction model.
 
-The current deterministic implementation (INCA-CH) computes just one ensemble member. A new generation of nowcasting systems is in development and will be expected to be available during 2027. For this reason only a subset of the current INCA-CH parameters will become available trough our open data provision and a major migration change (including set of output parameters, parameter names, paramters metadata,...) to the new system has to be planned in 2027-2028. A parallel phase with the old and new system both active will be ensured.
+The current deterministic implementation (INCA-CH) computes just one ensemble member. A new generation of nowcasting systems is in development and will be expected to be available during 2027. For this reason only a subset of the current INCA-CH parameters will become available trough our open data provision and a major migration change (including set of output parameters, parameter names, parameters metadata,...) to the new system has to be planned in 2027-2028. A parallel phase with the old and new system both active will be ensured.
 
 The following parameters are currently under discussion to be made available:
 
