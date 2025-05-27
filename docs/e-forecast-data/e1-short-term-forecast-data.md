@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 ---
+<!-- @NOSPELL@ -->
 
 # Short-term forecast data ('nowcasting')
 
@@ -19,18 +20,18 @@ The current deterministic implementation (INCA-CH) computes just one ensemble me
 The following parameters are currently under discussion to be made available:
 
 **Precipitation**
-- Total precipitation (RP, 5 min values every 5 min, radar based precipitation product)
-- Precipitation type (NT, 5 min values every 5 min)
-- Snowfall (PN, 5 min values every 5 min)
+- Total precipitation (`RP`, 5 min values every 5 min, radar based precipitation product)
+- Precipitation type (`NT`, 5 min values every 5 min)
+- Snowfall (`PN`, 5 min values every 5 min)
 
 **Wind**
-- Wind mean 10 m (FF_10min, 10 min values every 10 min)
-- Wind gust 10 m (WG_10min, 10 min values every 10 min)
-- Wind direction 10 m (DD_10min, 10 min values every 10 min)
+- Wind mean 10 m (`FF_10min`, 10 min values every 10 min)
+- Wind gust 10 m (`WG_10min`, 10 min values every 10 min)
+- Wind direction 10 m (`DD_10min`, 10 min values every 10 min)
 
 **Temperature**
-- Temperature 2 m (TT, 10 min values every 60 min)
-- Dew point temperature 2 m (TD, 10 min values every 60 min)
+- Temperature 2 m (`TT`, 10 min values every 60 min)
+- Dew point temperature 2 m (`TD`, 10 min values every 60 min)
 
 ## Data download
 
@@ -38,14 +39,14 @@ The following **example data file**s are available for download:
 
 | Parameter | Update frequency | Time granularity | *Example data file* | Productive version file name | Estimated volume per file (MB) |
 |:----- | ----- |:----- |:----- | ----- |:----- |
-| **Total precipitation (RP)** | 5 min | 5 min | [RP_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/RP_INCA_202106280700.nc) | `ogd-nowcasting_RP_(date and time code).nc` | 1-60 |
-| **Precipitation type (NT)** | 5 min | 5 min | [NT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/NT_INCA_202106280700.nc) | `ogd-nowcasting_NT_(date and time code).nc` | 1-2 |
-| **Snowfall (PN)** | 5 min | 5 min | [PN_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/PN_INCA_202106280700.nc) | `ogd-nowcasting_PN_(date and time code).nc` | 1-40 |
-| **Wind mean (FF_10min)** | 10 min | 10 min | [FF_10min_INCA_202106280700.nc](https://zenodo.org/records/6470725/files/FF_10min_INCA_202204131500.nc) | `ogd-nowcasting_FF_10min_(date and time code).nc` | 60 |
-| **Wind gust (WG_10min)** |  10 min |  10 min | [WG_10min_INCA_202106280700.nc](https://zenodo.org/records/6470725/files/WG_10min_INCA_202204131500.nc)| `ogd-nowcasting_WG_10min_(date and time code).nc` | 60 |
-| **Wind direction (DD_10min)** | 10 min | 10 min | [DD_10min_INCA_202106280700.nc](https://zenodo.org/records/6470725/files/DD_10min_INCA_202204131500.nc)| `ogd-nowcasting_DD_10min_(date and time code).nc` | 60 |
-| **Temperature 2 m (TT)** | 10 min | 60 min | [TT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TT_INCA_202106280700.nc) | `ogd-nowcasting_TT_(date and time code).nc` | 13 |
-| **Dew point temperature 2 m (TD)** | 10 min | 60 min | [TD_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TD_INCA_202106280700.nc) | `ogd-nowcasting_TD_(date and time code).nc` | 13 |
+| **Total precipitation (`RP`)** | 5 min | 5 min | [RP_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/RP_INCA_202106280700.nc) | `ogd-nowcasting_RP_(date and time code).nc` | 1-60 |
+| **Precipitation type (`NT`)** | 5 min | 5 min | [NT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/NT_INCA_202106280700.nc) | `ogd-nowcasting_NT_(date and time code).nc` | 1-2 |
+| **Snowfall (`PN`)** | 5 min | 5 min | [PN_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/PN_INCA_202106280700.nc) | `ogd-nowcasting_PN_(date and time code).nc` | 1-40 |
+| **Wind mean (`FF_10min`)** | 10 min | 10 min | [FF_10min_INCA_202106280700.nc](https://zenodo.org/records/6470725/files/FF_10min_INCA_202204131500.nc) | `ogd-nowcasting_FF_10min_(date and time code).nc` | 60 |
+| **Wind gust (`WG_10min`)** |  10 min |  10 min | [WG_10min_INCA_202106280700.nc](https://zenodo.org/records/6470725/files/WG_10min_INCA_202204131500.nc)| `ogd-nowcasting_WG_10min_(date and time code).nc` | 60 |
+| **Wind direction (`DD_10min`)** | 10 min | 10 min | [DD_10min_INCA_202106280700.nc](https://zenodo.org/records/6470725/files/DD_10min_INCA_202204131500.nc)| `ogd-nowcasting_DD_10min_(date and time code).nc` | 60 |
+| **Temperature 2 m (`TT`)** | 10 min | 60 min | [TT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TT_INCA_202106280700.nc) | `ogd-nowcasting_TT_(date and time code).nc` | 13 |
+| **Dew point temperature 2 m (`TD`)** | 10 min | 60 min | [TD_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TD_INCA_202106280700.nc) | `ogd-nowcasting_TD_(date and time code).nc` | 13 |
 
 ## Data format
 

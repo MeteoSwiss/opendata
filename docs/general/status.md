@@ -27,7 +27,7 @@ Check the changelog at [opendatadocs.meteoswiss.ch/changelog](https://opendatado
 - 📝 Documentation or
 - 🔧 Maintenance.
 
-**data.geo.admin.ch STAC – API download service** will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner swisstopo continuously develops and improves it, so minor changes and bug fixes might change the behavior of the API. If you suspect your integration has broken due to changed behavior, check [GeoAdmin API Release Notes](https://api3.geo.admin.ch/releasenotes/index.html) where swisstopo announces released changes that might affect your integration.
+**data.geo.admin.ch STAC – API download service** will not be subject to big breaking changes, because it adheres to the OGC STAC API standard. Our partner swisstopo continuously develops and improves it, so minor changes and bug fixes might change the behaviour of the API. If you suspect your integration has broken due to changed behaviour, check [GeoAdmin API Release Notes](https://api3.geo.admin.ch/releasenotes/index.html) where swisstopo announces released changes that might affect your integration.
 
 
 ## Questions about the service

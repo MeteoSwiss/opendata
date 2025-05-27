@@ -20,4 +20,4 @@ The following data files are available for download:
 
 | *Parameter*                            | *Product*                          | Time interval | Update cycle   | Data files (see STAC Assets)                                       |
 |:---------------------------------------|:-----------------------------------|:------------- |:---------------|:-------------------------------------------------------------------|
-| **Radar-based Precipitation**          | Instantaneus                       | 5min          | 5min           | ch.meteoswiss.ccs4r2nj:RZCyyjjjHHMM*.*01                           |
+| **Radar-based Precipitation**          | Instantaneous                      | 5min          | 5min           | `ch.meteoswiss.ccs4r2nj:RZCyyjjjHHMM*.*01`                         |
