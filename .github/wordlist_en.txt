@@ -21,6 +21,8 @@ geocat
 geodata
 gnss
 granularities
+grib
+gridded
 hydrological
 jupyter
 lidar
@@ -35,6 +37,7 @@ nbcn
 netcdf
 nime
 normals
+nwp
 ogc
 opendata
 opendatadocs
