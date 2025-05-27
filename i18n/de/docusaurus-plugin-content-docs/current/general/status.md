@@ -13,7 +13,7 @@ sidebar_position: 3
 | [opendata.swiss](https://opendata.swiss/de/organization/bundesamt-fur-meteorologie-und-klimatologie-meteoschweiz?q=&sort=max%28issued%2C+modified%29+desc) Metadata catalog | [Bundesamt für Statistik (BFS)](https://www.bfs.admin.ch/bfs/de/home.html) | Geplante Wartungsfenster werden mit einem Hinweis auf [opendata.swiss](https://opendata.swiss) angekündigt. | BFS  [opendata.swiss Support](https://opendata.swiss/de/contact) | 
 | [geocat.ch](https://www.geocat.ch/datahub/organization/Bundesamt%20f%C3%BCr%20Meteorologie%20und%20Klimatologie%20MeteoSchweiz) Geodaten-Metadatenkatalog | swisstopo |    | swisstopo [geocat.ch Support](https://info.geocat.ch/de/kontakt) |
 | Datenerhebung und -integration | MeteoSchweiz | Bei Störungen an Bodenstationen überprüfen Sie, ob [die Datenverfügbarkeit unterbrochen ist](https://www.meteoschweiz.admin.ch/service-und-publikationen/applikationen/datanverfuegbarkeit.html). | MeteoSchweiz [Open Data Support](https://www.meteoschweiz.admin.ch/ueber-uns/kontakt/kontaktformular.html) |
-| Verarbeitung numerischer Wettervorhersagemodelle | [CSCS - Swiss National Supercomputing Centre](https://www.cscs.ch/services/contractual-partners) |     | MeteoSchweiz [Open Data Support](https://www.meteoschweiz.admin.ch/ueber-uns/kontakt/kontaktformular.html) |
+| Verarbeitung numerischer Wettervorhersagemodelle | [CSCS - Swiss National Supercomputing Centre](https://www.cscs.ch/services/contractual-partners) | [CSCS Status Page Central Services](https://status.cscs.ch/) | MeteoSchweiz [Open Data Support](https://www.meteoschweiz.admin.ch/ueber-uns/kontakt/kontaktformular.html) |
 
 
 ## Release Notes (Changelog)
