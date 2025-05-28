@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: Short-term forecast data ('nowcasting')
 ---
 <!-- @NOSPELL@ -->
 
