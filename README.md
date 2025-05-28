@@ -72,3 +72,23 @@ They are provided as ‘Assets’ to the corresponding dataset/‘Collection‘ 
 
 <br>
 -->
+
+## Development
+
+Run the app locally / in the devcontainer:
+
+```
+yarn run start
+```
+
+Run a specific locale:
+
+```
+yarn run start --locale fr
+```
+
+And to export all translatable strings for a locale:
+
+```
+yarn write-translations --locale fr
+```
