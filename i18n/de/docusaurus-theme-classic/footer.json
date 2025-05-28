@@ -1,8 +1,4 @@
 {
-  "link.title.Docs": {
-    "message": "Docs",
-    "description": "The title of the footer links column with title=Docs in the footer"
-  },
   "link.title.Contact": {
     "message": "Contact",
     "description": "The title of the footer links column with title=Contact in the footer"
@@ -11,28 +7,20 @@
     "message": "More",
     "description": "The title of the footer links column with title=More in the footer"
   },
-  "link.item.label.Data": {
-    "message": "Data",
-    "description": "The label of footer link with label=Data linking to /docs/data"
-  },
   "link.item.label.MeteoSwiss": {
     "message": "MeteoSwiss",
     "description": "The label of footer link with label=MeteoSwiss linking to https://www.meteoschweiz.admin.ch/ueber-uns/kontakt.html"
   },
-  "link.item.label.Blog": {
-    "message": "Blog",
-    "description": "The label of footer link with label=Blog linking to /blog"
+  "link.item.label.Changelog": {
+    "message": "Changelog",
+    "description": "The label of footer link with label=Changelog linking to /changelog"
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
     "description": "The label of footer link with label=GitHub linking to https://github.com/MeteoSwiss/opendata"
   },
   "copyright": {
-    "message": "Copyright © 2024 Federal Office of Meteorology and Climatology MeteoSwiss. Built with Docusaurus.",
+    "message": "Copyright © 2025 Federal Office of Meteorology and Climatology MeteoSwiss.",
     "description": "The footer copyright"
-  },
-  "link.item.label.Changelog": {
-    "message": "Changelog",
-    "description": "The label of footer link with label=Changelog linking to /changelog"
   }
 }

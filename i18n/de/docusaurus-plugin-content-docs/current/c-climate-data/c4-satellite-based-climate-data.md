@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+title: Satellitengestützte räumliche Klimadaten – Strahlung, Wolkenbedeckung
 ---
 
 # Satellitengestützte räumliche Klimadaten – Strahlung, Wolkenbedeckung

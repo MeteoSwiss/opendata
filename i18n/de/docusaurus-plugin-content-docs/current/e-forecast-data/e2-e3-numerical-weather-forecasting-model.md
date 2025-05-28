@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+title: Numerisches Wettervorhersagemodell ICON-CH1/2-EPS
 ---
 
 # Numerisches Wettervorhersagemodell ICON-CH1/2-EPS

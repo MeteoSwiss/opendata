@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+title: Auf dem Laufenden bleiben
 ---
 
 # Auf dem Laufenden bleiben

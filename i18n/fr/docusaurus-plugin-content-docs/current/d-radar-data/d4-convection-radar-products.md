@@ -1,13 +1,16 @@
 ---
 sidebar_position: 4
+title: Convection radar products
 ---
 
 <!-- @NOSPELL@ -->
 
-# D4 - Convection radar products
+# Convection radar products
 
 :::warning
 
-*(not yet realised)*
+Les données ne sont pas encore disponibles.
 
 :::
+
+La documentation suivra.

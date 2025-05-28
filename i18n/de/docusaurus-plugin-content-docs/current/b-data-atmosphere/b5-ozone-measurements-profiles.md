@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+title: Ozone measurements – Profiles (O3 radio soundings, SOMORA)
 ---
 <!-- @NOSPELL@ -->
 
