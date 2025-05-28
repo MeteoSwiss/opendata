@@ -75,7 +75,7 @@ They are provided as ‘Assets’ to the corresponding dataset/‘Collection‘ 
 
 ## Development
 
-Run the app locally / in the devcontainer:
+Run the app locally:
 
 ```
 yarn run start
