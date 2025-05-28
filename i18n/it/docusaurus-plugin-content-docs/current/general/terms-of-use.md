@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: Condizioni di utilizzo
 ---
 
 # Condizioni di utilizzo

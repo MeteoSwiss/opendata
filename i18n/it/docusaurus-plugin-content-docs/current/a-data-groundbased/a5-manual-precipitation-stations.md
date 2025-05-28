@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+title: Stazioni pluviometriche manuali
 ---
 
 # Stazioni pluviometriche manuali

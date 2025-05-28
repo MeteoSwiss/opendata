@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+title: Dati climatici spaziali basati sulle misure al suolo – Precipitazioni, temperatura, soleggiamento
 ---
 
 # Dati climatici spaziali basati sulle misure al suolo – Precipitazioni, temperatura, soleggiamento

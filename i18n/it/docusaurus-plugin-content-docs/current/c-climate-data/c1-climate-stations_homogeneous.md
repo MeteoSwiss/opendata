@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: Stazioni climatologiche – Serie omogenee di misurazioni
 ---
 
 # Stazioni climatologiche – Serie omogenee di misurazioni

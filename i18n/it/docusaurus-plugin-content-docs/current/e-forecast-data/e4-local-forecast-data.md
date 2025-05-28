@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+title: Dati delle previsioni locali
 ---
 
 # Dati delle previsioni locali
