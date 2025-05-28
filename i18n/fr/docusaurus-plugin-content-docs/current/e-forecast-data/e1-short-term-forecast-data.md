@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: Données de prévisions à court terme
 ---
 
 # Données de prévisions à court terme

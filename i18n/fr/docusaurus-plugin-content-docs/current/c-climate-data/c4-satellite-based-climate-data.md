@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+title: Données climatiques spatiales par satellite – Rayonnement, couverture nuageuse
 ---
 
 # Données climatiques spatiales par satellite – Rayonnement, couverture nuageuse

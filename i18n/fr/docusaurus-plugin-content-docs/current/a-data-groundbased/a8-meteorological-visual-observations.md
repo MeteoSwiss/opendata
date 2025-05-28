@@ -1,5 +1,6 @@
 ---
 sidebar_position: 8
+title: Observations visuelles météorologiques
 ---
 
 # Observations visuelles météorologiques

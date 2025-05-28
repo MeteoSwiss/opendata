@@ -10,17 +10,17 @@ The radiosondes measure temperature and humidity as well as its position and alt
 
 The data obtained in this way are of great importance for weather forecasts and climate research. The data collected during the radiosonde's ascent are transmitted by radio to the receiving station in Payerne, where they are logged in the MeteoSwiss database. The results of the latest sounding are published  either as graphs ([emagrams](https://www.meteoswiss.admin.ch/services-and-publications/applications/radio-soundings.html#tab=radio-soundings-emagram)) or as [decoded data](https://www.meteoswiss.admin.ch/services-and-publications/applications/radio-soundings.html#tab=radio-soundings-decoded) files. 
 
-## Data download
+## Data download {#data-download}
 
 The file contains the data from the most recent sounding. The update frequency depends on the two soundings per day (at `00:00 UTC` and `12:00 UTC`).
 
 The following **example data file** is available for download: [`ogd-radiosounding_pay_now.csv`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-atmosphere/radiosounding)
 
-## Data format
+## Data format {#data-format}
 
 [`CSV`](https://opendatadocs.meteoswiss.ch/general/download#column-separators-and-decimal-dividers) with an estimated volume of 0.02 MB per file.
 
-## Metadata
+## Metadata {#metadata}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -36,6 +36,6 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 </Tabs>
 
-## Data usage
+## Data usage {#data-usage}
 
 See e.g. MeteoSwiss' [Emagrams](https://www.meteoswiss.admin.ch/services-and-publications/applications/radio-soundings.html#tab=radio-soundings-emagram).

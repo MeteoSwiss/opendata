@@ -1,15 +1,16 @@
 ---
 sidebar_position: 3
+title: Ozone measurements – Profiles (O3 radio soundings, SOMORA)
 ---
 
 <!-- @NOSPELL@ -->
 
 # Ozone measurements – Profiles (O3 radio soundings, SOMORA)
 
-:::warning 
+:::warning
 
-Data is not yet available.
+I dati non sono ancora disponibili.
 
 :::
 
-Documentation follows.
+La documentazione seguirà.

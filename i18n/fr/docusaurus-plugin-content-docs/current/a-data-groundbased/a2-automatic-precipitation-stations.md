@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+title: Stations pluviométriques automatiques
 ---
 
 # Stations pluviométriques automatiques

@@ -12,13 +12,13 @@ Totaliser precipitation data cover a so-called 'hydrological year', i.e. from 1 
 
 :::
 
-## Data download
+## Data download {#data-download}
 
 The Open Data from MeteoSwiss may be used without restriction; the **source must be cited** when reproducing or redistributing ("**Source: MeteoSwiss**").
 
 :white_check_mark: By using 'Open Data' from MeteoSchweiz, you confirm that you have taken note of the [Terms of use](/general/terms-of-use).
 
-### Download data automatically
+### Download data automatically {#download-data-automatically}
 
 Download **files per station** automatically via FSDI's REST API: [`https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-tot`](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-tot)
 
@@ -26,11 +26,11 @@ Read our [information on how you can obtain data automatically](/general/downloa
 
 The STAC Browser can be a useful tool to facilitate the use of the API: [`https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-tot`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-tot)
 
-### Download data manually
+### Download data manually {#download-data-manually}
 
 Select and download **files per station** manually via MeteoSwiss' [Open Data Explorer](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/download-data-without-coding-skills.html#lang=en&mdt=normal&pgid=Precipitation&sid=&col=&di=&tr=&hdr=).
 
-## Data structure
+## Data structure {#data-structure}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -43,11 +43,11 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 </Tabs>
 
-## Data format
+## Data format {#data-format}
 
 [`CSV`](https://opendatadocs.meteoswiss.ch/general/download#column-separators-and-decimal-dividers) with an estimated volume of ≤0.6 MB per file.
 
-## Metadata
+## Metadata {#metadata}
 
 <Tabs queryString="metadata">
   <TabItem value="parameters" label="Parameter">
@@ -65,7 +65,7 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 </Tabs>
 
-## Data usage
+## Data usage {#data-usage}
 
 See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-manuell&lang=en&table=false). 
 

@@ -1,6 +1,8 @@
 ---
 sidebar_position: 2
+title: Daten herunterladen
 ---
+
 <!-- @NOSPELL@ -->
 
 # Daten herunterladen
@@ -10,6 +12,8 @@ sidebar_position: 2
 **Dieser Teil der Dokumentation** richtet sich primär an technische Nutzende und **liegt in Englisch vor**.
 
 :::
+
+
 
 ### Ground-based measurements
 MeteoSwiss primarily uses the [Federal Spatial Data Infrastructure FSDI](https://www.geo.admin.ch/en/federal-spatial-data-infrastructure-fsdi), which is operated by [swisstopo](https://www.swisstopo.admin.ch/en/coordination-geo-information-and-services-cogis).
@@ -27,8 +31,7 @@ The **different download options** are documented [**here**](/e-forecast-data/e2
 
 ---
 
-## How to download files automatically  
-<!-- DO NOT CHANGE THIS TITLE ! -->
+## How to download files automatically {#how-to-download-files-automatically}
 
 The [FSDI provides a REST API](https://www.geo.admin.ch/en/rest-interface-stac-api) which adheres to the OGC STAC API standard.
 

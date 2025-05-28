@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+title: Dati climatici spaziali basati sulle misure satellitari – Radiazione, copertura nuvolosa
 ---
 
 # Dati climatici spaziali basati sulle misure satellitari – Radiazione, copertura nuvolosa

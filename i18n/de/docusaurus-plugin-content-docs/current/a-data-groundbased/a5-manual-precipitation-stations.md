@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+title: Manuelle Niederschlagsstationen
 ---
 
 # Manuelle Niederschlagsstationen

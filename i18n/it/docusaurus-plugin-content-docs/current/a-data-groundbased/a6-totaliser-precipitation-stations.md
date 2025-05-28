@@ -1,5 +1,6 @@
 ---
 sidebar_position: 6
+title: Pluviometri totalizzatori
 ---
 
 # Pluviometri totalizzatori

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 7
+title: Normes climatologiques spatiales
 ---
 
 # Normes climatologiques spatiales

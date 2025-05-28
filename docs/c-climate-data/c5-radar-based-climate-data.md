@@ -18,7 +18,7 @@ The following data are planned to be made available in 2025:
 - Monthly and Yearly radar-based Number of Hail Days with Hail >2cm *[Link to a detailed product documentation]*
 - Monthly and Yearly radar-based Number of Hail Days with Hail >4cm *[Link to a detailed product documentation]*
 
-## Data download
+## Data download {#data-download}
 
 The following data files are **in discussion to be processed**:
 
@@ -61,14 +61,14 @@ The following data files are **in discussion to be processed**:
 
 <!-- alle stdM, /Y weglassen -->
 
-## Data format
+## Data format {#data-format}
 
 The data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <!-- with an estimated volume of ... MB per file --> .
 
-## Coordinate system
+## Coordinate system {#coordinate-system}
 
 The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056). 
 
-## Data usage
+## Data usage {#data-usage}
 
 Follows.
