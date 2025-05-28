@@ -7,10 +7,6 @@
     "message": "MeteoSwiss - Logo",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Data Documentation": {
-    "message": "Data Documentation",
-    "description": "Navbar item with label Data Documentation"
-  },
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"

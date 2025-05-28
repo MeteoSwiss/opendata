@@ -11,14 +11,6 @@
     "message": "B - Atmosphärenmessdaten",
     "description": "The label for category B - Atmosphere measurements in sidebar dataSidebar"
   },
-  "sidebar.dataSidebar.category.Open Data Documentation": {
-    "message": "Open Data Documentation",
-    "description": "The label for category Open Data Documentation in sidebar dataSidebar"
-  },
-  "sidebar.dataSidebar.category.General information": {
-    "message": "Allgemeine Informationen",
-    "description": "The label for category General information in sidebar dataSidebar"
-  },
   "sidebar.dataSidebar.category.C - Climate data": {
     "message": "C - Klimadaten",
     "description": "The label for category C - Climate data in sidebar dataSidebar"
