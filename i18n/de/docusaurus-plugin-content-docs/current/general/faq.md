@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+title: Häufig gestellte Fragen (FAQ)
 ---
 
 # Häufig gestellte Fragen (FAQ)

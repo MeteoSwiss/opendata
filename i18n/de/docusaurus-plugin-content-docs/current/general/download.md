@@ -1,6 +1,8 @@
 ---
 sidebar_position: 2
+title: Daten herunterladen
 ---
+
 <!-- @NOSPELL@ -->
 
 # Daten herunterladen
@@ -10,6 +12,8 @@ sidebar_position: 2
 **Dieser Teil der Dokumentation** richtet sich primär an technische Nutzende und **liegt in Englisch vor**.
 
 :::
+
+
 
 ### Ground-based measurements
 MeteoSwiss primarily uses the [Federal Spatial Data Infrastructure FSDI](https://www.geo.admin.ch/en/federal-spatial-data-infrastructure-fsdi), which is operated by [swisstopo](https://www.swisstopo.admin.ch/en/coordination-geo-information-and-services-cogis).
