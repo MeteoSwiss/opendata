@@ -27,8 +27,7 @@ The **different download options** are documented [**here**](/e-forecast-data/e2
 
 ---
 
-## How to download files automatically  
-<!-- DO NOT CHANGE THIS TITLE ! -->
+## How to download files automatically {#how-to-download-files-automatically}
 
 The [FSDI provides a REST API](https://www.geo.admin.ch/en/rest-interface-stac-api) which adheres to the OGC STAC API standard.
 

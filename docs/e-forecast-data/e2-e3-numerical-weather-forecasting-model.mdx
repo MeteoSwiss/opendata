@@ -40,16 +40,16 @@ The documentation covers the following topics:
 
 <br></br>
 
-## Getting started quickly
+## Getting started quickly {#getting-started-quickly}
 
-### Example notebooks: From retrieval to visualization
+### Example notebooks: From retrieval to visualization {#example-notebooks-from-retrieval-to-visualization}
 
 To get started quickly, explore the [Jupyter notebooks](https://github.com/MeteoSwiss/opendata-nwp-demos), which provide hands-on examples for retrieving, processing, and visualizing numerical weather prediction (NWP) model data from MeteoSwiss.
 
 
-## Available data
+## Available data {#available-data}
 
-### Models' specifications
+### Models' specifications {#models-specifications}
 
 | **Attributes**| **ICON-CH1-EPS** | **ICON-CH2-EPS**|
 |-----------|------------------|-----------------|
@@ -62,17 +62,17 @@ To get started quickly, explore the [Jupyter notebooks](https://github.com/Meteo
 | New Model Run (Initialization) | every 3 h | every 6 h |
 | Output Data Format | GRIB edition 2 | GRIB edition 2 |
 
-### Available parameters
+### Available parameters {#available-parameters}
 
 Each collection includes a downloadable CSV file with a continuously updated list of available parameters. The file includes metadata such as long name, standard unit, level type (single or multi level), vertical coordinate type, temporal horizon, aggregation type and start time. To access the parameter overview, open the collection page for the desired model - for example, [ICON-CH1-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch1?.language=en) or [ICON-CH2-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch2?.language=en). In the Assets section, download the file labeled Parameter Overview.
 
-### 24h window
+### 24h window {#24h-window}
 
 The data provided in the two collections described in the [Models' specifications table](#models-specifications) is accessible for **24 hours**.
 
 Data older than this is no longer available.
 
-## Download options
+## Download options {#download-options}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -199,22 +199,22 @@ import TabItem from '@theme/TabItem';
     </TabItem>
 </Tabs>
 
-## Data Structure
+## Data Structure {#data-structure}
 
-### GRIB format
+### GRIB format {#grib-format}
 
 The data is provided in GRIB2 format, which is a binary format used internationally and defined by WMO.
 More information about the data format can be found in the [Manual on Codes](https://library.wmo.int/records/item/35769-manual-on-codes-volume-i-3-international-codes) published by WMO.
 
 > ⚠️ **WARNING**: Data located at the boundary of the spatial domain may be random.
 
-### GRIB file structure
+### GRIB file structure {#grib-file-structure}
 
  Each GRIB2 file contains data for a single model collection, one reference time, one forecast lead time, and one variable — either as the deterministic control run or the full ensemble. The following diagram shows a general overview.
 
 ![StructureDiagram](./static/docs_img/ogd_data_structure.drawio.png) <br></br>
 
-### Forecast data volume
+### Forecast data volume {#forecast-data-volume}
 
 The following tables summarize the expected volume of the different forecast files for **ICON-CH1-EPS** and **ICON-CH2-EPS**.
 
@@ -231,10 +231,10 @@ The following tables summarize the expected volume of the different forecast fil
 | Deterministic|  175.0 Bytes - 564.7 KiB| 4.9 MiB - 43.9 MiB|
 | Perturbed | 3.4 KiB - 11 MiB | 97.5 MiB - 877.5 MiB |
 
-### 3D model grid
+### 3D model grid {#3d-model-grid}
 The model data is structured on both a horizontal and vertical grid.
 
-#### Vertical grid
+#### Vertical grid {#vertical-grid}
 
 The vertical grid above the surface is a height-based coordinate system that describes terrain-following model levels. The closer the levels are to
 the surface, the narrower the layers they define, as shown in the image below. The model levels gradually change into levels of constant height as the distance from the surface increases.
@@ -269,7 +269,7 @@ Parameters are classified as either **single-level** or **multi-level**:
 
 For more detailed information on the vertical grid, read section 3.4 in [Working with the ICON Model](https://www.dwd.de/DE/leistungen/nwv_icon_tutorial/pdf_einzelbaende/icon_tutorial2024.pdf?__blob=publicationFile&v=3).
 
-#### Horizontal grid
+#### Horizontal grid {#horizontal-grid}
 
 The horizontal grid of the ICON-CH1-EPS and ICON-CH2-EPS models is based on a native icosahedral grid used by the ICON model (illustration below).
 
@@ -282,19 +282,19 @@ Since the provided data is defined on the native grid, the horizontal grid point
 Therefore, the longitude and latitude information corresponds to the middle of each triangle. For more detailed information on
 the horizontal grid, read section 2.1 in [Working with the ICON Model](https://www.dwd.de/DE/leistungen/nwv_icon_tutorial/pdf_einzelbaende/icon_tutorial2024.pdf?__blob=publicationFile&v=3).
 
-## Working with the forecast data
+## Working with the forecast data {#working-with-the-forecast-data}
 
-### Exploring GRIB files in Python
+### Exploring GRIB files in Python {#exploring-grib-files-in-python}
 Several Jupyter Notebooks explain how to download and work with forecast files in [xarray.DataArray](https://docs.xarray.dev/en/stable/generated/xarray.DataArray.html) format.
 To explore them, check out the GitHub repository [opendata-nwp-demos](https://github.com/MeteoSwiss/opendata-nwp-demos).
 
-### Reading GRIB files using ecCodes
+### Reading GRIB files using ecCodes {#reading-grib-files-using-eccodes}
 
 To work with GRIB files, you need a tool to decode the GRIB records. Each GRIB record holds the data for one parameter
 at one time and at one level. More information about the data format can be found in the [Manual on Codes](https://library.wmo.int/records/item/35769-manual-on-codes-volume-i-3-international-codes) published by WMO.
 We recommend installing ecCodes from ECMWF to read the data. Follow the installation guide provided by ECMWF [here](https://confluence.ecmwf.int/display/ECC/ecCodes+installation).
 
-#### Setting the local definitions of the COSMO consortium
+#### Setting the local definitions of the COSMO consortium {#setting-the-local-definitions-of-the-cosmo-consortium}
 
 The GRIB format relies on tables and templates to encode the metadata. Those tables allow for example the mapping of a triplet of numbers encoding a parameter to a descriptive string (`shortName`). The international tables are provided in ecCodes. Additionally,
 local definitions can be defined by each center. ECMWF specific definitions are also shiped with ecCodes. Some of the provided ICON data also requires the local definitions of the COSMO consortium.
@@ -316,7 +316,7 @@ To check the details of your information, you can run
 codes_info
 ```
 
-#### Decoding GRIB files with ecCodes
+#### Decoding GRIB files with ecCodes {#decoding-grib-files-with-eccodes}
 
 This section provides a brief introduction to decoding GRIB files using command-line tools provided by **ecCodes**.
 There are also C, Fortran 90 and Python interfaces, please refer to the [ecCodes documentation](https://confluence.ecmwf.int/display/ECC).
@@ -349,7 +349,7 @@ grib_dump filename.grib
 grib_dump -w key1=value1,key2=value2 filename.grib
 ```
 
-## FAQ/Troubleshooting
+## FAQ/Troubleshooting {#faqtroubleshooting}
 
 <details>
 <summary> <b> "Why can't I find the latitude or longitude coordinates?" </b> </summary>

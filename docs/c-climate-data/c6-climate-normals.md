@@ -16,11 +16,11 @@ For **grid data**, go to [Spatial climate normals](/c-climate-data/c7-spatial-cl
 
 :::
 
-## Data download
+## Data download {#data-download}
 
 You can download the available Open Data via [opendata.swiss](https://opendata.swiss/en/dataset/klimanormwerte/resource/e80497da-0ffb-4437-87bb-3d72e3296349), as ZIP (in `TXT` format).
 
-## Data structure
+## Data structure {#data-structure}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -35,13 +35,13 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 </Tabs>
 
-## Data format
+## Data format {#data-format}
 
 `TXT` with an estimated volume of ≤0.02 MB per file.
 
 The files are separated by tabs. 
 
-## Metadata
+## Metadata {#metadata}
 
 <Tabs queryString="metadata">
   <TabItem value="parameters" label="Parameter">
@@ -55,6 +55,6 @@ The files are separated by tabs.
   </TabItem>
 </Tabs>
 
-## Data usage
+## Data usage {#data-usage}
 
 See e.g. MeteoSwiss' [Normal values per measured parameter](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/climate-normtables.html#https%3A%2F%2Fservice.meteoswiss.ch%2Fproductbrowser%2FproductDisplay%2Fclimate-normtables%3Flang=en) application.
