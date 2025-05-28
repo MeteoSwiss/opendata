@@ -14,7 +14,7 @@ Below you'll find answers to the most frequently asked questions. We continuousl
 <!--  - Warum sind Radardaten nicht auch Atmosphärenmessungen? (lim)  -->
 
 
-## What type of data can I get?
+## What type of data can I get? {#what-type-of-data-can-i-get}
 So far, the following data is available:
 - [A - Ground-based measurements](/a-data-groundbased)
 - [C - Climate data: Homogeneous data series](/c-climate-data)
@@ -25,15 +25,15 @@ Additional types of data will be released in the following months. The expected 
 <!--  [B - Atmosphere measurements](/b-data-atmosphere)  -->
 <!--  [D - Radar data](/d-data-radar)  -->
 
-## How may I use data?
+## How may I use data? {#how-may-i-use-data}
 Read the [Rights of use of the data](/general/terms-of-use#2-rights-of-use-of-the-data).
 
 
-## Is there a usage limitation?
+## Is there a usage limitation? {#is-there-a-usage-limitation}
 MeteoSwiss' download service partner swisstopo reserves the right to block or adjust the bandwidth for individual users, if these strain geo.admin.ch to a disproportionately wide extent. Read the [General Terms of Use and Operating Conditions of the Federal Spatial Data Infrastructure FSDI, chapter 2. Data use](https://www.geo.admin.ch/en/general-terms-of-use-fsdi#2.-Data-use).
 
 
-## How often is data updated?
+## How often is data updated? {#how-often-is-data-updated}
 For 'Ground-based measurements' as well as for 'Climate stations – Homogeneous data series' and 'Climate precipitation stations - Homogeneous data series' the update frequencies specified [here](/general/download#update-frequency) apply. For numerical weather forecasting model data, update frequencies depend on the model. Details on model run times and data availability can be found in the [Model Specifications section](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model#models-specifications) of the forecast data documentation.
 
 
@@ -45,7 +45,7 @@ For other data types, please refer to their corresponding documentation.
 <!-- Files contain the same data as in the API and are updated hourly. -->
  
 <!--
-## What formats does data come in?
+## What formats does data come in? {#what-formats-does-data-come-in}
 ...
 
 MeteoSwiss’ open data is retrieved in JSON format (”JavaScript Object Notation”). JSON is a compact file format for the exchange of data. JSON is a text format which is platform- and language agnostic and which can be read by humans as well as machines. The JSON format can easily be converted to other file formats such as .csv or .xml.
@@ -59,10 +59,10 @@ Data retrieved through the API is only available in JSON format, but DMI's open 
 For QGIS there is a plugin called "DMI Open Data", that can be used to easily import data. Please see our guide. -->
 
 
-## What about the quality control of data?
+## What about the quality control of data? {#what-about-the-quality-control-of-data}
 <!-- Do not change this title! -->
 
-### Ground-based measurements
+### Ground-based measurements {#ground-based-measurements}
 [Ground-based Measurements](/a-data-groundbased) are initially raw, not quality assured measurements, which may be faulty due to the way they are collected. The use of these data shall be with regard to the fact that the measurements may be faulty. Errors are typically due to malfunction of instruments caused by wear and tear or exposure to weather and on rare occasions from vandalism. <!-- Wear and tear of the instruments are handled proactively by performing service checks at the stations on a regular basis and changing the instruments within the given time frame. -->
 
 In order to minimise the risk of incorrect measurements, MeteoSwiss checks the plausibility of the data during a rolling period of 5 days from the time of measurement using several automatic and manual control methods. The manually checked data, which is the highest quality check available, is normally published 5 days after the measurement.
@@ -77,7 +77,7 @@ In order to minimise the risk of incorrect measurements, MeteoSwiss checks the p
 [Here](https://www.meteoswiss.admin.ch/weather/measurement-systems/data-management/data-preparation.html) you can find out more about how MeteoSwiss prepares its data. Topics include aggregation and calculation, completeness check, plausibility check, and homogenisation.
 
 <!--  
-### Precipitation radar products 
+### Precipitation radar products {#precipitation-radar-products}
 [Precipitation radar products](/d-radar-data/d1-precipitation-radar-products) ('CombiPrecip') are based on 10min automatic surface measurements and radar data. 
 
 Since some 10min data can be late or missing or there can be any issues with the radar, they are reprocessed automatically 8 days later, including all available and checked 10min automatic measured precipitation values. The published data will be overwritten automatically every 8 days.
@@ -88,7 +88,7 @@ For the best quality data we therefore recommend to use only the reprocessed dat
 
 :::
 
-### Spatial climate data
+### Spatial climate data {#spatial-climate-data}
 The daily spatial climate data [`RprelimD`, `TabsD`, `TmaxD`, `TminD` and `SrelD`](/c-climate-data/c3-ground-based-climate-data) are calculated daily, based on the available daily data. 
 
 As noted in the [ground-based measurements](/general/faq#ground-based-measurements)' section above, the data is beeing checked only later on, therefore a later recalculation of the products is necessary. Also the checked manually measured daily precipitation values are included after the end of the month in `RprelimD`, resulting in the `RhiresD` product.
@@ -102,20 +102,20 @@ Therefore the `TabsD`, `TmaxD`, `TminD`, `SrelD` and `RhiresD` products are beei
 *If you have questions regarding data from third parties, please contact the authority responsible for the specific station or the data derived therefrom.* -->
 
 
-## What if data is missing?
+## What if data is missing? {#what-if-data-is-missing}
 The 'open data' downloaded from MeteoSwiss corresponds to the data available to MeteoSwiss. Sometimes you may experience that some values are missing. The root cause of this is typically a malfunctioning measurement instrument, which MeteoSwiss will repair as soon as possible.
 
 Please also note that [missing values](/general/download#missing-values) - regardless of the cause - are always represented as 'empty fields'. This applies to the vast majority of cases in which no measurements are taken at all.
 
 <!--
-## What coordinate system is used for the location of the stations?
+## What coordinate system is used for the location of the stations? {#what-coordinate-system-is-used-for-the-location-of-the-stations}
 *The coordinate system used for the location of the stations is WGS84.*
 -->
 <!-- ### Why is MeteoSwiss' 1x1km grid data not available as open data? -->
 <!-- *The 1x1 km grid is used as an intermediate basis to construct the spatial resolutions 10x10 km, 20x20 km, municipality data and country data. Under certain weather conditions the 1x1 km grid data can be quite imprecise, but by aggregating it to larger areas the uncertainty is reduced. Furthermore, 3rd party data, which MeteoSwiss doesn’t have permission to redistribute, can be deducted directly from the 1x1 km grid data.* -->
 
 <!--
-## What if I have questions about the data?
+## What if I have questions about the data? {#what-if-i-have-questions-about-the-data}
 ...
 -->
 <!-- If you have questions regarding data, please contact the authority responsible for the specific station or the data derived therefrom.
