@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: Stations météorologiques automatiques
 ---
 
 # Stations météorologiques automatiques

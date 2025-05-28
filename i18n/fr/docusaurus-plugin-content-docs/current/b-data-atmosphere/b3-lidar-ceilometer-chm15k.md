@@ -1,15 +1,14 @@
 ---
 sidebar_position: 3
+title: LIDAR Ceilometer CHM15K
 ---
-
-<!-- @NOSPELL@ -->
 
 # LIDAR Ceilometer CHM15K
 
-:::warning 
+:::warning
 
-Data is not yet available.
+Les données ne sont pas encore disponibles.
 
 :::
 
-Documentation follows.
+La documentation suivra.
