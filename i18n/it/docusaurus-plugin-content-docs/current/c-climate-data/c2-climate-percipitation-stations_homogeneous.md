@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+title: Stazioni climatologiche pluviometriche – Serie omogenee di misurazioni
 ---
 
 # Stazioni climatologiche pluviometriche – Serie omogenee di misurazioni

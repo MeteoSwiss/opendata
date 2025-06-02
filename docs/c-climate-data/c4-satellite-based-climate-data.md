@@ -18,7 +18,7 @@ These grid data products are derived from [MeteoSat satellite data](https://www.
 **Cloud Cover**
 - *Hourly [to be verified]*, [Daily, Monthly and Yearly satellite-based Cloud Fractional Cover](https://www.meteoswiss.admin.ch/dam/jcr:af0c491c-4bfc-4efd-bcee-5d019004afd1/ProdDoc_CFC.pdf)
 
-## Data download
+## Data download {#data-download}
 
 The following **example data files** are available for download:
 
@@ -63,14 +63,14 @@ The following **example data files** are available for download:
 | ?                              |                      | Y                  | previous_year            | msg.SIS-No-Horizon.Y_ch02.lonlat      | LL84                   | EPSG:4326          |
 -->
 
-## Data format
+## Data format {#data-format}
 
 The data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of 0.1 MB per file.
 
-## Coordinate system
+## Coordinate system {#coordinate-system}
 
 The coordinate system is [`WGS84`](https://www.swisstopo.admin.ch/en/reference-system-as-basis-for-coordinates) / [`EPSG:4326`](https://epsg.io/4326). 
 
-## Data usage
+## Data usage {#data-usage}
 
 Follows.

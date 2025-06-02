@@ -1,14 +1,33 @@
 {
   "Data Documentation": {
-    "message": "📖 Daten Dokumentation anschauen"
+    "message": "Data Dokumentation"
   },
-  "Open Data Documentation": {
+  "Open Data documentation": {
     "message": "Open Data Dokumentation",
     "description": "Homepage title"
   },
-  "MeteoSwiss - Open Data Documentation": {
+  "MeteoSwiss - Open Data documentation": {
     "message": "MeteoSwiss - Open Data Dokumentation",
     "description": "Homepage description"
+  },
+  "homepage.main_title": {
+    "message": "Documentation under construction",
+    "description": "Title on the main page"
+  },
+  "homepage.main_text": {
+    "message": "The documentations of the Open Data products linked below explain what the data represents, its models, abstractions and terminology.",
+    "description": "The main explanation text on the homepage"
+  },
+  "Status": {
+    "message": "Status"
+  },
+  "homepage.status_text": {
+    "message": "We are currently setting up our service as ALPHA. Everything is subject to change without prior notice.",
+    "description": "The status text on the homepage"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Navigation der letzten Beiträge im Blog",
+    "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.ErrorPageContent.title": {
     "message": "Die Seite ist abgestürzt.",
@@ -173,10 +192,6 @@
     "message": "Schließen",
     "description": "The ARIA label for close button of announcement bar"
   },
-  "theme.blog.sidebar.navAriaLabel": {
-    "message": "Navigation der letzten Beiträge im Blog",
-    "description": "The ARIA label for recent posts in the blog sidebar"
-  },
   "theme.CodeBlock.copied": {
     "message": "Kopiert",
     "description": "The copied button label on code blocks"
@@ -320,28 +335,5 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
-  },
-  "homepage.main_text": {
-    "message": "Die unten verlinkten Dokumentationen der Open-Data-Produkte erklären, was die Daten darstellen, ihre Modelle, Abstraktionen und Terminologie.",
-    "description": "The main explanation text on the homepage"
-  },
-  "Status": {
-    "message": "Status"
-  },
-  "homepage.status_text": {
-    "message": "Wir richten unseren Dienst derzeit als ALPHA ein. Alles kann sich ohne vorherige Ankündigung ändern.",
-    "description": "The status text on the homepage"
-  },
-  "homepage.main_title": {
-    "message": "Dokumentation im Aufbau",
-    "description": "Title on the main page"
-  },
-  "Open Data documentation": {
-    "message": "Open Data Dokumentation",
-    "description": "Homepage title"
-  },
-  "MeteoSwiss - Open Data documentation": {
-    "message": "MeteoSchweiz - Open Data Dokumentation",
-    "description": "Homepage description"
   }
 }

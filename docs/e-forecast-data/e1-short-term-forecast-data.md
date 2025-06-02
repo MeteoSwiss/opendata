@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: Short-term forecast data ('nowcasting')
 ---
 <!-- @NOSPELL@ -->
 
@@ -33,7 +34,7 @@ The following parameters are currently under discussion to be made available:
 - Temperature 2 m (`TT`, 10 min values every 60 min)
 - Dew point temperature 2 m (`TD`, 10 min values every 60 min)
 
-## Data download
+## Data download {#data-download}
 
 The following **example data file**s are available for download:
 
@@ -48,15 +49,15 @@ The following **example data file**s are available for download:
 | **Temperature 2 m (`TT`)** | 10 min | 60 min | [TT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TT_INCA_202106280700.nc) | `ogd-nowcasting_TT_(date and time code).nc` | 13 |
 | **Dew point temperature 2 m (`TD`)** | 10 min | 60 min | [TD_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TD_INCA_202106280700.nc) | `ogd-nowcasting_TD_(date and time code).nc` | 13 |
 
-## Data format
+## Data format {#data-format}
 
 The data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf).
 
-## Coordinate system
+## Coordinate system {#coordinate-system}
 
 The coordinate system is [`Swiss LV03`](https://www.swisstopo.admin.ch/en/national-triangulation-network-lv03) / [`EPSG 21781`](https://epsg.io/21781).
 
-## Metadata
+## Metadata {#metadata}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -67,6 +68,6 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 </Tabs>
 
-## Data usage
+## Data usage {#data-usage}
 
 Examples of INCA data reading and visualisation can be found here: [jupyter notebooks](https://github.com/MeteoSwiss/inca-examples).

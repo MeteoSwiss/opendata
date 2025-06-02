@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+title: Bodengestützte räumliche Klimadaten – Niederschlag, Temperatur, Sonnenschein
 ---
 
 # Bodengestützte räumliche Klimadaten – Niederschlag, Temperatur, Sonnenschein

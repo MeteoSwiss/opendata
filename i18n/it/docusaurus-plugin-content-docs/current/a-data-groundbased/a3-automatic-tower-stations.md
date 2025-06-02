@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+title: Stazioni automatiche posizionate su una torre
 ---
 
 # Stazioni automatiche posizionate su una torre

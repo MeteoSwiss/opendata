@@ -23,7 +23,7 @@ MeteoSwiss provides monthly and annual maps for normal periods 1961-1990 and 199
 | previous_day | CH1995                 | EPSG:2056          | NETCDF           | SnormY9120 Normwert Monats-Sonnenscheindauer 1991-2020    |
 -->
 
-## Data download
+## Data download {#data-download}
 
 You can access the available Open Data via [opendata.swiss](https://opendata.swiss/en/dataset?q=klimanormwerte&sort=score%20desc%2C%20metadata_modified%20desc&organization=bundesamt-fur-meteorologie-und-klimatologie-meteoschweiz&res_format=SERVICE):
 
@@ -39,16 +39,16 @@ You can access the available Open Data via [opendata.swiss](https://opendata.swi
 - [over the norm period 1991-2020](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-sonnenscheindauer_aktuelle_periode)
 - [over the norm period 1961-1990](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-sonnenscheindauer_1961_1990)
 
-## Data format
+## Data format {#data-format}
 
 The data formats are 
 - [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of 1.1 MB for *individual files [to be verified]*, and 13 MB for monthly files with daily data;
 - [`GeoTIFF`](https://trac.osgeo.org/geotiff).
 
-## Coordinate system
+## Coordinate system {#coordinate-system}
 
 The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056). 
 
-## Data usage
+## Data usage {#data-usage}
 
 See e.g. MeteoSwiss' [Norm value charts](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/climate-norm-maps-public.html#https%3A%2F%2Fservice.meteoswiss.ch%2Fproductbrowser%2FproductDisplay%2Fclimate-norm-maps-public%3Flang=en&cg1.parameter=FrostDays&cg1.normalPeriod=1961-1990&cg1.productName=climate-indicators-maps-norm) application.

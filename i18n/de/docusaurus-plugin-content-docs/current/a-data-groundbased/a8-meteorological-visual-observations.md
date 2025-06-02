@@ -1,5 +1,6 @@
 ---
 sidebar_position: 8
+title: Meteorologische Augenbeobachtungen
 ---
 
 # Meteorologische Augenbeobachtungen

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: Dati di previsione a breve termine
 ---
 
 # Dati di previsione a breve termine

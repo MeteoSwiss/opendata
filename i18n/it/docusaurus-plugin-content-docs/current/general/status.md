@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+title: Rimanere aggiornati
 ---
 
 # Rimanere aggiornati
@@ -15,7 +16,7 @@ sidebar_position: 3
 | [opendata.swiss](https://opendata.swiss/it/organization/bundesamt-fur-meteorologie-und-klimatologie-meteoschweiz?q=&sort=max%28issued%2C+modified%29+desc) catalogo dei metadati | [Ufficio federale di statistica (UST)](https://www.bfs.admin.ch/bfs/it/home.html) | Le finestre di manutenzione pianificate vengono annunciate con un avviso su [opendata.swiss](https://opendata.swiss) | UST [opendata.swiss assistenza](https://opendata.swiss/it/contact) | 
 | [geocat.ch](https://www.geocat.ch/datahub/organization/Ufficio%20federale%20di%20meteorologia%20e%20climatologia%20MeteoSvizzera) catalogo dei metadati geografici | swisstopo | | swisstopo [geocat.ch assistenza](https://info.geocat.ch/it/contatto) |
 | Raccolta e integrazione dei dati | MeteoSvizzera | In caso di malfunzionamenti delle stazioni di rilevamento, verificare [la disponibilità dei dati](https://www.meteosvizzera.admin.ch/servizi-e-pubblicazioni/applicazioni/disponibilita-dei-dati.html). | MeteoSvizzera [Open Data assistenza](https://www.meteosvizzera.admin.ch/chi-siamo/contatto/formulario-di-contatto.html) |
-| Elaborazione di modelli numerici di previsioni meteorologiche | [CSCS - Swiss National Supercomputing Centre](https://www.cscs.ch/services/contractual-partners) |    | MeteoSvizzera [Open Data assistenza](https://www.meteosvizzera.admin.ch/chi-siamo/contatto/formulario-di-contatto.html) |
+| Elaborazione di modelli numerici di previsioni meteorologiche | [CSCS - Swiss National Supercomputing Centre](https://www.cscs.ch/services/contractual-partners) | [CSCS Status Page Central Services](https://status.cscs.ch/) | MeteoSvizzera [Open Data assistenza](https://www.meteosvizzera.admin.ch/chi-siamo/contatto/formulario-di-contatto.html) |
 
 
 <!-- @ENDNOSPELL@ -->

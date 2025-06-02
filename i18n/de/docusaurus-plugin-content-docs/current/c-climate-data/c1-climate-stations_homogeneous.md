@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: Klimastationen – Homogene Messreihen
 ---
 
 # Klimastationen – Homogene Messreihen

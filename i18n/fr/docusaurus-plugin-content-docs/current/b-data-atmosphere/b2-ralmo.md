@@ -1,15 +1,16 @@
 ---
 sidebar_position: 2
+title: Raman-LIDAR for Meteorological Observation (RALMO)
 ---
 
 <!-- @NOSPELL@ -->
 
 # Raman-LIDAR for Meteorological Observation (RALMO)
 
-:::warning 
+:::warning
 
-Data is not yet available.
+Les données ne sont pas encore disponibles.
 
 :::
 
-Documentation follows.
+La documentation suivra.
