@@ -3,7 +3,7 @@
 
 **Status:** live / [change log](https://github.com/MeteoSwiss/opendata/commits/main).
 
-# MeteoSwiss - Open Data
+# MeteoSwiss' Open Data documentation
 MeteoSwiss' continuously updated Open Data documentation is published at [opendatadocs.meteoswiss.ch](https://opendatadocs.meteoswiss.ch). 
 
 
