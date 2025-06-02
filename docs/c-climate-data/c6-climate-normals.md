@@ -4,11 +4,11 @@ sidebar_position: 6
 
 # Climate normals
 
-The characteristics of the Swiss climate are described using long-term averages of meteorological parameters (such as temperature, precipitation and hours of sunshine), the differences from these averages, as well as extreme and record values. 
+Typical conditions of the Swiss climate are described using long-term averages of meteorological parameters such as temperature, precipitation and hours of sunshine. They are used as a baseline to evaluate climate events and provide context information for the analysis of year-to-year variability.
 
-The 30-year average and 30-year averaging period are used as standard for climate normals worldwide. Normal periods are regularly updated in light of the changing climate.
+The 30-year average and 30-year averaging periods defined by the World Meteorological Organisation WMO are used as standard for climate normals worldwide. The international coordination and standardisation is important to enable comparisons across national boundaries. Normal periods are regularly updated in light of climate change.
 
-MeteoSwiss provides monthly and annual [climate normals](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/climate-normals.html) for the norm periods 1961-1990, 1981-2010 and 1991-2020 for all measuring stations with long-time series of [homogeneous measurements](/c-climate-data/c1-climate-stations_homogeneous).
+MeteoSwiss provides monthly and annual [climate normals](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/climate-normals.html) for the periods 1961-1990 (standard reference period for long-term climate change assessments) and 1991-2020 (current WMO climatological standard period) for various parameters of measuring stations with long data series.
 
 :::info
 
