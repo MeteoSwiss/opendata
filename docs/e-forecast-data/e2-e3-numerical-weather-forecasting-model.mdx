@@ -21,9 +21,9 @@ The documentation covers the following topics:
 - [Getting started quickly](#getting-started-quickly)
     - [Example notebooks: From retrieval to visualization](#example-notebooks-from-retrieval-to-visualization)
 - [Available data](#available-data)
+    - [24h availability window](#24h-availability-window)
     - [Models' specifications](#models-specifications)
     - [Available parameters](#available-parameters)
-    - [24h window](#24h-window)
 - [Download options](#download-options)
     - [Using the Python API](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=pythonapi#download-options)
     - [Using the REST API (HTTP POST)](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=restapi#download-options)
@@ -48,6 +48,15 @@ To get started quickly, explore the [Jupyter notebooks](https://github.com/Meteo
 
 
 ## Available data {#available-data}
+### 24h availability window {#24h-availability-window}
+:::warning
+
+Data made available through this interface is accessible for **24 hours** only after its publication.
+After this window, it is no longer available for retrieval.
+
+If your request returns an empty response or you encounter a `403` error, it likely means the data you're trying to access is older than 24 hours.
+
+:::
 
 ### Models' specifications {#models-specifications}
 
@@ -65,12 +74,6 @@ To get started quickly, explore the [Jupyter notebooks](https://github.com/Meteo
 ### Available parameters {#available-parameters}
 
 Each collection includes a downloadable CSV file with a continuously updated list of available parameters. The file includes metadata such as long name, standard unit, level type (single or multi level), vertical coordinate type, temporal horizon, aggregation type and start time. To access the parameter overview, open the collection page for the desired model - for example, [ICON-CH1-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch1?.language=en) or [ICON-CH2-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch2?.language=en). In the Assets section, download the file labeled Parameter Overview.
-
-### 24h window {#24h-window}
-
-The data provided in the two collections described in the [Models' specifications table](#models-specifications) is accessible for **24 hours**.
-
-Data older than this is no longer available.
 
 ## Download options {#download-options}
 
