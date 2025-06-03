@@ -27,23 +27,20 @@ MeteoSwiss provides monthly and annual maps for normal periods 1961-1990 (WMO st
 
 You can access the available Open Data via [opendata.swiss](https://opendata.swiss/en/dataset?q=klimanormwerte&sort=score%20desc%2C%20metadata_modified%20desc&organization=bundesamt-fur-meteorologie-und-klimatologie-meteoschweiz&res_format=SERVICE):
 
-**Monthly and yearly averages of precipitation**
-- [over the norm period 1991-2020](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-niederschlag_aktuelle_periode)
-- [over the norm period 1961-1990](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-niederschlag_1961_1990)
+**Normal period 1991-2020**
+- [Mean precipitation (Monthly and yearly averages)](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-niederschlag_aktuelle_periode/items/klimanormwerte-niederschlag_aktuelle_periode) 
+- [Mean relative sunshine duration (Monthly averages)](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-sonnenscheindauer_aktuelle_periode/items/klimanormwerte-sonnenscheindauer_aktuelle_periode)
+- [Mean temperature (Monthly and yearly averages)](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-temperatur_aktuelle_periode/items/klimanormwerte-temperatur_aktuelle_periode)
 
-**Monthly and yearly averages of temperature**
-- [over the norm period 1991-2020](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-temperatur_aktuelle_periode)
-- [over the norm period 1961-1990](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-temperatur_1961_1990)
-
-**Monthly and yearly averages of relative sunshine duration**
-- [over the norm period 1991-2020](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-sonnenscheindauer_aktuelle_periode)
-- [over the norm period 1961-1990](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-sonnenscheindauer_1961_1990)
+**Normal period 1961-1990**
+- [Mean precipitation (Monthly and yearly averages)](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-niederschlag_1961_1990/items/klimanormwerte-niederschlag_1961_1990) 
+- [Mean relative sunshine duration (Monthly and yearly averages)](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-sonnenscheindauer_1961_1990/items/klimanormwerte-sonnenscheindauer_1961_1990) 
+- [Mean temperature (Monthly and yearly averages)](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-temperatur_1961_1990/items/klimanormwerte-temperatur_1961_1990)
 
 ## Data format {#data-format}
 
 The data formats are 
-- [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of 1.1 MB for *individual files [to be verified]*, and 13 MB for monthly files with daily data;
-- [`GeoTIFF`](https://trac.osgeo.org/geotiff).
+- [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of 1.1 MB for *individual files [to be verified]*, and 13 MB for monthly files with daily data.
 
 ## Coordinate system {#coordinate-system}
 
