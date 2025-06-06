@@ -8,8 +8,6 @@ In addition to its automatic precipitation measurements (see [automatic weather 
 
 Measurements are taken once a day and transmitted to MeteoSwiss via SMS. The network comprises around 240 locations, about 190 stations measure rainfall and snow, and about 50 stations measure snow only.
 
-Due to their long-series measurements, they are of great climatological significance.
-
 In mountainous areas that are difficult to access, the network is supplemented by around 60 totalisers which record the volume of precipitation for an entire year (see [Totaliser precipitation stations](https://opendatadocs.meteoswiss.ch/a-data-groundbased/a6-totaliser-precipitation-stations)).
 
 ## Data download {#data-download}
@@ -73,10 +71,8 @@ import TabItem from '@theme/TabItem';
 
 See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-manuell&lang=en&table=false).
 
-<!--
 :::info 
 
-For **climate analyses**, use the corresponding [homogeneous time series data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#d-climate-data) instead.
+For **climate analyses (long-term evolution or change)**, use the [homogeneous data series](https://opendatadocs.meteoswiss.ch/c-climate-data) instead.
 
 :::
--->
