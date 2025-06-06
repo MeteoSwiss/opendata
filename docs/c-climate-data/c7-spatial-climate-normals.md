@@ -4,9 +4,9 @@ sidebar_position: 7
 
 # Spatial climate normals
 
-The maps of normal values show the long-time averages for temperature, precipitation, sunshine duration and various climate indicators in Switzerland. 30-year periods defined by the World Meteorological Organisation WMO are used as standard for climate normals worldwide. Several normal periods as well as their differences are illustrated. The spatial illustration is based on a 1 km grid point data set, calculated using all available measurements from ground-based measuring stations.
+Spatial climate analyses depict the geographic distribution of a meteorological parameter. They are derived from measurements at weather stations, satellites and radar. The data is represented comprehensively on a grid covering all of Switzerland.
 
-MeteoSwiss provides monthly and annual maps for normal periods 1961-1990 (WMO standard reference period for long-term climate change assessments) and 1991-2020 (current WMO climatological standard period).
+Spatial analyses of long-term averages (climate normals) are available for temperature, precipitation and sunshine duration. 30-year periods defined by the World Meteorological Organisation WMO are used to allow for international comparability. MeteoSwiss provides monthly and annual maps for the normal periods 1961-1990 (WMO standard reference period for long-term climate change assessments) and 1991-2020 (current WMO climatological standard period).
 
 <!--
 | PERIOD_TX    | BOUND_BOX_COORD_SYS_TX | OUTPUT_COORDSYS_TX | OUTPUT_FORMAT_TX | filename                                                  |
@@ -40,7 +40,7 @@ You can access the available Open Data via [opendata.swiss](https://opendata.swi
 ## Data format {#data-format}
 
 The data formats are 
-- [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of 1.1 MB for *individual files [to be verified]*, and 13 MB for monthly files with daily data.
+- [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of 1 MB for yearly and 5 MB for monthly values.
 
 ## Coordinate system {#coordinate-system}
 
