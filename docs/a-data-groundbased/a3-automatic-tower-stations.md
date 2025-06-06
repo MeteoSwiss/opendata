@@ -75,6 +75,6 @@ See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/s
 
 :::info
 
-For **climate analyses**, use the corresponding [Climate stations - Homogeneous measurements](https://opendatadocs.meteoswiss.ch/c-climate-data) instead.
+For **climate analyses (long-term evolution or change)**, use the [homogeneous data series](https://opendatadocs.meteoswiss.ch/c-climate-data) instead.
 
 :::
