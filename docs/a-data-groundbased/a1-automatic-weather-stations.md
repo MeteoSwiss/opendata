@@ -121,6 +121,6 @@ See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/s
 
 :::info
 
-For **climate analyses (long-term evolution or change)**, use the [Climate stations - Homogeneous measurements](https://opendatadocs.meteoswiss.ch/c-climate-data) instead.
+For **climate analyses (long-term evolution or change)**, use the [Homogeneous data series](https://opendatadocs.meteoswiss.ch/c-climate-data) instead.
 
 :::
