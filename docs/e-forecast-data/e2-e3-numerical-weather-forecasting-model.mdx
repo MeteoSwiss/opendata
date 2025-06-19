@@ -122,7 +122,7 @@ import TabItem from '@theme/TabItem';
     Upon a successful request, the response will contain a dictionary of metadata, including forecast file links under the `assets` key. Locate the `href` field containing the pre-signed URL.
     Download the GRIB file containing the forecast data using the following command:
     ```
-    wget -O <desired_filename> “<pre-signed URL>”
+    wget -O <desired_filename> "<pre-signed URL>"
     ```
 
     After downloading your forecast data, it's good practice to verify its integrity before use.
@@ -167,7 +167,7 @@ import TabItem from '@theme/TabItem';
     2. Locate the `href` field under `assets` in `id: horizontal_constants_icon-ch1-eps.grib2` and copy the pre-signed URL.
     3. Download the file with:
     ```
-    wget -O <desired_filename> “<pre-signed URL>”
+    wget -O <desired_filename> "<pre-signed URL>"
     ```
     4. Once the static GRIB file is downloaded, ensure that the `uuidOfHGrid` (Universally Unique Identifier for the horizontal grid) key in the data file matches the one in the static horizontal file.
 
@@ -182,7 +182,7 @@ import TabItem from '@theme/TabItem';
     2. Locate the `href` field under `assets` in `id: vertical_constants_icon-ch1-eps.grib2` and copy the pre-signed URL.
     3. Download the file with:
     ```
-    wget -O <desired_filename> “<pre-signed URL>”
+    wget -O <desired_filename> "<pre-signed URL>"
     ```
     4. Once the static GRIB file is downloaded, verify that the `uuidOfVGrid` (Universally Unique Identifier for the vertical grid) key in the data file matches the one in the HHL file.
     5. Retrieve the value for the `level` key and inspect the `typeOfLevel` key by listing the GRIB messages:
@@ -300,17 +300,17 @@ We recommend installing ecCodes from ECMWF to read the data. Follow the installa
 #### Setting the local definitions of the COSMO consortium {#setting-the-local-definitions-of-the-cosmo-consortium}
 
 The GRIB format relies on tables and templates to encode the metadata. Those tables allow for example the mapping of a triplet of numbers encoding a parameter to a descriptive string (`shortName`). The international tables are provided in ecCodes. Additionally,
-local definitions can be defined by each center. ECMWF specific definitions are also shiped with ecCodes. Some of the provided ICON data also requires the local definitions of the COSMO consortium.
+local definitions can be defined by each center. ECMWF specific definitions are also shipped with ecCodes. Some of the provided ICON data also requires the local definitions of the COSMO consortium.
 In order to provide a consistent and comprehensive set of GRIB tables, check the ecCodes version you installed and clone the
 **corresponding version** of the GRIB tables in the same folder:
 
 - Releases for [COSMO-ORG/eccodes-cosmo-resources](https://github.com/COSMO-ORG/eccodes-cosmo-resources/releases)
 - Releases for [ecmwf/eccodes](https://github.com/ecmwf/eccodes/releases)
 
-Then, set `GRIB_DEFINITION_PATH` for ecCodes to use those tables (add it to your `.bashrc` to make if availabe in each terminal session):
+Then, set `GRIB_DEFINITION_PATH` for ecCodes to use those tables (add it to your `.bashrc` to make it available in each terminal session):
 
 ```
-export GRIB_DEFINITION_PATH=<name_of_your_folder>/eccodes-cosmo-recources/definitions:<name_of_your_folder>r/eccodes/definitions
+export GRIB_DEFINITION_PATH=<name_of_your_folder>/eccodes-cosmo-resources/definitions:<name_of_your_folder>/eccodes/definitions
 ```
 
 To check the details of your information, you can run
@@ -378,7 +378,7 @@ Data older than this is no longer available. Therefore, when attempting to fetch
 </details>
 
 <details>
-<summary> <b> "How do I interprete the different types of vertical levels?" </b> </summary>
+<summary> <b> "How do I interpret the different types of vertical levels?" </b> </summary>
 
 To determine the type of level (vertical position) of a parameter, inspect the GRIB2 key `typeOfLevel`. We distinguish between the following:
 
