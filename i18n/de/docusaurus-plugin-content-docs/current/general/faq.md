@@ -20,7 +20,7 @@ Weitere Datentypen werden in den kommenden Monaten veröffentlicht. Das voraussi
 
 
 ## Wie darf ich die Daten verwenden?
-Lesen Sie die [Nutzungsrechte hinsichtlich der Daten](/general/terms-of-u#2-nutzungsrechte-hinsichtlich-der-daten).
+Lesen Sie die [Nutzungsrechte hinsichtlich der Daten](/general/terms-of-use#2-nutzungsrechte-hinsichtlich-der-daten).
 
 
 ## Gibt es eine Nutzungsbeschränkung?
