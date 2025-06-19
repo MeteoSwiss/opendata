@@ -59,6 +59,24 @@ Data retrieved through the API is only available in JSON format, but DMI's open 
 For QGIS there is a plugin called "DMI Open Data", that can be used to easily import data. Please see our guide. -->
 
 
+## Snow measurement data – What data is available and where can I find it? {#what-snow-measurement-data-is-available-and-where-can-i-find-it}
+The measurement methods used by MeteoSwiss to determine snow depth and new snow are described [in the weather glossary](https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/snow-depth-measurement.html). It is important to note that **the official snow measurement is still the manual measurement**. An observer takes a measurement **once a day** at 6:00 UTC in the morning. This data is therefore only available from [granularity](/general/download#data-granularity) `d`.
+
+Although automatic snow depth measurement provides real-time data in high resolution ([granularity](/general/download#data-granularity) `t`), it is prone to errors and is not currently checked manually. It must therefore not be used as an official measurement series. Further information on automatic measurement, which has been published by MeteoSwiss since winter 2024, can be found [in the blog post from November 2024; in German](https://www.meteoschweiz.admin.ch/ueber-uns/meteoschweiz-blog/de/2024/11/meteoschweiz-publiziert-automatisch-gemessene-schneehoehen-auf-der-webseite.html).
+
+In which datasets/'collections' can you find the snow measurement data?
+-    **Manual snow depth** (official measurement): Parameter `hto000*` in [Manual precipitation stations](/a-data-groundbased/a5-manual-precipitation-stations)
+-    **Manual new snow** (official measurement): Parameter `hns000*` in [Manual precipitation stations](/a-data-groundbased/a5-manual-precipitation-stations)
+-    **Automatic snow depth**: Parameter `htoaut*` in [Automatic weather stations](/a-data-groundbased/a1-automatic-weather-stations)
+-    **Fresh snow automatically**: Does not exist (there is no measuring device that can automatically measure new snow)
+
+:::warning
+
+Manual snow depth measurements are not always taken at the same location as automatic snow depth measurements. The values cannot therefore be compared with each other!
+
+:::
+
+
 ## What about the quality control of data? {#what-about-the-quality-control-of-data}
 <!-- Do not change this title! -->
 
