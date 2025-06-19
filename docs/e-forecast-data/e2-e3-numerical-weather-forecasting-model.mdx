@@ -307,7 +307,7 @@ In order to provide a consistent and comprehensive set of GRIB tables, check the
 - Releases for [COSMO-ORG/eccodes-cosmo-resources](https://github.com/COSMO-ORG/eccodes-cosmo-resources/releases)
 - Releases for [ecmwf/eccodes](https://github.com/ecmwf/eccodes/releases)
 
-Then, set `GRIB_DEFINITION_PATH` for ecCodes to use those tables (add it to your `.bashrc` to make if availabe in each terminal session):
+Then, set `GRIB_DEFINITION_PATH` for ecCodes to use those tables (add it to your `.bashrc` to make if available in each terminal session):
 
 ```
 export GRIB_DEFINITION_PATH=<name_of_your_folder>/eccodes-cosmo-recources/definitions:<name_of_your_folder>r/eccodes/definitions
@@ -353,9 +353,36 @@ grib_dump -w key1=value1,key2=value2 filename.grib
 ```
 
 ## FAQ/Troubleshooting {#faqtroubleshooting}
+<details>
+<summary> <b> How do I request the latest available forecast data? </b> </summary>
+
+**Using the Python API:**
+
+You can use the special string `"latest"` as the `ref_time` (initialization time) in your request to automatically select the most recent available run for each asset.
+
+For example:
+```python
+from meteodatalab import ogd_api
+
+req = ogd_api.Request(
+    collection="ogd-forecasting-icon-ch2",
+    variable="TOT_PREC",
+    ref_time="latest", # Select the most recent available run 
+    perturbed=False,
+    lead_time="P0DT0H",
+)
+
+tot_prec = ogd_api.get_from_ogd(req)
+```
+See concrete examples using `"latest"` in the notebooks: https://github.com/MeteoSwiss/opendata-nwp-demos. **Be aware**: during ongoing forecasts publication, requesting multiple timesteps or parameters may return assets with different `ref_time` values, as assets are not published all at once.
+
+**Using the STAC Browser:**
+
+The STAC Browser does not show the newest items first. To find the most recent data, you may need to manually click through pages. For easier access, consider using `"latest"` as shown above.
+</details>
 
 <details>
-<summary> <b> "Why can't I find the latitude or longitude coordinates?" </b> </summary>
+<summary> <b> Why can't I find the latitude or longitude coordinates? </b> </summary>
 
 Raw forecast GRIB files loaded via the REST API do not contain information about height, longitude and latitude.
 To geolocate or interpret vertical levels, you must use the static vertical and horizontal grid parameter files provided in each collection.
@@ -363,14 +390,14 @@ For more information, read section [Accessing static grid information: Height, l
 </details>
 
 <details>
-<summary> <b> "Why is my HTTP response empty?" </b> </summary>
+<summary> <b> Why is my HTTP response empty? </b> </summary>
 
 The data provided in the two collections described in the [Model specifications table](#models-specifications) is accessible for only **24 hours**. Data older than this is no longer available, which may be why your HTTP response is empty.
 
 </details>
 
 <details>
-<summary> <b> "Why do I get HTTPError: 403, when downloading forecast data using the Python API?" </b> </summary>
+<summary> <b> Why do I get HTTPError: 403, when downloading forecast data using the Python API? </b> </summary>
 
 The data provided in the two collections described in the [Model specifications table](#models-specifications) is accessible for only **24 hours**.
 Data older than this is no longer available. Therefore, when attempting to fetch unavailable data, HTTPError: 403 occurs.
@@ -378,7 +405,7 @@ Data older than this is no longer available. Therefore, when attempting to fetch
 </details>
 
 <details>
-<summary> <b> "How do I interprete the different types of vertical levels?" </b> </summary>
+<summary> <b> How do I interprete the different types of vertical levels? </b> </summary>
 
 To determine the type of level (vertical position) of a parameter, inspect the GRIB2 key `typeOfLevel`. We distinguish between the following:
 
