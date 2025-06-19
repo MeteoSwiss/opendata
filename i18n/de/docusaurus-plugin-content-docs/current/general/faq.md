@@ -20,7 +20,7 @@ Weitere Datentypen werden in den kommenden Monaten veröffentlicht. Das voraussi
 
 
 ## Wie darf ich die Daten verwenden?
-Lesen Sie die [Nutzungsrechte hinsichtlich der Daten](/general/terms-of-use#2-nutzungsrechte-hinsichtlich-der-daten).
+Lesen Sie die [Nutzungsrechte hinsichtlich der Daten](/general/terms-of-u#2-nutzungsrechte-hinsichtlich-der-daten).
 
 
 ## Gibt es eine Nutzungsbeschränkung?
@@ -33,8 +33,8 @@ Für ["Bodenmessdaten"](/a-data-groundbased) sowie für ["Klimastationen – Hom
 Für andere Datentypen beachten Sie bitte deren entsprechende Dokumentation.
 
 
-## Schneemessdaten – Welche Daten gibt es und in welchen Datsätzen/'Collections' finde ich sie?
-Die Messmethoden von MeteoSchweiz in Bezug auf Schneehöhe und Neuschnee sind [im Wetterlexikon beschrieben](https://www.meteoschweiz.admin.ch/wetter/wetter-und-klima-von-a-bis-z/schneehoehenmessung.html). Es ist wichtig festzuhalten, dass die offizielle Schneemessung nach wie vor die manuelle Messung ist. Ein Beobachter bzw. eine Beobachterin führt einmal pro Tag morgens um 6:00 UTC eine Messung durch. Diese Daten sind deshalb erst ab [Granularität](/general/download#data-granularity) `d` verfügbar. Die automatische Schneehöhenmessung liefert zwar Echtzeitdaten in einer hohen Auflösung (Granularität `t`), ist jedoch fehleranfällig und wird aktuell nicht manuell geprüft. Sie darf deshalb nicht als offizielle Messreihe verwendet werden. Weitere Informationen zur automatischen Messung, die seit letztem Winter von MeteoSchweiz publiziert wird, finden Sie [im Blogbeitrag vom November 2024](https://www.meteoschweiz.admin.ch/ueber-uns/meteoschweiz-blog/de/2024/11/meteoschweiz-publiziert-automatisch-gemessene-schneehoehen-auf-der-webseite.html).
+## Schneemessdaten – Welche Daten gibt es und in welchen Datensätzen/'Collections' finde ich sie?
+Die Messmethoden von MeteoSchweiz in Bezug auf Schneehöhe und Neuschnee sind [im Wetterlexikon beschrieben](https://www.meteoschweiz.admin.ch/wetter/wetter-und-klima-von-a-bis-z/schneehoehenmessung.html). Es ist wichtig festzuhalten, dass die offizielle Schneemessung nach wie vor die manuelle Messung ist. Ein Beobachter beziehungsweise eine Beobachterin führt einmal pro Tag morgens um 6:00 UTC eine Messung durch. Diese Daten sind deshalb erst ab [Granularität](/general/download#data-granularity) `d` verfügbar. Die automatische Schneehöhenmessung liefert zwar Echtzeitdaten in einer hohen Auflösung (Granularität `t`), ist jedoch fehleranfällig und wird aktuell nicht manuell geprüft. Sie darf deshalb nicht als offizielle Messreihe verwendet werden. Weitere Informationen zur automatischen Messung, die seit letztem Winter von MeteoSchweiz publiziert wird, finden Sie [im Blogbeitrag vom November 2024](https://www.meteoschweiz.admin.ch/ueber-uns/meteoschweiz-blog/de/2024/11/meteoschweiz-publiziert-automatisch-gemessene-schneehoehen-auf-der-webseite.html).
 
 In welchen Datensätzen/'Collections' finden Sie die Schneemessdaten?
 -	**Schneehöhe manuell** (offizielle Messung): Parameter `hto000*` in [Manuelle Niederschlagsstationen](/a-data-groundbased/a5-manual-precipitation-stations)
@@ -44,7 +44,7 @@ In welchen Datensätzen/'Collections' finden Sie die Schneemessdaten?
 
 :::warning
 
-Die manuelle Schneehöhenmessung findet teilweise nicht am gleichen Ort wie die automatische Schneehöhenmessung statt. Sie können deshalb nicht per se miteinander verglichen werden!
+Die manuelle Schneehöhenmessung findet teilweise nicht am gleichen Ort wie die automatische Schneehöhenmessung statt. Sie können deshalb nicht miteinander verglichen werden!
 
 :::
 
