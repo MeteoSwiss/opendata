@@ -68,6 +68,7 @@ rss
 schneehöhe
 schneehöhenmessung
 schneemessdaten
+schneemessung
 stac
 swisstopo
 turmstationen
