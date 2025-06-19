@@ -33,6 +33,22 @@ Für ["Bodenmessdaten"](/a-data-groundbased) sowie für ["Klimastationen – Hom
 Für andere Datentypen beachten Sie bitte deren entsprechende Dokumentation.
 
 
+## Schneemessdaten – Welche Daten gibt es und in welchen Datsätzen/'Collections' finde ich sie?
+Die Messmethoden von MeteoSchweiz in Bezug auf Schneehöhe und Neuschnee sind [im Wetterlexikon beschrieben](https://www.meteoschweiz.admin.ch/wetter/wetter-und-klima-von-a-bis-z/schneehoehenmessung.html). Es ist wichtig festzuhalten, dass die offizielle Schneemessung nach wie vor die manuelle Messung ist. Ein Beobachter bzw. eine Beobachterin führt einmal pro Tag morgens um 6:00 UTC eine Messung durch. Diese Daten sind deshalb erst ab [Granularität](/general/download#data-granularity) `d` verfügbar. Die automatische Schneehöhenmessung liefert zwar Echtzeitdaten in einer hohen Auflösung (Granularität `t`), ist jedoch fehleranfällig und wird aktuell nicht manuell geprüft. Sie darf deshalb nicht als offizielle Messreihe verwendet werden. Weitere Informationen zur automatischen Messung, die seit letztem Winter von MeteoSchweiz publiziert wird, finden Sie [im Blogbeitrag vom November 2024](https://www.meteoschweiz.admin.ch/ueber-uns/meteoschweiz-blog/de/2024/11/meteoschweiz-publiziert-automatisch-gemessene-schneehoehen-auf-der-webseite.html).
+
+In welchen Datensätzen/'Collections' finden Sie die Schneemessdaten?
+-	**Schneehöhe manuell** (offizielle Messung): Parameter `hto000*` in [Manuelle Niederschlagsstationen](/a-data-groundbased/a5-manual-precipitation-stations)
+-	**Neuschnee manuell** (offizielle Messung): Parameter `hns000*` in [Manuelle Niederschlagsstationen](/a-data-groundbased/a5-manual-precipitation-stations)
+-	**Schneehöhe automatisch**: Parameter `htoaut*` in [Automatische Wetterstationen](/a-data-groundbased/a1-automatic-weather-stations)
+-	**Neuschnee automatisch**: Existiert nicht (es gibt kein Messgerät, welches den Neuschnee automatisch messen kann)
+
+:::warning
+
+Die manuelle Schneehöhenmessung findet teilweise nicht am gleichen Ort wie die automatische Schneehöhenmessung statt. Sie können deshalb nicht per se miteinander verglichen werden!
+
+:::
+
+
 ## Was ist im Zusammenhang mit der Qualitätskontrolle der Daten zu beachten?
 <!-- Diesen Titel nicht ändern! -->
 
