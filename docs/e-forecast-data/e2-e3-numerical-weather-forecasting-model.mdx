@@ -300,17 +300,17 @@ We recommend installing ecCodes from ECMWF to read the data. Follow the installa
 #### Setting the local definitions of the COSMO consortium {#setting-the-local-definitions-of-the-cosmo-consortium}
 
 The GRIB format relies on tables and templates to encode the metadata. Those tables allow for example the mapping of a triplet of numbers encoding a parameter to a descriptive string (`shortName`). The international tables are provided in ecCodes. Additionally,
-local definitions can be defined by each center. ECMWF specific definitions are also shiped with ecCodes. Some of the provided ICON data also requires the local definitions of the COSMO consortium.
+local definitions can be defined by each center. ECMWF specific definitions are also shipped with ecCodes. Some of the provided ICON data also requires the local definitions of the COSMO consortium.
 In order to provide a consistent and comprehensive set of GRIB tables, check the ecCodes version you installed and clone the
 **corresponding version** of the GRIB tables in the same folder:
 
 - Releases for [COSMO-ORG/eccodes-cosmo-resources](https://github.com/COSMO-ORG/eccodes-cosmo-resources/releases)
 - Releases for [ecmwf/eccodes](https://github.com/ecmwf/eccodes/releases)
 
-Then, set `GRIB_DEFINITION_PATH` for ecCodes to use those tables (add it to your `.bashrc` to make if availabe in each terminal session):
+Then, set `GRIB_DEFINITION_PATH` for ecCodes to use those tables (add it to your `.bashrc` to make if available in each terminal session):
 
 ```
-export GRIB_DEFINITION_PATH=<name_of_your_folder>/eccodes-cosmo-recources/definitions:<name_of_your_folder>r/eccodes/definitions
+export GRIB_DEFINITION_PATH=<name_of_your_folder>/eccodes-cosmo-recources/definitions:<name_of_your_folder>/eccodes/definitions
 ```
 
 To check the details of your information, you can run
