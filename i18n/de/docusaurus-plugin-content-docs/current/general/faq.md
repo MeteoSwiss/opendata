@@ -32,6 +32,20 @@ Für ["Bodenmessdaten"](/a-data-groundbased) sowie für ["Klimastationen – Hom
 
 Für andere Datentypen beachten Sie bitte deren entsprechende Dokumentation.
 
+## Schneemessdaten – Welche Daten gibt’s es und wo finde ich sie?
+Die Messmethoden der MeteoSchweiz in Bezug auf Schneehöhe und Neuschnee sind [im Wetterlexikon beschrieben](https://www.meteoschweiz.admin.ch/wetter/wetter-und-klima-von-a-bis-z/schneehoehenmessung.html). Es ist wichtig festzuhalten, dass die offizielle Schneemessung weiterhin die manuelle Messung ist. Ein Beobachter/eine Beobachterin führt einmal pro Tag morgens um 6UTC eine Messung durch. Diese Daten sind deshalb erst ab Granularität D verfügbar! Die automatische Schneehöhenmessung liefert zwar Echtzeitdaten in einer hohen Auflösung (Granularität T), ist zum einen fehleranfällig und wird ausserdem aktuell nicht manuell geprüft. Sie darf deshalb nicht als offizielle Messreihe verwendet werden. Weitere Informationen zur automatischen Messung, die seit letztem Winter von MeteoSchweiz publiziert wird, finden Sie [im damaligen Blogbeitrag](https://www.meteoschweiz.admin.ch/ueber-uns/meteoschweiz-blog/de/2024/11/meteoschweiz-publiziert-automatisch-gemessene-schneehoehen-auf-der-webseite.html) vom November 2024.
+
+In welchen Collections finden Sie die Schneemessdaten?
+-	**Schneehöhe manuell** (offizielle Messung): Parameter hto000* in der Collection «Manuelle Niederschlagsstationen»
+-	**Neuschnee manuell** (offizielle Messung): Parameter hns000* in der Collection «Manuelle Niederschlagsstationen»
+-	**Schneehöhe automatisch**: Parameter htoaut* in der Collection «Automatische Wetterstationen»
+-	**Neuschnee automatisch**: Existiert nicht (es gibt kein Messgerät, welches den Neuschnee automatisch messen kann)
+
+:::warning
+
+Die manuelle Schneehöhenmessung findet teilweise nicht am gleichen Ort wie die automatische Schneehöhenmessung statt und kann deshalb nicht per se miteinander verglichen werden!
+
+:::
 
 ## Was ist im Zusammenhang mit der Qualitätskontrolle der Daten zu beachten?
 <!-- Diesen Titel nicht ändern! -->
