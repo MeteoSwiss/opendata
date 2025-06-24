@@ -10,8 +10,7 @@ Das Bundesamt für Meteorologie und Klimatologie MeteoSchweiz veröffentlicht se
 
 Die Daten werden unentgeltlich, zeitnah, in maschinenlesbarer Form und in einem offenen Format im Internet als 'Open Data' veröffentlicht ([Art. 10 Abs. 4 EMBAG](https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_10)).
 
-MeteoSchweiz nutzt zur Veröffentlichung die [Bundes Geodaten-Infrastruktur BGDI](https://www.geo.admin.ch/de/impressum-verantwortlichkeiten-und-kontakte), die vom Bundesamt für Landestopografie swisstopo betrieben wird. Siehe dazu Kapitel [4 Nutzung der Infrastruktur](#4-nutzung-der-infrastruktur).  
-
+MeteoSchweiz nutzt zur Veröffentlichung die [Bundes Geodaten-Infrastruktur BGDI](https://www.geo.admin.ch/de/impressum-verantwortlichkeiten-und-kontakte), die vom Bundesamt für Landestopografie swisstopo betrieben wird, sowie den Public Cloud Objectspeicher-Service des [Swiss National Supercomputing Centre (CSCS)](https://www.cscs.ch/information/imprint-disclaimer), betrieben durch die ETH Zürich. Siehe dazu Kapitel [4 Nutzung der Infrastruktur](#4-nutzung-der-infrastruktur).  
 
 
 ## 2. Nutzungsrechte hinsichtlich der Daten
@@ -33,6 +32,7 @@ Die 'Open Data' von MeteoSchweiz werden entsprechend unter der [Creative Commons
 ![CC BY Logo](./static/docs_img/cc-by.png) <br></br>
 <!-- @ENDNOSPELL@ -->
 
+
 ## 3. Gewährleistungs- und Haftungsausschluss
 MeteoSchweiz übernimmt keine Gewähr für die inhaltliche Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit und Vollständigkeit der veröffentlichten 'Open Data' (vgl. [Art. 10 Abs. 6 EMBAG](https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_10)). Jegliche Gewährleistung und Haftung von MeteoSchweiz ist ausgeschlossen, soweit gesetzlich zulässig. 
 
@@ -40,9 +40,9 @@ MeteoSchweiz erbringt im Rahmen seiner gesetzlichen Aufgaben (insbesondere im Be
 
 
 ## 4. Nutzung der Infrastruktur
-Wir machen Sie darauf aufmerksam, dass die von MeteoSchweiz für 'Open Data' eingesetzte Infrastruktur nur in dem Umfang genutzt werden darf, der für den Bezug der Daten notwendig ist. Eine missbräuchliche Nutzung (insbesondere die Nutzung mit dem Ziel, die Infrastruktur zu schädigen oder deren Verfügbarkeit zu blockieren) sowie eine betreffend Zugriffsfrequenz oder Datenvolumen übermässige Nutzung (insbesondere das hochfrequente Herunterladen desselben Inhalts) ist untersagt und kann dazu führen, dass Ihr Zugang eingeschränkt oder gesperrt wird ([Art. 5 Abs. 1 lit. d und Abs. 2 MetV](https://www.fedlex.admin.ch/eli/cc/2024/452/de#art_5)).
+Wir machen Sie darauf aufmerksam, dass die von MeteoSchweiz für 'Open Data' eingesetzten Infrastrukturen, darunter die [Bundes Geodaten-Infrastruktur BGDI](https://www.geo.admin.ch/de/impressum-verantwortlichkeiten-und-kontakte) und der Public Cloud Objectspeicher-Service des [Swiss National Supercomputing Centre (CSCS)](https://www.cscs.ch/information/terms-privacy-policy), nur in dem Umfang genutzt werden dürfen, der für den Bezug der Daten notwendig ist. Eine missbräuchliche Nutzung (insbesondere die Nutzung mit dem Ziel, die Infrastruktur zu schädigen oder deren Verfügbarkeit zu blockieren) sowie eine betreffend Zugriffsfrequenz oder Datenvolumen übermässige Nutzung (insbesondere das hochfrequente Herunterladen desselben Inhalts) ist untersagt und kann dazu führen, dass Ihr Zugang eingeschränkt oder gesperrt wird ([Art. 5 Abs. 1 lit. d und Abs. 2 MetV](https://www.fedlex.admin.ch/eli/cc/2024/452/de#art_5)).
 
-Es gelten zudem die [Allgemeinen Nutzungsbedingungen und Betriebsbestimmungen der Bundes Geodaten-Infrastruktur BGDI](https://www.geo.admin.ch/de/allgemeine-nutzungsbedingungen-bgdi). Insbesondere zu beachten sind deren Kapitel [2 Datennutzung](https://www.geo.admin.ch/de/allgemeine-nutzungsbedingungen-bgdi#2.-Datennutzung) sowie Kapitel [5 Betriebsbestimmungen](https://www.geo.admin.ch/de/allgemeine-nutzungsbedingungen-bgdi#5-Betriebsbestimmungen).
+Es gelten zudem die [Allgemeinen Nutzungsbedingungen und Betriebsbestimmungen der Bundes Geodaten-Infrastruktur BGDI](https://www.geo.admin.ch/de/allgemeine-nutzungsbedingungen-bgdi). Insbesondere zu beachten sind deren Kapitel [2 Datennutzung](https://www.geo.admin.ch/de/allgemeine-nutzungsbedingungen-bgdi#2.-Datennutzung) sowie Kapitel [5 Betriebsbestimmungen](https://www.geo.admin.ch/de/allgemeine-nutzungsbedingungen-bgdi#5-Betriebsbestimmungen). Für Datendienste und Infrastruktur, die vom CSCS bereitgestellt werden, gelten die entsprechenden Nutzungsrichtlinien und Servicebedingungen des CSCS. Weitere Informationen finden Sie in den [Nutzungsbedingungen des CSCS](https://www.cscs.ch/information/terms-privacy-policy).
 
 Wenn Sie erhöhte Anforderungen an die Verfügbarkeit von Daten haben, wenden Sie sich bitte an: [Verkauf & Support](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html).
 
