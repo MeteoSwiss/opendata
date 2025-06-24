@@ -9,7 +9,7 @@ The Federal Office of Meteorology and Climatology MeteoSwiss publishes the data 
 
 The data are published free of charge, in a timely manner, in machine-readable form and in an open format on the Internet as 'Open Data' ([art. 10 para. 4 EMOTA](https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_10)).
 
-MeteoSwiss uses the [Federal Spatial Data Infrastructure (FSDI)](https://www.geo.admin.ch/en/impressum-responsibilities-and-contacts), which is operated by the Federal Office of Topography swisstopo, and the [Swiss National Supercomputing Centre (CSCS)](https://www.cscs.ch/information/terms-privacy-policy)'s public cloud object storage service, operated by ETH Zurich, for publication. See chapter [4 Use of the infrastructure](#4-use-of-the-infrastructure).  
+MeteoSwiss uses the [Federal Spatial Data Infrastructure (FSDI)](https://www.geo.admin.ch/en/impressum-responsibilities-and-contacts), which is operated by the Federal Office of Topography swisstopo, and the [Swiss National Supercomputing Centre (CSCS)](https://www.cscs.ch/information/imprint-disclaimer)'s public cloud object storage service, operated by ETH Zurich, for publication. See chapter [4 Use of the infrastructure](#4-use-of-the-infrastructure).  
 
 
 
