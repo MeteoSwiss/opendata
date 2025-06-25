@@ -11,12 +11,15 @@ bodenfeuchtestationen
 bodengestützte
 bodenmessdaten
 bzw
+centre
 changelog
+cloud
 collection
 collections
 cscs
 data
 data.geo.admin.ch
+datendienste
 datennutzung
 datenqualität
 echtzeitdaten
@@ -52,6 +55,8 @@ notes
 notfallschutz
 nutzungsbedingungen
 nutzungsbeschränkung
+nutzungsrichtlinien
+objektspeicher
 ogc
 open
 opendatadocs
@@ -59,6 +64,7 @@ phänologische
 plausibilitätsprüfung
 pollenstationen
 prognosedaten
+public
 radargestützte
 radarprodukte
 radiosondierungen
@@ -69,7 +75,10 @@ schneehöhe
 schneehöhenmessung
 schneemessdaten
 schneemessung
+servicebedingungen
 stac
+supercomputing
+swiss
 swisstopo
 turmstationen
 utc
