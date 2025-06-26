@@ -153,12 +153,16 @@ import TabItem from '@theme/TabItem';
     > 💡 **Tip for new users**: We recommend inexperienced GRIB file users to take a look at the provided [Jupyter Notebooks](https://github.com/MeteoSwiss/opendata-nwp-demos). The data retrieval with the Python API includes fetching longitude and latitude.
 
 
-    Besides the current forecast files, each collection contains two static files: the vertical constants file, which stores information about the heights of the half-levels (HHL) in the vertical grid, and the horizontal constants file, which contains the following parameters.
-    - CLON: The longitude of the center point coordinate of each triangle on the horizontal grid
-    - CLAT: The latitude of the center point coordinate of each triangle on the horizontal grid
-    - FR_LAND: The land cover (1 if there is land, 0 if there is the sea)
-    - HSURF: Geometric height of the earths surface above sea level
-    - SOILTYPE: Type of soil according to the [soilType.table](https://github.com/COSMO-ORG/eccodes-cosmo-resources/blob/master/definitions/soilType.table)
+    In addition to the forecast files, each collection contains two static files:
+    1. **Vertical constants file**
+    This file stores information about the heights of the half-levels (HHL) in the vertical grid.
+    2. **Horizontal constants file**
+    This file includes the following parameters:
+    - **CLON:** Longitude of the center point coordinate of each triangle on the horizontal grid
+    - **CLAT:** Latitude of the center point coordinate of each triangle on the horizontal grid
+    - **FR_LAND:** Land cover indicator (1 for land, 0 for sea)
+    - **HSURF:** Geometric height of the earth's surface above sea level
+    - **SOILTYPE:** Type of soil, based on the [soilType.table](https://github.com/COSMO-ORG/eccodes-cosmo-resources/blob/master/definitions/soilType.table)
 
 
     #### Accessing horizontal constants
