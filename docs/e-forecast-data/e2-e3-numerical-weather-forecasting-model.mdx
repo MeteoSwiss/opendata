@@ -175,9 +175,7 @@ import TabItem from '@theme/TabItem';
     wget -O <desired_filename> “<pre-signed URL>”
     ```
 
-    Once the static GRIB file is downloaded, you may want to associate a value from a data file (for a given parameter) to its latitude and longitutde coordinate.
-    To achieve this, ensure that the `uuidOfHGrid` (Universally Unique Identifier for the horizontal grid) key in the data file matches the one in the parameters `CLON` and `CLAT` of the the static horizontal file.
-    Then, add the associated coordinates to the values from the data file on a point-by-point basis.
+Before using any constants from the static file, verify that its `uuidOfHGrid` (Universally Unique Identifier for the horizontal grid) GRIB key matches the one in your forecast data. This ensures the horizontal grid definitions are consistent across files.
 
     #### Accessing vertical grid parameters
 
