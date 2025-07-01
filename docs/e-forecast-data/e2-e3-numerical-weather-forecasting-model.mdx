@@ -148,17 +148,27 @@ import TabItem from '@theme/TabItem';
 
     Once the file is verified, you can proceed with reading the GRIB file, using e.g. the instructions in [Decoding GRIB files with ecCodes](#decoding-grib-files-with-eccodes).
 
-    ### Accessing static grid information: Height, longitude and latitude
+    ### Accessing static grid information: Height, longitude, latitude and surface properties
     > ❗ **NOTE**: Forecast GRIB files do not contain information about height, longitude and latitude. To geolocate or interpret vertical levels, you must use the static vertical and horizontal grid parameter files provided in each collection.
     > 💡 **Tip for new users**: We recommend inexperienced GRIB file users to take a look at the provided [Jupyter Notebooks](https://github.com/MeteoSwiss/opendata-nwp-demos). The data retrieval with the Python API includes fetching longitude and latitude.
 
 
-    Besides the current forecast files, each collection contains two static files. They store constant information about the height of the half levels (HHL) in the vertical grid and the center point coordinates of each triangle on the horizontal grid.
+    In addition to the forecast files, each collection contains two static files:
+    1. **Vertical constants file**
+    This file stores information about the heights of the half-levels (HHL) in the vertical grid.
+    2. **Horizontal constants file**
+    This file includes the following parameters:
+    - **CLON:** Longitude of the center point coordinate of each triangle on the horizontal grid
+    - **CLAT:** Latitude of the center point coordinate of each triangle on the horizontal grid
+    - **FR_LAND:** Land cover indicator (1 for land, 0 for sea)
+    - **HSURF:** Geometric height of the earth's surface above sea level
+    - **SOILTYPE:** Type of soil, based on the [soilType.table](https://github.com/COSMO-ORG/eccodes-cosmo-resources/blob/master/definitions/soilType.table)
 
 
-    #### Accessing horizontal grid parameters
+    #### Accessing horizontal constants
 
-    The static horizontal file stores the longitude and latitude of the center points of each triangle in the horizontal grid. To retrieve this information, follow the steps below:
+
+    To retrieve the horizontal constants, follow the steps below:
 
     1. Submit a GET request specifying the collection you want to download the static horizontal files from (eg. `ch.meteoschweiz.ogd-forecasting-icon-ch1` for ICON-CH1-EPS).
     ```
@@ -169,7 +179,9 @@ import TabItem from '@theme/TabItem';
     ```
     wget -O <desired_filename> “<pre-signed URL>”
     ```
-    4. Once the static GRIB file is downloaded, ensure that the `uuidOfHGrid` (Universally Unique Identifier for the horizontal grid) key in the data file matches the one in the static horizontal file.
+
+    Before using any constants from the static file, verify that its `uuidOfHGrid` (Universally Unique Identifier for the horizontal grid) GRIB key matches the one in your forecast data. This ensures the horizontal grid definitions are consistent across files.
+
 
     #### Accessing vertical grid parameters
 
@@ -367,7 +379,7 @@ from meteodatalab import ogd_api
 req = ogd_api.Request(
     collection="ogd-forecasting-icon-ch2",
     variable="TOT_PREC",
-    ref_time="latest", # Select the most recent available run 
+    ref_time="latest", # Select the most recent available run
     perturbed=False,
     lead_time="P0DT0H",
 )
@@ -386,7 +398,7 @@ The STAC Browser does not show the newest items first. To find the most recent d
 
 Raw forecast GRIB files loaded via the REST API do not contain information about height, longitude and latitude.
 To geolocate or interpret vertical levels, you must use the static vertical and horizontal grid parameter files provided in each collection.
-For more information, read section [Accessing static grid information: Height, longitude and latitude](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=restapi#accessing-static-grid-information-height-longitude-and-latitude).
+For more information, read section [Accessing static grid information: Height, longitude, latitude and surface properties](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=restapi#accessing-static-grid-information-height-longitude-latitude-and-surface-properties).
 </details>
 
 <details>
