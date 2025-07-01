@@ -122,7 +122,7 @@ import TabItem from '@theme/TabItem';
     Upon a successful request, the response will contain a dictionary of metadata, including forecast file links under the `assets` key. Locate the `href` field containing the pre-signed URL.
     Download the GRIB file containing the forecast data using the following command:
     ```
-    wget -O <desired_filename> “<pre-signed URL>”
+    wget -O <desired_filename> "<pre-signed URL>"
     ```
 
     After downloading your forecast data, it's good practice to verify its integrity before use.
@@ -177,7 +177,7 @@ import TabItem from '@theme/TabItem';
     2. Locate the `href` field under `assets` in `id: horizontal_constants_icon-ch1-eps.grib2` and copy the pre-signed URL.
     3. Download the file with:
     ```
-    wget -O <desired_filename> “<pre-signed URL>”
+    wget -O <desired_filename> "<pre-signed URL>"
     ```
 
     Before using any constants from the static file, verify that its `uuidOfHGrid` (Universally Unique Identifier for the horizontal grid) GRIB key matches the one in your forecast data. This ensures the horizontal grid definitions are consistent across files.
@@ -194,7 +194,7 @@ import TabItem from '@theme/TabItem';
     2. Locate the `href` field under `assets` in `id: vertical_constants_icon-ch1-eps.grib2` and copy the pre-signed URL.
     3. Download the file with:
     ```
-    wget -O <desired_filename> “<pre-signed URL>”
+    wget -O <desired_filename> "<pre-signed URL>"
     ```
     4. Once the static GRIB file is downloaded, verify that the `uuidOfVGrid` (Universally Unique Identifier for the vertical grid) key in the data file matches the one in the HHL file.
     5. Retrieve the value for the `level` key and inspect the `typeOfLevel` key by listing the GRIB messages:
@@ -322,7 +322,7 @@ In order to provide a consistent and comprehensive set of GRIB tables, check the
 Then, set `GRIB_DEFINITION_PATH` for ecCodes to use those tables (add it to your `.bashrc` to make if available in each terminal session):
 
 ```
-export GRIB_DEFINITION_PATH=<name_of_your_folder>/eccodes-cosmo-recources/definitions:<name_of_your_folder>r/eccodes/definitions
+export GRIB_DEFINITION_PATH=<name_of_your_folder>/eccodes-cosmo-resources/definitions:<name_of_your_folder>/eccodes/definitions
 ```
 
 To check the details of your information, you can run
