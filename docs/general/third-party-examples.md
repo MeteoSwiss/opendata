@@ -22,6 +22,6 @@ The user examples and libraries listed on this page are provided "as-is", withou
  
 ## User guides, libraries and examples
 
-| Title | Link or file | Prerequisites | Description (incl. Open Data collections/datasets) | Author | Date |
-|:------|:-------------|:--------------|:---------------------------------------------------|:-------|:-----|
-| Lowlevelwind.ch | Code: [https://github.com/wipfli/lowlevelwind](https://github.com/wipfli/lowlevelwind/) | Install Python | Application: [https://lowlevelwind.ch](https://lowlevelwind.ch/) <br></br> This uses the [ICON-CH1-EPS](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model#models-specifications) (wind only). | Oliver Wipfli | 07-2025 |
+| Title | Link or file | Prerequisites | Description | Author | Date |
+|:------|:-------------|:--------------|:------------|:-------|:-----|
+| Lowlevelwind.ch | Code: [https://github.com/wipfli/lowlevelwind](https://github.com/wipfli/lowlevelwind/) | Install Python | This uses the [ICON-CH1-EPS](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model#models-specifications) (wind only). <br></br> <br></br> Application: [https://lowlevelwind.ch](https://lowlevelwind.ch/) | Oliver Wipfli | 07-2025 |
