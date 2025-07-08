@@ -12,7 +12,7 @@ Anyone can **submit guides and examples via the [contact form](https://www.meteo
 
 The **requirements for guides and examples to be included** are:
 1. They must use [Open Data collections/datasets from MeteoSwiss](https://opendatadocs.meteoswiss.ch).
-2. They must cite the data source(s) as specified in the [terms of use](https://opendatadocs.meteoswiss.ch/#terms-of-use).
+2. They must cite the data source(s) as specified in the [Terms of use](https://opendatadocs.meteoswiss.ch/#terms-of-use).
 3. They must be openly accessible, i.e. without a paywall or other restrictions.
 4. They must have been sighted by the respective MeteoSwiss specialists. The Open Data service team takes care of this. They do it twice a month.
 
