@@ -27,6 +27,7 @@ gridded
 hydrological
 jupyter
 lidar
+lowlevelwind
 lugano
 meteosat
 meteoschweiz
@@ -65,5 +66,6 @@ swisstopo's
 totaliser
 totalisers
 uptime
+wipfli
 wmo
 zollikofen
