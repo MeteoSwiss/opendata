@@ -20,7 +20,7 @@ This page contains guides, libraries and examples for using Open Data from Meteo
 
 ## MeteoSwiss voids any warranty
 
-The user examples and libraries listed on this page are provided "as-is", without warranty of any kind, expressed or implied. Please be aware that the above libraries/guides/code might contain licenses, which must be adhered to.
+The user examples and libraries listed on this page are provided "as-is", without warranty of any kind, expressed or implied. Please be aware that the libraries/guides/code might contain licenses, which must be adhered to.
 
  
 ## User guides, libraries and examples
