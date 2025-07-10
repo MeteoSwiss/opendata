@@ -25,10 +25,10 @@ The user examples and libraries listed on this page are provided "as-is", withou
  
 ## User guides, libraries and examples
 
-If you have any questions about a listed example, please contact its author(s).
-
 | Title | Link or file | Description | Author | Date |
 |:------|:-------------|:------------|:-------|:-----|
 | Lowlevelwind.ch | Code: [https://github.com/wipfli/lowlevelwind](https://github.com/wipfli/lowlevelwind/) | This uses the [Numerical weather forecasting model ICON-CH1-EPS](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model#models-specifications) (wind only). <br></br> <br></br> Application: [https://lowlevelwind.ch](https://lowlevelwind.ch/) | Oliver Wipfli | 07-2025 |
+
+**If you have specific questions about a listed example**, please contact its author(s).
 
 **Have you found any errors or broken links?** If so, please let us know via the [contact form](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html).
