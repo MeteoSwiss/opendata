@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Third-party examples 
+# Third-party examples of use
 
 This page contains guides, libraries and examples for using Open Data from MeteoSwiss, which may be useful for your own application.
 
