@@ -82,6 +82,7 @@ swiss
 swisstopo
 turmstationen
 utc
+verwendungsbeispiele
 vgl
 vollständigkeitsprüfung
 wetterlexikon
