@@ -27,9 +27,9 @@ The user examples and libraries listed on this page are provided "as-is", withou
  
 ## User guides, libraries and examples
 
-| Title | Link or file | Description | Date |
-|:------|:-------------|:------------|:-----|
-| Lowlevelwind.ch | Code: [https://github.com/wipfli/lowlevelwind](https://github.com/wipfli/lowlevelwind/) | This uses the [Numerical weather forecasting model ICON-CH1-EPS](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model#models-specifications) (wind only). <br></br> Application: [https://lowlevelwind.ch](https://lowlevelwind.ch/) | 07-2025 |
+| Title | Type | Link or file | Description | Date |
+|:------|:-----|:-------------|:------------|:-----|
+| [https://lowlevelwind.ch](https://lowlevelwind.ch/) | Application | Code: [https://github.com/wipfli/lowlevelwind](https://github.com/wipfli/lowlevelwind/) | This uses the [Numerical weather forecasting model ICON-CH1-EPS](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model#models-specifications) (wind only). | 07-2025 |
 
 **If you have specific questions about a listed example**, please contact its owner(s).
 
