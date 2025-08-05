@@ -4,8 +4,10 @@ sidebar_position: 5
 
 # Examples of use by third parties
 
-This page contains guides, libraries and examples for using Open Data from MeteoSwiss, which may be useful for your own application.
+This page contains guides, libraries and examples for using Open Data from MeteoSwiss, which are provided by third parties and may be useful for your own application.
 
+To see examples of use provided by MeteoSwiss, please consult:
+- Numerical weather forecast data: [https://github.com/MeteoSwiss/opendata-nwp-demos#ogd-model-data-access--processing](https://github.com/MeteoSwiss/opendata-nwp-demos#ogd-model-data-access--processing)
 
 ## Submitting user guides and examples
 
