@@ -7,6 +7,13 @@ Climate stations measure various meteorological parameters. In Switzerland the f
 
 The measuring conditions under which meteorological data are collected may change over time. Statements about the past, long-time climatic development can only be made if the influence of such changes is removed. This is achieved by [homogenisation](https://www.meteoswiss.admin.ch/climate/climate-change/changes-in-temperature-precipitation-and-sunshine/homogeneous-data-series-since-1864/homogenisation-of-series-of-climatic-measurements.html) of the data.
 
+::: info 
+
+Homogenisation is conducted on monthly values only. From these, the yearly values are being calculated. 
+Daily homogenous values have only statistically derived correction factors (based the monthly homogenous data) applied to the original data. This can lead to cases where e.g. the daily homogenous average temperature value is higher than the original daily maximum temperature value. 
+We recommend the use of monthly homogenous data for long term climatological analyses.   
+:::
+
 Homogeneous measurement series are available from the Swiss NBCN climate stations for the parameters temperature (average, minimum, maximum), precipitation, sunshine duration, vapour pressure, air pressure, global radiation, and wind speed. Data series for temperature, precipitation, and sunshine duration date back, in some cases, to the mid-nineteenth century.
 
 ## Data download {#data-download}
