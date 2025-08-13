@@ -10,7 +10,7 @@ The measuring conditions under which meteorological data are collected may chang
 ::: info 
 
 Homogenisation is conducted on monthly values only. From these, the yearly values are being calculated. 
-Daily homogenous values have only statistically derived correction factors (based the monthly homogenous data) applied to the original data. This can lead to cases where e.g. the daily homogenous average temperature value is higher than the original daily maximum temperature value. 
+Daily homogenous values have only statistically derived correction factors (based on the monthly homogenous data) applied to the original data. This can lead to cases where e.g. the daily homogenous average temperature value is higher than the original daily maximum temperature value. 
 We recommend the use of monthly homogenous data for long term climatological analyses.   
 :::
 
