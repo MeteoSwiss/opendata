@@ -9,7 +9,8 @@ The measuring conditions under which meteorological data are collected may chang
 
 ::: info 
 
-Homogenization is conducted on monthly values and annual values are aggregated from these. For temperature, the monthly correction amounts are also applied to daily values after smoothing the monthly transitions. These series are referred to as statistically derived homogeneous series and contain greater uncertainties. For this reason, and because minimum, mean, and maximum temperature series are homogenized independently of each other, minor inconsistencies between these parameters may arise (e.g., daily minimum higher than daily mean). We recommend the use of monthly data for long term climatological analyses.  
+Homogenisation is conducted on monthly values and annual values are aggregated from these. For temperature, the monthly correction amounts are also applied to daily values after smoothing the monthly transitions. These series are referred to as statistically derived homogeneous series and contain greater uncertainties. For this reason, and because minimum, mean, and maximum temperature series are homogenised independently of each other, minor inconsistencies between these parameters may arise (e.g. daily minimum higher than daily mean). We recommend the use of monthly data for long term climatological analyses.  
+
 :::
 
 Homogeneous measurement series are available from the Swiss NBCN climate stations for the parameters temperature (average, minimum, maximum), precipitation, sunshine duration, vapour pressure, air pressure, global radiation, and wind speed. Data series for temperature, precipitation, and sunshine duration date back, in some cases, to the mid-nineteenth century.
