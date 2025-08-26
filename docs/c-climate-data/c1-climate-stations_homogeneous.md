@@ -7,7 +7,7 @@ Climate stations measure various meteorological parameters. In Switzerland the f
 
 The measuring conditions under which meteorological data are collected may change over time. Statements about the past, long-time climatic development can only be made if the influence of such changes is removed. This is achieved by [homogenisation](https://www.meteoswiss.admin.ch/climate/climate-change/changes-in-temperature-precipitation-and-sunshine/homogeneous-data-series-since-1864/homogenisation-of-series-of-climatic-measurements.html) of the data.
 
-::: info 
+:::info 
 
 Homogenisation is conducted on monthly values and annual values are aggregated from these. For temperature, the monthly correction amounts are also applied to daily values after smoothing the monthly transitions. These series are referred to as statistically derived homogeneous series and contain greater uncertainties. For this reason, and because minimum, mean, and maximum temperature series are homogenised independently of each other, minor inconsistencies between these parameters may arise (e.g. daily minimum higher than daily mean). We recommend the use of monthly data for long term climatological analyses.  
 
