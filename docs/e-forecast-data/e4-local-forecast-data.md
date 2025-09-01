@@ -8,13 +8,14 @@ MeteoSwiss produces point forecasts for about 6000 locations, which are displaye
 
 New forecasts for temperature, precipitation, wind, clouds, sunshine, radiation and [weather symbols*](https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/weather-symbols.html) are available every hour. Please note that these forecasts are updated more frequently on our app.
 
-*The MeteoSwiss graphics are proprietary and cannot be reused. However, the number and description of the weather symbols may be utilized and matched with graphics that are permitted for use.
+*The MeteoSwiss graphics are proprietary and cannot be reused. However, the number and description of the weather symbols may be utilised and matched with graphics that are permitted for use.
 
 ## Data download
 
 The Open Data from MeteoSwiss may be used without restriction; the **source must be cited** when reproducing or redistributing ("**Source: MeteoSwiss**").
 
 :white_check_mark: By using 'Open Data' from MeteoSchweiz, you confirm that you have taken note of the [Terms of use](/general/terms-of-use).
+
 
 
 
