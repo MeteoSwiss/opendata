@@ -3,6 +3,7 @@ catalog
 ceilometer
 changelog
 climatological
+cpc
 cscs
 csv
 dateness
