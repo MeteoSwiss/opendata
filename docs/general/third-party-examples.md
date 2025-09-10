@@ -30,6 +30,7 @@ The user examples and libraries listed on this page are provided "as-is", withou
 | Title | Type | Link or file | Description | Date |
 |:------|:-----|:-------------|:------------|:-----|
 | [lowlevelwind.ch](https://lowlevelwind.ch/) | Application | Application: [https://lowlevelwind.ch](https://lowlevelwind.ch/) <br></br> Code: [https://github.com/wipfli/lowlevelwind](https://github.com/wipfli/lowlevelwind/) | This uses the [Numerical weather forecasting model ICON-CH1-EPS](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model#models-specifications) (wind only). | 07-2025 |
+| [kachelmannwetter.com/ch/modellkarten/icon-ch1](https://kachelmannwetter.com/ch/modellkarten/icon-ch1) | Application | Application: [kachelmannwetter.com/ch/modellkarten/icon-ch1](https://kachelmannwetter.com/ch/modellkarten/icon-ch1) | This uses the [Numerical weather forecasting model ICON-CH1-EPS](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model#models-specifications). | 08-2025 |
 
 **If you have specific questions about a listed example**, please contact its owner(s).
 
