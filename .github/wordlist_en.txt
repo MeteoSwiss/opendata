@@ -3,6 +3,7 @@ catalog
 ceilometer
 changelog
 climatological
+cpc
 cscs
 csv
 dateness
@@ -26,15 +27,19 @@ grib
 gridded
 hydrological
 jupyter
+kachelmannwetter
 lidar
 lowlevelwind
 lugano
+meteo
+meteociel
 meteosat
 meteoschweiz
 météosuisse
 meteosvizzera
 meteoswiss
 meto
+modellkarten
 nbcn
 netcdf
 nime
