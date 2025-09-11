@@ -1,4 +1,4 @@
-aAlbis
+albis
 automatisation
 catalog
 ceilometer
@@ -69,6 +69,7 @@ ralmo
 raman
 realtime
 rss
+rzc
 rzcyyjjjhhmm
 sacram
 smn
@@ -84,6 +85,7 @@ swisstopo's
 ticino
 totaliser
 totalisers
+tzc
 tzcyyjjjhhmm
 uptime
 valais
