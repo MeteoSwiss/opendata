@@ -74,5 +74,4 @@ The metadata is included in each HDF5-File.
 
 ## Data usage {#data-usage}
 
-See e.g. MeteoSwiss' [...](...).
-
+See e.g. MeteoSwiss' ... .
