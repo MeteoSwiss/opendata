@@ -47,14 +47,12 @@ The STAC Browser can be a useful tool to facilitate the use of the API: [`https:
 The data is split by parameter, calendar date (see STAC 'items' respectively 'features') and time resolution. It is provided via a rolling time window covering the last 14 days.
 
 The available parameters are:
-| Parameter                              | Time resolution / Update frequency   | Filename format                                              |
+| Parameter                              | Time resolution; Update frequency    | Filename format                                              |
 | -------------------------------------- | ------------------------------------ | ------------------------------------------------------------ |
 | Combiprecip 60-minute total            | 10 minutes                           | CPCyyjjjHHMM\*_00060.\*01.h5                                 |
-| Combiprecip 60-minute total reanalysis | 60 minutes / 8 days later            | [...]\*_00060.\*01.h5                                        |
+| Combiprecip 60-minute total reanalysis | 60 minutes; 8 days later             | [...]\*_00060.\*01.h5                                        |
 | PRECIP                                 | 5 minutes                            | RZCyyjjjHHMM\*.\*01.h5                                       |
 | PRECIP-SV                              | 5 minutes                            | TZCyyjjjHHMM\*.\*01.h5                                       |
-  </TabItem>
-</Tabs>
 
 
 ## Data format {#data-format}
@@ -79,4 +77,5 @@ The metadata is included in each HDF5-File.
 ## Data usage {#data-usage}
 
 See e.g. MeteoSwiss' [...](...).
+
 
