@@ -12,7 +12,7 @@ Currently available as beta; expected to go live on 18 September 2025.
 
 Supplementing the conventional precipitation measurements taken at ground level meteorological stations, MeteoSwiss operates a network of five weather radar stations which record every type of precipitation and storms in real time, are fully automated and, between them, cover the whole of Switzerland.
 
-The sites are
+The sites are:
 - Albis near Zurich (equipped with the latest technology (dual polarisation) in 2012, monitors the atmosphere of the whole of northern Switzerland)
 - Monte Lema in the Canton of Ticino (equipped with the latest technology (dual polarisation) in 2011, monitors the atmosphere of the whole of southern Switzerland)
 - La Dôle near Geneva (equipped with the latest technology (dual polarisation) in 2011)
@@ -77,5 +77,4 @@ The metadata is included in each HDF5-File.
 ## Data usage {#data-usage}
 
 See e.g. MeteoSwiss' [...](...).
-
 
