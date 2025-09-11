@@ -3,6 +3,13 @@ sidebar_position: 1
 ---
 
 # Precipitation radar products
+
+:::warning
+
+Currently available as beta; expected to go live on 18 September 2025.
+
+:::
+
 Supplementing the conventional precipitation measurements taken at ground level meteorological stations, MeteoSwiss operates a network of five weather radar stations which record every type of precipitation and storms in real time, are fully automated and, between them, cover the whole of Switzerland.
 
 The sites are
@@ -72,3 +79,4 @@ The metadata is included in each HDF5-File.
 ## Data usage {#data-usage}
 
 See e.g. MeteoSwiss' [...](...).
+
