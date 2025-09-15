@@ -58,10 +58,10 @@ The available parameters are:
 The data format is [`HDF5`](https://www.hdfgroup.org/solutions/hdf5/) with an estimated volume of ... MB per file.
 
 :::info
-Please note, that for tha processing of HDF5 files, specialized software packages may be needed. 
+Please note, that for tha processing of HDF5 files, specialised software packages may be needed. 
 :::
 
-Nameing convention of the files:
+Naming convention of the files:
 For CPC:
 CPC<yy><GregorianDay><hhmm><Qcode>_<nnnnnn>.<XYZ>.h5
 
@@ -100,4 +100,5 @@ The metadata is included in each HDF5-File.
 ## Data usage {#data-usage}
 
 See e.g. MeteoSwiss' ... .
+
 
