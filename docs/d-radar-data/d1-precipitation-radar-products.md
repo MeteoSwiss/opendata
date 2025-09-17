@@ -6,7 +6,7 @@ sidebar_position: 1
 
 :::warning
 
-Currently available as beta; expected to go live on 18 September 2025.
+Currently available as beta; expected to go live on 23 September 2025.
 
 :::
 
@@ -21,10 +21,10 @@ The sites are:
 
 :::info 
 
-For the Combiprecip (CPC) data, since it is being calculated on the fly, depending also from the available 10-min surface precipitation data,  MeteoSwiss is calculating a "reanalysis" version with corrected values and including all possible missing station values. 
+For the Combiprecip (CPC) data, since it is being calculated on the fly, depending also from the available 10-min surface precipitation data, MeteoSwiss is calculating a "reanalysis" version with corrected values and including all possible missing station values. 
 
 This is being calculated for the hourly values only (00:00h, 01:00h, 02:00h etc.) and is published 8 days later automatically, where the original hourly files will be overwritten. 
-If you are interested in these reanalysis values, please check out the hourly files 8 days later. You will find in the Metadata the "Updated" timestamp showing, that the file have been updated 8 days later.
+If you are interested in these reanalysis values, please check out the hourly files 8 days later. You will find in the Metadata the "Updated" timestamp showing, that the file has been updated 8 days later.
 
 :::
 
@@ -55,6 +55,22 @@ The available parameters are:
 | PRECIP                                 | 5 minutes                            | `RZCyyjjjHHMM\*.\*01.h5`                                     |
 | PRECIP-SV                              | 5 minutes                            | `TZCyyjjjHHMM\*.\*01.h5`                                     |
 
+**Naming convention of the files:**
+
+For CPC: `CPCyyjjjHHMMQ_nnnnn.XYZ.h5`
+- `yy` = two last digit of the year
+- `jjj` = Gregorian day of product creation (1-366)
+- `HHMM` = time of product creation (UTC)
+- `Q` = CombiPrecip quality code (from 0 to 9, where 9 is the best) 
+- `nnnnn` = accumulation time (in minutes)
+- `XYZ` = x01 (reserved)
+
+For all other precipitation radar data: `RZCyyjjjHHMM … XYZ.h5`
+- `yy` = two last digit of the year
+- `jjj` = Gregorian day of product creation (1-366)
+- `HHMM` = time of product creation (UTC)
+- `XYZ` = x01 (reserved)
+
 
 ## Data format {#data-format}
 
@@ -65,38 +81,6 @@ The data format is [`HDF5`](https://www.hdfgroup.org/solutions/hdf5/) with an es
 Please note, that for the processing of HDF5 files, specialised software packages may be needed. 
 
 :::
-
-Naming convention of the files:
-
-For CPC:
-
-CPCyyjjjHHMMQ_nnnnn.XYZ.h5
-
-yy = two last digit of the year
-
-jjj = Gregorian day of product creation (1-366)
-
-HHMM = time of product creation (UTC)
-
-Q = CombiPrecip quality code (from 0 to 9, where 9 is the best) 
-
-nnnnn = accumulation time (in minutes)
-
-XYZ = x01 (reserved)
-
-
-For all other radar data: 
-
-RZCyyjjjHHMM … XYZ.h5
-
-yy = two last digit of the year
-
-jjj = Gregorian day of product creation (1-366)
-
-HHMM = time of product creation (UTC)
-
-XYZ = x01 (reserved)
-
 
 The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056). 
 
@@ -116,6 +100,3 @@ The metadata is included in each HDF5-File.
 ## Data usage {#data-usage}
 
 See e.g. MeteoSwiss' ... .
-
-
-
