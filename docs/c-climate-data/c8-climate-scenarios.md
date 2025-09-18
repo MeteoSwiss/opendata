@@ -30,7 +30,7 @@ import TabItem from '@theme/TabItem';
     <TabItem value="R" label="Download using R">
     You can use the `rstac` R library to query the STAC API programmatically.
 
-    ```
+```
 library(rstac)
 
 # Define the STAC API to use
@@ -62,7 +62,7 @@ assets <- rstac::stac_search(
   limit = 999
 ) |>
   rstac::get_request(asset_query)
-    ```
+```
     </TabItem>
 </Tabs>
 
@@ -72,3 +72,4 @@ assets <- rstac::stac_search(
 ## Data download {#data-download}
 
 ## FAQ/Troubleshooting {#faqtroubleshooting}
+
