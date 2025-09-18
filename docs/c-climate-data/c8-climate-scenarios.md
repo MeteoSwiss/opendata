@@ -28,7 +28,7 @@ import TabItem from '@theme/TabItem';
     they can use the STAC Browser for [DAILY LOCAL](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-climate-scenarios-ch2025?.language=en) and [DAILY-GRIDDED](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-climate-scenarios-ch2025-grid?.language=en). 
     </TabItem>
     <TabItem value="R" label="Download using R">
-    You can use the `rstac` R library to query the STAC API programmatically.
+    You can use the R language with the `rstac` library to query the STAC API and download files.
 
 ```
 library(rstac)
@@ -55,13 +55,42 @@ collection <- stac_source |>
   rstac::get_request()
 collection
 
-# Query all assets of the collection
+# Query all assets of the selected collection
 assets <- rstac::stac_search(
   q = stac_source,
   collection = collection_id,
-  limit = 999
-) |>
-  rstac::get_request(asset_query)
+  limit = 999) |>
+  rstac::get_request()
+
+# Helper function to filter assets
+# @param assets: return value of a call to rstac::stac_search c
+# @param pattern: regexp pattern to search in asset name
+# @param extension: optional file ending (default NULL)
+assets_subset <- function(assets, pattern="", extension=NULL) {
+  assertions::assert_class(assets, "doc_items")
+  assertions::assert_character(pattern)
+  if (!is.null(extension)) {
+    assertions::assert_character(extension)
+    pattern <- paste0(pattern, ".*\\.", extension)
+  }
+  subset <- rstac::assets_select(assets,
+                                 select_fn = function(asset){
+                                   return(length(grep(pattern, asset$title)) > 0)
+                                 }
+  )
+  n_assets <- length(rstac::assets_url(subset))
+  cat(n_assets, "assets found for pattern", paste0("'", pattern, "'."), fill = TRUE)
+  return(subset)
+}
+
+# Filter assets using the helper function: find all csv assets for parameter hurs
+hurs_assets <- assets_subset(assets, pattern = "_hurs_", extension = "csv")
+
+# get download urls for these assets
+rstac::assets_url(hurs_assets)
+
+# download the selected assets
+# rstac::assets_download(hurs_assets, output_dir = tempdir())
 ```
     </TabItem>
 </Tabs>
@@ -72,4 +101,5 @@ assets <- rstac::stac_search(
 ## Data download {#data-download}
 
 ## FAQ/Troubleshooting {#faqtroubleshooting}
+
 
