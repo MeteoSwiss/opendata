@@ -14,9 +14,22 @@ This is a draft that is being worked on until the official launch of the CH2025 
 
 :::
 
-## Getting started quickly {#getting-started-quickly}
+The localised Climate CH2025 datasets consist of 30-year daily time series for different global warming levels (GWL: < add link to GWL page on MeteoSwiss Website >) and the reference period 1991–2020 for several climate variables at individual Swiss stations (DAILY-LOCAL) and on a regular 1 km grid covering the area of Switzerland (DAILY-GRIDDED). This data is primarily useful for research purposes or professional consulting. 
 
-## Available data {#available-data}
+A detailed description of the localised Climate CH2025 datasets is available on the MeteoSwiss Website: <Link to CH2025 Datensätze website>. 
+
+## Data structure
+
+Information on the available simulations and variables, limitations and a list of available Swiss stations can be found in the user documentation of the localised Climate CH2025 datasets.
+
+* Pdf Document: < link to user documentation pdf on the meteoswiss website >.
+* Localised Climate CH2025 datasets on the MeteoSwiss Website: <Link to CH2025 Datensätze website>. 
+
+## Data download {#data-download}
+
+The Open Data from MeteoSwiss may be used without restriction; the **source must be cited** when reproducing or redistributing ("**Source: MeteoSwiss and ETH Zurich, Climate CH2025**").
+
+:white_check_mark: By using 'Open Data' from MeteoSchweiz, you confirm that you have taken note of the [Terms of use](/general/terms-of-use).
 
 ## Download options {#download-options}
 
@@ -24,11 +37,10 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 <Tabs queryString="download-options" groupId="download-options">
     <TabItem value="browser" label="Manual download via STAC Browser">
-    If users prefer to use a web interface to browse and download individual forecast GRIB files,
-    they can use the STAC Browser for [DAILY LOCAL](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-climate-scenarios-ch2025?.language=en) and [DAILY-GRIDDED](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-climate-scenarios-ch2025-grid?.language=en). 
+    Users that prefer to use a web interface to browse and download individual files can use the STAC Browser for [DAILY LOCAL](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-climate-scenarios-ch2025?.language=en) and [DAILY-GRIDDED](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-climate-scenarios-ch2025-grid?.language=en). 
     </TabItem>
     <TabItem value="R" label="Download using R">
-    You can use the R language with the `rstac` library to query the STAC API and download files.
+    The script below shows how to use the R language with the `rstac` library to query the STAC API and download files.
 
 ```
 library(rstac)
@@ -96,10 +108,6 @@ rstac::assets_url(hurs_assets)
 </Tabs>
 
 
-## Data Structure {#data-structure}
 
-## Data download {#data-download}
-
-## FAQ/Troubleshooting {#faqtroubleshooting}
 
 
