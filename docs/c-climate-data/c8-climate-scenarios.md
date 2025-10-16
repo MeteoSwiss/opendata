@@ -20,14 +20,22 @@ A detailed description of the localised Climate CH2025 datasets is available on 
 
 ## Data structure
 
-Information on the available simulations and variables, limitations and a list of available Swiss stations can be found in the user documentation of the localised Climate CH2025 datasets.
+Here is a short overview of the datasets:
+
+| **Attributes**| **DAILY-LOCAL** | **DAILY-GRIDDED**|
+|-----------|------------------|-----------------|
+| Number of Parameters | 7 | 4 |
+| Formats | CSV, NetCDF (in ZIPs) | NetCDF |
+| Data Volume per file | CSV: ~1.5 MB, NetCDF: ~200KB | NetCDF: ~1-2 GB |
+
+Detailed information on the available simulations and variables, limitations and a list of available Swiss stations can be found in the user documentation of the localised Climate CH2025 datasets. 
 
 * Pdf Document: < link to user documentation pdf on the meteoswiss website >.
 * Localised Climate CH2025 datasets on the MeteoSwiss Website: <Link to CH2025 Datensätze website>. 
 
 ## Data download {#data-download}
 
-The Open Data from MeteoSwiss may be used without restriction; the **source must be cited** when reproducing or redistributing ("**Source: MeteoSwiss and ETH Zurich, Climate CH2025**").
+The Open Data from MeteoSwiss may be used without restriction; the **source must be cited** when reproducing or redistributing ("**Source: MeteoSwiss & ETH Zurich (2025): Climate CH2025 - Daily Datasets. Federal Office of Meteorology and Climatology MeteoSwiss, Zurich, https://doi.org/10.18751/climate/scenarios/ch2025/data/1.0/**").
 
 :white_check_mark: By using 'Open Data' from MeteoSchweiz, you confirm that you have taken note of the [Terms of use](/general/terms-of-use).
 
@@ -37,7 +45,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 <Tabs queryString="download-options" groupId="download-options">
     <TabItem value="browser" label="Manual download via STAC Browser">
-    Users that prefer to use a web interface to browse and download individual files can use the STAC Browser for [DAILY LOCAL](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-climate-scenarios-ch2025?.language=en) and [DAILY-GRIDDED](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-climate-scenarios-ch2025-grid?.language=en). 
+    Users that prefer to use a web interface to browse and download individual files can use the STAC Browser for [DAILY-LOCAL](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-climate-scenarios-ch2025?.language=en) and [DAILY-GRIDDED](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-climate-scenarios-ch2025-grid?.language=en). 
     </TabItem>
     <TabItem value="R" label="Download using R">
     The script below shows how one could use the R language with the `rstac` library to query the STAC API and download files.
@@ -156,8 +164,11 @@ def main():
     </TabItem>
 </Tabs>
 
+## Further Information {#further-information}
 
+If you have questions contact: klimaszenarien@meteoschweiz.ch
 
+To receive updates on the datasets and complementary products sign up for the ["Klima-Newsletter"](https://www.meteoschweiz.admin.ch/service-und-publikationen/publikationen/verschiedenes/2024/klima-newsletter.html).
 
 
 
