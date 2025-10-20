@@ -66,7 +66,7 @@ For MESHS: `RZCyyjjjHHMMKK.XYZ.h5`
 
 ## Data format {#data-format}
 
-The data is provided in the `ODIM HDF5` standard format, [described here]([https://www.hdfgroup.org/solutions/hdf5/](https://www.eumetnet.eu/wp-content/uploads/2021/07/ODIM_H5_v2.4.pdf)) with an estimated volume of less than 1 MB per file.
+The data is provided in the `ODIM HDF5` standard format, [described here](https://www.eumetnet.eu/wp-content/uploads/2021/07/ODIM_H5_v2.4.pdf) with an estimated volume of less than 1 MB per file.
 
 :::info
 
@@ -92,4 +92,5 @@ See e.g. MeteoSwiss' ... .
 
 ## Additional information
 For additional information and references, please refer to the corresponding web page on the [MeteoSwiss website](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/weather-radar-network.html).
+
 
