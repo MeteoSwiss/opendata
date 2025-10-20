@@ -49,7 +49,8 @@ The available parameters are:
 
 **Naming convention of the files:**
 
-For CPC: `CPCyyjjjHHMMQ_nnnnn.XYZ.h5`
+For CombiPrecip: `CPCyyjjjHHMMQ_nnnnn.XYZ.h5`
+- `CPC` = product code
 - `yy` = two last digit of the year
 - `jjj` = Gregorian day of product creation (1-366)
 - `HHMM` = product time (UTC)
@@ -57,12 +58,21 @@ For CPC: `CPCyyjjjHHMMQ_nnnnn.XYZ.h5`
 - `nnnnn` = accumulation time (in minutes)
 - `XYZ` = x01 (reserved)
 
-For all other precipitation radar data: `RZCyyjjjHHMM … XYZ.h5`
+For PRECIP: `RZCyyjjjHHMMKK.XYZ.h5`
+- `RZC` = product code
 - `yy` = two last digit of the year
 - `jjj` = Gregorian day of product creation (1-366)
 - `HHMM` = time of product creation (UTC)
+- `KK` = (reserved)
 - `XYZ` = x01 (reserved)
 
+For PRECIP-SV: `TZCyyjjjHHMMKK.XYZ.h5`
+- `TZC` = product code
+- `yy` = two last digit of the year
+- `jjj` = Gregorian day of product creation (1-366)
+- `HHMM` = time of product creation (UTC)
+- `KK` = (reserved)
+- `XYZ` = x01 (reserved)
 
 ## Data format {#data-format}
 
@@ -89,10 +99,7 @@ The metadata is included in each HDF5-File.
 | TZC       | PRECIP-SV                              | mm/h           | Instantaneous rain rate          | ..                            |
 
 
-## Data usage {#data-usage}
-
-See e.g. MeteoSwiss' ... .
-
 ## Additional information
 For additional information and references, please refer to the corresponding web page on the [MeteoSwiss website](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/weather-radar-network.html).
+
 
