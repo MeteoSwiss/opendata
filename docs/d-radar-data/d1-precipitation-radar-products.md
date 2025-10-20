@@ -10,21 +10,13 @@ Currently available as beta; expected to go live on 23 September 2025.
 
 :::
 
-Supplementing the conventional precipitation measurements taken at ground level meteorological stations, MeteoSwiss operates a network of five weather radar stations which record every type of precipitation and storms in real time, are fully automated and, between them, cover the whole of Switzerland.
-
-The sites are:
-- Albis near Zurich (equipped with the latest technology (dual polarisation) in 2012, monitors the atmosphere of the whole of northern Switzerland)
-- Monte Lema in the Canton of Ticino (equipped with the latest technology (dual polarisation) in 2011, monitors the atmosphere of the whole of southern Switzerland)
-- La Dôle near Geneva (equipped with the latest technology (dual polarisation) in 2011)
-- Pointe de la Plaine Morte in the Canton of Valais (equipped with the latest technology (dual polarisation), commenced operation in 2014 and monitors the atmosphere in the inner Alpine region)
-- Weissfluhgipfel in the Canton of Graubünden (equipped with the latest technology (dual polarisation), commenced operation in 2016, and monitors the atmosphere in the inner Alpine region)
+Information on the Swiss weather radar network [can be found here](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/weather-radar-network.html)
 
 :::info 
 
-For the Combiprecip (CPC) data, since it is being calculated on the fly, depending also from the available 10-min surface precipitation data, MeteoSwiss is calculating a "reanalysis" version with corrected values and including all possible missing station values. 
+The PRECIP product is the baseline weather radar product for precipitation estimation at ground, in Switzerland. It combines the data from all 5 C-band, Swiss weather radar stations.
 
-This is being calculated for the hourly values only (00:00h, 01:00h, 02:00h etc.) and is published 8 days later automatically, where the original hourly files will be overwritten. 
-If you are interested in these reanalysis values, please check out the hourly files 8 days later. You will find in the Metadata the "Updated" timestamp showing, that the file has been updated 8 days later.
+The CombiPrecip product (CPC) combines in real-time the precipitation information from the weather radar network with the MeteoSwiss ground stations (rain-gauges). Furthermore, a so-called "reanalysis" of CombiPrecip is computed with an 8 days delay as to account for a-posteriori corrections in the rain-gauge values. The reanalysis version is being calculated for the hourly values only (00:00h, 01:00h, 02:00h etc.) and is published 8 days later automatically, where the original hourly files will be overwritten. If you are interested in these reanalysis values, please check out the hourly files 8 days later. You will find in the Metadata the "Updated" timestamp showing, that the file has been updated 8 days later.
 
 :::
 
@@ -50,17 +42,17 @@ The data is split by parameter, calendar date (see STAC 'items' respectively 'fe
 The available parameters are:
 | Parameter                              | Time resolution; Update frequency    | Filename format                                              |
 | -------------------------------------- | ------------------------------------ | ------------------------------------------------------------ |
-| Combiprecip 60-minute total            | 10 minutes                           | `CPCyyjjjHHMM\*_00060.\*01.h5`                               |
-| Combiprecip 60-minute total reanalysis | 60 minutes; 8 days later             | `...\*_00060.\*01.h5`                                        |
 | PRECIP                                 | 5 minutes                            | `RZCyyjjjHHMM\*.\*01.h5`                                     |
 | PRECIP-SV                              | 5 minutes                            | `TZCyyjjjHHMM\*.\*01.h5`                                     |
+| Combiprecip 60-minute total            | 10 minutes                           | `CPCyyjjjHHMM\*_00060.\*01.h5`                               |
+| Combiprecip 60-minute total reanalysis | 60 minutes; 8 days later             | `...\*_00060.\*01.h5`                                        |
 
 **Naming convention of the files:**
 
 For CPC: `CPCyyjjjHHMMQ_nnnnn.XYZ.h5`
 - `yy` = two last digit of the year
 - `jjj` = Gregorian day of product creation (1-366)
-- `HHMM` = time of product creation (UTC)
+- `HHMM` = product time (UTC)
 - `Q` = CombiPrecip quality code (from 0 to 9, where 9 is the best) 
 - `nnnnn` = accumulation time (in minutes)
 - `XYZ` = x01 (reserved)
@@ -74,7 +66,7 @@ For all other precipitation radar data: `RZCyyjjjHHMM … XYZ.h5`
 
 ## Data format {#data-format}
 
-The data format is [`HDF5`](https://www.hdfgroup.org/solutions/hdf5/) with an estimated volume of ... MB per file.
+The data is provided in the `ODIM HDF5` standard format, [described here]([https://www.hdfgroup.org/solutions/hdf5/](https://www.eumetnet.eu/wp-content/uploads/2021/07/ODIM_H5_v2.4.pdf)) with an estimated volume of less than 1 MB per file.
 
 :::info
 
@@ -91,12 +83,16 @@ The metadata is included in each HDF5-File.
 
 | Parameter | Long Name                              | Standard Unit | Temporal Aggregation   | ...                           |
 | --------- | -------------------------------------- | ------------- | ---------------------- | ----------------------------- |
-| CPC       | Combiprecip 60-minute total            | ...           | Instantaneous          | ..                            |
-| ...       | Combiprecip 60-minute total reanalysis | ...           | Instantaneous          | ..                            |
-| RZC       | PRECIP                                 | ...           | Instantaneous          | ..                            |
-| TZC       | PRECIP-SV                              | ...           | Instantaneous          | ..                            |
+| CPC       | Combiprecip 60-minute total            | mm           | Precipitation accumulation over 1 hour          | ..                            |
+| CPCH       | Combiprecip 60-minute total reanalysis | mm           | Precipitation accumulation over 1 hour          | ..                            |
+| RZC       | PRECIP                                 | mm/h           | Instantaneous rain rate          | ..                            |
+| TZC       | PRECIP-SV                              | mm/h           | Instantaneous rain rate          | ..                            |
 
 
 ## Data usage {#data-usage}
 
 See e.g. MeteoSwiss' ... .
+
+## Additional information
+For additional information and references, please refer to the corresponding web page on the [MeteoSwiss website](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/weather-radar-network.html).
+
