@@ -18,12 +18,12 @@ Below you'll find answers to the most frequently asked questions. We continuousl
 So far, the following data is available:
 - [A - Ground-based measurements](/a-data-groundbased)
 - [C - Climate data: Homogeneous data series](/c-climate-data)
-- [E - Forecast data: Numerical weather forecasting model ICON-CH1/2-EPS](/e-forecast-data/e2-e3-numerical-weather-forecasting-model)
+- [D - Radar data: Precipitation radar products & Hail radar products](/d-radar-data)
+- [E - Forecast data: Numerical weather forecasting model ICON-CH1/2-EPS & Local forecast data](/e-forecast-data)
 
 Additional types of data will be released in the following months. The expected quarter for each dataset will be announced on our [Open Data landing page](https://www.meteoswiss.admin.ch/services-and-publications/service/open-data.html).
 
 <!--  [B - Atmosphere measurements](/b-data-atmosphere)  -->
-<!--  [D - Radar data](/d-data-radar)  -->
 
 ## How may I use data? {#how-may-i-use-data}
 Read the [Rights of use of the data](/general/terms-of-use#2-rights-of-use-of-the-data).
