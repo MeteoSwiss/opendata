@@ -1,5 +1,8 @@
 albis
 automatisation
+bzc
+bzcyyjjj
+bzcyyjjjHHMM
 catalog
 ceilometer
 changelog
@@ -13,6 +16,7 @@ dateness
 dôle
 dobson
 ecCodes
+ecmwf
 emagrams
 emota
 eps
@@ -31,13 +35,16 @@ graubünden
 grib
 gridded
 hdf
+hhmm
 hydrological
+jjj
 jupyter
 kachelmannwetter
 lema
 lidar
 lowlevelwind
 lugano
+meshs
 meteo
 meteociel
 meteosat
@@ -48,6 +55,8 @@ meteoswiss
 meto
 modellkarten
 morte
+mzc
+mzcyyjjj
 nbcn
 netcdf
 nime
@@ -62,6 +71,7 @@ phenological
 phenology
 pipfile
 plaine
+poh
 pointe
 precip
 quelle
@@ -89,7 +99,10 @@ tzc
 tzcyyjjjhhmm
 uptime
 valais
+vl
 weissfluhgipfel
 wipfli
 wmo
+xyz
+yy
 zollikofen
