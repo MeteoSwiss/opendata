@@ -4,13 +4,15 @@ sidebar_position: 1
 
 # Precipitation radar products
 
-Information on the Swiss weather radar network [can be found here](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/weather-radar-network.html).
+[Here](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/weather-radar-network.html) you'll find general information about the Swiss weather radar network.
 
-:::info 
+The **PRECIP product** is the baseline weather radar product for precipitation estimation at ground, in Switzerland. It combines the data from all 5 C-band, Swiss weather radar stations.
 
-The PRECIP product is the baseline weather radar product for precipitation estimation at ground, in Switzerland. It combines the data from all 5 C-band, Swiss weather radar stations.
+The **CombiPrecip (CPC) product** combines in real-time the precipitation information from the weather radar network with the MeteoSwiss ground stations (rain-gauges). Furthermore, a so-called "reanalysis" of CombiPrecip is computed with an 8 days delay as to account for a-posteriori corrections in the rain-gauge values. 
 
-The CombiPrecip product (CPC) combines in real-time the precipitation information from the weather radar network with the MeteoSwiss ground stations (rain-gauges). Furthermore, a so-called "reanalysis" of CombiPrecip is computed with an 8 days delay as to account for a-posteriori corrections in the rain-gauge values. The reanalysis version is being calculated for the hourly values only (00:00h, 01:00h, 02:00h etc.) and is published 8 days later automatically, where the original hourly files will be overwritten. If you are interested in these reanalysis values, please check out the hourly files 8 days later. You will find in the Metadata the "Updated" timestamp showing, that the file has been updated 8 days later.
+:::info
+
+The reanalysis version of CombiPrecip is being calculated for the hourly values only (00:00h, 01:00h, 02:00h etc.) and is published 8 days later automatically, where the original hourly files will be overwritten. If you are interested in these reanalysis values, please check out the hourly files 8 days later. You will find in the Metadata the "Updated" timestamp showing, that the file has been updated 8 days later.
 
 :::
 
@@ -27,17 +29,26 @@ Download **files per parameter** automatically via FSDI's REST API: [`https://da
 
 The STAC Browser can be a useful tool to facilitate the use of the API: [`https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-radar-precip`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-radar-precip)
 
+:::info
+
+In the STAC Browser, click on the 'Next' button under 'Items' to find data from the previous few days.
+
+Please note that the STAC item for the following day has already been created. From midnight onwards, this item will continuously fill with files ('Assets').
+
+:::
+
 
 ## Data structure {#data-structure}
 The data is split by parameter, calendar date (see STAC 'items' respectively 'features') and time resolution. It is provided via a rolling time window covering the last 14 days.
 
-The available parameters are:
-| Parameter                              | Time resolution; Update frequency    | Filename format                                              |
-| -------------------------------------- | ------------------------------------ | ------------------------------------------------------------ |
-| PRECIP                                 | 5 minutes                            | `RZCyyjjjHHMM\*.\*01.h5`                                     |
-| PRECIP-SV                              | 5 minutes                            | `TZCyyjjjHHMM\*.\*01.h5`                                     |
-| Combiprecip 60-minute total            | 10 minutes                           | `CPCyyjjjHHMM\*_00060.\*01.h5`                               |
-| Combiprecip 60-minute total reanalysis | 60 minutes; 8 days later             | `...\*_00060.\*01.h5`                                        |
+**The available parameters are:**
+
+| Parameter                              | Time resolution; Update frequency | Filename format                |
+| -------------------------------------- | --------------------------------- | ------------------------------ |
+| PRECIP                                 | 5 minutes                         | `RZCyyjjjHHMM\*.\*01.h5`       |
+| PRECIP-SV                              | 5 minutes                         | `TZCyyjjjHHMM\*.\*01.h5`       |
+| Combiprecip 60-minute total            | 10 minutes                        | `CPCyyjjjHHMM\*_00060.\*01.h5` |
+| Combiprecip 60-minute total reanalysis | 60 minutes; 8 days later          | `...\*_00060.\*01.h5`          |
 
 **Naming convention of the files:**
 
@@ -91,6 +102,3 @@ The metadata is included in each HDF5-File.
 | `RZC`     | PRECIP                                 | mm/h          | Instantaneous rain rate                |
 | `TZC`     | PRECIP-SV                              | mm/h          | Instantaneous rain rate                |
 
-
-## Additional information
-For additional information and references, please refer to the corresponding web page on the [MeteoSwiss website](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/weather-radar-network.html).
