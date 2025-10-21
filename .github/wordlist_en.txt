@@ -16,6 +16,7 @@ dateness
 dôle
 dobson
 ecCodes
+ecmwf
 emagrams
 emota
 eps
