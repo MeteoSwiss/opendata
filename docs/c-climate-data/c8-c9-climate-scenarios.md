@@ -8,7 +8,7 @@ You can access the `CH2018` data via the [`NCCS` website](https://www.nccs.admin
 
 :::info
 
-The [CH2025](https://www.meteoswiss.admin.ch/about-us/research-and-cooperation/projects/2023/climate-ch2025.html) data are expected to be available in November 2025.
+The [CH2025](https://www.meteoswiss.admin.ch/about-us/research-and-cooperation/projects/2023/climate-ch2025.html) data are available in November 2025.
 
 This is a draft that is being worked on until the official launch of the CH2025 climate scenarios on November 4th.
 
@@ -16,7 +16,7 @@ This is a draft that is being worked on until the official launch of the CH2025 
 
 The localised Climate CH2025 datasets consist of 30-year daily time series for different global warming levels (GWL: < add link to GWL page on MeteoSwiss Website >) and the reference period 1991–2020 for several climate variables at individual Swiss stations (DAILY-LOCAL) and on a regular 1 km grid covering the area of Switzerland (DAILY-GRIDDED). This data is primarily useful for research purposes or professional consulting. 
 
-A detailed description of the localised Climate CH2025 datasets is available on the MeteoSwiss Website: <Link to CH2025 Datensätze website>. 
+A detailed description of the localised Climate CH2025 datasets is available on the MeteoSwiss Website: [Climate CH2025 datasets](https://www.meteoswiss.admin.ch/climate/climate-change/swiss-climate-scenarios/reports-data-and-graphs-of-climate-change-scenarios/climate-ch2025-datasets.html)
 
 ## Data structure
 
@@ -28,10 +28,10 @@ Here is a short overview of the datasets:
 | Formats | CSV, NetCDF (in ZIPs) | NetCDF |
 | Data Volume per file | CSV: ~1.5 MB, NetCDF: ~200KB | NetCDF: ~1-2 GB |
 
-Detailed information on the available simulations and variables, limitations and a list of available Swiss stations can be found in the user documentation of the localised Climate CH2025 datasets. 
+Detailed information on the available simulations and variables, limitations and a list of available Swiss stations can be found in the user documentation of the localised Climate CH2025 datasets:
 
-* Pdf Document: < link to user documentation pdf on the meteoswiss website >.
-* Localised Climate CH2025 datasets on the MeteoSwiss Website: <Link to CH2025 Datensätze website>. 
+* User documentation pdf on the Meteoswiss website: <Link not yet available>
+* [Climate CH2025 datasets on the MeteoSwiss Website](https://www.meteoswiss.admin.ch/climate/climate-change/swiss-climate-scenarios/reports-data-and-graphs-of-climate-change-scenarios/climate-ch2025-datasets.html)
 
 ## Data download {#data-download}
 
