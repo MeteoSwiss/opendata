@@ -52,16 +52,7 @@ The data is split by parameter, calendar date (see STAC 'items' respectively 'fe
 
 **Naming convention of the files:**
 
-For CombiPrecip: `CPCyyjjjHHMMQ_nnnnn.XYZ.h5`
-- `CPC` = product code
-- `yy` = two last digit of the year
-- `jjj` = Gregorian day of product creation (1-366)
-- `HHMM` = product time (UTC)
-- `Q` = CombiPrecip quality code (from 0 to 9, where 9 is the best) 
-- `nnnnn` = accumulation time (in minutes)
-- `XYZ` = x01 (reserved)
-
-For PRECIP: `RZCyyjjjHHMMKK.XYZ.h5`
+For **PRECIP**: `RZCyyjjjHHMMKK.XYZ.h5`
 - `RZC` = product code
 - `yy` = two last digit of the year
 - `jjj` = Gregorian day of product creation (1-366)
@@ -69,12 +60,21 @@ For PRECIP: `RZCyyjjjHHMMKK.XYZ.h5`
 - `KK` = (reserved)
 - `XYZ` = x01 (reserved)
 
-For PRECIP-SV: `TZCyyjjjHHMMKK.XYZ.h5`
+For **PRECIP-SV**: `TZCyyjjjHHMMKK.XYZ.h5`
 - `TZC` = product code
 - `yy` = two last digit of the year
 - `jjj` = Gregorian day of product creation (1-366)
 - `HHMM` = time of product creation (UTC)
 - `KK` = (reserved)
+- `XYZ` = x01 (reserved)
+
+For **CombiPrecip**: `CPCyyjjjHHMMQ_nnnnn.XYZ.h5`
+- `CPC` = product code
+- `yy` = two last digit of the year
+- `jjj` = Gregorian day of product creation (1-366)
+- `HHMM` = product time (UTC)
+- `Q` = CombiPrecip quality code (from 0 to 9, where 9 is the best) 
+- `nnnnn` = accumulation time (in minutes)
 - `XYZ` = x01 (reserved)
 
 
@@ -101,4 +101,5 @@ The metadata is included in each HDF5-File.
 | `CPCH`    | Combiprecip 60-minute total reanalysis | mm            | Precipitation accumulation over 1 hour |
 | `RZC`     | PRECIP                                 | mm/h          | Instantaneous rain rate                |
 | `TZC`     | PRECIP-SV                              | mm/h          | Instantaneous rain rate                |
+
 
