@@ -4,13 +4,7 @@ sidebar_position: 1
 
 # Precipitation radar products
 
-:::warning
-
-Currently available as beta; expected to go live on 23 September 2025.
-
-:::
-
-Information on the Swiss weather radar network [can be found here](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/weather-radar-network.html)
+Information on the Swiss weather radar network [can be found here](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/weather-radar-network.html).
 
 :::info 
 
@@ -27,11 +21,9 @@ The Open Data from MeteoSwiss may be used without restriction; the **source must
 
 :white_check_mark: By using 'Open Data' from MeteoSchweiz, you confirm that you have taken note of the [Terms of use](/general/terms-of-use).
 
-### Download data automatically {#download-data-automatically}
-
 Download **files per parameter** automatically via FSDI's REST API: [`https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-radar-precip`](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-radar-precip)
 
-Read our [information on how you can obtain data automatically](/general/download#how-to-download-files-automatically).
+<!-- Read our [information on how you can obtain data automatically](/general/download#how-to-download-files-automatically). -->
 
 The STAC Browser can be a useful tool to facilitate the use of the API: [`https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-radar-precip`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-radar-precip)
 
@@ -74,6 +66,7 @@ For PRECIP-SV: `TZCyyjjjHHMMKK.XYZ.h5`
 - `KK` = (reserved)
 - `XYZ` = x01 (reserved)
 
+
 ## Data format {#data-format}
 
 The data is provided in the `ODIM HDF5` standard format, [described here](https://www.eumetnet.eu/wp-content/uploads/2021/07/ODIM_H5_v2.4.pdf) with an estimated volume of less than 1 MB per file.
@@ -91,16 +84,13 @@ The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-sw
 
 The metadata is included in each HDF5-File.
 
-| Parameter | Long Name                              | Standard Unit | Temporal Aggregation   | ...                           |
-| --------- | -------------------------------------- | ------------- | ---------------------- | ----------------------------- |
-| CPC       | Combiprecip 60-minute total            | mm           | Precipitation accumulation over 1 hour          | ..                            |
-| CPCH       | Combiprecip 60-minute total reanalysis | mm           | Precipitation accumulation over 1 hour          | ..                            |
-| RZC       | PRECIP                                 | mm/h           | Instantaneous rain rate          | ..                            |
-| TZC       | PRECIP-SV                              | mm/h           | Instantaneous rain rate          | ..                            |
+| Parameter | Long Name                              | Standard Unit | Temporal Aggregation                   |
+| --------- | -------------------------------------- | ------------- | -------------------------------------- |
+| `CPC`     | Combiprecip 60-minute total            | mm            | Precipitation accumulation over 1 hour |
+| `CPCH`    | Combiprecip 60-minute total reanalysis | mm            | Precipitation accumulation over 1 hour |
+| `RZC`     | PRECIP                                 | mm/h          | Instantaneous rain rate                |
+| `TZC`     | PRECIP-SV                              | mm/h          | Instantaneous rain rate                |
 
 
 ## Additional information
 For additional information and references, please refer to the corresponding web page on the [MeteoSwiss website](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/weather-radar-network.html).
-
-
-
