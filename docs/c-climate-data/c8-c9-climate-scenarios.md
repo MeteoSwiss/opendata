@@ -22,7 +22,7 @@ Links in this documentation will only work after the launch of the CH2025 climat
 
 The localised Climate CH2025 datasets consist of 30-year daily time series for different [Global Warming Levels (GWL)](https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/global-warming-level-gwl.html) (forthcoming) and the reference period 1991–2020 for several climate variables at individual Swiss stations (DAILY-LOCAL) and on a regular 1 km grid covering the area of Switzerland (DAILY-GRIDDED). This data is primarily useful for research purposes or professional consulting. 
 
-A detailed description of the localised Climate CH2025 datasets is available on the MeteoSwiss Website: [Climate CH2025 datasets](https://www.meteoswiss.admin.ch/climate/climate-change/swiss-climate-scenarios/reports-data-and-graphs-of-climate-change-scenarios/climate-ch2025-datasets.html)
+A detailed description of the localised Climate CH2025 datasets is available on the MeteoSwiss Website: [Climate CH2025 datasets](https://www.meteoswiss.admin.ch/climate/climate-change/swiss-climate-scenarios/reports-data-and-graphs-of-climate-change-scenarios/climate-ch2025-datasets.html) (forthcoming)
 
 ## Data structure
 
@@ -177,6 +177,7 @@ import TabItem from '@theme/TabItem';
 If you have questions contact: klimaszenarien@meteoschweiz.ch
 
 To receive updates on the datasets and complementary products sign up for the ["Klima-Newsletter"](https://www.meteoschweiz.admin.ch/service-und-publikationen/publikationen/verschiedenes/2024/klima-newsletter.html).
+
 
 
 
