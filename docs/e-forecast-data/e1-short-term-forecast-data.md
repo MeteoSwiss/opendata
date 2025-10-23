@@ -12,7 +12,7 @@ The Meteoswiss nowcasting system is calculated every 5-10 minutes and consists o
 
 :::info
 
-The current deterministic implementation (INCA-CH) only computes one ensemble member. A new generation of nowcasting systems is under development and is expected to be available by 2027. For this reason, only a subset of the current INCA-CH parameters will be made available through our open data provision, and a major migration change will have to be planned for 2027–2028, including a new set of output parameters, parameter names and parameter metadata. A parallel phase in which both the old and new systems are active will be ensured.
+The current deterministic implementation (INCA-CH) only computes one ensemble member. A new generation of nowcasting systems is under development and is expected to be available by 2027-2028. For this reason, only a subset of the current INCA-CH parameters will be made available through our open data provision, and a major migration change will have to be planned for 2027–2028, including a new grid definition, a new set of output parameters, parameter names and parameter metadata. Given the change in forecasting methodology, changes in the characteristics of nowcasting are also to be expected. A parallel phase in which both the old and new systems are active will be ensured.
 
 :::
 
@@ -75,3 +75,5 @@ import TabItem from '@theme/TabItem';
 ## Data usage {#data-usage}
 
 Examples of INCA data reading and visualisation can be found here: [jupyter notebooks](https://github.com/MeteoSwiss/inca-examples).
+
+
