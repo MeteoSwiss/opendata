@@ -50,11 +50,11 @@ The Open Data from MeteoSwiss may be used without restriction; the **source must
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<Tabs queryString="download-options" groupId="download-options">
-    <TabItem value="browser" label="Manual download via STAC Browser">
+<Tabs queryString="download-options">
+  <TabItem value="browser" label="Manual download via STAC Browser">
     Users that prefer to use a web interface to browse and download individual files can use the STAC Browser for [DAILY-LOCAL](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-climate-scenarios-ch2025?.language=en) and [DAILY-GRIDDED](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-climate-scenarios-ch2025-grid?.language=en). 
-    </TabItem>
-    <TabItem value="R" label="Download using R">
+  </TabItem>
+  <TabItem value="R" label="Download using R">
     The script below shows how one could use the R language with the `rstac` library to query the STAC API and download files.
 
     More information about the STAC specification and and R tutorial can be found on [stacspec.org](https://stacspec.org/en/tutorials/intro-to-stac/).
@@ -121,9 +121,8 @@ import TabItem from '@theme/TabItem';
     # download the selected assets
     # rstac::assets_download(hurs_assets, output_dir = tempdir())
     ```
-
-    </TabItem>
-    <TabItem value="R" label="Download using R">
+  </TabItem>
+  <TabItem value="Python" label="Download using Python">
     The script below shows how one could use the Python language with the `pystac` and `pystac_client` packages to query the STAC API and download files.
 
     More information about the STAC specification and python tutorials can be found on [stacspec.org](https://stacspec.org/en/tutorials/intro-to-stac/).
@@ -170,8 +169,7 @@ import TabItem from '@theme/TabItem';
             print(assets_dict[k].href)
             #urllib.request.urlretrieve(url=assets_dict[k].href, filename=k)
     ```
-    
-    </TabItem>
+  </TabItem>
 </Tabs>
 
 ## Further Information {#further-information}
@@ -179,6 +177,7 @@ import TabItem from '@theme/TabItem';
 If you have questions contact: klimaszenarien@meteoschweiz.ch
 
 To receive updates on the datasets and complementary products sign up for the ["Klima-Newsletter"](https://www.meteoschweiz.admin.ch/service-und-publikationen/publikationen/verschiedenes/2024/klima-newsletter.html).
+
 
 
 
