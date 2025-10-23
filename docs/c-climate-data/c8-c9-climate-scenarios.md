@@ -36,7 +36,7 @@ Here is a short overview of the datasets:
 
 Detailed information on the available simulations and variables, limitations and a list of available Swiss stations can be found in the user documentation of the localised Climate CH2025 datasets:
 
-* User documentation pdf on the Meteoswiss website: <Link not yet available>
+* User documentation pdf on the Meteoswiss website: (Link forthcoming)
 * [Climate CH2025 datasets on the MeteoSwiss Website](https://www.meteoswiss.admin.ch/climate/climate-change/swiss-climate-scenarios/reports-data-and-graphs-of-climate-change-scenarios/climate-ch2025-datasets.html)
 
 ## Data download {#data-download}
@@ -179,6 +179,7 @@ import TabItem from '@theme/TabItem';
 If you have questions contact: klimaszenarien@meteoschweiz.ch
 
 To receive updates on the datasets and complementary products sign up for the ["Klima-Newsletter"](https://www.meteoschweiz.admin.ch/service-und-publikationen/publikationen/verschiedenes/2024/klima-newsletter.html).
+
 
 
 
