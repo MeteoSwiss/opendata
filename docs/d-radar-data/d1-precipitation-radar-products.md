@@ -10,6 +10,11 @@ The **PRECIP product** is the baseline weather radar product for precipitation e
 
 The **PRECIP-SV** product is a version of the precip product with additional "Side-View" (SV) to visualize the vertical cross-sections along the x- and y-axis. 
 
+<img width="655" height="537" alt="Precip_SV_Visualization" src="https://github.com/user-attachments/assets/fad2cba2-f41e-4fba-99eb-5fab1c086b4d" />
+
+*Illustration of the SV-product with the SV-parts marked in blue*
+
+
 The **CombiPrecip (CPC) product** combines in real-time the precipitation information from the weather radar network with the MeteoSwiss ground stations (rain-gauges). Furthermore, a so-called "reanalysis" of CombiPrecip is computed with an 8 days delay as to account for a-posteriori corrections in the rain-gauge values. 
 
 :::info
@@ -103,6 +108,7 @@ The metadata is included in each HDF5-File.
 | `CPCH`    | Combiprecip 60-minute total reanalysis | mm            | Precipitation accumulation over 1 hour |
 | `RZC`     | PRECIP                                 | mm/h          | Instantaneous rain rate                |
 | `TZC`     | PRECIP-SV                              | mm/h          | Instantaneous rain rate                |
+
 
 
 
