@@ -34,7 +34,7 @@ import TabItem from '@theme/TabItem';
 
 <Tabs queryString="data-structure">
   <TabItem value="hourly-parameters" label="Hourly and 3-hourly parameters">
-    # TODO: explain time in UTC and conventions  
+    Hourly parameters can be considered as an aggregation (mean, max, sum) over the preceeding hour or in some specific cases an instantaneous value (cloud covers, zero degree level). 3-hourly parameters are always an aggregation over the last 3 hours. As a result, the reference timestamp always defines the end of the aggregation interval*. Both hourly and 3-hourly parameters have an hourly temporal granularity although they represent different temporal aggregation intervals.
 
     Parameters are:
     | Identifier | Group         | Description                                                              |
@@ -66,24 +66,25 @@ import TabItem from '@theme/TabItem';
 
   </TabItem>
   <TabItem value="daily-parameters" label="Daily parameters">
-    # TODO: explain time in UTC and conventions
+    Daily parameters can be considered as an aggregation (mean, max, min, sum) over calendar days. Days are usually defined in local time (00:00 - 24:00 LT), which is UTC+1 in winter and UTC+2 in summer. For some parameters, the equivalent also exists for UTC calendar days (00:00 - 24:00 UTC), but only available for weather stations as it is used primarily for verification purposes. In some specific cases, the daily parameter does not represent a full 24h aggregation interval, but only a subset of the day (e.g. daytime period or 06:00 - 18:00). All daily parameters have a daily temporal granularity (one value per day) with a reference timestamp a the beginning (00:00) of the respective day*. 
     
     Parameters are:
     | Identifier | Group         | Description                                                              |
     |:----------:|:-------------:|:-------------------------------------------------------------------------|
     | `jp2000d0` | Graphics      | MeteoSwiss pictogram number, daily value (valid for daytime period)      |
-    | `rka150d0` | Precipitation | Precipitation; daily total 0 UTC - 0 UTC                                 |
+    | `rka150d0` | Precipitation | Precipitation; daily total 00:00 - 24:00 UTC                                 |
     | `rka150p0` | Precipitation | Precipitation; daily total 00:00 - 24:00 local time                      |
     | `rreq10p0` | Precipitation | Precipitation; daily total 00:00 - 24:00 local time, 10% quantile        |
     | `rreq90p0` | Precipitation | Precipitation; daily total 00:00 - 24:00 local time, 90% quantile        |
-    | `tre200dn` | Temperature   | Air temperature 2 m above ground; daily minimum                          |
-    | `tre200dx` | Temperature   | Air temperature 2 m above ground; daily maximum                          |
+    | `tre200dn` | Temperature   | Air temperature 2 m above ground; daily minimum 00:00 - 24:00 UTC                        |
+    | `tre200dx` | Temperature   | Air temperature 2 m above ground; daily maximum 00:00 - 24:00 UTC                     |
     | `tre200pn` | Temperature   | Air temperature 2 m above ground; daily minimum 00:00 - 24:00 local time |
     | `tre200px` | Temperature   | Air temperature 2 m above ground; daily maximum 00:00 - 24:00 local time |
     
   </TabItem>
 </Tabs>
 
+* This is consistent with the [timestamp conventions for ground-based measurement data](/general/download#time-stamps-and-time-intervals).
 
 ## Data format
 
@@ -91,6 +92,8 @@ import TabItem from '@theme/TabItem';
 :::note
 Local forecast CSV files are encoded in [`Latin1 (ISO-8859-1)`](https://en.wikipedia.org/wiki/ISO/IEC_8859-1) instead of `Windows-1252` as for the ground-based measurement data.
 :::
+
+Date/Time is expressed as `YYYYMMDDHHMM` and represents time in UTC.
 
 
 ## Metadata
@@ -107,7 +110,7 @@ Local forecast CSV files are encoded in [`Latin1 (ISO-8859-1)`](https://en.wikip
     - postal codes (`point_type_id`=2)
     - points of interest in the mountains such as peaks, passes and huts (`point_type_id`=3)
     :::note
-    Each location has an identifier (`point_id) which is unique only within its location type. In other words, only the combination of `point_type_id` and `point_id` is unique accross all locations.
+    Each location has an identifier (`point_id) which is unique only within its point type. Only the combination of `point_type_id` and `point_id` is unique accross all locations, so both labels should be used to identify a specific point in the data CSV files.
     :::
 
     [`ogd-local-forcasting_meta_point.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-local-forecasting/ogd-local-forcasting_meta_point.csv) provides a list of all points with their respective id, name, type, altitude and coordinates.
@@ -118,6 +121,7 @@ Local forecast CSV files are encoded in [`Latin1 (ISO-8859-1)`](https://en.wikip
 ## Data usage
 
 See e.g. MeteoSwiss [website homepage](https://www.meteoswiss.admin.ch/#tab=forecast-map) or [local forecasts](https://www.meteoswiss.admin.ch/local-forecasts/geneva/1201.html#forecast-tab=detail-view).
+
 
 
 
