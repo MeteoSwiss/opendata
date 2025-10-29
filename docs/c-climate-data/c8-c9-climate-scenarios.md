@@ -200,12 +200,13 @@ Detailed information on the available simulations and variables, limitations and
 
 ## Contact and staying up to date {#contact-staying-up-to-date}
 
-If you have questions contact: klimaszenarien@meteoschweiz.ch
+Please use our contact form for questions: https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html
 
 To receive updates on the datasets and complementary products, please sign up for the "MeteoSwiss Climate Newsletter":
 - [in German](https://www.meteoschweiz.admin.ch/service-und-publikationen/publikationen/verschiedenes/2024/klima-newsletter.html),
 - [in French](https://www.meteosuisse.admin.ch/services-et-publications/publications/divers/2024/newsletter-climat.html) or
 - [in Italian](https://www.meteosvizzera.admin.ch/servizi-e-pubblicazioni/pubblicazioni/diversi/2024/newsletter-clima.html).
+
 
 
 
