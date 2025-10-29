@@ -18,9 +18,9 @@ Links in this documentation will only work after the launch of the *Climate* CH2
 
 :::
 
-The localised Climate CH2025 datasets consist of 30-year daily time series for different [Global Warming Levels (GWLs)](https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/global-warming-level-gwl.html) (forthcoming) and the reference period 1991–2020 for several climate variables at individual Swiss stations (DAILY-LOCAL) and on a regular 1 km grid covering the area of Switzerland (DAILY-GRIDDED). All datasets were produced by bias-adjusting and downscaling regional climate model data, including data for the 1991-2020 reference period. They do not directly reflect observations. This data is primarily useful for research purposes or professional consulting. 
+The localized Climate CH2025 datasets consist of 30-year daily time series for different [Global Warming Levels (GWLs)](https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/global-warming-level-gwl.html) (forthcoming) and the reference period 1991–2020 for several climate variables at individual Swiss stations (DAILY-LOCAL) and on a regular 1 km grid covering the area of Switzerland (DAILY-GRIDDED). All datasets were produced by bias-adjusting and downscaling regional climate model data, including data for the 1991-2020 reference period. They do not directly reflect observations. This data is primarily useful for research purposes or professional consulting. 
 
-A detailed description of the localised Climate CH2025 datasets is available on the MeteoSwiss Website: [Climate CH2025 datasets](https://www.meteoswiss.admin.ch/climate/climate-change/swiss-climate-scenarios/reports-data-and-graphs-of-climate-change-scenarios/climate-ch2025-datasets.html) (forthcoming)
+A detailed description of the localized Climate CH2025 datasets is available on the MeteoSwiss Website: [Climate CH2025 datasets](https://www.meteoswiss.admin.ch/climate/climate-change/swiss-climate-scenarios/reports-data-and-graphs-of-climate-change-scenarios/climate-ch2025-datasets.html) (forthcoming)
 
 
 ## Data download {#data-download}
@@ -176,7 +176,7 @@ Here is a short overview of the datasets:
 | Formats                         | CSV, NetCDF (in ZIPs)                 | NetCDF            |
 | Data Volume per file            | CSV: ~1.5 MB <br></br> NetCDF: ~200KB | ~1-2 GB           |
 
-Detailed information on the available simulations and variables, limitations and a list of available Swiss stations can be found in the user documentation of the localised Climate CH2025 datasets:
+Detailed information on the available simulations and variables, limitations and a list of available Swiss stations can be found in the user documentation of the localized Climate CH2025 datasets:
 - User documentation pdf on the MeteoSwiss website: (Link forthcoming)
 - [Climate CH2025 datasets on the MeteoSwiss Website](https://www.meteoswiss.admin.ch/climate/climate-change/swiss-climate-scenarios/reports-data-and-graphs-of-climate-change-scenarios/climate-ch2025-datasets.html) (forthcoming)
 
@@ -185,15 +185,15 @@ Detailed information on the available simulations and variables, limitations and
 
 <Tabs queryString="metadata">
   <TabItem value="daily-local-parameters" label="DAILY-LOCAL Parameters">
-    [`ogd-climate-scenarios-ch2025_meta_parameters.csv`](https://rgw.cscs.ch/mchogd:cscs.meteoswiss.ogd.climate/ogd-climate-scenarios-ch2025/ogd-climate-scenarios-ch2025_meta_parameters.csv) provides a list of all parameter identifiers with explanation, time interval, decimal places, data type and unit of measurement.
+    [`ogd-climate-scenarios-ch2025_meta_parameters.csv`](https://rgw.cscs.ch/mchogd:cscs.meteoswiss.ogd.climate/ogd-climate-scenarios-ch2025/ogd-climate-scenarios-ch2025_meta_parameters.csv) provides a list of all parameter identifiers with description, parameter group and unit of measurement.
   </TabItem>
   <TabItem value="daily-local-stations" label="DAILY-LOCAL Stations">
     All stations have a three-letter identifier (e.g. `BER` for "Bern/Zollikofen" or `LUG` for "Lugano").
     
-    [`ogd-climate-scenarios-ch2025_meta_stations.csv`](https://rgw.cscs.ch/mchogd:cscs.meteoswiss.ogd.climate/ogd-climate-scenarios-ch2025/ogd-climate-scenarios-ch2025_meta_stations.csv) provides a list of all station identifiers with name, Wigos ID, altitude, coordinates and region.
+    [`ogd-climate-scenarios-ch2025_meta_stations.csv`](https://rgw.cscs.ch/mchogd:cscs.meteoswiss.ogd.climate/ogd-climate-scenarios-ch2025/ogd-climate-scenarios-ch2025_meta_stations.csv) provides a list of all station identifiers with full station name, altitude and coordinates.
   </TabItem>
   <TabItem value="daily-gridded-parameters" label="DAILY-GRIDDED Parameters">
-    [`ogd-climate-scenarios-ch2025-grid_meta_parameters.csv`](https://rgw.cscs.ch/mchogd:cscs.meteoswiss.ogd.climate/ogd-climate-scenarios-ch2025-grid/ogd-climate-scenarios-ch2025-grid_meta_parameters.csv) provides a list of all parameter identifiers with explanation, time interval, decimal places, data type and unit of measurement.
+    [`ogd-climate-scenarios-ch2025-grid_meta_parameters.csv`](https://rgw.cscs.ch/mchogd:cscs.meteoswiss.ogd.climate/ogd-climate-scenarios-ch2025-grid/ogd-climate-scenarios-ch2025-grid_meta_parameters.csv) provides a list of all parameter identifiers with description, parameter group and unit of measurement.
   </TabItem>
 </Tabs>
 
@@ -206,6 +206,7 @@ To receive updates on the datasets and complementary products, please sign up fo
 - [in German](https://www.meteoschweiz.admin.ch/service-und-publikationen/publikationen/verschiedenes/2024/klima-newsletter.html),
 - [in French](https://www.meteosuisse.admin.ch/services-et-publications/publications/divers/2024/newsletter-climat.html) or
 - [in Italian](https://www.meteosvizzera.admin.ch/servizi-e-pubblicazioni/pubblicazioni/diversi/2024/newsletter-clima.html).
+
 
 
 
