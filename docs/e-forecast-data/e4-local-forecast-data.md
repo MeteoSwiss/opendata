@@ -59,36 +59,29 @@ import TabItem from '@theme/TabItem';
 ## Data format
 
 [`CSV`](https://opendatadocs.meteoswiss.ch/general/download#column-separators-and-decimal-dividers) with an estimated volume of ≤5.3 MB per file.
+# TODO
 
 
 ## Metadata
 
 <Tabs queryString="metadata">
-  <TabItem value="parameters" label="Parameter">
-    All parameters have a unique identifier that depends on the time resolution (e.g. `dkl010z0` for "wind direction; ten-minute average").
+  <TabItem value="parameters" label="Parameters">
+    All parameters have a unique identifier that depends on the time resolution (e.g. `rreq90h0` for "Precipitation; hourly total, 90% quantile").
     
-    [`ogd-smn_meta_parameters.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-smn/ogd-smn_meta_parameters.csv) provides a list of all parameter identifiers with explanation, time interval, decimal places, data type and unit of measurement.
+    [`ogd-local-forecasting_meta_parameters.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-local-forecasting/ogd-local-forecasting_meta_parameters.csv) provides a list of all parameter identifiers with explanation, time interval, decimal places, data type and units.
   </TabItem>
-  <TabItem value="stations" label="Stations">
-    All stations have a three-letter identifier (e.g. `BER` for "Bern/Zollikofen" or `LUG` for "Lugano").
+  <TabItem value="locations" label="Locations">
+    All locations should be considered as point locations. # TODO
     
-    [`ogd-smn_meta_stations.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-smn/ogd-smn_meta_stations.csv) provides a list of all station identifiers with name, Canton, Wigos ID, station type, altitude, coordinates, orientation and URL of the station details pages.
-  </TabItem>
-  <TabItem value="data-inventory" label="Data inventory">
-    [`ogd-smn_meta_datainventory.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-smn/ogd-smn_meta_datainventory.csv) provides a list of all stations and parameters with start and end date of the measurements.
+    [`ogd-local-forcasting_meta_point.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-local-forecasting/ogd-local-forcasting_meta_point.csv) provides a list of all point identifiers with name, point type, altitude, coordinates.
   </TabItem>
 </Tabs>
 
 
 ## Data usage
 
-See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en).
+See e.g. MeteoSwiss [website homepage](https://www.meteoswiss.admin.ch/#tab=forecast-map) or [local forecasts]([website](https://www.meteoswiss.admin.ch/local-forecasts/geneva/1201.html#forecast-tab=detail-view)).
 
-:::info
-
-For **climate analyses (long-term evolution or change)**, use the [Homogeneous data series](https://opendatadocs.meteoswiss.ch/c-climate-data) instead.
-
-:::
 
 
 
