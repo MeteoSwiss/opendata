@@ -8,19 +8,17 @@ You can access the `CH2018` data via the [`NCCS` website](https://www.nccs.admin
 
 :::info
 
-The [CH2025](https://www.meteoswiss.admin.ch/about-us/research-and-cooperation/projects/2023/climate-ch2025.html) data are available in November 2025.
-
-This is a draft that is being worked on until the official launch of the CH2025 climate scenarios on November 4th.
+The *Climate* [CH2025](https://www.meteoswiss.admin.ch/about-us/research-and-cooperation/projects/2023/climate-ch2025.html) data are available on November 4th 2025.
 
 :::
 
 :::warning
 
-Links in this documentation will only work after the launch of the CH2025 climate scenarios on November 4th.
+Links in this documentation will only work after the launch of the *Climate* CH2025 climate scenarios on November 4th.
 
 :::
 
-The localised Climate CH2025 datasets consist of 30-year daily time series for different [Global Warming Levels (GWL)](https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/global-warming-level-gwl.html) (forthcoming) and the reference period 1991–2020 for several climate variables at individual Swiss stations (DAILY-LOCAL) and on a regular 1 km grid covering the area of Switzerland (DAILY-GRIDDED). This data is primarily useful for research purposes or professional consulting. 
+The localised Climate CH2025 datasets consist of 30-year daily time series for different [Global Warming Levels (GWLs)](https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/global-warming-level-gwl.html) (forthcoming) and the reference period 1991–2020 for several climate variables at individual Swiss stations (DAILY-LOCAL) and on a regular 1 km grid covering the area of Switzerland (DAILY-GRIDDED). All datasets were produced by bias-adjusting and downscaling regional climate model data, including data for the 1991-2020 reference period. They do not directly reflect observations. This data is primarily useful for research purposes or professional consulting. 
 
 A detailed description of the localised Climate CH2025 datasets is available on the MeteoSwiss Website: [Climate CH2025 datasets](https://www.meteoswiss.admin.ch/climate/climate-change/swiss-climate-scenarios/reports-data-and-graphs-of-climate-change-scenarios/climate-ch2025-datasets.html) (forthcoming)
 
@@ -38,7 +36,7 @@ import TabItem from '@theme/TabItem';
 
 <Tabs queryString="download-options">
   <TabItem value="browser" label="Manual download via STAC Browser">
-    Users that prefer to use a web interface to browse and download individual files can use the STAC Browser for [DAILY-LOCAL](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-climate-scenarios-ch2025?.language=en) and [DAILY-GRIDDED](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-climate-scenarios-ch2025-grid?.language=en). 
+    Users who prefer to use a web interface to browse and download individual files can use the STAC Browser for [DAILY-LOCAL](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-climate-scenarios-ch2025?.language=en) and [DAILY-GRIDDED](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-climate-scenarios-ch2025-grid?.language=en). 
   </TabItem>
   <TabItem value="R" label="Download using R">
     The script below shows how one could use the R language with the `rstac` library to query the STAC API and download files.
@@ -177,7 +175,7 @@ Detailed information on the available simulations and variables, limitations and
 ## Metadata {#metadata}
 
 <Tabs queryString="metadata">
-  <TabItem value="daily-local-parameters" label="DAILY-LOCAL Parameter">
+  <TabItem value="daily-local-parameters" label="DAILY-LOCAL Parameters">
     [`ogd-climate-scenarios-ch2025_meta_parameters.csv`](https://rgw.cscs.ch/mchogd:cscs.meteoswiss.ogd.climate/ogd-climate-scenarios-ch2025/ogd-climate-scenarios-ch2025_meta_parameters.csv) provides a list of all parameter identifiers with explanation, time interval, decimal places, data type and unit of measurement.
   </TabItem>
   <TabItem value="daily-local-stations" label="DAILY-LOCAL Stations">
@@ -185,7 +183,7 @@ Detailed information on the available simulations and variables, limitations and
     
     [`ogd-climate-scenarios-ch2025_meta_stations.csv`](https://rgw.cscs.ch/mchogd:cscs.meteoswiss.ogd.climate/ogd-climate-scenarios-ch2025/ogd-climate-scenarios-ch2025_meta_stations.csv) provides a list of all station identifiers with name, Wigos ID, altitude, coordinates and region.
   </TabItem>
-  <TabItem value="daily-gridded-parameters" label="DAILY-GRIDDED Parameter">
+  <TabItem value="daily-gridded-parameters" label="DAILY-GRIDDED Parameters">
     [`ogd-climate-scenarios-ch2025-grid_meta_parameters.csv`](https://rgw.cscs.ch/mchogd:cscs.meteoswiss.ogd.climate/ogd-climate-scenarios-ch2025-grid/ogd-climate-scenarios-ch2025-grid_meta_parameters.csv) provides a list of all parameter identifiers with explanation, time interval, decimal places, data type and unit of measurement.
   </TabItem>
 </Tabs>
@@ -195,9 +193,10 @@ Detailed information on the available simulations and variables, limitations and
 
 If you have questions contact: klimaszenarien@meteoschweiz.ch
 
-To receive updates on the datasets and complementary products sign up for the "Climate newsletter":
+To receive updates on the datasets and complementary products, please sign up for the "MeteoSwiss Climate Newsletter":
 - [in German](https://www.meteoschweiz.admin.ch/service-und-publikationen/publikationen/verschiedenes/2024/klima-newsletter.html),
 - [in French](https://www.meteosuisse.admin.ch/services-et-publications/publications/divers/2024/newsletter-climat.html) or
 - [in Italian](https://www.meteosvizzera.admin.ch/servizi-e-pubblicazioni/pubblicazioni/diversi/2024/newsletter-clima.html).
+
 
 
