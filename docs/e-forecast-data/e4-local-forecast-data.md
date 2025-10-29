@@ -34,23 +34,52 @@ import TabItem from '@theme/TabItem';
 
 <Tabs queryString="data-structure">
   <TabItem value="hourly-parameters" label="Hourly and 3-hourly parameters">
-    To explain time in UTC and conventions  
+    # TODO: explain time in UTC and conventions  
 
     Parameters are:
-    | Identifier | Description |
-    |:----------:|:------------|
-    | `tre200s0` | Air temperature 2 m above ground; current value | 
-    | `rre150z0` | Precipitation; ten minutes total |
+    | Identifier | Group         | Description                                                              |
+    |:----------:|:-------------:|:-------------------------------------------------------------------------|
+    | `dkl010h0` | Wind          | Wind direction; hourly mean                                              |
+    | `fu3010h0` | Wind          | Wind speed scalar; hourly mean in km/h                                   |
+    | `fu3010h1` | Wind          | Gust peak (one second); hourly maximum in km/h                           |
+    | `fu3q10h0` | Wind          | Wind speed; hourly mean, 10% quantile in km/h                            |
+    | `fu3q10h1` | Wind          | Gust peak; hourly maximum, 10% quantile in km/h                          |
+    | `fu3q90h0` | Wind          | Wind speed; hourly mean, 90% quantile in km/h                            |
+    | `fu3q90h1` | Wind          | Gust peak; hourly maximum, 90% quantile in km/h                          |
+    | `gre000h0` | Radiation     | Global radiation; hourly mean                                            |
+    | `jww003i0` | Graphics      | MeteoSwiss-Icon, weathertype, preceding 3 hours, forecast                |
+    | `nprohihs` | Clouds        | High cloud cover                                                         |
+    | `nprolohs` | Clouds        | Low cloud cover                                                          |
+    | `npromths` | Clouds        | Medium cloud cover                                                       |
+    | `ods000h0` | Radiation     | Diffuse radiation; hourly mean                                           |
+    | `rp0003i0` | Precipitation | Probability of precipitation during 3 hours                              |
+    | `rre003i0` | Precipitation | Total precipitation during 3 hours                                       |
+    | `rre150h0` | Precipitation | Precipitation; hourly total                                              |
+    | `rreq10h0` | Precipitation | Precipitation; hourly total, 10% quantile                                |
+    | `rreq90h0` | Precipitation | Precipitation; hourly total, 90% quantile                                |
+    | `sre000h0` | Sunshine      | Sunshine duration; hourly total                                          |
+    | `tre200h0` | Temperature   | Air temperature 2 m above ground; hourly mean                            |
+    | `treq10h0` | Temperature   | Air temperature 2 m above ground; hourly mean, 10% quantile              |
+    | `treq90h0` | Temperature   | Air temperature 2 m above ground; hourly mean, 90% quantile              |
+    | `zprfr0hs` | Temperature   | Zero degree level; hourly value, forecast                                |
+
 
   </TabItem>
   <TabItem value="daily-parameters" label="Daily parameters">
-    To explain time in UTC and conventions
+    # TODO: explain time in UTC and conventions
     
     Parameters are:
-    | Identifier | Description |
-    |:----------:|:------------|
-    | `tre200s0` | Air temperature 2 m above ground; current value | 
-    | `rre150z0` | Precipitation; ten minutes total |
+    | Identifier | Group         | Description                                                              |
+    |:----------:|:-------------:|:-------------------------------------------------------------------------|
+    | `jp2000d0` | Graphics      | MeteoSwiss pictogram number, daily value (valid for daytime period)      |
+    | `rka150d0` | Precipitation | Precipitation; daily total 0 UTC - 0 UTC                                 |
+    | `rka150p0` | Precipitation | Precipitation; daily total 00:00 - 24:00 local time                      |
+    | `rreq10p0` | Precipitation | Precipitation; daily total 00:00 - 24:00 local time, 10% quantile        |
+    | `rreq90p0` | Precipitation | Precipitation; daily total 00:00 - 24:00 local time, 90% quantile        |
+    | `tre200dn` | Temperature   | Air temperature 2 m above ground; daily minimum                          |
+    | `tre200dx` | Temperature   | Air temperature 2 m above ground; daily maximum                          |
+    | `tre200pn` | Temperature   | Air temperature 2 m above ground; daily minimum 00:00 - 24:00 local time |
+    | `tre200px` | Temperature   | Air temperature 2 m above ground; daily maximum 00:00 - 24:00 local time |
     
   </TabItem>
 </Tabs>
@@ -58,29 +87,38 @@ import TabItem from '@theme/TabItem';
 
 ## Data format
 
-[`CSV`](https://opendatadocs.meteoswiss.ch/general/download#column-separators-and-decimal-dividers) with an estimated volume of ≤5.3 MB per file.
-# TODO
+[`CSV`](https://opendatadocs.meteoswiss.ch/general/download#column-separators-and-decimal-dividers) with an estimated volume of ≤300 KB per file for daily parameters and ≤33 MB for hourly ones. 
+:::note
+Local forecast CSV files are encoded in [`Latin1 (ISO-8859-1)`](https://en.wikipedia.org/wiki/ISO/IEC_8859-1) instead of `Windows-1252` as for the ground-based measurement data.
+:::
 
 
 ## Metadata
 
 <Tabs queryString="metadata">
   <TabItem value="parameters" label="Parameters">
-    All parameters have a unique identifier that depends on the time resolution (e.g. `rreq90h0` for "Precipitation; hourly total, 90% quantile").
+    All parameters have a unique identifier that depends on the meteorological variable, the time resolution and possibly the ensemble statistic used (e.g. `rreq90h0` for "Precipitation; hourly total, 90% quantile").
     
-    [`ogd-local-forecasting_meta_parameters.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-local-forecasting/ogd-local-forecasting_meta_parameters.csv) provides a list of all parameter identifiers with explanation, time interval, decimal places, data type and units.
+    [`ogd-local-forecasting_meta_parameters.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-local-forecasting/ogd-local-forecasting_meta_parameters.csv) provides a list of all parameter identifiers available for the local forecast data collection with description, time interval, decimal places, data type and units.
   </TabItem>
   <TabItem value="locations" label="Locations">
-    All locations should be considered as point locations. # TODO
-    
-    [`ogd-local-forcasting_meta_point.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-local-forecasting/ogd-local-forcasting_meta_point.csv) provides a list of all point identifiers with name, point type, altitude, coordinates.
+    All locations should be considered as point locations. There are three types of locations:
+    - weather stations (`point_type_id`=1)
+    - postal codes (`point_type_id`=2)
+    - points of interest in the mountains such as peaks, passes and huts (`point_type_id`=3)
+    :::note
+    Each location has an identifier (`point_id) which is unique only within its location type. In other words, only the combination of `point_type_id` and `point_id` is unique accross all locations.
+    :::
+
+    [`ogd-local-forcasting_meta_point.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-local-forecasting/ogd-local-forcasting_meta_point.csv) provides a list of all points with their respective id, name, type, altitude and coordinates.
   </TabItem>
 </Tabs>
 
 
 ## Data usage
 
-See e.g. MeteoSwiss [website homepage](https://www.meteoswiss.admin.ch/#tab=forecast-map) or [local forecasts]([website](https://www.meteoswiss.admin.ch/local-forecasts/geneva/1201.html#forecast-tab=detail-view)).
+See e.g. MeteoSwiss [website homepage](https://www.meteoswiss.admin.ch/#tab=forecast-map) or [local forecasts](https://www.meteoswiss.admin.ch/local-forecasts/geneva/1201.html#forecast-tab=detail-view).
+
 
 
 
