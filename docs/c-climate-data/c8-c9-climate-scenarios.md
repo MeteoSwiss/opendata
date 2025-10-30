@@ -38,15 +38,6 @@ import TabItem from '@theme/TabItem';
   <TabItem value="browser" label="Manual download via STAC Browser">
     Users who prefer to use a web interface to browse and download individual files can use the STAC Browser for [DAILY-LOCAL](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-climate-scenarios-ch2025?.language=en) and [DAILY-GRIDDED](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-climate-scenarios-ch2025-grid?.language=en). 
   </TabItem>
-  <TabItem value="bash" label="Download using bash and curl">
-    The script below shows how one could use a bash terminal to query the STAC API and download files.
-
-    More information about the STAC specification can be found on [stacspec.org](https://stacspec.org/en/tutorials/intro-to-stac/).
-
-    ```
-    
-    ```
-  </TabItem>
   <TabItem value="R" label="Download using R">
     The script below shows how one could use the R language with the `rstac` library to query the STAC API and download files.
 
