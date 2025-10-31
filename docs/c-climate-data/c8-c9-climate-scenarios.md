@@ -38,6 +38,24 @@ import TabItem from '@theme/TabItem';
   <TabItem value="browser" label="Manual download via STAC Browser">
     Users who prefer to use a web interface to browse and download individual files can use the STAC Browser for [DAILY-LOCAL](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-climate-scenarios-ch2025?.language=en) and [DAILY-GRIDDED](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-climate-scenarios-ch2025-grid?.language=en). 
   </TabItem>
+  <TabItem value="bash" label="Download using bash and curl">
+    The script [blabla.sh](DOWLOAD FILE?) shows how one could use a bash terminal to query the STAC API and download files.
+    Download the file (or copy the code) to your linux bash terminal and to the folder where to want to store the data.
+    
+    Run the bash script with one of the following commands in the terminal:
+    ```
+    bash blabla.sh
+    
+    ./blabla.sh
+    ```
+    The console then automatically asks you the question if:
+    1. Do you want to download DAILY-LOCAL or DAILY-GRIDDED?
+
+    Afterwards you can choose the speficications for DAILY-LOCAL (stations, parameters, GWLs, file format) or DAILY-GRIDDED (parameters, GWLs) to download the desired data.
+      
+  </TabItem>
+  
+    
   <TabItem value="R" label="Download using R">
     The script below shows how one could use the R language with the `rstac` library to query the STAC API and download files.
 
@@ -197,6 +215,7 @@ To receive updates on the datasets and complementary products, please sign up fo
 - [in German](https://www.meteoschweiz.admin.ch/service-und-publikationen/publikationen/verschiedenes/2024/klima-newsletter.html),
 - [in French](https://www.meteosuisse.admin.ch/services-et-publications/publications/divers/2024/newsletter-climat.html) or
 - [in Italian](https://www.meteosvizzera.admin.ch/servizi-e-pubblicazioni/pubblicazioni/diversi/2024/newsletter-clima.html).
+
 
 
 
