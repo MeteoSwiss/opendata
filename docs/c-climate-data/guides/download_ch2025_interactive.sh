@@ -4,8 +4,6 @@
 # The script will ask if you want DAILY-LOCAL or DAILY-GRIDDED and proceed accordingly.
 
 size_calc="FALSE"
-# Define environment
-ENVIRONMENT="PROD"   # or "DEPL"
 
 #echo -e "\e[32mPlease write everything in lowercase!\e[0m"
 read -p "Do you want to download DAILY-LOCAL or DAILY-GRIDDED? (local/gridded): " MODE
@@ -73,12 +71,7 @@ echo "Querying STAC API for collection: $COLLECTION"
 
 # Build jq filter dynamically
 urls=""
-# Set NEXT_URL based on environment
-if [ "$ENVIRONMENT" = "DEPL" ]; then
-    NEXT_URL="https://sys-data.int.bgdi.ch/api/stac/v0.9/collections/${COLLECTION}/items"
-else
-    NEXT_URL="https://data.geo.admin.ch/api/stac/v0.9/collections/${COLLECTION}/items"
-fi
+NEXT_URL="https://data.geo.admin.ch/api/stac/v0.9/collections/${COLLECTION}/items"
 
 while [ -n "$NEXT_URL" ]; do
     #echo "Fetching: $NEXT_URL"
