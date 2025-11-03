@@ -4,24 +4,15 @@ sidebar_position: 8
 
 # Climate scenarios
 
-You can access the `CH2018` data via the [`NCCS` website](https://www.nccs.admin.ch/nccs/en/home/climate-change-and-impacts/swiss-climate-change-scenarios.html).
-
 :::info
 
-The *Climate* [CH2025](https://www.meteoswiss.admin.ch/about-us/research-and-cooperation/projects/2023/climate-ch2025.html) data are available on November 4th 2025.
+For `CH2018` data, see the [`NCCS` website](https://www.nccs.admin.ch/nccs/en/home/climate-change-and-impacts/swiss-climate-change-scenarios.html).
 
 :::
 
-:::warning
+The localized Climate CH2025 datasets consist of 30-year daily time series for different [Global Warming Levels (GWLs)](https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/global-warming-level-gwl.html)  and the reference period 1991–2020 for several climate variables at individual Swiss stations (DAILY-LOCAL) and on a regular 1 km grid covering the area of Switzerland (DAILY-GRIDDED). All datasets were produced by bias-adjusting and downscaling regional climate model data, including data for the 1991-2020 reference period. They do not directly reflect observations. This data is primarily useful for research purposes or professional consulting. 
 
-Links in this documentation will only work after the launch of the *Climate* CH2025 climate scenarios on November 4th.
-
-:::
-
-The localized Climate CH2025 datasets consist of 30-year daily time series for different [Global Warming Levels (GWLs)](https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/global-warming-level-gwl.html) (forthcoming) and the reference period 1991–2020 for several climate variables at individual Swiss stations (DAILY-LOCAL) and on a regular 1 km grid covering the area of Switzerland (DAILY-GRIDDED). All datasets were produced by bias-adjusting and downscaling regional climate model data, including data for the 1991-2020 reference period. They do not directly reflect observations. This data is primarily useful for research purposes or professional consulting. 
-
-A detailed description of the localized Climate CH2025 datasets is available on the MeteoSwiss Website: [Climate CH2025 datasets](https://www.meteoswiss.admin.ch/climate/climate-change/swiss-climate-scenarios/reports-data-and-graphs-of-climate-change-scenarios/climate-ch2025-datasets.html) (forthcoming)
-
+A detailed description of the localized Climate CH2025 datasets is available on the MeteoSwiss Website: [Climate CH2025 datasets](https://www.meteoswiss.admin.ch/climate/climate-change/swiss-climate-scenarios/reports-data-and-graphs-of-climate-change-scenarios/climate-ch2025-datasets.html) 
 
 ## Data download {#data-download}
 
@@ -94,8 +85,8 @@ Here is a short overview of the datasets:
 | Data Volume per file            | CSV: ~1.5 MB <br></br> NetCDF: ~200KB | ~1-2 GB           |
 
 Detailed information on the available simulations and variables, limitations and a list of available Swiss stations can be found in the user documentation of the localized Climate CH2025 datasets:
-- User documentation pdf on the MeteoSwiss website: (Link forthcoming)
-- [Climate CH2025 datasets on the MeteoSwiss Website](https://www.meteoswiss.admin.ch/climate/climate-change/swiss-climate-scenarios/reports-data-and-graphs-of-climate-change-scenarios/climate-ch2025-datasets.html) (forthcoming)
+- [User documentation pdf on the MeteoSwiss website](https://www.meteoswiss.admin.ch/dam/jcr:f54fae36-9a40-4e45-8abb-0308d0a68a10/CH2025_documentation_localized_v1.0.pdf)
+- [Climate CH2025 datasets on the MeteoSwiss Website](https://www.meteoswiss.admin.ch/climate/climate-change/swiss-climate-scenarios/reports-data-and-graphs-of-climate-change-scenarios/climate-ch2025-datasets.html)
 
 
 ## Metadata {#metadata}
