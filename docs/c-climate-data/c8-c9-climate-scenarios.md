@@ -41,7 +41,7 @@ import TabItem from '@theme/TabItem';
   Run the bash script in a terminal:
 
   The console then lets you choose between DAILY-LOCAL and DAILY-GRIDDED datasets.
-  Afterwards you can choose the speficications for DAILY-LOCAL (stations, parameters, GWLs, file format) or DAILY-GRIDDED (parameters, GWLs) to download the desired data.
+  Afterwards you can choose the specifications for DAILY-LOCAL (stations, parameters, GWLs, file format) or DAILY-GRIDDED (parameters, GWLs) to download the desired data.
   
   Example download session: 
     ```
@@ -114,6 +114,7 @@ To receive updates on the datasets and complementary products, please sign up fo
 - [in German](https://www.meteoschweiz.admin.ch/service-und-publikationen/publikationen/verschiedenes/2024/klima-newsletter.html),
 - [in French](https://www.meteosuisse.admin.ch/services-et-publications/publications/divers/2024/newsletter-climat.html) or
 - [in Italian](https://www.meteosvizzera.admin.ch/servizi-e-pubblicazioni/pubblicazioni/diversi/2024/newsletter-clima.html).
+
 
 
 
