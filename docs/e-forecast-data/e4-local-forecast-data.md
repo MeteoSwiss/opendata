@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Local forecast data
 
-MeteoSwiss produces point forecasts for about 6000 locations, which are displayed on our [MeteoSwiss App](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/meteoswiss-app.html) and [website](https://www.meteoswiss.admin.ch/local-forecasts/geneva/1201.html#forecast-tab=detail-view). These forecasts are produced by optimally combining the best sources of information available to generate seamless forecasts for nine full days (including the current day). Further information can be found in [Generation of high-quality localised forecasts](https://www.meteoswiss.admin.ch/weather/warning-and-forecasting-systems/generation-of-high-quality-localised-forecasts.html).
+MeteoSwiss produces point forecasts for about 6'000 locations, which are displayed on our [MeteoSwiss App](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/meteoswiss-app.html) and [website](https://www.meteoswiss.admin.ch/local-forecasts/geneva/1201.html#forecast-tab=detail-view). These forecasts are produced by optimally combining the best sources of information available to generate seamless forecasts for nine full days (including the current day). Further information can be found in [Generation of high-quality localised forecasts](https://www.meteoswiss.admin.ch/weather/warning-and-forecasting-systems/generation-of-high-quality-localised-forecasts.html).
 
 New forecasts for temperature, precipitation, wind, clouds, sunshine, radiation and [weather symbols*](https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/weather-symbols.html) are available every hour. Please note that these forecasts are updated more frequently on our app.
 
@@ -18,7 +18,7 @@ The Open Data from MeteoSwiss may be used without restriction; the **source must
 
 ### Download data automatically
 
-Download **files per meteorological paramerer** automatically via FSDI's REST API: [`https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-local-forecasting`](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-local-forecasting)
+Download **files per meteorological parameter** automatically via FSDI's REST API: [`https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-local-forecasting`](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-local-forecasting)
 
 Read our documentation on [how to download files automatically](/general/download#how-to-download-files-automatically).
 
@@ -34,7 +34,7 @@ import TabItem from '@theme/TabItem';
 
 <Tabs queryString="data-structure">
   <TabItem value="hourly-parameters" label="Hourly and 3-hourly parameters">
-    Hourly parameters can be considered as an aggregation (mean, max, sum) over the preceeding hour or in some specific cases an instantaneous value (cloud covers, zero degree level). 3-hourly parameters are always an aggregation over the last 3 hours. As a result, the reference timestamp always defines the end of the aggregation interval*. Both hourly and 3-hourly parameters have an hourly temporal granularity although they represent different temporal aggregation intervals.
+    Hourly parameters can be considered as an aggregation (mean, max, sum) over the preceeding hour or in some specific cases an instantaneous value (cloud cover, zero degree level). 3-hourly parameters are always an aggregation over the last 3 hours. As a result, the reference timestamp always defines the end of the aggregation interval*. Both hourly and 3-hourly parameters have an hourly temporal granularity although they represent different temporal aggregation intervals.
 
     Parameters are:
     | Identifier | Group         | Description                                                              |
@@ -63,6 +63,7 @@ import TabItem from '@theme/TabItem';
     | `treq90h0` | Temperature   | Air temperature 2 m above ground; hourly mean, 90% quantile              |
     | `zprfr0hs` | Temperature   | Zero degree level; hourly value, forecast                                |
 
+*This is consistent with the [timestamp conventions for ground-based measurement data](/general/download#time-stamps-and-time-intervals).
 
   </TabItem>
   <TabItem value="daily-parameters" label="Daily parameters">
@@ -72,25 +73,29 @@ import TabItem from '@theme/TabItem';
     | Identifier | Group         | Description                                                              |
     |:----------:|:-------------:|:-------------------------------------------------------------------------|
     | `jp2000d0` | Graphics      | MeteoSwiss pictogram number, daily value (valid for daytime period)      |
-    | `rka150d0` | Precipitation | Precipitation; daily total 00:00 - 24:00 UTC                                 |
+    | `rka150d0` | Precipitation | Precipitation; daily total 00:00 - 24:00 UTC                             |
     | `rka150p0` | Precipitation | Precipitation; daily total 00:00 - 24:00 local time                      |
     | `rreq10p0` | Precipitation | Precipitation; daily total 00:00 - 24:00 local time, 10% quantile        |
     | `rreq90p0` | Precipitation | Precipitation; daily total 00:00 - 24:00 local time, 90% quantile        |
-    | `tre200dn` | Temperature   | Air temperature 2 m above ground; daily minimum 00:00 - 24:00 UTC                        |
-    | `tre200dx` | Temperature   | Air temperature 2 m above ground; daily maximum 00:00 - 24:00 UTC                     |
+    | `tre200dn` | Temperature   | Air temperature 2 m above ground; daily minimum 00:00 - 24:00 UTC        |
+    | `tre200dx` | Temperature   | Air temperature 2 m above ground; daily maximum 00:00 - 24:00 UTC        |
     | `tre200pn` | Temperature   | Air temperature 2 m above ground; daily minimum 00:00 - 24:00 local time |
     | `tre200px` | Temperature   | Air temperature 2 m above ground; daily maximum 00:00 - 24:00 local time |
+
+*This is consistent with the [timestamp conventions for ground-based measurement data](/general/download#time-stamps-and-time-intervals).
     
   </TabItem>
 </Tabs>
 
-* This is consistent with the [timestamp conventions for ground-based measurement data](/general/download#time-stamps-and-time-intervals).
 
 ## Data format
 
-[`CSV`](https://opendatadocs.meteoswiss.ch/general/download#column-separators-and-decimal-dividers) with an estimated volume of ≤300 KB per file for daily parameters and ≤33 MB for hourly ones. 
+The data format is [`CSV`](https://opendatadocs.meteoswiss.ch/general/download#column-separators-and-decimal-dividers) with an estimated volume of ≤300 KB per file for daily parameters and ≤33 MB for hourly ones. 
+
 :::note
+
 Local forecast CSV files are encoded in [`Latin1 (ISO-8859-1)`](https://en.wikipedia.org/wiki/ISO/IEC_8859-1) instead of `Windows-1252` as for the ground-based measurement data.
+
 :::
 
 Date/Time is expressed as `YYYYMMDDHHMM` and represents time in UTC.
@@ -109,8 +114,11 @@ Date/Time is expressed as `YYYYMMDDHHMM` and represents time in UTC.
     - weather stations (`point_type_id`=1)
     - postal codes (`point_type_id`=2)
     - points of interest in the mountains such as peaks, passes and huts (`point_type_id`=3)
+    
     :::note
-    Each location has an identifier (`point_id) which is unique only within its point type. Only the combination of `point_type_id` and `point_id` is unique accross all locations, so both labels should be used to identify a specific point in the data CSV files.
+    
+    Each location has an identifier (`point_id`) which is unique only within its point type. Only the combination of `point_type_id` and `point_id` is unique accross all locations, so both labels should be used to identify a specific point in the data CSV files.
+    
     :::
 
     [`ogd-local-forcasting_meta_point.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-local-forecasting/ogd-local-forcasting_meta_point.csv) provides a list of all points with their respective id, name, type, altitude and coordinates.
@@ -121,9 +129,4 @@ Date/Time is expressed as `YYYYMMDDHHMM` and represents time in UTC.
 ## Data usage
 
 See e.g. MeteoSwiss [website homepage](https://www.meteoswiss.admin.ch/#tab=forecast-map) or [local forecasts](https://www.meteoswiss.admin.ch/local-forecasts/geneva/1201.html#forecast-tab=detail-view).
-
-
-
-
-
 
