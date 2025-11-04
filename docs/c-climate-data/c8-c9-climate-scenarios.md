@@ -36,7 +36,7 @@ import TabItem from '@theme/TabItem';
 
   Usage: 
   
-  - Download the file (or copy the code) to your linux bash terminal and to the folder where you to want to store the data.
+  - Download the file to the folder where you to want to store the data.
   - Run the bash script in a terminal. The console will ask you to choose between DAILY-LOCAL and DAILY-GRIDDED datasets. Afterwards you can set further specifications for DAILY-LOCAL (stations, parameters, GWLs, file format) or DAILY-GRIDDED (parameters, GWLs) and finally choose to download the desired data.
   
   Example download session: 
@@ -112,6 +112,7 @@ To receive updates on the datasets and complementary products, please sign up fo
 - [in German](https://www.meteoschweiz.admin.ch/service-und-publikationen/publikationen/verschiedenes/2024/klima-newsletter.html),
 - [in French](https://www.meteosuisse.admin.ch/services-et-publications/publications/divers/2024/newsletter-climat.html) or
 - [in Italian](https://www.meteosvizzera.admin.ch/servizi-e-pubblicazioni/pubblicazioni/diversi/2024/newsletter-clima.html).
+
 
 
 
