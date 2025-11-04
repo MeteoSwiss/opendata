@@ -3,9 +3,9 @@
 # Usage: run: bash download_interactive_full.sh or ./download_interactive_full.sh
 # The script will ask if you want DAILY-LOCAL or DAILY-GRIDDED and proceed accordingly.
 
-size_calc="FALSE"
+size_calc="TRUE"
+sha256="TRUE"
 
-#echo -e "\e[32mPlease write everything in lowercase!\e[0m"
 read -p "Do you want to download DAILY-LOCAL or DAILY-GRIDDED? (local/gridded): " MODE
 
 MODE="${MODE,,}"
@@ -29,7 +29,7 @@ COLLECTION="${MCH}${COLLECTIONID}"
 
 # Collect inputs
 if [ "$NEED_STATION" == "TRUE" ]; then
-    read -p "Enter station code (e.g. abo or all): " STATION
+    read -p "Enter station code (e.g. ABO, ZER or all): " STATION
 else
     STATION="none"
 fi
@@ -46,7 +46,7 @@ else
     fi
 fi
 
-read -p "Enter GWL (ref91-20, gwl1.5, gwl2.0, gwl2.5, gwl3.0 or all): " GWL
+read -p "Enter GWL (ref91-20, GWL1.5, GWL2.0, GWL2.5, GWL3.0 or all): " GWL
 
 if [ "$MODE" == "local" ]; then
     read -p "Enter format (.csv or .zip): " FORMAT
@@ -62,9 +62,9 @@ fi
 
 # Output directory
 if [ "$MODE" == "local" ]; then
-    OUTPUT_DIR="${COLLECTIONID}/${STATION,,}"
+    OUTPUT_DIR_DEFAULT="${COLLECTIONID}/${STATION,,}"
 else
-    OUTPUT_DIR="${COLLECTIONID}/${PARAMETER,,}"
+    OUTPUT_DIR_DEFAULT="${COLLECTIONID}/${PARAMETER,,}"
 fi
 
 echo "Querying STAC API for collection: $COLLECTION"
@@ -130,7 +130,7 @@ done
 
 # Check results
 if [ -z "$urls" ]; then
-    echo "❌ No matching files found."
+    echo "❌ No matching files found. Check the User Documentation for details on available stations & parameters."
     exit 1
 else
     file_count=$(echo "$urls" | wc -l)
@@ -138,26 +138,9 @@ else
     echo "$urls"
 fi
 
-# Estimate total size based on average file sizes
-if [ "$MODE" == "local" ]; then
-    if [ "$FORMAT" == ".csv" ]; then
-        avg_size_mb=1.2
-    else
-        avg_size_mb=2.1
-    fi
-else
-    avg_size_mb=1500  # ~2 GB per file
-fi
-
-estimated_size=$(echo "$file_count * $avg_size_mb" | bc)
-unit="MB"
-if [ "$MODE" == "gridded" ]; then
-    unit="MB (≈ $(echo "$estimated_size / 1024" | bc) GB)"
-fi
-
 # Calculate total size
 if [ "$size_calc" = "TRUE" ]; then
-	echo "Calculating total size..."
+	echo "Please wait: Calculating total size..."
 	total_size=0
 	for url in $urls; do
 	    size=$(curl -sI "$url" | grep -i Content-Length | awk '{print $2}' | tr -d '\r')
@@ -167,20 +150,30 @@ if [ "$size_calc" = "TRUE" ]; then
 	done
 	# Convert to MB
 	size_mb=$(echo "scale=2; $total_size/1024/1024" | bc)
-	echo "Estimated total size: ${size_mb} MB"
+	unit="MB"
+	    if [ "$MODE" == "gridded" ]; then
+    	        unit="MB (≈ $(echo "$size_mb / 1024" | bc) GB)"
+            fi
+	echo -e "⚠️  Careful: $file_count files will be downloaded. \e[36mEstimated total size: ${size_mb} ${unit}.\e[0m"
 fi
-
-#echo -e "\e[36mEstimated total size: ${estimated_size} ${unit}\e[0m"
 
 # Confirm download
 
-echo -e "⚠️  Careful: $file_count files will be downloaded. \e[36mEstimated total size: ${estimated_size} ${unit}.\e[0m"
 read -p "Continue? (y/n): " confirm
 if [ "$confirm" != "y" ]; then
     echo "❌ Download canceled."
     exit 0
 fi
 
+# Defining output dir
+read -e -p "$(echo -e "Enter path to save data (default: \e[36m$OUTPUT_DIR_DEFAULT\e[0m): ")" CUSTOM_PATH
+
+# Final output directory
+if [ -n "$CUSTOM_PATH" ]; then
+    OUTPUT_DIR="${CUSTOM_PATH%/}/$OUTPUT_DIR_DEFAULT"
+else
+    OUTPUT_DIR="$OUTPUT_DIR_DEFAULT"
+fi
 
 # Download
 echo "Downloading files..."
@@ -192,5 +185,45 @@ echo "$urls" | while read -r url; do
     wget -q -P "$OUTPUT_DIR" "$url"
 done
 
-echo -e "\e[32m✅ Download complete. Files saved in folder: $OUTPUT_DIR\e[0m"
+# Assume OUTPUT_DIR and urls are set
+DOWNLOAD_FAILED=true
+
+for file in $urls; do
+    TARGET_FILE="${OUTPUT_DIR}/$(basename "$file")"
+    if [ -f "$TARGET_FILE" ]; then
+	# if there is a file then:
+        #DOWNLOAD_FAILED=false
+
+	if [ "$sha256" = "TRUE" ]; then 
+
+		# Compute local SHA256
+        	local_sha=$(sha256sum "$TARGET_FILE" | awk '{print $1}')
+
+        	# Get remote SHA256 from header
+        	remote_sha=$(curl -s -I "$file" | awk -F': ' '/x-amz-meta-sha256/ {print $2}' | tr -d '\r')
+
+        	# Compare
+        	if [ "$local_sha" == "$remote_sha" ]; then
+            		#echo "✅ SHA256 match for $TARGET_FILE"
+            		DOWNLOAD_FAILED=false
+        	else
+            		echo "❌ SHA256 mismatch found. Files not save to use."
+			exit 1
+        	fi
+
+        else
+		DOWNLOAD_FAILED=false
+	fi
+    fi
+done
+
+#read -e -p "$(echo -e "Enter path to save data (default: \e[36m$OUTPUT_DIR_DEFAULT\e[0m): ")" CUSTOM_PATH
+
+if $DOWNLOAD_FAILED; then
+    echo -e "❌ Download failed: No files found in \e[36m$OUTPUT_DIR\e[0m)"
+    exit 1
+else
+    echo -e "\e[32m✅ Download successful: Files saved in $OUTPUT_DIR\e[0m"
+fi
+
 
