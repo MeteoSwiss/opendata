@@ -34,31 +34,29 @@ import TabItem from '@theme/TabItem';
   
   Prerequisites: `bash` with tools `curl`, `jq` and `wget` installed. The script was tested on Ubuntu Linux. 
 
-  Example session: 
-
-  Download the file (or copy the code) to your linux bash terminal and to the folder where to want to store the data.
-
-  Run the bash script in a terminal:
-
-  The console then lets you choose between DAILY-LOCAL and DAILY-GRIDDED datasets.
-  Afterwards you can choose the specifications for DAILY-LOCAL (stations, parameters, GWLs, file format) or DAILY-GRIDDED (parameters, GWLs) to download the desired data.
+  Usage: 
+  
+  - Download the file (or copy the code) to your linux bash terminal and to the folder where you to want to store the data.
+  - Run the bash script in a terminal. The console will ask you to choose between DAILY-LOCAL and DAILY-GRIDDED datasets. Afterwards you can set further specifications for DAILY-LOCAL (stations, parameters, GWLs, file format) or DAILY-GRIDDED (parameters, GWLs) and finally choose to download the desired data.
   
   Example download session: 
     ```
-    host:~$ ./download_ch2025_interactive.sh 
+    $ bash download_ch2025_interactive.sh 
     Do you want to download DAILY-LOCAL or DAILY-GRIDDED? (local/gridded): local
-    Enter station code (e.g. abo or all): abo
+    Enter station code (e.g. ABO, ZER or all): abo
     Enter parameter (pr, tas, tasmin, tasmax, rsds, hurs, sfcwind or all): tasmin
-    Enter GWL (ref91-20, gwl1.5, gwl2.0, gwl2.5, gwl3.0 or all): ref91-20
+    Enter GWL (ref91-20, GWL1.5, GWL2.0, GWL2.5, GWL3.0 or all): ref91-20
     Enter format (.csv or .zip): .csv
     Querying STAC API for collection: ch.meteoschweiz.ogd-climate-scenarios-ch2025
     ✅ Found 1 matching files:
     https://rgw.cscs.ch/mchogd:cscs.meteoswiss.ogd.climate/ogd-climate-scenarios-ch2025/abo/ogd-climate-scenarios-ch2025_abo_tasmin_ref91-20.csv
-    ⚠️  Careful: 1 files will be downloaded. Estimated total size: 1.2 MB.
+    Please wait: Calculating total size...
+    ⚠️  Careful: 1 files will be downloaded. Estimated total size: 1.29 MB.
     Continue? (y/n): y
+    Enter path to save data (default: ogd-climate-scenarios-ch2025/abo): 
     Downloading files...
     Downloading: https://rgw.cscs.ch/mchogd:cscs.meteoswiss.ogd.climate/ogd-climate-scenarios-ch2025/abo/ogd-climate-scenarios-ch2025_abo_tasmin_ref91-20.csv
-    ✅ Download complete. Files saved in folder: ogd-climate-scenarios-ch2025/abo
+    ✅ Download successful: Files saved in ogd-climate-scenarios-ch2025/abo
     ```
   </TabItem>
   <TabItem value="R" label="Download using R">
@@ -114,6 +112,7 @@ To receive updates on the datasets and complementary products, please sign up fo
 - [in German](https://www.meteoschweiz.admin.ch/service-und-publikationen/publikationen/verschiedenes/2024/klima-newsletter.html),
 - [in French](https://www.meteosuisse.admin.ch/services-et-publications/publications/divers/2024/newsletter-climat.html) or
 - [in Italian](https://www.meteosvizzera.admin.ch/servizi-e-pubblicazioni/pubblicazioni/diversi/2024/newsletter-clima.html).
+
 
 
 
