@@ -17,7 +17,7 @@ Below you'll find answers to the most frequently asked questions. We continuousl
 ## What type of data can I get? {#what-type-of-data-can-i-get}
 So far, the following data is available:
 - [A - Ground-based measurements](/a-data-groundbased)
-- [C - Climate data: Homogeneous data series](/c-climate-data)
+- [C - Climate data: Homogeneous data series & Climate scenarios CH2025](/c-climate-data)
 - [D - Radar data: Precipitation radar products & Hail radar products](/d-radar-data)
 - [E - Forecast data: Numerical weather forecasting model ICON-CH1/2-EPS & Local forecast data](/e-forecast-data)
 
