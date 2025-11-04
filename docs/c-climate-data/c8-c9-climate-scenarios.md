@@ -16,7 +16,7 @@ A detailed description of the localized Climate CH2025 datasets is available on 
 
 ## Data download {#data-download}
 
-The Open Data from MeteoSwiss may be used without restriction; the **source must be cited** when reproducing or redistributing ("**Source: MeteoSwiss & ETH Zurich (2025): Climate CH2025 - Daily Datasets. Federal Office of Meteorology and Climatology MeteoSwiss, Zurich, [https://doi.org/10.18751/climate/scenarios/ch2025/data/1.0](https://doi.org/10.18751/climate/scenarios/ch2025/data/1.0)").
+The Open Data from MeteoSwiss may be used without restriction; the **source must be cited** when reproducing or redistributing ("**Source: MeteoSwiss & ETH Zurich (2025): Climate CH2025 - Daily Datasets. Federal Office of Meteorology and Climatology MeteoSwiss, Zurich, [https://doi.org/10.18751/climate/scenarios/ch2025/data/1.0](https://doi.org/10.18751/climate/scenarios/ch2025/data/1.0)**").
 
 :white_check_mark: By using 'Open Data' from MeteoSchweiz, you confirm that you have taken note of the [Terms of use](/general/terms-of-use).
 
@@ -114,6 +114,7 @@ To receive updates on the datasets and complementary products, please sign up fo
 - [in German](https://www.meteoschweiz.admin.ch/service-und-publikationen/publikationen/verschiedenes/2024/klima-newsletter.html),
 - [in French](https://www.meteosuisse.admin.ch/services-et-publications/publications/divers/2024/newsletter-climat.html) or
 - [in Italian](https://www.meteosvizzera.admin.ch/servizi-e-pubblicazioni/pubblicazioni/diversi/2024/newsletter-clima.html).
+
 
 
 
