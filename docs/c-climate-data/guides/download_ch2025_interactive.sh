@@ -8,7 +8,11 @@ sha256="TRUE"
 
 read -p "Do you want to download DAILY-LOCAL or DAILY-GRIDDED? (local/gridded): " MODE
 
-MODE="${MODE,,}"
+to_lower() {
+   echo "$1" | tr '[:upper:]' '[:lower:]'
+}
+
+MODE=$(to_lower "$MODE")
 
 if [ "$MODE" == "local" ]; then
     COLLECTIONID="ogd-climate-scenarios-ch2025"
@@ -54,6 +58,11 @@ else
     FORMAT="$FORMAT_DEFAULT"
 fi
 
+STATION=$(to_lower "$STATION")
+PARAMETER=$(to_lower "$PARAMETER")
+GWL=$(to_lower "$GWL")
+FORMAT=$(to_lower "$FORMAT")
+
 # Validate inputs
 if [ -z "$PARAMETER" ] || [ -z "$GWL" ] || [ -z "$FORMAT" ]; then
     echo "❌ Error: All inputs must be provided."
@@ -62,9 +71,9 @@ fi
 
 # Output directory
 if [ "$MODE" == "local" ]; then
-    OUTPUT_DIR_DEFAULT="${COLLECTIONID}/${STATION,,}"
+    OUTPUT_DIR_DEFAULT="${COLLECTIONID}/${STATION}"
 else
-    OUTPUT_DIR_DEFAULT="${COLLECTIONID}/${PARAMETER,,}"
+    OUTPUT_DIR_DEFAULT="${COLLECTIONID}/${PARAMETER}"
 fi
 
 echo "Querying STAC API for collection: $COLLECTION"
@@ -80,10 +89,10 @@ while [ -n "$NEXT_URL" ]; do
     if [ "$MODE" == "local" ]; then
         PAGE_URLS=$(echo "$RESPONSE" | jq -r \
             --arg collectionid "$COLLECTIONID" \
-            --arg station "${STATION,,}" \
-            --arg parameter "${PARAMETER,,}" \
-            --arg gwl "${GWL,,}" \
-            --arg format "${FORMAT,,}" '
+            --arg station "${STATION}" \
+            --arg parameter "${PARAMETER}" \
+            --arg gwl "${GWL}" \
+            --arg format "${FORMAT}" '
             .. | .href? | select(. != null) |
             select(
                 (. | split("/")[-1]) as $fname |
@@ -197,7 +206,7 @@ for file in $urls; do
 	if [ "$sha256" = "TRUE" ]; then 
 
 		# Compute local SHA256
-        	local_sha=$(sha256sum "$TARGET_FILE" | awk '{print $1}')
+        	local_sha=$(shasum -a 256 "$TARGET_FILE" | awk '{print $1}')
 
         	# Get remote SHA256 from header
         	remote_sha=$(curl -s -I "$file" | awk -F': ' '/x-amz-meta-sha256/ {print $2}' | tr -d '\r')
