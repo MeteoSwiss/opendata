@@ -23,16 +23,9 @@ The following parameters are available:
 - Precipitation type (`NT`, 5 min values every 5 min)
 - Snowfall (`PN`, 5 min values every 5 min)
 
-**Wind**
-- Wind mean 10 m (`FF_10min`, 10 min values every 10 min)
-- Wind gust 10 m (`WG_10min`, 10 min values every 10 min)
-- Wind direction 10 m (`DD_10min`, 10 min values every 10 min)
-
 **Temperature**
 - Temperature 2 m (`TT`, 10 min values every 60 min)
 - Dew point temperature 2 m (`TD`, 10 min values every 60 min)
-- Snowfall line (`ZS`, 10 min values every 60 min)
-- Zero degree Isotherm (`Z0`, 10 min values every 60 min)
 - Soil surface temperature (`TG`, 10 min values every 60 min)
 
 ## Data download {#data-download}
@@ -75,5 +68,6 @@ import TabItem from '@theme/TabItem';
 ## Data usage {#data-usage}
 
 Examples of INCA data reading and visualisation can be found here: [jupyter notebooks](https://github.com/MeteoSwiss/inca-examples).
+
 
 
