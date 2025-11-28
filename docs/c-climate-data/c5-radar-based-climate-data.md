@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Radar-based spatial climate data – Hail
+# Spatial climate analyses – Hail
 
 These grid data products are derived from radar data, which were [further processed for statistical statements with the use of the HailStoRe resampling approach](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology/data-and-methods.html), among other things (for more see the linked detailed product documentations). 
 
@@ -72,3 +72,4 @@ The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-sw
 ## Data usage {#data-usage}
 
 Follows.
+
