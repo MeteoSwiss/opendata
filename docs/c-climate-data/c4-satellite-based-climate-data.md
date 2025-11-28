@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Satellite-based spatial climate data – Radiation, cloud cover
+# Spatial climate analyses – Radiation, clouds
 
 These grid data products are derived from [MeteoSat satellite data](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/satellite-observations.html) together with ground-based measurements (for more see the linked detailed product documentations).
 
@@ -74,3 +74,4 @@ The coordinate system is [`WGS84`](https://www.swisstopo.admin.ch/en/reference-s
 ## Data usage {#data-usage}
 
 Follows.
+
