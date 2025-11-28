@@ -37,13 +37,8 @@ The following **example data file**s are available for download:
 | **Total precipitation (`RP`)** | 5 min | 5 min | [RP_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/RP_INCA_202106280700.nc) | `ogd-nowcasting_RP_(date and time code).nc` | 1-60 |
 | **Precipitation type (`NT`)** | 5 min | 5 min | [NT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/NT_INCA_202106280700.nc) | `ogd-nowcasting_NT_(date and time code).nc` | 1-2 |
 | **Snowfall (`PN`)** | 5 min | 5 min | [PN_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/PN_INCA_202106280700.nc) | `ogd-nowcasting_PN_(date and time code).nc` | 1-40 |
-| **Wind mean (`FF_10min`)** | 10 min | 10 min | [FF_10min_INCA_202106280700.nc](https://zenodo.org/records/6470725/files/FF_10min_INCA_202204131500.nc) | `ogd-nowcasting_FF_10min_(date and time code).nc` | 60 |
-| **Wind gust (`WG_10min`)** |  10 min |  10 min | [WG_10min_INCA_202106280700.nc](https://zenodo.org/records/6470725/files/WG_10min_INCA_202204131500.nc)| `ogd-nowcasting_WG_10min_(date and time code).nc` | 60 |
-| **Wind direction (`DD_10min`)** | 10 min | 10 min | [DD_10min_INCA_202106280700.nc](https://zenodo.org/records/6470725/files/DD_10min_INCA_202204131500.nc)| `ogd-nowcasting_DD_10min_(date and time code).nc` | 60 |
 | **Temperature 2 m (`TT`)** | 10 min | 60 min | [TT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TT_INCA_202106280700.nc) | `ogd-nowcasting_TT_(date and time code).nc` | 13 |
 | **Dew point temperature 2 m (`TD`)** | 10 min | 60 min | [TD_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TD_INCA_202106280700.nc) | `ogd-nowcasting_TD_(date and time code).nc` | 13 |
-| **Snowfall line (`ZS`)** | 10 min | 60 min | [ZS_INCA_202106280700.nc](https://zenodo.org/records/6470725/files/ZS_INCA_202106280700.nc?download=1) | `ogd-nowcasting_ZS_(date and time code).nc` | 13 |
-| **Zero degree Isotherm (`Z0`)** | 10 min | 60 min | [Z0_INCA_202106280700.nc](https://zenodo.org/records/6470725/files/Z0_INCA_202106280700.nc?download=1) | `ogd-nowcasting_Z0_(date and time code).nc` | 13 |
 | **Soil surface temperature (`TG`)** | 10 min | 60 min | [TG_INCA_202106280700.nc](https://zenodo.org/records/6470725/files/TG_INCA_202106280700.nc?download=1) | `ogd-nowcasting_TG_(date and time code).nc` | 13 |
 
 ## Data format {#data-format}
@@ -68,6 +63,7 @@ import TabItem from '@theme/TabItem';
 ## Data usage {#data-usage}
 
 Examples of INCA data reading and visualisation can be found here: [jupyter notebooks](https://github.com/MeteoSwiss/inca-examples).
+
 
 
 
