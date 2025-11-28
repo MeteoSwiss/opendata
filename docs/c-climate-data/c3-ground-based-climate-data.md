@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Ground-based spatial climate data – Precipitation, temperature, sunshine
+# Spatial climate analyses – Precipitation, temperature, sunshine
 
 These grid data products are statistically derived from ground-based measurements (for more see the linked detailed product documentations).
 
@@ -60,3 +60,4 @@ The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-sw
 ## Data usage {#data-usage}
 
 Follows.
+
