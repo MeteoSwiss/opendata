@@ -1,9 +1,9 @@
 ---
 sidebar_position: 4
-title: Dati climatici spaziali basati sulle misure satellitari – Radiazione, copertura nuvolosa
+title: Analisi spaziali del clima - Radiazione, nuvole
 ---
 
-# Dati climatici spaziali basati sulle misure satellitari – Radiazione, copertura nuvolosa
+# Analisi spaziali del clima - Radiazione, nuvole
 
 :::warning 
 
@@ -14,4 +14,5 @@ I dati non sono ancora disponibili.
 Alla [documentazione in inglese](https://opendatadocs.meteoswiss.ch/c-climate-data/c4-satellite-based-climate-data).
 
 La traduzione seguirà.
+
 

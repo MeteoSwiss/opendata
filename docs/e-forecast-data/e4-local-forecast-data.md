@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Local forecast data
@@ -129,4 +129,5 @@ Date/Time is expressed as `YYYYMMDDHHMM` and represents time in UTC.
 ## Data usage
 
 See e.g. MeteoSwiss [website homepage](https://www.meteoswiss.admin.ch/#tab=forecast-map) or [local forecasts](https://www.meteoswiss.admin.ch/local-forecasts/geneva/1201.html#forecast-tab=detail-view).
+
 
