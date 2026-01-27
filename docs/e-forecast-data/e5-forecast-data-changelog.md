@@ -33,10 +33,8 @@ You will receive a confirmation mail to the email address from which you sent th
 
 
 ## Upcoming changes
-
-### ICON Info 12.11.2025: Improved precipitation, radiation, and temperature
-- [PDF der ICON Info]
+- [2025-11-12 - ICON Info: Improved precipitation, radiation, and temperature](PDF)
 
 ## Changelog
-
-
+- [Date: Title](PDF)
+- [Date: Title](PDF)
