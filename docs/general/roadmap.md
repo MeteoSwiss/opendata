@@ -23,13 +23,13 @@ Our roadmap is based on the long-term **vision** of our service (*URL forthcomin
 
 <details>
   <summary>'Spatial climate analyses' are available.</summary>
-  ... <br></br>
+  
   ...
 </details>
 
 <details>
   <summary>...</summary>
-  ... <br></br>
+  
   ...
 </details>
 
@@ -37,7 +37,7 @@ Our roadmap is based on the long-term **vision** of our service (*URL forthcomin
 
 <details>
   <summary>...</summary>
-  ... <br></br>
+
   ...
 </details>
 
