@@ -16,29 +16,29 @@ Our roadmap is based on the [long-term **vision** of our service](...). Our **st
 
 <details>
   <summary>Open Data extracted from the data warehouse is available faster than their measurement frequency.</summary>
-  <br></br>
-  - 'Extract, transform and load' is optimised.
-  - 'Author, schedule and monitor workflows' is optimised.
+
+  'Extract, transform and load' is optimised. <br></br>
+  'Author, schedule and monitor workflows' is optimised.
 </details>
 
 <details>
   <summary>'Spatial climate analyses' are available.</summary>
-  <br></br>
-  - ...
+  ... <br></br>
+  ...
 </details>
 
 <details>
   <summary>...</summary>
-  <br></br>
-  - ...
+  ... <br></br>
+  ...
 </details>
 
 ### Mission 2: APIs
 
 <details>
   <summary>...</summary>
-  <br></br>
-  - ...
+  ... <br></br>
+  ...
 </details>
 
 ### Items removed from the roadmap
