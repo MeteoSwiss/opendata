@@ -16,20 +16,20 @@ Our roadmap is based on the [long-term **vision** of our service](...). Our **st
 
 <details>
   <summary>Open Data extracted from the data warehouse is available faster than their measurement frequency.</summary>
-
+  <br></br>
   - 'Extract, transform and load' is optimised.
   - 'Author, schedule and monitor workflows' is optimised.
 </details>
 
 <details>
   <summary>'Spatial climate analyses' are available.</summary>
-
+  <br></br>
   - ...
 </details>
 
 <details>
   <summary>...</summary>
-
+  <br></br>
   - ...
 </details>
 
@@ -37,7 +37,7 @@ Our roadmap is based on the [long-term **vision** of our service](...). Our **st
 
 <details>
   <summary>...</summary>
-
+  <br></br>
   - ...
 </details>
 
