@@ -21,7 +21,7 @@ These grid data products are statistically derived from ground-based measurement
 **Sunshine**
 - [Daily Relative Sunshine Duration](https://www.meteoswiss.admin.ch/dam/jcr:981891db-30d1-47cc-a2e1-50c270bdaf22/ProdDoc_SrelD.pdf)
 - [Monthly and Yearly Relative Sunshine Duration](https://www.meteoswiss.admin.ch/dam/jcr:94421f3c-47f3-46fa-9939-1d494a0ce5fe/ProdDoc_SrelM.pdf)
-- [Monthly differences to the 1991-2020 norm values](missing document)
+- Monthly differences to the 1991-2020 norm values *(Document not available yet)*
 
 :::info
 
@@ -63,5 +63,6 @@ The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-sw
 ## Data usage {#data-usage}
 
 Follows.
+
 
 
