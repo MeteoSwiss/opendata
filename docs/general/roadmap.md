@@ -12,7 +12,7 @@ Our roadmap is based on the long-term **vision** of our service (*URL forthcomin
 
 ## Q1: January until March 2026
 
-### Mission 1: Bulk download
+### Phase 1: Bulk download
 
 <details>
   <summary>Open Data extracted from the data warehouse is available faster than their measurement frequency.</summary>
@@ -33,7 +33,7 @@ Our roadmap is based on the long-term **vision** of our service (*URL forthcomin
   ...
 </details>
 
-### Mission 2: APIs
+### Phase 2: APIs
 
 <details>
   <summary>...</summary>
