@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Local forecast data
 
-MeteoSwiss produces point forecasts for about 6'000 locations, which are displayed on our [MeteoSwiss App](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/meteoswiss-app.html) and [website](https://www.meteoswiss.admin.ch/local-forecasts/geneva/1201.html#forecast-tab=detail-view). These forecasts are produced by optimally combining the best sources of information available to generate seamless forecasts for nine full days (including the current day). Further information can be found in [Generation of high-quality localised forecasts](https://www.meteoswiss.admin.ch/weather/warning-and-forecasting-systems/generation-of-high-quality-localised-forecasts.html).
+MeteoSwiss produces point forecasts for about 6'000 points, which are displayed on our [MeteoSwiss App](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/meteoswiss-app.html) and [website](https://www.meteoswiss.admin.ch/local-forecasts/geneva/1201.html#forecast-tab=detail-view). These forecasts are produced by optimally combining the best sources of information available to generate seamless forecasts for nine full days (including the current day). Further information can be found in [Generation of high-quality localised forecasts](https://www.meteoswiss.admin.ch/weather/warning-and-forecasting-systems/generation-of-high-quality-localised-forecasts.html).
 
 New forecasts for temperature, precipitation, wind, clouds, sunshine, radiation and [weather symbols*](https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/weather-symbols.html) are available every hour. Please note that these forecasts are updated more frequently on our app.
 
@@ -27,7 +27,7 @@ The STAC Browser can be a useful tool to facilitate the use of the API: [`https:
 
 ## Data structure
 
-The data is split by parameter. A file for a parameter contains all available locations in one file. Locations consist of postal codes, points of interest in the mountains (e.g peaks, mountain huts) as well as weather stations. There are files with hourly, 3-hourly and daily values. Each parameter is updated every hour.
+The data is split by parameter. A file for a parameter contains all available points in one file. Points consist of postal codes, points of interest in the mountains (e.g peaks, mountain huts) as well as weather stations. There are files with hourly, 3-hourly and daily values. Each parameter is updated every hour.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -109,15 +109,15 @@ Date/Time is expressed as `YYYYMMDDHHMM` and represents time in UTC.
     
     [`ogd-local-forecasting_meta_parameters.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-local-forecasting/ogd-local-forecasting_meta_parameters.csv) provides a list of all parameter identifiers available for the local forecast data collection with description, time interval, decimal places, data type and units.
   </TabItem>
-  <TabItem value="locations" label="Locations">
-    All locations should be considered as point locations. There are three types of locations:
+  <TabItem value="points" label="Points">
+    There are three types of points:
     - weather stations (`point_type_id`=1)
     - postal codes (`point_type_id`=2)
     - points of interest in the mountains such as peaks, passes and huts (`point_type_id`=3)
     
     :::note
     
-    Each location has an identifier (`point_id`) which is unique only within its point type. Only the combination of `point_type_id` and `point_id` is unique accross all locations, so both labels should be used to identify a specific point in the data CSV files.
+    Each point has an identifier (`point_id`) which is unique only within its point type. Only the combination of `point_type_id` and `point_id` is unique accross all points, so both labels should be used to identify a specific point in the data CSV files.
     
     :::
 
@@ -129,5 +129,6 @@ Date/Time is expressed as `YYYYMMDDHHMM` and represents time in UTC.
 ## Data usage
 
 See e.g. MeteoSwiss [website homepage](https://www.meteoswiss.admin.ch/#tab=forecast-map) or [local forecasts](https://www.meteoswiss.admin.ch/local-forecasts/geneva/1201.html#forecast-tab=detail-view).
+
 
 
