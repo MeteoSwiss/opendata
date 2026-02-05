@@ -17,6 +17,7 @@ export default function BlogLayout(props) {
               'col--9 col--offset-1': !hasSidebar,
             })}>
               <p>Subscribe to the <strong><a href={rss_url}>RSS feed</a></strong> to stay up-to-date about upcoming and released changes of our Open Data service.</p>
+              <p>For upcoming changes and the changelog of the Numerical weather forecasting models please refer to <a href={https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model-changelog}>here</a>.</p>
             {children}
           </main>
           {toc && <div className="col col--2">{toc}</div>}
