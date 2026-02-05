@@ -1,6 +1,6 @@
-# Changelog - Numerical weather forecasting model ICON-CH1/2-EPS
+# Numerical weather forecasting model ICON-CH1/2-EPS - Upcoming changes & changelog
 
-This page announces upcoming changes to the configuration of the forecasts. 
+This page announces upcoming changes to the configuration of the [ICON-CH1/2-EPS forecasts](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model). 
 
 These changes may concern the meteorology of the ICON model, or technical properties of the forecast data, like the GRIB2 coding.
 
