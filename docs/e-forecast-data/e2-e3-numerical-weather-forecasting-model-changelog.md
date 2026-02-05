@@ -1,4 +1,8 @@
-# Numerical weather forecasting model ICON-CH1/2-EPS - Upcoming changes & changelog
+---
+sidebar_position: 3
+---
+
+# ICON-CH1/2-EPS - Upcoming changes & changelog
 
 This page announces upcoming changes to the configuration of the [ICON-CH1/2-EPS forecasts](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model). 
 
