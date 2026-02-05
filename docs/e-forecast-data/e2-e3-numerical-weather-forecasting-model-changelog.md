@@ -16,25 +16,25 @@ Mails sent via these lists will also inform you about forecast delays, and cance
 
 ### Join the ICON-CH1-EPS mailing list
 
-To subscribe or unsubscribe, please send an email to
-
-ICON@news.meteoswiss.ch with either  subscribe ICON-CH1-EPS_list,hans.muster@test.ch  or   unsubscribe ICON-CH1-EPS_list,hans.muster@test.ch  as Subject.
+To subscribe or unsubscribe, please send an email to ICON@news.meteoswiss.ch with
+- either `subscribe ICON-CH1-EPS_list,hans.muster@test.ch`
+- or `unsubscribe ICON-CH1-EPS_list,hans.muster@test.ch` as subject.
 
 ### Join the ICON-CH2-EPS mailing list
 
-To subscribe or unsubscribe, please send an email to
+To subscribe or unsubscribe, please send an email to ICON@news.meteoswiss.ch with
+- either `subscribe ICON-CH2-EPS_list,hans.muster@test.ch`
+- or `unsubscribe ICON-CH2-EPS_list,hans.muster@test.ch` as subject.
 
-ICON@news.meteoswiss.ch with either  subscribe ICON-CH2-EPS_list,hans.muster@test.ch  or   unsubscribe ICON-CH2-EPS_list,hans.muster@test.ch  as Subject.
-
-
-Check carefully, that there is no blank between the name of the list, the semi-colon, and the email address you wish to register and unregister, respectively.
+:::note
+Check carefully, that there is no blank between the name of the list, the comma, and the email address you wish to register and unregister, respectively.
 
 You will receive a confirmation mail to the email address from which you sent the registration. Please reply to this mail without any comments for the action to become effective. 
-
+:::
 
 ## Upcoming changes
-- [2025-11-12 - ICON Info: Improved precipitation, radiation, and temperature](PDF)
+- [2025-11-12 - ICON Info: Improved precipitation, radiation, and temperature](PDF) *forthcoming*
 
 ## Changelog
-- [Date: Title](PDF)
-- [Date: Title](PDF)
+- [Date: Title](PDF) *forthcoming*
+- [Date: Title](PDF) *forthcoming*
