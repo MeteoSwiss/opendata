@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Changelog - Numerical weather forecasting model ICON-CH1/2-EPS
 
 This page announces upcoming changes to the configuration of the forecasts. 
