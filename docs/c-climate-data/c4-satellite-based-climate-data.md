@@ -2,21 +2,84 @@
 sidebar_position: 4
 ---
 
-# Spatial climate analyses – Radiation, clouds
+# Spatial climate analyses – Radiation, Clouds, Land Surface Temperature
 
-These grid data products are derived from [MeteoSat satellite data](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/satellite-observations.html) together with ground-based measurements (for more see the linked detailed product documentations).
+These grid data products are derived from MeteoSat satellite data. Ground observations are not included in the data. However, we use ground-based observations from the SwissMetNet and manual SYNOP cloud observation to quality check the satellite-based products. For product details and the product validation please refere to the documents below. 
 
-**Global Radiation**
-- *Hourly [to be verified]*, [Daily, Monthly and Yearly satellite-based Global Radiation](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf)
+**Albedo**
+- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Albedo *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
 
-**Diffuse Radiation**
-- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Diffuse Radiation *[Link to a detailed product documentation]*
+**Surface Incoming Solar Radiation**
+- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Surface Incoming Solar Radiation with horizon *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
 
-**Direct Radiation**
-- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Direct Radiation *[Link to a detailed product documentation]*
+**Surface Incoming Solar Radiation without horizon**
+- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Surface Incoming Solar Radiation without horizon *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
 
-**Cloud Cover**
-- *Hourly [to be verified]*, [Daily, Monthly and Yearly satellite-based Cloud Fractional Cover](https://www.meteoswiss.admin.ch/dam/jcr:af0c491c-4bfc-4efd-bcee-5d019004afd1/ProdDoc_CFC.pdf)
+**Clear-sky Surface Incoming Solar Radiation**
+- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Clear-sky Surface Incoming Solar Radiation with horizon *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
+
+**Clear-sky Surface Incoming Solar Radiation without horizon**
+- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Clear-sky Surface Incoming Solar Radiation without horizon *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
+  
+**Diffuse Surface Incoming Solar Radiation**
+- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Diffuse Surface Incoming Solar Radiation *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
+
+**Diffuse Surface Incoming Solar Radiation**
+- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Diffuse Surface Incoming Solar Radiation *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
+
+**Diffuse Surface Incoming Solar Radiation without horizon**
+- *Hourly [to be verified]* satellite-based Diffuse Surface Incoming Solar Radiation without horizon*[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
+
+**Direct Surface Incoming Solar Radiation**
+- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Direct Surface Incoming Solar Radiation *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
+
+**Direct Surface Incoming Solar Radiation without horizon**
+- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Direct Surface Incoming Solar Radiation without horizon*[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
+
+**Clear Sky Direct Surface Incoming Solar Radiation**
+- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Clear-sky Direct Surface Incoming Solar Radiation *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
+
+**Clear Sky Direct Surface Incoming Solar Radiation without horizon**
+- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Clear-Sky Direct Surface Incoming Solar Radiation without horizon*[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
+
+**Direct Normal Surface Incoming Solar Radiation**
+- *Hourly [to be verified]* satellite-based Direct Normal Surface Incoming Solar Radiation *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
+
+**Direct Normal Surface Incoming Solar Radiation without horizon**
+- *Hourly [to be verified]* satellite-based Direct Normal Surface Incoming Solar Radiation without horizon*[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
+
+**Surface Downward Longwave Radiation**
+- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Surface Downward Longwave Radiation *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
+
+**Surface Outgoing Longwave Radiation**
+- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Surface Outgoing Longwave Radiation *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
+
+**Net Shortwave Radiation**
+- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Net Shortwave Radiation *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
+
+**Net Longwave Radiation**
+- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Net Longwave Radiation *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
+
+**Surface Radiation Budget**
+- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Surface Radiation Budget *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
+
+**Cloud Index**
+- *Hourly [to be verified]* satellite-based Cloud Index *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
+  
+**Cloud Fractional Cover**
+- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Cloud Fractional Cover *[Link auf ProdDoc_CLOUDS.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_CLOUDS.pdf]*
+
+**Cloud Mask**
+- *Hourly [to be verified]* satellite-based Cloud Mask *[Link auf ProdDoc_CLOUDS.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_CLOUDS.pdf]*
+
+**Cloud Top Height**
+- *Hourly [to be verified]* satellite-based Cloud Top Height *[Link auf ProdDoc_CLOUDS.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_CLOUDS.pdf]*
+
+**Cloud Top Temperature**
+- *Hourly [to be verified]* satellite-based Cloud Top Temperature *[Link auf ProdDoc_CLOUDS.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_CLOUDS.pdf]*
+
+**Land Surface Temperature**
+- *Hourly [to be verified]* satellite-based Land Surface Temperature *[Link auf ProdDoc_LST.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_LST.pdf]*
 
 ## Data download {#data-download}
 
@@ -24,43 +87,43 @@ The following **example data files** are available for download:
 
 <!-- @NOSPELL@ -->
 
-| *Parameter*                    | *Product*            | Time interval      | Update cycle             | *Example Data files*                   |
-|:-------------------------------|:---------------------|:-------------------|:-------------------------|:---------------------------------------|
-| **Global Radiation**           |                      | Hourly | previous_day             | [msg_sis_h_ch02.lonlat](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-satellite-derived-grid/items/ch?.language=en) |
-|                                |                      | Daily              | previous_day             | *[msg.SIS.D_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.D_ch02.lonlat_20201206000000.nc)* |
-|                                |                      | Monthly            | previous_month           | *[msg.SIS.M_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.M_ch02.lonlat_20210401000000.nc)* |
-|                                |                      | Yearly             | previous_year            | *[msg.SIS.Y_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.Y_ch02.lonlat_20210101000000.nc)* |
-| **Diffuse Radiation**          |                      | Hourly | previous_day             | msg.SISDIF-No-Horizon.H_ch02.lonlat    |
-|                                |                      | Daily              | previous_day             | *[msg.SISDIF-No-Horizon.D_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIF-No-Horizon.D_ch02.lonlat_20201206000000.nc)* |
-|                                |                      | Monthly            | previous_month           | *[msg.SISDIF-No-Horizon.M_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIF-No-Horizon.M_ch02.lonlat_20200401000000.nc)* |
-|                                |                      | Yearly             | previous_year            | *[msg.SISDIF-No-Horizon.Y_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIF-No-Horizon.Y_ch02.lonlat_20200101000000.nc)* |
-| **Direct Radiation**           |                      | Hourly | previous_day             | msg.SISDIR.H_ch02.lonlat               |
-|                                |                      | Daily              | previous_day             | *[msg.SISDIR.D_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.D_ch02.lonlat_20201206000000.nc)* |
-|                                |                      | Monthly            | previous_month           | *[msg.SISDIR.M_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.M_ch02.lonlat_20210401000000.nc)* |
-|                                |                      | Yearly             | previous_year            | *[msg.SISDIR.Y_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.Y_ch02.lonlat_20210101000000.nc)* |
-| **Cloud Cover**                |                      | Hourly | previous_day             |                                        |
-|                                |                      | Daily              | previous_day             | *[msg.CFC.D_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.D_ch02.lonlat_20201206000000.nc)* |
-|                                |                      | Monthly            | previous_month           | *[msg.CFC.M_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.M_ch02.lonlat_20210401000000.nc)* |
-|                                |                      | Yearly             | previous_year            | *[msg.CFC.Y_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.Y_ch02.lonlat_20210101000000.nc)* |
+| *Parameter*                    | *Product*              | *Time interval*        | *Update cycle*             | *Example Data files*                   |
+|:-------------------------------|:-----------------------|:-------------------  |:-------------------------|:---------------------------------------|
+| **Surface Incoming Solar Radiation**           |                      | Hourly               | previous_day             | [msg_sis_h_ch02.lonlat](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-satellite-derived-grid/items/ch?.language=en) |
+|                                |                      | Daily                | previous_day             | *[msg.SIS.D_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.D_ch02.lonlat_20201206000000.nc)* |
+|                                |                      | Monthly              | previous_month           | *[msg.SIS.M_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.M_ch02.lonlat_20210401000000.nc)* |
+|                                |                      | Yearly               | previous_year            | *[msg.SIS.Y_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.Y_ch02.lonlat_20210101000000.nc)* |
+| **Diffuse Radiation**          |                      | Hourly               | previous_day             | msg.SISDIF-No-Horizon.H_ch02.lonlat    |
+|                                |                      | Daily                | previous_day             | *[msg.SISDIF-No-Horizon.D_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIF-No-Horizon.D_ch02.lonlat_20201206000000.nc)* |
+|                                |                      | Monthly              | previous_month           | *[msg.SISDIF-No-Horizon.M_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIF-No-Horizon.M_ch02.lonlat_20200401000000.nc)* |
+|                                |                      | Yearly               | previous_year            | *[msg.SISDIF-No-Horizon.Y_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIF-No-Horizon.Y_ch02.lonlat_20200101000000.nc)* |
+| **Direct Radiation**           |                      | Hourly               | previous_day             | msg.SISDIR.H_ch02.lonlat               |
+|                                |                      | Daily                | previous_day             | *[msg.SISDIR.D_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.D_ch02.lonlat_20201206000000.nc)* |
+|                                |                      | Monthly              | previous_month           | *[msg.SISDIR.M_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.M_ch02.lonlat_20210401000000.nc)* |
+|                                |                      | Yearly               | previous_year            | *[msg.SISDIR.Y_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.Y_ch02.lonlat_20210101000000.nc)* |
+| **Cloud Cover**                |                      | Hourly               | previous_day             |                                        |
+|                                |                      | Daily                | previous_day             | *[msg.CFC.D_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.D_ch02.lonlat_20201206000000.nc)* |
+|                                |                      | Monthly              | previous_month           | *[msg.CFC.M_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.M_ch02.lonlat_20210401000000.nc)* |
+|                                |                      | Yearly               | previous_year            | *[msg.CFC.Y_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.Y_ch02.lonlat_20210101000000.nc)* |
 
 <!-- @ENDNOSPELL@ -->
 
 <!--
-| ?                              |                      | H                  | previous_day             | msg.ALB.H_ch02.lonlat                 | LL84                   | EPSG:4326          |
-| ?                              |                      | D                  | previous_day             | msg.ALB.D_ch02.lonlat                 | LL84                   | EPSG:4326          |
-| ?                              |                      | M                  | previous_month           | msg.ALB.M_ch02.lonlat                 | LL84                   | EPSG:4326          |
-| ?                              |                      | Y                  | previous_year            | msg.ALB.Y_ch02.lonlat                 | LL84                   | EPSG:4326          |
-| ?                              |                      | H                  | previous_day             | msg.SISCF-No-Horizon.H_ch02.lonlat    | LL84                   | EPSG:4326          |
-| ?                              |                      | H                  | previous_day             | msg.SISDIRCF-No-Horizon.H_ch02.lonlat | LL84                   | EPSG:4326          |
-| ?                              |                      | H                  | previous_day             | msg.SISDIR-No-Horizon.H_ch02.lonlat   | LL84                   | EPSG:4326          |
-| ?                              |                      | D                  | previous_day             | msg.SISDIR-No-Horizon.D_ch02.lonlat   | LL84                   | EPSG:4326          |
-| ?                              |                      | M                  | previous_month           | msg.SISDIR-No-Horizon.M_ch02.lonlat   | LL84                   | EPSG:4326          |
-| ?                              |                      | Y                  | previous_year            | msg.SISDIR-No-Horizon.Y_ch02.lonlat   | LL84                   | EPSG:4326          |
-| ?                              |                      | H                  | previous_day             | msg.SISDNI-No-Horizon.H_ch02.lonlat   | LL84                   | EPSG:4326          |
-| ?                              |                      | H                  | previous_day             | msg.SIS-No-Horizon.H_ch02.lonlat      | LL84                   | EPSG:4326          |
-| ?                              |                      | D                  | previous_day             | msg.SIS-No-Horizon.D_ch02.lonlat      | LL84                   | EPSG:4326          |
-| ?                              |                      | M                  | previous_month           | msg.SIS-No-Horizon.M_ch02.lonlat      | LL84                   | EPSG:4326          |
-| ?                              |                      | Y                  | previous_year            | msg.SIS-No-Horizon.Y_ch02.lonlat      | LL84                   | EPSG:4326          |
+| ?                              |                      | H                    | previous_day             | msg.ALB.H_ch02.lonlat                 | LL84                   | EPSG:4326          |
+| ?                              |                      | D                    | previous_day             | msg.ALB.D_ch02.lonlat                 | LL84                   | EPSG:4326          |
+| ?                              |                      | M                    | previous_month           | msg.ALB.M_ch02.lonlat                 | LL84                   | EPSG:4326          |
+| ?                              |                      | Y                    | previous_year            | msg.ALB.Y_ch02.lonlat                 | LL84                   | EPSG:4326          |
+| ?                              |                      | H                    | previous_day             | msg.SISCF-No-Horizon.H_ch02.lonlat    | LL84                   | EPSG:4326          |
+| ?                              |                      | H                    | previous_day             | msg.SISDIRCF-No-Horizon.H_ch02.lonlat | LL84                   | EPSG:4326          |
+| ?                              |                      | H                    | previous_day             | msg.SISDIR-No-Horizon.H_ch02.lonlat   | LL84                   | EPSG:4326          |
+| ?                              |                      | D                    | previous_day             | msg.SISDIR-No-Horizon.D_ch02.lonlat   | LL84                   | EPSG:4326          |
+| ?                              |                      | M                    | previous_month           | msg.SISDIR-No-Horizon.M_ch02.lonlat   | LL84                   | EPSG:4326          |
+| ?                              |                      | Y                    | previous_year            | msg.SISDIR-No-Horizon.Y_ch02.lonlat   | LL84                   | EPSG:4326          |
+| ?                              |                      | H                    | previous_day             | msg.SISDNI-No-Horizon.H_ch02.lonlat   | LL84                   | EPSG:4326          |
+| ?                              |                      | H                    | previous_day             | msg.SIS-No-Horizon.H_ch02.lonlat      | LL84                   | EPSG:4326          |
+| ?                              |                      | D                    | previous_day             | msg.SIS-No-Horizon.D_ch02.lonlat      | LL84                   | EPSG:4326          |
+| ?                              |                      | M                    | previous_month           | msg.SIS-No-Horizon.M_ch02.lonlat      | LL84                   | EPSG:4326          |
+| ?                              |                      | Y                    | previous_year            | msg.SIS-No-Horizon.Y_ch02.lonlat      | LL84                   | EPSG:4326          |
 -->
 
 ## Data format {#data-format}
@@ -74,4 +137,5 @@ The coordinate system is [`WGS84`](https://www.swisstopo.admin.ch/en/reference-s
 ## Data usage {#data-usage}
 
 Follows.
+
 
