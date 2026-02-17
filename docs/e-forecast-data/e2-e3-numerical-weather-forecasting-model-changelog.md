@@ -9,7 +9,7 @@ This page announces upcoming changes to the configuration of the [ICON-CH1/2-EPS
 These changes may concern the meteorology of the ICON model, or technical properties of the forecast data, like the GRIB2 coding.
 
 ## Upcoming changes
-- 2025-11-12 - ICON Info: Improved precipitation, radiation, and temperature *PDF forthcoming*
+- 2026 Q1 - [ICON Info: Improved precipitation, radiation, and temperature](./static/docs_img/changelog/2025-11-12%20ICON-Info.pdf)
 
 ## Stay in the loop!
 
