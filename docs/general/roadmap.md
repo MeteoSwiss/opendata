@@ -8,7 +8,9 @@ This is the **current roadmap of our Open Data service**, which will guide us th
 - It allows us to plan for change. It captures intent, not solutions. The further into the future a thing will take place, the more uncertain it is. 
 - Things can be added to or dropped from the roadmap. In the latter case, we document this below under ‘Items removed from the roadmap’, including the date and reason. 
 
-Our roadmap is based on the **long-term vision of our Open Data service** (*URL forthcoming*). Our **strategy is delivery**.
+Our roadmap is based on the **long-term vision of our Open Data service** (*URL forthcoming*).
+
+Our **strategy is delivery**.
 
 ## Q1: January until March 2026
 
