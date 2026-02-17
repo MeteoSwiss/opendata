@@ -10,7 +10,7 @@ This is the **current roadmap of our Open Data service**, which will guide us th
 
 Our roadmap is based on the **long-term vision of our Open Data service** (*URL forthcoming*).
 
-Our **strategy is delivery**.
+**Our strategy is delivery**.
 
 ## Q1: January until March 2026
 
@@ -19,20 +19,20 @@ Our **strategy is delivery**.
 <details>
   <summary>Open Data extracted from the data warehouse is available faster than their measurement frequency.</summary>
 
-  'Extract, transform and load' is optimised. <br></br>
-  'Author, schedule and monitor workflows' is optimised.
+  'Extract, transform and load' is optimised. `ITD-3733` <br></br>
+  'Author, schedule and monitor workflows' is optimised. `ITD-3734`
 </details>
 
 <details>
   <summary>'Spatial climate analyses' are available.</summary>
   
-  ...
+  Including archived data. 
 </details>
 
 <details>
-  <summary>...</summary>
+  <summary>'Spatial climate normals' are updated.</summary>
   
-  ...
+  More about [this open data product](https://opendatadocs.meteoswiss.ch/c-climate-data/c7-spatial-climate-normals).
 </details>
 
 ### Stage 2: APIs
