@@ -43,10 +43,9 @@ Our roadmap is based on the **long-term vision of our Open Data service** (*URL 
 </details>
 
 <details>
-  <summary>'Pollen analysis data' is available as an additional parameter of the 'Numerical weather forecasting model ICON-CH2-EPS'.</summary>
+  <summary>'Pollen analysis data' is available.</summary>
 
   Hourly KENDA analysis data. Level 80 (to be confirmed) and only ctrl run. `APNRZ-951` <br></br>
-  More about [the ICON-CH2-EPS open data product](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model).
 </details>
 
 ### Stage 2: APIs
