@@ -35,6 +35,20 @@ Our roadmap is based on the **long-term vision of our Open Data service** (*URL 
   More about [this open data product](https://opendatadocs.meteoswiss.ch/c-climate-data/c7-spatial-climate-normals).
 </details>
 
+<details>
+  <summary>'Pollen forecast data' is available as an additional parameter of the 'Numerical weather forecasting model ICON-CH2-EPS'.</summary>
+
+  Pollen variables are only generated when activated during the season. `APNRZ-951` <br></br>
+  More about [the ICON-CH2-EPS open data product](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model).
+</details>
+
+<details>
+  <summary>'Pollen analysis data' is available as an additional parameter of the 'Numerical weather forecasting model ICON-CH2-EPS'.</summary>
+
+  Hourly KENDA analysis data. Level 80 (to be confirmed) and only ctrl run. `APNRZ-951` <br></br>
+  More about [the ICON-CH2-EPS open data product](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model).
+</details>
+
 ### Stage 2: APIs
 
 <details>
