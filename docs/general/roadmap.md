@@ -3,7 +3,7 @@ sidebar_position: 8
 ---
 
 # Roadmap (in preparation)
-This is the current **roadmap** (*in preparation*) of our Open Data service, which will guide us until the end of 2026.
+This is the **current roadmap** (*in preparation*) **of our Open Data service**, which will guide us through the year 2026.
 - It is iterated on at least a quarterly basis.
 - It allows us to plan for change. It captures intent, not solutions. The further into the future a mission will take place, the more uncertain it is. 
 - Things can be added to or dropped from the roadmap. In the latter case, we document this below under ‘Items removed from the roadmap’, including the date and reason. 
