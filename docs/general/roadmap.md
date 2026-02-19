@@ -9,12 +9,12 @@ This is the **current roadmap of our Open Data service**, which will guide us th
 - Things can be added to or dropped from the roadmap. In the latter case, we document this below under ‘Items removed from the roadmap’, including the date and reason. 
 
 Our roadmap is based on the **long-term vision of our Open Data service** (*URL forthcoming*).
+- We are implementing the provision of Open Data in two stages, first through **bulk download**, then through **APIs**.
+- Where implemented, both access modes remain operational in accordance with the [European Union's High-Value Datasets (HVD) Regulation](https://eur-lex.europa.eu/eli/reg_impl/2023/138/oj).
 
-**Our strategy is delivery**.
+## January until March (Q1-2026)
 
-## Q1: January until March 2026
-
-### Stage 1: Bulk download
+### Bulk download
 
 <details>
   <summary>Open Data extracted from the data warehouse is available faster than their measurement frequency.</summary>
@@ -48,7 +48,7 @@ Our roadmap is based on the **long-term vision of our Open Data service** (*URL 
   Hourly KENDA analysis data. Level 80 (to be confirmed) and only ctrl run. `APNRZ-951` <br></br>
 </details>
 
-### Stage 2: APIs
+### APIs
 
 <details>
   <summary>...</summary>
