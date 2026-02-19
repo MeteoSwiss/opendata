@@ -10,7 +10,7 @@ This is the **current roadmap of our Open Data service**, which will guide us th
 
 :::tip
 
-The roadmap is based on the [vision of MeteoSwiss' Open Data provision](./background-objectives#vision-mission-and-strategy-of-meteoswiss-open-data-provision). In a nutshell:
+The roadmap is based on the [**Vision and strategy** of MeteoSwiss' Open Data provision](./background-objectives#vision-mission-and-strategy-of-meteoswiss-open-data-provision). In a nutshell:
 - MeteoSwiss is implementing Open Data access in two stages, first through bulk download, then through APIs.
 - Where implemented, both access modes remain operational.
 
