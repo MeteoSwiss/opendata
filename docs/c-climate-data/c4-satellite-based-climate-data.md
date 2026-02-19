@@ -81,11 +81,30 @@ These grid data products are derived from MeteoSat satellite data. Ground observ
 **Land Surface Temperature**
 - *Hourly [to be verified]* satellite-based Land Surface Temperature *[Link auf ProdDoc_LST.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_LST.pdf]*
 
+:::info
+
+The gridded data files are updated daily, monthly and yearly and are being published accordingly. 
+Please note, that the daily files are preliminary results. They are available for the last 60 days only in the respective items (e.g. "CH at 31.12.2025", "CH at 01.01.2026" etc.) and will be deleted continuously. 
+
+The controled and corrected datasets containing the data of the last month will be published at the end of the following month. These files are in the respective monthly items (e.g. "CH at 12.2025", "CH at 01.2026" etc.) and are only available for the last 14 months and will be deleted continously. 
+
+In the item "CH archive" you can find all the data as yearly files (except hourly data, which are monthly files due to the size of the files), starting with 2025. At the beginning of each February, the yearly data of the previous year will be published. 
+More archive data will be added later in 2026. 
+
+Please also check out the illustration below: 
+
+<img width="1280" height="720" alt="Climate Grid Dataflow" src="https://github.com/user-attachments/assets/909b31e2-bc67-4d2c-85cf-77d3a96507cc" />
+
+*Delivery and update cycles of gridded datasets*
+
+**If you need controled and corrected gridded data, you should only use data from the monthly or archive items.** 
+
+:::
+
 ## Data download {#data-download}
 
-The following **example data files** are available for download:
+[Dowload data from our Open Data Portal](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-satellite-derived-grid)
 
-<!-- @NOSPELL@ -->
 
 | *Parameter*                    | *Product*              | *Time interval*        | *Update cycle*             | *Example Data files*                   |
 |:-------------------------------|:-----------------------|:-------------------  |:-------------------------|:---------------------------------------|
@@ -105,6 +124,8 @@ The following **example data files** are available for download:
 |                                |                      | Daily                | previous_day             | *[msg.CFC.D_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.D_ch02.lonlat_20201206000000.nc)* |
 |                                |                      | Monthly              | previous_month           | *[msg.CFC.M_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.M_ch02.lonlat_20210401000000.nc)* |
 |                                |                      | Yearly               | previous_year            | *[msg.CFC.Y_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.Y_ch02.lonlat_20210101000000.nc)* |
+
+<!-- @NOSPELL@ -->
 
 <!-- @ENDNOSPELL@ -->
 
@@ -128,7 +149,7 @@ The following **example data files** are available for download:
 
 ## Data format {#data-format}
 
-The data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of 0.1 MB per file.
+The data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of 0.1 MB per file for a daily product. Hourly data as monthly files or daily as yearly can be up to the size of 45 MB.
 
 ## Coordinate system {#coordinate-system}
 

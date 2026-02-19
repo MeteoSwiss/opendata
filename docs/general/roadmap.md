@@ -56,5 +56,5 @@ Our roadmap is based on the **long-term vision of our Open Data service** (*URL 
   ...
 </details>
 
-### Items removed from the roadmap
+## Items removed from the roadmap
 (*here comes a table with 'date', 'item' and 'reason of removal'*)
