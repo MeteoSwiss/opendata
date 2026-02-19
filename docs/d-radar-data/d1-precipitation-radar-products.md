@@ -54,7 +54,7 @@ The data is split by parameter, calendar date (see STAC 'items' respectively 'fe
 | -------------------------------------- | --------------------------------- | ------------------------------ |
 | PRECIP                                 | 5 minutes                         | `RZCyyjjjHHMM\*.\*01.h5`       |
 | PRECIP-SV                              | 5 minutes                         | `TZCyyjjjHHMM\*.\*01.h5`       |
-| Combiprecip 60-minute total            | 10 minutes                        | `CPCyyjjjHHMM\*_00060.\*01.h5` |
+| Combiprecip 60-minute total            | 5 minutes                        | `CPCyyjjjHHMM\*_00060.\*01.h5` |
 | Combiprecip 60-minute total reanalysis | 60 minutes; 8 days later          | `...\*_00060.\*01.h5`          |
 
 **Naming convention of the files:**
@@ -108,6 +108,7 @@ The metadata is included in each HDF5-File.
 | `CPCH`    | Combiprecip 60-minute total reanalysis | mm            | Precipitation accumulation over 1 hour |
 | `RZC`     | PRECIP                                 | mm/h          | Instantaneous rain rate                |
 | `TZC`     | PRECIP-SV                              | mm/h          | Instantaneous rain rate                |
+
 
 
 
