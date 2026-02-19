@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 1
 ---
 
 # Roadmap (in preparation)
@@ -8,13 +8,17 @@ This is the **current roadmap of our Open Data service**, which will guide us th
 - It allows us to plan for change. It captures intent, not solutions. The further into the future a thing will take place, the more uncertain it is. 
 - Things can be added to or dropped from the roadmap. In the latter case, we document this below under ‘Items removed from the roadmap’, including the date and reason. 
 
-Our roadmap is based on the **long-term vision of our Open Data service** (*URL forthcoming*).
+:::tip
 
-**Our strategy is delivery**.
+The roadmap is based on the [**Vision and strategy** of MeteoSwiss' Open Data provision](./background-objectives#vision-mission-and-strategy-of-meteoswiss-open-data-provision). In a nutshell:
+- MeteoSwiss is implementing Open Data access in two stages, first through bulk download, then through APIs.
+- Where implemented, both access modes remain operational.
 
-## Q1: January until March 2026
+:::
 
-### Stage 1: Bulk download
+## January until March (Q1-2026)
+
+### Bulk download
 
 <details>
   <summary>Open Data extracted from the data warehouse is available faster than their measurement frequency.</summary>
@@ -48,7 +52,7 @@ Our roadmap is based on the **long-term vision of our Open Data service** (*URL 
   Hourly KENDA analysis data. Level 80 (to be confirmed) and only ctrl run. `APNRZ-951` <br></br>
 </details>
 
-### Stage 2: APIs
+### APIs
 
 <details>
   <summary>...</summary>
