@@ -35,7 +35,7 @@ More archive data will be added later in 2026.
 
 Please also check out the illustration below: 
 
-<img width="1280" height="640" alt="Climate Grid Dataflow" src="https://github.com/user-attachments/assets/909b31e2-bc67-4d2c-85cf-77d3a96507cc" />
+<img width="1280" height="480" alt="Climate Grid Dataflow" src="https://github.com/user-attachments/assets/909b31e2-bc67-4d2c-85cf-77d3a96507cc" />
 
 *Delivery and update cycles of gridded datasets*
 
@@ -66,6 +66,7 @@ The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-sw
 ## Data usage {#data-usage}
 
 Follows.
+
 
 
 
