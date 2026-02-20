@@ -59,7 +59,7 @@ These grid data products are derived from MeteoSat satellite data. Ground observ
 **Surface Radiation Budget**
 - *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Surface Radiation Budget *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
 
-**Cloud Index**
+**Clouds**
 - *Hourly [to be verified]* satellite-based Cloud Index *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
   
 **Cloud Fractional Cover**
