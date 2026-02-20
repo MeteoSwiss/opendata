@@ -7,7 +7,7 @@ sidebar_position: 4
 These grid data products are derived from MeteoSat satellite data. Ground observations are not included in the data. However, we use ground-based observations from the SwissMetNet and manual SYNOP cloud observation to quality check the satellite-based products. For product details and the product validation please refere to the documents below. 
 
 **Albedo**
-- [*Hourly (to be verified)*, Daily, Monthly and Yearly satellite-based Albedo](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
+- [Hourly, Daily, Monthly and Yearly satellite-based Albedo](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
 
 **Surface Incoming Solar Radiation**
 - *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Surface Incoming Solar Radiation with horizon *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
