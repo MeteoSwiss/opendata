@@ -60,7 +60,7 @@ These grid data products are derived from MeteoSat satellite data. Ground observ
 - *Hourly [to be verified]* satellite-based Cloud Top Height *[Link auf ProdDoc_CLOUDS.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_CLOUDS.pdf]*
 
 **Cloud Top Temperature**
-- *Hourly [to be verified]* satellite-based Cloud Top Temperature *[Link auf ProdDoc_CLOUDS.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_CLOUDS.pdf]*
+- [Hourly satellite-based **Cloud Top Temperature**](./static/docs_img/static/docs_img/ProdDoc_CLOUDS.pdf)
 
 **Land Surface Temperature**
 - *Hourly [to be verified]* satellite-based Land Surface Temperature *[Link auf ProdDoc_LST.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_LST.pdf]*
