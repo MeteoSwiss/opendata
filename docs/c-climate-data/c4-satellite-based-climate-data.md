@@ -18,7 +18,6 @@ These grid data products are derived from MeteoSat satellite data. Ground observ
 - [Hourly, Daily, Monthly and Yearly satellite-based **Direct Surface Incoming Solar Radiation**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
 - [Hourly, Daily, Monthly and Yearly satellite-based **Direct Surface Incoming Solar Radiation without horizon**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
 - [Hourly, Daily, Monthly and Yearly satellite-based **Clear-sky Direct Surface Incoming Solar Radiation**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
-
 **Clear Sky Direct Surface Incoming Solar Radiation without horizon**
 - *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Clear-Sky Direct Surface Incoming Solar Radiation without horizon*[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
 
