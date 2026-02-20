@@ -39,7 +39,7 @@ Please also check out the illustration below:
 
 *Delivery and update cycles of gridded datasets*
 
-**If you need controled and corrected gridded data, you should only use data from the monthly or archive items.** 
+**If you need controlled and corrected gridded data, you should only use data from the monthly or archive items.** 
 
 :::
 
@@ -66,3 +66,4 @@ The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-sw
 ## Data usage {#data-usage}
 
 Follows.
+
