@@ -10,7 +10,7 @@ These grid data products are derived from MeteoSat satellite data. Ground observ
 - [Hourly, Daily, Monthly and Yearly satellite-based Albedo](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
 
 **Surface Incoming Solar Radiation**
-- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Surface Incoming Solar Radiation with horizon *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
+- [Hourly, Daily, Monthly and Yearly **satellite-based Surface Incoming Solar Radiation with horizon**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
 
 **Surface Incoming Solar Radiation without horizon**
 - *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Surface Incoming Solar Radiation without horizon *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
