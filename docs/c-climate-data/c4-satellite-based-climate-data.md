@@ -7,7 +7,7 @@ sidebar_position: 4
 These grid data products are derived from MeteoSat satellite data. Ground observations are not included in the data. However, we use ground-based observations from the SwissMetNet and manual SYNOP cloud observation to quality check the satellite-based products. For product details and the product validation please refere to the documents below. 
 
 **Radiation**
-- [Hourly, Daily, Monthly and Yearly **satellite-based Albedo**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
+- [Hourly, Daily, Monthly and Yearly satellite-based **Albedo**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf) (see [explanation of the term 'Albedo'](https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/albedo.html))
 - [Hourly, Daily, Monthly and Yearly **satellite-based Surface Incoming Solar Radiation with horizon**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
 - [Hourly, Daily, Monthly and Yearly **satellite-based Surface Incoming Solar Radiation without horizon**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
 
