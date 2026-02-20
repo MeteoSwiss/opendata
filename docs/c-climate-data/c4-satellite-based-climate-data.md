@@ -15,7 +15,6 @@ These grid data products are derived from MeteoSat satellite data. Ground observ
   
 **Diffuse Surface Incoming Solar Radiation**
 - *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Diffuse Surface Incoming Solar Radiation *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
-**Diffuse Surface Incoming Solar Radiation**
 - *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Diffuse Surface Incoming Solar Radiation *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
 
 **Diffuse Surface Incoming Solar Radiation without horizon**
