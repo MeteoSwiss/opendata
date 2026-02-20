@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
-# Staying up to date
+# Operational status and changes
 
 ## Systems, their availability and support contacts {#systems-their-availability-and-support-contacts}
 
