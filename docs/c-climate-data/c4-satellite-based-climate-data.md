@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Spatial climate analyses – Radiation, Clouds, Land Surface Temperature
 
-These grid data products are derived from MeteoSat satellite data. Ground observations are not included in the data. However, we use ground-based observations from the SwissMetNet and manual SYNOP cloud observation to quality check the satellite-based products. For product details and the product validation please refere to the documents below. 
+These grid data products are derived from [MeteoSat satellite data](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/satellite-climatology.html). Ground observations are not included in the data. However, we use ground-based observations from the SwissMetNet and manual SYNOP cloud observation to quality check the satellite-based products. For product details and the product validation please refere to the documents below. 
 
 **Radiation**
 - [Hourly, Daily, Monthly and Yearly satellite-based **Albedo**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf) (see [explanation of the term 'Albedo'](https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/albedo.html))
