@@ -8,7 +8,7 @@ These grid data products are derived from MeteoSat satellite data. Ground observ
 
 **Radiation**
 - [Hourly, Daily, Monthly and Yearly satellite-based **Albedo**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf) (see [explanation of the term 'Albedo'](https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/albedo.html))
-- [Hourly, Daily, Monthly and Yearly **satellite-based Surface Incoming Solar Radiation with horizon**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
+- [Hourly, Daily, Monthly and Yearly satellite-based **Surface Incoming Solar Radiation with horizon**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
 - [Hourly, Daily, Monthly and Yearly **satellite-based Surface Incoming Solar Radiation without horizon**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
 
 **Clear-sky Surface Incoming Solar Radiation**
