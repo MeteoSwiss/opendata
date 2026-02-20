@@ -12,7 +12,7 @@ These grid data products are derived from MeteoSat satellite data. Ground observ
 - [Hourly, Daily, Monthly and Yearly satellite-based **Surface Incoming Solar Radiation without horizon**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
 - [Hourly, Daily, Monthly and Yearly satellite-based **Clear-sky Surface Incoming Solar Radiation with horizon**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
 - [Hourly, Daily, Monthly and Yearly satellite-based **Clear-sky Surface Incoming Solar Radiation without horizon**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
-- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Diffuse Surface Incoming Solar Radiation *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
+- [Hourly, Daily, Monthly and Yearly satellite-based **Diffuse Surface Incoming Solar Radiation**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
 - [Hourly, Daily, Monthly and Yearly satellite-based **Diffuse Surface Incoming Solar Radiation**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
 - [Hourly satellite-based **Diffuse Surface Incoming Solar Radiation without horizon**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
 - [Hourly, Daily, Monthly and Yearly satellite-based **Direct Surface Incoming Solar Radiation**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
