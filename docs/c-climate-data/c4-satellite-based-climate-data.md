@@ -7,57 +7,35 @@ sidebar_position: 4
 These grid data products are derived from [MeteoSat satellite data](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/satellite-climatology.html). Ground observations are not included in the data. However, we use ground-based observations from the SwissMetNet and manual SYNOP cloud observation to quality check the satellite-based products. For product details and the product validation please refere to the documents below. 
 
 **Radiation**
-- [Hourly, Daily, Monthly and Yearly satellite-based **Albedo**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf) (see [explanation of the term 'Albedo'](https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/albedo.html))
-- [Hourly, Daily, Monthly and Yearly satellite-based **Surface Incoming Solar Radiation with horizon**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
-- [Hourly, Daily, Monthly and Yearly satellite-based **Surface Incoming Solar Radiation without horizon**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
-- [Hourly, Daily, Monthly and Yearly satellite-based **Clear-sky Surface Incoming Solar Radiation with horizon**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
-- [Hourly, Daily, Monthly and Yearly satellite-based **Clear-sky Surface Incoming Solar Radiation without horizon**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
-- [Hourly, Daily, Monthly and Yearly satellite-based **Diffuse Surface Incoming Solar Radiation**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
-- [Hourly, Daily, Monthly and Yearly satellite-based **Diffuse Surface Incoming Solar Radiation**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
-- [Hourly satellite-based **Diffuse Surface Incoming Solar Radiation without horizon**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
-- [Hourly, Daily, Monthly and Yearly satellite-based **Direct Surface Incoming Solar Radiation**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
-- [Hourly, Daily, Monthly and Yearly satellite-based **Direct Surface Incoming Solar Radiation without horizon**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
-- [Hourly, Daily, Monthly and Yearly satellite-based **Clear-sky Direct Surface Incoming Solar Radiation**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
-- [Hourly, Daily, Monthly and Yearly satellite-based **Clear-sky Direct Surface Incoming Solar Radiation without horizon**](./static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
-
-**Direct Normal Surface Incoming Solar Radiation**
-- *Hourly [to be verified]* satellite-based Direct Normal Surface Incoming Solar Radiation *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
-
-**Direct Normal Surface Incoming Solar Radiation without horizon**
-- *Hourly [to be verified]* satellite-based Direct Normal Surface Incoming Solar Radiation without horizon*[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
-
-**Surface Downward Longwave Radiation**
-- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Surface Downward Longwave Radiation *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
-
-**Surface Outgoing Longwave Radiation**
-- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Surface Outgoing Longwave Radiation *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
-
-**Net Shortwave Radiation**
-- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Net Shortwave Radiation *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
-
-**Net Longwave Radiation**
-- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Net Longwave Radiation *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
-
-**Surface Radiation Budget**
-- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Surface Radiation Budget *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
+- [Hourly, Daily, Monthly and Yearly satellite-based **Albedo**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf) (see [explanation of the term 'Albedo'](https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/albedo.html))
+- [Hourly, Daily, Monthly and Yearly satellite-based **Surface Incoming Solar Radiation with horizon**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
+- [Hourly, Daily, Monthly and Yearly satellite-based **Surface Incoming Solar Radiation without horizon**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
+- [Hourly, Daily, Monthly and Yearly satellite-based **Clear-sky Surface Incoming Solar Radiation with horizon**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
+- [Hourly, Daily, Monthly and Yearly satellite-based **Clear-sky Surface Incoming Solar Radiation without horizon**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
+- [Hourly, Daily, Monthly and Yearly satellite-based **Diffuse Surface Incoming Solar Radiation**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
+*- [Hourly, Daily, Monthly and Yearly satellite-based **Diffuse Surface Incoming Solar Radiation**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)*
+- [Hourly satellite-based **Diffuse Surface Incoming Solar Radiation without horizon**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
+- [Hourly, Daily, Monthly and Yearly satellite-based **Direct Surface Incoming Solar Radiation**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
+- [Hourly, Daily, Monthly and Yearly satellite-based **Direct Surface Incoming Solar Radiation without horizon**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
+- [Hourly, Daily, Monthly and Yearly satellite-based **Clear-sky Direct Surface Incoming Solar Radiation**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
+- [Hourly, Daily, Monthly and Yearly satellite-based **Clear-sky Direct Surface Incoming Solar Radiation without horizon**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
+- [Hourly satellite-based **Direct Normal Surface Incoming Solar Radiation**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
+- [Hourly satellite-based **Direct Normal Surface Incoming Solar Radiation without horizon**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
+- [Hourly, Daily, Monthly and Yearly satellite-based **Surface Downward Longwave Radiation**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
+- [Hourly, Daily, Monthly and Yearly satellite-based **Surface Outgoing Longwave Radiation**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
+- [Hourly, Daily, Monthly and Yearly satellite-based **Net Shortwave Radiation**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
+- [Hourly, Daily, Monthly and Yearly satellite-based **Net Longwave Radiation**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
+- [Hourly, Daily, Monthly and Yearly satellite-based **Surface Radiation Budget**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
 
 **Clouds**
-- *Hourly [to be verified]* satellite-based Cloud Index *[Link auf ProdDoc_Radiation.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_Radiation.pdf]*
-  
-**Cloud Fractional Cover**
-- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Cloud Fractional Cover *[Link auf ProdDoc_CLOUDS.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_CLOUDS.pdf]*
-
-**Cloud Mask**
-- *Hourly [to be verified]* satellite-based Cloud Mask *[Link auf ProdDoc_CLOUDS.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_CLOUDS.pdf]*
-
-**Cloud Top Height**
-- *Hourly [to be verified]* satellite-based Cloud Top Height *[Link auf ProdDoc_CLOUDS.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_CLOUDS.pdf]*
-
-**Cloud Top Temperature**
-- [Hourly satellite-based **Cloud Top Temperature**](./static/docs_img/static/docs_img/ProdDoc_CLOUDS.pdf)
+- [Hourly satellite-based **Cloud Index**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_RADIATION.pdf)
+- [Hourly, Daily, Monthly and Yearly satellite-based **Cloud Fractional Cover**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_CLOUDS.pdf)
+- [Hourly satellite-based **Cloud Mask**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_CLOUDS.pdf)
+- [Hourly satellite-based **Cloud Top Height**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_CLOUDS.pdf)
+- [Hourly satellite-based **Cloud Top Temperature**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_CLOUDS.pdf)
 
 **Land Surface Temperature**
-- *Hourly [to be verified]* satellite-based Land Surface Temperature *[Link auf ProdDoc_LST.pdf, M:\zue-prod\climate\basic_serv\spatial_analysis\Product_Docs\ProdDoc_LST.pdf]*
+- [Hourly satellite-based **Land Surface Temperature**](./c-climate-data/static/docs_img/static/docs_img/ProdDoc_LST.pdf)
 
 :::info
 
@@ -71,11 +49,11 @@ More archive data will be added later in 2026.
 
 Please also check out the illustration below: 
 
-<img width="1280" height="720" alt="Climate Grid Dataflow" src="https://github.com/user-attachments/assets/909b31e2-bc67-4d2c-85cf-77d3a96507cc" />
+<img width="1280" height="480" alt="Climate Grid Dataflow" src="https://github.com/user-attachments/assets/909b31e2-bc67-4d2c-85cf-77d3a96507cc" />
 
 *Delivery and update cycles of gridded datasets*
 
-**If you need controled and corrected gridded data, you should only use data from the monthly or archive items.** 
+**If you need controlled and corrected gridded data, you should only use data from the monthly or archive items.** 
 
 :::
 
@@ -136,5 +114,6 @@ The coordinate system is [`WGS84`](https://www.swisstopo.admin.ch/en/reference-s
 ## Data usage {#data-usage}
 
 Follows.
+
 
 
