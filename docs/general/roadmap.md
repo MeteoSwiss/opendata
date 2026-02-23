@@ -49,7 +49,7 @@ The roadmap is based on the [**Vision and strategy** of MeteoSwiss' Open Data pr
 <details>
   <summary>'Pollen analysis data' is available.</summary>
 
-  Hourly KENDA analysis data. Level 80 (to be confirmed) and only ctrl run. `APNRZ-951` <br></br>
+  Hourly KENDA analysis data. Level 80 (to be confirmed) and only ctrl run. `APNRZ-951`
 </details>
 
 ### APIs
@@ -57,7 +57,7 @@ The roadmap is based on the [**Vision and strategy** of MeteoSwiss' Open Data pr
 <details>
   <summary>'Homogeneous Climate data series' are being made available via MeteoGate's Climate data EDR API.</summary>
 
-  More about EUMETNET's [MeteoGate](https://meteogate.eu).
+  More about EUMETNET's [MeteoGate](https://meteogate.eu). <br></br>
   More about [the 'Homogeneous Climate data series' product](https://opendatadocs.meteoswiss.ch/c-climate-data/c1-climate-stations_homogeneous).
 </details>
 
