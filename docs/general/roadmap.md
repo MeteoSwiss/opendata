@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Roadmap (in preparation)
+# Roadmap
 This is the **current roadmap of our Open Data service**, which will guide us through the year 2026.
 - It is iterated on at least a quarterly basis.
 - It allows us to plan for change. It captures intent, not solutions. The further into the future a thing will take place, the more uncertain it is. 
