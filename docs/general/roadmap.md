@@ -43,7 +43,7 @@ The roadmap is based on the [**Vision and strategy** of MeteoSwiss' Open Data pr
   <summary>'Pollen forecast data' is available as an additional parameter of the 'Numerical weather forecasting model ICON-CH2-EPS'.</summary>
 
   Pollen variables are only generated when activated during the season. `APNRZ-951` <br></br>
-  More about [the ICON-CH2-EPS open data product](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model).
+  More about [the 'ICON-CH2-EPS' open data product](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model).
 </details>
 
 <details>
@@ -55,9 +55,16 @@ The roadmap is based on the [**Vision and strategy** of MeteoSwiss' Open Data pr
 ### APIs
 
 <details>
-  <summary>...</summary>
+  <summary>'Homogeneous Climate data series' are being made available via MeteoGate's Climate data EDR API.</summary>
 
-  ...
+  More about EUMETNET's [MeteoGate](https://meteogate.eu).
+  More about [the 'Homogeneous Climate data series' product](https://opendatadocs.meteoswiss.ch/c-climate-data/c1-climate-stations_homogeneous).
+</details>
+
+<details>
+  <summary>'Local forecast data' are being made available via FSDI's OGC Feature API.</summary>
+
+  More about [the 'Local forecast data' product](https://opendatadocs.meteoswiss.ch/e-forecast-data/e4-local-forecast-data).
 </details>
 
 ## Items removed from the roadmap
