@@ -67,5 +67,30 @@ The roadmap is based on the [**Vision and strategy** of MeteoSwiss' Open Data pr
   More about [the 'Local forecast data' product](https://opendatadocs.meteoswiss.ch/e-forecast-data/e4-local-forecast-data).
 </details>
 
+## April until June (Q2-2026)
+
+### Bulk download
+
+<details>
+  <summary>...</summary>
+
+  ...
+</details>
+
+### APIs
+
+<details>
+  <summary>'Homogeneous Climate data series' are being made available via MeteoGate's Climate data EDR API.</summary>
+
+  More about EUMETNET's [MeteoGate](https://meteogate.eu). <br></br>
+  More about [the 'Homogeneous Climate data series' product](https://opendatadocs.meteoswiss.ch/c-climate-data/c1-climate-stations_homogeneous).
+</details>
+
+<details>
+  <summary>'Local forecast data' are being made available via FSDI's OGC Feature API.</summary>
+
+  More about [the 'Local forecast data' product](https://opendatadocs.meteoswiss.ch/e-forecast-data/e4-local-forecast-data).
+</details>
+
 ## Items removed from the roadmap
 (*here comes a table with 'date', 'item' and 'reason of removal'*)
