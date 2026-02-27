@@ -16,6 +16,8 @@ The roadmap is based on the [**Vision and strategy** of MeteoSwiss' Open Data pr
 
 :::
 
+![MCH Open Data roadmap](./static/docs_img/2026-06-27_OGD24_Roadmap_2026.jpg)
+
 ## January until March (Q1-2026)
 
 ### Bulk download
