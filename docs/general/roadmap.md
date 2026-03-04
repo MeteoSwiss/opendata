@@ -50,7 +50,7 @@ The roadmap is based on the [**Vision and strategy** of MeteoSwiss' Open Data pr
 
 <details>
   <summary>'Analysis data' is available.</summary>
-  
+
   Hourly KENDA analysis data. Only the deterministic run will be published (no ensemble members). The set of parameters is still to be defined but will include pollen-related variables.
 </details>
 
