@@ -49,9 +49,9 @@ The roadmap is based on the [**Vision and strategy** of MeteoSwiss' Open Data pr
 </details>
 
 <details>
-  <summary>'Pollen analysis data' is available.</summary>
-
-  Hourly KENDA analysis data. Level 80 (to be confirmed) and only ctrl run. `APNRZ-951`
+  <summary>'Analysis data' is available.</summary>
+  
+  Hourly KENDA analysis data. Only the deterministic run will be published (no ensemble members). The set of parameters is still to be defined but will include pollen-related variables.
 </details>
 
 ### APIs
