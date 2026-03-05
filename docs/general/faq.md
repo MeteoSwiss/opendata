@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 6
 ---
 
-# Frequently Asked Questions (FAQ)
+# FAQ
 Below you'll find answers to the most frequently asked questions. We continuously update these based on questions received.
 
 <!--  TODO: Mögliche weitere Fragen:  -->

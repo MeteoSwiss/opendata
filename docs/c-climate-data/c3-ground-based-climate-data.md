@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Spatial climate analyses – Precipitation, temperature, sunshine
+# Spatial climate analyses – Precipitation, Temperature, Sunshine
 
 These grid data products are statistically derived from ground-based measurements (for more see the linked detailed product documentations).
 
@@ -35,11 +35,11 @@ More archive data will be added later in 2026.
 
 Please also check out the illustration below: 
 
-<img width="1280" height="720" alt="Climate Grid Dataflow" src="https://github.com/user-attachments/assets/909b31e2-bc67-4d2c-85cf-77d3a96507cc" />
+<img width="1280" height="480" alt="Climate Grid Dataflow" src="https://github.com/user-attachments/assets/909b31e2-bc67-4d2c-85cf-77d3a96507cc" />
 
 *Delivery and update cycles of gridded datasets*
 
-**If you need controled and corrected gridded data, you should only use data from the monthly or archive items.** 
+**If you need controlled and corrected gridded data, you should only use data from the monthly or archive items.** 
 
 :::
 
@@ -66,8 +66,4 @@ The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-sw
 ## Data usage {#data-usage}
 
 Follows.
-
-
-
-
 
