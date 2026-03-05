@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Roadmap (in preparation)
+# Roadmap
 This is the **current roadmap of our Open Data service**, which will guide us through the year 2026.
 - It is iterated on at least a quarterly basis.
 - It allows us to plan for change. It captures intent, not solutions. The further into the future a thing will take place, the more uncertain it is. 
@@ -15,6 +15,8 @@ The roadmap is based on the [**Vision and strategy** of MeteoSwiss' Open Data pr
 - Where implemented, both access modes remain operational.
 
 :::
+
+![MCH Open Data roadmap](./static/docs_img/2026-02-27_OGD24_Roadmap_2026.jpg)
 
 ## January until March (Q1-2026)
 
@@ -43,21 +45,38 @@ The roadmap is based on the [**Vision and strategy** of MeteoSwiss' Open Data pr
   <summary>'Pollen forecast data' is available as an additional parameter of the 'Numerical weather forecasting model ICON-CH2-EPS'.</summary>
 
   Pollen variables are only generated when activated during the season. `APNRZ-951` <br></br>
-  More about [the ICON-CH2-EPS open data product](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model).
+  More about [the 'ICON-CH2-EPS' open data product](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model).
 </details>
 
 <details>
-  <summary>'Pollen analysis data' is available.</summary>
+  <summary>'Analysis data' is available.</summary>
 
-  Hourly KENDA analysis data. Level 80 (to be confirmed) and only ctrl run. `APNRZ-951` <br></br>
+  Hourly KENDA analysis data. Only the deterministic run will be published (no ensemble members). The set of parameters is still to be defined but will include pollen-related variables.
 </details>
 
 ### APIs
 
 <details>
-  <summary>...</summary>
+  <summary>A proof of concept for the provision of 'Homogeneous Climate data series' via MeteoGate's climate data EDR API is being developed.</summary>
 
-  ...
+  More about EUMETNET's [MeteoGate](https://meteogate.eu). <br></br>
+  More about [the 'Homogeneous Climate data series' product](https://opendatadocs.meteoswiss.ch/c-climate-data/c1-climate-stations_homogeneous).
+</details>
+
+<details>
+  <summary>A beta version for the provision of 'Local forecast data' via FSDI's OGC Feature API is being developed.</summary>
+
+  More about [the 'Local forecast data' product](https://opendatadocs.meteoswiss.ch/e-forecast-data/e4-local-forecast-data).
+</details>
+
+### Self-service support
+
+<details>
+  <summary>Open Data products can be filtered by parameter groups on MeteoSwiss' respective webpage.</summary>
+</details>
+
+<details>
+  <summary>Open Data documentation is continuosly updated and improved.</summary>
 </details>
 
 ## Items removed from the roadmap
