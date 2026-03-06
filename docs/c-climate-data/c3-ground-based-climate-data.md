@@ -10,7 +10,7 @@ These grid data products are statistically derived from ground-based measurement
 - [Daily Precipitation (Preliminary analysis)](https://www.meteoswiss.admin.ch/dam/jcr:86ca15d3-2b56-4753-84fb-135e40d6a5a1/ProdDoc_RprelimD.pdf)
 - [Daily Precipitation (Final analysis)](https://www.meteoswiss.admin.ch/dam/jcr:4f51f0f1-0fe3-48b5-9de0-15666327e63c/ProdDoc_RhiresD.pdf)
 - [Monthly and Yearly Precipitation (Final analysis)](https://www.meteoswiss.admin.ch/dam/jcr:d4f53a4a-d7f4-4e1e-a594-8ff4bfd1aca5/ProdDoc_RhiresM.pdf)
-- Monthly differences to the 1991-2020 norm values *(Document not available yet)*
+- [Monthly differences to the 1991-2020 norm values (see section "Related products")](https://www.meteoswiss.admin.ch/dam/jcr:d4f53a4a-d7f4-4e1e-a594-8ff4bfd1aca5/ProdDoc_RhiresM.pdf)
 - [Monthly and Yearly Reconstructions](https://www.meteoschweiz.admin.ch/dam/jcr:ae895312-b104-4ab3-9e8a-9c74ea8d7963/ProdDoc-rec.pdf) 
 
 **Temperature**
@@ -21,7 +21,7 @@ These grid data products are statistically derived from ground-based measurement
 **Sunshine**
 - [Daily Relative Sunshine Duration](https://www.meteoswiss.admin.ch/dam/jcr:981891db-30d1-47cc-a2e1-50c270bdaf22/ProdDoc_SrelD.pdf)
 - [Monthly and Yearly Relative Sunshine Duration](https://www.meteoswiss.admin.ch/dam/jcr:94421f3c-47f3-46fa-9939-1d494a0ce5fe/ProdDoc_SrelM.pdf)
-- Monthly differences to the 1991-2020 norm values *(Document not available yet)*
+- [Monthly differences to the 1991-2020 norm values (see section "Related products")](https://www.meteoswiss.admin.ch/dam/jcr:94421f3c-47f3-46fa-9939-1d494a0ce5fe/ProdDoc_SrelM.pdf)
 
 :::info
 
@@ -39,7 +39,7 @@ Please also check out the illustration below:
 
 *Delivery and update cycles of gridded datasets*
 
-**If you need controled and corrected gridded data, you should only use data from the monthly or archive items.** 
+**If you need controlled and corrected gridded data, you should only use data from the monthly or archive items.** 
 
 :::
 
@@ -66,3 +66,5 @@ The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-sw
 ## Data usage {#data-usage}
 
 Follows.
+
+
