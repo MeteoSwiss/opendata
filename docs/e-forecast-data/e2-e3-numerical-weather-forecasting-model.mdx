@@ -24,6 +24,7 @@ The documentation covers the following topics:
     - [24h availability window](#24h-availability-window)
     - [Models' specifications](#models-specifications)
     - [Available parameters](#available-parameters)
+        - [Pollen data](#pollen-data)
 - [Download options](#download-options)
     - [Using the Python API](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=pythonapi#download-options)
     - [Using the REST API (HTTP POST)](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=restapi#download-options)
@@ -79,6 +80,17 @@ These fields are effectively equivalent to the analysis and are available every 
 ### Available parameters {#available-parameters}
 
 Each collection includes a downloadable CSV file with a continuously updated list of available parameters. The file includes metadata such as long name, standard unit, level type (single or multi level), vertical coordinate type, temporal horizon, aggregation type and start time. To access the parameter overview, open the collection page for the desired model - for example, [ICON-CH1-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch1?.language=en) or [ICON-CH2-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch2?.language=en). In the Assets section, download the file labeled Overview of Parameters.
+
+#### Pollen data
+
+There are five different pollen parmeters available:
+- Alder (alnus) pollen specific number concentration (ALNUsnc)
+- Ragweed (ambrosia) pollen specific number concentration (AMBRsnc)
+- Birch (betula) pollen specific number concentration (BETUsnc)
+- Hazel (corylus) pollen specific number concentration (CORYsnc)
+- Grasses (poaceae) pollen specific number concentration (POACsnc)
+
+Please note that these are provided exclusively in control ICON-CH2-EPS forecasts and are only accessible during their respective seasons. To verify which parameters are currently available, please consult the parameter overview file mentioned above.
 
 ## Download options {#download-options}
 
