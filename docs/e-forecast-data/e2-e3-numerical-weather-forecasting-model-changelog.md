@@ -10,7 +10,7 @@ These changes may concern the meteorology of the ICON model, or technical proper
 
 ## Upcoming changes
 - 2026 Q1 - [ICON Info: Improved precipitation, radiation, and temperature](./static/docs_img/changelog/2025-11-12%20ICON-Info.pdf)
-- 2026 End of April - The forecast datasets will be extended to include pollen data, and analysis (KENDA-CH1) data will be available for the first time. See [News](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model#news)
+- 2026 End of April - The forecast datasets will be extended to include pollen data, and analysis (KENDA-CH1) data will be available for the first time. See [News](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model#news).
 
 ## Stay in the loop!
 
