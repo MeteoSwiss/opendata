@@ -6,8 +6,7 @@ sidebar_position: 1
 
 import BrowserOnly from '@docusaurus/BrowserOnly';
 
-MeteoSwiss produces analysis data using the KENDA (Kilometer-scale Ensemble Data Assimilation) system to estimate the atmospheric state at a given time over Switzerland and its surroundings. The analysis combines short-range model forecasts with observations through ensemble data assimilation, providing the most consistent representation of atmospheric conditions. It is updated hourly and serves as the initial condition for numerical weather forecasts.
-
+MeteoSwiss produces analysis data using the KENDA (Kilometer-scale Ensemble Data Assimilation) system to estimate the atmospheric state at a given time over Switzerland and its surroundings. By combining short-range model forecasts with observations, the analysis provides the most consistent representation of atmospheric conditions. It is updated hourly and serves as the initial condition for numerical weather forecasts.
 <BrowserOnly fallback={<div>Loading map...</div>}>
   {() => {
     const ForecastDomainMap = require('../e-forecast-data/interactive-map/ForecastDomainMap').default;
