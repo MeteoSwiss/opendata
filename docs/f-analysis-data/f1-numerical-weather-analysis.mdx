@@ -39,6 +39,16 @@ To get started quickly, explore the [Jupyter notebook](https://github.com/MeteoS
 
 ## Available data {#available-data}
 
+### 24h availability window {#24h-availability-window}
+
+:::warning
+
+Data made available through this interface is accessible for **24 hours** only after its publication. After this window, it is no longer available for retrieval.
+
+If your request returns an empty response or you encounter a `403` error, it likely means the data you are trying to access is older than 24 hours.
+
+:::
+
 ### Models' specifications {#models-specifications}
 
 | **Attributes** | **KENDA-CH1** |
@@ -46,7 +56,7 @@ To get started quickly, explore the [Jupyter notebook](https://github.com/MeteoS
 | Collection | [ch.meteoschweiz.ogd-analysis-kenda-ch1](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-analysis-kenda-ch1) |
 | Horizontal Grid Size | approx. 1 km |
 | Ensemble Members | Control Member Only |
-| Step | 0 (instant values), 1 (accumulated/max/min values)|
+| Step | 0 (instant values), 1 (accumulated/max/min values) |
 | Grid | Native icosahedral |
 | Temporal Output Resolution | 1 hour |
 | New Model Run (Initialization) | every hour |
@@ -88,6 +98,7 @@ Such quantities cannot represent the instantaneous atmospheric state and therefo
 Instead, these parameters are provided from the **first guess of the next assimilation cycle**, available at **step = 1**.
 
 The **first guess** is the short forecast produced by the **ICON-CH1-EPS model** before assimilating the next set of observations. It describes the atmospheric evolution during the previous hour and can therefore consistently provide these **time-aggregated variables**.
+
 Since the assimilation cycle runs **every hour**, these first-guess fields remain very close to the analysis time and provide a realistic representation of recent atmospheric conditions.
 <br></br>
 
@@ -110,9 +121,9 @@ To access the parameter overview, open the [collection page for the analysis dat
 
 Analysis data can be downloaded using the same methods as forecast data:
 
-- [Using the Python API](../e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=pythonapi#download-options)
-- [Using the REST API (HTTP POST)](../e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=restapi#download-options)
-- [Manual download via STAC Browser](../e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=browser#download-options)
+- [Using the Python API](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=pythonapi#download-options)
+- [Using the REST API (HTTP POST)](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=restapi#download-options)
+- [Manual download via STAC Browser](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=browser#download-options)
 
 When requesting analysis data:
 
@@ -127,7 +138,7 @@ In practice, choose the step based on the type of parameter:
 
 You can identify the type of a parameter in the **Overview of Parameters** file (see *Temporal Aggregation*).
 
-## FAQ / Troubleshooting
+## FAQ / Troubleshooting {#faqtroubleshooting}
 
 <details>
 <summary><b>Why are some accumulated variables not available at step 0?</b></summary>
