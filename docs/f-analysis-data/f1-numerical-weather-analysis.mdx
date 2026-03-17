@@ -1,0 +1,150 @@
+---
+sidebar_position: 1
+---
+
+# Numerical weather analysis KENDA-CH1
+
+import BrowserOnly from '@docusaurus/BrowserOnly';
+
+MeteoSwiss produces analysis data using the KENDA (Kilometer-scale Ensemble Data Assimilation) system to estimate the atmospheric state at a given time over Switzerland and its surroundings. The analysis combines short-range model forecasts with observations through ensemble data assimilation, providing the most consistent representation of atmospheric conditions. It is updated hourly and serves as the initial condition for numerical weather forecasts.
+
+<BrowserOnly fallback={<div>Loading map...</div>}>
+  {() => {
+    const ForecastDomainMap = require('../e-forecast-data/interactive-map/ForecastDomainMap').default;
+    return <ForecastDomainMap />;
+  }}
+</BrowserOnly>
+
+<br></br>
+
+The documentation covers the following topics:
+- [Getting started quickly](#getting-started-quickly)
+    - [Example notebooks: From retrieval to visualization](#example-notebooks-from-retrieval-to-visualization)
+- [Available data](#available-data)
+  - [24h availability window](#24h-availability-window)
+  - [Models' specifications](#models-specifications)
+  - [Instantaneous analysis fields](#instantaneous-analysis-fields)
+  - [First guess fields](#first-guess-fields)
+  - [Pollen variables](#pollen-variables)
+  - [Available parameters](#available-parameters)
+- [Download options](#download-options)
+- [FAQ/Troubleshooting](#faqtroubleshooting)
+
+<br></br>
+
+## Getting started quickly {#getting-started-quickly}
+
+### Example notebooks: From retrieval to visualization {#example-notebooks-from-retrieval-to-visualization}
+
+To get started quickly, explore the [Jupyter notebook](https://github.com/MeteoSwiss/opendata-nwp-demos/TODO_FILL_WITH_LINK), which shows how to retrieve and visualize a parameter e.g. pollen from the analysis data.
+
+## Available data {#available-data}
+
+### Model' specifications {#models-specifications}
+
+| **Attributes** | **KENDA-CH1** |
+|-----------|------|
+| Collection | [ch.meteoschweiz.ogd-analysis-kenda-ch1](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-analysis-kenda-ch1) |
+| Horizontal Grid Size | approx. 1 km |
+| Ensemble Members | Control Member Only |
+| Forecast Period | 0 (instant values) and 1 (accumulated/max/min values)|
+| Grid | Native icosahedral |
+| Temporal Output resolution | 1 hour |
+| New Model Run (Initialization) | every hour |
+| Output Data Format | GRIB edition 2 |
+
+Analysis data represents the atmospheric state **at a specific time**, and is therefore provided **hourly**.
+
+Unlike the forecast datasets, only the **deterministic control member** is distributed in the analysis data.
+
+<br></br>
+
+### Instantaneous analysis fields {#instantaneous-analysis-fields}
+
+Most parameters in the analysis dataset describe the **instantaneous atmospheric state** at the analysis time.
+
+Examples include:
+
+- temperature
+- wind
+- humidity
+- pressure
+- cloud variables
+- pollen concentrations
+
+These variables represent the **best estimate of the atmosphere at time _t_** and are therefore available at **step = 0**.
+
+<br></br>
+
+### First guess fields {#first-guess-fields}
+
+Some meteorological parameters represent values that are **accumulated, averaged, minimized, or maximized over a period of time**, for example:
+
+- accumulated precipitation
+- maximum wind gust
+- minimum or maximum temperature
+
+Such quantities cannot represent the instantaneous atmospheric state and therefore **cannot be included in the analysis at time _t_**.
+
+Instead, these parameters are provided from the **first guess of the next assimilation cycle**, available at **step = 1**.
+
+The **first guess** is the short forecast produced by the **ICON-CH1 model** before assimilating the next set of observations. Because it describes the atmospheric evolution during the previous hour, it can consistently provide these **time-aggregated variables**.
+
+Since the assimilation cycle runs **every hour**, these first-guess fields remain very close to the analysis time and provide a realistic representation of recent atmospheric conditions.
+<br></br>
+
+### Pollen variables {#pollen-variables}
+
+Pollen concentrations are included in the **instantaneous analysis fields** and are updated **every hour**.
+
+These variables are also available in the forecast datasets.
+
+Note that pollen parameters are **added dynamically** depending on the currently active pollen types.  
+If a specific pollen variable cannot be found, it may simply mean that the corresponding pollen type is **not currently active** and therefore not present in the dataset.
+
+<br></br>
+
+### Available parameters{#available-parameters}
+
+To access the parameter overview, open the [collection page for the analysis dataset](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-analysis-kenda-ch1?.language=en). In the **Assets** section, download the file labeled **Overview of Parameters**.
+
+## Download options {#download-options}
+
+Analysis data can be downloaded using the same methods as forecast data:
+
+- [Using the Python API](../e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=pythonapi#download-options)
+- [Using the REST API (HTTP POST)](../e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=restapi#download-options)
+- [Manual download via STAC Browser](../e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=browser#download-options)
+
+When requesting analysis data:
+
+- select the **analysis dataset collection** `ch.meteoschweiz.ogd-analysis-kenda-ch1`
+- use **step = 0** for instantaneous analysis fields or **step = 1** for first-guess fields
+- only the **control member** is available
+
+In practice, choose the step based on the type of parameter:
+
+- **step = 0** → instantaneous variables (state of the atmosphere at time _t_)
+- **step = 1** → time-aggregated variables (accumulated, minimum, or maximum values over the previous hour)
+You can identify the type of a parameter in the **Overview of Parameters** file (aggregation type).
+
+## FAQ / Troubleshooting
+
+<details>
+<summary><b>Why are some accumulated variables not available at step 0?</b></summary>
+
+Accumulated or time-aggregated variables represent values integrated over a time interval (for example precipitation accumulated during the previous hour).
+
+Since the analysis represents the **instantaneous atmospheric state**, such variables cannot be defined at that time.  
+They are therefore provided from the **first guess at step = 1**, which represents the model evolution during the previous hour.
+
+</details>
+
+<details>
+<summary><b>Why can't I find a specific pollen variable?</b></summary>
+
+Pollen parameters are included dynamically depending on which pollen types are currently active.
+
+If a pollen type is not present in the dataset, it likely means that the pollen season for that species is not currently active.
+
+</details>
