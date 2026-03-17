@@ -6,7 +6,7 @@ sidebar_position: 7
 
 Spatial climate analyses depict the geographic distribution of a meteorological parameter. They are derived from measurements at weather stations, satellites and radar. The data is represented comprehensively on a grid covering all of Switzerland.
 
-Spatial analyses of long-term averages (climate normals) are available for temperature, precipitation and sunshine duration. 30-year periods defined by the World Meteorological Organisation WMO are used to allow for international comparability. MeteoSwiss provides monthly and annual maps for the normal periods 1961-1990 (WMO standard reference period for long-term climate change assessments) and 1991-2020 (current WMO climatological standard period).
+Spatial analyses of long-term averages (climate normals) are available for temperature, precipitation and sunshine duration. 30-year periods defined by the World Meteorological Organisation WMO are used to allow for international comparability. MeteoSwiss provides monthly and annual maps for the normal periods 1961-1990 (WMO standard reference period for long-term climate change assessments) and 1991-2020 (current WMO climatological standard period). For satllited derived grids of radiation parameters the gridded data for the average period of 2004-2024 is available.
 
 <!--
 | PERIOD_TX    | BOUND_BOX_COORD_SYS_TX | OUTPUT_COORDSYS_TX | OUTPUT_FORMAT_TX | filename                                                  |
@@ -25,17 +25,8 @@ Spatial analyses of long-term averages (climate normals) are available for tempe
 
 ## Data download {#data-download}
 
-You can access the available Open Data via [opendata.swiss](https://opendata.swiss/en/dataset?q=klimanormwerte&sort=score%20desc%2C%20metadata_modified%20desc&organization=bundesamt-fur-meteorologie-und-klimatologie-meteoschweiz&res_format=SERVICE):
+You can access the available Open Data for the Normal periods of 1991-2020 and 1961-1990 for surface based gridded data amd for the average period of 2004-2024 for satellite derived gridded data via [opendata.swiss](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-climate-normals-grid/items/ch?.language=en):
 
-**Normal period 1991-2020**
-- [Mean precipitation (Monthly and yearly averages)](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-niederschlag_aktuelle_periode/items/klimanormwerte-niederschlag_aktuelle_periode) 
-- [Mean relative sunshine duration (Monthly averages)](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-sonnenscheindauer_aktuelle_periode/items/klimanormwerte-sonnenscheindauer_aktuelle_periode)
-- [Mean temperature (Monthly and yearly averages)](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-temperatur_aktuelle_periode/items/klimanormwerte-temperatur_aktuelle_periode)
-
-**Normal period 1961-1990**
-- [Mean precipitation (Monthly and yearly averages)](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-niederschlag_1961_1990/items/klimanormwerte-niederschlag_1961_1990) 
-- [Mean relative sunshine duration (Monthly and yearly averages)](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-sonnenscheindauer_1961_1990/items/klimanormwerte-sonnenscheindauer_1961_1990) 
-- [Mean temperature (Monthly and yearly averages)](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-temperatur_1961_1990/items/klimanormwerte-temperatur_1961_1990)
 
 ## Data format {#data-format}
 
