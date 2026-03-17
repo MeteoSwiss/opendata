@@ -17,7 +17,6 @@ MeteoSwiss produces analysis data using the [KENDA](https://www.meteoswiss.admin
 
 <br></br>
 
-The documentation covers the following topics:
 - [Getting started quickly](#getting-started-quickly)
     - [Example notebooks: From retrieval to visualization](#example-notebooks-from-retrieval-to-visualization)
 - [Available data](#available-data)
@@ -40,16 +39,16 @@ To get started quickly, explore the [Jupyter notebook](https://github.com/MeteoS
 
 ## Available data {#available-data}
 
-### Model' specifications {#models-specifications}
+### Models' specifications {#models-specifications}
 
 | **Attributes** | **KENDA-CH1** |
 |-----------|------|
 | Collection | [ch.meteoschweiz.ogd-analysis-kenda-ch1](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-analysis-kenda-ch1) |
 | Horizontal Grid Size | approx. 1 km |
 | Ensemble Members | Control Member Only |
-| Forecast Period | 0 (instant values) and 1 (accumulated/max/min values)|
+| Step | 0 (instant values), 1 (accumulated/max/min values)|
 | Grid | Native icosahedral |
-| Temporal Output resolution | 1 hour |
+| Temporal Output Resolution | 1 hour |
 | New Model Run (Initialization) | every hour |
 | Output Data Format | GRIB edition 2 |
 
@@ -88,8 +87,7 @@ Such quantities cannot represent the instantaneous atmospheric state and therefo
 
 Instead, these parameters are provided from the **first guess of the next assimilation cycle**, available at **step = 1**.
 
-The **first guess** is the short forecast produced by the **ICON-CH1 model** before assimilating the next set of observations. Because it describes the atmospheric evolution during the previous hour, it can consistently provide these **time-aggregated variables**.
-
+The **first guess** is the short forecast produced by the **ICON-CH1-EPS model** before assimilating the next set of observations. It describes the atmospheric evolution during the previous hour and can therefore consistently provide these **time-aggregated variables**.
 Since the assimilation cycle runs **every hour**, these first-guess fields remain very close to the analysis time and provide a realistic representation of recent atmospheric conditions.
 <br></br>
 
@@ -104,7 +102,7 @@ If a specific pollen variable cannot be found, it may simply mean that the corre
 
 <br></br>
 
-### Available parameters{#available-parameters}
+### Available parameters {#available-parameters}
 
 To access the parameter overview, open the [collection page for the analysis dataset](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-analysis-kenda-ch1?.language=en). In the **Assets** section, download the file labeled **Overview of Parameters**.
 
@@ -126,7 +124,8 @@ In practice, choose the step based on the type of parameter:
 
 - **step = 0** → instantaneous variables (state of the atmosphere at time _t_)
 - **step = 1** → time-aggregated variables (accumulated, minimum, or maximum values over the previous hour)
-You can identify the type of a parameter in the **Overview of Parameters** file (aggregation type).
+
+You can identify the type of a parameter in the **Overview of Parameters** file (see *Temporal Aggregation*).
 
 ## FAQ / Troubleshooting
 
