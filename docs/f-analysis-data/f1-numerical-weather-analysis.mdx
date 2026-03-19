@@ -70,7 +70,7 @@ Unlike the forecast datasets, only the **deterministic control member** is distr
 
 ### Instantaneous analysis fields {#instantaneous-analysis-fields}
 
-Most parameters in the analysis dataset describe the **instantaneous atmospheric state** at the analysis time.
+Most parameters in the analysis dataset describe the instantaneous atmospheric state at the analysis time.
 
 Examples include:
 
@@ -82,6 +82,8 @@ Examples include:
 - pollen concentrations
 
 These variables represent the best estimate of the atmosphere at time _t_ and are therefore available at step = 0.
+
+The list of available instantaneous variables can be identified in the **Overview of Parameters** file in the [collection](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-analysis-kenda-ch1), where the *temporal aggregation* is labeled as "Instant".
 
 <br></br>
 
@@ -97,12 +99,7 @@ Such quantities cannot represent the instantaneous atmospheric state at a single
 
 Instead, these parameters are provided at **step = 1**, derived from an ensemble of ICON model runs at 1km resolution. They describe values aggregated over a one-hour period.
 
-In practice for a given `reference_time` (_t_), both steps are available:
-
-- **step = 0** provides the atmospheric state at time _t_  
-- **step = 1** provides values aggregated over a one-hour period associated with _t_
-
-This allows you to retrieve both instantaneous and time-aggregated information consistently for each hourly analysis.
+Parameters to be retrieved at **step = 1** can be identified in the **Overview of Parameters** file by their *temporal aggregation*, such as "Average", "Sum", "Accumulation", or "Maximum".
 
 <br></br>
 
