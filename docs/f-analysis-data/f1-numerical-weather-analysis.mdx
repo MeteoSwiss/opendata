@@ -81,28 +81,29 @@ Examples include:
 - cloud variables
 - pollen concentrations
 
-These variables represent the **best estimate of the atmosphere at time _t_** and are therefore available at **step = 0**.
+These variables represent the best estimate of the atmosphere at time _t_ and are therefore available at step = 0.
 
 <br></br>
 
 ### First guess fields {#first-guess-fields}
 
-Some meteorological parameters represent values that are **accumulated, averaged, minimized, or maximized over a period of time**, for example:
+Some meteorological parameters represent values that are accumulated, averaged, minimized, or maximized over a period of time, for example:
 
 - accumulated precipitation
 - maximum wind gust
 - minimum or maximum temperature
 
-Such quantities cannot represent the instantaneous atmospheric state at a single time and therefore **cannot be included in the analysis at time _t_**.
+Such quantities cannot represent the instantaneous atmospheric state at a single time and therefore are not available at step = 0.
 
-Instead, these parameters are provided at **step = 1** from the **first guess** produced by an ensemble of ICON model runs at 1km resolution before assimilating the next set of observations. They describe values aggregated over the following hour.
+Instead, these parameters are provided at **step = 1**, derived from an ensemble of ICON model runs at 1km resolution. They describe values aggregated over a one-hour period.
 
-In practice:
+In practice for a given `reference_time` (_t_), both steps are available:
 
-- **step = 0** → instantaneous state at time _t_
-- **step = 1** → values accumulated, minimized, or maximized from time _t_ to _t_ + 1 hour
+- **step = 0** provides the atmospheric state at time _t_  
+- **step = 1** provides values aggregated over a one-hour period associated with _t_
 
-This provides a consistent way to access both the atmospheric state at a given time and time-aggregated quantities for the following hour, updated every hour.
+This allows you to retrieve both instantaneous and time-aggregated information consistently for each hourly analysis.
+
 <br></br>
 
 ### Pollen variables {#pollen-variables}
