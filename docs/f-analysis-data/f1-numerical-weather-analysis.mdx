@@ -93,13 +93,16 @@ Some meteorological parameters represent values that are **accumulated, averaged
 - maximum wind gust
 - minimum or maximum temperature
 
-Such quantities cannot represent the instantaneous atmospheric state and therefore **cannot be included in the analysis at time _t_**.
+Such quantities cannot represent the instantaneous atmospheric state at a single time and therefore **cannot be included in the analysis at time _t_**.
 
-Instead, these parameters are provided from the **first guess of the next assimilation cycle**, available at **step = 1**.
+Instead, these parameters are provided at **step = 1** from the **first guess** produced by an ensemble of ICON model runs at 1km resolution before assimilating the next set of observations. They describe values aggregated over the following hour.
 
-The **first guess** is a one hour forecast produced by an ensemble of ICON model runs at 1km resolution before assimilating the next set of observations. It describes the atmospheric evolution during the previous hour and can therefore consistently provide these **time-aggregated variables**.
+In practice:
 
-Since the assimilation cycle runs **every hour**, these first-guess fields remain very close to the analysis time and provide a realistic representation of recent atmospheric conditions.
+- **step = 0** → instantaneous state at time _t_
+- **step = 1** → values accumulated, minimized, or maximized from time _t_ to _t_ + 1 hour
+
+This provides a consistent way to access both the atmospheric state at a given time and time-aggregated quantities for the following hour, updated every hour.
 <br></br>
 
 ### Pollen variables {#pollen-variables}
