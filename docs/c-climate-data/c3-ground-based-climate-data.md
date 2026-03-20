@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Spatial climate analyses – Precipitation, Temperature, Sunshine
 
-**[Spatial climate analyses depict the geographic distribution and temporal evolution of several parameters over the past decades.](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/spatial-climate-analyses.html). They are derived from measurements at weather stations, satellites and radar. The data is represented comprehensively on a grid, covering all of Switzerland. [MeteoSwiss provides a broad palette of ready-made data products for numerous applications](https://www.meteoswiss.admin.ch/dam/jcr:ce0227c9-1f95-4919-ae6c-999053b6bcba/ProdDoc_Cover.pdf).**
+[Spatial climate analyses](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/spatial-climate-analyses.html) depict the geographic distribution and temporal evolution of several parameters over the past decades. They are derived from measurements at weather stations, satellites and radar. The data is represented comprehensively on a grid, covering all of Switzerland. MeteoSwiss provides a [broad palette of ready-made data products for numerous applications](https://www.meteoswiss.admin.ch/dam/jcr:ce0227c9-1f95-4919-ae6c-999053b6bcba/ProdDoc_Cover.pdf).
 
 Available surface derived grid data products and link to detailed product documentation:
 
