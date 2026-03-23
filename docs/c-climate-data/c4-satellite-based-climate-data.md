@@ -6,17 +6,15 @@ sidebar_position: 4
 
 These grid data products are derived from [MeteoSat satellite data](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/satellite-observations.html) together with ground-based measurements (for more see the linked detailed product documentations).
 
-**Global Radiation**
-- *Hourly [to be verified]*, [Daily, Monthly and Yearly satellite-based Global Radiation](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf)
+**Radiation**
+- *Satellite-based Surface Radiation including solar radiation, albedo, surface downward and upward longwave radiation, net radiation and the entire surface radiation budget (https://www.meteoswiss.admin.ch/dam/jcr:b6f29546-3e6f-45a3-bc64-227d1d6b623c/ProdDoc_RADIATION.pdf)
 
-**Diffuse Radiation**
-- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Diffuse Radiation *[Link to a detailed product documentation]*
+**Clouds**
+- *Satellite-based Clouds including cloud fractional cover, cloud top temperature and cloud top height (https://www.meteoswiss.admin.ch/dam/jcr:f244aad3-da48-4ae5-95b6-f8c77ce209ae/ProdDoc_CLOUDS.pdf)
 
-**Direct Radiation**
-- *Hourly [to be verified]*, Daily, Monthly and Yearly satellite-based Direct Radiation *[Link to a detailed product documentation]*
+**Land Surface Temperature**
+- *Satellite-based land surface temperature (https://www.meteoswiss.admin.ch/dam/jcr:f244aad3-da48-4ae5-95b6-f8c77ce209ae/ProdDoc_CLOUDS.pdf](https://www.meteoswiss.admin.ch/dam/jcr:90f41d43-6a0d-40d0-bcee-549acc6167a0/ProdDoc_LST.pdf))
 
-**Cloud Cover**
-- *Hourly [to be verified]*, [Daily, Monthly and Yearly satellite-based Cloud Fractional Cover](https://www.meteoswiss.admin.ch/dam/jcr:af0c491c-4bfc-4efd-bcee-5d019004afd1/ProdDoc_CFC.pdf)
 
 :::info
 
