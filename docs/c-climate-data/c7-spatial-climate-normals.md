@@ -6,13 +6,12 @@ sidebar_position: 7
 
 Spatial climate analyses depict the geographic distribution of a meteorological parameter. They are derived from measurements at weather stations, satellites and radar. The data is represented comprehensively on a grid covering all of Switzerland.
 
-Spatial analyses of long-term averages (climate normals) are available for temperature, precipitation and sunshine duration. 30-year periods defined by the World Meteorological Organisation WMO are used to allow for international comparability. MeteoSwiss provides monthly and annual maps for the normal periods 1961-1990 (WMO standard reference period for long-term climate change assessments) and 1991-2020 (current WMO climatological standard period).
+Spatial analyses of long-term averages (climate normals) are available for:
+- Temperature, Precipitation and Sunshine. 30-year periods defined by the World Meteorological Organisation WMO are used to allow for international comparability.
+- Radiation and Clouds. The average period of 2004-2024 is available.
 
-For satellite derived grids of radiation parameters the gridded data for the average period of 2004-2024 is available.
-
+**Temperature, Precipitation and Sunshine**
 The following parameters are available:
-
-**Surface based data:** 
 | Identifier | Description |
 |---|---|
 | RnormM9120 | Mean monthly precipitation (norm value, 1991–2020) |
@@ -32,8 +31,7 @@ The following parameters are available:
 | SnormM6190 | Mean monthly relative sunshine duration (norm, 1961–1990) |
 | SnormY6190 | Mean yearly relative sunshine duration (norm, 1961–1990) |
 
-
-**Satellite based:**  
+**Radiation and Clouds**  
 | Identifier | Description |
 |---|---|
 | ALBaverageM0420 | Average monthly albedo (average 2004–2020) |
@@ -54,26 +52,9 @@ The following parameters are available:
 | SRBaverageY0420 | Average yearly surface radiation budget (average 2004–2020) |
 
 
-<!--
-| PERIOD_TX    | BOUND_BOX_COORD_SYS_TX | OUTPUT_COORDSYS_TX | OUTPUT_FORMAT_TX | filename                                                  |
-| ------------ | ---------------------- | ------------------ | ---------------- | --------------------------------------------------------- |
-| previous_day | CH1995                 | EPSG:2056          | NETCDF           | RnormM9120 Normwert Monatsniederschalg 1991-2020          |
-| previous_day | CH1995                 | EPSG:2056          | NETCDF           | RnormY9120 Normwert Jahressniederschalg 1991-2020         |
-| previous_day | CH1995                 | EPSG:2056          | NETCDF           | TnormM9120 Normwert Monats-Mitteltemperatur 1991-2020     |
-| previous_day | CH1995                 | EPSG:2056          | NETCDF           | TnormY9120 Normwert Jahres-Mitteltemperatur 1991-2020     |
-| previous_day | CH1995                 | EPSG:2056          | NETCDF           | TminnormM9120 Normwert Monats-Minimumtemperatur 1991-2020 |
-| previous_day | CH1995                 | EPSG:2056          | NETCDF           | TminnormY9120 Normwert Jahres-Minimumtemperatur 1991-2020 |
-| previous_day | CH1995                 | EPSG:2056          | NETCDF           | TmaxnormM9120 Normwert Monats-Maximumtemperatur 1991-2020 |
-| previous_day | CH1995                 | EPSG:2056          | NETCDF           | TmaxnormM9120 Normwert Jahres-Maximumtemperatur 1991-2020 |
-| previous_day | CH1995                 | EPSG:2056          | NETCDF           | SnormM9120 Normwert Monats-Sonnenscheindauer 1991-2020    |
-| previous_day | CH1995                 | EPSG:2056          | NETCDF           | SnormY9120 Normwert Monats-Sonnenscheindauer 1991-2020    |
--->
-
 ## Data download {#data-download}
 
 You can access the available Open Data for the Normal periods of 1991-2020 and 1961-1990 for surface based gridded data amd for the average period of 2004-2024 for satellite derived gridded data via [`https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-climate-normals-grid/items/ch`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-climate-normals-grid/items/ch?.language=en):
-
-
 
 
 ## Data format {#data-format}
