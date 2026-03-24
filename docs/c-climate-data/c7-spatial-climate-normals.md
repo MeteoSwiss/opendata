@@ -10,8 +10,9 @@ Spatial analyses of long-term averages (climate normals) are available for:
 - Temperature, Precipitation and Sunshine. 30-year periods defined by the World Meteorological Organisation WMO are used to allow for international comparability.
 - Radiation and Clouds. The average period of 2004-2024 is available.
 
+The following parameters are available: 
+
 **Temperature, Precipitation and Sunshine**
-The following parameters are available:
 | Identifier | Description |
 |---|---|
 | RnormM9120 | Mean monthly precipitation (norm value, 1991–2020) |
