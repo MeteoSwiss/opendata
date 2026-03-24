@@ -13,6 +13,7 @@ Spatial analyses of long-term averages (climate normals) are available for:
 The following parameters are available: 
 
 **Temperature, Precipitation and Sunshine**
+<br></br>
 | Identifier | Description |
 |---|---|
 | RnormM9120 | Mean monthly precipitation (norm value, 1991–2020) |
@@ -33,6 +34,7 @@ The following parameters are available:
 | SnormY6190 | Mean yearly relative sunshine duration (norm, 1961–1990) |
 
 **Radiation and Clouds**  
+<br></br>
 | Identifier | Description |
 |---|---|
 | ALBaverageM0420 | Average monthly albedo (average 2004–2020) |
