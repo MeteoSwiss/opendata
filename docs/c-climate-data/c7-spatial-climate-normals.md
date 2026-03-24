@@ -7,12 +7,12 @@ sidebar_position: 7
 Spatial climate analyses depict the geographic distribution of a meteorological parameter. They are derived from measurements at weather stations, satellites and radar. The data is represented comprehensively on a grid covering all of Switzerland.
 
 Spatial analyses of long-term averages (climate normals) are available for:
-- Temperature, Precipitation and Sunshine. 30-year periods defined by the World Meteorological Organisation WMO are used to allow for international comparability.
-- Radiation and Clouds. The average period of 2004-2024 is available.
-
-The following parameters are available: 
+- **Temperature, Precipitation and Sunshine**. 30-year periods defined by the World Meteorological Organisation WMO are used to allow for international comparability.
+- **Radiation and Clouds**. The average period of 2004-2024 is available.
 
 <br></br>
+The following parameters are available: 
+
 **Temperature, Precipitation and Sunshine**
 
 | Identifier | Description |
@@ -34,7 +34,6 @@ The following parameters are available:
 | SnormM6190 | Mean monthly relative sunshine duration (norm, 1961–1990) |
 | SnormY6190 | Mean yearly relative sunshine duration (norm, 1961–1990) |
 
-<br></br>
 **Radiation and Clouds**  
 
 | Identifier | Description |
