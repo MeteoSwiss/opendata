@@ -19,7 +19,7 @@ The **CombiPrecip (CPC) product** combines in real-time the precipitation inform
 
 :::info
 
-The reanalysis version of CombiPrecip is being calculated for the hourly values only (00:00h, 01:00h, 02:00h etc.) and is published 8 days later automatically, where the original hourly files will be overwritten. If you are interested in these reanalysis values, please check out the hourly files 8 days later. You will find in the Metadata the "Updated" timestamp showing, that the file has been updated 8 days later.
+The reanalysis version of CombiPrecip is being calculated for the hourly values only (00:00h, 01:00h, 02:00h etc.) and is published 8 days later automatically, where the original hourly files will be overwritten. If you are interested in these reanalysis values, please check out the hourly files 8 days later. You will find in the Metadata the "Updated" timestamp showing, that the file has been updated 8 days later. For analysis purposes this is the recommended CPC data. The 5min CPC data should only be used for real time applications.
 
 :::
 
@@ -54,7 +54,7 @@ The data is split by parameter, calendar date (see STAC 'items' respectively 'fe
 | -------------------------------------- | --------------------------------- | ------------------------------ |
 | PRECIP                                 | 5 minutes                         | `RZCyyjjjHHMM\*.\*01.h5`       |
 | PRECIP-SV                              | 5 minutes                         | `TZCyyjjjHHMM\*.\*01.h5`       |
-| Combiprecip 60-minute total            | 10 minutes                        | `CPCyyjjjHHMM\*_00060.\*01.h5` |
+| Combiprecip 60-minute total            | 5 minutes                        | `CPCyyjjjHHMM\*_00060.\*01.h5` |
 | Combiprecip 60-minute total reanalysis | 60 minutes; 8 days later          | `...\*_00060.\*01.h5`          |
 
 **Naming convention of the files:**
