@@ -20,6 +20,7 @@ So far, the following data is available:
 - [C - Climate data: Homogeneous data series & Climate scenarios CH2025](/c-climate-data)
 - [D - Radar data: Precipitation radar products & Hail radar products](/d-radar-data)
 - [E - Forecast data: Numerical weather forecasting model ICON-CH1/2-EPS & Local forecast data](/e-forecast-data)
+- [F - Analysis data: Numerical weather analysis data](/f-analysis-data)
 
 Additional types of data will be released in the following months. The expected quarter for each dataset will be announced on our [Open Data landing page](https://www.meteoswiss.admin.ch/services-and-publications/service/open-data.html).
 
