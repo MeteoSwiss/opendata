@@ -9,7 +9,6 @@ This page announces upcoming changes to the configuration of the [ICON-CH1/2-EPS
 These changes may concern the meteorology of the ICON model, or technical properties of the forecast data, like the GRIB2 coding.
 
 ## Upcoming changes
-- 2026-03-24 - [ICON Info: Improved precipitation, radiation, and temperature](./static/docs_img/changelog/2026-03-12%20ICON-Info.pdf)
 - 2026 End of April - The forecast datasets will be extended to include pollen data, and analysis (KENDA-CH1) data will be available for the first time. See [News](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model#news).
 
 ## Stay in the loop!
@@ -37,4 +36,5 @@ You will receive a confirmation mail to the email address from which you sent th
 :::
 
 ## Changelog
+- 2026-03-24 - [ICON Info: Improved precipitation, radiation, and temperature](./static/docs_img/changelog/2026-03-12%20ICON-Info.pdf)
 - 2026 Q1 - [ICON Info: Improved precipitation, radiation, and temperature](./static/docs_img/changelog/2025-11-12%20ICON-Info.pdf)
