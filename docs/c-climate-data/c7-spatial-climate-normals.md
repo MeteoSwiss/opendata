@@ -6,15 +6,12 @@ sidebar_position: 7
 
 Spatial climate analyses depict the geographic distribution of a meteorological parameter. They are derived from measurements at weather stations, satellites and radar. The data is represented comprehensively on a grid covering all of Switzerland.
 
-Spatial analyses of long-term averages (climate normals) are available for:
-- **Temperature, Precipitation and Sunshine**. 30-year periods defined by the World Meteorological Organisation WMO are used to allow for international comparability.
-- **Radiation and Clouds**. The average period of 2004-2024 is available.
+The following spatial analyses of long-term averages (climate normals) are available:
+- surface based **Temperature, Precipitation and Sunshine**: 30-year periods (1991-2020 and 1961-1990) defined by the World Meteorological Organisation WMO are used to allow for international comparability.
+- satellite based **Radiation and Clouds**: The average period of 2004-2024 is available.
 
-<br></br>
-The following parameters are available: 
-
+These parameters are included:<br></br>
 **Temperature, Precipitation and Sunshine**
-
 | Identifier | Description |
 |---|---|
 | RnormM9120 | Mean monthly precipitation (norm value, 1991–2020) |
@@ -35,7 +32,6 @@ The following parameters are available:
 | SnormY6190 | Mean yearly relative sunshine duration (norm, 1961–1990) |
 
 **Radiation and Clouds**  
-
 | Identifier | Description |
 |---|---|
 | ALBaverageM0420 | Average monthly albedo (average 2004–2020) |
@@ -58,7 +54,15 @@ The following parameters are available:
 
 ## Data download {#data-download}
 
-You can access the available Open Data for the Normal periods of 1991-2020 and 1961-1990 for surface based gridded data amd for the average period of 2004-2024 for satellite derived gridded data via [`https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-climate-normals-grid/items/ch`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-climate-normals-grid/items/ch?.language=en):
+The Open Data from MeteoSwiss may be used without restriction; the **source must be cited** when reproducing or redistributing ("**Source: MeteoSwiss**").
+
+:white_check_mark: By using 'Open Data' from MeteoSchweiz, you confirm that you have taken note of the [Terms of use](/general/terms-of-use).
+
+### Download data automatically
+
+Download **files** automatically via FSDI's REST API: [`https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-climate-normals-grid/items/ch`](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-climate-normals-grid/items/ch)
+
+The STAC Browser can be a useful tool to facilitate the use of the API: [`https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-climate-normals-grid/items/ch`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-climate-normals-grid/items/ch)
 
 
 ## Data format {#data-format}
@@ -68,8 +72,8 @@ The data formats are
 
 ## Coordinate system {#coordinate-system}
 
-The coordinate system for the surface based data is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056)  
-and for the satellite based data is [`WGS84`](https://www.swisstopo.admin.ch/en/reference-system-as-basis-for-coordinates) / [`EPSG:4326`](https://epsg.io/4326). 
+The coordinate system for the surface based data (i.e. Temperature, Precipitation and Sunshine) is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056)  
+and for the satellite based data (i.e. Radiation and Clouds) is [`WGS84`](https://www.swisstopo.admin.ch/en/reference-system-as-basis-for-coordinates) / [`EPSG:4326`](https://epsg.io/4326). 
 
 ## Data usage {#data-usage}
 
