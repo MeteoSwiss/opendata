@@ -6,36 +6,71 @@ sidebar_position: 7
 
 Spatial climate analyses depict the geographic distribution of a meteorological parameter. They are derived from measurements at weather stations, satellites and radar. The data is represented comprehensively on a grid covering all of Switzerland.
 
-Spatial analyses of long-term averages (climate normals) are available for temperature, precipitation and sunshine duration. 30-year periods defined by the World Meteorological Organisation WMO are used to allow for international comparability. MeteoSwiss provides monthly and annual maps for the normal periods 1961-1990 (WMO standard reference period for long-term climate change assessments) and 1991-2020 (current WMO climatological standard period).
+Spatial analyses of long-term averages (climate normals) are available for **A. Temperature, Precipitation and Sunshine** and for **B. Radiation and Clouds**.
 
-<!--
-| PERIOD_TX    | BOUND_BOX_COORD_SYS_TX | OUTPUT_COORDSYS_TX | OUTPUT_FORMAT_TX | filename                                                  |
-| ------------ | ---------------------- | ------------------ | ---------------- | --------------------------------------------------------- |
-| previous_day | CH1995                 | EPSG:2056          | NETCDF           | RnormM9120 Normwert Monatsniederschalg 1991-2020          |
-| previous_day | CH1995                 | EPSG:2056          | NETCDF           | RnormY9120 Normwert Jahressniederschalg 1991-2020         |
-| previous_day | CH1995                 | EPSG:2056          | NETCDF           | TnormM9120 Normwert Monats-Mitteltemperatur 1991-2020     |
-| previous_day | CH1995                 | EPSG:2056          | NETCDF           | TnormY9120 Normwert Jahres-Mitteltemperatur 1991-2020     |
-| previous_day | CH1995                 | EPSG:2056          | NETCDF           | TminnormM9120 Normwert Monats-Minimumtemperatur 1991-2020 |
-| previous_day | CH1995                 | EPSG:2056          | NETCDF           | TminnormY9120 Normwert Jahres-Minimumtemperatur 1991-2020 |
-| previous_day | CH1995                 | EPSG:2056          | NETCDF           | TmaxnormM9120 Normwert Monats-Maximumtemperatur 1991-2020 |
-| previous_day | CH1995                 | EPSG:2056          | NETCDF           | TmaxnormM9120 Normwert Jahres-Maximumtemperatur 1991-2020 |
-| previous_day | CH1995                 | EPSG:2056          | NETCDF           | SnormM9120 Normwert Monats-Sonnenscheindauer 1991-2020    |
-| previous_day | CH1995                 | EPSG:2056          | NETCDF           | SnormY9120 Normwert Monats-Sonnenscheindauer 1991-2020    |
--->
+<br></br>
+**A. Temperature, Precipitation and Sunshine**
+- surface based
+- 30-year periods (1991-2020 and 1961-1990) defined by the World Meteorological Organisation WMO are used to allow for international comparability.
+
+Parameters included are:
+| Identifier | Description |
+|---|---|
+| RnormM9120 | Mean monthly precipitation (norm value, 1991–2020) |
+| RnormY9120 | Mean yearly precipitation (norm value, 1991–2020) |
+| RnormM6190 | Mean monthly precipitation (norm, 1961–1990) |
+| RnormY6190 | Mean yearly precipitation (norm, 1961–1990) |
+| TnormM9120 | Mean monthly mean temperature (norm, 1991–2020) |
+| TnormY9120 | Mean yearly mean temperature (norm, 1991–2020) |
+| TnormM6190 | Mean monthly mean temperature (norm, 1961–1990) |
+| TnormY6190 | Mean yearly mean temperature (norm, 1961–1990) |
+| TminnormM9120 | Mean monthly daily minimum temperature (norm, 1991–2020) |
+| TminnormY9120 | Mean yearly daily minimum temperature (norm, 1991–2020) |
+| TmaxnormM9120 | Mean monthly daily maximum temperature (norm, 1991–2020) |
+| TmaxnormY9120 | Mean yearly daily maximum temperature (norm, 1991–2020) |
+| SnormM9120 | Mean monthly relative sunshine duration (norm, 1991–2020) |
+| SnormY9120 | Mean yearly relative sunshine duration (norm, 1991–2020) |
+| SnormM6190 | Mean monthly relative sunshine duration (norm, 1961–1990) |
+| SnormY6190 | Mean yearly relative sunshine duration (norm, 1961–1990) |
+
+<br></br>
+**B. Radiation and Clouds**
+- satellite based 
+- The average period of 2004-2020 is available.
+
+Parameters included are: 
+| Identifier | Description |
+|---|---|
+| ALBaverageM0420 | Average monthly albedo (average 2004–2020) |
+| ALBaverageY0420 | Average yearly albedo (average 2004–2020) |
+| CFCaverageM0420 | Average monthly cloud fractional cover (average 2004–2020) |
+| CFCaverageY0420 | Average yearly cloud fractional cover (average 2004–2020) |
+| NLRaverageM0420 | Average monthly net longwave radiation (average 2004–2020) |
+| NLRaverageY0420 | Average yearly net longwave radiation (average 2004–2020) |
+| NSRaverageM0420 | Average monthly net shortwave radiation (average 2004–2020) |
+| NSRaverageY0420 | Average yearly net shortwave radiation (average 2004–2020) |
+| SDLaverageM0420 | Average monthly surface downward longwave radiation (average 2004–2020) |
+| SDLaverageY0420 | Average yearly surface downward longwave radiation (average 2004–2020) |
+| SISaverageM0420 | Average monthly surface incoming solar radiation (average 2004–2020) |
+| SISaverageY0420 | Average yearly surface incoming solar radiation (average 2004–2020) |
+| SOLaverageM0420 | Average monthly surface outgoing longwave radiation (average 2004–2020) |
+| SOLaverageY0420 | Average yearly surface outgoing longwave radiation (average 2004–2020) |
+| SRBaverageM0420 | Average monthly surface radiation budget (average 2004–2020) |
+| SRBaverageY0420 | Average yearly surface radiation budget (average 2004–2020) |
+
 
 ## Data download {#data-download}
 
-You can access the available Open Data via [opendata.swiss](https://opendata.swiss/en/dataset?q=klimanormwerte&sort=score%20desc%2C%20metadata_modified%20desc&organization=bundesamt-fur-meteorologie-und-klimatologie-meteoschweiz&res_format=SERVICE):
+The Open Data from MeteoSwiss may be used without restriction; the **source must be cited** when reproducing or redistributing ("**Source: MeteoSwiss**").
 
-**Normal period 1991-2020**
-- [Mean precipitation (Monthly and yearly averages)](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-niederschlag_aktuelle_periode/items/klimanormwerte-niederschlag_aktuelle_periode) 
-- [Mean relative sunshine duration (Monthly averages)](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-sonnenscheindauer_aktuelle_periode/items/klimanormwerte-sonnenscheindauer_aktuelle_periode)
-- [Mean temperature (Monthly and yearly averages)](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-temperatur_aktuelle_periode/items/klimanormwerte-temperatur_aktuelle_periode)
+:white_check_mark: By using 'Open Data' from MeteoSchweiz, you confirm that you have taken note of the [Terms of use](/general/terms-of-use).
 
-**Normal period 1961-1990**
-- [Mean precipitation (Monthly and yearly averages)](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-niederschlag_1961_1990/items/klimanormwerte-niederschlag_1961_1990) 
-- [Mean relative sunshine duration (Monthly and yearly averages)](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-sonnenscheindauer_1961_1990/items/klimanormwerte-sonnenscheindauer_1961_1990) 
-- [Mean temperature (Monthly and yearly averages)](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.klimanormwerte-temperatur_1961_1990/items/klimanormwerte-temperatur_1961_1990)
+### Download data automatically
+
+Download **files** automatically via FSDI's REST API: [`https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-climate-normals-grid/items/ch`](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-climate-normals-grid/items/ch)
+
+The STAC Browser can be a useful tool to facilitate the use of the API: [`https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-climate-normals-grid/items/ch`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-climate-normals-grid/items/ch)
+
 
 ## Data format {#data-format}
 
@@ -44,7 +79,8 @@ The data formats are
 
 ## Coordinate system {#coordinate-system}
 
-The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056). 
+The coordinate system for the surface based data (i.e. Temperature, Precipitation and Sunshine) is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056)  
+and for the satellite based data (i.e. Radiation and Clouds) is [`WGS84`](https://www.swisstopo.admin.ch/en/reference-system-as-basis-for-coordinates) / [`EPSG:4326`](https://epsg.io/4326). 
 
 ## Data usage {#data-usage}
 
