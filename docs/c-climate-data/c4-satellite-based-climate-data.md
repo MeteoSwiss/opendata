@@ -7,10 +7,10 @@ sidebar_position: 4
 These grid data products are derived from [MeteoSat satellite data](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/satellite-observations.html) together with ground-based measurements (for more see the linked detailed product documentations).
 
 **Radiation**
-- *Satellite-based Surface Radiation including [solar radiation, albedo, surface downward and upward longwave radiation, net radiation and the entire surface radiation budget](https://www.meteoswiss.admin.ch/dam/jcr:b6f29546-3e6f-45a3-bc64-227d1d6b623c/ProdDoc_RADIATION.pdf)
+- [Solar Radiation, Albedo, Surface Downward and Upward Longwave Radiation, Net Radiation and the Entire Surface Radiation Budget](https://www.meteoswiss.admin.ch/dam/jcr:b6f29546-3e6f-45a3-bc64-227d1d6b623c/ProdDoc_RADIATION.pdf)
 
 **Clouds**
-- *Satellite-based Clouds including [cloud fractional cover, cloud top temperature and cloud top height](https://www.meteoswiss.admin.ch/dam/jcr:f244aad3-da48-4ae5-95b6-f8c77ce209ae/ProdDoc_CLOUDS.pdf)
+- [Cloud Fractional Cover, Cloud Top Temperature and Cloud Top Height](https://www.meteoswiss.admin.ch/dam/jcr:f244aad3-da48-4ae5-95b6-f8c77ce209ae/ProdDoc_CLOUDS.pdf)
 
 <!--
 **Land Surface Temperature**
@@ -49,27 +49,6 @@ The Open Data from MeteoSwiss may be used without restriction; the **source must
 Download **files** automatically via FSDI's REST API: [`https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-satellite-derived-grid`](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-satellite-derived-grid)
 
 The STAC Browser can be a useful tool to facilitate the use of the API: [`https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-satellite-derived-grid`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-satellite-derived-grid)
-
-
-
-| *Parameter*                    | *Product*              | *Time interval*        | *Update cycle*             | *Example Data files*                   |
-|:-------------------------------|:-----------------------|:-------------------  |:-------------------------|:---------------------------------------|
-| **Surface Incoming Solar Radiation**           |                      | Hourly               | previous_day             | [msg_sis_h_ch02.lonlat](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-satellite-derived-grid/items/ch?.language=en) |
-|                                |                      | Daily                | previous_day             | *[msg.SIS.D_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.D_ch02.lonlat_20201206000000.nc)* |
-|                                |                      | Monthly              | previous_month           | *[msg.SIS.M_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.M_ch02.lonlat_20210401000000.nc)* |
-|                                |                      | Yearly               | previous_year            | *[msg.SIS.Y_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.Y_ch02.lonlat_20210101000000.nc)* |
-| **Diffuse Radiation**          |                      | Hourly               | previous_day             | msg.SISDIF-No-Horizon.H_ch02.lonlat    |
-|                                |                      | Daily                | previous_day             | *[msg.SISDIF-No-Horizon.D_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIF-No-Horizon.D_ch02.lonlat_20201206000000.nc)* |
-|                                |                      | Monthly              | previous_month           | *[msg.SISDIF-No-Horizon.M_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIF-No-Horizon.M_ch02.lonlat_20200401000000.nc)* |
-|                                |                      | Yearly               | previous_year            | *[msg.SISDIF-No-Horizon.Y_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIF-No-Horizon.Y_ch02.lonlat_20200101000000.nc)* |
-| **Direct Radiation**           |                      | Hourly               | previous_day             | msg.SISDIR.H_ch02.lonlat               |
-|                                |                      | Daily                | previous_day             | *[msg.SISDIR.D_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.D_ch02.lonlat_20201206000000.nc)* |
-|                                |                      | Monthly              | previous_month           | *[msg.SISDIR.M_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.M_ch02.lonlat_20210401000000.nc)* |
-|                                |                      | Yearly               | previous_year            | *[msg.SISDIR.Y_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.Y_ch02.lonlat_20210101000000.nc)* |
-| **Cloud Cover**                |                      | Hourly               | previous_day             |                                        |
-|                                |                      | Daily                | previous_day             | *[msg.CFC.D_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.D_ch02.lonlat_20201206000000.nc)* |
-|                                |                      | Monthly              | previous_month           | *[msg.CFC.M_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.M_ch02.lonlat_20210401000000.nc)* |
-|                                |                      | Yearly               | previous_year            | *[msg.CFC.Y_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.Y_ch02.lonlat_20210101000000.nc)* |
 
 ## Data format {#data-format}
 
