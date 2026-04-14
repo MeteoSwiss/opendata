@@ -28,42 +28,29 @@ The following parameters are available:
 - Dew point temperature 2 m (`TD`, 10 min values every 60 min)
 - Soil surface temperature (`TG`, 10 min values every 60 min)
 
-## Data download {#data-download}
+## Data on request {#data-request}
 
-The following **example data file**s are available for download:
+To request the data, please contact us via our [contact form](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html).
 
-| Parameter | Update frequency | Time granularity | *Example data file* | Productive version file name | Estimated volume per file (MB) |
-|:----- | ----- |:----- |:----- | ----- |:----- |
-| **Total precipitation (`RP`)** | 5 min | 5 min | [RP_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/RP_INCA_202106280700.nc) | `ogd-nowcasting_RP_(date and time code).nc` | 1-60 |
-| **Precipitation type (`NT`)** | 5 min | 5 min | [NT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/NT_INCA_202106280700.nc) | `ogd-nowcasting_NT_(date and time code).nc` | 1-2 |
-| **Snowfall (`PN`)** | 5 min | 5 min | [PN_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/PN_INCA_202106280700.nc) | `ogd-nowcasting_PN_(date and time code).nc` | 1-40 |
-| **Temperature 2 m (`TT`)** | 10 min | 60 min | [TT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TT_INCA_202106280700.nc) | `ogd-nowcasting_TT_(date and time code).nc` | 13 |
-| **Dew point temperature 2 m (`TD`)** | 10 min | 60 min | [TD_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TD_INCA_202106280700.nc) | `ogd-nowcasting_TD_(date and time code).nc` | 13 |
-| **Soil surface temperature (`TG`)** | 10 min | 60 min | [TG_INCA_202106280700.nc](https://zenodo.org/records/6470725/files/TG_INCA_202106280700.nc?download=1) | `ogd-nowcasting_TG_(date and time code).nc` | 13 |
+Have a look at the example files:
+
+| Parameter | Update frequency | Time granularity | Example file | Estimated volume per file (MB) |
+|:----- | ----- |:----- |:----- |:----- |
+| **Total precipitation (`RP`)** | 5 min | 5 min | [RP_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/RP_INCA_202106280700.nc) | 1-60 |
+| **Precipitation type (`NT`)** | 5 min | 5 min | [NT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/NT_INCA_202106280700.nc) | 1-2 |
+| **Snowfall (`PN`)** | 5 min | 5 min | [PN_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/PN_INCA_202106280700.nc) | 1-40 |
+| **Temperature 2 m (`TT`)** | 10 min | 60 min | [TT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TT_INCA_202106280700.nc) | 13 |
+| **Dew point temperature 2 m (`TD`)** | 10 min | 60 min | [TD_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TD_INCA_202106280700.nc) | 13 |
+| **Soil surface temperature (`TG`)** | 10 min | 60 min | [TG_INCA_202106280700.nc](https://zenodo.org/records/6470725/files/TG_INCA_202106280700.nc?download=1) | 13 |
+
+The metadata is included in each NetCDF-File.
 
 ## Data format {#data-format}
 
 The data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf).
 
-## Coordinate system {#coordinate-system}
-
 The coordinate system is [`Swiss LV03`](https://www.swisstopo.admin.ch/en/national-triangulation-network-lv03) / [`EPSG 21781`](https://epsg.io/21781).
-
-## Metadata {#metadata}
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<Tabs queryString="metadata">
-  <TabItem value="parameters" label="Parameter">
-    Parameter metadata is part of each NetCDF-File. See **example data files** in the table above.
-  </TabItem>
-</Tabs>
 
 ## Data usage {#data-usage}
 
 Examples of INCA data reading and visualisation can be found here: [jupyter notebooks](https://github.com/MeteoSwiss/inca-examples).
-
-
-
-
