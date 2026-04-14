@@ -30,18 +30,18 @@ The following parameters are available:
 
 ## Data on request {#data-request}
 
-To request the data, please contact us via our [contact form](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html).
+To request the data, **please contact us via our** [**contact form**](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html).
 
 Have a look at the example files:
 
 | Parameter | Update frequency | Time granularity | Example file | Estimated volume per file (MB) |
 |:----- | ----- |:----- |:----- |:----- |
-| **Total precipitation (`RP`)** | 5 min | 5 min | [RP_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/RP_INCA_202106280700.nc) | 1-60 |
-| **Precipitation type (`NT`)** | 5 min | 5 min | [NT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/NT_INCA_202106280700.nc) | 1-2 |
-| **Snowfall (`PN`)** | 5 min | 5 min | [PN_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/PN_INCA_202106280700.nc) | 1-40 |
-| **Temperature 2 m (`TT`)** | 10 min | 60 min | [TT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TT_INCA_202106280700.nc) | 13 |
-| **Dew point temperature 2 m (`TD`)** | 10 min | 60 min | [TD_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TD_INCA_202106280700.nc) | 13 |
-| **Soil surface temperature (`TG`)** | 10 min | 60 min | [TG_INCA_202106280700.nc](https://zenodo.org/records/6470725/files/TG_INCA_202106280700.nc?download=1) | 13 |
+| Total precipitation (`RP`) | 5 min | 5 min | [RP_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/RP_INCA_202106280700.nc) | 1-60 |
+| Precipitation type (`NT`) | 5 min | 5 min | [NT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/NT_INCA_202106280700.nc) | 1-2 |
+| Snowfall (`PN`) | 5 min | 5 min | [PN_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/PN_INCA_202106280700.nc) | 1-40 |
+| Temperature 2 m (`TT`) | 10 min | 60 min | [TT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TT_INCA_202106280700.nc) | 13 |
+| Dew point temperature 2 m (`TD`) | 10 min | 60 min | [TD_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TD_INCA_202106280700.nc) | 13 |
+| Soil surface temperature (`TG`) | 10 min | 60 min | [TG_INCA_202106280700.nc](https://zenodo.org/records/6470725/files/TG_INCA_202106280700.nc?download=1) | 13 |
 
 The metadata is included in each NetCDF-File.
 
