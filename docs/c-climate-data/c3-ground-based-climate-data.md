@@ -30,18 +30,17 @@ Available surface derived grid data products and link to detailed product docume
 The gridded data files are updated daily, monthly and yearly and are being published accordingly. 
 Please note that the daily files are preliminary results. They are available for the last 60 days only in the respective items (e.g. "CH at 31.12.2025", "CH at 01.01.2026" etc.) and will be deleted continuously. 
 
+**If you need controlled and corrected gridded data, you should only use data from the monthly or archive items.** 
+
 The controlled and corrected datasets containing the data of the last month will be published at the end of the following month. These files are in the respective monthly items (e.g. "CH at 12.2025", "CH at 01.2026" etc.) and are only available for the last 14 months and will be deleted continuously. 
 
-In the item "CH archive" you can find all the data as yearly files (except hourly data, which are monthly files due to the size of the files), starting with 2025. At the beginning of each February, the yearly data of the previous year will be published. 
-More archive data will be added later in 2026. 
+In the item "CH archive" you can find all the data as yearly files, starting with 2025. At the beginning of each February, the yearly data of the previous year will be published.
 
 Please also check out the illustration below: 
 
-<img width="1280" height="480" alt="Climate Grid Dataflow" src="https://github.com/user-attachments/assets/909b31e2-bc67-4d2c-85cf-77d3a96507cc" />
+<img width="1262" height="414" alt="Climate Grid Dataflow 2 0" src="https://github.com/user-attachments/assets/55ac7b93-2c20-44fb-9e32-1690565010ba" />
 
 *Delivery and update cycles of gridded datasets*
-
-**If you need controlled and corrected gridded data, you should only use data from the monthly or archive items.** 
 
 :::
 
