@@ -34,8 +34,7 @@ Please note that the daily files are preliminary results. They are available for
 
 The controlled and corrected datasets containing the data of the last month will be published at the end of the following month. These files are in the respective monthly items (e.g. "CH at 12.2025", "CH at 01.2026" etc.) and are only available for the last 14 months and will be deleted continuously. 
 
-In the item "CH archive" you can find all the data as yearly files (except hourly data, which are monthly files due to the size of the files), starting with 2025. At the beginning of each February, the yearly data of the previous year will be published. 
-More archive data will be added later in 2026. 
+In the item "CH archive" you can find all the data as yearly files, starting with 2025. At the beginning of each February, the yearly data of the previous year will be published.
 
 Please also check out the illustration below: 
 
