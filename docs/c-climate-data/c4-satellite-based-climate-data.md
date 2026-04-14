@@ -6,21 +6,17 @@ sidebar_position: 4
 
 These grid data products are derived from [MeteoSat satellite data](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/satellite-observations.html) together with ground-based measurements (for more see the linked detailed product documentations).
 
-**Radiation**
+**Radiation** ([detailed product documentation](https://www.meteoswiss.admin.ch/dam/jcr:b6f29546-3e6f-45a3-bc64-227d1d6b623c/ProdDoc_RADIATION.pdf))
 - Solar Radiation
 - Albedo
 - Surface Downward and Upward Longwave Radiation
 - Net Radiation
 - Entire Surface Radiation Budget
 
-[Detailed product documentation](https://www.meteoswiss.admin.ch/dam/jcr:b6f29546-3e6f-45a3-bc64-227d1d6b623c/ProdDoc_RADIATION.pdf)
-
-**Clouds**
+**Clouds** [detailed product documentation](https://www.meteoswiss.admin.ch/dam/jcr:f244aad3-da48-4ae5-95b6-f8c77ce209ae/ProdDoc_CLOUDS.pdf))
 - Cloud Fractional Cover
 - Cloud Top Temperature
 - Cloud Top Height
-
-[Detailed product documentation](https://www.meteoswiss.admin.ch/dam/jcr:f244aad3-da48-4ae5-95b6-f8c77ce209ae/ProdDoc_CLOUDS.pdf)
 
 <!--
 **Land Surface Temperature**
