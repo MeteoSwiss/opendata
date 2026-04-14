@@ -3,6 +3,10 @@
     "message": "Next",
     "description": "The label for version current"
   },
+  "sidebar.dataSidebar.category.General information": {
+    "message": "Allgemeine Informationen",
+    "description": "The label for category General information in sidebar dataSidebar"
+  },
   "sidebar.dataSidebar.category.A - Ground-based measurements": {
     "message": "A - Bodenmessdaten",
     "description": "The label for category A - Ground-based measurements in sidebar dataSidebar"

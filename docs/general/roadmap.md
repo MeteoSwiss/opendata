@@ -1,0 +1,85 @@
+---
+sidebar_position: 1
+---
+
+# Roadmap
+This is the **current roadmap of our Open Data service**, which will guide us through the year 2026.
+- It is iterated on at least a quarterly basis.
+- It allows us to plan for change. It captures intent, not solutions. The further into the future a thing will take place, the more uncertain it is. 
+- Things can be added to or dropped from the roadmap. In the latter case, we document this below under ‘Items removed from the roadmap’, including the date and reason. 
+
+:::tip
+
+The roadmap is based on the [**Vision and strategy** of MeteoSwiss' Open Data provision](./background-objectives#vision-mission-and-strategy-of-meteoswiss-open-data-provision). In a nutshell:
+- MeteoSwiss is implementing Open Data access in two stages, first through bulk download, then through APIs.
+- Where implemented, both access modes remain operational.
+
+:::
+
+![MCH Open Data roadmap](./static/docs_img/2026-04-09_OGD24_Roadmap_2026.png)
+
+## April until June (Q2-2026)
+
+### Bulk download
+
+<details>
+  <summary>'Spatial climate analyses' are being prepared to be available (see scheduled dates by expanding).</summary>
+  
+  `Precipitation, Temperature and Sunshine` as well as `Radiation and Clouds` by mid of April.<br></br>
+  `Hail` by end of May.<br></br>
+  More about [these open data products (C3, C4, C5)](https://opendatadocs.meteoswiss.ch/c-climate-data).
+</details>
+
+<details>
+  <summary>'Pollen forecast data' is being prepared to be available by the end of April as an additional parameter of the 'Numerical weather forecasting model ICON-CH2-EPS'.</summary>
+
+  Note: Pollen variables are only generated when activated during the season.<br></br>
+  More about [the 'ICON-CH2-EPS' open data product](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model).
+</details>
+
+<details>
+  <summary>'Analysis data' is being prepared to be available by the end of April.</summary>
+
+  Hourly KENDA analysis data. Only the deterministic run will be published (no ensemble members). The set of parameters is still to be defined but will include pollen-related variables.<br></br>
+  More info about this open data product will be coming soon. 
+</details>
+
+<details>
+  <summary>'Radio soundings' are being prepared to be available by end of June.</summary>
+  
+  More about [this open data product (B1)](https://opendatadocs.meteoswiss.ch/b-data-atmosphere).
+</details>
+
+<details>
+  <summary>'Reflectivity-based radar products' are being prepared to be available by end of June.</summary>
+  
+  More info about this open data product will be coming soon.
+</details>
+
+### APIs
+
+<details>
+  <summary>A proof of concept for the provision of 'Homogeneous Climate data series' via MeteoGate's climate data EDR API is being developed.</summary>
+
+  More about EUMETNET's [MeteoGate](https://meteogate.eu).<br></br>
+  More about [the 'Homogeneous Climate data series' product](https://opendatadocs.meteoswiss.ch/c-climate-data/c1-climate-stations_homogeneous).
+</details>
+
+<details>
+  <summary>A beta version for the provision of 'Local forecast data' via FSDI's OGC Feature API is being developed.</summary>
+
+  More about [the 'Local forecast data' product](https://opendatadocs.meteoswiss.ch/e-forecast-data/e4-local-forecast-data).
+</details>
+
+### Self-service support
+
+<details>
+  <summary>Open Data products can be filtered by parameter groups on MeteoSwiss' respective webpage.</summary>
+</details>
+
+<details>
+  <summary>Open Data documentation is continuosly updated and improved.</summary>
+</details>
+
+## Items removed from the roadmap
+(*here comes a table with 'date', 'item' and 'reason of removal'*)
