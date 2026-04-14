@@ -36,7 +36,7 @@ Parameters included are:
 <br></br>
 **B. Radiation and Clouds**
 - satellite based 
-- The average period of 2004-2024 is available.
+- The average period of 2004-2020 is available.
 
 Parameters included are: 
 | Identifier | Description |
