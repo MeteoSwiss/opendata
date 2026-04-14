@@ -27,7 +27,7 @@ to provide Open Data to people and organisations with the same reliability and c
 **Our strategy** (for version 1.0) is, 
 to enable all users to download Open Data as files via the STAC API of the FSDI.
 
-The Open Data provision of MeteoSwiss in version 1.0 thus fulfils the requirement of the EU's HVD Directive to make ‘datasets (...) available for re-use (...) through bulk download’ ([Annex, Chapter 3.2. a](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R0138#d1e32-48-1)). The requirement to make datasets also available via APIs will be implemented by MeteoSwiss in a later implementation stage.
+The Open Data provision of MeteoSwiss in version 1.0 thus fulfills the requirement of the EU's HVD Directive to make ‘datasets (...) available for re-use (...) through bulk download’ ([Annex, Chapter 3.2. a](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R0138#d1e32-48-1)). The requirement to make datasets also available via APIs will be implemented by MeteoSwiss in a later implementation stage.
 
 **Our primary outcomes** (for version 1.0) include:
 1. From the source systems of the various data types (ground station data and observations, climate data and spatial climate analyses, radar data, forecast data, atmospheric data), the OGD products specified together with the corresponding specialists and their 'file metadata' are continuously generated as files.
