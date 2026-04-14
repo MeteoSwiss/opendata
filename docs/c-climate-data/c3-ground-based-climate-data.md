@@ -35,9 +35,8 @@ The controlled and corrected datasets containing the data of the last month will
 In the item "CH archive" you can find all the data as yearly files (except hourly data, which are monthly files due to the size of the files), starting with 2025. At the beginning of each February, the yearly data of the previous year will be published. 
 More archive data will be added later in 2026. 
 
-Please also check out the illustrations below: 
+Please also check out the illustration below: 
 
-<img width="1280" height="480" alt="Climate Grid Dataflow" src="https://github.com/user-attachments/assets/909b31e2-bc67-4d2c-85cf-77d3a96507cc" />
 <img width="1262" height="414" alt="Climate Grid Dataflow 2 0" src="https://github.com/user-attachments/assets/55ac7b93-2c20-44fb-9e32-1690565010ba" />
 
 *Delivery and update cycles of gridded datasets*
