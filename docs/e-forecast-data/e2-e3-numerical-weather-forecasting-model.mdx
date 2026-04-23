@@ -92,7 +92,7 @@ These fields are effectively equivalent to the analysis and are available every 
 
 Each collection contains both **constant** and **variable parameters**.
 
-**Variable parameters** change over time and include quantities such as air pressure and temperature. <br />
+**Variable parameters** change over time and include forecast quantities such as air pressure and temperature. <br />
 **Constant parameters** remain fixed within a single model run and describe the underlying grid or surface properties. We distinguish between the following categories.
 
 :::info
@@ -102,7 +102,7 @@ A universally unique identifier (UUID) is assigned to both horizontal and vertic
 :::
 
 - Horizontal constants:
-    - **HHL** Geometric Height of the layer limits above sea level, see the model grid documentation
+    - **HHL** Geometric height of the layer limits above sea level, see the [model grid documentation](/e-forecast-data/e2-e3-numerical-weather-forecasting-model#vertical-grid)
 
 - Vertical constants: 
     - **CLON**	Longitude of the center point coordinate of each triangle on the horizontal grid
@@ -115,7 +115,7 @@ For a practical example of how to download constant parameters in Python, refer 
 
 :::info
 
-When downloading variable parameters in Python, the corresponding constant parameters (CLON, CLAT) are automatically included. 
+When downloading variable parameters through the Python API, the corresponding horizontal constant parameters (CLON, CLAT) are automatically included. 
 
 :::
 
@@ -457,7 +457,7 @@ The STAC Browser does not show the newest items first. To find the most recent d
 
 Raw forecast GRIB files loaded via the REST API do not contain information about height, longitude and latitude.
 To geolocate or interpret vertical levels, you must use the static vertical and horizontal grid parameter files provided in each collection.
-For more information, refere to notebook [09_constant_parameters.ipynb](https://github.com/MeteoSwiss/opendata-nwp-demos/blob/main/09_constant_parameters.ipynb) or read section [Accessing static grid information: Height, longitude, latitude and surface properties](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=restapi#accessing-static-grid-information-height-longitude-latitude-and-surface-properties).
+For more information, refer to notebook [09_constant_parameters.ipynb](https://github.com/MeteoSwiss/opendata-nwp-demos/blob/main/09_constant_parameters.ipynb) or read section [Accessing static grid information: Height, longitude, latitude and surface properties](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=restapi#accessing-static-grid-information-height-longitude-latitude-and-surface-properties).
 </details>
 
 <details>
