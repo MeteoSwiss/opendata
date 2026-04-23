@@ -22,8 +22,6 @@ The following data are planned to be made available in 2025:
 
 The following data files are **in discussion to be processed**:
 
-<!-- Bezeichnungen gemäss https://meteoswiss.atlassian.net/wiki/spaces/AK/pages/492699723/TABELLEN+3+und+4+Neue+KLIMAHAGELDATEN+-+Betrieb -->
-
 <!-- @NOSPELL@ -->
 
 | *Parameter*                            | *Product*                          | Time interval | Update cycle   | *Data files (in discussion to be processed)*                                       |
