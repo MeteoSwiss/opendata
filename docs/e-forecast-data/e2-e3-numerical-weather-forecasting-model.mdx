@@ -90,7 +90,49 @@ These fields are effectively equivalent to the analysis and are available every 
 :::
 ### Available parameters {#available-parameters}
 
-Each collection includes a downloadable CSV file with a continuously updated list of available parameters. The file includes metadata such as long name, standard unit, level type (single or multi level), vertical coordinate type, temporal horizon, aggregation type and start time. To access the parameter overview, open the collection page for the desired model - for example, [ICON-CH1-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch1?.language=en) or [ICON-CH2-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch2?.language=en). In the Assets section, download the file labeled Overview of Parameters.
+Each collection contains both **constant** and **variable parameters**.
+
+**Variable parameters** change over time and include forecast quantities such as air pressure and temperature. <br />
+**Constant parameters** remain fixed within a single model run and describe the underlying grid or surface properties. We distinguish between the following categories.
+
+:::info
+
+A universally unique identifier (UUID) is assigned to both horizontal and vertical constants, distinguished as "uuidOfHGrid" and "uuidOfVGrid", to verify that the constant data is consistent with the forecast data.
+
+:::
+
+- Horizontal constants:
+    - **HHL** Geometric height of the layer limits above sea level, see the [model grid documentation](/e-forecast-data/e2-e3-numerical-weather-forecasting-model#vertical-grid)
+
+- Vertical constants: 
+    - **CLON**	Longitude of the center point coordinate of each triangle on the horizontal grid
+    - **CLAT**	Latitude of the center point coordinate of each triangle on the horizontal grid
+    - **FR_LAND**	Land cover indicator (1 for land, 0 for sea)
+    - **HSURF**	Geometric height of the earth's surface above sea level
+    - **SOILTYPE**	Type of soil, based on the [soilType.table](https://github.com/COSMO-ORG/eccodes-cosmo-resources/blob/master/definitions/soilType.table)
+
+For a practical example of how to download constant parameters in Python, refer to notebook [09_constant_parameters.ipynb](https://github.com/MeteoSwiss/opendata-nwp-demos/blob/main/09_constant_parameters.ipynb).
+
+:::info
+
+When downloading variable parameters through the Python API, the corresponding horizontal constant parameters (CLON, CLAT) are automatically included. 
+
+:::
+
+> ⚠️ **WARNING**: At the moment, the collection assets are not versioned such that there is no way to fetch a previous version of the constant run parameters. If you are building an archive, you may need to keep track of those constants. 
+
+Moreover, each collection includes a downloadable CSV file with a continuously updated list of all available parameters. The file includes metadata such as:
+- long name
+- standard unit
+- level type (single or multi level)
+- vertical coordinate type
+- temporal horizon
+- aggregation type
+- start time. 
+
+To access this file, open the collection page and download in the Asset section the file labeled “**Overview of Parameters**”. Available collections are:
+- [ICON-CH1-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch1?.language=en)
+- [ICON-CH2-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch2?.language=en).
 
 ## Download options {#download-options}
 
@@ -415,7 +457,7 @@ The STAC Browser does not show the newest items first. To find the most recent d
 
 Raw forecast GRIB files loaded via the REST API do not contain information about height, longitude and latitude.
 To geolocate or interpret vertical levels, you must use the static vertical and horizontal grid parameter files provided in each collection.
-For more information, read section [Accessing static grid information: Height, longitude, latitude and surface properties](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=restapi#accessing-static-grid-information-height-longitude-latitude-and-surface-properties).
+For more information, refer to notebook [09_constant_parameters.ipynb](https://github.com/MeteoSwiss/opendata-nwp-demos/blob/main/09_constant_parameters.ipynb) or read section [Accessing static grid information: Height, longitude, latitude and surface properties](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=restapi#accessing-static-grid-information-height-longitude-latitude-and-surface-properties).
 </details>
 
 <details>
