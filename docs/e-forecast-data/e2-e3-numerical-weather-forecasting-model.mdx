@@ -95,6 +95,12 @@ Each collection contains both **constant** and **variable parameters**.
 **Variable parameters** change over time and include quantities such as air pressure and temperature. <br />
 **Constant parameters** remain fixed within a single model run and describe the underlying grid or surface properties. We distinguish between the following categories.
 
+:::info
+
+A universally unique identifier (UUID) is assigned to both horizontal and vertical constants, distinguished as "uuidOfHGrid" and "uuidOfVGrid", to verify that the constant data is consistent with the forecast data.
+
+:::
+
 - Horizontal constants:
     - **HHL** Geometric Height of the layer limits above sea level, see the model grid documentation
 
@@ -113,7 +119,7 @@ When downloading variable parameters in Python, the corresponding constant param
 
 :::
 
-> ⚠️ **WARNING**: At the moment, the collection assets are not versioned such that there is no way to fetch a previous version of the constant run parameters. If you are building an archive, you may need to keep track of those constants.
+> ⚠️ **WARNING**: At the moment, the collection assets are not versioned such that there is no way to fetch a previous version of the constant run parameters. If you are building an archive, you may need to keep track of those constants. 
 
 Moreover, each collection includes a downloadable CSV file with a continuously updated list of all available parameters. The file includes metadata such as:
 - long name
