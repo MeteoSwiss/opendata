@@ -93,7 +93,7 @@ These fields are effectively equivalent to the analysis and are available every 
 Each collection contains both **constant** and **variable parameters**.
 
 **Variable parameters** change over time and include quantities such as air pressure and temperature. <br />
-**Constant parameters** remain fixed within a single model run and describe the underlying grid or surface properties.
+**Constant parameters** remain fixed within a single model run and describe the underlying grid or surface properties. We distinguish between the following categories.
 
 - Horizontal constants:
     - **HHL** Geometric Height of the layer limits above sea level, see the model grid documentation
@@ -113,8 +113,6 @@ When downloading variable parameters in Python, the corresponding constant param
 
 :::
 
-> ⚠️ **WARNING**: The constant parameters are only considered constant per run! Although they are not expected to change often, we recommend that you check that the 'uuidOfHGrid' agrees with the forecast data, especially if you cache the constants.
-
 > ⚠️ **WARNING**: At the moment, the collection assets are not versioned such that there is no way to fetch a previous version of the constant run parameters. If you are building an archive, you may need to keep track of those constants.
 
 Each collection includes a downloadable CSV file with a continuously updated list of all available parameters. The file includes metadata such as:
@@ -128,7 +126,7 @@ Each collection includes a downloadable CSV file with a continuously updated lis
 
 To access this file, open the collection page and download in the Asset section the file labeled “**Overview of Parameters**”. Available collections are:
 - [ICON-CH1-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch1?.language=en)
-- [ICON-CH2-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch2?.language=en). In the Assets section, download the file labeled Overview of Parameters.
+- [ICON-CH2-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch2?.language=en).
 
 ## Download options {#download-options}
 
