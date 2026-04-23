@@ -92,20 +92,18 @@ These fields are effectively equivalent to the analysis and are available every 
 
 Each collection contains both **constant** and **variable parameters**.
 
-**Variable parameters** change over time and include quantities such as air pressure and temperature.
+**Variable parameters** change over time and include quantities such as air pressure and temperature. <br />
 **Constant parameters** remain fixed within a single model run and describe the underlying grid or surface properties.
 
-
-
 - Horizontal constants:
-    - HHL Geometric Height of the layer limits above sea level, see the model grid documentation
+    - **HHL** Geometric Height of the layer limits above sea level, see the model grid documentation
 
 - Vertical constant: 
-    - CLON	Longitude of the center point coordinate of each triangle on the horizontal grid
-    - CLAT	Latitude of the center point coordinate of each triangle on the horizontal grid
-    - FR_LAND	Land cover indicator (1 for land, 0 for sea)
-    - HSURF	Geometric height of the earth's surface above sea level
-    - SOILTYPE	Type of soil, based on the [soilType.table](https://github.com/COSMO-ORG/eccodes-cosmo-resources/blob/master/definitions/soilType.table)
+    - **CLON**	Longitude of the center point coordinate of each triangle on the horizontal grid
+    - **CLAT**	Latitude of the center point coordinate of each triangle on the horizontal grid
+    - **FR_LAND**	Land cover indicator (1 for land, 0 for sea)
+    - **HSURF**	Geometric height of the earth's surface above sea level
+    - **SOILTYPE**	Type of soil, based on the [soilType.table](https://github.com/COSMO-ORG/eccodes-cosmo-resources/blob/master/definitions/soilType.table)
 
 For a practical example of how to download constant parameters in Python, refer to notebook [09_constant_parameters.ipynb](https://github.com/MeteoSwiss/opendata-nwp-demos/blob/main/09_constant_parameters.ipynb).
 
@@ -119,7 +117,18 @@ When downloading variable parameters in Python, the corresponding constant param
 
 > ⚠️ **WARNING**: At the moment, the collection assets are not versioned such that there is no way to fetch a previous version of the constant run parameters. If you are building an archive, you may need to keep track of those constants.
 
-Each collection includes a downloadable CSV file with a continuously updated list of all available parameters. The file includes metadata such as long name, standard unit, level type (single or multi level), vertical coordinate type, temporal horizon, aggregation type and start time. To access the parameter overview, open the collection page for the desired model - for example, [ICON-CH1-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch1?.language=en) or [ICON-CH2-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch2?.language=en). In the Assets section, download the file labeled Overview of Parameters.
+Each collection includes a downloadable CSV file with a continuously updated list of all available parameters. The file includes metadata such as:
+- long name
+- standard unit
+- level type (single or multi level)
+- vertical coordinate type
+- temporal horizon
+- aggregation type
+- start time. 
+
+To access this file, open the collection page and download in the Asset section the file labeled “**Overview of Parameters**”. Available collections are:
+- [ICON-CH1-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch1?.language=en)
+- [ICON-CH2-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch2?.language=en). In the Assets section, download the file labeled Overview of Parameters.
 
 ## Download options {#download-options}
 
