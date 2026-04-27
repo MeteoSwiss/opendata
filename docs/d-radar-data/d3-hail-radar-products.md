@@ -40,6 +40,7 @@ Please note that the STAC item for the following day has already been created. F
 
 :::
 
+**Archive data** is available on request. **Please contact us via our** [**contact form**](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html).
 
 ## Data structure {#data-structure}
 The data is split by parameter, calendar date (see STAC 'items' respectively 'features') and time resolution. It is provided via a rolling time window covering the last 14 days.
