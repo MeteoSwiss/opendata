@@ -6,9 +6,7 @@ sidebar_position: 3
 
 [Spatial climate analyses](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/spatial-climate-analyses.html) are datasets that describe the geographic distribution and temporal evolution of near-surface climate variables. The data is represented comprehensively in space on a km-scale grid, covering all of Switzerland. It extends back over several decades to more than a century and is updated continuously in near-real time. The data values are estimated statistically from measurements at weather stations, satellites and radar, and can be understood as pseudo observations of the conditions in the respective grid pixel. 
 
-MeteoSwiss provides a broad palette of ready-made spatial climate analyses. A comprehensive list of data products and detailed documentations are available on the MeteoSwiss [Spatial Climate Analysis Webpage](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/spatial-climate-analyses.html). A compact overview can be found [here](https://www.meteoswiss.admin.ch/dam/jcr:ce0227c9-1f95-4919-ae6c-999053b6bcba/ProdDoc_Cover.pdf). Key elements of the data suite are available via OGD and are listed below with links to the pertinent documentation: 
-
-
+MeteoSwiss provides a broad palette of ready-made spatial climate analyses. A comprehensive list of data products and detailed documentations are available on our [Spatial Climate Analyses](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/spatial-climate-analyses.html) weppage. A compact overview can be found [here](https://www.meteoswiss.admin.ch/dam/jcr:ce0227c9-1f95-4919-ae6c-999053b6bcba/ProdDoc_Cover.pdf). Key elements of the data suite are available via our Open Data service and are listed below with links to the pertinent documentation: 
 
 Available surface derived grid data products and link to detailed product documentation:
 
