@@ -58,7 +58,7 @@ The STAC Browser can be a useful tool to facilitate the use of the API: [`https:
 
 ## Data format {#data-format}
 
-The data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of 0.1 MB per file for a daily product. Hourly data as monthly files or daily as yearly can be up to the size of 45 MB.
+The data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of up to 2 MB for daily files. Hourly data as monthly files or daily as yearly can be up to the size of 45 MB.
 
 ## Coordinate system {#coordinate-system}
 
