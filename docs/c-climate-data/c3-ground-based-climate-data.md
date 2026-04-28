@@ -38,7 +38,7 @@ You can access preliminary and consolidated analyses via the following `Items`:
 - Consolidated daily and monthly analyses of the past 14 months are available in `Items` "CH at MM.YYYY" with MM.YYYY indicating the month of interest. These items contain files with the daily analyses of all days of the month and files with single monthly analyses. The archive item for a specific month is established towards the end of the month following. Archive items older than 14 months are deleted successively.
 - A final re-processing of all the analyses of a year is undertaken in early February of the year following. The results are archived in the `Item` "CH archive". Here, all the results of a data product are bundled into yearly files, independently of the time resolution of the product. <br></br> **"CH archive" is the key `Item` to look for fully consolidated climate data that is consistent with all currently operational controle procedures at MeteoSwiss.**
 
-<img width="3535" height="2132" alt="Figure" src="https://github.com/user-attachments/assets/ab882739-db6d-4d41-8e25-952e0367dd7c" />
+<img width="1280" height="480" alt="Climate Grid Dataflow" src="https://github.com/user-attachments/assets/ab882739-db6d-4d41-8e25-952e0367dd7c" />
 
 *Delivery and update cycles of gridded datasets*
 
