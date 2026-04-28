@@ -31,14 +31,14 @@ Key elements of the dataset are available via our Open Data service and are list
 
 :::info
 
-The spatial climate datasets are continuously updated as time passes. To allow for near real-time coverage, analyses for the most recent past (e.g. yesterday's precipitation) are initially calculated before data collection and quality control have been completed. At this stage, these are preliminary analyses. Consolidated versions of the analyses are produced later in several post-processing steps using more complete and thoroughly checked station observations. 
-
-**"CH archive" is the key `Item` to look for fully consolidated climate data that is consistent with all currently operational controle procedures at MeteoSwiss.**
+The spatial climate datasets are continuously updated as time passes. To allow for near real-time coverage, analyses for the most recent past (e.g. yesterday's precipitation) are initially calculated before data collection and quality control have been completed. At this stage, these are preliminary analyses. Consolidated versions of the analyses are produced later in several post-processing steps using more complete and thoroughly checked station observations.
 
 You can access preliminary and consolidated analyses via the following `Items`:
 - The real-time daily analyses (preliminary) are available in `Items` "CH at DD.MM.YYYY" with DD.MM.YYYY indicating the day for which the analysis is valid. The preliminary items are available for the past 60 days, with the oldest items being deleted successively.
 - Consolidated daily and monthly analyses of the past 14 months are available in `Items` "CH at MM.YYYY" with MM.YYYY indicating the month of interest. These items contain files with the daily analyses of all days of the month and files with single monthly analyses. The archive item for a specific month is established towards the end of the month following. Archive items older than 14 months are deleted successively.
 - A final re-processing of all the analyses of a year is undertaken in early February of the year following. The results are archived in the `Item` "CH archive". Here, all the results of a data product are bundled into yearly files, independently of the time resolution of the product.
+
+⚠️ **"CH archive" is the key `Item` to look for fully consolidated climate data that is consistent with all currently operational controle procedures at MeteoSwiss.**
 
 <img width="3535" height="2132" alt="Figure" src="https://github.com/user-attachments/assets/ab882739-db6d-4d41-8e25-952e0367dd7c" />
 
