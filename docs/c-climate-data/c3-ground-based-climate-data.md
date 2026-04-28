@@ -68,7 +68,7 @@ The data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) wit
 
 ## Coordinate system {#coordinate-system}
 
-The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056). <br> </br>
+The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056). <br></br>
 For the "Reconstructions back till 1864" the coordinate system is [`WGS84`](https://www.swisstopo.admin.ch/en/reference-system-as-basis-for-coordinates) / [`EPSG:4326`](https://epsg.io/4326). 
 
 ## Data usage {#data-usage}
