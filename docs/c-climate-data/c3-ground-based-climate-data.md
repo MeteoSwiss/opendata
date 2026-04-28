@@ -66,12 +66,12 @@ Select and download **files** manually via FSDI's [STAC Browser](https://data.ge
 
 ## Data format {#data-format}
 
-The data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of 1.1 MB for *individual files*, and 13 MB for monthly files with daily data and up to 200MB for yearly files with daily data.
+The data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of 1.1 MB for daily files, 13 MB for monthly files with daily data and up to 200 MB for yearly files with daily data.
 
 ## Coordinate system {#coordinate-system}
 
-The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056).
-For the reconstructed data the coordinate system is [`WGS84`](https://www.swisstopo.admin.ch/en/reference-system-as-basis-for-coordinates) / [`EPSG:4326`](https://epsg.io/4326). 
+The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056). <br> </br>
+For the "Reconstructions back till 1864" the coordinate system is [`WGS84`](https://www.swisstopo.admin.ch/en/reference-system-as-basis-for-coordinates) / [`EPSG:4326`](https://epsg.io/4326). 
 
 ## Data usage {#data-usage}
 
