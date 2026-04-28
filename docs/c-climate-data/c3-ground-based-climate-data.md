@@ -58,6 +58,12 @@ Download **files** automatically via FSDI's REST API: [`https://data.geo.admin.c
 
 The STAC Browser can be a useful tool to facilitate the use of the API: [`https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-surface-derived-grid`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-surface-derived-grid)
 
+### Download data manually
+
+Select and download **files** manually via FSDI's [STAC Browser](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-surface-derived-grid).
+
+⚠️ **Please refer to the information in the info box above to see in which `Items` you can find which files.**
+
 ## Data format {#data-format}
 
 The data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of 1.1 MB for *individual files*, and 13 MB for monthly files with daily data and up to 200MB for yearly files with daily data.
