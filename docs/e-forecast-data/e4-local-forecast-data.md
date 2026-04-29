@@ -107,7 +107,7 @@ Date/Time is expressed as `YYYYMMDDHHMM` and represents time in UTC.
   <TabItem value="parameters" label="Parameters">
     All parameters have a unique identifier that depends on the meteorological variable, the time resolution and possibly the ensemble statistic used (e.g. `rreq90h0` for "Precipitation; hourly total, 90% quantile").
     
-    [`ogd-local-forecasting_meta_parameters.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-local-forecasting/ogd-local-forecasting_meta_parameters.csv) provides a list of all parameter identifiers available for the local forecast data collection with description, time interval, decimal places, data type and units.
+  [The parameter file ](https://data.geo.admin.ch/ch.meteoschweiz.ogd-local-forecasting/ogd-local-forecasting_meta_parameters.csv) provides a list of all parameter identifiers available for the local forecast data collection with description, time interval, decimal places, data type and units.
   </TabItem>
   <TabItem value="points" label="Points">
     There are three types of points:
