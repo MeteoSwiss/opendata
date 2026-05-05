@@ -121,7 +121,7 @@ Date/Time is expressed as `YYYYMMDDHHMM` and represents time in UTC.
     
     :::
 
-    [`ogd-local-forcasting_meta_point.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-local-forecasting/ogd-local-forcasting_meta_point.csv) provides a list of all points with their respective id, name, type, altitude and coordinates.
+    [`ogd-local-forecasting_meta_point.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-local-forecasting/ogd-local-forecasting_meta_point.csv) provides a list of all points with their respective id, name, type, altitude and coordinates.
   </TabItem>
 </Tabs>
 
