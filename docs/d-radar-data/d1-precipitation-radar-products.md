@@ -19,7 +19,9 @@ The **CombiPrecip (CPC) product** combines in real-time the precipitation inform
 
 :::info
 
-The reanalysis version of CombiPrecip is being calculated for the hourly values only (00:00h, 01:00h, 02:00h etc.) and is published 8 days later automatically, where the original hourly files will be overwritten. If you are interested in these reanalysis values, please check out the hourly files 8 days later. You will find in the Metadata the "Updated" timestamp showing, that the file has been updated 8 days later.
+The reanalysis version of CombiPrecip is being calculated for the hourly values only (00:00h, 01:00h, 02:00h etc.) and is published 8 days later automatically, where the original hourly files will be overwritten. If you are interested in these reanalysis values, please check out the hourly files 8 days later. You will find in the Metadata the "Updated" timestamp showing, that the file has been updated 8 days later. For analysis purposes this is the recommended CPC data. The 5min CPC data should only be used for real time applications.
+
+Please note: If the quality flag changes, the file name will also change, and a second file will be produced so that the old hourly CPC file is not overwritten by the CPC analysis file. The only differences between the two files are the quality flag value and the timestamp. 
 
 :::
 
@@ -51,7 +53,7 @@ The data is split by parameter, calendar date (see STAC 'items' respectively 'fe
 
 **The available parameters are:**
 
-| Parameter                              | Time resolution; Update frequency | Filename format                |
+| Parameter                              | Time resolution; Update frequency | File name format                |
 | -------------------------------------- | --------------------------------- | ------------------------------ |
 | PRECIP                                 | 5 minutes                         | `RZCyyjjjHHMM\*.\*01.h5`       |
 | PRECIP-SV                              | 5 minutes                         | `TZCyyjjjHHMM\*.\*01.h5`       |
@@ -92,7 +94,7 @@ The data is provided in the `ODIM HDF5` standard format, [described here](https:
 
 :::info
 
-Please note, that for the processing of HDF5 files, specialised software packages may be needed. 
+Please note that for the processing of HDF5 files specialised software packages may be needed. 
 
 :::
 
@@ -109,8 +111,6 @@ The metadata is included in each HDF5-File.
 | `CPCH`    | Combiprecip 60-minute total reanalysis | mm            | Precipitation accumulation over 1 hour |
 | `RZC`     | PRECIP                                 | mm/h          | Instantaneous rain rate                |
 | `TZC`     | PRECIP-SV                              | mm/h          | Instantaneous rain rate                |
-
-
 
 
 
