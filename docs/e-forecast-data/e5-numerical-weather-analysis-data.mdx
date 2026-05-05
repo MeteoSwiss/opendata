@@ -24,8 +24,8 @@ MeteoSwiss produces analysis data using the [KENDA](https://www.meteoswiss.admin
   - [Models' specifications](#models-specifications)
   - [Instantaneous analysis fields](#instantaneous-analysis-fields)
   - [First guess fields](#first-guess-fields)
-  - [Pollen variables](#pollen-variables)
   - [Available parameters](#available-parameters)
+    - [Pollen data](#pollen-data)
 - [Download options](#download-options)
 - [FAQ/Troubleshooting](#faqtroubleshooting)
 
@@ -35,7 +35,7 @@ MeteoSwiss produces analysis data using the [KENDA](https://www.meteoswiss.admin
 
 ### Example notebooks: From retrieval to visualization {#example-notebooks-from-retrieval-to-visualization}
 
-To get started quickly, explore the [Jupyter notebook](https://github.com/MeteoSwiss/opendata-nwp-demos/TODO_FILL_WITH_LINK), which shows how to retrieve and visualize a parameter e.g. pollen from the analysis data.
+To get started quickly, explore the [Jupyter notebook](https://github.com/MeteoSwiss/opendata-nwp-demos/11_analysis_data.ipynb), which shows how to retrieve and visualize wind gusts from analysis data.
 
 ## Available data {#available-data}
 
@@ -103,20 +103,39 @@ Parameters to be retrieved at **step = 1** can be identified in the **Overview o
 
 <br></br>
 
-### Pollen variables {#pollen-variables}
-
-Pollen concentrations are included in the **instantaneous analysis fields** and are updated **every hour**.
-
-These variables are also available in the [ICON-CH2-EPS forecast datasets](/e-forecast-data/e2-e3-numerical-weather-forecasting-model).
-
-Note that pollen parameters are **added dynamically** depending on the currently active pollen types.  
-If a specific pollen variable cannot be found, it may simply mean that the corresponding pollen type is **not currently active** and therefore not present in the dataset.
-
-<br></br>
-
 ### Available parameters {#available-parameters}
 
 To access the parameter overview, open the [collection page for the analysis dataset](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-analysis-kenda-ch1?.language=en). In the **Assets** section, download the file labeled **Overview of Parameters**.
+
+#### Pollen data {#pollen-data}
+
+Pollen concentrations are included in the **instantaneous KENDA analysis fields** of the `ch.meteoschweiz.ogd-analysis-kenda-ch1` collection. They are available at **step = 0**, corresponding to `lead_time="P0DT0H"` in the Python API, and are updated **every hour**.
+
+The pollen modelling chain combines information on plant distribution, flowering state and weather conditions with recent observations from the MeteoSwiss real-time pollen observation network. At the beginning of the season for a given pollen type, pollen is initialized in the **KENDA-CH1 08:00 UTC cycle**.
+
+Pollen data is only available during the active season of the corresponding pollen type. The following pollen variables may be available:
+
+| Pollen type | Variable | Season window* | Day of year |
+| ----------- | -------- | -------------- | ----------- |
+| alder | `ALNUsnc` | Jan 8 – Mar 31 | 8 – 90 |
+| ragweed | `AMBRsnc` | Jul 9 – Sep 30 | 190 – 273 |
+| birch | `BETUsnc` | Mar 18 – May 25 | 77 – 145 |
+| hazel | `CORYsnc` | Jan 8 – Mar 17 | 8 – 76 |
+| grasses | `POACsnc` | Apr 1 – Aug 31 | 91 – 243 |
+
+\* For non-leap years; the day of year is used as the reference.
+
+Note that pollen parameters are **added dynamically** depending on the currently active pollen types. If a specific pollen variable cannot be found, it may simply mean that the corresponding pollen type is **not currently active** and therefore not present in the dataset.
+
+The pollen variables are provided as **specific number concentrations** — the number of particles per kg of air. To compare them with observations, which are usually expressed as volume concentrations, multiply the pollen concentration by the total air density `DEN`. The `DEN` field is also available for this conversion.
+
+Pollen variables and `DEN` are available only on the **lowest full model level**, `model_level=80`, representing the mean value over approximately the first **20 m above ground**.
+
+The same pollen variables are also available in the [ICON-CH2-EPS forecast datasets](/e-forecast-data/e2-e3-numerical-weather-forecasting-model). The ICON-CH2-EPS control runs, initialized at **00, 06, 12 and 18 UTC**, provide pollen forecasts up to **+120 hours** ahead.
+
+For a practical example, see the [Jupyter notebook](https://github.com/MeteoSwiss/opendata-nwp-demos/10_icon_ch2_pollen_forecast.ipynb), which demonstrates how to retrieve, convert and visualize pollen data.
+
+<br></br>
 
 ## Download options {#download-options}
 
