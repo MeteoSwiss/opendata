@@ -37,4 +37,5 @@ You will receive a confirmation mail to the email address from which you sent th
 :::
 
 ## Changelog
+- 2026-03-24 - [ICON Info: Improved precipitation, radiation, and temperature](./static/docs_img/changelog/2026-03-12%20ICON-Info.pdf)
 - 2026 Q1 - [ICON Info: Improved precipitation, radiation, and temperature](./static/docs_img/changelog/2025-11-12%20ICON-Info.pdf)
