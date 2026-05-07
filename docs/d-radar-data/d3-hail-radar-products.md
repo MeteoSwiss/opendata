@@ -40,6 +40,7 @@ Please note that the STAC item for the following day has already been created. F
 
 :::
 
+**Archive data** is available on request. **Please contact us via our** [**contact form**](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html).
 
 ## Data structure {#data-structure}
 The data is split by parameter, calendar date (see STAC 'items' respectively 'features') and time resolution. It is provided via a rolling time window covering the last 14 days.
@@ -55,6 +56,8 @@ The data is split by parameter, calendar date (see STAC 'items' respectively 'fe
 
 All timestamps are the respective 5-minute values, except for:
 - BZCyyjjj**2400**vl.845.h5 is the 24-hour sum (between 00:00 and 24:00 UTC) and
+- BZCyyjjj**3000**vl.845.h5 is the 24-hour sum (between 06:00 and 06:00 UTC) and
+- MZCyyjjj**2400**vl.850.h5 is the 24-hour sum (between 00:00 and 24:00 UTC)
 - MZCyyjjj**3000**vl.850.h5 is the 24-hour sum (between 06:00 and 06:00 UTC).
 
 :::
