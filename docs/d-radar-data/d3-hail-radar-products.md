@@ -56,6 +56,8 @@ The data is split by parameter, calendar date (see STAC 'items' respectively 'fe
 
 All timestamps are the respective 5-minute values, except for:
 - BZCyyjjj**2400**vl.845.h5 is the 24-hour sum (between 00:00 and 24:00 UTC) and
+- BZCyyjjj**3000**vl.845.h5 is the 24-hour sum (between 06:00 and 06:00 UTC) and
+- MZCyyjjj**2400**vl.850.h5 is the 24-hour sum (between 00:00 and 24:00 UTC)
 - MZCyyjjj**3000**vl.850.h5 is the 24-hour sum (between 06:00 and 06:00 UTC).
 
 :::
