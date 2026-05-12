@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Spatial climate analyses – Radiation, clouds
+# Spatial climate analyses – Radiation, Clouds
 
 These grid data products are derived from [MeteoSat satellite data](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/satellite-observations.html) together with ground-based measurements (for more see the linked detailed product documentations).
 
