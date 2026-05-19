@@ -42,8 +42,6 @@ import TabItem from '@theme/TabItem';
 
 <Tabs queryString="Datenstruktur">
   <TabItem value="files-per-station" label="Dateien pro Station">
-    The data is split by measuring station. A file for a station contains **all available parameters in one file**. There are files with daily `d`, monthly `m` and yearly `y` values.
-
     Die Daten sind nach Messstationen gegliedert. Eine Datei einer Station enthält **alle verfügbaren Parameter in derselben Datei**. Es gibt Dateien mit Tageswerten (`d`), Monatswerten (`m`) und Jahreswerten (`y`).
 
     Wir empfehlen dringend, die entsprechend aggregierte [Datengranularität](/general/download#data-granularity) herunterzuladen.
@@ -65,7 +63,7 @@ import TabItem from '@theme/TabItem';
     [`ogd-nbcn_meta_parameters.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-nbcn/ogd-nbcn_meta_parameters.csv) enthält eine Liste aller Parameterkennungen mit Erläuterung, Zeitintervall, Dezimalstellen, Datentyp und Masseinheit.
   </TabItem>
   <TabItem value="stations" label="Stationen">
-    Alle Bahnhöfe haben ein dreistelliges Kürzel (z.B. `BER` für "Bern/Zollikofen" oder `LUG` für "Lugano").
+    Alle Stationen haben ein dreistelliges Kürzel (z.B. `BER` für "Bern/Zollikofen" oder `LUG` für "Lugano").
     
     [`ogd-nbcn_meta_stations.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-nbcn/ogd-nbcn_meta_stations.csv) enthält eine Liste aller Stationskennungen mit Name, Kanton, Wigos ID, Stationstyp, Höhe, Koordinaten, Ausrichtung und URL der Stationsdetailseite.
   </TabItem>
@@ -78,4 +76,4 @@ import TabItem from '@theme/TabItem';
 
 Siehe z.B. die [Swiss NBCN network map](https://www.meteoschweiz.admin.ch/service-und-publikationen/applikationen/messnetze.html#param=messnetz-klima&lang=de&table=false&compare=y) von Meteoschweiz.
 
-Erfahren Sie mehr über die [Klima-Analysen & Expertisen](https://www.meteoschweiz.admin.ch/service-und-publikationen/service/wetter-und-klimaprodukte/klima-analysen-und-expertisen.html), und in [unseren Blog-Artikeln (Kategorie 'Klima')](https://www.meteoschweiz.admin.ch/ueber-uns/meteoschweiz-blog.html#order=date-desc&page=1&pageGroup=blog-article&tenant=mchweb&category=climate).
+Erfahren Sie mehr über auf unserer Webpage zu [Klima-Analysen & Expertisen](https://www.meteoschweiz.admin.ch/service-und-publikationen/service/wetter-und-klimaprodukte/klima-analysen-und-expertisen.html) und in [unseren Blog-Artikeln (Kategorie 'Klima')](https://www.meteoschweiz.admin.ch/ueber-uns/meteoschweiz-blog.html#order=date-desc&page=1&pageGroup=blog-article&tenant=mchweb&category=climate).
