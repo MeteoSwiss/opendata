@@ -78,4 +78,4 @@ import TabItem from '@theme/TabItem';
 
 Siehe z.B. die [Swiss NBCN network map](https://www.meteoschweiz.admin.ch/service-und-publikationen/applikationen/messnetze.html#param=messnetz-klima&lang=de&table=false&compare=y) von Meteoschweiz.
 
-Erfahren Sie mehr über die [Klima-Analysen & Expertisen](https://www.meteoschweiz.admin.ch/service-und-publikationen/service/wetter-und-klimaprodukte/klima-analysen-und-expertisen.html), und in [unseren Blog-Artikeln (Kategorie 'Klima')](https://www.meteoschweiz.admin.ch/ueber-uns/meteoschweiz-blog.html#order=date-desc&page=1&pageGroup=blog-article&tenant=mchweb&category=climate).
+Erfahren Sie mehr über auf unserer Webpage zu [Klima-Analysen & Expertisen](https://www.meteoschweiz.admin.ch/service-und-publikationen/service/wetter-und-klimaprodukte/klima-analysen-und-expertisen.html) und in [unseren Blog-Artikeln (Kategorie 'Klima')](https://www.meteoschweiz.admin.ch/ueber-uns/meteoschweiz-blog.html#order=date-desc&page=1&pageGroup=blog-article&tenant=mchweb&category=climate).
