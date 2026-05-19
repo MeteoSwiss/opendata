@@ -63,7 +63,7 @@ import TabItem from '@theme/TabItem';
     [`ogd-nbcn_meta_parameters.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-nbcn/ogd-nbcn_meta_parameters.csv) enthält eine Liste aller Parameterkennungen mit Erläuterung, Zeitintervall, Dezimalstellen, Datentyp und Masseinheit.
   </TabItem>
   <TabItem value="stations" label="Stationen">
-    Alle Bahnhöfe haben ein dreistelliges Kürzel (z.B. `BER` für "Bern/Zollikofen" oder `LUG` für "Lugano").
+    Alle Stationen haben ein dreistelliges Kürzel (z.B. `BER` für "Bern/Zollikofen" oder `LUG` für "Lugano").
     
     [`ogd-nbcn_meta_stations.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-nbcn/ogd-nbcn_meta_stations.csv) enthält eine Liste aller Stationskennungen mit Name, Kanton, Wigos ID, Stationstyp, Höhe, Koordinaten, Ausrichtung und URL der Stationsdetailseite.
   </TabItem>
