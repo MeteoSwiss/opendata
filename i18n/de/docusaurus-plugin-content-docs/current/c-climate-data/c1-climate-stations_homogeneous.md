@@ -42,8 +42,6 @@ import TabItem from '@theme/TabItem';
 
 <Tabs queryString="Datenstruktur">
   <TabItem value="files-per-station" label="Dateien pro Station">
-    The data is split by measuring station. A file for a station contains **all available parameters in one file**. There are files with daily `d`, monthly `m` and yearly `y` values.
-
     Die Daten sind nach Messstationen gegliedert. Eine Datei einer Station enthält **alle verfügbaren Parameter in derselben Datei**. Es gibt Dateien mit Tageswerten (`d`), Monatswerten (`m`) und Jahreswerten (`y`).
 
     Wir empfehlen dringend, die entsprechend aggregierte [Datengranularität](/general/download#data-granularity) herunterzuladen.
