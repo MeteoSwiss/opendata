@@ -196,7 +196,7 @@ import TabItem from '@theme/TabItem';
     ```
 
     Each parameter in the request body serves the following purpose:
-    - `collections`: Defines the forecast model to retrieve (`ch.meteoschweiz.ogd-forecasting-icon-ch1` for ICON-CH1-EPS, `ch.meteoschweiz.ogd-forecasting-icon-ch2` for ICON-CH2-EPS and `ch.meteoschweiz.ogd-analysis-kenda-ch1`).
+    - `collections`: Defines the forecast or analysis model to retrieve (`ch.meteoschweiz.ogd-forecasting-icon-ch1` for ICON-CH1-EPS, `ch.meteoschweiz.ogd-forecasting-icon-ch2` for ICON-CH2-EPS and `ch.meteoschweiz.ogd-analysis-kenda-ch1` for KENDA-CH1).
     - `forecast:reference_datetime`: Specifies the desired forecast initialization time (e.g., `2025-03-12T12:00:00Z`).
     - `forecast:variable`: Indicates the meteorological parameter of interest (`TOT_PREC` for total precipitation, for example).
     - `forecast:perturbed`: Boolean flag determining if the request is for deterministic (`false`) or ensemble (`true`) data.
