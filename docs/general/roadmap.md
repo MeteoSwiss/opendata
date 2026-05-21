@@ -31,14 +31,14 @@ The roadmap is based on the [**Vision and strategy** of MeteoSwiss' Open Data pr
 </details>
 
 <details>
-  <summary>'Pollen forecast data' is being prepared to be available by the end of April as an additional parameter of the 'Numerical weather forecasting model ICON-CH2-EPS'.</summary>
+  <summary>'Pollen forecast data' is being prepared to be available by the end of May as an additional parameter of the 'Numerical weather forecasting model ICON-CH2-EPS'.</summary>
 
   Note: Pollen variables are only generated when activated during the season.<br></br>
   More about [the 'ICON-CH2-EPS' open data product](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model).
 </details>
 
 <details>
-  <summary>'Analysis data' is being prepared to be available by the end of April.</summary>
+  <summary>'Analysis data' is being prepared to be available by the end of May</summary>
 
   Hourly KENDA analysis data. Only the deterministic run will be published (no ensemble members). The set of parameters is still to be defined but will include pollen-related variables.<br></br>
   More info about this open data product will be coming soon. 
