@@ -19,7 +19,7 @@ The **CombiPrecip (CPC) product** combines in real-time the precipitation inform
 
 :::info
 
-The reanalysis version of CombiPrecip is being calculated for the hourly values only (00:00h, 01:00h, 02:00h etc.) and is published 8 days later automatically, where the original hourly files will be overwritten. If you are interested in these reanalysis values, please check out the hourly files 8 days later. You will find in the Metadata the "Updated" timestamp showing, that the file has been updated 8 days later.
+The reanalysis version of CombiPrecip is being calculated for the hourly values only (00:00h, 01:00h, 02:00h etc.) and is published 8 days later automatically, where the original hourly files will be overwritten. If you are interested in these reanalysis values, please check out the hourly files 8 days later. You will find in the Metadata the "Updated" timestamp showing, that the file has been updated 8 days later. For analysis purposes this is the recommended CPC data. The 5min CPC data should only be used for real time applications.
 
 Please note: If the quality flag changes, the file name will also change, and a second file will be produced so that the old hourly CPC file is not overwritten by the CPC analysis file. The only differences between the two files are the quality flag value and the timestamp. 
 
