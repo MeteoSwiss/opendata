@@ -25,6 +25,8 @@ The documentation covers the following topics:
     - [24h availability window](#24h-availability-window)
     - [Models' specifications](#models-specifications)
     - [Available parameters](#available-parameters)
+        - [Parameter overview](#parameter-overview)
+        - [Pollen data](#pollen-data)
 - [Download options](#download-options)
     - [Using the Python API](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=pythonapi#download-options)
     - [Using the REST API (HTTP POST)](/e-forecast-data/e2-e3-numerical-weather-forecasting-model?download-options=restapi#download-options)
@@ -91,12 +93,6 @@ Each collection contains both **constant** and **variable parameters**.
 **Variable parameters** change over time and include forecast quantities such as air pressure and temperature. <br />
 **Constant parameters** remain fixed within a single model run and describe the underlying grid or surface properties. We distinguish between the following categories.
 
-:::info
-
-A universally unique identifier (UUID) is assigned to both horizontal and vertical constants, distinguished as "uuidOfHGrid" and "uuidOfVGrid", to verify that the constant data is consistent with the forecast data.
-
-:::
-
 - Vertical constants:
     - **HHL** Geometric height of the layer limits above sea level, see the [model grid documentation](/e-forecast-data/e2-e3-numerical-weather-forecasting-model#vertical-grid)
 
@@ -107,6 +103,12 @@ A universally unique identifier (UUID) is assigned to both horizontal and vertic
     - **HSURF**	Geometric height of the earth's surface above sea level
     - **SOILTYPE**	Type of soil, based on the [soilType.table](https://github.com/COSMO-ORG/eccodes-cosmo-resources/blob/master/definitions/soilType.table)
 
+:::info
+
+A universally unique identifier (UUID) is assigned to both horizontal and vertical constants, distinguished as "uuidOfHGrid" and "uuidOfVGrid", to verify that the constant data is consistent with the forecast data.
+
+:::
+
 For a practical example of how to download constant parameters in Python, refer to notebook [09_constant_parameters.ipynb](https://github.com/MeteoSwiss/opendata-nwp-demos/blob/main/09_constant_parameters.ipynb).
 
 :::info
@@ -115,7 +117,13 @@ When downloading variable parameters through the Python API, the corresponding h
 
 :::
 
-> ⚠️ **WARNING**: At the moment, the collection assets are not versioned such that there is no way to fetch a previous version of the constant run parameters. If you are building an archive, you may need to keep track of those constants. 
+:::warning
+
+At the moment, the collection assets are not versioned such that there is no way to fetch a previous version of the constant run parameters. If you are building an archive, you may need to keep track of those constants. 
+
+:::
+
+#### Parameter overview
 
 Moreover, each collection includes a downloadable CSV file with a continuously updated list of all available parameters. The file includes metadata such as:
 - long name
@@ -128,7 +136,41 @@ Moreover, each collection includes a downloadable CSV file with a continuously u
 
 To access this file, open the collection page and download in the Asset section the file labeled “**Overview of Parameters**”. Available collections are:
 - [ICON-CH1-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch1?.language=en)
-- [ICON-CH2-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch2?.language=en).
+- [ICON-CH2-EPS](https://data.geo.admin.ch/browser/#/collections/ch.meteoschweiz.ogd-forecasting-icon-ch2?.language=en)
+- [KENDA-CH1](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-analysis-kenda-ch1?.language=en).
+
+#### Pollen data
+
+The ICON-CH2-EPS control forecast also includes pollen concentrations. The pollen data is available exclusively 
+on the **lowest full model level** (`model_level=80`) representing the mean value 
+over approximately the first **20 m above ground**. As pollen emission is a seasonal process, 
+each pollen type is only generated and present in the dataset during its 
+respective active flowering period, summarized in the table below.
+
+
+| Pollen type | Variable | Season window* | Day of year |
+| ----------- | -------- | -------------- | ----------- |
+| alder | `ALNUsnc` | Jan 8 – Mar 31 | 8 – 90 |
+| ragweed | `AMBRsnc` | Jul 9 – Sep 30 | 190 – 273 |
+| birch | `BETUsnc` | Mar 18 – May 25 | 77 – 145 |
+| hazel | `CORYsnc` | Jan 8 – Mar 17 | 8 – 76 |
+| grasses | `POACsnc` | Apr 1 – Aug 31 | 91 – 243 |
+
+\* For non-leap years; otherwise the day of year is used as the reference.
+
+:::note
+
+If a specific pollen variable cannot be found, it is likely that the corresponding 
+pollen type is **not currently in season**. To verify which pollen parameters are 
+currently available, please consult the [parameter overview](#parameter-overview) file mentioned above.
+
+:::
+
+The same pollen variables are also available in the [KENDA-CH1 analysis dataset](https://opendatadocs.meteoswiss.ch/e-forecast-data/e5-numerical-weather-analysis-data). 
+The KENDA-CH1 runs, initialized hourly, represent the best estimate of the pollen state at a past point in time.
+
+For a practical example, see the [Jupyter notebook](https://github.com/MeteoSwiss/opendata-nwp-demos/10_icon_ch2_pollen_forecast.ipynb), 
+which demonstrates how to retrieve, convert and visualize pollen data.
 
 ## Download options {#download-options}
 
