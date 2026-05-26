@@ -72,7 +72,7 @@ The data files of the current month/year are available in the **'Items' list** (
 
 :::
 
-## Data download {#data-download}
+## Data download
 
 The Open Data from MeteoSwiss may be used without restriction; the **source must be cited** when reproducing or redistributing ("**Source: MeteoSwiss**").
 
@@ -92,15 +92,15 @@ Select and download **files** manually via FSDI's [STAC Browser](https://data.ge
 
 ⚠️ **Please refer to the information in the info box above to see in which `Items` you can find which files.**
 
-## Data format {#data-format}
+## Data format
 
 The data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/).
 
-## Coordinate system {#coordinate-system}
+## Coordinate system
 
 The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056). 
 
-## Data usage {#data-usage}
+## Data usage
 
 See e.g. 
 - Application-Browsers in MeteoSwiss' [Hail Climatology](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html )
