@@ -15,8 +15,8 @@ The following Hail datasets are available via our Open Data service and are list
 **Maximum Hailstone Size**
 | Product | File name contains |
 |:--------|:-------------------|
-| Monthly and Yearly radar-based Maximum Hailstone Size - absolute values | `hailsizeM` and `hailsizeY` |
-| Monthly and Yearly radar-based Maximum Hailstone Size - anomalies | `hailsizeanomM` and `hailsizeanomY` | 
+| Monthly and Yearly radar-based Maximum Hailstone Size - absolute values | `hailsizeM` resp. `hailsizeY` |
+| Monthly and Yearly radar-based Maximum Hailstone Size - anomalies | `hailsizeanomM` resp. `hailsizeanomY` | 
 
 Documentation: [https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html) (cf. also under "Product Information" within the [Application "Hail Maps"](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/climate-hail-maps.html)
 
@@ -24,12 +24,12 @@ Documentation: [https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerla
 **Number of Hail Days**
 | Product | File name contains |
 |:--------|:-------------------|
-| Monthly and Yearly radar-based Number of Hail Days - absolute values | `haildaysM` and `haildaysY` |
-| Monthly and Yearly radar-based Number of Hail Days - anomalies | `haildaysanomM` and `haildaysanomY` | 
-| Monthly and Yearly radar-based Number of Hail Days with Hail >2cm - absolute values | `haildays2cmM` and `haildays2cmY` |
-| Monthly and Yearly radar-based Number of Hail Days with Hail >2cm - anomalies | `haildays2cmanomM` and `haildays2cmanomY` |
-| Monthly and Yearly radar-based Number of Hail Days with Hail >4cm - absolute values | `haildays4cmM` and `haildays4cmY` |
-| Monthly and Yearly radar-based Number of Hail Days with Hail >4cm - anomalies | `haildays4cmanomM` and `haildays4cmanomY` |
+| Monthly and Yearly radar-based Number of Hail Days - absolute values | `haildaysM` resp. `haildaysY` |
+| Monthly and Yearly radar-based Number of Hail Days - anomalies | `haildaysanomM` resp. `haildaysanomY` | 
+| Monthly and Yearly radar-based Number of Hail Days with Hail >2cm - absolute values | `haildays2cmM` resp. `haildays2cmY` |
+| Monthly and Yearly radar-based Number of Hail Days with Hail >2cm - anomalies | `haildays2cmanomM` resp. `haildays2cmanomY` |
+| Monthly and Yearly radar-based Number of Hail Days with Hail >4cm - absolute values | `haildays4cmM` resp. `haildays4cmY` |
+| Monthly and Yearly radar-based Number of Hail Days with Hail >4cm - anomalies | `haildays4cmanomM` resp. `haildays4cmanomY` |
 
 Documentation: [https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html) (cf. also under "Product Information" within the [Application "Hail Maps"](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/climate-hail-maps.html))
 
@@ -37,18 +37,12 @@ Documentation: [https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerla
 **Long-term Climatology of Number of Hail Days**
 | Product | File name contains |
 |:--------|:-------------------|
-| Monthly and Yearly climatology (2002 – current) of Hail Days - absolute values | `haildaysclimM` and `haildaysclimY` |
-| Monthly and Yearly climatology (2002 – current) of Hail Days - standard deviation | `haildaysclimstdM` and `haildaysclimstdY` |
-| Monthly and Yearly climatology (2013 – current) of Hail Days - absolute values | `haildaysclimM` and `haildaysclimY` |
-| Monthly and Yearly climatology (2013 – current) of Hail Days - standard deviation | `haildaysclimstdM` and `haildaysclimstdY` |
-| Monthly and Yearly climatology (2002 – current) of Hail Days with Hail >2cm - absolute values | `haildays2cmclimM` and `haildays2cmclimY` |
-| Monthly and Yearly climatology (2002 – current) of Hail Days with Hail >2cm - standard deviation | `haildays2cmclimstdM` and `haildays2cmclimstdY` |
-| Monthly and Yearly climatology (2013 – current) of Hail Days with Hail >2cm - absolute values | `haildays2cmclimM` and `haildays2cmclimY` |
-| Monthly and Yearly climatology (2013 – current) of Hail Days with Hail >2cm - standard deviation | `haildays2cmclimstdM` and `haildays2cmclimstdY` |
-| Monthly and Yearly climatology (2002 – current) of Hail Days with Hail >4cm - absolute values | `haildays4cmclimM` and `haildays4cmclimY` |
-| Monthly and Yearly climatology (2002 – current) of Hail Days with Hail >4cm - standard deviation | `haildays4cmclimstdM` and `haildays4cmclimstdY` |
-| Monthly and Yearly climatology (2013 – current) of Hail Days with Hail >4cm - absolute values | `haildays4cmclimM` and `haildays4cmclimY` |
-| Monthly and Yearly climatology (2013 – current) of Hail Days with Hail >4cm - standard deviation | `haildays4cmclimstdM` and `haildays4cmclimstdY` |
+| Monthly and Yearly climatology (2002 – current) of Hail Days - absolute values | `haildaysclimM` resp. `haildaysclimY` |
+| Monthly and Yearly climatology (2002 – current) of Hail Days - standard deviation | `haildaysclimstdM` resp. `haildaysclimstdY` |
+| Monthly and Yearly climatology (2002 – current) of Hail Days with Hail >2cm - absolute values | `haildays2cmclimM` resp. `haildays2cmclimY` |
+| Monthly and Yearly climatology (2002 – current) of Hail Days with Hail >2cm - standard deviation | `haildays2cmclimstdM` resp. `haildays2cmclimstdY` |
+| Monthly and Yearly climatology (2002 – current) of Hail Days with Hail >4cm - absolute values | `haildays4cmclimM` resp. `haildays4cmclimY` |
+| Monthly and Yearly climatology (2002 – current) of Hail Days with Hail >4cm - standard deviation | `haildays4cmclimstdM` resp. `haildays4cmclimstdY` |
 
 Documentation: [https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html) (cf. also under "Product Information" within the [Application "Hail Climatology"](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/climate-hailclim.html))
 
