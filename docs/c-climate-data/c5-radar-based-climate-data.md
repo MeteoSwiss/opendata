@@ -15,8 +15,8 @@ The following Hail datasets are available via our Open Data service and are list
 **Maximum Hailstone Size**
 | Product | File name contains |
 |:--------|:-------------------|
-| Monthly and Yearly radar-based Maximum Hailstone Size - absolute values | `hailsizeM` resp. `hailsizeY` |
-| Monthly and Yearly radar-based Maximum Hailstone Size - anomalies | `hailsizeanomM` resp. `hailsizeanomY` | 
+| Monthly and Yearly radar-based Maximum Hailstone Size - absolute values | `hailsizeM` / `hailsizeY` |
+| Monthly and Yearly radar-based Maximum Hailstone Size - anomalies | `hailsizeanomM` / `hailsizeanomY` | 
 
 Documentation: [https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html) (cf. also under "Product Information" within the [Application "Hail Maps"](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/climate-hail-maps.html)
 
@@ -24,12 +24,12 @@ Documentation: [https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerla
 **Number of Hail Days**
 | Product | File name contains |
 |:--------|:-------------------|
-| Monthly and Yearly radar-based Number of Hail Days - absolute values | `haildaysM` resp. `haildaysY` |
-| Monthly and Yearly radar-based Number of Hail Days - anomalies | `haildaysanomM` resp. `haildaysanomY` | 
-| Monthly and Yearly radar-based Number of Hail Days with Hail >2cm - absolute values | `haildays2cmM` resp. `haildays2cmY` |
-| Monthly and Yearly radar-based Number of Hail Days with Hail >2cm - anomalies | `haildays2cmanomM` resp. `haildays2cmanomY` |
-| Monthly and Yearly radar-based Number of Hail Days with Hail >4cm - absolute values | `haildays4cmM` resp. `haildays4cmY` |
-| Monthly and Yearly radar-based Number of Hail Days with Hail >4cm - anomalies | `haildays4cmanomM` resp. `haildays4cmanomY` |
+| Monthly and Yearly radar-based Number of Hail Days - absolute values | `haildaysM` / `haildaysY` |
+| Monthly and Yearly radar-based Number of Hail Days - anomalies | `haildaysanomM` / `haildaysanomY` | 
+| Monthly and Yearly radar-based Number of Hail Days with Hail >2cm - absolute values | `haildays2cmM` / `haildays2cmY` |
+| Monthly and Yearly radar-based Number of Hail Days with Hail >2cm - anomalies | `haildays2cmanomM` / `haildays2cmanomY` |
+| Monthly and Yearly radar-based Number of Hail Days with Hail >4cm - absolute values | `haildays4cmM` / `haildays4cmY` |
+| Monthly and Yearly radar-based Number of Hail Days with Hail >4cm - anomalies | `haildays4cmanomM` / `haildays4cmanomY` |
 
 Documentation: [https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html) (cf. also under "Product Information" within the [Application "Hail Maps"](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/climate-hail-maps.html))
 
@@ -37,12 +37,12 @@ Documentation: [https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerla
 **Long-term Climatology of Number of Hail Days**
 | Product | File name contains |
 |:--------|:-------------------|
-| Monthly and Yearly climatology (2002 – current) of Hail Days - absolute values | `haildaysclimM` resp. `haildaysclimY` |
-| Monthly and Yearly climatology (2002 – current) of Hail Days - standard deviation | `haildaysclimstdM` resp. `haildaysclimstdY` |
-| Monthly and Yearly climatology (2002 – current) of Hail Days with Hail >2cm - absolute values | `haildays2cmclimM` resp. `haildays2cmclimY` |
-| Monthly and Yearly climatology (2002 – current) of Hail Days with Hail >2cm - standard deviation | `haildays2cmclimstdM` resp. `haildays2cmclimstdY` |
-| Monthly and Yearly climatology (2002 – current) of Hail Days with Hail >4cm - absolute values | `haildays4cmclimM` resp. `haildays4cmclimY` |
-| Monthly and Yearly climatology (2002 – current) of Hail Days with Hail >4cm - standard deviation | `haildays4cmclimstdM` resp. `haildays4cmclimstdY` |
+| Monthly and Yearly climatology (2002 – current) of Hail Days - absolute values | `haildaysclimM` / `haildaysclimY` |
+| Monthly and Yearly climatology (2002 – current) of Hail Days - standard deviation | `haildaysclimstdM` / `haildaysclimstdY` |
+| Monthly and Yearly climatology (2002 – current) of Hail Days with Hail >2cm - absolute values | `haildays2cmclimM` / `haildays2cmclimY` |
+| Monthly and Yearly climatology (2002 – current) of Hail Days with Hail >2cm - standard deviation | `haildays2cmclimstdM` / `haildays2cmclimstdY` |
+| Monthly and Yearly climatology (2002 – current) of Hail Days with Hail >4cm - absolute values | `haildays4cmclimM` / `haildays4cmclimY` |
+| Monthly and Yearly climatology (2002 – current) of Hail Days with Hail >4cm - standard deviation | `haildays4cmclimstdM` / `haildays4cmclimstdY` |
 
 Documentation: [https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html) (cf. also under "Product Information" within the [Application "Hail Climatology"](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/climate-hailclim.html))
 
@@ -53,7 +53,7 @@ Documentation: [https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerla
 | Return Values for Maximum Hailstone Size (MESHS, scale 1 km2) for return periods of 2, 5, 10, 20, 30, 50, 70 and 100 years | `returnperiod[002, 005, ..., 100]ymeshs` |
 | Return Values for Largest Expected Hail on a reference area (LEHA, scale 100 m2) for return periods of 2, 5, 10, 20, 30, 50, 70 and 100 years | `returnperiod[002, 005, ..., 100]yleha` |
 
-- Documentation: [https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology/hail-hazard.html](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology/hail-hazard.html) (cf. also under "Product Information" within the [Application "Hail Hazard"](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/climate-hailhazard.html))
+Documentation: [https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology/hail-hazard.html](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology/hail-hazard.html) (cf. also under "Product Information" within the [Application "Hail Hazard"](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/climate-hailhazard.html))
 
 
 **Further documentation:** 
@@ -101,8 +101,7 @@ The data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/).
 The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056). 
 
 ## Data usage
-
-See e.g. 
+ 
 - Application-Browsers in MeteoSwiss' [Hail Climatology](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html )
 - [NCCS brochure "Hail Climate Switzerland"](https://www.nccs.admin.ch/dam/nccs/en/dokumente/website/hagel/nccs_broschuere_hagelklima_schweiz.pdf.download.pdf/NCCS_Brochure_Hail_Climate_Switzerland.pdf) (PDF, 3 MB, 04.05.2021)
 - [https://www.hagelforschung.ch/lernmodule](https://www.hagelforschung.ch/lernmodule)
