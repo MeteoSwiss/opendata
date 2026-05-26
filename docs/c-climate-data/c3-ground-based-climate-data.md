@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Spatial climate analyses – Precipitation, Temperature, Sunshine
+# Spatial climate analyses - Precipitation, Temperature, Sunshine
 
 [Spatial climate analyses](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/spatial-climate-analyses.html) are datasets that describe the geographic distribution and temporal evolution of near-surface climate variables. The data is represented comprehensively in space on a 1 km-scale grid, covering all of Switzerland. It extends back over several decades to more than a century and is updated continuously in near-real time. The data values are estimated statistically from measurements at weather stations, satellites and radar, and can be understood as pseudo observations of the conditions in the respective grid pixel. 
 
