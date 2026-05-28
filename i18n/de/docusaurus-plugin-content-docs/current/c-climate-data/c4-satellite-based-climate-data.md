@@ -1,9 +1,10 @@
 ---
 sidebar_position: 4
-title: Satellitengestützte räumliche Klimadaten – Strahlung, Wolkenbedeckung
+title: Räumliche Klimaanalysen - Strahlung, Wolkenbedeckung
 ---
 
-# Räumliche Klimaanalysen – Strahlung, Wolken
+# Räumliche Klimaanalysen - Strahlung, Wolken
+
 :::warning 
 
 Die Daten sind noch nicht verfügbar.
