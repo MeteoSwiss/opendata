@@ -1,9 +1,9 @@
 ---
 sidebar_position: 5
-title: Radargestützte räumliche Klimadaten – Hagel
+title: Räumliche Klimaanalysen - Hagel
 ---
 
-# Räumliche Klimaanalysen – Hagel
+# Räumliche Klimaanalysen - Hagel
 
 :::warning 
 
