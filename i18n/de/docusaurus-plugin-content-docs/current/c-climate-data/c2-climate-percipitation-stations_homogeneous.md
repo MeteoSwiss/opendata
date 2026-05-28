@@ -1,9 +1,9 @@
 ---
 sidebar_position: 2
-title: Niederschlags-Klimastationen – Homogene Messreihen
+title: Niederschlags-Klimastationen - Homogene Messreihen
 ---
 
-# Niederschlags-Klimastationen – Homogene Messreihen
+# Niederschlags-Klimastationen - Homogene Messreihen
 
 Niederschlag ist ein wichtiger meteorologischer Parameter mit hoher räumlicher Variabilität. Aus diesem Grund wird im Vergleich zu anderen Variablen ein dichteres Messnetz betrieben. Die ersten Niederschlagsstationen nahmen in der Schweiz in der zweiten Hälfte des 19. Jahrhunderts ihren Betrieb auf. Heute gehören 46 Stationen zum [Schweizerischen Nationalen Klimabasisnetz "Swiss NBCN"](https://www.meteoschweiz.admin.ch/wetter/messsysteme/bodenstationen/schweizer-klimamessnetz.html) und ergänzen dessen [Klimastationen](https://opendatadocs.meteoswiss.ch/de/c-climate-data/c1-climate-stations_homogeneous).
 
