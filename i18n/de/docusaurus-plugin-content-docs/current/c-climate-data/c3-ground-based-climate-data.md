@@ -43,7 +43,7 @@ Vorläufige und konsolidierte Analysen sind in folgenden `Items` abgelegt:
 
 :::
 
-## Daten herunterladen
+## Daten herunterladen {#data-download}
 
 Die 'Open Data' von MeteoSchweiz dürfen uneingeschränkt weiterverwendet werden; bei der Wiedergabe oder Weiterverbreitung der Daten ist **die Quelle anzugeben** ("**Quelle: MeteoSchweiz**").
 
