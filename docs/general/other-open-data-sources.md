@@ -25,5 +25,7 @@ follows -->
 <br></br>
 
 ## Open Government Data (OGD) in Switzerland
+
+### Various topics
 - [Awesome Open Government Data Switzerland (Patrick Arnecke)](https://github.com/rnckp/awesome-ogd-switzerland#awesome-open-government-data-switzerland)
 - [opendata.swiss](https://opendata.swiss/en)
