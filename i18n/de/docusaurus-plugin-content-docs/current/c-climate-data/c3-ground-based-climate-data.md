@@ -59,7 +59,7 @@ Der STAC-Browser kann ein nützliches Hilfsmittel sein, um die Verwendung der AP
 
 Wählen Sie **Dateien** manuell über den BGDI [STAC Browser](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-surface-derived-grid) aus und laden Sie sie herunter.
 
-⚠️ **Bitte beachten Sie die Informationen im Infokasten oben, um zu sehen, in welchen `Items` welche Dateien abgelegt sind.**
+⚠️ **Bitte beachten Sie die Informationen im Infokasten oben, um zu sehen, in welchen 'Items' welche Dateien abgelegt sind.**
 
 ## Datenformat
 
@@ -70,6 +70,6 @@ Das Datenformat ist [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) mi
 Das Koordinatensystem ist [`Swiss LV95`](https://www.swisstopo.admin.ch/de/schweizer-koordinatensystem) / [`EPSG:2056`](https://epsg.io/2056). <br></br>
 Für die "Rekonstruktionen bis zurück ins Jahr 1864" ist das Koordinatensystem [`WGS84`](https://www.swisstopo.admin.ch/de/bezugssystem-basis-fur-koordinaten) / [`EPSG:4326`](https://epsg.io/4326). 
 
-## Data usage {#data-usage}
+## Datennutzung {#data-usage}
 
 Folgt.
