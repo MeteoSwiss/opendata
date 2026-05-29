@@ -32,10 +32,10 @@ Die wichtigsten Elemente des Datensatzes sind über den Open-Data-Service verfü
 
 Die räumlichen Klimadatensätze werden fortlaufend aktualisiert. Um eine nahezu Echtzeit-Abdeckung zu ermöglichen, werden Analysen für die jüngste Vergangenheit (z.B. den Niederschlag von gestern) zunächst berechnet, bevor die Datenerfassung und Qualitätskontrolle abgeschlossen sind. Zu diesem Zeitpunkt handelt es sich um vorläufige Analysen. Konsolidierte Versionen der Analysen werden anschliessend in mehreren Nachbearbeitungsschritten unter Verwendung vollständigerer und gründlich geprüfter Stationsbeobachtungen erstellt.
 
-Vorläufige und konsolidierte Analysen sind in folgenden `Items` abgelegt:
-- Tägliche (vorläufige) Echtzeitanalysen sind in den `Items` "CH at DD.MM.YYYY" verfügbar, wobei DD.MM.YYYY den Tag angibt, für den die Analyse gültig ist. Die vorläufigen `Items` sind für die letzten 60 Tage verfügbar, wobei die ältesten `Items` sukzessive gelöscht werden.
-- Konsolidierte Tages- und Monatsanalysen der letzten 14 Monate sind in den `Items` "CH at MM.YYYY" verfügbar, wobei MM.YYYY den entsprechenden Monat angibt. Diese `Items` enthalten Dateien mit den Tagesanalysen aller Tage des Monats sowie Dateien mit einzelnen Monatsanalysen. Das Archiv-`Item` für einen bestimmten Monat wird gegen Ende des darauf folgenden Monats angelegt. Archiv-`Items`, die älter als 14 Monate sind, werden nach und nach gelöscht.
-- Eine letzte Nachbearbeitung aller Analysen eines Jahres erfolgt Anfang Februar des Folgejahres. Die Ergebnisse werden im `Item` "CH archive" archiviert. Hier werden alle Ergebnisse eines Datenprodukts in Jahresdateien gebündelt, unabhängig von der zeitlichen Auflösung des Produkts. <br></br> **"CH archive" ist das zentrale `Item` für vollständig konsolidierte Klimadaten, die mit allen derzeit bei MeteoSchweiz angewandten Kontrollverfahren übereinstimmen.**
+Vorläufige und konsolidierte Analysen sind in folgenden 'Items' abgelegt:
+- Tägliche (vorläufige) Echtzeitanalysen sind in den 'Items' `CH at DD.MM.YYYY` verfügbar, wobei DD.MM.YYYY den Tag angibt, für den die Analyse gültig ist. Die vorläufigen 'Items' sind für die letzten 60 Tage verfügbar, wobei die ältesten 'Items' sukzessive gelöscht werden.
+- Konsolidierte Tages- und Monatsanalysen der letzten 14 Monate sind in den 'Items' `CH at MM.YYYY` verfügbar, wobei MM.YYYY den entsprechenden Monat angibt. Diese 'Items' enthalten Dateien mit den Tagesanalysen aller Tage des Monats sowie Dateien mit einzelnen Monatsanalysen. Das Archiv-'Item' für einen bestimmten Monat wird gegen Ende des darauf folgenden Monats angelegt. Archiv-'Items', die älter als 14 Monate sind, werden nach und nach gelöscht.
+- Eine letzte Nachbearbeitung aller Analysen eines Jahres erfolgt Anfang Februar des Folgejahres. Die Ergebnisse werden im 'Item' `CH archive` archiviert. Hier werden alle Ergebnisse eines Datenprodukts in Jahresdateien gebündelt, unabhängig von der zeitlichen Auflösung des Produkts. <br></br> **`CH archive` ist das zentrale 'Item' für vollständig konsolidierte Klimadaten, die mit allen derzeit bei MeteoSchweiz angewandten Kontrollverfahren übereinstimmen.**
 
 <img width="1280" height="480" alt="Climate Grid Dataflow" src="https://github.com/user-attachments/assets/ab882739-db6d-4d41-8e25-952e0367dd7c" />
 
@@ -59,7 +59,7 @@ Der STAC-Browser kann ein nützliches Hilfsmittel sein, um die Verwendung der AP
 
 Wählen Sie **Dateien** manuell über den BGDI [STAC Browser](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-surface-derived-grid) aus und laden Sie sie herunter.
 
-⚠️ **Bitte beachten Sie die Informationen im Infokasten oben, um zu sehen, in welchen `Items` welche Dateien abgelegt sind.**
+⚠️ **Bitte beachten Sie die Informationen im Infokasten oben, um zu sehen, in welchen 'Items' welche Dateien abgelegt sind.**
 
 ## Datenformat
 
@@ -70,6 +70,6 @@ Das Datenformat ist [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) mi
 Das Koordinatensystem ist [`Swiss LV95`](https://www.swisstopo.admin.ch/de/schweizer-koordinatensystem) / [`EPSG:2056`](https://epsg.io/2056). <br></br>
 Für die "Rekonstruktionen bis zurück ins Jahr 1864" ist das Koordinatensystem [`WGS84`](https://www.swisstopo.admin.ch/de/bezugssystem-basis-fur-koordinaten) / [`EPSG:4326`](https://epsg.io/4326). 
 
-## Data usage {#data-usage}
+## Datennutzung {#data-usage}
 
 Folgt.
