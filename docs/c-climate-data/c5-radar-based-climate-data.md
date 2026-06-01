@@ -68,7 +68,7 @@ The hail datasets are continuously updated as time passes:
 - Yearly updates are available at the end of October
 - Hail Hazard - Return Values are static information 
 
-The data files of the current month/year are available in the **'items' list** (cf. [STAC Browser](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-radar-derived-grid). The older ones are stored in the 'item' `CH archive`. Hazard Maps / return values are also stored in the 'item' `CH archive`.
+The data files of the current month/year are available in the **items list** (see [STAC Browser](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-radar-derived-grid). The older ones are stored in the item `CH archive`. Hazard Maps / return values are also stored in the item `CH archive`.
 
 :::
 
@@ -90,7 +90,7 @@ The STAC Browser can be a useful tool to facilitate the use of the API: [`https:
 
 Select and download **files** manually via FSDI's [STAC Browser](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-radar-derived-grid).
 
-⚠️ **Please refer to the information in the info box above to see in which 'items' you can find which files.**
+⚠️ **Please refer to the information in the info box above to see in which items you can find which files.**
 
 ## Data format
 
