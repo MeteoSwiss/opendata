@@ -102,6 +102,6 @@ The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-sw
 
 ## Data usage
  
-- Application-Browsers in MeteoSwiss' [Hail Climatology](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html )
+- Application-Browsers in MeteoSwiss' [Hail Climatology](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html)
 - [NCCS brochure "Hail Climate Switzerland"](https://www.nccs.admin.ch/dam/nccs/en/dokumente/website/hagel/nccs_broschuere_hagelklima_schweiz.pdf.download.pdf/NCCS_Brochure_Hail_Climate_Switzerland.pdf) (PDF, 3 MB, 04.05.2021)
 - [https://www.hagelforschung.ch/lernmodule](https://www.hagelforschung.ch/lernmodule)
