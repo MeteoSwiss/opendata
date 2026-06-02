@@ -8,11 +8,11 @@ title: Polar-3D-Radarprodukte
 
 ## Daten abrufen
 
-Die Daten sind über die 'Open Radar Data (ODR)'-API verfügbar, die von [EUMETNET MeteoGate](https://meteogate.eu/) betrieben wird.
+Die Daten sind über die ['Open Radar Data (ODR)'-API](https://eumetnet.github.io/openradardata-documentation/) verfügbar, die von [EUMETNET MeteoGate](https://meteogate.eu/) betrieben wird.
 
-- [Was ist die 'Open Radar Data (ODR)'-API](https://eumetnet.github.io/openradardata-documentation/) 
-- [Open Radar Data API (Swagger)](https://api.meteogate.eu/eu-eumetnet-weather-radar/docs) 
-- [So laden Sie Wetterradardaten herunter](https://eumetnet.github.io/openradardata-documentation/2-ORD-API-discovering-and-accessing-data/)
+Die Swagger-Dokumentation der 'Open Radar Data (ODR)'-API: [`https://api.meteogate.eu/eu-eumetnet-weather-radar/docs`](https://api.meteogate.eu/eu-eumetnet-weather-radar/docs)
+
+So [rufen Sie Daten über die API ab](https://eumetnet.github.io/openradardata-documentation/2-ORD-API-discovering-and-accessing-data/).
 
 
 ## Datenstruktur
