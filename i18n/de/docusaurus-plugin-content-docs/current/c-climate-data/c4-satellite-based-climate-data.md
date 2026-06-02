@@ -67,6 +67,6 @@ Das Datenformat ist [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) mi
 
 Das Koordinatensystem ist [`WGS84`](https://www.swisstopo.admin.ch/de/bezugssystem-basis-fur-koordinaten) / [`EPSG:4326`](https://epsg.io/4326). 
 
-## Datennutzung {#data-usage}
+## Datennutzung
 
-Follows.
+- [Räumliche Klimaanalysen neu via Open Data verfügbar: Was sie zeigen und wozu sie genutzt werden können](https://www.meteoschweiz.admin.ch/ueber-uns/meteoschweiz-blog/de/2026/06/raeumliche-klimaanalysen-neu-via-open-data-verfuegbar.html) (MeteoSchweiz-Blog, 2. Juni 2026)
