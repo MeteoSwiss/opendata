@@ -114,4 +114,4 @@ Das Koordinatensystem ist [`Swiss LV95`](https://www.swisstopo.admin.ch/de/schwe
  
 - Applikationen auf der [Hagelklimatologie](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html)-Webseite von MeteoSchweiz
 - [NCCS-Broschüre "Hagelklima Schweiz"](https://www.nccs.admin.ch/dam/nccs/de/dokumente/website/hagel/nccs_broschuere_hagelklima_schweiz.pdf.download.pdf/NCCS_Broschuere_Hagelklima_Schweiz.pdf) (PDF, 3 MB, 04.05.2021)
-- [https://www.hagelforschung.ch/lernmodule](https://www.hagelforschung.ch/lernmodule)
+- ['Lernmodule Hagel' des 'Mobiliar Lab für Naturrisiken'](https://www.hagelforschung.ch/lernmodule)
