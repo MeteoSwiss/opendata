@@ -2,6 +2,7 @@
 sidebar_position: 1
 ---
 
+<span class="badge badge--primary">Live</span>
 # Precipitation radar products
 
 [Here](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/weather-radar-network.html) you'll find general information about the Swiss weather radar network.
