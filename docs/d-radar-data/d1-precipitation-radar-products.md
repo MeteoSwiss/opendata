@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: Precipitation radar products
 ---
 
 <span class="badge badge--primary">Live</span>
