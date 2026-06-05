@@ -17,7 +17,7 @@ Die Homogenisierung erfolgt auf Basis der Monatswerte, aus denen die Jahreswerte
 
 Von den Schweizer NBCN-Klimastationen liegen homogene Messreihen für die Parameter Temperatur (Mittelwert, Minimum, Maximum), Niederschlag, Sonnenscheindauer, Wasserdampfdruck, Luftdruck, Globalstrahlung und Windgeschwindigkeit vor. Die Datenreihen für Temperatur, Niederschlag und Sonnenscheindauer reichen teilweise bis in die Mitte des 19. Jahrhunderts zurück.
 
-## Daten herunterladen {data-download}
+## Daten herunterladen
 
 Die 'Open Data' von MeteoSchweiz dürfen uneingeschränkt weiterverwendet werden; bei der Wiedergabe oder Weiterverbreitung der Daten ist **die Quelle anzugeben** ("**Quelle: MeteoSchweiz**").
 
