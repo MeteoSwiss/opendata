@@ -10,17 +10,15 @@ New forecasts for temperature, precipitation, wind, clouds, sunshine, radiation 
 
 *The MeteoSwiss graphics are proprietary and cannot be reused. However, the number and description of the weather symbols may be utilised and matched with graphics that are permitted for use.
 
-## Getting started quickly
-
-### Example notebooks: From retrieval to visualization {#example-notebooks-from-retrieval-to-visualization}
-
-To get started quickly, explore the [Jupyter notebooks](https://github.com/MeteoSwiss/opendata-localforecast-demos), which provide hands-on examples for retrieving and visualizing local forecast data from MeteoSwiss.
-
 ## Data download
 
 The Open Data from MeteoSwiss may be used without restriction; the **source must be cited** when reproducing or redistributing ("**Source: MeteoSwiss**").
 
 :white_check_mark: By using 'Open Data' from MeteoSchweiz, you confirm that you have taken note of the [Terms of use](/general/terms-of-use).
+
+### Example notebooks: From retrieval to visualization {#example-notebooks-from-retrieval-to-visualization}
+
+To **get started quickly**, explore the [Jupyter notebooks](https://github.com/MeteoSwiss/opendata-localforecast-demos), which provide hands-on examples for retrieving and visualizing local forecast data from MeteoSwiss.
 
 ### Download data automatically
 
