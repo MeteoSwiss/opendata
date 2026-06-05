@@ -11,7 +11,7 @@ Die Messbedingungen, unter denen meteorologische Daten erhoben werden, können s
 
 Die Datenreihen der Swiss-NBCN-Niederschlagsstationen wurden homogenisiert und reichen teilweise bis in die Mitte des 19. Jahrhunderts zurück.
 
-## Daten herunterladen
+## Daten herunterladen {#data-download}
 
 Die 'Open Data' von MeteoSchweiz dürfen uneingeschränkt weiterverwendet werden; bei der Wiedergabe oder Weiterverbreitung der Daten ist **die Quelle anzugeben** ("**Quelle: MeteoSchweiz**").
 
