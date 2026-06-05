@@ -11,7 +11,7 @@ Sie liefern alle 10 Minuten Daten zu Temperatur, Niederschlag, Wind, Sonnenschei
 
 Ergänzt wird das Netz durch rund 100 [automatische Niederschlagsstationen](/a-data-groundbased/a2-automatic-precipitation-stations). Zusammen bilden diese Stationen die Grundlage für die Erstellung zuverlässiger lokaler Wettervorhersagen sowie Unwetter- und Hochwasserwarnungen. Zusätzlich betreibt MeteoSwiss drei [automatische Turmstationen](/a-data-groundbased/a3-automatic-tower-stations) in 150 bis 230 m Höhe für Messungen in der Grenzschicht.
 
-## Daten herunterladen
+## Daten herunterladen {#data-download}
 
 Die 'Open Data' von MeteoSchweiz dürfen uneingeschränkt weiterverwendet werden; bei der Wiedergabe oder Weiterverbreitung der Daten ist **die Quelle anzugeben** ("**Quelle: MeteoSchweiz**").
 
