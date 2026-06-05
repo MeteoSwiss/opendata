@@ -21,7 +21,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs queryString="Datenstruktur">
-  <TabItem value="single-site" label="Single site">
+  <TabItem value="single-site" label="Single-Site">
 Die [Volumenradardaten der Einzelstandorte](https://eumetnet.github.io/openradardata-documentation/1-ORD-API-overview/#1-european-single-site-volume-radar-data) sind verfügbar für die letzten 24 Stunden.
 
 MeteoSchweiz betreibt ein [Netz von fünf Wetterradarstationen](https://www.meteoschweiz.admin.ch/wetter/messsysteme/atmosphaere/das-schweizer-wetterradarnetz.html). Die Standorte sind:
