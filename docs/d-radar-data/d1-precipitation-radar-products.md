@@ -107,12 +107,12 @@ The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-sw
 
 The metadata is included in each HDF5-File.
 
-| Parameter | Long Name                              | Standard Unit | Temporal Aggregation                   |
-| --------- | -------------------------------------- | ------------- | -------------------------------------- |
+| Parameter | Long Name                              | Standard Unit | Temporal Aggregation                   | Remarks                   |
+| --------- | -------------------------------------- | ------------- | -------------------------------------- | ------------------------- |
 | `CPC`     | Combiprecip 60-minute total            | mm            | Precipitation accumulation over 1 hour |
 | `CPCH`    | Combiprecip 60-minute total reanalysis | mm            | Precipitation accumulation over 1 hour |
-| `RZC`     | PRECIP                                 | mm/h          | Instantaneous rain rate                |
-| `TZC`     | PRECIP-SV                              | mm/h          | Instantaneous rain rate                |
+| `RZC`     | PRECIP                                 | mm/h          | Instantaneous rain rate                | Saturation value 118 mm/h |
+| `TZC`     | PRECIP-SV                              | mm/h          | Instantaneous rain rate                | Saturation value 118 mm/h |
 
 
 
