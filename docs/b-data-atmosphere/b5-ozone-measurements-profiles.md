@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Ozone measurements – Profiles (O3 radio soundings, SOMORA)
+# Ozone measurements - Profiles (O3 radio soundings, SOMORA)
 
 :::warning 
 
