@@ -15,7 +15,7 @@ The network is supplemented by around 100 [automatic precipitation stations](/a-
 
 :::warning
 
-June 16, 2026 - Since approximately 15:00 a.m., automatic weather stations data are updated every 60 (instead of 20) minutes. The duration of the incident cannot be determined.
+16 June 2026 - Since around 03:00 p.m., data from the automatic weather, precipitation and tower stations are temporarily being updated every 60 minutes (instead of every 20 minutes). The duration of the incident is unknown.
 
 :::
 
