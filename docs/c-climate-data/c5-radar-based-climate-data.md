@@ -12,14 +12,17 @@ MeteoSwiss provides a broad palette of ready-made spatial climate analyses. A co
 
 The following Hail Climatology datasets are available via our Open Data service and are listed below, along with links to the detailed product documentation:
 
+
 **Maximum Hailstone Size (MESHS)**
 | Product | File name contains |
 |:--------|:-------------------|
 | Monthly and Yearly radar-based Maximum Hailstone Size - absolute values | `hailsizeM` / `hailsizeY` |
 | Monthly and Yearly radar-based Maximum Hailstone Size - anomalies | `hailsizeanomM` / `hailsizeanomY` | 
 
-The data contain the largest hailstone size by month and year, respectively. Hailstone sizes cannot be measured on the ground over a large areas. The size is derived from [radar measurements](https://opendatadocs.meteoswiss.ch/d-radar-data/d3-hail-radar-products) and describes the maximum expected hail size on one square kilometer based on the radar parameter MESHS (Maximum Expected Severe Hail Size). 
+The data contain the largest hailstone size by month and year, respectively. Hailstone sizes cannot be measured on the ground over a large areas. The size is derived from [radar measurements](https://opendatadocs.meteoswiss.ch/d-radar-data/d3-hail-radar-products) and describes the maximum expected hail size on one square kilometer based on the radar parameter MESHS (Maximum Expected Severe Hail Size).
+
 Hailstone sizes are given in classes from 2 cm to greater than 6 cm in 0.5 cm increments, with the lower end being inclusive and the upper end exclusive: the grid value 2 represents values from 2 cm (incl.) to 2.5 cm (excl.).
+
 Documentation: [https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html) (cf. also under "Product Information" within the [Application "Hail Maps"](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/climate-hail-maps.html)
 
 
@@ -33,7 +36,10 @@ Documentation: [https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerla
 | Monthly and Yearly radar-based Number of Hail Days with Hail >4cm - absolute values | `haildays4cmM` / `haildays4cmY` |
 | Monthly and Yearly radar-based Number of Hail Days with Hail >4cm - anomalies | `haildays4cmanomM` / `haildays4cmanomY` |
 
-The data contain the monthly and yearly number of hail days, per km2, as well as the average number of days with hailstone sizes from 2 cm and 4 cm, respectively. Hail cannot be measured on the ground over a wide area. The size is derived from [radar measurements](https://opendatadocs.meteoswiss.ch/d-radar-data/d3-hail-radar-products). A hail day is defined as a day on which a high probability of hail on the ground was concluded from the radar measurements (based on radar parameter POH). The 24 hours between 06 UTC and 06 UTC of the following day are considered.
+The data contain the monthly and yearly number of hail days, per km2, as well as the average number of days with hailstone sizes from 2 cm and 4 cm, respectively. Hail cannot be measured on the ground over a wide area. The size is derived from [radar measurements](https://opendatadocs.meteoswiss.ch/d-radar-data/d3-hail-radar-products).
+
+A hail day is defined as a day on which a high probability of hail on the ground was concluded from the radar measurements (based on radar parameter POH). The 24 hours between 06 UTC and 06 UTC of the following day are considered.
+
 Documentation: [https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html) (cf. also under "Product Information" within the [Application "Hail Maps"](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/climate-hail-maps.html))
 
 
@@ -47,7 +53,10 @@ Documentation: [https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerla
 | Monthly and Yearly climatology (2002 – current) of Hail Days with Hail >4cm - absolute values | `haildays4cmclimM` / `haildays4cmclimY` |
 | Monthly and Yearly climatology (2002 – current) of Hail Days with Hail >4cm - standard deviation | `haildays4cmclimstdM` / `haildays4cmclimstdY` |
 
-The data contain the long-term average number of hail days per year or per month of the summer half-year (April to September), per km2. Due to the infrequent occurrence of hail, averaging of hailstone sizes over many years is not meaningful. Therefore, the number of days from hailstone sizes of at least 2 cm and 4 cm is provided as long-term climatology. These data allow a robust statement about the frequency of events of certain hailstone sizes. Hail cannot be measured on the ground over a wide area. The size is derived from [radar measurements](https://opendatadocs.meteoswiss.ch/d-radar-data/d3-hail-radar-products). A hail day is defined as a day on which a high probability of hail on the ground was concluded from the radar measurements (based on radar parameter POH). The 24 hours between 06 UTC and 06 UTC of the following day are considered.
+The data contain the long-term average number of hail days per year or per month of the summer half-year (April to September), per km2. Due to the infrequent occurrence of hail, averaging of hailstone sizes over many years is not meaningful. Therefore, the number of days from hailstone sizes of at least 2 cm and 4 cm is provided as long-term climatology. These data allow a robust statement about the frequency of events of certain hailstone sizes. Hail cannot be measured on the ground over a wide area. The size is derived from [radar measurements](https://opendatadocs.meteoswiss.ch/d-radar-data/d3-hail-radar-products). 
+
+A hail day is defined as a day on which a high probability of hail on the ground was concluded from the radar measurements (based on radar parameter POH). The 24 hours between 06 UTC and 06 UTC of the following day are considered.
+
 Documentation: [https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html) (cf. also under "Product Information" within the [Application "Hail Climatology"](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/climate-hailclim.html))
 
 
@@ -58,8 +67,11 @@ Documentation: [https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerla
 | Return Values for Largest Expected Hail on a reference area (LEHA, scale 100 m2) for return periods of 2, 5, 10, 20, 30, 50, 70 and 100 years | `returnperiod[002, 005, ..., 100]yleha` |
 
 The data contain the return values of the hailstone sizes MESHS and LEHA as a function of the return period T. They describe the hailstone size that is exceeded with a probability of 1/T per year under today's climate conditions, at a fixed location. The return values were determined using a resampling approach and describe the maximum hailstone size to be expected on a square kilometre (based on the radar parameter MESHS).
+
 MESHS: Maximum Expected Severe Hail Size is defined as the maximum expected hail size per square kilometre. This means that most of the hail stones in this area of one square kilometre are smaller.
+
 LEHA: Largest Expected Hail on a reference Area is a mathematical derivation from the hail size MESHS, which refers to an area of one square kilometre. LEHA describes the largest expected hail size that can be expected on a smaller reference area. In extreme cases, a hail stone of size MESHS can occur on the smaller reference area, but this will rarely happen.
+
 Documentation: [https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology/hail-hazard.html](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology/hail-hazard.html) and Chapter 3 in [MeteoSwiss technical report 283](https://www.nccs.admin.ch/dam/nccs/de/dokumente/website/hagel/20230907_fachbericht_283.pdf.download.pdf/20230907_fachbericht_283.pdf) (cf. also under "Product Information" within the [Application "Hail Hazard"](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/climate-hailhazard.html))
 
 
