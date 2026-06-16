@@ -12,11 +12,11 @@ They deliver temperature, wind, sunshine, humidity and radiation <!-- and pressu
 
 ## Data download {#data-download}
 
-:::warning
+<!-- :::warning
 
 16 June 2026 - Since around 03:00 p.m., data from the automatic weather, precipitation and tower stations are temporarily being updated every 60 minutes (instead of every 20 minutes). The duration of the incident is unknown.
 
-::
+::: -->
 
 The Open Data from MeteoSwiss may be used without restriction; the **source must be cited** when reproducing or redistributing ("**Source: MeteoSwiss**").
 
