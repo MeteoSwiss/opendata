@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Klimastationen - Homogene Messreihen
 ---
 
-# Klimastationen – Homogene Messreihen
+# Klimastationen - Homogene Messreihen
 
 Klimastationen messen diverse meteorologische Parameter. In der Schweiz wurde 1864 das erste landesweite Netz von Klimastationen in Betrieb genommen. Die für die Klimaforschung wichtigsten Stationen sind im [Schweizerischen Nationalen Klimabasisnetz "Swiss NBCN"](https://www.meteoschweiz.admin.ch/wetter/messsysteme/bodenstationen/schweizer-klimamessnetz.html) zusammengefasst. Das Swiss NBCN besteht aus 29 Klimabeobachtungsstationen und wird durch 46 [Niederschlagsstationen](/c-climate-data/c2-climate-percipitation-stations_homogeneous) ergänzt.
 
