@@ -13,6 +13,12 @@ The network is supplemented by around 100 [automatic precipitation stations](/a-
 
 ## Data download
 
+:::warning
+
+June 16, 2026 - Since approximately 15:00 a.m., automatic weather stations data are updated every 60 (instead of 20) minutes. The duration of the incident cannot be determined.
+
+:::
+
 The Open Data from MeteoSwiss may be used without restriction; the **source must be cited** when reproducing or redistributing ("**Source: MeteoSwiss**").
 
 :white_check_mark: By using 'Open Data' from MeteoSchweiz, you confirm that you have taken note of the [Terms of use](/general/terms-of-use).
