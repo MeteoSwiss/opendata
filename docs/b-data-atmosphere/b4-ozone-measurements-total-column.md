@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Ozone measurements – Total column (Dobson, Brewer)
+# Ozone measurements - Total column (Dobson, Brewer)
 
 :::warning 
 
