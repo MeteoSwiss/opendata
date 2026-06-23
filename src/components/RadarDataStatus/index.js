@@ -20,7 +20,7 @@ const DATASETS = [
     name: 'Precipitation radar products',
     path: '/d-radar-data/d1-precipitation-radar-products',
     collectionId: 'ch.meteoschweiz.ogd-radar-precip',
-    frequencyLabel: 'Every 5 minutes,
+    frequencyLabel: 'Every 5 minutes',
     expectedMinutes: 7,
     warnAfter: 8, // > 8 Min. seit letztem Update -> verzögert
     failAfter: 24, // > 24 Min. seit letztem Update -> ausgefallen
