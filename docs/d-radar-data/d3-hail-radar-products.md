@@ -22,12 +22,6 @@ If there are files published outside this date range, they will be empty.
 
 ## Data download {#data-download}
 
-:::warning
-
-June 16, 2026 - Since approximately 10:00 a.m., there have been delays of over 30 minutes in the availability of radar data. The backlog in data integration is being gradually cleared. The duration of the incident cannot be determined.
-
-:::
-
 The Open Data from MeteoSwiss may be used without restriction; the **source must be cited** when reproducing or redistributing ("**Source: MeteoSwiss**").
 
 :white_check_mark: By using 'Open Data' from MeteoSchweiz, you confirm that you have taken note of the [Terms of use](/general/terms-of-use).
