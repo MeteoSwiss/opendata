@@ -13,3 +13,12 @@ sidebar_position: 5
 | **D5** | [**Polar-3D-Radarprodukte**](https://opendatadocs.meteoswiss.ch/d-radar-data/d5-polar-3d-radar-products) <br></br> <br></br> Volumendaten von einzelnen Standorten des Schweizer Wetterradarnetzes - verfügbar für die letzten 24 Stunden <br></br> <br></br> OPERA-Verbundprodukt über ganz Europa - verfügbar für die letzten 24 Stunden und als Langzeitarchiv bis ins Jahr 2012 zurück | [Single site](https://eumetnet.github.io/openradardata-documentation/1-ORD-API-overview/#1-european-single-site-volume-radar-data): ≈ alle 5 Min (standortabhängig) <br></br> <br></br> [EUMETNET OPERA-Komposit](https://eumetnet.github.io/openradardata-documentation/1-ORD-API-overview/#2-eumetnet-opera-composite-products): 5 Min (ab 07/2024) / 15 Min (Archiv bis 10/2024) |  | [**Daten abrufen**](https://api.meteogate.eu/eu-eumetnet-weather-radar/docs) via [Open Radar Data (ODR) API](https://eumetnet.github.io/openradardata-documentation/) |
 
 **Verfügbarkeit:** 🟢 innerhalb Messinterval, 🟡 teilweise ausserhalb Messinterval, 🔴 ausserhalb Messinterval
+
+## Verfügbarkeit (experimentell)
+
+import DatasetStatusBadge from '@site/src/components/DatasetStatusBadge';
+
+| Parameter | Zyklus | Status |
+|-----------|--------|--------|
+| PRECIP | 5 min | <DatasetStatusBadge collection="ch.meteoschweiz.ogd-radar-precip" updateCycleMin={5} /> |
+| CombiPrecip | 5 min | <DatasetStatusBadge collection="ch.meteoschweiz.ogd-radar-precip" updateCycleMin={5} label="CPC" /> |
