@@ -55,6 +55,9 @@ This [Jupyter notebook](https://github.com/MeteoSwiss/opendata/blob/main/noteboo
 #### Numerical weather forecasting model data {#numerical-weather-forecasting-model-data-1}
 The MeteoSwiss [opendata-nwp-demos](https://github.com/MeteoSwiss/opendata-nwp-demos) repository contains a collection of Jupyter notebooks that demonstrate how to access, download, and visualise data from numerical weather prediction (NWP) ICON-CH1/2-EPS models.
 
+#### Local forecast data 
+The MeteoSwiss [opendata-localforecast-demos](https://github.com/MeteoSwiss/opendata-localforecast-demos) repository contains Jupyter notebooks, which provide hands-on examples for retrieving and visualizing local forecast data.
+
 
 ## How CSV files are structured {#how-csv-files-are-structured}
 
