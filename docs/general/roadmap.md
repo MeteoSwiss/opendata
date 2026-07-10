@@ -64,7 +64,9 @@ The roadmap is based on the [**Vision and strategy** of MeteoSwiss' Open Data pr
 ### Self-service support
 
 <details>
-  <summary>:heavy_check_mark: [Open Data products can be filtered by parameter groups](https://www.meteoswiss.admin.ch/services-and-publications/service/open-data.html#ogd-q=&ogd-cat=&ogd-fmt=&ogd-kw=) on MeteoSwiss' respective webpage by end of July.</summary>
+  <summary>:heavy_check_mark: Open Data products can be filtered by parameter groups on MeteoSwiss' respective webpage by end of July.</summary>
+
+  Live: [https://www.meteoswiss.admin.ch/services-and-publications/service/open-data.html](https://www.meteoswiss.admin.ch/services-and-publications/service/open-data.html#ogd-q=&ogd-cat=&ogd-fmt=&ogd-kw=)
 </details>
 
 <details>
