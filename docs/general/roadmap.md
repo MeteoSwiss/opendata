@@ -43,7 +43,7 @@ The roadmap is based on the [**Vision and strategy** of MeteoSwiss' Open Data pr
 ### APIs
 
 <details>
-  <summary>A proof of concept for the provision of 'Homogeneous Climate data series' via MeteoGate's climate data EDR API is being developed until the end of the current year.</summary>
+  <summary>A beta version for the provision of 'Homogeneous Climate data series' via MeteoGate's climate data EDR API is being developed until the end of the current year.</summary>
 
   More about EUMETNET's [MeteoGate](https://meteogate.eu).<br></br>
   More about [the 'Homogeneous Climate data series' product](https://opendatadocs.meteoswiss.ch/c-climate-data/c1-climate-stations_homogeneous).
