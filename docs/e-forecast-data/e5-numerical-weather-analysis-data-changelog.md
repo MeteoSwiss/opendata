@@ -6,6 +6,8 @@ sidebar_position: 3
 
 This page announces upcoming changes to the configuration of the [KENDA-CH1 analysis](https://opendatadocs.meteoswiss.ch/e-forecast-data/e5-numerical-weather-analysis-data). 
 
+These changes may concern the KENDA analysis system or technical properties of the data, such as the available variables or GRIB2 coding.
+
 ## Upcoming changes
 ### July 2026 - Extended Open Data variable set
 
