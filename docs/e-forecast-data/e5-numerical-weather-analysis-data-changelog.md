@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 6
 ---
 
 # KENDA-CH1 - Upcoming changes & changelog
