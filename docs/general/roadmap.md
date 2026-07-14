@@ -23,21 +23,28 @@ The roadmap is based on the [**Vision and strategy** of MeteoSwiss' Open Data pr
 ### Bulk download
 
 <details>
+  <summary>Additional variables for the 'ICON-CH1/2-EPS' and 'KENDA-CH1' datasets/collections are made available by end of July</summary>
+  
+  More about [these additions](https://opendatadocs.meteoswiss.ch/changelog/1.1.9).
+</details>
+
+
+<details>
   <summary>The provision of real-time 'Ground-based measurements' and 'Radar data' will be improved by end of August.</summary>
   
   The aim is to make the respective Open Data available, where possible, within the measurement interval.
 </details>
 
 <details>
-  <summary>'Radio soundings' are being prepared to be available by end of September</summary>
-  
-  More about [this open data product (B1)](https://opendatadocs.meteoswiss.ch/b-data-atmosphere).
-</details>
-
-<details>
   <summary>'Reflectivity-based' and 'Convection radar products' are being prepared to be available by end of September</summary>
   
   More info about these open data products will be coming soon.
+</details>
+
+<details>
+  <summary>'Radio soundings' are being prepared to be available by end of September</summary>
+  
+  More about [this open data product (B1)](https://opendatadocs.meteoswiss.ch/b-data-atmosphere).
 </details>
 
 ### APIs
