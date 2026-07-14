@@ -12,4 +12,4 @@ These changes may concern the KENDA analysis system or technical properties of t
 - *info forthcoming*
 
 ## Changelog
-- TODO-DATE-RELEASE - The KENDA-CH1 dataset will be extended with additional radiation and surface-flux variables, as well as further vertically integrated cloud and atmospheric water-content diagnostics.
+- TODO-DATE-RELEASE - The KENDA-CH1 dataset is extended with additional radiation and surface-flux variables, as well as further vertically integrated cloud and atmospheric water-content diagnostics.
