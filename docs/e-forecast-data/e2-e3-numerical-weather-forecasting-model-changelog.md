@@ -9,8 +9,9 @@ This page announces upcoming changes to the configuration of the [ICON-CH1/2-EPS
 These changes may concern the meteorology of the ICON model, or technical properties of the forecast data, like the GRIB2 coding.
 
 ## Upcoming changes
-- *info forthcoming*
+### July 2026 - Extended Open Data variable set
 
+The ICON-CH1-EPS and ICON-CH2-EPS datasets will be extended with additional radiation, cloud, hydrology, soil, lake, visibility, and diagnostic variables.
 ## Stay in the loop!
 
 If you want to be informed about changes, you can join the ICON-CH1-EPS, and ICON-CH2-EPS mailing lists.
