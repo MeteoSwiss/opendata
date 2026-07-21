@@ -36,7 +36,7 @@ You will receive a confirmation mail to the email address from which you sent th
 :::
 
 ## Changelog
-- TODO-DATE-RELEASE - The ICON-CH1-EPS and ICON-CH2-EPS datasets are extended with additional radiation, cloud, hydrology, soil, lake, visibility, and diagnostic variables.
+- 2026-07-21 - The ICON-CH1-EPS and ICON-CH2-EPS datasets are extended with additional radiation, cloud, hydrology, soil, lake, visibility, and diagnostic variables.
 - 2026-05-21 - ICON-CH2-EPS dataset is extended to include [Pollen data](https://opendatadocs.meteoswiss.ch/e-forecast-data/e2-e3-numerical-weather-forecasting-model#pollen-data)
 - 2026-03-24 - [ICON Info: Improved precipitation, radiation, and temperature](./static/docs_img/changelog/2026-03-12%20ICON-Info.pdf)
 - 2026 Q1 - [ICON Info: Improved precipitation, radiation, and temperature](./static/docs_img/changelog/2025-11-12%20ICON-Info.pdf)
