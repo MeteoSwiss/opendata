@@ -9,9 +9,7 @@ This page announces upcoming changes to the configuration of the [KENDA-CH1 anal
 These changes may concern the KENDA analysis system or technical properties of the data, such as the available variables or GRIB2 coding.
 
 ## Upcoming changes
-### July 2026 - Extended Open Data variable set
-
-The KENDA-CH1 dataset will be extended with additional radiation and surface-flux variables, as well as further vertically integrated cloud and atmospheric water-content diagnostics.
+- *info forthcoming*
 
 ## Changelog
-No entries yet
+- 2026-07-21 - The KENDA-CH1 dataset is extended with additional radiation and surface-flux variables, as well as further vertically integrated cloud and atmospheric water-content diagnostics.
