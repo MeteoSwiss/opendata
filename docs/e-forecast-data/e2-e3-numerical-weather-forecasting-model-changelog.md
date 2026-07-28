@@ -9,7 +9,7 @@ This page announces upcoming changes to the configuration of the [ICON-CH1/2-EPS
 These changes may concern the meteorology of the ICON model, or technical properties of the forecast data, like the GRIB2 coding.
 
 ## Upcoming changes
-- *info forthcoming*
+- 2026-08-12 - [ICON Info: Adaptive Parameter Tuning, and more](./static/docs_img/changelog/2026-07-28%20ICON-Info.pdf)
 
 ## Stay in the loop!
 
