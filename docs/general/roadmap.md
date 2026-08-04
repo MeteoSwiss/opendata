@@ -18,12 +18,12 @@ The roadmap is based on the [**Vision and strategy** of MeteoSwiss' Open Data pr
 
 ![MCH Open Data roadmap](./static/docs_img/2026-04-09_OGD24_Roadmap_2026.png)
 
-## July until September (Q3-2026)
+## July until December 2026
 
 ### Bulk download
 
 <details>
-  <summary>Additional variables for the 'ICON-CH1/2-EPS' and 'KENDA-CH1' datasets/collections are made available by end of July</summary>
+  <summary>:heavy_check_mark: Additional variables for the 'ICON-CH1/2-EPS' and 'KENDA-CH1' datasets/collections are made available by end of July</summary>
   
   More about [these additions](https://opendatadocs.meteoswiss.ch/changelog/1.1.9).
 </details>

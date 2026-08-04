@@ -8,9 +8,13 @@ sidebar_position: 3
 
 The C-band, Swiss weather radar network is able to provide information about the precipitation type, thanks to its dual-polarization capabilities.
 
-The **Probability of Hail (POH) product** provides the probability of hail presence for each pixel of the raster, the values ranging from 0 to 100%. 
+The **Probability of Hail (POH) product** 
 
-The **Maximum Expected Severe Hail Size (MESHS)** provides an information of the maximum expected hailstone size within a radar pixel, starting from 2 cm and above.
+The grid-based POH (Probability Of Hail) product estimates the probability of hail of any size at the ground, based on the heuristic method of Waldvogel. The probability of hail is computed from the difference between the maximum height at which a reflectivity of 45 dBZ is observed (45 dBZ Echo Top altitude) and the height of the freezing level. When the height difference is larger than 1.6 km, a positive indication of hail exists. The probability of hail increases with the height difference. A 100 % probability is obtained for a height difference of 6 km. The height of the freezing level is extract-ed from the NWP model. The nearest forecast based on the most recent analysis is used for this purpose.
+
+The **Maximum Expected Severe Hail Size (MESHS)** 
+
+The grid-based MESHS (Maximum Expected Severe Hail Size) product estimates the maximum expected size of severe hail (> 2cm), based on a heuristic method developed by Treloar. The expected hail size is computed using the difference between the altitude of the maximum height at which a reflectivity of 50 dBZ is observed (50 dBZ Echo Top altitude) and the height of the freezing level. Hail sizes less than 2 cm are not shown. The height of the freezing level is extracted from the NWP model. The nearest forecast based on the most recent analysis is used for this purpose.
 
 :::info 
 
