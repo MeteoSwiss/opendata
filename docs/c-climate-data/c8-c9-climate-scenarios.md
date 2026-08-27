@@ -83,7 +83,7 @@ Here is a short overview of the datasets:
 | Data Volume per file            | CSV: ~1.5 MB <br></br> NetCDF: ~200KB | ~1-2 GB           |
 
 Detailed information on the available simulations and variables, limitations and a list of available Swiss stations can be found in the user documentation of the localized Climate CH2025 datasets:
-- [User documentation pdf on the MeteoSwiss website](https://www.meteoswiss.admin.ch/dam/jcr:f54fae36-9a40-4e45-8abb-0308d0a68a10/CH2025_documentation_localized_v1.0.pdf)
+- [User documentation pdf on the MeteoSwiss website](https://www.meteoschweiz.admin.ch/dam/jcr:f54fae36-9a40-4e45-8abb-0308d0a68a10/CH2025_documentation_localized_v1.1.pdf)
 - [Climate CH2025 datasets on the MeteoSwiss Website](https://www.meteoswiss.admin.ch/climate/climate-change/swiss-climate-scenarios/reports-data-and-graphs-of-climate-change-scenarios/climate-ch2025-datasets.html)
 
 
