@@ -91,7 +91,7 @@ This is the overview:
 | Type | Description | Update frequency | Used for |
 | ---- | ----------- | ------------ | -------- |
 | `historical` | From the start of the measurement until December 31st of last year | Once a year | [Granularity](./download#data-granularity) `m`, `d`, `h`, `t` |
-| `recent` | From January 1st of this year until yesterday | Daily at 12UTC | [Granularity](./download#data-granularity) `m`, `d`, `h`, `t` |
+| `recent` | From January 1st of this year until yesterday | Process starts at 10UTC and 1UTC; it lasts around 60min | [Granularity](./download#data-granularity) `m`, `d`, `h`, `t` |
 | `now` | The most recent realtime data from yesterday 12UTC to now | Every 10min | Only [Granularity](./download#data-granularity) `h`, `t` |
 | `no type` | For certain data types this concept does not apply | varies | varies (e.g. [Granularity](./download#data-granularity) `y`) |
 
