@@ -59,7 +59,7 @@ The data is split by parameter, calendar date (see STAC 'items' respectively 'fe
 | -------------------------------------- | --------------------------------- | ------------------------------ |
 | PRECIP                                 | 5 minutes                         | `RZCyyjjjHHMM\*.\*01.h5`       |
 | PRECIP-SV                              | 5 minutes                         | `TZCyyjjjHHMM\*.\*01.h5`       |
-| Combiprecip 60-minute total            | 5 minutes                        | `CPCyyjjjHHMM\*_00060.\*01.h5` |
+| Combiprecip 60-minute total            | 5 minutes                         | `CPCyyjjjHHMM\*_00060.\*01.h5` |
 | Combiprecip 60-minute total reanalysis | 60 minutes; 8 days later          | `...\*_00060.\*01.h5`          |
 
 **Naming convention of the files:**
@@ -80,6 +80,12 @@ For **PRECIP-SV**: `TZCyyjjjHHMMKK.XYZ.h5`
 - `KK` = (reserved)
 - `XYZ` = x01 (reserved)
 
+:::info
+
+The `KK` value may change due to the availabilty of radar sites for the composit e.g. if a site is out of order or undergoes maintenance. Detailed information about the available radar sites is included in each HDF5 metadata.
+
+:::
+
 For **CombiPrecip**: `CPCyyjjjHHMMQ_nnnnn.XYZ.h5`
 - `CPC` = product code
 - `yy` = two last digit of the year
@@ -88,8 +94,6 @@ For **CombiPrecip**: `CPCyyjjjHHMMQ_nnnnn.XYZ.h5`
 - `Q` = CombiPrecip quality code (from 0 to 9, where 9 is the best) 
 - `nnnnn` = accumulation time (in minutes)
 - `XYZ` = x01 (reserved)
-
-⚠️ **Note: the KK value may change due to the availabilty of radar sites for the composit e.g. if a site is out of order or undergoes maintenance. Detailed information about the available radar sites is included in each HDF5 metadata.**
 
 ## Data format {#data-format}
 
