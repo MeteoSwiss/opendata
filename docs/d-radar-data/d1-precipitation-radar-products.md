@@ -89,6 +89,7 @@ For **CombiPrecip**: `CPCyyjjjHHMMQ_nnnnn.XYZ.h5`
 - `nnnnn` = accumulation time (in minutes)
 - `XYZ` = x01 (reserved)
 
+⚠️ **Note: the KK value may change due to the availabilty of radar sites for the composit e.g. if a site is out of order or undergoes maintenance. Detailed information about the available radar sites is included in each HDF5 metadata.**
 
 ## Data format {#data-format}
 
