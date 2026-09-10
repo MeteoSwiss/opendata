@@ -42,6 +42,12 @@ We highly recommend to use preconditioning via the `If-Match` or `If-None-Match`
 For more information check [swisstopo's STAC API documentation](https://data.geo.admin.ch/api/stac/static/spec/v1/apitransactional.html#tag/Data/operation/getAssetObject).
 
 
+### How to implement a suitable retry strategy {#how-to-implement-a-suitable-retry-strategy}
+Every request you make has the possibility to fail for a variety of reasons. It is your responsibility to decide what to do when this happens. When encountering transient errors, you will typically want to retry the request. This requires some care to do correctly as incorrect retry strategies may cause many requests to be (re)sent in a short amount of time, which may eventually cause them to be throttled or otherwise permanently dropped. To mitigate this [thundering herd problem](https://en.wikipedia.org/wiki/Thundering_herd_problem), our partner swisstopo recommends you implement retries using a truncated exponential backoff algorithm with jitter.
+
+For how to do this, check [*.geo.admin.ch's documentation](https://docs.geo.admin.ch/get-started/retry.html).
+
+
 ### Examples {#examples}
 
 #### Ground-based measurements {#ground-based-measurements-1}
