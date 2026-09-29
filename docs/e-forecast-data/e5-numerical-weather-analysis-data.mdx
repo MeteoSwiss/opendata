@@ -50,6 +50,14 @@ If your request returns an empty response or you encounter a `403` error, it lik
 
 :::
 
+MeteoSwiss' model data is generally made available on the STAC API shortly after the initial model run. Please note that **KENDA-CH1" analysis data is typically accessible approximately **180** minutes after initialization.
+
+:::note
+
+This time is an estimates and may vary slightly depending on system performance and data processing loads. Moreover, please be aware that forecast time steps within a model run are not always available in strict chronological order. Users should verify timestamps when processing the data sequentially.
+
+:::
+
 ### Models' specifications {#models-specifications}
 
 | **Attributes** | **KENDA-CH1** |
