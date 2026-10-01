@@ -105,7 +105,7 @@ Please note that for the processing of HDF5 files specialised software packages 
 
 :::
 
-The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056). 
+The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056). Use "-a_srs EPSG:2056" for correct projection in GDAL.
 
 
 ## Metadata {#metadata}
