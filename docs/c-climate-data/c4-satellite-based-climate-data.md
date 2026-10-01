@@ -38,7 +38,7 @@ More archive data will be added later in 2026.
 
 Please also check out the illustration below: 
 
-<img width="1280" height="480" alt="Climate Grid Dataflow" src="https://github.com/user-attachments/assets/909b31e2-bc67-4d2c-85cf-77d3a96507cc" />
+<img width="1280" height="480" alt="Climate Grid Dataflow" <img width="1280" height="720" alt="Illustration Update cycle gridded data" src="https://github.com/user-attachments/assets/c548494f-2c91-4e88-92bf-b6603f13d169" />
 
 *Delivery and update cycles of gridded datasets*
 
