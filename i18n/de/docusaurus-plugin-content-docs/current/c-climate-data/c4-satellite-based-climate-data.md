@@ -33,7 +33,7 @@ Weitere Archivdaten werden im Laufe des Jahres 2026 hinzugefügt.
 
 Bitte beachten Sie auch die folgende Abbildung:
 
-<img width="1280" height="480" alt="Climate Grid Dataflow" src="https://github.com/user-attachments/assets/909b31e2-bc67-4d2c-85cf-77d3a96507cc" />
+<img width="1280" height="480" alt="Illustration Update cycle gridded data" src="https://github.com/user-attachments/assets/c548494f-2c91-4e88-92bf-b6603f13d169" />
 
 *Bereitstellungs- und Aktualisierungszyklen von Gitterdatensätzen*
 
