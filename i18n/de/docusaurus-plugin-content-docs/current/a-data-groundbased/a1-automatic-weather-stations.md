@@ -44,7 +44,7 @@ import TabItem from '@theme/TabItem';
 
    Je nach Granularität gibt es Dateien mit der [Aktualisierungsfrequenz](/general/download#update-frequency) `now`, `recent` und `historical`.
 
-    Das Aktualisierungsintervall für Dateien mit 10-Minuten-Werten ist auf 20 Minuten gesetzt. Wenn Sie eine höhere Aktualisierungsfrequenz benötigen, verwenden Sie stattdessen **Eine Datei mit allen Stationen**.
+    Das Aktualisierungsintervall für Dateien mit 10-Minuten-Werten ist auf 10 Minuten gesetzt.
     
     Zeitreihen können vor der Einführung automatischer Messungen im Jahr 1981 beginnen. Vor 1981 wurden mindestens drei Werte pro Tag manuell gemessen. Sie werden als einzelne 10-Minuten-Werte (['synoptic observations'](https://community.wmo.int/en/observation-components-global-observing-system)) gespeichert.
   </TabItem>

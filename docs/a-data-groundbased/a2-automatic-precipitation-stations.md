@@ -44,6 +44,8 @@ import TabItem from '@theme/TabItem';
     We strongly recommend that you download the corresponding aggregated [data granularity](https://opendatadocs.meteoswiss.ch/general/download#data-granularity).
    
     Depending on the granularity there are files with [update frequency](https://opendatadocs.meteoswiss.ch/general/download#update-frequency) `now`, `recent` and `historical`.
+
+    The update interval for files with 10-minute values is set to 10 minutes.
     
     See e.g. files for station `Airolo (AIR)` with all granularities and update frequencies mentioned: [`ogd-smn-precip_air_(data granularity)_(update frequency).csv`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn-precip/items/air?.language=en).
     
