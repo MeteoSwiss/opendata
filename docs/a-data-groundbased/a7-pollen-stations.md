@@ -47,7 +47,7 @@ import TabItem from '@theme/TabItem';
 
     :::
    
-    Depending on the granularity there are files with [update frequency](https://opendatadocs.meteoswiss.ch/general/download#update-frequency) `now`,`recent` and `historical`.
+    Depending on the granularity there are files with [update frequency](https://opendatadocs.meteoswiss.ch/general/download#update-frequency) `now`, `recent` and `historical`.
     
     See e.g. files for station `Lausanne (PLS)` with all granularities and update frequencies mentioned: [`ogd-pollen_pls_(data granularity)_(update frequency).csv`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-pollen/items/pls).
   </TabItem>
