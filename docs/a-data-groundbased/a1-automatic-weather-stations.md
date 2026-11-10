@@ -58,7 +58,7 @@ import TabItem from '@theme/TabItem';
   <TabItem value="one-file-with-all-stations" label="One file with all stations">
     In addition we offer the [main parameters of all stations (in one file) – every 10 minutes, most recent values](https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA80.csv).
 
-    The update interval for this file is around 10 minutes.
+    The update interval for this file is around 10 minutes. For automatic queries, we recommend scheduling the query to run starting at minute xx:x9.
     
     Time in UTC: 00:40 UTC = 02:40 local (CH) summer time, 01:40 winter time
     
