@@ -49,7 +49,7 @@ import TabItem from '@theme/TabItem';
    
     Depending on the granularity there are files with [update frequency](/general/download#update-frequency) `now`, `recent` and `historical`.
 
-    The update interval for files with 10-minute values is set to 10 minutes.
+    The update interval for files with 10-minute values is set to 10 minutes. For automatic queries, we recommend scheduling the query to run starting at minute xx:x9.
     
     <!-- See e.g. files for station `Salen-Reutenen (HAI)` with all granularities and update frequencies mentioned: [`ogd-smn_hai_(data granularity)_(update frequency).csv`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn/items/hai?.language=en) -->
     
