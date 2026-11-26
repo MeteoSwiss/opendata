@@ -42,6 +42,12 @@ We highly recommend to use preconditioning via the `If-Match` or `If-None-Match`
 For more information check [swisstopo's STAC API documentation](https://data.geo.admin.ch/api/stac/static/spec/v1/apitransactional.html#tag/Data/operation/getAssetObject).
 
 
+### How to implement a suitable retry strategy {#how-to-implement-a-suitable-retry-strategy}
+Every request you make has the possibility to fail for a variety of reasons. It is your responsibility to decide what to do when this happens. When encountering transient errors, you will typically want to retry the request. This requires some care to do correctly as incorrect retry strategies may cause many requests to be (re)sent in a short amount of time, which may eventually cause them to be throttled or otherwise permanently dropped. To mitigate this [thundering herd problem](https://en.wikipedia.org/wiki/Thundering_herd_problem), our partner swisstopo recommends you implement retries using a truncated exponential backoff algorithm with jitter.
+
+For how to do this, check [*.geo.admin.ch's documentation](https://docs.geo.admin.ch/get-started/retry.html).
+
+
 ### Examples {#examples}
 
 #### Ground-based measurements {#ground-based-measurements-1}
@@ -54,6 +60,9 @@ This [Jupyter notebook](https://github.com/MeteoSwiss/opendata/blob/main/noteboo
 
 #### Numerical weather forecasting model data {#numerical-weather-forecasting-model-data-1}
 The MeteoSwiss [opendata-nwp-demos](https://github.com/MeteoSwiss/opendata-nwp-demos) repository contains a collection of Jupyter notebooks that demonstrate how to access, download, and visualise data from numerical weather prediction (NWP) ICON-CH1/2-EPS models.
+
+#### Local forecast data 
+The MeteoSwiss [opendata-localforecast-demos](https://github.com/MeteoSwiss/opendata-localforecast-demos) repository contains Jupyter notebooks, which provide hands-on examples for retrieving and visualizing local forecast data.
 
 
 ## How CSV files are structured {#how-csv-files-are-structured}
@@ -88,7 +97,7 @@ This is the overview:
 | Type | Description | Update frequency | Used for |
 | ---- | ----------- | ------------ | -------- |
 | `historical` | From the start of the measurement until December 31st of last year | Once a year | [Granularity](./download#data-granularity) `m`, `d`, `h`, `t` |
-| `recent` | From January 1st of this year until yesterday | Daily at 12UTC | [Granularity](./download#data-granularity) `m`, `d`, `h`, `t` |
+| `recent` | From January 1st of this year until yesterday | Process starts at 10UTC and 1UTC; it lasts around 60min | [Granularity](./download#data-granularity) `m`, `d`, `h`, `t` |
 | `now` | The most recent realtime data from yesterday 12UTC to now | Every 10min | Only [Granularity](./download#data-granularity) `h`, `t` |
 | `no type` | For certain data types this concept does not apply | varies | varies (e.g. [Granularity](./download#data-granularity) `y`) |
 

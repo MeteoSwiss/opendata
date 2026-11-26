@@ -16,6 +16,10 @@ The Open Data from MeteoSwiss may be used without restriction; the **source must
 
 :white_check_mark: By using 'Open Data' from MeteoSchweiz, you confirm that you have taken note of the [Terms of use](/general/terms-of-use).
 
+### Example notebooks: From retrieval to visualization {#example-notebooks-from-retrieval-to-visualization}
+
+To **get started quickly**, explore the [Jupyter notebooks](https://github.com/MeteoSwiss/opendata-localforecast-demos), which provide hands-on examples for retrieving and visualizing local forecast data from MeteoSwiss.
+
 ### Download data automatically
 
 Download **files per meteorological parameter** automatically via FSDI's REST API: [`https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-local-forecasting`](https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-local-forecasting)
@@ -121,7 +125,7 @@ Date/Time is expressed as `YYYYMMDDHHMM` and represents time in UTC.
     
     :::
 
-    [`ogd-local-forcasting_meta_point.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-local-forecasting/ogd-local-forcasting_meta_point.csv) provides a list of all points with their respective id, name, type, altitude and coordinates.
+    [`ogd-local-forecasting_meta_point.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-local-forecasting/ogd-local-forecasting_meta_point.csv) provides a list of all points with their respective id, name, type, altitude and coordinates.
   </TabItem>
 </Tabs>
 

@@ -1,7 +1,9 @@
 ---
 sidebar_position: 1
+title: Precipitation radar products
 ---
 
+<span class="badge badge--primary">Live</span>
 # Precipitation radar products
 
 [Here](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/weather-radar-network.html) you'll find general information about the Swiss weather radar network.
@@ -19,7 +21,9 @@ The **CombiPrecip (CPC) product** combines in real-time the precipitation inform
 
 :::info
 
-The reanalysis version of CombiPrecip is being calculated for the hourly values only (00:00h, 01:00h, 02:00h etc.) and is published 8 days later automatically, where the original hourly files will be overwritten. If you are interested in these reanalysis values, please check out the hourly files 8 days later. You will find in the Metadata the "Updated" timestamp showing, that the file has been updated 8 days later.
+The reanalysis version of CombiPrecip is being calculated for the hourly values only (00:00h, 01:00h, 02:00h etc.) and is published 8 days later automatically, where the original hourly files will be overwritten. If you are interested in these reanalysis values, please check out the hourly files 8 days later. You will find in the Metadata the "Updated" timestamp showing, that the file has been updated 8 days later. For analysis purposes this is the recommended CPC data. The 5min CPC data should only be used for real time applications.
+
+Please note: If the quality flag changes, the file name will also change, and a second file will be produced so that the old hourly CPC file is not overwritten by the CPC analysis file. The only differences between the two files are the quality flag value and the timestamp. 
 
 :::
 
@@ -44,17 +48,18 @@ Please note that the STAC item for the following day has already been created. F
 
 :::
 
+**Archive data** is available on request. **Please contact us via our** [**contact form**](https://www.meteoswiss.admin.ch/about-us/contact/contact-form.html).
 
 ## Data structure {#data-structure}
 The data is split by parameter, calendar date (see STAC 'items' respectively 'features') and time resolution. It is provided via a rolling time window covering the last 14 days.
 
 **The available parameters are:**
 
-| Parameter                              | Time resolution; Update frequency | Filename format                |
+| Parameter                              | Time resolution; Update frequency | File name format                |
 | -------------------------------------- | --------------------------------- | ------------------------------ |
 | PRECIP                                 | 5 minutes                         | `RZCyyjjjHHMM\*.\*01.h5`       |
 | PRECIP-SV                              | 5 minutes                         | `TZCyyjjjHHMM\*.\*01.h5`       |
-| Combiprecip 60-minute total            | 10 minutes                        | `CPCyyjjjHHMM\*_00060.\*01.h5` |
+| Combiprecip 60-minute total            | 5 minutes                         | `CPCyyjjjHHMM\*_00060.\*01.h5` |
 | Combiprecip 60-minute total reanalysis | 60 minutes; 8 days later          | `...\*_00060.\*01.h5`          |
 
 **Naming convention of the files:**
@@ -75,6 +80,12 @@ For **PRECIP-SV**: `TZCyyjjjHHMMKK.XYZ.h5`
 - `KK` = (reserved)
 - `XYZ` = x01 (reserved)
 
+:::info
+
+The `KK` value may change due to the availabilty of radar sites for the composit e.g. if a site is out of order or undergoes maintenance. Detailed information about the available radar sites is included in each HDF5 metadata.
+
+:::
+
 For **CombiPrecip**: `CPCyyjjjHHMMQ_nnnnn.XYZ.h5`
 - `CPC` = product code
 - `yy` = two last digit of the year
@@ -84,31 +95,29 @@ For **CombiPrecip**: `CPCyyjjjHHMMQ_nnnnn.XYZ.h5`
 - `nnnnn` = accumulation time (in minutes)
 - `XYZ` = x01 (reserved)
 
-
 ## Data format {#data-format}
 
 The data is provided in the `ODIM HDF5` standard format, [described here](https://www.eumetnet.eu/wp-content/uploads/2021/07/ODIM_H5_v2.4.pdf) with an estimated volume of less than 1 MB per file.
 
 :::info
 
-Please note, that for the processing of HDF5 files, specialised software packages may be needed. 
+Please note that for the processing of HDF5 files specialised software packages may be needed. 
 
 :::
 
-The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056). 
+The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056). Use "-a_srs EPSG:2056" for correct projection in GDAL.
 
 
 ## Metadata {#metadata}
 
 The metadata is included in each HDF5-File.
 
-| Parameter | Long Name                              | Standard Unit | Temporal Aggregation                   |
-| --------- | -------------------------------------- | ------------- | -------------------------------------- |
+| Parameter | Long Name                              | Standard Unit | Temporal Aggregation                   | Remarks                   |
+| --------- | -------------------------------------- | ------------- | -------------------------------------- | ------------------------- |
 | `CPC`     | Combiprecip 60-minute total            | mm            | Precipitation accumulation over 1 hour |
 | `CPCH`    | Combiprecip 60-minute total reanalysis | mm            | Precipitation accumulation over 1 hour |
-| `RZC`     | PRECIP                                 | mm/h          | Instantaneous rain rate                |
-| `TZC`     | PRECIP-SV                              | mm/h          | Instantaneous rain rate                |
-
+| `RZC`     | PRECIP                                 | mm/h          | Instantaneous rain rate                | Saturation value 118 mm/h |
+| `TZC`     | PRECIP-SV                              | mm/h          | Instantaneous rain rate                | Saturation value 118 mm/h |
 
 
 
