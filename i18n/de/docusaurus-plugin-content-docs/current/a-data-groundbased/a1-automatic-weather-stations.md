@@ -11,7 +11,7 @@ Sie liefern alle 10 Minuten Daten zu Temperatur, Niederschlag, Wind, Sonnenschei
 
 Ergänzt wird das Netz durch rund 100 [automatische Niederschlagsstationen](/a-data-groundbased/a2-automatic-precipitation-stations). Zusammen bilden diese Stationen die Grundlage für die Erstellung zuverlässiger lokaler Wettervorhersagen sowie Unwetter- und Hochwasserwarnungen. Zusätzlich betreibt MeteoSwiss drei [automatische Turmstationen](/a-data-groundbased/a3-automatic-tower-stations) in 150 bis 230 m Höhe für Messungen in der Grenzschicht.
 
-## Daten herunterladen
+## Daten herunterladen {#data-download}
 
 Die 'Open Data' von MeteoSchweiz dürfen uneingeschränkt weiterverwendet werden; bei der Wiedergabe oder Weiterverbreitung der Daten ist **die Quelle anzugeben** ("**Quelle: MeteoSchweiz**").
 
@@ -44,19 +44,19 @@ import TabItem from '@theme/TabItem';
 
    Je nach Granularität gibt es Dateien mit der [Aktualisierungsfrequenz](/general/download#update-frequency) `now`, `recent` und `historical`.
 
-    Das Aktualisierungsintervall für Dateien mit 10-Minuten-Werten ist auf 20 Minuten gesetzt. Wenn Sie eine höhere Aktualisierungsfrequenz benötigen, verwenden Sie stattdessen **Eine Datei mit allen Stationen**.
+   Das Aktualisierungsintervall für Dateien mit 10-Minuten-Werten ist auf 10 Minuten gesetzt.
     
-    Zeitreihen können vor der Einführung automatischer Messungen im Jahr 1981 beginnen. Vor 1981 wurden mindestens drei Werte pro Tag manuell gemessen. Sie werden als einzelne 10-Minuten-Werte (['synoptic observations'](https://community.wmo.int/en/observation-components-global-observing-system)) gespeichert.
+   Zeitreihen können vor der Einführung automatischer Messungen im Jahr 1981 beginnen. Vor 1981 wurden mindestens drei Werte pro Tag manuell gemessen. Sie werden als einzelne 10-Minuten-Werte (['synoptic observations'](https://community.wmo.int/en/observation-components-global-observing-system)) gespeichert.
   </TabItem>
   <TabItem value="eine-datei-mit-allen-stationen" label="Eine Datei mit allen Stationen">
-    In addition we offer the [main parameters of all stations (in one file) – every 10 minutes, most recent values](https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA80.csv).
+Zusätzlich bieten wir die [wichtigsten Parameter aller Stationen (zusammen in einer einzigen Datei) an – alle 10 Minuten, die aktuellsten Werte](https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA80.csv).
 
-    The update interval for this file is around 10 minutes.
+    Das Aktualisierungsintervall für diese Datei beträgt etwa 10 Minuten.
     
-    Time in UTC: 00:40 UTC = 02:40 local (CH) summer time, 01:40 winter time
+    Zeit in UTC: 00:40 UTC = 02:40 lokale (CH) Sommerzeit, 01:40 Winterzeit
     
-    Main parameters are:
-    | Identifier | Description |
+    Die Hauptparameter sind:
+    | Kennung    | Beschreibung |
     |:----------:|:------------|
     | `tre200s0` | Air temperature 2 m above ground; current value | 
     | `rre150z0` | Precipitation; ten minutes total |
@@ -88,3 +88,37 @@ import TabItem from '@theme/TabItem';
     <sup>4</sup> Information about the [automatic tower stations](/a-data-groundbased/a3-automatic-tower-stations) dataset/collection.
   </TabItem>
 </Tabs>
+
+
+## Datenformat
+
+[`CSV`](/general/download#column-separators-and-decimal-dividers) mit einem geschätzten Volumen von ≤5.3 MB je Datei.
+
+## Metadaten
+
+<Tabs queryString="metadata">
+  <TabItem value="parameters" label="Parameter">
+    Alle Parameter haben eine eindeutige Kennung, die von der zeitlichen Auflösung abhängt (z.B. `dkl010z0` für "wind direction; ten-minute average").
+    
+    [`ogd-smn_meta_parameters.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-smn/ogd-smn_meta_parameters.csv) enthält eine Liste aller Parameterkennungen mit Erläuterung, Zeitintervall, Dezimalstellen, Datentyp und Masseinheit.
+  </TabItem>
+  <TabItem value="stations" label="Stationen">
+    Alle Stationen haben ein dreistelliges Kürzel (z.B. `BER` für "Bern/Zollikofen" oder `LUG` für "Lugano").
+    
+    [`ogd-smn_meta_stations.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-smn/ogd-smn_meta_stations.csv) enthält eine Liste aller Stationskennungen mit Name, Kanton, Wigos ID, Stationstyp, Höhe, Koordinaten, Ausrichtung und URL der Stationsdetailseite.
+  </TabItem>
+  <TabItem value="data-inventory" label="Dateninventar">
+    [`ogd-smn_meta_datainventory.csv`](https://data.geo.admin.ch/ch.meteoschweiz.ogd-smn/ogd-smn_meta_datainventory.csv) enthält eine Liste aller Stationen und Parameter mit Start- und Enddatum der Messungen.
+  </TabItem>
+</Tabs>
+
+
+## Datennutzung
+
+Siehe z.B. die [SwissMetNet network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en) von MeteoSchweiz.
+
+:::info
+
+Für **Klimaanalysen (langfristige Entwicklungsprozesse oder Veränderungen)** verwenden Sie die [Homogenen Messreihen der Klimastationen](https://opendatadocs.meteoswiss.ch/de/c-climate-data).
+
+:::

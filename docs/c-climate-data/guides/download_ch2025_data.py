@@ -7,7 +7,7 @@ import re
 import urllib.request
 
 def main(): 
-    catalog = Client.open('https://data.geo.admin.ch.ch/api/stac/v1/')
+    catalog = Client.open('https://data.geo.admin.ch/api/stac/v1/')
     print(catalog.title)
 
     # DAILY-LOCAL collection

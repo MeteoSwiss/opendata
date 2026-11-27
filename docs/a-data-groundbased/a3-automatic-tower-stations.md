@@ -12,6 +12,12 @@ They deliver temperature, wind, sunshine, humidity and radiation <!-- and pressu
 
 ## Data download {#data-download}
 
+<!-- :::warning
+
+16 June 2026 - Since around 03:00 p.m., data from the automatic weather, precipitation and tower stations are temporarily being updated every 60 minutes (instead of every 20 minutes). The duration of the incident is unknown.
+
+::: -->
+
 The Open Data from MeteoSwiss may be used without restriction; the **source must be cited** when reproducing or redistributing ("**Source: MeteoSwiss**").
 
 :white_check_mark: By using 'Open Data' from MeteoSchweiz, you confirm that you have taken note of the [Terms of use](/general/terms-of-use).
@@ -40,6 +46,8 @@ import TabItem from '@theme/TabItem';
     We strongly recommend that you download the corresponding aggregated [data granularity](https://opendatadocs.meteoswiss.ch/general/download#data-granularity).
    
     Depending on the granularity there are files with [update frequency](https://opendatadocs.meteoswiss.ch/general/download#update-frequency) `now`, `recent` and `historical`.
+
+    The update interval for files with 10-minute values is set to 10 minutes. For automatic queries, we recommend scheduling the query to run starting at minute xx:x9
     
     See e.g. files for station `Bantiger (BAN)` with all granularities and update frequencies mentioned: [`ogd-smn-tower_ban_(data granularity)_(update frequency).csv`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn-tower/items/ban?.language=en).
     

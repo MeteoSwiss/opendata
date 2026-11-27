@@ -13,6 +13,12 @@ The network is supplemented by around 100 [automatic precipitation stations](/a-
 
 ## Data download
 
+<!-- :::warning
+
+16 June 2026 - Since around 03:00 p.m., data from the automatic weather, precipitation and tower stations are temporarily being updated every 60 minutes (instead of every 20 minutes). The duration of the incident is unknown.
+
+::: -->
+
 The Open Data from MeteoSwiss may be used without restriction; the **source must be cited** when reproducing or redistributing ("**Source: MeteoSwiss**").
 
 :white_check_mark: By using 'Open Data' from MeteoSchweiz, you confirm that you have taken note of the [Terms of use](/general/terms-of-use).
@@ -43,7 +49,7 @@ import TabItem from '@theme/TabItem';
    
     Depending on the granularity there are files with [update frequency](/general/download#update-frequency) `now`, `recent` and `historical`.
 
-    The update interval for files with 10-minute values is set to 20 minutes. If you require a higher update frequency, use the **One file with all stations** instead.
+    The update interval for files with 10-minute values is set to 10 minutes. For automatic queries, we recommend scheduling the query to run starting at minute xx:x9.
     
     <!-- See e.g. files for station `Salen-Reutenen (HAI)` with all granularities and update frequencies mentioned: [`ogd-smn_hai_(data granularity)_(update frequency).csv`](https://data.geo.admin.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-smn/items/hai?.language=en) -->
     
@@ -52,7 +58,7 @@ import TabItem from '@theme/TabItem';
   <TabItem value="one-file-with-all-stations" label="One file with all stations">
     In addition we offer the [main parameters of all stations (in one file) – every 10 minutes, most recent values](https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA80.csv).
 
-    The update interval for this file is around 10 minutes.
+    The update interval for this file is around 10 minutes. For automatic queries, we recommend scheduling the query to run starting at minute xx:x9.
     
     Time in UTC: 00:40 UTC = 02:40 local (CH) summer time, 01:40 winter time
     
